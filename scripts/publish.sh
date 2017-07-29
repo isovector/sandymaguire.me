@@ -8,20 +8,7 @@ read slug
 echo -n "Blog: "
 read blog
 
-case "$blog" in
-  wcst)
-    loc="we-can-solve-this/posts"
-    ;;
-  poly)
-    loc="reasonably-polymorphic/posts"
-    ;;
-  httw)
-    loc="reasonably-polymorphic/httw"
-    ;;
-  *)
-    return
-    ;;
-esac
+loc="we-can-solve-this/posts"
 
 WIP="wip/${wipslug}.markdown"
 SLUG="${loc}/$(date +'%Y-%m-%d')-${slug}.markdown"

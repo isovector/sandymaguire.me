@@ -3,21 +3,12 @@ wcst:
 	wcst clean
 	wcst watch
 
-poly:
-	stack install
-	poly clean
-	poly watch
-
 test:
 	stack install
-	# rm -r _live/we-can-solve-this || return 0
-	rm -r _live/reasonably-polymorphic || return 0
-	# wcst clean
-	# wcst build
-	# mv _site _live/we-can-solve-this
-	poly clean
-	poly build
-	mv _site _live/reasonably-polymorphic
+	rm -r _live/we-can-solve-this || return 0
+	wcst clean
+	wcst build
+	mv _site _live/we-can-solve-this
 
 deploy:
 	@./scripts/deploy.sh
