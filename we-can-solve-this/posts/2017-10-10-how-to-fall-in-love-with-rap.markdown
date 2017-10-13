@@ -58,6 +58,7 @@ tracks you like and those that more heavily feature your favored aspect.
 
 ## Outrageous
 
+* Azealia Banks - 212
 * Danny Brown - I Will
 * DzK - Highschool Girls
 * Hopsin - I'm Not Introducing You
@@ -74,25 +75,28 @@ tracks you like and those that more heavily feature your favored aspect.
 
 * Atmosphere - GodLovesUgly
 * Atmosphere - My Notes
+* Buck 65 - Blood of a Young Wolf
 * Eddie Caine - Aqua 8s and Heartaches
 * Jay Electronica - The Pledge
 * Lil Dicky - Russel Westbrook on a Farm
+* Nujabes - Luv(sic) Parts 1-6
 * Shad - Telephone
-* Buck 65 - Blood of a Young Wolf
 
 
 ## Feels
 
 * B.o.B - Generation Lost
+* Buck 65 - Mr. Nobody
 * DJ Honda - Trouble in the Water
+* Eminem - Lose Yourself
 * Hopsin - Heather Nicole
 * J. Cole - Lost Ones
 * JAY-Z - Song Cry
 * Kendrick Lamar - Keisha's Song
+* N.E.R.D. - Provider
 * Sam Lachow - Play Pretend
 * Shad - Out of Love
 * Tech N9ne - Fragile
-* Buck 65 - Mr. Nobody
 
 
 ## Technically Impressive
@@ -101,11 +105,17 @@ tracks you like and those that more heavily feature your favored aspect.
 * Big Sean - Control
 * Busta Rhymes - Break Ya Neck
 * Eminem - Rabbit Run
-
 * Eminem - Wicked Ways
 * Isaiah Rashad - Soliloquy
 * J. Cole - Fire Squad
+
+
+## Clever AF
+
+* Aesop Rock - Daylight / Night Light
+* Epik High - Follow the Flow
 * Jean Grae - Kill Screen
+* Shad - Telephone
 
 
 ## Heavy
@@ -113,14 +123,20 @@ tracks you like and those that more heavily feature your favored aspect.
 * Danny Brown - 30
 * Earl Sweatshirt - Inside
 * Jean Grae - My Story
-* Sam Lachow - 80 Bars Part 6
+* Johnny Polygon - Lovesick (Super Nintendo)
 * Lupe Fiasco - Intruder Alert
+* Sam Lachow - 80 Bars Part 6
+* Sam Lachow - Wrong Man
+* Tyler, the Creator - Yonkers
 
 
 
 ## Fun
 
+* Atmosphere - Besos
 * Danny Brown - XXX
+* Del tha Funky Homosapien - If You Must
+* Eminem - Just Lose It
 * Joey Bada\$\$ - Big Dusty
 * Kanye West - G.O.O.D. Friday
 * Lil Wayne - A Milli
@@ -128,13 +144,20 @@ tracks you like and those that more heavily feature your favored aspect.
 * Outkast - Roses
 * Riff Raff - Orion's Belt
 * STS - Doin' It Right
+* STS - WWW
+* Shad - Real Game
 * Shad - The Old Prince Still Lives at Home
+* Trinidad James - All Gold Everything
+* Yung Humma - Lemme Smang It
 
 
 ## Beats
 
+* Ash Roth - Pabst and Jazz
 * Beastie Boys - Brass Monkey
+* Busta Rhymes - You Ain't Fuckin' Wit Me
 * Danny Brown - Float On
+* Eminem - Rhyme or Reason
 * Ghostface Killah - Sour Soul
 * Gift of Gab - The Writz
 * Jay Electronica - Exhibition C
@@ -150,10 +173,14 @@ tracks you like and those that more heavily feature your favored aspect.
 
 ## Storytelling
 
+* Biz Markie - Just a Friend
 * Buck 65 - Riverbed Parts 1 2 3 4 5 6 7
+* Childish Gambino - That Power
 * Earl Sweatshirt - Chum
+* Eminem - Like Toy Soldiers
+* Eminem - Stan
 * Immortal Technique - Dance with the Devil
-* Jean Grae - Don't
+* Jean Grae - Don't Rush Me
 * Joell Ortiz - Call Me
 * Notorious B.I.G. - Niggas Bleed
 * Snoop Dogg - Snoopfella
@@ -161,33 +188,63 @@ tracks you like and those that more heavily feature your favored aspect.
 * Viktor Vaughn - Let Me Watch
 
 
-## Acoustic
+## Genre Bending
 
-* The Uncluded - Delicate Cycle
-* Buck 65 - Talking Fishing Blues
 * Buck 65 - Paper Airplane
+* Buck 65 - Talking Fishing Blues
+* Phish - Gettin' Jiggy Wit It
+* Snoop Dogg - My Medicine
+* The Uncluded - Delicate Cycle
 * WHY? - Sod in the Seed
+
+
+
+## Women
+
+* Ana Tijoux - 1977
+* Azealia Banks - 212
+* Gifted Gab - Problems
+* Jean Grae - Ahead of the Game
+* Jean Grae - Don't Rush Me
+* Jean Grae - Kill Screen
+* Jean Grae - My Story
+* Jean Grae - Nah'mean Nah'm Sayin
+* Lucy Camp - Be You
+* Lucy Camp - Can I Forget You?
+* Lucy Camp - Down Talk
+* Lucy Camp - Grey
+* Queen Latifah - U.N.I.T.Y.
+* Riff Raff (feat. Kitty Pryde) - Orion's Belt
+
+
+## Non-English
+
+* Ana Tijoux - 1977
+* Daddy Gasolina - Somos de Calle Remix
+* Epik High - Fly
+* Keny Arkana - La Rage
+* TBNY - Hey DJ
+
+
+## Gangster
+
+* Birdman - Always Strapped
+* DMX - X Gon' Give It to Ya
+* Geto Boys - Damn It Feels Good to Be a Gangsta
+* House of Pain - I'm A Swing It
+* Ice Cube - Go To Church
+* Kendrick Lamar - Money Trees
+* Scarface - No Tears
 
 ## Heavy Flow
 
-
-## Golden Age Hip Hop
-
-The late 80s and early-to-mid 90s are known as the golden age of hip hop. It's
-probable that if you only know a few rappers, the ones you know will be from
-this era. Unfortunately, this era is where most of our hip hop stereotypes about
-gang violence, misogyny and other things come from. That's not to say those
-things don't exist in modern hip hop, but they're not nearly as pervasive as
-they were during the golden age.
-
-Golden era hip hop can be identified by its simple rhyme schemes, focus on
-smooth, laid-back flow, and repetitive beats. It's easy to listen to, and
-generally makes for a quick party playlist if you need to slap something
-together in a hurry.
+* Cunninlynguists - Love Ain't
+* Eminem - Rap God
+* Kirk Knight - Good Knight
+* Tech N9ne - So Dope
 
 Some tracks:
 
-* Biz Markie - Just a Friend
 * De La Soul - Buddy
 * Eric B. & Rakim - I Know You Got Soul
 * Notorious B.I.G. - Hypnotize
@@ -198,83 +255,74 @@ Some tracks:
 * Wu-Tang Clan - C.R.E.A.M.
 
 
-* Geto Boys - Damn It Feels Good to Be a Gangsta
-* Scarface - No Tears
-* Ice Cube - Go To Church
-* Kendrick Lamar - Kush & Corinthians
 * Dr. Dre - Still D.R.E.
+* Kendrick Lamar - Kush & Corinthians
 
 
-* Mick Jenkins - Communicate
+* A\$AP Rock - Suddenly
 * Aesop Rock - None Shall Pass
 * Atmosphere - Smart Went Crazy
 * Atmosphere - The Best Day
 * Atmosphere - Your Name Here
+* B.o.B - I'll Be in the Sky
+* Big Pun - Punish Me
+* Big Sean - 100 Keys
+* Big Sean - Don't Tell Me You Love Me
+* Big Sean - I Do It
+* Buck 65 - Tired Out
+* Busta Rhymes - Match the Name with the Voice
+* Craig Mac - Flava in Ya Ear
+* Cypress Hill - Insane in the Brain
 * D-WHY - Shooter McGavin
 * DMX - Ain't No Sunshine
+* DMX - Party Up
 * Daddy Yankee - Gasolina
+* DangerDOOM - Space Hos
+* Danny Brown - Adderall Admiral
+* De La Soul - All Good
 * De La Soul - Ego Trippin' Part 2
 * De La Soul - Rock Co.Kane Flow
-* Eminem - Lose Yourself
-* Eminem - Stan
+* De La Soul - Stakes is High
+* Denzel Curry - Zenith
+* Earl Sweatshirt - Off Top
+* GZA - Liquid Swords
+* House of Pain - Jump Around
+* Inspired Flight - It's the Chemicals
+* Intuition & Equalibrium - Ain't the Blues
 * J. Cole - Can't Get Enough
 * Jaydiohead - No Karma
-* Jean Grae - Ahead of the Game
-* Jean Grae - Don't Rush Me
+* Joell Ortiz - Good Man Is Gone
+* Joell Ortiz - So Hard
+* Joey Bada\$\$ - Sorry Bonita
 * Joey Bada\$\$ - TEMPTATION
-* Kendrick Lamar - Money Trees
+* Kendrick Lamar - Members Only
 * Kendrick Lamar - The Blacker the Berry
-* Lil Dicky - \$ave Dat Money
-* Lil Jon & The East Side Boyz - Get Low
-* Notorious B.I.G. - Come On
-* Notorious B.I.G. - Juicy
-* Talib Kweli - Uh Oh
-* Tyler, the Creator - Yonkers
-
-
-* De La Soul - Stakes is High
-
-* Talib Kweli - Deliver Us Part 1
-
-
-* Queen Latifah - U.N.I.T.Y.
-* Cunninlynguists - Love Ain't
-
-
-* Mac Dre - Feelin' Myself
-*
-
-* B.o.B - I'll Be in the Sky
 * Kid Cudi - Erase Me
 * Kid Cudi - Up Up & Away
-* Craig Mac - Flava in Ya Ear
-
-* Buck 65 - Tired Out
-* Cypress Hill - Insane in the Brain
-* Birdman - Always Strapped
+* Lil Dicky - \$ave Dat Money
+* Lil Jon & The East Side Boyz - Get Low
 * Lil Wayne - Stuntin' Like My Daddy
-
-* Aesop Rock - Daylight / Night Light
-* Joey Bada\$\$ - Sorry Bonita
-* Big Pun - Punish Me
-* DMX - X Gon' Give It to Ya
-* DMX - Party Up
-* House of Pain - Jump Around
-* House of Pain - I'm A Swing It
-* Gifted Gab - Problems
-* Kendrick Lamar - Members Only
-* Lucy Camp - Be You
+* Mac Dre - Feelin' Myself
+* Madvillian - All Caps
+* Masta Ace - Nineteen Seventy Something
+* Mick Jenkins - Communicate
+* Mos Def - Ms. Fat Booty
 * Murs - Murs Day
 * NehruvianDOOM - Om
+* Notorious B.I.G. - Come On
+* Notorious B.I.G. - Juicy
 * Olu - I'm Ballin
-* Joell Ortiz - So Hard
-* Joell Ortiz - Good Man Is Gone
 * People Under the Stairs - Acid Raindrops
+* Reflection Eternal - 2000 Seasons
 * Snoop Dogg - Down 4 My N's
-* Xzibit - Paparazzi
-* Xzibit - The Foundation
-* Earl Sweatshirt - Off Top
-* Thesis Sahib - Sin and Secrecy
 * TM Juke - Get It Together
+* Talib Kweli - Deliver Us Part 1
+* Talib Kweli - Uh Oh
+* Talib Kweli - Wack Niggaz
+* The Nextmen - Against the Madness
+* Thesis Sahib - Sin and Secrecy
 * Tonedef - Case Closed
 * Viktor Vaughn - Lickupon
+* Wu-Tang Clan - Sound the Horns
+* Xzibit - Paparazzi
+* Xzibit - The Foundation
