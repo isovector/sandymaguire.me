@@ -54,6 +54,123 @@ tracks you like and those that more heavily feature your favored aspect.
 * Will Smith - Gettin' Jiggy Wit It
 
 
+## A Brief History of Rap Music
+
+## Outrageous
+
+* Danny Brown - I Will
+* DzK - Highschool Girls
+* Hopsin - I'm Not Introducing You
+* Ludacris - Move Bitch
+* Obie Trice - Got Some Teeth
+* Pastor Troy - Throw It Up
+* TRPL BLK - Balls Deep
+* Tone Loc - Funky Cold Medina
+* Tonedef - Disappointed
+* Tyler, the Creator - Steak Sauce
+
+
+## Poetic
+
+* Atmosphere - GodLovesUgly
+* Atmosphere - My Notes
+* Eddie Caine - Aqua 8s and Heartaches
+* Jay Electronica - The Pledge
+* Lil Dicky - Russel Westbrook on a Farm
+* Shad - Telephone
+* Buck 65 - Blood of a Young Wolf
+
+
+## Feels
+
+* B.o.B - Generation Lost
+* DJ Honda - Trouble in the Water
+* Hopsin - Heather Nicole
+* J. Cole - Lost Ones
+* JAY-Z - Song Cry
+* Kendrick Lamar - Keisha's Song
+* Sam Lachow - Play Pretend
+* Shad - Out of Love
+* Tech N9ne - Fragile
+* Buck 65 - Mr. Nobody
+
+
+## Technically Impressive
+
+* A\$AP Rocky - 1Train
+* Big Sean - Control
+* Busta Rhymes - Break Ya Neck
+* Eminem - Rabbit Run
+
+* Eminem - Wicked Ways
+* Isaiah Rashad - Soliloquy
+* J. Cole - Fire Squad
+* Jean Grae - Kill Screen
+
+
+## Heavy
+
+* Danny Brown - 30
+* Earl Sweatshirt - Inside
+* Jean Grae - My Story
+* Sam Lachow - 80 Bars Part 6
+* Lupe Fiasco - Intruder Alert
+
+
+
+## Fun
+
+* Danny Brown - XXX
+* Joey Bada\$\$ - Big Dusty
+* Kanye West - G.O.O.D. Friday
+* Lil Wayne - A Milli
+* Lupe Fiasco - Gotta Eat
+* Outkast - Roses
+* Riff Raff - Orion's Belt
+* STS - Doin' It Right
+* Shad - The Old Prince Still Lives at Home
+
+
+## Beats
+
+* Beastie Boys - Brass Monkey
+* Danny Brown - Float On
+* Ghostface Killah - Sour Soul
+* Gift of Gab - The Writz
+* Jay Electronica - Exhibition C
+* Jean Grae - Nah'mean Nah'm Sayin
+* Kid Cudi - Make Her Say
+* Lil Wayne - 6 Foot 7 Foot
+* Lupe Fiasco - The Cool
+* Scarface - My Block
+* Viktor Vaughn - Ode to Road Rage
+* Wiz Khalifa - Black and Yellow
+* Your Old Droog - 48th Streep
+
+
+## Storytelling
+
+* Buck 65 - Riverbed Parts 1 2 3 4 5 6 7
+* Earl Sweatshirt - Chum
+* Immortal Technique - Dance with the Devil
+* Jean Grae - Don't
+* Joell Ortiz - Call Me
+* Notorious B.I.G. - Niggas Bleed
+* Snoop Dogg - Snoopfella
+* Tyler, the Creator - Colossus
+* Viktor Vaughn - Let Me Watch
+
+
+## Acoustic
+
+* The Uncluded - Delicate Cycle
+* Buck 65 - Talking Fishing Blues
+* Buck 65 - Paper Airplane
+* WHY? - Sod in the Seed
+
+## Heavy Flow
+
+
 ## Golden Age Hip Hop
 
 The late 80s and early-to-mid 90s are known as the golden age of hip hop. It's
@@ -81,8 +198,6 @@ Some tracks:
 * Wu-Tang Clan - C.R.E.A.M.
 
 
-## West Coast Hip Hop
-
 * Geto Boys - Damn It Feels Good to Be a Gangsta
 * Scarface - No Tears
 * Ice Cube - Go To Church
@@ -95,21 +210,17 @@ Some tracks:
 * Atmosphere - Smart Went Crazy
 * Atmosphere - The Best Day
 * Atmosphere - Your Name Here
-* Busta Rhymes - Break Ya Neck
 * D-WHY - Shooter McGavin
 * DMX - Ain't No Sunshine
 * Daddy Yankee - Gasolina
 * De La Soul - Ego Trippin' Part 2
-* Ghostface Killah - Sour Soul
 * De La Soul - Rock Co.Kane Flow
 * Eminem - Lose Yourself
 * Eminem - Stan
-* Gift of Gab - The Writz
 * J. Cole - Can't Get Enough
 * Jaydiohead - No Karma
 * Jean Grae - Ahead of the Game
 * Jean Grae - Don't Rush Me
-* Joey Bada\$\$ - Big Dusty
 * Joey Bada\$\$ - TEMPTATION
 * Kendrick Lamar - Money Trees
 * Kendrick Lamar - The Blacker the Berry
@@ -117,56 +228,53 @@ Some tracks:
 * Lil Jon & The East Side Boyz - Get Low
 * Notorious B.I.G. - Come On
 * Notorious B.I.G. - Juicy
-* Outkast - Roses
-* Scarface - My Block
 * Talib Kweli - Uh Oh
-* Tyler, the Creator - Colossus
 * Tyler, the Creator - Yonkers
 
-* Atmosphere - My Notes
-* B.o.B - Generation Lost
-* DJ Honda - Trouble in the Water
-* Earl Sweatshirt - Chum
-* Eddie Caine - Aqua 8s and Heartaches
-* Hopsin - Heather Nicole
-* J. Cole - Lost Ones
-* JAY-Z - Song Cry
-* Jay Electronica - The Pledge
-* Kendrick Lamar - Keisha's Song
-* Lil Dicky - Russel Westbrook on a Farm
-* Shad - Telephone
-* Tech N9ne - Fragile
-
-* Hopsin - I'm Not Introducing You
-* Ludacris - Move Bitch
-* Danny Brown - I Will
 
 * De La Soul - Stakes is High
-* Shad - Out of Love
-* Shad - The Old Prince Still Lives at Home
 
+* Talib Kweli - Deliver Us Part 1
 
 
 * Queen Latifah - U.N.I.T.Y.
 * Cunninlynguists - Love Ain't
 
 
-* A\$AP Rocky - 1Train
-* Big Sean - Control
-* Isaiah Rashad - Soliloquy
-* J. Cole - Fire Squad
-* Jean Grae - Kill Screen
-* Eminem - Rabbit Run
-* Eminem - Wicked Ways
+* Mac Dre - Feelin' Myself
+*
 
-* Danny Brown - Float On
+* B.o.B - I'll Be in the Sky
+* Kid Cudi - Erase Me
+* Kid Cudi - Up Up & Away
+* Craig Mac - Flava in Ya Ear
 
-* Immortal Technique - Dance with the Devil
+* Buck 65 - Tired Out
+* Cypress Hill - Insane in the Brain
+* Birdman - Always Strapped
+* Lil Wayne - Stuntin' Like My Daddy
 
-* Danny Brown - XXX
-* Atmosphere - GodLovesUgly
-* Earl Sweatshirt - Inside
-* Danny Brown - 30
-
-
-Sam Lachow
+* Aesop Rock - Daylight / Night Light
+* Joey Bada\$\$ - Sorry Bonita
+* Big Pun - Punish Me
+* DMX - X Gon' Give It to Ya
+* DMX - Party Up
+* House of Pain - Jump Around
+* House of Pain - I'm A Swing It
+* Gifted Gab - Problems
+* Kendrick Lamar - Members Only
+* Lucy Camp - Be You
+* Murs - Murs Day
+* NehruvianDOOM - Om
+* Olu - I'm Ballin
+* Joell Ortiz - So Hard
+* Joell Ortiz - Good Man Is Gone
+* People Under the Stairs - Acid Raindrops
+* Snoop Dogg - Down 4 My N's
+* Xzibit - Paparazzi
+* Xzibit - The Foundation
+* Earl Sweatshirt - Off Top
+* Thesis Sahib - Sin and Secrecy
+* TM Juke - Get It Together
+* Tonedef - Case Closed
+* Viktor Vaughn - Lickupon
