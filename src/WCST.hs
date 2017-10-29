@@ -38,6 +38,7 @@ main = do
             clipBooks = sortAndGroup bookName clippings
             postCtxTags = postCtxWithTags tags
 
+        staticRules wcst
         templateRules wcst
         imageRules    wcst
         jsRules       wcst
