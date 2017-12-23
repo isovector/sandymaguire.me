@@ -1,0 +1,127 @@
+---
+layout: post
+title: "2017 In Review"
+date: 2017-10-10 22:38
+comments: true
+tags:
+---
+
+## 2017 In Review
+
+2017 kicked itself off with a hangover and a heartache. My girlfriend and I had
+broken up four hours earlier -- a fact which probably contributed to the
+hangover. Somehow during the evening I had accumulated a new office chair, and
+massive (1392 page) copy of "Molecular Biology of The Cell." I kept the chair,
+but tossed the book.
+
+While dating, I had neglected my friends more than I should have, and so now
+that I was once again single, my compa&ntilde;eros and I reacquainted.
+Unfortunately, combined with the heartbreak, this manifest itself as lots of
+"want to grab a beer?" and subsequent high-functioning alcoholism.
+
+The woman and I got back together unofficially a few months later. The
+relationship, without any labels or implicit expectations, worked
+*significantly* better than it ever had before. So well, in fact, that I now
+consider it to have been my best relationship ever.
+
+My goal for 2017 was to leave San Francisco: a city I didn't love and in which I
+wasn't happy. I didn't know where I was going, but I knew I needed to get out
+sooner than later. With a characteristic lack of foresight and planning, I
+decided to move to Denver in May, despite knowing nothing about it or anyone in
+it. In retrospect it wasn't a fantastic move, but neither was it necessarily a
+bad one.
+
+Denver, as it happens, is a city full of people who are excited about smoking
+weed and hiking mountains. Despite my hairstyle, I'm not a fan of either
+activity, which has lead to its fair share of difficulties in integrating. It's
+by no means insurmountable, but it also cannot be denied that cities have their
+own culture in aggregate.
+
+I gave [two public talks in 2017][talks]: one at BayHac and one at LambdaConf.
+In my opinion, they're both fantastic and you should go watch them.
+
+[talks]: http://reasonablypolymorphic.com/talks
+
+Having moved to Denver, I quickly made some very good friends, and life
+proceeded without notable incident (note to self: ensure this doesn't happen in
+2018!) until July when I decided to get off my butt and start doing productive
+things. I started a "[Math Paper Review Club][papers]" where I'd read academic
+papers and understand them well enough to be able to write a review of each.
+Nobody joined my club, but I think it was a worthwhile endeavor on its own.
+
+[papers]: http://reasonablypolymorphic.com/tags/review.html
+
+In August I decided that I needed to take up some social hobbies.  I joined an
+improv class -- something I'd tried in San Francisco, but hadn't jived with --
+and absolutely loved it. It made me funnier, quicker thinking, and I found
+myself having more interesting conversations in everyday life after a few
+classes. I'd strongly recommend it to everyone looking for a challenge.
+
+In October, feeling good about improv, I decided to branch out into more social
+activities. I started taking swing dancing classes, and (very temporarily)
+joined the choir of a woman I met dancing. The swing persists, but I joined the
+choir very late, and the stakes were higher than I was comfortable with. I
+expect to join one in 2018 though.
+
+For completeness' sake, if significantly less stellar: during October I was also
+falsely accused of having raped a woman. The accuser was not the alleged victim,
+but someone who had never met her or anyone she knows. I feel silly defending
+myself here, but given the political climate we live in, I'd to stress that the
+woman in question is a good friend, and that we laugh about the purported
+incident often. That being said, the accusations weighed heavily on my mind for
+a few weeks.
+
+On to happier things. In November I decided to take a step down the
+technological ladder, and [I got rid of my smartphone][dumbphone]. It was a good
+decision.
+
+[dumbphone]: http://sandymaguire.me/blog/reflections-on-a-dumb-phone
+
+In December, I took a month off of work to backpack across Thailand. The stories
+and insights from the trip are too numerous to recount here, but I intend to
+dedicate a post entirely to them in the upcoming days. Stay tuned.
+
+
+## Retrospective
+
+I had a few goals for 2017. The first, as mentioned, was to escape San
+Francisco. Accomplished; no problem.
+
+The second was to consistently budget throughout the year. After having been
+appalled at how much money I spent in 2016, I decided to keep track on a
+day-to-day basis of where my money was actually going. I did it for about three
+months, and *just by the act of observing my spending habits,* I managed to save
+on average \$500/mo.
+
+In April. however, I fell victim to a stupid bias. I missed a few days worth of
+budgeting, and thought to myself "there's no point in doing more, since I don't
+remember the numbers and without it the totals will be inaccurate." This is
+clearly a fallacy, since the value in budgeting is not in the accounting, but in
+the mindfulness of "is this really worth spending money on?"
+
+This bias probably cost me around \$4500, which is not cheap, but certainly
+low-hanging fruit to improve in 2018.
+
+As a silly project, I decided to take a photo of myself every day. I missed a
+few days, but somehow *didn't* fall into the same trap as I did with budgeting.
+Brains: go figure them out. Unfortunately, this project died when I got rid of
+my smart phone, but I now have a digi-cam and once again have the technological
+means to continue.
+
+
+## Analytics
+
+Time for some meaningless numbers. In 2017:
+
+I published roughly 26,000 words, and committed 1500 atomic changes to
+programming projects I care about (600 if you exclude things I did for work.) I
+put together (and subsequently gave) [four talks][talks].
+
+Before taxes, I made roughly \$142,500 this year, but unfortunately don't have
+an easy means of estimating how much I spent. About half of it went to the
+US government, and another \$21,640 went towards rent. All in all, I'd estimate
+about \$30,000 in net profits made its way into my bank account.
+
+I went on dates with five people, had three sex partners, and kissed roughly ten
+different people. Fewer people saw me naked than in 2014.
+
