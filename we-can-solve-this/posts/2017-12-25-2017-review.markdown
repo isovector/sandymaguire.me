@@ -6,7 +6,7 @@ comments: true
 tags: life, analytics, stories, review
 ---
 
-## 2017 In Review
+## Narrative
 
 2017 kicked itself off with a hangover and a heartache. My girlfriend and I had
 broken up four hours earlier -- a fact which probably contributed to the
