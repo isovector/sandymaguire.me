@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "2017 In Review"
-date: 2017-10-10 22:38
+date: 2017-12-25 17:53
 comments: true
-tags:
+tags: life, analytics, stories, review
 ---
 
 ## 2017 In Review
@@ -24,12 +24,12 @@ relationship, without any labels or implicit expectations, worked
 *significantly* better than it ever had before. So well, in fact, that I now
 consider it to have been my best relationship ever.
 
-My goal for 2017 was to leave San Francisco: a city I didn't love and in which I
-wasn't happy. I didn't know where I was going, but I knew I needed to get out
-sooner than later. With a characteristic lack of foresight and planning, I
-decided to move to Denver in May, despite knowing nothing about it or anyone in
-it. In retrospect it wasn't a fantastic move, but neither was it necessarily a
-bad one.
+My big goal for 2017 was to leave San Francisco: a city I didn't love and in
+which I wasn't happy. I didn't know where I was going, but I knew I needed to
+get out sooner than later. With a characteristic lack of foresight and planning,
+I decided to move to Denver in May, despite knowing nothing about it or anyone
+in it. In retrospect it wasn't a fantastic move, but neither was it necessarily
+a bad one.
 
 Denver, as it happens, is a city full of people who are excited about smoking
 weed and hiking mountains. Despite my hairstyle, I'm not a fan of either
@@ -37,8 +37,9 @@ activity, which has lead to its fair share of difficulties in integrating. It's
 by no means insurmountable, but it also cannot be denied that cities have their
 own culture in aggregate.
 
-I gave [two public talks in 2017][talks]: one at BayHac and one at LambdaConf.
-In my opinion, they're both fantastic and you should go watch them.
+Immediately upon arriving in Denver, I gave [two public talks in 2017][talks]:
+one at BayHac and one at LambdaConf.  In my opinion, they're both fantastic and
+you should go watch them.
 
 [talks]: http://reasonablypolymorphic.com/talks
 
@@ -72,14 +73,17 @@ incident often. That being said, the accusations weighed heavily on my mind for
 a few weeks.
 
 On to happier things. In November I decided to take a step down the
-technological ladder, and [I got rid of my smartphone][dumbphone]. It was a good
-decision.
+technological ladder of progress, and [I got rid of my smartphone][dumbphone].
+It was a good decision. I also attempted a novel for [NaNoWriMo][nano], but gave
+up on it after about ten days.
 
 [dumbphone]: http://sandymaguire.me/blog/reflections-on-a-dumb-phone
+[nano]: /blog/nanowrimo
 
 In December, I took a month off of work to backpack across Thailand. The stories
 and insights from the trip are too numerous to recount here, but I intend to
-dedicate a post entirely to them in the upcoming days. Stay tuned.
+dedicate a post entirely to them in the upcoming days. Stay tuned and watch this
+space.
 
 
 ## Retrospective
@@ -93,7 +97,7 @@ day-to-day basis of where my money was actually going. I did it for about three
 months, and *just by the act of observing my spending habits,* I managed to save
 on average \$500/mo.
 
-In April. however, I fell victim to a stupid bias. I missed a few days worth of
+In April, however, I fell victim to a stupid bias. I missed a few days worth of
 budgeting, and thought to myself "there's no point in doing more, since I don't
 remember the numbers and without it the totals will be inaccurate." This is
 clearly a fallacy, since the value in budgeting is not in the accounting, but in
@@ -124,4 +128,73 @@ about \$30,000 in net profits made its way into my bank account.
 
 I went on dates with five people, had three sex partners, and kissed roughly ten
 different people. Fewer people saw me naked than in 2014.
+
+In 2017, I took 20 legs of flights, totally a whopping 58,000km distance
+traveled. For comparison, that's 1.43x of the way around the *entire planet*.
+
+
+## Recommendations
+
+### Books
+
+I read 14 books in 2017, which wasn't enough, but is also nothing to shake a
+stick at. The best ones I read were:
+
+**Richard Rhodes - Making of the Atomic Bomb**: Not just the best book I read in
+2017, but perhaps *ever*. It's a book told in three parts: tableaux of
+scientific discoveries throughout time which culminated in atomic physics; the
+engineering and politics behind actually getting the thing built; and the
+eventual dropping and aftermath of the bomb. Stop reading this blog post and go
+pick up this book instead.
+
+**Eliezer Yudkowsky - Inadequate Equilibria**: This book, in true Yudkowskian
+fashion, makes up for its lackluster writing by being *interesting as fuck*.
+It's chocked full of cognitive tools for analyzing why the world is so shitty,
+and niches in which we might be able to improve the status quo. The second half
+is about "don't be so damn modest", and it's advice I (and, I suspect, many
+of my peers) desperately needed.
+
+**Charles Bukowski - Women**: I accidentally fell into a bit of a Bukowski hole
+this year. Women stands out as his best work that I've read, but it's not for
+the faint of heart. The book is mainly about an old, disgusting man's torrid
+love affairs with women half his age, but for some reason it's one hell of a
+page-turner. It's a fascinating look inside the head of one fucked-up dude, and
+if you can compartmentalize the narrative from how you feel in real life, you'll
+probably be into it.
+
+
+### Music
+
+Lots of dope music dropped in 2017. Here's some of my favorites, roughly in
+order of how strongly I'd recommend them:
+
+* [Sam Lachow - Play / Pretend](https://www.youtube.com/watch?v=Pgrv-oFKxZM)
+* [Joey Bada\$\$ - All-Amerikkkan Bada\$\$](https://www.youtube.com/watch?v=kYgarGQnfJ4)
+* [Everyone is Dirty - My Neon's Dead](https://everyoneisdirty.bandcamp.com/album/my-neons-dead)
+* [Joyner Lucas - 508-507-2209](https://www.youtube.com/watch?v=umlPMeeWqbY)
+
+And here's some older music that was nevertheless on ridiculously high rotation
+this year:
+
+* [Isaiah Rashad - Cilvia Demo](https://www.youtube.com/watch?v=yCsAbEI9Ma8)
+* [The Sheepdogs - Future Nostalgia](https://open.spotify.com/album/1mKLbJlOuf9VXXcsfFnHFG)
+
+
+### Movies
+
+[Fuck movies.][fuck]
+
+[fuck]: https://www.youtube.com/watch?v=CtC9gJS3YoM
+
+
+
+## Conclusion
+
+Subjectively, 2017 felt a lot like "being on hold" -- waiting ineffectively for
+something different to happen. Of course, life doesn't work that way; if you
+want something to change, you need to *make it change*.
+
+I guess that means I've broken my streak of having subsequently better years.
+That's something to be mindful of as I go through 2018, because I'd really like
+to ONLY BE GOING UP. That'd be dope. Next year.
 
