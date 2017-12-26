@@ -5,8 +5,6 @@ echo -n "Post slug: "
 read wipslug
 echo -n "New slug: "
 read slug
-echo -n "Blog: "
-read blog
 
 loc="we-can-solve-this/posts"
 
