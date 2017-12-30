@@ -6,8 +6,6 @@ comments: true
 tags: feels, travel, effectiveness
 ---
 
-## I
-
 If you're not the poetic type, you might describe the road to Pai as "winding."
 However, those of us who delight in the taste and the sound of words would more
 readily describe the road to Pai as "winding *as fuck*."
@@ -60,7 +58,7 @@ if we weren't so hopped up on adrenaline that we could do anything more
 complicated than navigate the endless luggage in the van's corridors.
 
 
-## II
+---
 
 The mind has a remarkable aptitude for narratives. Everywhere we look we find
 ourselves *looking for meaning*, and more often than not, this meaning comes in
@@ -92,7 +90,7 @@ later, and can point to as a deciding moment in your life. Things would have
 gone rather differently had you not been there and done that.
 
 
-## III
+---
 
 The reason I bring this up is that in retrospect, I went to Pai for a reason. I
 went to Pai because it was where I was supposed to be in order to do the thing I
@@ -133,6 +131,11 @@ powerful instead because she showed me a glimpse of the man I want to be, and,
 more importantly, the fire I need in my soul to make it happen. Her hunger for
 more reawakened mine, and for that, I'll be eternally grateful.
 
+Expect a post early next year detailing the exact plan for how this is all going
+to cash out. I've got some uncomfortably exciting things in the pipeline.
+
+---
+
 I'll leave you with a quote that I like:
 
 > I never liked jazz music because jazz music doesn't resolve. But I was outside
@@ -144,5 +147,5 @@ I'll leave you with a quote that I like:
 > Sometimes you have to watch somebody love something before you can love it
 > yourself. It is as if they are showing you the way.
 >
-> - Donald Miller
+> -Donald Miller
 
