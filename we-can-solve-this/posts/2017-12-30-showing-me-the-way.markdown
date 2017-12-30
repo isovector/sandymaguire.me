@@ -1,9 +1,9 @@
 ---
 layout: post
-title: pai
-date: TO_BE_DETERMINED
+title: Showing Me The Way
+date: 2017-12-30 13:11
 comments: true
-tags: foo, bar
+tags: feels, travel, effectiveness
 ---
 
 ## I
