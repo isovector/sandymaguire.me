@@ -82,10 +82,11 @@ tactics; the lifestyle is the desired result.
 
 ## Producing Cool Things
 
-I have a role model. His name is Piero Scaruffi. In the internet jargon of
-today: this guy fucks. [Holden Karnofsky][holden], via [Luke Muehlhauser][luke],
-on Scaruffi:
+I have a role model. [His name is Piero Scaruffi][scaruffi]. In the internet
+jargon of today: this guy fucks. [Holden Karnofsky][holden], via [Luke
+Muehlhauser][luke], on Scaruffi:
 
+[scaruffi]: https://www.scaruffi.com/
 [holden]: https://en.wikipedia.org/wiki/Holden_Karnofsky
 [luke]: http://lukemuehlhauser.com/scaruffis-rock-criticism/
 
@@ -146,9 +147,9 @@ things I'm going to accomplish in 2018:
 
 * Publish 3x as many words as I did in 2017. This works out to roughly one blog
   post per week.
-* Contribute one major feature to an open source project.
-* Read 52 books. I have a few potential projects in mind and will report back
-  later.
+* Contribute one major feature to an open source project. I have a few potential
+  projects in mind and will report back later.
+* Read 52 books.
 * Work my way through every problem in the *Awodey Category Theory* book.
 * Publish an academic paper contributing something novel to the field of
   computer science.
