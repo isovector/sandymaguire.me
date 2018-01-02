@@ -3,7 +3,7 @@ layout: post
 title: goals
 date: TO_BE_DETERMINED
 comments: true
-tags: foo, bar
+tags: effectiveness, life, goals
 ---
 
 I had a profound experience the other day. In preparation for the new year, I've
@@ -72,12 +72,12 @@ goal][moving].
 
 [moving]: http://mindingourway.com/moving-towards-the-goal/
 
-What all of this cashes out as is a few core pillars of fundamentals I feel like
-I am missing or at which I am not yet good enough. These sub-goals are ambitious
-as all-get-out, and there is no way in hell I'm going to be able to accomplish
-them given my current levels of operation. My only chance is to induce an
-extreme shift in lifestyle. The pillars and their components are the tactics;
-the lifestyle is the desired result.
+What all of this cashes out as is a couple core pillars of fundamentals I feel
+like I am missing or at which I am not yet good enough. These sub-goals are
+ambitious as all-get-out, and there is no way in hell I'm going to be able to
+accomplish them given my current levels of operation. My only chance is to
+induce an extreme shift in lifestyle. The pillars and their components are the
+tactics; the lifestyle is the desired result.
 
 
 ## Producing Cool Things
@@ -168,7 +168,7 @@ cut? Oh, Sam is going hiking with the hairdresser next week. Want some pizza?
 Yeah, that waitress is Sam's girlfriend -- despite the fact that he never eats
 pizza and they met at the pizza place. Random guy at the computer? Yeah he went
 to school in Texas with Sam. The list goes on and on and on and on and seriously
-on.
+it just keeps going on.
 
 What the hell. How does he do it? I asked. Ready for the secret?
 
@@ -190,14 +190,76 @@ So let's fix that in 2018. My quantifiable goals in this domain are:
 * For every week that I'm not in a serious, committed relationship, go on a date
   with somebody new.
 * By the end of the year, have brought together a community of people that meet
-  regularly.
+  regularly, even without me acting as a catalyst.
+
+It's hard to overstate how excited I am about this pillar. I don't think I'm bad
+at these things, but neither am I fantastic at them. Fostering new relationships
+I suspect will be the most important skill I develop in 2018.
 
 
+## Tactics and Mechanics
+
+Okay fine, so it's well and good to have a bunch of new year's resolutions.
+But I'm sure we've all set some goals on January 1st and haven't *entiiiirely*
+followed through with them one hundred percent all the way.
+
+Clearly more is needed than just good intentions.
+
+The first and foremost tactic I will be using is the idea of having a [key
+habit][key]. The idea is to set one thing every day that should be my primary
+focus -- to the extent that I'm allowed to drop everything else on my plate in
+order to accomplish it. If I'm terribly behind on any of my quantifiable tasks
+above, they'll be the key habit for the day, and I'm allowed to go out and spend
+the day meeting girls, or whatever.
+
+[key]: http://sebastianmarshall.com/key-habit-today
+
+If the key habit is nothing urgent (like getting back above the yellow brick road
+of succeeding at being the person I want to be), it's up for grabs. I've been
+doing this for a few days, and some of my key habits have been:
+
+* Build systems for 2018 (cashed out as this key habit idea)
+* Figure out goal tracking. Start blog post (cashed out as a
+  [beeminder][beeminder]-esque spreadsheet and the post you're reading now)
+
+[beeminder]: http://beeminder.com
+
+(I'm only a few days in, so there are not a lot of examples, but I expect
+they'll all look like this.)
+
+Once I have my key habit in place, I look through my [GTD][gtd] list for any
+tasks that I want to make progress on that fit the theme, as well as add
+anything ad-hoc to this list from my brain. Finishing everything on the task
+list isn't crucial, but I've found that having a daily checklist of things to do
+helps with motivation. It's helpful both in that I don't need to think about
+what to do next, and in that I get a little jolt of dopamine every time I cross
+something off of the list.
+
+[gtd]: https://gettingthingsdone.com/
+
+I don't want to commit any money to this year, but we can do one better. If
+you've made it all the way through this post, I *urge* you to hold me
+accountable to it. Like, to the extent that you'll commit to stop being friends
+with me if you're not satisfied with the progress I've made towards these goals
+by the end of the year. I would be honored if you'd commit to be disgusted by
+any failure of mine along these lines.
+
+To sum up my commitment mechanisms, I have a very low-energy planning strategy
+for generating daily motivation. The hope is that this will be able to generate
+enough chutzpah to keep me honest about making progress on a day-to-day basis.
+And, if that fails, I want everyone I like to lose respect for me.
+Neurosis-inducing, to be sure, but nuclear options are pretty effective.
 
 ---
 
-Over the last few days, I've been annoying my friends with barrages of messages
-along the lines of "what are your goals for 2018? I'm looking for inspiration."
+> See, the real cost of failing a goal is not the loss of your Beeminder pledge
+> money. It’s the loss of confidence that you will meet all future goals that
+> you perceive as similar to the current goal. You will trust yourself less. And
+> because the motivation to pursue a goal is largely based on your confidence of
+> success, that blow to your confidence will demotivate you, making you more
+> likely to fail.
+>
+> -[Nick Winter][nick]
 
+[nick]: https://blog.beeminder.com/nick/
 
-KEY HABIT: http://sebastianmarshall.com/key-habit-today
