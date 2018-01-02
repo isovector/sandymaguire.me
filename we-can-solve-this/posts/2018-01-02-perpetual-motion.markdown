@@ -1,7 +1,7 @@
 ---
 layout: post
-title: goals
-date: TO_BE_DETERMINED
+title: The Year of Perpetual Motion
+date: 2018-01-02 11:22
 comments: true
 tags: effectiveness, life, goals
 ---
