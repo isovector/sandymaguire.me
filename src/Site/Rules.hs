@@ -49,13 +49,14 @@ postRules prefix get src dst postCtxTags =
     match (get prefix) $ do
         postMatches <- getMatches $ get prefix
         route $   gsubRoute (prefix ++ src) (const dst)
-              <+> gsubRoute "/[0-9]{4}-[0-9]{2}-[0-9]{2}-" (const "/")
+              <+> gsubRoute postFormat (const "/")
               <+> stripPrefix prefix
               <+> cruftlessRoute
         compile $ do
+            slug <- toFilePath <$> getUnderlying
             pandocMathCompiler
                 >>= loadAndApplyTemplate (fromFilePath $ prefix ++ "templates/post.html")
-                    (setNextPrev postMatches postCtxTags)
+                    (setSlug slug $ setNextPrev postMatches postCtxTags)
                 >>= saveSnapshot "content"
                 >>= loadAndApplyTemplate (fromFilePath $ prefix ++ "templates/default.html") postCtxTags
                 >>= relativizeUrls

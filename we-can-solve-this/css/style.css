@@ -70,8 +70,12 @@ pre, code, kbd, samp, tt, textarea, span {
 }
 
 a {
-    color: #c9173c;
+    color: rgb(254, 130, 150);
     text-decoration: none;
+}
+
+.prev a, .prev a {
+    color: #c9173c;
 }
 
 h1 a, h2 a {
@@ -126,7 +130,7 @@ nav {
     /*background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAQCAYAAAA8qK60AAAAF0lEQVQIW2NkgALGgWWUl5f/7+zsZAQAGOgEEZMPrH4AAAAASUVORK5CYII=); /* */
 }
 
-nav a {
+.content a, .meta a {
     color: #d15771;
 }
 
@@ -234,6 +238,12 @@ ul {
     float: right;
     font-size: 12px;
     font-family: 'Muli', sans-serif;
+}
+
+.comments {
+  background-color: rgb(50, 50, 60);
+  padding: 20px 48px;
+  margin: 0 -48px -20px -48px;
 }
 
 @media (max-width: 1000px) {

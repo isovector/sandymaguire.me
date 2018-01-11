@@ -2,22 +2,23 @@ module Site.Contexts
     ( postCtxWithTags
     , postCtx
     , setNextPrev
+    , setSlug
     , optionalConstField
     , clippingCtx
     , showTime
     ) where
 
+import ClipIt
 import Control.Applicative (Alternative (..))
 import Data.List (intercalate, sortBy)
 import Data.Monoid (mconcat, (<>))
 import Data.Time.Clock (UTCTime)
 import Data.Time.Format (parseTimeM, formatTime, defaultTimeLocale)
-import System.FilePath (takeFileName)
-
-import ClipIt
 import Hakyll
+import Hakyll.Core.Util.String (replaceAll)
 import Hakyll.Web.Tags
 import Site.Constants
+import System.FilePath (takeFileName)
 
 
 postCtxWithTags :: Tags -> Context String
@@ -48,6 +49,16 @@ sortIdentifiersByDate identifiers =
          in compare
             ((parseTime' fn1) :: Maybe UTCTime)
             ((parseTime' fn2) :: Maybe UTCTime)
+
+setSlug :: String -> Context String -> Context String
+setSlug slug ctx =
+    mconcat
+        [ constField "slug"
+            . replaceAll "\\.markdown" (const "")
+            . replaceAll ("we-can-solve-this/posts" ++ postFormat) (const "")
+            $ slug
+        , ctx
+        ]
 
 setNextPrev :: [Identifier] -> Context String -> Context String
 setNextPrev posts ctx =
