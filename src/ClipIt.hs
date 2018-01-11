@@ -191,22 +191,6 @@ canonicalName = replace ' ' '-'
   where spaceConcat a b = a ++ " " ++ b
         replace a b = map $ \c -> if (c == a) then b else c
 
-files = [ "clippings/age-of-em-daily-rituals.txt"
-        , "clippings/ai-to-zombies.txt"
-        , "clippings/atlas-shrugged-ending.txt"
-        , "clippings/believer-lightness-clock.txt"
-        , "clippings/dennet-ikigai.txt"
-        , "clippings/fail-everything-room.txt"
-        , "clippings/feynman-solitude.txt"
-        , "clippings/hpmor-silver-gatto.txt"
-        , "clippings/influence-atlas-shrugged.txt"
-        , "clippings/initial-commit.txt"
-        , "clippings/kegan-feynman.txt"
-        , "clippings/metaphors-rising-intelligence.txt"
-        , "clippings/misc-diamond-age.txt"
-        ]
-
-
 
 oldStyle :: String
 oldStyle = unlines

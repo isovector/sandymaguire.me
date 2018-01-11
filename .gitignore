@@ -9,3 +9,4 @@ _live/
 /site
 /octo-clip-it/output
 *.swo
+dist

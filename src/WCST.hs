@@ -1,86 +1,108 @@
-{-# LANGUAGE OverloadedStrings, ScopedTypeVariables #-}
+{-# LANGUAGE NoMonomorphismRestriction #-}
+{-# language DuplicateRecordFields     #-}
+{-# language OverloadedStrings         #-}
+
 module Main where
 
-import Control.Applicative ((<$>))
-import Control.Monad (forM_, liftM2)
-import Data.Function (on)
-import Data.List (isPrefixOf, sortBy, groupBy, nubBy)
-import Data.Monoid (mconcat, (<>))
-import Data.Ord (comparing)
-import System.IO.Unsafe (unsafePerformIO)
+import           Data.Foldable (for_)
+import           Data.List (sortBy)
+import           Data.Maybe (listToMaybe, isJust)
+import           Data.Monoid ((<>))
+import           Data.Ord (comparing)
+import qualified Data.Text as T
+import           Data.Text.Lens (_Text)
+import           SitePipe
+import qualified Text.Mustache as MT
+import qualified Text.Mustache.Types as MT
+import           Text.Regex.TDFA ((=~~))
 
-import ClipIt (Clipping (..), getClippings, canonicalName)
-import Hakyll
-import Hakyll.Web.Tags
-import Site.Compilers
-import Site.Constants
-import Site.Contexts
-import Site.Rules
-import Utils
 
-wcst = "we-can-solve-this/"
+-- import Data.Aeson.Lens
 
-feedConfiguration = FeedConfiguration
-    { feedTitle       = "We Can Solve This"
-    , feedDescription = "Musings on effective life strategies"
-    , feedAuthorName  = "Sandy Maguire"
-    , feedAuthorEmail = "sandy@sandymaguire.me"
-    , feedRoot        = "http://sandymaguire.me/"
-    }
+postFormat :: String
+postFormat = "/[0-9]{4}-[0-9]{2}-[0-9]{2}-"
+
+getNext :: Eq a => [a] -> a -> Maybe a
+getNext as = flip lookup . zip as $ tail as
 
 main :: IO ()
-main = do
-    hakyll $ do
-        tags <- buildTags (postsDir wcst) (fromCapture . fromGlob $ wcst ++ "tags/*.html")
-        clipFiles <- fmap toFilePath <$> getMatches "clippings/*"
+main = siteWithGlobals templateFuncs $ do
+  let l = _Object . at "url" . _Just . _String . _Text
 
-        let clippings = unsafePerformIO $ getClippings clipFiles
-            clipBooks = sortAndGroup bookName clippings
-            postCtxTags = postCtxWithTags tags
+  rawPosts <- sortBy (comparing (^?! l))
+          <$> resourceLoader markdownReader ["posts/*.markdown"]
+  let urls = fmap (^?! l) rawPosts
+      posts =
+        flip fmap rawPosts $
+          \x ->
+            let url  = x ^?! l
+                next = getNext urls url
+                prev = getNext (reverse urls) url
+                slug = replaceAll ("/posts" <> postFormat) (const "")
+                     . replaceAll "\\.html"  (const "")
+                     $ url
+             in x & l                   .~ "blog/" <> slug
+                  & _Object . at "slug" ?~ _String . _Text # slug
+                  & _Object . at "next" .~ fmap (review $ _String . _Text) next
+                  & _Object . at "has_next" ?~ _Bool # isJust next
+                  & _Object . at "prev" .~ fmap (review $ _String . _Text) prev
+                  & _Object . at "has_prev" ?~ _Bool # isJust prev
 
-        staticRules wcst
-        templateRules wcst
-        imageRules    wcst
-        jsRules       wcst
-        cssRules      wcst
-        postRules     wcst postsDir "posts/" "blog/" postCtxTags
-        archiveRules  wcst postsDir "blog/archives/" postCtxTags
-        indexRules    wcst postsDir "" postCtxTags
-        feedRules     wcst feedConfiguration
-        tagRules      wcst tags
 
-        forM_ clipBooks $ \book -> do
-            let clipItems = sortBy (comparing added) book
-                curBook = head clipItems
-                name = canonicalName curBook
-            create [fromFilePath $ wcst ++ "books/" ++ name] $ do
-                route $ stripPrefix wcst <+> setExtension "html"
-                compile $ do
-                    let timeField name book = optionalConstField name
-                                            . fmap showTime
-                                            . Just
-                                            $ added book
-                        ctx = mconcat
-                            [ constField "title"    $ bookName curBook
-                            , constField "author"   $ author curBook
-                            , timeField "started"   $ curBook
-                            , timeField "finished"  $ last clipItems
-                            , listField "clippings"   clippingCtx (mapM makeItem clipItems)
-                            , defaultContext
+  -- getTags will return a list of all tags from the posts,
+  -- each tag has a 'tag' and a 'posts' property
+  let tags = getTags makeTagUrl posts
+      -- Create an object with the needed context for a table of contents
+      indexContext :: Value
+      indexContext = object [ "posts" .= posts
+                            , "tags" .= tags
+                            , "url" .= ("/index.html" :: String)
                             ]
-                    contentCompiler wcst (fromFilePath $ wcst ++ "templates/book.html") ctx
+      rssContext :: Value
+      rssContext = object [ "posts" .= posts
+                          , "domain" .= ("http://chrispenner.ca" :: String)
+                          , "url" .= ("/rss.xml" :: String)
+                          ]
 
-        create [fromFilePath $ wcst ++ "books/index.html"] $ do
-            route $ stripPrefix wcst
-            compile $ do
-                let ctx = mconcat
-                        [ listField "books" clippingCtx
-                            . mapM makeItem
-                            . nubBy ((==) `on` liftM2 (,) bookName author)
-                            . sortBy (comparing $ titleCompare . bookName)
-                            $ map head clipBooks
-                        , constField "title" "Index of Book Quotes"
-                        , defaultContext
-                        ]
-                contentCompiler wcst (fromFilePath $ wcst ++ "templates/book-index.html") ctx
+  -- Render index page, posts and tags respectively
+  writeTemplate "templates/index.html" [indexContext]
+  writeTemplate "templates/post.html" posts
+  writeTemplate "templates/tag.html" tags
+  -- writeTemplate "templates/rss.xml" [rssContext]
+  staticAssets
 
+
+--------------------------------------------------------------------------------
+-- | A simple (but inefficient) regex replace funcion
+replaceAll :: String              -- ^ Pattern
+           -> (String -> String)  -- ^ Replacement (called on capture)
+           -> String              -- ^ Source string
+           -> String              -- ^ Result
+replaceAll pattern f source = replaceAll' source
+  where
+    replaceAll' src = case listToMaybe (src =~~ pattern) of
+        Nothing     -> src
+        Just (o, l) ->
+            let (before, tmp) = splitAt o src
+                (capture, after) = splitAt l tmp
+            in before ++ f capture ++ replaceAll' after
+
+
+-- We can provide a list of functions to be availabe in our mustache templates
+templateFuncs :: MT.Value
+templateFuncs = MT.object
+  [ "tagUrl" MT.~> MT.overText (T.pack . makeTagUrl . T.unpack)
+  ]
+
+makeTagUrl :: String -> String
+makeTagUrl tagName = "/tags/" ++ tagName ++ ".html"
+
+-- | All the static assets can just be copied over from our site's source
+staticAssets :: SiteM ()
+staticAssets = copyFiles
+    -- We can copy a glob
+    [ "css/"
+    -- Or just copy the whole folder!
+    , "js/"
+    , "images/"
+    ]

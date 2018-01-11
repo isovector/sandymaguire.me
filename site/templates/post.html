@@ -1,19 +1,21 @@
+{{> templates/header.html}}
+
 <article>
 <header>
-    <h1><a href="$url$">$title$</a></h1>
+  <h1><a href="{{url}}">{{title}}</a></h1>
 </header>
 <p class="meta">
-    $if(prev)$
+    {{#has_prev}}
     <span class="prev">
-        <a href="$prev$">&larr;</a>
+        <a href="{{prev}}">&larr;</a>
     </span>
-    $endif$
-    $if(next)$
+    {{/has_prev}}
+    {{#has_next}}
     <span class="next">
-        <a href="$next$">&rarr;</a>
+        <a href="{{next}}">&rarr;</a>
     </span>
-    $endif$
-    <time>$date$</time>
+    {{/has_next}}
+    <time>{{date}}</time>
     $if(tags)$
         <span class="tags">
         $tags$
@@ -21,14 +23,14 @@
     $endif$
 </p>
 <div class="content">
-    $body$
+    {{{content}}}
 </div>
 
 <div class="comments">
     <div id="disqus_thread"></div>
     <script>
     var disqus_config = function () {
-        var slug = "$slug$";
+        var slug = "{{slug}}";
         this.page.url = "http://sandymaguire.me/blog/" + slug;
         this.page.identifier = slug;
     };
@@ -44,3 +46,5 @@
     </noscript>
 </div>
 </article>
+
+{{> templates/footer.html}}
