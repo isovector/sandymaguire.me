@@ -16,6 +16,11 @@
     </span>
     {{/has_next}}
     <time>{{date}}</time>
+
+                    {{#tags}}
+                    <a class="tag" href="{{#tagUrl}}{{.}}{{/tagUrl}}">{{.}}</a>
+                    {{/tags}}
+
     $if(tags)$
         <span class="tags">
         $tags$
