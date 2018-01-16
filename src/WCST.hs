@@ -6,23 +6,30 @@
 
 module Main where
 
-import ClipIt
-import Control.Monad (join)
-import Data.List (sortBy)
-import Data.Maybe (isJust)
-import Data.Monoid ((<>))
-import Data.Ord (comparing)
-import Data.Text.Lens (_Text)
-import Data.Time.Format (formatTime, defaultTimeLocale)
-import Data.Time.Parse (strptime)
-import Data.Traversable (for)
-import SitePipe hiding (getTags)
-import Utils
+import           ClipIt
+import           Control.Arrow ((&&&))
+import           Control.Monad (join)
+import           Data.List (sortBy)
+import qualified Data.Map as M
+import           Data.Maybe (isJust)
+import           Data.Monoid ((<>))
+import           Data.Ord (comparing)
+import           Data.Text.Lens (_Text)
+import           Data.Time.Format (formatTime, defaultTimeLocale)
+import           Data.Time.Parse (strptime)
+import           Data.Traversable (for)
+import           GHC.Exts (fromList)
+import           SitePipe hiding (getTags)
+import           Utils
 
 
 postFormat :: String
 postFormat = "/[0-9]{4}-[0-9]{2}-[0-9]{2}-"
 
+
+toSlug :: String -> String
+toSlug = replaceAll ("/posts" <> postFormat) (const "")
+       . replaceAll "\\.html"  (const "")
 
 main :: IO ()
 main = site $ do
@@ -37,17 +44,16 @@ main = site $ do
 
   let urls = fmap (^?! l) rawPosts
       getEm' = getNextAndPrev urls
-      posts =
+      posts' =
         flip fmap rawPosts $
           \x ->
             let url  = x ^?! l
-                (prev, next) = getEm' url
+                (fmap toSlug -> prev, fmap toSlug -> next) = getEm' url
                 tagsOf = x ^? _Object . at "tags" . _Just . _String . _Text
+                related = x ^? _Object . at "related" . _Just
                 date = fst . (^?! _Just) . strptime "%Y-%m-%d %H:%M"
                      $ x ^?! _Object . at "date" . _Just . _String . _Text
-                slug = replaceAll ("/posts" <> postFormat) (const "")
-                     . replaceAll "\\.html"  (const "")
-                     $ url
+                slug = toSlug url
 
              in x & l                         .~ "blog/" <> slug <> "/index.html"
                   & _Object . at "page_title" .~ x ^?! _Object . at "title"
@@ -55,6 +61,8 @@ main = site $ do
                   & _Object . at "slug"       ?~ _String . _Text # slug
                   & _Object . at "has_prev"   ?~ _Bool # isJust prev
                   & _Object . at "has_next"   ?~ _Bool # isJust next
+                  & _Object . at "has_related" ?~ _Bool # isJust related
+                  & _Object . at "related"    ?~ (maybe (Array $ fromList []) id related :: Value)
                   & _Object . at "html_tags"  .~
                       fmap (\y -> _String . _Text # makeTags y) tagsOf
                   & _Object . at "prev"       .~
@@ -65,6 +73,11 @@ main = site $ do
                       formatTime defaultTimeLocale "%Y-%m-%dT%H:%M:%SZ" date
                   & _Object . at "date"       ?~ _String . _Text #
                       formatTime defaultTimeLocale "%B %e, %Y" date
+      slugList = M.fromList
+               $ fmap ((^?! _Object . at "slug" . _Just . _String) &&& id) posts
+      posts = flip fmap posts' $ \post ->
+        post & _Object . at "related" . _Just . _Array
+                %~ fmap (\x -> slugList M.! (x ^?! _String))
 
   let tags   = getTags makeTagUrl posts
       newest = last posts

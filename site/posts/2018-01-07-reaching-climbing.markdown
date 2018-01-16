@@ -4,6 +4,9 @@ title: "Reaching, Climbing"
 date: 2018-01-07 12:33
 comments: true
 tags: goals, life
+related:
+  - perpetual-motion
+  - a-lesson-learned
 ---
 
 Last Friday was my final day at work. According to my facebook profile, I am now
