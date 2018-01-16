@@ -30,6 +30,12 @@ hr {
     margin-bottom: 19px;
 }
 
+.chill {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 blockquote {
     margin: 0 1.5em 1.2500em 1.5em;
 }

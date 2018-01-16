@@ -1,19 +1,23 @@
 {-# LANGUAGE NoMonomorphismRestriction #-}
 {-# LANGUAGE ScopedTypeVariables       #-}
+{-# LANGUAGE ViewPatterns              #-}
 {-# language DuplicateRecordFields     #-}
 {-# language OverloadedStrings         #-}
 
 module Main where
 
-import           Data.List (sortBy)
-import           Data.Maybe (isJust)
-import           Data.Monoid ((<>))
-import           Data.Ord (comparing)
-import           Data.Text.Lens (_Text)
-import           Data.Time.Format (formatTime, defaultTimeLocale)
-import           Data.Time.Parse (strptime)
-import           SitePipe hiding (getTags)
-import           Utils
+import ClipIt
+import Control.Monad (join)
+import Data.List (sortBy)
+import Data.Maybe (isJust)
+import Data.Monoid ((<>))
+import Data.Ord (comparing)
+import Data.Text.Lens (_Text)
+import Data.Time.Format (formatTime, defaultTimeLocale)
+import Data.Time.Parse (strptime)
+import Data.Traversable (for)
+import SitePipe hiding (getTags)
+import Utils
 
 
 postFormat :: String
@@ -26,6 +30,10 @@ main = site $ do
 
   rawPosts <- sortBy (comparing (^?! l))
           <$> resourceLoader markdownReader ["posts/*.markdown"]
+
+  clipfiles <- fmap (^?! _Object . at "content" . _Just . _String . _Text)
+           <$> resourceLoader textReader ["clippings/*"]
+  let clippings = join $ fmap getClippings clipfiles
 
   let urls = fmap (^?! l) rawPosts
       getEm' = getNextAndPrev urls
@@ -41,9 +49,9 @@ main = site $ do
                      . replaceAll "\\.html"  (const "")
                      $ url
 
-             in x & l                         .~ "blog/" <> slug
+             in x & l                         .~ "blog/" <> slug <> "/index.html"
                   & _Object . at "page_title" .~ x ^?! _Object . at "title"
-                  & _Object . at "canonical_url" ?~ _String . _Text # url
+                  & _Object . at "canonical_url" ?~ _String . _Text # ("blog/" <> slug)
                   & _Object . at "slug"       ?~ _String . _Text # slug
                   & _Object . at "has_prev"   ?~ _Bool # isJust prev
                   & _Object . at "has_next"   ?~ _Bool # isJust next
@@ -65,7 +73,7 @@ main = site $ do
       feed url = object
         [ "posts"        .= take 10 (reverse posts)
         , "domain"       .= ("http://sandymaguire.me" :: String)
-        , "url"          .= ("/" <> url)
+        , "url"          .= url
         , "last_updated" .= (newest ^?! _Object . at "zulu" . _Just . _String)
         ]
 
@@ -76,27 +84,27 @@ main = site $ do
 
   let byYear = reverse
               . flip groupOnKey (reverse posts)
-              $ \x -> reverse . take 4
-                              . reverse
-                              $ x ^?! _Object . at "date" . _Just . _String . _Text
+              $ \x -> reverse
+                    . take 4
+                    . reverse
+                    $ x ^?! _Object . at "date" . _Just . _String . _Text
 
   writeTemplate' "archive.html" . pure
     $ object
       [ "url" .= ("/blog/archives/index.html" :: String)
       , "page_title" .= ("Archives" :: String)
-      , "years" .= (
-        flip fmap byYear $ \(year, ps) ->
+      , "years" .= (flip fmap byYear $ \(year, ps) ->
           object
             [ "posts" .= ps
             , "year"  .= year
             ]
-       )
+        )
       ]
 
   writeTemplate' "post.html" posts
-  writeTemplate' "tag.html" tags
+  writeTemplate' "tag.html"  tags
 
-  writeTemplate' "rss.xml" . pure $ feed "feed.rss"
+  writeTemplate' "rss.xml"  . pure $ feed "feed.rss"
   writeTemplate' "atom.xml" . pure $ feed "atom.xml"
 
   copyFiles
@@ -104,6 +112,31 @@ main = site $ do
     , "js"
     , "images"
     ]
+
+  books <- for (fmap snd $ groupOnKey bookName clippings) $
+    \(sortBy (comparing added) -> items) -> do
+      let curBook = head items
+          book = object
+            [ "page_title" .= bookName curBook
+            , "title"     .= bookName curBook
+            , "author"    .= author curBook
+            , "started"   .= added curBook
+            , "finished"  .= added (last items)
+            , "url" .= ("books/" <> canonicalName curBook <> ".html")
+            , "clippings" .= (flip fmap items $ \item ->
+                object [ "body" .= contents item ]
+               )
+            ]
+      writeTemplate' "book.html" $ pure book
+      pure book
+
+  writeTemplate' "book-index.html" . pure
+    $ object
+      [ "page_title" .= ("Index of Book Quotes" :: String)
+      , "url" .= ("books/index.html" :: String)
+      , "books" .= sortBy (comparing $ titleCompare . (^?! _Object . at "title" . _Just . _String . _Text)) books
+      ]
+
 
 writeTemplate' :: ToJSON a => String -> [a] -> SiteM ()
 writeTemplate' a = writeTemplate ("templates/" <> a)

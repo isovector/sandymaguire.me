@@ -5,7 +5,7 @@ module Utils where
 import           Control.Arrow ((&&&))
 import           Control.Lens (view, review)
 import           Data.Aeson (Value, (.=))
-import           Data.List (intercalate)
+import           Data.List (intercalate, isPrefixOf)
 import qualified Data.Map as M
 import           Data.Maybe (listToMaybe, fromJust)
 import           Data.Monoid ((<>))
@@ -84,4 +84,11 @@ groupOnKey :: Ord k => (v -> k) -> [v] -> [(k, [v])]
 groupOnKey f = M.toAscList
              . M.fromListWith (flip mappend)
              . fmap (f &&& pure)
+
+
+titleCompare :: String -> String
+titleCompare s =
+    if isPrefixOf "The " s
+       then drop 4 s
+       else s
 

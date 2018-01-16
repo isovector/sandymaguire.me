@@ -1,20 +1,25 @@
+{{> templates/header.html}}
+
 <article>
 <header>
-    <h2><a href="$url$">Quotes for "$title$"</a></h2>
+    <h2><a href="/{{url}}">Quotes for "{{title}}"</a></h2>
 </header>
 <p class="meta">
-    <time>Read: $started$ &rarr; $finished$</time>
-    $if(author)$
+    <time>Read: {{started}} &rarr; {{finished}}</time>
+    {{#author}}
         <span class="tags">
-        $author$
+          {{author}}
         </span>
-    $endif$
+    {{/author}}
 </p>
 <div class="content">
-    <ul>
-    $for(clippings)$
-    <li>$body$</li>
-    $endfor$
+    {{#clippings}}
+    <p>{{body}}</p>
+    <hr class="chill" />
+    {{/clippings}}
     </ul>
 </div>
 </article>
+
+{{> templates/footer.html}}
+

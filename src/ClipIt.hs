@@ -15,7 +15,7 @@ import Control.Monad (liftM2, join, void)
 import Data.Aeson
 import Data.Char (toLower, isAlphaNum, isSpace)
 import Data.DateTime
-import Data.List (nub, sort)
+import Data.List (nub)
 import Data.Time.Clock
 import Data.Time.LocalTime (localTimeToUTC, utc)
 import Data.Time.Parse (strptime)
@@ -38,12 +38,10 @@ typeof = do
   optional $ string "Your "
   choice $ map string ["Highlight", "Note", "Bookmark"]
 
-getClippings :: [FilePath] -> IO [Clipping]
-getClippings = fmap (filter (("" /=) . author))
-             . fmap (join . fmap (either (error . show) id))
-             . sequence
-             . map (\f -> fmap (parseClippings f) $ readFile f)
-             . sort
+getClippings :: String -> [Clipping]
+getClippings = filter (("" /=) . author)
+             . either (error . show) id
+             . parseClippings
 
 
 onPage :: GenParser Char st ()
@@ -146,8 +144,8 @@ parseFile = do
     many clipping
 
 
-parseClippings :: FilePath -> String -> Either ParseError [Clipping]
-parseClippings path input = parse parseFile path input
+parseClippings :: String -> Either ParseError [Clipping]
+parseClippings input = parse parseFile "parsing a file" input
 
 getBooks :: Either ParseError [Clipping] -> [(String, String)]
 getBooks (Left s) = error $ show s

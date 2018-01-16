@@ -1,15 +1,22 @@
+{{> templates/header.html}}
+
 <article>
 <header>
-    <h1><a href="$url$">$title$</a></h1>
+    <h1><a href="/{{url}}">Index of Book Quotes</a></h1>
 </header>
 <p class="meta">
     <time>&nbsp;</time>
 </p>
 <div class="content">
     <ul>
-    $for(books)$
-    <li><a href="/books/$url$.html">$bookName$</a> by $author$</li>
-    $endfor$
+    {{#books}}
+    <li>
+      <a href="/{{url}}">{{title}}</a>
+      <span class="date">{{author}}</span>
+    </li>
+    {{/books}}
     </ul>
 </div>
 </article>
+
+{{> templates/footer.html}}
