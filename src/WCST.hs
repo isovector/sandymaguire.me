@@ -5,15 +5,15 @@
 
 module Main where
 
-import Data.List (sortBy)
-import Data.Maybe (isJust)
-import Data.Monoid ((<>))
-import Data.Ord (comparing)
-import Data.Text.Lens (_Text)
-import Data.Time.Format (formatTime, defaultTimeLocale)
-import Data.Time.Parse (strptime)
-import SitePipe hiding (getTags)
-import Utils
+import           Data.List (sortBy)
+import           Data.Maybe (isJust)
+import           Data.Monoid ((<>))
+import           Data.Ord (comparing)
+import           Data.Text.Lens (_Text)
+import           Data.Time.Format (formatTime, defaultTimeLocale)
+import           Data.Time.Parse (strptime)
+import           SitePipe hiding (getTags)
+import           Utils
 
 
 postFormat :: String
@@ -26,6 +26,7 @@ main = site $ do
 
   rawPosts <- sortBy (comparing (^?! l))
           <$> resourceLoader markdownReader ["posts/*.markdown"]
+
   let urls = fmap (^?! l) rawPosts
       getEm' = getNextAndPrev urls
       posts =
@@ -34,50 +35,76 @@ main = site $ do
             let url  = x ^?! l
                 (prev, next) = getEm' url
                 tagsOf = x ^? _Object . at "tags" . _Just . _String . _Text
+                date = fst . (^?! _Just) . strptime "%Y-%m-%d %H:%M"
+                     $ x ^?! _Object . at "date" . _Just . _String . _Text
                 slug = replaceAll ("/posts" <> postFormat) (const "")
                      . replaceAll "\\.html"  (const "")
                      $ url
-             in x & l .~ "blog/" <> slug
-                  & _Object . at "html_tags" .~ fmap (\y -> _String . _Text # makeTags y) tagsOf
+
+             in x & l                         .~ "blog/" <> slug
                   & _Object . at "page_title" .~ x ^?! _Object . at "title"
                   & _Object . at "canonical_url" ?~ _String . _Text # url
-                  & _Object . at "slug" ?~ _String . _Text # slug
-                  & _Object . at "prev" .~ fmap (review $ _String . _Text) prev
-                  & _Object . at "next" .~ fmap (review $ _String . _Text) next
-                  & _Object . at "has_prev" ?~ _Bool # isJust prev
-                  & _Object . at "has_next" ?~ _Bool # isJust next
-                  & _Object . at "date" . _Just . _String . _Text %~
-                      formatTime defaultTimeLocale "%B %e, %Y" . fst . (^?! _Just) . strptime "%Y-%m-%d %H:%M"
+                  & _Object . at "slug"       ?~ _String . _Text # slug
+                  & _Object . at "has_prev"   ?~ _Bool # isJust prev
+                  & _Object . at "has_next"   ?~ _Bool # isJust next
+                  & _Object . at "html_tags"  .~
+                      fmap (\y -> _String . _Text # makeTags y) tagsOf
+                  & _Object . at "prev"       .~
+                      fmap (review $ _String . _Text) prev
+                  & _Object . at "next"       .~
+                      fmap (review $ _String . _Text) next
+                  & _Object . at "zulu"       ?~ _String . _Text #
+                      formatTime defaultTimeLocale "%Y-%m-%dT%H:%M:%SZ" date
+                  & _Object . at "date"       ?~ _String . _Text #
+                      formatTime defaultTimeLocale "%B %e, %Y" date
 
+  let tags   = getTags makeTagUrl posts
+      newest = last posts
 
-  let tags = getTags makeTagUrl posts
-      -- Create an object with the needed context for a table of contents
-      indexContext :: Value
-      indexContext =
-        last posts
-          & _Object . at "url"        ?~ _String # "/index.html"
-          & _Object . at "page_title" ?~ _String # "Home"
+      feed :: String -> Value
+      feed url = object
+        [ "posts"        .= take 10 (reverse posts)
+        , "domain"       .= ("http://sandymaguire.me" :: String)
+        , "url"          .= ("/" <> url)
+        , "last_updated" .= (newest ^?! _Object . at "zulu" . _Just . _String)
+        ]
 
-      rssContext :: Value
-      rssContext = object [ "posts" .= take 10 posts
-                          , "domain" .= ("http://sandymaguire.me" :: String)
-                          , "url" .= ("/rss.xml" :: String)
-                          ]
+  writeTemplate' "post.html" . pure
+    $ newest
+      & _Object . at "url"        ?~ _String # "/index.html"
+      & _Object . at "page_title" ?~ _String # "Home"
 
-  -- Render index page, posts and tags respectively
-  writeTemplate "templates/post.html" [indexContext]
-  writeTemplate "templates/post.html" posts
-    -- posts & _List . values . _Object . at "tags" . _Just . _String . _Text %~ makeTags
-  writeTemplate "templates/tag.html" tags
-  writeTemplate "templates/rss.xml" [rssContext]
-  staticAssets
+  let byYear = reverse
+              . flip groupOnKey (reverse posts)
+              $ \x -> reverse . take 4
+                              . reverse
+                              $ x ^?! _Object . at "date" . _Just . _String . _Text
 
+  writeTemplate' "archive.html" . pure
+    $ object
+      [ "url" .= ("/blog/archives/index.html" :: String)
+      , "page_title" .= ("Archives" :: String)
+      , "years" .= (
+        flip fmap byYear $ \(year, ps) ->
+          object
+            [ "posts" .= ps
+            , "year"  .= year
+            ]
+       )
+      ]
 
+  writeTemplate' "post.html" posts
+  writeTemplate' "tag.html" tags
 
+  writeTemplate' "rss.xml" . pure $ feed "feed.rss"
+  writeTemplate' "atom.xml" . pure $ feed "atom.xml"
 
-staticAssets :: SiteM ()
-staticAssets = copyFiles
-    [ "css/"
-    , "js/"
-    , "images/"
+  copyFiles
+    [ "css"
+    , "js"
+    , "images"
     ]
+
+writeTemplate' :: ToJSON a => String -> [a] -> SiteM ()
+writeTemplate' a = writeTemplate ("templates/" <> a)
+

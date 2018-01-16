@@ -1,15 +1,23 @@
+{{> templates/header.html}}
+
 <article>
 <header>
-    <h1><a href="$url$">$title$</a></h1>
+    <h1><a href="$url$">Archives</a></h1>
 </header>
 <p class="meta">
-    $if(tags)$
-        <span class="tags">
-        $tags$
-        </span>
-    $endif$
 </p>
 <div class="content">
-    $partial("we-can-solve-this/templates/post-list.html")$
+  {{#years}}
+    <h2>{{year}}</h2>
+    <ul>
+  {{#posts}}
+    <li>
+      <a href="/{{url}}">{{title}}</a> <span class="date">{{date}}</span>
+    </li>
+  {{/posts}}
+    </ul>
+  {{/years}}
 </div>
 </article>
+
+{{> templates/footer.html}}

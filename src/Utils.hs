@@ -2,6 +2,7 @@
 
 module Utils where
 
+import           Control.Arrow ((&&&))
 import           Control.Lens (view, review)
 import           Data.Aeson (Value, (.=))
 import           Data.List (intercalate)
@@ -77,4 +78,10 @@ makeTag makeUrl tagname posts = object
   , "posts" .= posts
   , "page_title" .= ("Posts tagged \"" <> (_Text # tagname) <> "\"" :: Text)
   ]
+
+
+groupOnKey :: Ord k => (v -> k) -> [v] -> [(k, [v])]
+groupOnKey f = M.toAscList
+             . M.fromListWith (flip mappend)
+             . fmap (f &&& pure)
 
