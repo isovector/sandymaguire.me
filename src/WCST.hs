@@ -1,86 +1,156 @@
-{-# LANGUAGE OverloadedStrings, ScopedTypeVariables #-}
+{-# LANGUAGE NoMonomorphismRestriction #-}
+{-# LANGUAGE ScopedTypeVariables       #-}
+{-# LANGUAGE ViewPatterns              #-}
+{-# language DuplicateRecordFields     #-}
+{-# language OverloadedStrings         #-}
+
 module Main where
 
-import Control.Applicative ((<$>))
-import Control.Monad (forM_, liftM2)
-import Data.Function (on)
-import Data.List (isPrefixOf, sortBy, groupBy, nubBy)
-import Data.Monoid (mconcat, (<>))
-import Data.Ord (comparing)
-import System.IO.Unsafe (unsafePerformIO)
+import           ClipIt
+import           Control.Arrow ((&&&))
+import           Control.Monad (join)
+import           Data.List (sortBy)
+import qualified Data.Map as M
+import           Data.Maybe (isJust)
+import           Data.Monoid ((<>))
+import           Data.Ord (comparing)
+import           Data.Text.Lens (_Text)
+import           Data.Time.Format (formatTime, defaultTimeLocale)
+import           Data.Time.Parse (strptime)
+import           Data.Traversable (for)
+import           GHC.Exts (fromList)
+import           SitePipe hiding (getTags)
+import           Utils
 
-import ClipIt (Clipping (..), getClippings, canonicalName)
-import Hakyll
-import Hakyll.Web.Tags
-import Site.Compilers
-import Site.Constants
-import Site.Contexts
-import Site.Rules
-import Utils
 
-wcst = "we-can-solve-this/"
+postFormat :: String
+postFormat = "/[0-9]{4}-[0-9]{2}-[0-9]{2}-"
 
-feedConfiguration = FeedConfiguration
-    { feedTitle       = "We Can Solve This"
-    , feedDescription = "Musings on effective life strategies"
-    , feedAuthorName  = "Sandy Maguire"
-    , feedAuthorEmail = "sandy@sandymaguire.me"
-    , feedRoot        = "http://sandymaguire.me/"
-    }
+
+toSlug :: String -> String
+toSlug = replaceAll ("/posts" <> postFormat) (const "")
+       . replaceAll "\\.html"  (const "")
 
 main :: IO ()
-main = do
-    hakyll $ do
-        tags <- buildTags (postsDir wcst) (fromCapture . fromGlob $ wcst ++ "tags/*.html")
-        clipFiles <- fmap toFilePath <$> getMatches "clippings/*"
+main = site $ do
+  let l = _Object . at "url" . _Just . _String . _Text
 
-        let clippings = unsafePerformIO $ getClippings clipFiles
-            clipBooks = sortAndGroup bookName clippings
-            postCtxTags = postCtxWithTags tags
+  rawPosts <- sortBy (comparing (^?! l))
+          <$> resourceLoader markdownReader ["posts/*.markdown"]
 
-        staticRules wcst
-        templateRules wcst
-        imageRules    wcst
-        jsRules       wcst
-        cssRules      wcst
-        postRules     wcst postsDir "posts/" "blog/" postCtxTags
-        archiveRules  wcst postsDir "blog/archives/" postCtxTags
-        indexRules    wcst postsDir "" postCtxTags
-        feedRules     wcst feedConfiguration
-        tagRules      wcst tags
+  clipfiles <- fmap (^?! _Object . at "content" . _Just . _String . _Text)
+           <$> resourceLoader textReader ["clippings/*"]
+  let clippings = join $ fmap getClippings clipfiles
 
-        forM_ clipBooks $ \book -> do
-            let clipItems = sortBy (comparing added) book
-                curBook = head clipItems
-                name = canonicalName curBook
-            create [fromFilePath $ wcst ++ "books/" ++ name] $ do
-                route $ stripPrefix wcst <+> setExtension "html"
-                compile $ do
-                    let timeField name book = optionalConstField name
-                                            . fmap showTime
-                                            . Just
-                                            $ added book
-                        ctx = mconcat
-                            [ constField "title"    $ bookName curBook
-                            , constField "author"   $ author curBook
-                            , timeField "started"   $ curBook
-                            , timeField "finished"  $ last clipItems
-                            , listField "clippings"   clippingCtx (mapM makeItem clipItems)
-                            , defaultContext
-                            ]
-                    contentCompiler wcst (fromFilePath $ wcst ++ "templates/book.html") ctx
+  let urls = fmap (^?! l) rawPosts
+      getEm' = getNextAndPrev urls
+      posts' =
+        flip fmap rawPosts $
+          \x ->
+            let url  = x ^?! l
+                (fmap toSlug -> prev, fmap toSlug -> next) = getEm' url
+                tagsOf = x ^? _Object . at "tags" . _Just . _String . _Text
+                related = x ^? _Object . at "related" . _Just
+                date = fst . (^?! _Just) . strptime "%Y-%m-%d %H:%M"
+                     $ x ^?! _Object . at "date" . _Just . _String . _Text
+                slug = toSlug url
 
-        create [fromFilePath $ wcst ++ "books/index.html"] $ do
-            route $ stripPrefix wcst
-            compile $ do
-                let ctx = mconcat
-                        [ listField "books" clippingCtx
-                            . mapM makeItem
-                            . nubBy ((==) `on` liftM2 (,) bookName author)
-                            . sortBy (comparing $ titleCompare . bookName)
-                            $ map head clipBooks
-                        , constField "title" "Index of Book Quotes"
-                        , defaultContext
-                        ]
-                contentCompiler wcst (fromFilePath $ wcst ++ "templates/book-index.html") ctx
+             in x & l                         .~ "blog/" <> slug <> "/index.html"
+                  & _Object . at "page_title" .~ x ^?! _Object . at "title"
+                  & _Object . at "canonical_url" ?~ _String . _Text # ("blog/" <> slug)
+                  & _Object . at "slug"       ?~ _String . _Text # slug
+                  & _Object . at "has_prev"   ?~ _Bool # isJust prev
+                  & _Object . at "has_next"   ?~ _Bool # isJust next
+                  & _Object . at "has_related" ?~ _Bool # isJust related
+                  & _Object . at "related"    ?~ (maybe (Array $ fromList []) id related :: Value)
+                  & _Object . at "html_tags"  .~
+                      fmap (\y -> _String . _Text # makeTags y) tagsOf
+                  & _Object . at "prev"       .~
+                      fmap (review $ _String . _Text) prev
+                  & _Object . at "next"       .~
+                      fmap (review $ _String . _Text) next
+                  & _Object . at "zulu"       ?~ _String . _Text #
+                      formatTime defaultTimeLocale "%Y-%m-%dT%H:%M:%SZ" date
+                  & _Object . at "date"       ?~ _String . _Text #
+                      formatTime defaultTimeLocale "%B %e, %Y" date
+      slugList = M.fromList
+               $ fmap ((^?! _Object . at "slug" . _Just . _String) &&& id) posts
+      posts = flip fmap posts' $ \post ->
+        post & _Object . at "related" . _Just . _Array
+                %~ fmap (\x -> slugList M.! (x ^?! _String))
+
+  let tags   = getTags makeTagUrl posts
+      newest = last posts
+
+      feed :: String -> Value
+      feed url = object
+        [ "posts"        .= take 10 (reverse posts)
+        , "domain"       .= ("http://sandymaguire.me" :: String)
+        , "url"          .= url
+        , "last_updated" .= (newest ^?! _Object . at "zulu" . _Just . _String)
+        ]
+
+  writeTemplate' "post.html" . pure
+    $ newest
+      & _Object . at "url"        ?~ _String # "/index.html"
+      & _Object . at "page_title" ?~ _String # "Home"
+
+  let byYear = reverse
+              . flip groupOnKey (reverse posts)
+              $ \x -> reverse
+                    . take 4
+                    . reverse
+                    $ x ^?! _Object . at "date" . _Just . _String . _Text
+
+  writeTemplate' "archive.html" . pure
+    $ object
+      [ "url" .= ("/blog/archives/index.html" :: String)
+      , "page_title" .= ("Archives" :: String)
+      , "years" .= (flip fmap byYear $ \(year, ps) ->
+          object
+            [ "posts" .= ps
+            , "year"  .= year
+            ]
+        )
+      ]
+
+  writeTemplate' "post.html" posts
+  writeTemplate' "tag.html"  tags
+
+  writeTemplate' "rss.xml"  . pure $ feed "feed.rss"
+  writeTemplate' "atom.xml" . pure $ feed "atom.xml"
+
+  copyFiles
+    [ "css"
+    , "js"
+    , "images"
+    ]
+
+  books <- for (fmap snd $ groupOnKey bookName clippings) $
+    \(sortBy (comparing added) -> items) -> do
+      let curBook = head items
+          book = object
+            [ "page_title" .= bookName curBook
+            , "title"     .= bookName curBook
+            , "author"    .= author curBook
+            , "started"   .= added curBook
+            , "finished"  .= added (last items)
+            , "url" .= ("books/" <> canonicalName curBook <> ".html")
+            , "clippings" .= (flip fmap items $ \item ->
+                object [ "body" .= contents item ]
+               )
+            ]
+      writeTemplate' "book.html" $ pure book
+      pure book
+
+  writeTemplate' "book-index.html" . pure
+    $ object
+      [ "page_title" .= ("Index of Book Quotes" :: String)
+      , "url" .= ("books/index.html" :: String)
+      , "books" .= sortBy (comparing $ titleCompare . (^?! _Object . at "title" . _Just . _String . _Text)) books
+      ]
+
+
+writeTemplate' :: ToJSON a => String -> [a] -> SiteM ()
+writeTemplate' a = writeTemplate ("templates/" <> a)
 

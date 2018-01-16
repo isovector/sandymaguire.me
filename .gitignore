@@ -6,6 +6,6 @@ _site/
 _live/
 *.o
 *.hi
-/site
 /octo-clip-it/output
 *.swo
+dist

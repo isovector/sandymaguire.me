@@ -1,34 +1,49 @@
+{{> templates/header.html}}
+
 <article>
 <header>
-    <h1><a href="$url$">$title$</a></h1>
+  <h1><a href="/{{canonical_url}}">{{title}}</a></h1>
 </header>
 <p class="meta">
-    $if(prev)$
+    {{#has_prev}}
     <span class="prev">
-        <a href="$prev$">&larr;</a>
+        <a href="/{{prev}}">&larr;</a>
     </span>
-    $endif$
-    $if(next)$
+    {{/has_prev}}
+    {{#has_next}}
     <span class="next">
-        <a href="$next$">&rarr;</a>
+        <a href="/{{next}}">&rarr;</a>
     </span>
-    $endif$
-    <time>$date$</time>
-    $if(tags)$
-        <span class="tags">
-        $tags$
-        </span>
-    $endif$
+    {{/has_next}}
+    <time>{{date}}</time>
+
+    <span class="tags">
+        {{{html_tags}}}
+    </span>
 </p>
 <div class="content">
-    $body$
+    {{{content}}}
+
+    {{#has_related}}
+    <hr />
+
+    <h2>Related Posts</h2>
+
+    <p>If you liked this post, you might also enjoy:</p>
+
+    <ul>
+    {{#related}}
+      <li><a href="/{{canonical_url}}">{{title}}</a></li>
+    {{/related}}
+    </ul>
+    {{/has_related}}
 </div>
 
 <div class="comments">
     <div id="disqus_thread"></div>
     <script>
     var disqus_config = function () {
-        var slug = "$slug$";
+        var slug = "{{slug}}";
         this.page.url = "http://sandymaguire.me/blog/" + slug;
         this.page.identifier = slug;
     };
@@ -44,3 +59,5 @@
     </noscript>
 </div>
 </article>
+
+{{> templates/footer.html}}

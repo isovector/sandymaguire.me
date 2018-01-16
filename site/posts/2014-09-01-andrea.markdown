@@ -3,7 +3,8 @@ layout: post
 title: "Part 2: A Dostoevskian Love Story"
 description: "In which I meet a woman"
 category: stories
-modified: 2014-09-01
+date: 2014-09-01 12:00:00
+tags: stories
 
 imagefeature: picture-33.jpg
 comments: true

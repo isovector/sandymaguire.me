@@ -1,3 +1,6 @@
+{-# LANGUAGE DeriveAnyClass #-}
+{-# LANGUAGE DeriveGeneric  #-}
+
 module ClipIt
     ( Clipping (..)
     , getClippings
@@ -6,19 +9,19 @@ module ClipIt
     , canonicalName
     ) where
 
-import Control.Arrow ((***))
 import Control.Applicative ((<$>), (<|>))
+import Control.Arrow ((***))
+import Control.Monad (liftM2, join, void)
+import Data.Aeson
 import Data.Char (toLower, isAlphaNum, isSpace)
 import Data.DateTime
-import Data.Either (rights)
-import Data.List (nub, sort)
-import Text.Regex
+import Data.List (nub)
 import Data.Time.Clock
 import Data.Time.LocalTime (localTimeToUTC, utc)
-import Text.ParserCombinators.Parsec hiding ((<|>))
-import Debug.Trace (trace, traceM)
-import Control.Monad (liftM, liftM2, join)
 import Data.Time.Parse (strptime)
+import GHC.Generics (Generic)
+import Text.ParserCombinators.Parsec hiding ((<|>))
+import Text.Regex
 
 data Clipping =
     Clipping
@@ -27,64 +30,30 @@ data Clipping =
     , author   :: String
     , added    :: DateTime
     , contents :: String
-    } deriving (Show, Eq)
+    } deriving (Show, Eq, Generic, ToJSON, FromJSON)
 
--- I Will Teach You to Be Rich (Sethi Ramit)
--- - Highlight on Page 10 | Loc. 153-54  | Added on Sunday, March 29, 2015, 04:11 PM
-
--- Who wins at the end of the day? The self-satisfied people who heatedly
--- debate some obscure details? Or the people who sidestep the entire debate
--- and get started?
--- ==========
-
-authorWord :: GenParser Char st String
-authorWord =
-    do
-        spaces
-        result <- choice
-            [ do
-                char '('
-                result <- many $ noneOf ")"
-                char ')'
-                return result
-            , do
-                char '-'
-                spaces
-                line
-            ]
-        eol
-        return result
-
-
-titleWord :: GenParser Char st String
-titleWord = manyTill anyChar . try $ lookAhead authorWord
 
 typeof :: GenParser Char st String
 typeof = do
   optional $ string "Your "
   choice $ map string ["Highlight", "Note", "Bookmark"]
 
-showTrace :: (Show a) => a -> a
-showTrace = trace =<< show
-
-getClippings :: [FilePath] -> IO [Clipping]
-getClippings = fmap (filter (("" /=) . author))
-             . fmap (join . fmap (either (error . show) id))
-             . sequence
-             . map (\f -> fmap (parseClippings f) $ readFile f)
-             . sort
+getClippings :: String -> [Clipping]
+getClippings = filter (("" /=) . author)
+             . either (error . show) id
+             . parseClippings
 
 
 onPage :: GenParser Char st ()
 onPage = do
-    choice [ string "Page"
-           , string "page"
-           ]
+    void $ choice [ string "Page"
+                  , string "page"
+                  ]
     spaces
-    many digit
+    void $ many digit
     optional $ do
       spaces
-      string "|"
+      void $ string "|"
       spaces
 
 parseSubtitle :: String -> (String, Maybe String)
@@ -110,21 +79,21 @@ clipping =
                     Nothing -> (("", Nothing), "")
 
         eol
-        string "- "
-        typeof
+        void $ string "- "
+        void typeof
         spaces
         optional $ do
-          string "on"
+          void $ string "on"
           spaces
         optional onPage
-        cLoc <- loc
-        string "|"
-        string " Added on "
+        _ <- loc
+        void $ string "|"
+        void $ string " Added on "
         Just time <- timeParser <$> line
-        many eol                       -- end of line
+        void $ many eol
         cContents <- line
         eol
-        many $ char '='
+        void . many $ char '='
         eol
         return Clipping
             { bookName = book
@@ -145,14 +114,14 @@ parseTime2 = fmap (localTimeToUTC utc . fst) . strptime "%A, %B %e, %Y %I:%M:%S 
 
 loc :: GenParser Char st (Int, Int)
 loc = do
-  string "Loc"
-  choice [ string "."
-         , string "ation"
-         ]
+  void $ string "Loc"
+  void $ choice [ string "."
+                , string "ation"
+                ]
   spaces
   start <- many digit
   endMaybe <- optionMaybe $ do
-    char '-'
+    void $ char '-'
     many digit
   spaces
   return . join (***) read $ case endMaybe of
@@ -163,8 +132,8 @@ loc = do
 
 
 -- The end of line character is \n
-eol :: GenParser Char st Char
-eol = oneOf "\n"
+eol :: GenParser Char st ()
+eol = void $ oneOf "\n"
 
 line :: GenParser Char st String
 line = many $ noneOf "\n"
@@ -175,8 +144,8 @@ parseFile = do
     many clipping
 
 
-parseClippings :: FilePath -> String -> Either ParseError [Clipping]
-parseClippings path input = parse parseFile path input
+parseClippings :: String -> Either ParseError [Clipping]
+parseClippings input = parse parseFile "parsing a file" input
 
 getBooks :: Either ParseError [Clipping] -> [(String, String)]
 getBooks (Left s) = error $ show s
@@ -191,25 +160,9 @@ canonicalName = replace ' ' '-'
   where spaceConcat a b = a ++ " " ++ b
         replace a b = map $ \c -> if (c == a) then b else c
 
-files = [ "clippings/age-of-em-daily-rituals.txt"
-        , "clippings/ai-to-zombies.txt"
-        , "clippings/atlas-shrugged-ending.txt"
-        , "clippings/believer-lightness-clock.txt"
-        , "clippings/dennet-ikigai.txt"
-        , "clippings/fail-everything-room.txt"
-        , "clippings/feynman-solitude.txt"
-        , "clippings/hpmor-silver-gatto.txt"
-        , "clippings/influence-atlas-shrugged.txt"
-        , "clippings/initial-commit.txt"
-        , "clippings/kegan-feynman.txt"
-        , "clippings/metaphors-rising-intelligence.txt"
-        , "clippings/misc-diamond-age.txt"
-        ]
 
-
-
-oldStyle :: String
-oldStyle = unlines
+_oldStyle :: String
+_oldStyle = unlines
   [ "Atlas Shrugged: (Centennial Edition) (Ayn Rand)"
   , "- Highlight on Page 1121 | Loc. 17178-79  | Added on Wednesday, November 04, 2015, 07:47 AM"
   , ""
@@ -217,8 +170,8 @@ oldStyle = unlines
   , "=========="
   ]
 
-newStyle :: String
-newStyle = unlines
+_newStyle :: String
+_newStyle = unlines
   [ "The Age of Em: Work, Love and Life when Robots Rule the Earth (Hanson, Robin)"
   , "- Your Highlight on Location 2837-2839 | Added on Sunday, June 19, 2016 3:43:11 PM"
   , ""

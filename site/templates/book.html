@@ -1,0 +1,25 @@
+{{> templates/header.html}}
+
+<article>
+<header>
+    <h2><a href="/{{url}}">Quotes for "{{title}}"</a></h2>
+</header>
+<p class="meta">
+    <time>Read: {{started}} &rarr; {{finished}}</time>
+    {{#author}}
+        <span class="tags">
+          {{author}}
+        </span>
+    {{/author}}
+</p>
+<div class="content">
+    {{#clippings}}
+    <p>{{body}}</p>
+    <hr class="chill" />
+    {{/clippings}}
+    </ul>
+</div>
+</article>
+
+{{> templates/footer.html}}
+

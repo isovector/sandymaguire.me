@@ -3,7 +3,8 @@ layout: post
 title: "Part 1: The Fucking Asshole"
 description: "In which we meet Rasmus"
 category: stories
-modified: 2014-08-27
+date: 2014-08-27 12:00:00
+tags: stories
 
 imagefeature: tokyo.jpg
 comments: true

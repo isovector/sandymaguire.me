@@ -4,6 +4,10 @@ title: The Year of Perpetual Motion
 date: 2018-01-02 11:22
 comments: true
 tags: effectiveness, life, goals
+related:
+  - 2017-review
+  - stories-from-2015
+  - 2014-postmortem
 ---
 
 I had a profound experience the other day. In preparation for the new year, I've
