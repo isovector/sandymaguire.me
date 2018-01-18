@@ -5,7 +5,7 @@ date: 2018-01-18 14:17
 comments: true
 tags: philosophy, analysis, life, tools
 related:
-  - affording-ascendency
+  - affording-ascendancy
   - chunking-conceptual-legos
   - time-compression
 ---

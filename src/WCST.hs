@@ -1,5 +1,6 @@
 {-# LANGUAGE NoMonomorphismRestriction #-}
 {-# LANGUAGE ScopedTypeVariables       #-}
+{-# LANGUAGE TypeApplications          #-}
 {-# LANGUAGE ViewPatterns              #-}
 {-# language DuplicateRecordFields     #-}
 {-# language OverloadedStrings         #-}
@@ -77,7 +78,8 @@ main = site $ do
                $ fmap ((^?! _Object . at "slug" . _Just . _String) &&& id) posts
       posts = flip fmap posts' $ \post ->
         post & _Object . at "related" . _Just . _Array
-                %~ fmap (\x -> slugList M.! (x ^?! _String))
+                %~ fmap (\x -> maybe (error $ "bad related slug: " <> x ^?! _String . _Text) id
+                             $ M.lookup (x ^?! _String) slugList)
 
   let tags   = getTags makeTagUrl posts
       newest = last posts
@@ -149,6 +151,8 @@ main = site $ do
       , "url" .= ("books/index.html" :: String)
       , "books" .= sortBy (comparing $ titleCompare . (^?! _Object . at "title" . _Just . _String . _Text)) books
       ]
+
+  copyFilesWith (drop 7) [ "static/*" ]
 
 
 writeTemplate' :: ToJSON a => String -> [a] -> SiteM ()
