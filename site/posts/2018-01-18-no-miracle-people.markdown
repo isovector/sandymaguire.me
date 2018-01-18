@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No Miracle People
-date: TO_BE_DETERMINED
+date: 2018-01-18 14:17
 comments: true
 tags: philosophy, analysis, life, tools
 related:
