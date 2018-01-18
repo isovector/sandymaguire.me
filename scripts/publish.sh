@@ -6,7 +6,7 @@ read wipslug
 echo -n "New slug: "
 read slug
 
-loc="we-can-solve-this/posts"
+loc="site/posts"
 
 WIP="wip/${wipslug}.markdown"
 SLUG="${loc}/$(date +'%Y-%m-%d')-${slug}.markdown"

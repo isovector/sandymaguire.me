@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Easy Way to Change the World
-date: TO_BE_DETERMINED
+date: 2018-01-16 16:59
 comments: true
 tags: strategy, history
 related:
