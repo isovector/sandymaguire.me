@@ -81,7 +81,7 @@ main = site $ do
                 %~ fmap (\x -> maybe (error $ "bad related slug: " <> x ^?! _String . _Text) id
                              $ M.lookup (x ^?! _String) slugList)
 
-  let tags   = getTags makeTagUrl posts
+  let tags   = getTags makeTagUrl $ reverse posts
       newest = last posts
 
       feed :: String -> Value
