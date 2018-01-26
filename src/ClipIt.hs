@@ -68,6 +68,7 @@ parseSubtitle l =
 clipping :: GenParser Char st Clipping
 clipping =
     do
+        optional $ char '\65279'
         meta <- line
         let regex = mkRegex "^(.*?) \\(([^)]*)\\)$|^(.*?) \\- (.*)$"
             matches = matchRegex regex meta
