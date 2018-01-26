@@ -20,7 +20,7 @@ newpost:
 	@./scripts/newpost.sh
 
 clippings:
-	flip -ub clippings/*
+	flip -ub site/clippings/*
 
 .PHONY: deploy test newpost clippings
 
