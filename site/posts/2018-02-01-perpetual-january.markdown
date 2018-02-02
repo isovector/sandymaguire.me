@@ -184,12 +184,12 @@ In term of the things I'm actually quantifying, it's also looking promising. The
 following numbers are what I've accomplished out of what I would have needed in
 order to be on track for the year:
 
-* Writing: 12488 / 6625 words
+* Writing: 14459 / 6625 words
 * Books: 5.52 / 4.42 books
 * Category Theory: 25 / 23 pages through Awodey
 * Meeting People: 42 / 44 people
 * Reaching Out: 7 / 9 people
-* Dates: 1 / 52 unique people
+* Dates: 1 / 4 unique people
 
 Meeting people and reaching out is pretty trivial -- I'll probably knock those
 out and get back up to being on track today or tomorrow.
