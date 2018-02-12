@@ -50,7 +50,7 @@ continuing, because the book is crap.
 
 ---
 
-I lead in with that quote about truth in literature, because it's the most
+I led in with that quote about truth in literature, because it's the most
 heinous problem in Blindness. Things happen not because they make any sense in
 the novel, but because they advance the plot. This is the definition of a plot
 hole, and as I've remarked earlier, Blindness is riddled with them.
