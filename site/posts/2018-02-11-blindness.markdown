@@ -9,15 +9,13 @@ related:
   - say-hi-to-lucy
 ---
 
-## I
-
 > When you are watching a horror movie and you know that the girl in the tank
 > top and panties shouldn't go into the basement alone, and you know she has
 > other options, but she goes into the basement anyway -- that's a lie. It only
 > happened because the storytellers wanted it to happen, not because it was a
 > logical thing a reasonable person would do.
 >
-> - Brian McDonald, Invisible Ink
+> -- Brian McDonald, Invisible Ink
 
 I finished the fantastic book [Invisible Ink][ink] the other day. With the
 subtitle "A Practical Guide to Building Stories that Resonate," it sounded like
@@ -50,8 +48,7 @@ me about why I didn't like Blindness. Needless to say, the remainder of this
 post is full of spoilers -- fair warning -- but don't let that dissuade you from
 continuing, because the book is crap.
 
-
-## II
+---
 
 I lead in with that quote about truth in literature, because it's the most
 heinous problem in Blindness. Things happen not because they make any sense in
