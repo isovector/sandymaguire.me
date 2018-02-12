@@ -1,0 +1,227 @@
+---
+layout: post
+title: "Blindness: Unable to See Its Own Flaws"
+date: 2018-02-11 20:24
+comments: true
+tags: book, review, criticism
+related:
+  - atlas-shrugged
+  - say-hi-to-lucy
+---
+
+## I
+
+> When you are watching a horror movie and you know that the girl in the tank
+> top and panties shouldn't go into the basement alone, and you know she has
+> other options, but she goes into the basement anyway -- that's a lie. It only
+> happened because the storytellers wanted it to happen, not because it was a
+> logical thing a reasonable person would do.
+>
+> - Brian McDonald, Invisible Ink
+
+I finished the fantastic book [Invisible Ink][ink] the other day. With the
+subtitle "A Practical Guide to Building Stories that Resonate," it sounded like
+the find of the century, since I'm currently working on a script (more on that
+another time!)
+
+[ink]: https://www.amazon.com/dp/B003T0GBOM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+
+The book is fantastic, but I don't want to talk about that today. I want to talk
+about another book I've read recently. That book is [Blindness][blindness] by
+Jos&eacute; Saramago. If you're curious if I also found Blindness "fantastic",
+well, I left the following review for it on [Goodreads][good]:
+
+[blindness]: https://www.amazon.com/dp/B003T0GBOM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+[good]: https://www.goodreads.com/review/show/875084730
+
+> Fuck everything about this book. It's full of plot holes and a bunch of people
+> who spend their entire time acting stupidly instead of fixing their damn
+> problems -- just so the author can wallow in misery porn. Avoid this book
+> unless you're looking for something that'll make you want to shove scissors
+> into your eyes.
+
+In the name of full disclosure, I didn't finish Blindness. I made it to 52%
+before realizing that I hated everything about the book, and that my goal to
+read a bunch of books this year wasn't worth suffering through the remainder of
+it. And so, maybe this book gets better at the end... but I'd doubt it.
+
+And so without further ado, I'd like discuss what reading Invisible Ink taught
+me about why I didn't like Blindness. Needless to say, the remainder of this
+post is full of spoilers -- fair warning -- but don't let that dissuade you from
+continuing, because the book is crap.
+
+
+## II
+
+I lead in with that quote about truth in literature, because it's the most
+heinous problem in Blindness. Things happen not because they make any sense in
+the novel, but because they advance the plot. This is the definition of a plot
+hole, and as I've remarked earlier, Blindness is riddled with them.
+
+A quick recap: some dude (we aren't given any names, which I'll get into a hot
+minute) goes blind mysteriously. He visits an ophthalmologist, who stares into
+the blind man's eyes, and doesn't see any lesions or other obvious problems. The
+question is left open, whether the blindness is a problem in the man's eyes, or
+in his brain. The ophthalmologist promptly gives up, and sends the man home.
+
+Later that night, the eye doc thinks to himself "hmm, I wonder what would happen
+to his pupils if I shined light into them?" Great question. Why didn't he think
+of this sooner?  I thought of it. Presumably the professional with at least
+eight years of medical school who specializes in eyes would think of trying the
+simplest test in the book.
+
+We are left with three possible conclusions. The first is that Saramago didn't
+know what he was talking about, but he does eventually suggest doing the test,
+so this is unlikely the answer. The second is that the doctor is not a very good
+doctor. Unfortunately, the rest of the story doesn't really us to entertain
+this; the ophthalmologist is exceptionally able in most other regards, and there
+is no earlier lamp-shading that he might have cheated his way through med-school
+or some other silly explanation.
+
+All that remains is the third option: the ophthalmologist didn't check the man's
+pupils because Saramago didn't know how they'd respond. The [Wikipedia
+article][wiki] describes the blindness as being of an "unexplained origin and
+nature" which supports this line of argument.
+
+[wiki]: https://en.wikipedia.org/wiki/Blindness_(novel)#Plot_summary
+
+Now don't get me wrong; I'm not saying that the blindness needs to be explained.
+In fact, it's probably better literature if it isn't. But that's not a blank
+cheque for the author to write dumb characters. An easy fix is for the test to
+result in something completely unheard of, like the man's eyes changing color,
+or flickering, or something. It doesn't matter what happens, so long as the
+audience doesn't lose their suspension of disbelief.
+
+While it seems like a minor point, I don't think it is. This kind of untruthful
+storytelling is endemic throughout the novel. Too often things happen because
+they're thematic, rather than sensical. I get that the armature of the book is
+how tenuous modern civilization is, but that doesn't mean you're allowed to
+throw human nature out the window as soon as things get tough.
+
+For example, after the doctor and his (non-blind) wife are joined by the first
+cohort of those blinded quarantined, the group unanimously decides that names
+won't be necessary:
+
+> We're so remote from the world that any day now, we shall no longer know who
+> we are, or even remember our names, and besides, what use would names be to
+> us, no dog recognizes another dog or knows the others by the names they have
+> been given, a dog is identified by its scent and that is how it identifies
+> others, here we are like another breed of dogs, we know each other's [sic]
+> bark or speech, as for the rest, features, colour of eyes or hair, they are of
+> no importance, it is as if they did not exist.
+
+To be certain, physical appearances likely don't factor much into life when
+you're blind. But attractiveness is not what makes a person, and it is exactly
+in these times of hardship that those things we slough under the category of
+"personality traits" come into their own. [Names are important][runback].
+
+[runback]: /blog/sandy-runback/
+
+Regardless, when the next group arrives, despite explicit prompting, they too,
+have forsaken names:
+
+> The doctor's wife remarked, It would be best if they could be counted and each
+> person gave their name. Motionless, the blind internees hesitated, but someone
+> had to make a start, two of the men spoke at once, it always happens, both
+> then fell silent, and it was the third man who began, Number one, he paused,
+> it seemed he was about to give his name, but what he said was, I'm a police-
+> man, and the doctor's wife thought to herself, He didn't give his name, he too
+> knows that names are of no importance here. An other man was introducing
+> himself, Number two, and he followed the example of the first man, I'm a
+> taxi-driver. The third man said, Number three, I'm a pharmacist's assistant.
+> Then a woman spoke up, Number four, I'm a hotel maid, and the last one of all,
+> Number five, I work in an office.
+
+Excusing this in the name of thematics is missing the point. Think of how much
+stronger these scenes would be if our protagonists tried their best to hold onto
+their identities, but found themselves always being blamed by the other
+internees for things they hadn't done, found themselves in a losing battle
+against the society they found themselves in, in which identities truly didn't
+matter. Harder to execute, certainly, but unarguably a much more meaningful
+thematic experience.
+
+It is well established that those people quarantined fall into two groups: the
+blind, and those suspected of being infectious. The two groups have their own
+wards in a shared mental institution -- apart, but not separated from one
+another. For some reason, the two groups never meet, despite how endlessly the
+blind wallow in the pity of their situation. "If only we had someone who could
+see!"
+
+It strikes me as dubious that not once did any of the dozens of blind folk
+decide to wander over to the other ward and say "hey guys, you realize we're all
+in this together, right? They're obviously not going to let you out until all of
+this is over. So would you mind helping us out, in exchange for having the help
+of the others who can see should you yourself go blind?" It's not exactly
+teamwork rocket-science, this stuff.
+
+There's a reasonable argument to be made against this, which is hinted at only
+implicitly by the novel, and even then, only about 30% of the novel later. The
+argument is this: what if the blindness is exceptionally contagious, and the
+fear of that is what stops the sighted ones from helping. As it happens, this is
+in fact what turns out to be the case, but neither the audience nor those
+quarantined have knowledge of this fact. I found myself continually asking "why
+doens't the government just send in a guy in a hazmat suit to go sort this out
+for all of the blind people?"
+
+I suspect that the answer is not "because it wouldn't be thematic," but rather
+that Saramago didn't think about it. My impression is that Saramago himself knew
+that hazmat suits wouldn't work in this world, but he committed a vile sin by
+not having the decency to tell his readers about such a thing. I'd be more than
+willing to accept this if it were established that someone had tried, and that
+the blindness infected them anyway -- that shit would be scary. Again, what's
+important here is not the *facts*, but the *verisimilitude*.
+
+However, none of this is what really ruined the book for me. Consider it,
+perhaps, missed opportunities for world-building at best, and lazy writing at
+worst. What really solidified this book in my mind as gratuitous "misery porn",
+is the rape stuff.
+
+At some point, some bad blind dudes smuggle a handgun into the asylum, and form
+a gang. They take all of the food, and then require payment in terms of jewelry
+and other valuables in order for the others to receive their food. After the
+first few meals, nobody has any gold left to give them, and so they start asking
+for women instead:
+
+> After a week, the blind hoodlums sent a message saying that they wanted women.
+> Just like that, Bring us women. This unexpected demand, although not
+> altogether unusual, caused an outcry as one might have expected, the
+> bewildered emissaries who had come with the order returned at once to
+> communicate that the wards, the three on the right and the two on the left,
+> not excepting the blind men and women who were sleeping on the floor, had
+> decided unanimously to ignore this degrading imposition, arguing that human
+> dignity, in this instance feminine, could not be debased to this extent, and
+> that if the third ward on the left-hand side had no women, the responsibility,
+> if any, could not be laid at their door.
+
+This, as it happens, is the extent of the outcry. There are a few more
+paragraphs about some men arguing about their "manly pride" about letting their
+wives leave:
+
+> I, too, would prefer my wife not to go, but what I want serves no purpose, she
+> has said she is prepared to go, that was her decision, I know that my manly
+> pride, this thing we call male pride, if after so many humiliations we still
+> preserve something worthy of that name, I know that it will suffer, it already
+> is, I cannot avoid it, but it is probably the only solution, if we want to
+> live.
+
+And that's the extent of it. The shattering of their manly pride (and not being
+labeled as homosexuals) seems to be the only thing on these men's minds. The
+women collectively decide they will surrender themselves to these demands, and
+this, I can maybe believe -- sacrificing oneself for the good of the group, and
+all of that noble stuff that horrendous situations presumably engender. What I
+can't believe here is the men's reactions. "Oh, you want to rape my wife? That
+is an affront to my honor."
+
+Now maybe things have changed drastically since 1995 when this book was
+published, but can you imagine a single man who is going to let his wife or
+girlfriend be raped without him going out swinging? I can't. Sure, the bad guys
+have one (a single) gun, but they're blind and what, absolute best case, are
+going to be able to kill six people? Isn't the well-being of someone you love
+worth that? Especially so, if we are to believe Saramago, that these people have
+indeed lost their will to live.
+
+This is where I gave up on reading Blindness. Life is too short for powering
+through poorly-motivated, lazily-written, gratuitous misery porn. All in all,
+1/5 stars, and only because that was the fewest I could give it. Don't waste
+your time or your mood on this fetid piece of literary garbage.
+
