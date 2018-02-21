@@ -7,6 +7,95 @@ tags:
 ---
 
 
+## How to use this guide
+
+This guide is divided into rough "subgenres" of rap music. For the most part,
+these aren't going to be the subgenres you'd find in other listings. Rather,
+they categorize the music by its strengths and notable features rather than by
+its social context. Instead of listing music as, *e.g.* "southern crunk," it
+might instead be listed as "poetic." While the traditional labeling schemes are
+helpful when you're familiar with the genre itself, they're not particularly
+useful when you don't know what you're looking for.
+
+And so, I would suggest this guide be used in the following way. If you're
+completely new to rap music, listen to a random sampling of the tracks TODO
+immediately below this. I've handpicked these to be relatively diverse in their
+sound, yet all should be relatively easy to listen to. Should you not like any
+of them, rap is probably not going to be a genre you'll enjoy.
+
+However, if you do like some, pay attention to the feelings they evoke in you,
+and to what it is you like about them. Do you like the music behind the words?
+Maybe it's the impressive speed with which these people are able to spit out
+words. Or it could be you appreciate the storytelling or poetry of the lyrics.
+Once you have a rough understanding of the parts you like, find the closest
+subgenre listed below, and go through its tracks. If you find an artist whose
+music you like, branch out to other subgenres they're listed under and give
+those a listen, too.
+
+With any luck, you'll find a few artists you like. From there, I'd suggest
+asking Google what their best album is, and listening to that all the way
+through. You're probably not going to like every track on it, but I'm certain
+you'll find some that you do. Rap music often features multiple artists on a
+track, and so explore other artists who collaborate with your favorites. Rappers
+with similar styles will usually work together, and so this is a great way to
+expand your taste beyond this guide.
+
+There's a lot of prose in this guide, which is usually intended to give you some
+signposts for things to which you might benefit from paying attention. That
+being said, the majority of the contributions here is the list of music itself.
+Feel free to skip the text if all you're looking for is some new bangers.
+
+
+## Caveats and other disclaimers
+
+Rap music comes with its fair share of criticism towards many of its themes.
+It's been accused of being misogynistic, racist, of promoting drug-use and
+immoral behavior, alongside a bevy of other antisocial accusations. While these
+blasts are not without merit, it is crucial to remember that rap music is a
+*medium*. In the same way that it's possible to appreciate well-written
+literature even while disagreeing with its central premise, one should be
+willing to grant hip-hop the same suspension of dislike. Of course, if a track
+or artist isn't for you, that's OK, but one should be capable of appreciating
+the art of a medium even without necessarily approving of its subject.
+
+Along these lines, often rap music will deal with themes (and have titles) that
+might be considered unpleasant to a sensitive listener. It should be understood
+that this list is a compilation of music that I like, and as such, I will not
+censor myself of any titles or tracks that might be deemed impolite.
+
+Furthermore, the music represented here is first and foremost *music that I
+like.* If you are already a rap aficionado, the absence of a favorite track or
+artist of yours, it's nothing to be upset about. If you think my list is
+drastically wrong, feel free to write your own (and if you send me an email,
+I'll even link to it here!)
+
+And so, without further ado, let's get into the music.
+
+
+## Start Here
+
+The following is a list of tracks I consider widely easy to listen to. If none
+of them tickle your toes, rap music might not be for you.
+
+* Buck 65 - Wicked and Weird
+* Childish Gambino - Heartbeat
+* Dr. Dre - Nuthin' But a 'G' Thang
+* Drake - The Motto
+* First Serve - Pushin' Aside, Pushin' Along
+* Flo Rida - Right Round
+* Ice Cube - It Was a Good Day
+* JAY-Z - Empire State of Mind
+* Kanye West - Gold Digger
+* Kendrick Lamar - i
+* MF DOOM - Hoe Cakes
+* Nas - The World is Yours
+* Shad - I Get Down
+* Will Smith - Gettin' Jiggy Wit It
+
+
+---
+
+
 Hip hop is a vastly diverse genre. Therefore, it shouldn't be a surprise that
 different sub-genres of hip hop will appeal to different people. Traditionally,
 there are a few primary facets of rap music worth paying attention to. These are
@@ -37,21 +126,6 @@ As you work your way through the following tracks, try to pay attention to the
 beats, lyricism and flow of each. It is likely that one of the three will speak
 to you more than the others. You will likely notice a correlation between the
 tracks you like and those that more heavily feature your favored aspect.
-
-* Buck 65 - Wicked and Weird
-* Childish Gambino - Heartbeat
-* Dr. Dre - Nuthin' But a 'G' Thang
-* Drake - The Motto
-* First Serve - Pushin' Aside, Pushin' Along
-* Flo Rida - Right Round
-* Ice Cube - It Was a Good Day
-* JAY-Z - Empire State of Mind
-* Kanye West - Gold Digger
-* Kendrick Lamar - i
-* MF DOOM - Hoe Cakes
-* Nas - The World is Yours
-* Shad - I Get Down
-* Will Smith - Gettin' Jiggy Wit It
 
 
 ## A Brief History of Rap Music
