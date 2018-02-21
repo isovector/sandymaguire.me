@@ -81,6 +81,9 @@ tracks you like and those that more heavily feature your favored aspect.
 * Lil Dicky - Russel Westbrook on a Farm
 * Nujabes - Luv(sic) Parts 1-6
 * Shad - Telephone
+* Milo - Sweet Chin Music
+* Milo - Folk Metaphysics, 2nd ed.
+* Milo - Souvenir
 
 
 ## Feels
@@ -316,7 +319,7 @@ Some tracks:
 * Reflection Eternal - 2000 Seasons
 * Snoop Dogg - Down 4 My N's
 * TM Juke - Get It Together
-* Talib Kweli - Deliver Us Part 1
+* Talib Kweli - Deliver Us
 * Talib Kweli - Uh Oh
 * Talib Kweli - Wack Niggaz
 * The Nextmen - Against the Madness
@@ -326,3 +329,27 @@ Some tracks:
 * Wu-Tang Clan - Sound the Horns
 * Xzibit - Paparazzi
 * Xzibit - The Foundation
+
+* Earl Sweatshirt - Inside
+* Earl Sweatshirt - Faucet
+* Joyner Lucas - Ultrasound
+* Joyner Lucas - I'm Not Racist
+* Isaiah Rashad - Cilvia Demo
+* Scarface - Keep It Moving'
+* Blu & Exile - Good Morning Neighbor
+* Tyler, the Creator - I Ain't Got Time
+* Tyler, the Creator - Pothole
+* Big Daddy Kane - Ain't No Half Steppin'
+* The Nextman - Amongst the Madness
+* Pharoahe Monch - D.R.E.A.M.
+* One Self - Fear the Labour
+* R.A. The Rugged Man - The Dangerous Three
+* Robert Glasper Experiment - I Stand Alone
+* RZA - Grits
+* Skiggy Rapz - Steppin' On My Rhyme
+* Action Bronson - Baby Blue
+* Action Bronson - Terry
+* STS - Don't Get Played
+* Gorillaz - Clint Eastwood
+* Cappadonna - Slang Editorial
+*
