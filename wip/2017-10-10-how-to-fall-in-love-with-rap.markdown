@@ -92,16 +92,24 @@ of them tickle your toes, rap music might not be for you.
 * Shad - I Get Down
 * Will Smith - Gettin' Jiggy Wit It
 
+* De La Soul - Buddy
+* Eric B. & Rakim - I Know You Got Soul
+* Notorious B.I.G. - Hypnotize
+* Run-DMC - It's Tricky
+* Snoop Dogg - Gin and Juice
+* Tupac - I Ain't Mad At Cha
+* Warren G - Regulate
+* Wu-Tang Clan - C.R.E.A.M.
 
----
 
+## The Three Pillars
 
-Hip hop is a vastly diverse genre. Therefore, it shouldn't be a surprise that
-different sub-genres of hip hop will appeal to different people. Traditionally,
+Hip-hop is a vastly diverse genre. Therefore, it shouldn't be a surprise that
+different sub-genres of hip-hop will appeal to different people. In my opinion,
 there are a few primary facets of rap music worth paying attention to. These are
 the *beats*, the *lyricism* and the *flow*.
 
-The *beats* are the backing instrumentals. Hip hop is different from most other
+The *beats* are the backing instrumentals. Hip-hop is different from most other
 genres of music in that it generally has very simple backing. It is not uncommon
 for a beat to be a few bars sampled from a completely different genre (funk is a
 popular one, though!)
@@ -118,34 +126,31 @@ staccato. It might be easygoing and reminiscent of storytelling, or it might
 feel artificial and affected. The flow, in other words, characterizes the
 performance of a song.
 
-I've tried to make a starter playlist that should be widely accessible, yet
-still be varied in its selections. You probably won't like all of these, but if
-you don't like any, then rap might not be the genre for you.
-
-As you work your way through the following tracks, try to pay attention to the
-beats, lyricism and flow of each. It is likely that one of the three will speak
-to you more than the others. You will likely notice a correlation between the
-tracks you like and those that more heavily feature your favored aspect.
+As you go through the following tracks, try to keep an ear open to the three
+pillars: beats, lyricism and flow. See if any of them resounds more strongly in
+you than the others.
 
 
-## A Brief History of Rap Music
+## PARTY MUSIC
 
-## Outrageous
+Looking for an easy playlist for a small get-together? The music here is
+categorized by catchy beats, light subject matter, and being relatively well
+known. You're probably not going to impress anyone by knowing this music, but
+you might get some looks if you *don't.*
 
-* Azealia Banks - 212
-* Danny Brown - I Will
-* DzK - Highschool Girls
-* Hopsin - I'm Not Introducing You
-* Ludacris - Move Bitch
-* Obie Trice - Got Some Teeth
-* Pastor Troy - Throw It Up
-* TRPL BLK - Balls Deep
-* Tone Loc - Funky Cold Medina
-* Tonedef - Disappointed
-* Tyler, the Creator - Steak Sauce
+* Atmosphere - Smart Went Crazy
+* Big Daddy Kane - Ain't No Half Steppin'
+* Big Sean - I Do It
+* DMX - Party Up
+* Gorillaz - Clint Eastwood
+* House of Pain - Jump Around
+* Kanye West - G.O.O.D. Friday
+* Mac Dre - Feelin' Myself
+* Masta Ace - Nineteen Seventy Something
+* Notorious B.I.G. - Juicy
 
 
-## Poetic
+## POETIC RAP
 
 * Atmosphere - GodLovesUgly
 * Atmosphere - My Notes
@@ -153,15 +158,17 @@ tracks you like and those that more heavily feature your favored aspect.
 * Eddie Caine - Aqua 8s and Heartaches
 * Jay Electronica - The Pledge
 * Lil Dicky - Russel Westbrook on a Farm
-* Nujabes - Luv(sic) Parts 1-6
-* Shad - Telephone
-* Milo - Sweet Chin Music
 * Milo - Folk Metaphysics, 2nd ed.
 * Milo - Souvenir
+* Nujabes - Luv(sic) Parts 1-6
+* Shad - Telephone
 
 
-## Feels
+## Subgenre: Emotionally Expressive
 
+* Scarface - Keep It Moving'
+* Mick Jenkins - Communicate
+* Atmosphere - Your Name Here
 * B.o.B - Generation Lost
 * Buck 65 - Mr. Nobody
 * DJ Honda - Trouble in the Water
@@ -176,26 +183,7 @@ tracks you like and those that more heavily feature your favored aspect.
 * Tech N9ne - Fragile
 
 
-## Technically Impressive
-
-* A\$AP Rocky - 1Train
-* Big Sean - Control
-* Busta Rhymes - Break Ya Neck
-* Eminem - Rabbit Run
-* Eminem - Wicked Ways
-* Isaiah Rashad - Soliloquy
-* J. Cole - Fire Squad
-
-
-## Clever AF
-
-* Aesop Rock - Daylight / Night Light
-* Epik High - Follow the Flow
-* Jean Grae - Kill Screen
-* Shad - Telephone
-
-
-## Heavy
+## Subgenre: Heavy Themes
 
 * Danny Brown - 30
 * Earl Sweatshirt - Inside
@@ -207,48 +195,97 @@ tracks you like and those that more heavily feature your favored aspect.
 * Tyler, the Creator - Yonkers
 
 
+## Subgenre: Technically Impressive
 
-## Fun
+* A\$AP Rocky - 1Train
+* Aesop Rock - None Shall Pass
+* Big Sean - Control
+* Busta Rhymes - Break Ya Neck
+* Busta Rhymes - Match the Name with the Voice
+* Eminem - Rabbit Run
+* Eminem - Wicked Ways
+* Isaiah Rashad - Soliloquy
+* J. Cole - Fire Squad
+* Jay Electronica - Exhibition C
+* Talib Kweli - 2000 Seasons
+* Talib Kweli - Uh Oh
 
+
+## Subgenre: Clever Wordplay
+
+* De La Soul - Rock Co.Kane Flow
+* Aesop Rock - Daylight / Night Light
+* De La Soul - All Good
+* Epik High - Follow the Flow
+* Jean Grae - Kill Screen
+* Shad - Telephone
+* D-WHY - Shooter McGavin
+
+
+## Subgenre: Ridiculous
+
+* Azealia Banks - 212
+* Danny Brown - I Will
+* DzK - Highschool Girls
+* Hopsin - I'm Not Introducing You
+* Ludacris - Move Bitch
+* Mos Def - Ms. Fat Booty
+* Obie Trice - Got Some Teeth
+* Pastor Troy - Throw It Up
+* TRPL BLK - Balls Deep
+* Tone Loc - Funky Cold Medina
+* Tonedef - Disappointed
+* Tyler, the Creator - Steak Sauce
+
+
+## Subgenre: Fun
+
+* Danny Brown - Adderall Admiral
+* Lil Dicky - \$ave Dat Money
+* J. Cole - Can't Get Enough
 * Atmosphere - Besos
-* Danny Brown - XXX
 * Del tha Funky Homosapien - If You Must
 * Eminem - Just Lose It
 * Joey Bada\$\$ - Big Dusty
-* Kanye West - G.O.O.D. Friday
 * Lil Wayne - A Milli
 * Lupe Fiasco - Gotta Eat
 * Outkast - Roses
 * Riff Raff - Orion's Belt
 * STS - Doin' It Right
-* STS - WWW
 * Shad - Real Game
 * Shad - The Old Prince Still Lives at Home
 * Trinidad James - All Gold Everything
 * Yung Humma - Lemme Smang It
 
 
-## Beats
+## Subgenre: Interesting Beats
+
 
 * Ash Roth - Pabst and Jazz
 * Beastie Boys - Brass Monkey
+* Blu & Exile - Good Morning Neighbor
 * Busta Rhymes - You Ain't Fuckin' Wit Me
 * Danny Brown - Float On
 * Eminem - Rhyme or Reason
 * Ghostface Killah - Sour Soul
 * Gift of Gab - The Writz
-* Jay Electronica - Exhibition C
+* Intuition & Equalibrium - Ain't the Blues
 * Jean Grae - Nah'mean Nah'm Sayin
 * Kid Cudi - Make Her Say
 * Lil Wayne - 6 Foot 7 Foot
-* Lupe Fiasco - The Cool
+* Lupe Fiasco - Gold Watch
+* One Self - Fear the Labour
+* STS - Don't Get Played
 * Scarface - My Block
+* Tyler, the Creator - I Ain't Got Time
 * Viktor Vaughn - Ode to Road Rage
 * Wiz Khalifa - Black and Yellow
 * Your Old Droog - 48th Streep
 
+SOUR SOUL
 
-## Storytelling
+
+## Subgenre: Storytelling
 
 * Biz Markie - Just a Friend
 * Buck 65 - Riverbed Parts 1 2 3 4 5 6 7
@@ -257,6 +294,7 @@ tracks you like and those that more heavily feature your favored aspect.
 * Eminem - Like Toy Soldiers
 * Eminem - Stan
 * Immortal Technique - Dance with the Devil
+* Isaiah Rashad - Cilvia Demo
 * Jean Grae - Don't Rush Me
 * Joell Ortiz - Call Me
 * Notorious B.I.G. - Niggas Bleed
@@ -265,18 +303,19 @@ tracks you like and those that more heavily feature your favored aspect.
 * Viktor Vaughn - Let Me Watch
 
 
-## Genre Bending
+## Subgenre: Genre Bending
 
+* Robert Glasper Experiment - I Stand Alone
 * Buck 65 - Paper Airplane
 * Buck 65 - Talking Fishing Blues
 * Phish - Gettin' Jiggy Wit It
+* Scatman John - Let It Go
 * Snoop Dogg - My Medicine
 * The Uncluded - Delicate Cycle
 * WHY? - Sod in the Seed
 
 
-
-## Women
+## Subgenre: Women Rappers
 
 * Ana Tijoux - 1977
 * Azealia Banks - 212
@@ -294,8 +333,9 @@ tracks you like and those that more heavily feature your favored aspect.
 * Riff Raff (feat. Kitty Pryde) - Orion's Belt
 
 
-## Non-English
+## Subgenre: Non-English
 
+* Daddy Yankee - Gasolina
 * Ana Tijoux - 1977
 * Daddy Gasolina - Somos de Calle Remix
 * Epik High - Fly
@@ -303,9 +343,11 @@ tracks you like and those that more heavily feature your favored aspect.
 * TBNY - Hey DJ
 
 
-## Gangster
+## Subgenre: Gangster Rap
 
+* Dr. Dre - Still D.R.E.
 * Birdman - Always Strapped
+* Snoop Dogg - Down 4 My N's
 * DMX - X Gon' Give It to Ya
 * Geto Boys - Damn It Feels Good to Be a Gangsta
 * House of Pain - I'm A Swing It
@@ -313,117 +355,54 @@ tracks you like and those that more heavily feature your favored aspect.
 * Kendrick Lamar - Money Trees
 * Scarface - No Tears
 
-## Heavy Flow
+## Subgenre: Heavy Flow
 
+* Tonedef - Case Closed
 * Cunninlynguists - Love Ain't
 * Eminem - Rap God
 * Kirk Knight - Good Knight
 * Tech N9ne - So Dope
-
-Some tracks:
-
-* De La Soul - Buddy
-* Eric B. & Rakim - I Know You Got Soul
-* Notorious B.I.G. - Hypnotize
-* Run-DMC - It's Tricky
-* Snoop Dogg - Gin and Juice
-* Tupac - I Ain't Mad At Cha
-* Warren G - Regulate
-* Wu-Tang Clan - C.R.E.A.M.
-
-
-* Dr. Dre - Still D.R.E.
-* Kendrick Lamar - Kush & Corinthians
-
-
-* A\$AP Rock - Suddenly
-* Aesop Rock - None Shall Pass
-* Atmosphere - Smart Went Crazy
-* Atmosphere - The Best Day
-* Atmosphere - Your Name Here
-* B.o.B - I'll Be in the Sky
 * Big Pun - Punish Me
-* Big Sean - 100 Keys
-* Big Sean - Don't Tell Me You Love Me
-* Big Sean - I Do It
-* Buck 65 - Tired Out
-* Busta Rhymes - Match the Name with the Voice
+* Joyner Lucas - Ultrasound
+
+
+Smooth Flow
 * Craig Mac - Flava in Ya Ear
-* Cypress Hill - Insane in the Brain
-* D-WHY - Shooter McGavin
-* DMX - Ain't No Sunshine
-* DMX - Party Up
-* Daddy Yankee - Gasolina
 * DangerDOOM - Space Hos
-* Danny Brown - Adderall Admiral
-* De La Soul - All Good
-* De La Soul - Ego Trippin' Part 2
-* De La Soul - Rock Co.Kane Flow
-* De La Soul - Stakes is High
-* Denzel Curry - Zenith
-* Earl Sweatshirt - Off Top
-* GZA - Liquid Swords
-* House of Pain - Jump Around
-* Inspired Flight - It's the Chemicals
-* Intuition & Equalibrium - Ain't the Blues
-* J. Cole - Can't Get Enough
-* Jaydiohead - No Karma
-* Joell Ortiz - Good Man Is Gone
-* Joell Ortiz - So Hard
 * Joey Bada\$\$ - Sorry Bonita
-* Joey Bada\$\$ - TEMPTATION
+* A\$AP Rock - Suddenly
+* Cappadonna - Slang Editorial
+* Earl Sweatshirt - Off Top
 * Kendrick Lamar - Members Only
+* Wu-Tang Clan - Sound the Horns
+* Joell Ortiz - Good Man Is Gone
+* Thesis Sahib - Sin and Secrecy
+
+
+ANGER
+* Action Bronson - Baby Blue
 * Kendrick Lamar - The Blacker the Berry
+* Joyner Lucas - I'm Not Racist
+* Big Sean - Don't Tell Me You Love Me
+
+
+HOPELESSNESS
+* Earl Sweatshirt - Faucet
 * Kid Cudi - Erase Me
 * Kid Cudi - Up Up & Away
-* Lil Dicky - \$ave Dat Money
-* Lil Jon & The East Side Boyz - Get Low
-* Lil Wayne - Stuntin' Like My Daddy
-* Mac Dre - Feelin' Myself
-* Madvillian - All Caps
-* Masta Ace - Nineteen Seventy Something
-* Mick Jenkins - Communicate
-* Mos Def - Ms. Fat Booty
-* Murs - Murs Day
-* NehruvianDOOM - Om
-* Notorious B.I.G. - Come On
-* Notorious B.I.G. - Juicy
-* Olu - I'm Ballin
-* People Under the Stairs - Acid Raindrops
-* Reflection Eternal - 2000 Seasons
-* Snoop Dogg - Down 4 My N's
-* TM Juke - Get It Together
-* Talib Kweli - Deliver Us
-* Talib Kweli - Uh Oh
-* Talib Kweli - Wack Niggaz
-* The Nextmen - Against the Madness
-* Thesis Sahib - Sin and Secrecy
-* Tonedef - Case Closed
-* Viktor Vaughn - Lickupon
-* Wu-Tang Clan - Sound the Horns
-* Xzibit - Paparazzi
-* Xzibit - The Foundation
+* Kendrick Lamar - Kush & Corinthians
+* Inspired Flight - It's the Chemicals
+* Buck 65 - Tired Out
+* Danny Brown - XXX
 
-* Earl Sweatshirt - Inside
-* Earl Sweatshirt - Faucet
-* Joyner Lucas - Ultrasound
-* Joyner Lucas - I'm Not Racist
-* Isaiah Rashad - Cilvia Demo
-* Scarface - Keep It Moving'
-* Blu & Exile - Good Morning Neighbor
-* Tyler, the Creator - I Ain't Got Time
-* Tyler, the Creator - Pothole
-* Big Daddy Kane - Ain't No Half Steppin'
-* The Nextman - Amongst the Madness
+
+
+Positive Messages
+
+* Xzibit - The Foundation
 * Pharoahe Monch - D.R.E.A.M.
-* One Self - Fear the Labour
-* R.A. The Rugged Man - The Dangerous Three
-* Robert Glasper Experiment - I Stand Alone
-* RZA - Grits
-* Skiggy Rapz - Steppin' On My Rhyme
-* Action Bronson - Baby Blue
-* Action Bronson - Terry
-* STS - Don't Get Played
-* Gorillaz - Clint Eastwood
-* Cappadonna - Slang Editorial
-*
+* Atmosphere - The Best Day
+* Murs - Murs Day
+* TM Juke - Get It Together
+
+
