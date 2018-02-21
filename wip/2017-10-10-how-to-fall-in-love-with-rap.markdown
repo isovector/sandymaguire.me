@@ -166,8 +166,6 @@ you might get some looks if you *don't.*
 
 ## Subgenre: Emotionally Expressive
 
-* Scarface - Keep It Moving'
-* Mick Jenkins - Communicate
 * Atmosphere - Your Name Here
 * B.o.B - Generation Lost
 * Buck 65 - Mr. Nobody
@@ -177,8 +175,10 @@ you might get some looks if you *don't.*
 * J. Cole - Lost Ones
 * JAY-Z - Song Cry
 * Kendrick Lamar - Keisha's Song
+* Mick Jenkins - Communicate
 * N.E.R.D. - Provider
 * Sam Lachow - Play Pretend
+* Scarface - Keep It Moving'
 * Shad - Out of Love
 * Tech N9ne - Fragile
 
@@ -213,13 +213,13 @@ you might get some looks if you *don't.*
 
 ## Subgenre: Clever Wordplay
 
-* De La Soul - Rock Co.Kane Flow
 * Aesop Rock - Daylight / Night Light
+* D-WHY - Shooter McGavin
 * De La Soul - All Good
+* De La Soul - Rock Co.Kane Flow
 * Epik High - Follow the Flow
 * Jean Grae - Kill Screen
 * Shad - Telephone
-* D-WHY - Shooter McGavin
 
 
 ## Subgenre: Ridiculous
@@ -240,13 +240,13 @@ you might get some looks if you *don't.*
 
 ## Subgenre: Fun
 
-* Danny Brown - Adderall Admiral
-* Lil Dicky - \$ave Dat Money
-* J. Cole - Can't Get Enough
 * Atmosphere - Besos
+* Danny Brown - Adderall Admiral
 * Del tha Funky Homosapien - If You Must
 * Eminem - Just Lose It
+* J. Cole - Can't Get Enough
 * Joey Bada\$\$ - Big Dusty
+* Lil Dicky - \$ave Dat Money
 * Lil Wayne - A Milli
 * Lupe Fiasco - Gotta Eat
 * Outkast - Roses
@@ -305,10 +305,10 @@ SOUR SOUL
 
 ## Subgenre: Genre Bending
 
-* Robert Glasper Experiment - I Stand Alone
 * Buck 65 - Paper Airplane
 * Buck 65 - Talking Fishing Blues
 * Phish - Gettin' Jiggy Wit It
+* Robert Glasper Experiment - I Stand Alone
 * Scatman John - Let It Go
 * Snoop Dogg - My Medicine
 * The Uncluded - Delicate Cycle
@@ -335,9 +335,9 @@ SOUR SOUL
 
 ## Subgenre: Non-English
 
-* Daddy Yankee - Gasolina
 * Ana Tijoux - 1977
 * Daddy Gasolina - Somos de Calle Remix
+* Daddy Yankee - Gasolina
 * Epik High - Fly
 * Keny Arkana - La Rage
 * TBNY - Hey DJ
@@ -345,64 +345,67 @@ SOUR SOUL
 
 ## Subgenre: Gangster Rap
 
-* Dr. Dre - Still D.R.E.
 * Birdman - Always Strapped
-* Snoop Dogg - Down 4 My N's
 * DMX - X Gon' Give It to Ya
+* Dr. Dre - Still D.R.E.
 * Geto Boys - Damn It Feels Good to Be a Gangsta
 * House of Pain - I'm A Swing It
 * Ice Cube - Go To Church
 * Kendrick Lamar - Money Trees
 * Scarface - No Tears
+* Snoop Dogg - Down 4 My N's
 
 ## Subgenre: Heavy Flow
 
-* Tonedef - Case Closed
+* Big Pun - Punish Me
 * Cunninlynguists - Love Ain't
 * Eminem - Rap God
+* Joyner Lucas - Ultrasound
 * Kirk Knight - Good Knight
 * Tech N9ne - So Dope
-* Big Pun - Punish Me
-* Joyner Lucas - Ultrasound
+* Tonedef - Case Closed
 
 
 Smooth Flow
-* Craig Mac - Flava in Ya Ear
-* DangerDOOM - Space Hos
-* Joey Bada\$\$ - Sorry Bonita
+
 * A\$AP Rock - Suddenly
 * Cappadonna - Slang Editorial
+* Craig Mac - Flava in Ya Ear
+* DangerDOOM - Space Hos
 * Earl Sweatshirt - Off Top
-* Kendrick Lamar - Members Only
-* Wu-Tang Clan - Sound the Horns
 * Joell Ortiz - Good Man Is Gone
+* Joey Bada\$\$ - Sorry Bonita
+* Kendrick Lamar - Members Only
 * Thesis Sahib - Sin and Secrecy
+* Wu-Tang Clan - Sound the Horns
 
 
 ANGER
+
 * Action Bronson - Baby Blue
-* Kendrick Lamar - The Blacker the Berry
-* Joyner Lucas - I'm Not Racist
 * Big Sean - Don't Tell Me You Love Me
+* Joyner Lucas - I'm Not Racist
+* Kendrick Lamar - The Blacker the Berry
 
 
 HOPELESSNESS
-* Earl Sweatshirt - Faucet
-* Kid Cudi - Erase Me
-* Kid Cudi - Up Up & Away
-* Kendrick Lamar - Kush & Corinthians
-* Inspired Flight - It's the Chemicals
+
 * Buck 65 - Tired Out
 * Danny Brown - XXX
+* Earl Sweatshirt - Faucet
+* Inspired Flight - It's the Chemicals
+* Kendrick Lamar - Kush & Corinthians
+* Kid Cudi - Erase Me
+* Kid Cudi - Up Up & Away
 
 
 
 Positive Messages
 
-* Xzibit - The Foundation
-* Pharoahe Monch - D.R.E.A.M.
 * Atmosphere - The Best Day
 * Murs - Murs Day
+* Pharoahe Monch - D.R.E.A.M.
 * TM Juke - Get It Together
+* Xzibit - The Foundation
 
 
