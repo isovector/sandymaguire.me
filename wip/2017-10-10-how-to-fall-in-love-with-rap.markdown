@@ -227,13 +227,13 @@ you might get some looks if you *don't.*
 ## Subgenre: Ridiculous
 
 * [Azealia Banks - 212](https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N)
-* [Danny Brown - I Will](https://open.spotify.com/track/1iVHnOntYYBQt6SJ5OhLWQ)
 * [DZK - Highschool Girls](https://open.spotify.com/track/0YX3xAG2w1xBbuspTEsy5J)
+* [Danny Brown - I Will](https://open.spotify.com/track/1iVHnOntYYBQt6SJ5OhLWQ)
 * [Hopsin - I'm Not Introducing You](https://open.spotify.com/track/2975eOXzPqpHb3FtryzRMZ)
+* [Lil Jon - Throw It Up](https://open.spotify.com/track/7MSwclTvW6KLLkTbmw9FUQ)
 * [Ludacris - Move Bitch](https://open.spotify.com/track/1Q9b6CeMcDuO0uq5OJCrqu)
 * [Mos Def - Ms. Fat Booty](https://open.spotify.com/track/0IVAlb0cFCH1cQ974iR1TU)
 * [Obie Trice - Got Some Teeth](https://open.spotify.com/track/7tszeVkfxO5ISkjZWpIG88)
-* [Lil Jon - Throw It Up](https://open.spotify.com/track/7MSwclTvW6KLLkTbmw9FUQ)
 * [TRPL BLK - Balls Deep](https://www.youtube.com/watch?v=CloCds8CNVc)
 * [Tone-Loc - Funky Cold Medina](https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe)
 * [Tonedeff - Disappointed](https://open.spotify.com/track/2ABYsjibXbMypBHlULAD1N)
@@ -320,8 +320,8 @@ SOUR SOUL
 
 * [Ana Tijoux - 1977](https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ)
 * [Azealia Banks - 212](https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N)
-* [Gifted Gab - Problems](https://open.spotify.com/track/2Bh7BYwV262ttXHj1RQWP3)
 * [Blue Sky Black Death - Ahead of the Game](https://open.spotify.com/track/3Nu5MGv5LXMBtZr2BoPwFo)
+* [Gifted Gab - Problems](https://open.spotify.com/track/2Bh7BYwV262ttXHj1RQWP3)
 * [Jean Grae - Don't Rush Me](https://open.spotify.com/track/1gMCYB8iPiCRAiwEXePBMk)
 * [Jean Grae - Kill Screen](https://open.spotify.com/track/4pUoUYloKhaaAZahVFzTJ4)
 * [Jean Grae - My Story](https://www.youtube.com/watch?v=jFz6ECvaiqQ)
@@ -336,8 +336,8 @@ SOUR SOUL
 ## Subgenre: Non-English
 
 * [Ana Tijoux - 1977](https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ)
-* [Daddy Yankee - Somos de Calle Remix](https://www.youtube.com/watch?v=ktKdnhP7IK0)
 * [Daddy Yankee - Gasolina](https://open.spotify.com/track/6jEZLz3YpnEBRpVkv35AmP)
+* [Daddy Yankee - Somos de Calle Remix](https://www.youtube.com/watch?v=ktKdnhP7IK0)
 * [Epik High - Fly](https://open.spotify.com/track/3N17JQ2yJjQTUOt706Uj6h)
 * [Keny Arkana - La Rage](https://open.spotify.com/track/26r6bZ8iSiuucgNXfWyRyv)
 * [TBNY - Hey DJ](https://www.youtube.com/watch?v=E2Ubvj4aT8A)
