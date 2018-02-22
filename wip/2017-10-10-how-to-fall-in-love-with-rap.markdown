@@ -1,6 +1,5 @@
 ---
 layout: post
-layoutOPTIONS_GHC -fno-warn-orphans
 title: A Beginner's Guide to Rap Music
 date: 2017-10-10 22:38
 comments: true
@@ -132,136 +131,8 @@ pillars: beats, lyricism and flow. See if any of them resounds more strongly in
 you than the others.
 
 
-## PARTY MUSIC
 
-Looking for an easy playlist for a small get-together? The music here is
-categorized by catchy beats, light subject matter, and being relatively well
-known. You're probably not going to impress anyone by knowing this music, but
-you might get some looks if you *don't.*
-
-* [Atmosphere - Smart Went Crazy](https://open.spotify.com/track/5ELeYitO5MSdzNQBTpAnRw)
-* [Big Daddy Kane - Ain't No Half-Steppin'](https://open.spotify.com/track/0dNiLb9FEHrRK7VFDJctiR)
-* [Big Sean - I Do It](https://open.spotify.com/track/7KtvphOkomIs0EJ7LC7IFM)
-* [DMX - Party Up](https://open.spotify.com/track/4MxZW1XEcPuIZmkANsJabC)
-* [Gorillaz - Clint Eastwood](https://open.spotify.com/track/7yMiX7n9SBvadzox8T5jzT)
-* [House Of Pain - Jump Around](https://open.spotify.com/track/3TZwjdclvWt7iPJUnMpgcs)
-* [Kanye West - GOOD Friday](https://www.youtube.com/watch?v=Ptbqn-7VJUk)
-* [Mac Dre - Feelin' Myself](https://open.spotify.com/track/6SahMe6Q2BqUfnDQ2P9Xea)
-* [Masta Ace - Ninteen Seventy Something](https://open.spotify.com/track/5nP1e5QSwT07XR2zpTVJGc)
-* [Notorious B.I.G. - Juicy](https://open.spotify.com/track/5ByAIlEEnxYdvpnezg7HTX)
-
-
-## POETIC RAP
-
-* [Atmosphere - GodLovesUgly](https://open.spotify.com/track/5cq5kRxz0r21ys49CwEV45)
-* [Atmosphere - My Notes](https://open.spotify.com/track/2H1GkggjKmNMbO0lrpJpV3)
-* [Buck 65 - Blood Of A Young Wolf](https://open.spotify.com/track/2AlmuEyTmhFsU1PfyKveL0)
-* [Eddie Caine - Aqua 8s and Heartaches](https://soundcloud.com/eddiecaine-2/sets/aqua-8s-heartaches)
-* [Jay Electronica - The Pledge](https://www.youtube.com/watch?v=sWc4DG1s53g)
-* [Lil Dicky - Russel Westbrook on a Farm](https://www.youtube.com/watch?v=AOgBg2up7Jg)
-* [Milo - Folk-Metaphysics, 2nd ed.](https://open.spotify.com/track/4Z87DQDqRmt8XQmbKb3yar)
-* [Milo - Souvenir](https://open.spotify.com/track/2prHMFvkekTqqFdB5r6QJJ)
-* [Nujabes - Luv(sic) Parts 1-6](https://www.youtube.com/watch?v=wGfguhnvECc)
-* [Shad - Telephone](https://open.spotify.com/track/2Pl5VZhXCQHczbnGpsB8fI)
-
-
-## Subgenre: Emotionally Expressive
-
-* [Atmosphere - Your Name Here](https://open.spotify.com/track/2rPjWpn76p5oK7MOW4KvTh)
-* [B.o.B - Generation Lost](https://open.spotify.com/track/58CWwfJXgMPNqKYqOopsvU)
-* [Buck 65 - Mr Nobody](https://open.spotify.com/track/14cG39Dvd6WoP9VTFUi2At)
-* [DJ Honda - Trouble in the Water](https://www.youtube.com/watch?v=CbtZj73LSMw)
-* [Eminem - Lose Yourself](https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ)
-* [Hopsin - Heather Nicole](https://open.spotify.com/track/3gPfyQ2IsoaCut0B3SRxIr)
-* [J. Cole - Lost Ones](https://open.spotify.com/track/3FWR4iiUUPHIK7OpiEgh8J)
-* [Jaydiohead - Song Cry](https://www.youtube.com/watch?v=YXUnOGqpTEE)
-* [Kendrick Lamar - Keisha's Song](https://open.spotify.com/track/0bcCgRudYZ4kiOHZNZfqxU)
-* [Mick Jenkins - Communicate](https://open.spotify.com/track/0udCQ78g2s33TELmtndMqd)
-* [N.E.R.D - Provider](https://open.spotify.com/track/6H99B8iTsXgCpRzGpyVgCS)
-* [Sam Lachow - Play / Pretend](https://open.spotify.com/track/1ehylmVgZZVl7RtPmmSZ7J)
-* [Scarface - Keep It Movin'](https://open.spotify.com/track/0XbdJ7DTM5VYKje5dc6S02)
-* [Shad - Out Of Love](https://open.spotify.com/track/3erHLOs45hgtBKjBhsBa0F)
-* [Tech N9ne - Fragile](https://open.spotify.com/track/7L3YDa0Fd8pmzpAyu6EKOS)
-
-
-## Subgenre: Heavy Themes
-
-* [Danny Brown - 30](https://open.spotify.com/track/76pvh4YUJdtxyVA37w7Fsp)
-* [Earl Sweatshirt - Inside](https://open.spotify.com/track/6e1Vn7zlOKQ14SdOfAZlpS)
-* [Jean Grae - My Story](https://www.youtube.com/watch?v=jFz6ECvaiqQ)
-* [Johnny Polygon - Lovesick](https://open.spotify.com/track/2kUrsyQbyNvN3ATql5IyFV)
-* [Lupe Fiasco - Intruder Alert](https://open.spotify.com/track/2fjOaSt26CeQCCCgn8brsH)
-* [Sam Lachow - 80 Bars Part 6](https://www.youtube.com/watch?v=kNuG-8deghg)
-* [Sam Lachow - Wrong Man](https://open.spotify.com/track/2iCsHWWYzSCJ6Z0MyeOv6h)
-* [Tyler, The Creator - Yonkers](https://open.spotify.com/track/1zsAAnB6dMpGOvXjoYP9Um)
-
-
-## Subgenre: Technically Impressive
-
-* [A\$AP Rocky - 1Train](https://open.spotify.com/track/7AijU6oTPGmG64uWf63Qvc)
-* [Aesop Rock - None Shall Pass](https://open.spotify.com/track/5DJTYOAHZEKjNqXpOwnomi)
-* [Big Sean - Control](https://www.youtube.com/watch?v=W7zdMeZPkpY)
-* [Busta Rhymes - Break Ya Neck](https://open.spotify.com/track/0svl7cK07gK1ia5ainczU5)
-* [Busta Rhymes - Match The Name With The Voice](https://open.spotify.com/track/3dlAIAxU3wZwMJXPPP234O)
-* [Eminem - Rabbit Run](https://open.spotify.com/track/30KKYkJ0lonfKI2eaLACnZ)
-* [Eminem - Wicked Ways](https://open.spotify.com/track/4dfAUJI1QesmK5HfK9gtYs)
-* [Isaiah Rashad - Soliloquy](https://open.spotify.com/track/00ogmsZiK6dB0QVUDBeehZ)
-* [J. Cole - Fire Squad](https://open.spotify.com/track/4Tjh34RS4ACZ6f6srlDBg8)
-* [Jay Electronica - Exhibit C](https://open.spotify.com/track/2TcWNtN8aiBHAS4DWVvpPb)
-* [Talib Kweli - 2000 Seasons](https://open.spotify.com/track/0uCIPyaPjArUBR1dyGiRfs)
-* [Talib Kweli - Uh Oh](https://open.spotify.com/track/17U29EUD2UpASwXbw0bKSW)
-
-
-## Subgenre: Clever Wordplay
-
-* [Aesop Rock - Daylight](https://open.spotify.com/track/3COHXcLRK9brRjMolzkD7Y)
-* [Aesop Rock - Night Light](https://open.spotify.com/track/2PNQeJgqa3H2CpRcn5ypru)
-* [D-WHY - Shooter McGavin](https://www.youtube.com/watch?v=tDE0xQQlgZw)
-* [De La Soul - All Good](https://www.youtube.com/watch?v=Dy-FE7A7gwI)
-* [De La Soul - Rock Co.Kane Flow](https://www.youtube.com/watch?v=nmte57oKe6U)
-* [Epik High - Follow The Flow](https://open.spotify.com/track/5S1jCoPvPytK4tKtWERRq7)
-* [Jean Grae - Kill Screen](https://open.spotify.com/track/4pUoUYloKhaaAZahVFzTJ4)
-* [Shad - Telephone](https://open.spotify.com/track/2Pl5VZhXCQHczbnGpsB8fI)
-
-
-## Subgenre: Ridiculous
-
-* [Azealia Banks - 212](https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N)
-* [DZK - Highschool Girls](https://open.spotify.com/track/0YX3xAG2w1xBbuspTEsy5J)
-* [Danny Brown - I Will](https://open.spotify.com/track/1iVHnOntYYBQt6SJ5OhLWQ)
-* [Hopsin - I'm Not Introducing You](https://open.spotify.com/track/2975eOXzPqpHb3FtryzRMZ)
-* [Lil Jon - Throw It Up](https://open.spotify.com/track/7MSwclTvW6KLLkTbmw9FUQ)
-* [Ludacris - Move Bitch](https://open.spotify.com/track/1Q9b6CeMcDuO0uq5OJCrqu)
-* [Mos Def - Ms. Fat Booty](https://open.spotify.com/track/0IVAlb0cFCH1cQ974iR1TU)
-* [Obie Trice - Got Some Teeth](https://open.spotify.com/track/7tszeVkfxO5ISkjZWpIG88)
-* [TRPL BLK - Balls Deep](https://www.youtube.com/watch?v=CloCds8CNVc)
-* [Tone-Loc - Funky Cold Medina](https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe)
-* [Tonedeff - Disappointed](https://open.spotify.com/track/2ABYsjibXbMypBHlULAD1N)
-* [Tyler, The Creator - Steak Sauce](https://open.spotify.com/track/7iB57PpM6HkCr7KUVeTrBq)
-
-
-## Subgenre: Fun
-
-* [Atmosphere - Besos](https://open.spotify.com/track/6EtM5tNa0XoroLGhvXgs5R)
-* [Danny Brown - Adderall Admiral](https://open.spotify.com/track/2dHTQP3IWIuOD6C1uhwGRD)
-* [Del The Funky Homosapien - If You Must](https://open.spotify.com/track/4QdtxZiSFl0GYrXWOHc3y8)
-* [Eminem - Just Lose It](https://open.spotify.com/track/0qcjuYtMWhBjXg0Xwt5SzS)
-* [J. Cole - Can't Get Enough](https://open.spotify.com/track/20wR5XQpaL1uvVY8gmc4uY)
-* [Joey Bada\$\$ - Big Dusty](https://open.spotify.com/track/3eRu1vN9EBHm9DqzYpjCp3)
-* [Lil Dicky - \$ave Dat Money](https://open.spotify.com/track/6AoYWCzsDls6c61Zp5qTuU)
-* [Lil Wayne - A Milli](https://open.spotify.com/track/6ScJMrlpiLfZUGtWp4QIVt)
-* [Lupe Fiasco - Gotta Eat](https://open.spotify.com/track/3UZH1lr5vx7S19ilecUtwj)
-* [OutKast - Roses](https://open.spotify.com/track/6bUNEbXT7HovLW6BgPCBsb)
-* [Riff Raff - Orions Belt](https://open.spotify.com/track/1Z7qnPAL1RwerFirINUR4w)
-* [STS - Doin' It Right](https://open.spotify.com/track/1eW4xUWUcrB0bGmj9hybs2)
-* [Shad - Real Game](https://open.spotify.com/track/5lxQLMwSct7mmXC9rAGidO)
-* [Shad - The Old Prince Still Lives At Home](https://open.spotify.com/track/63rPZecnzrzYj0Fp3rPiOO)
-* [Trinidad James - All Gold Everything](https://open.spotify.com/track/0pgeVJrdNok4KhbiM58ayZ)
-* [Yung Humma - Lemme Smang It](https://open.spotify.com/track/6wP5uuy0xBEyGl137e3Pu2)
-
-
-## Subgenre: Interesting Beats
-
+## Emphasis on Beats
 
 * [Ash Roth - Pabst and Jazz](https://open.spotify.com/track/1QP50QGEURn9DVMOMcW0Ts)
 * [Beastie Boys - Brass Monkey](https://open.spotify.com/track/2tY1gxCKslfXLFpFofYmJQ)
@@ -283,10 +154,36 @@ you might get some looks if you *don't.*
 * [Wiz Khalifa - Black And Yellow](https://open.spotify.com/track/5A6OHHy73AR5tLxgTc98zz)
 * [Your Old Droog - 48th Street](https://open.spotify.com/track/1wxbAUgcLNqoovOiSxDTed)
 
-SOUR SOUL
 
 
-## Subgenre: Storytelling
+
+## Emphasis on Lyricism
+
+### POETIC
+
+* [Atmosphere - GodLovesUgly](https://open.spotify.com/track/5cq5kRxz0r21ys49CwEV45)
+* [Atmosphere - My Notes](https://open.spotify.com/track/2H1GkggjKmNMbO0lrpJpV3)
+* [Buck 65 - Blood Of A Young Wolf](https://open.spotify.com/track/2AlmuEyTmhFsU1PfyKveL0)
+* [Eddie Caine - Aqua 8s and Heartaches](https://soundcloud.com/eddiecaine-2/sets/aqua-8s-heartaches)
+* [Jay Electronica - The Pledge](https://www.youtube.com/watch?v=sWc4DG1s53g)
+* [Lil Dicky - Russel Westbrook on a Farm](https://www.youtube.com/watch?v=AOgBg2up7Jg)
+* [Milo - Folk-Metaphysics, 2nd ed.](https://open.spotify.com/track/4Z87DQDqRmt8XQmbKb3yar)
+* [Milo - Souvenir](https://open.spotify.com/track/2prHMFvkekTqqFdB5r6QJJ)
+* [Nujabes - Luv(sic) Parts 1-6](https://www.youtube.com/watch?v=wGfguhnvECc)
+* [Shad - Telephone](https://open.spotify.com/track/2Pl5VZhXCQHczbnGpsB8fI)
+
+### CLEVER WORDPLAY
+
+* [Aesop Rock - Daylight](https://open.spotify.com/track/3COHXcLRK9brRjMolzkD7Y)
+* [Aesop Rock - Night Light](https://open.spotify.com/track/2PNQeJgqa3H2CpRcn5ypru)
+* [D-WHY - Shooter McGavin](https://www.youtube.com/watch?v=tDE0xQQlgZw)
+* [De La Soul - All Good](https://www.youtube.com/watch?v=Dy-FE7A7gwI)
+* [De La Soul - Rock Co.Kane Flow](https://www.youtube.com/watch?v=nmte57oKe6U)
+* [Epik High - Follow The Flow](https://open.spotify.com/track/5S1jCoPvPytK4tKtWERRq7)
+* [Jean Grae - Kill Screen](https://open.spotify.com/track/4pUoUYloKhaaAZahVFzTJ4)
+* [Shad - Telephone](https://open.spotify.com/track/2Pl5VZhXCQHczbnGpsB8fI)
+
+### EMPHASIS ON STORYTELLING
 
 * [Biz Markie - Just A Friend](https://open.spotify.com/track/3yNVfRQlUPViUh8O2V9SQn)
 * Buck 65 - Riverbed Parts [1](https://open.spotify.com/track/18gsFSk4rT9RKivD0tCwdq) [2](https://open.spotify.com/track/own91s2E9fkVt0dcEIuMG) [3](https://open.spotify.com/track/gPHSTV1gJrETID1jwWTza) [4](https://open.spotify.com/track/2Xr3Z24buUP18gogLW9nt) [5](https://open.spotify.com/track/rQnabG55lOiOCNU5LxC62) [6](https://open.spotify.com/track/KlujzsFdnFjTiXyyM4tj3) [7](https://open.spotify.com/track/1WfFmMVdT6B6EeyR8VSDe)
@@ -304,19 +201,171 @@ SOUR SOUL
 * [Viktor Vaughn - Can I Watch?](https://open.spotify.com/track/4i4P1ACAeWcyJTxQSd0prx)
 
 
-## Subgenre: Genre Bending
-
-* [Buck 65 - Paper Airplane](https://open.spotify.com/track/6xdCj4p7w42ZH6EbB9zvLx)
-* [Buck 65 - Talking Fishing Blues](https://open.spotify.com/track/536jgOa1WR1Gu6idfRCur3)
-* [Phish - Gettin' Jiggy Wit It](https://open.spotify.com/track/7nsLTsE3X93Isuv0qfUgN0)
-* [Robert Glasper Experiment - I Stand Alone](https://open.spotify.com/track/19tAqV4F3ffuE6yMipwDn9)
-* [Scatman John - Let It Go](https://open.spotify.com/track/5e4fXtNCelFTDUd5RYk8GK)
-* [Snoop Dogg - My Medicine](https://open.spotify.com/track/5BL4FPMaF1vmw65OV7yPnE)
-* [The Uncluded - Delicate Cycle](https://open.spotify.com/track/2GA1qg3okvPf9yGfuPktU4)
-* [WHY? - Sod in the Seed](https://open.spotify.com/track/60fqKJrYHODUzNQk74rdqk)
 
 
-## Subgenre: Women Rappers
+## Emphasis on Flow
+
+### TECHNICALLY IMPRESSIVE
+
+* [A\$AP Rocky - 1Train](https://open.spotify.com/track/7AijU6oTPGmG64uWf63Qvc)
+* [Aesop Rock - None Shall Pass](https://open.spotify.com/track/5DJTYOAHZEKjNqXpOwnomi)
+* [Big Sean - Control](https://www.youtube.com/watch?v=W7zdMeZPkpY)
+* [Busta Rhymes - Break Ya Neck](https://open.spotify.com/track/0svl7cK07gK1ia5ainczU5)
+* [Busta Rhymes - Match The Name With The Voice](https://open.spotify.com/track/3dlAIAxU3wZwMJXPPP234O)
+* [Eminem - Rabbit Run](https://open.spotify.com/track/30KKYkJ0lonfKI2eaLACnZ)
+* [Eminem - Wicked Ways](https://open.spotify.com/track/4dfAUJI1QesmK5HfK9gtYs)
+* [Isaiah Rashad - Soliloquy](https://open.spotify.com/track/00ogmsZiK6dB0QVUDBeehZ)
+* [J. Cole - Fire Squad](https://open.spotify.com/track/4Tjh34RS4ACZ6f6srlDBg8)
+* [Jay Electronica - Exhibit C](https://open.spotify.com/track/2TcWNtN8aiBHAS4DWVvpPb)
+* [Talib Kweli - 2000 Seasons](https://open.spotify.com/track/0uCIPyaPjArUBR1dyGiRfs)
+* [Talib Kweli - Uh Oh](https://open.spotify.com/track/17U29EUD2UpASwXbw0bKSW)
+
+
+### HEAVY FLOW
+
+* [Big Pun - Punish Me](https://open.spotify.com/track/06kMGyiybLptwh9hkmhsV5)
+* [Cunninlynguists - Love Ain't](https://open.spotify.com/track/6qfna7A7WvUwyNoqVwbhnc)
+* [Eminem - Rap God](https://open.spotify.com/track/6or1bKJiZ06IlK0vFvY75k)
+* [Joyner Lucas - Ultrasound](https://open.spotify.com/track/37iVijLSSlIbjYbl4ycUge)
+* [Kirk Knight - Good Knight](https://open.spotify.com/track/63m5If0k65YQytMcT91JZI)
+* [Tech N9ne - So Dope](https://open.spotify.com/track/6W19n0LX71Lr7TJc9qwwem)
+* [Tonedeff - Case Closed](https://open.spotify.com/track/24QQx8uSPjQqhhSLMKxaZb)
+
+
+### SMOOTH FLOW
+
+* [A\$AP Rocky - Suddenly](https://open.spotify.com/track/5oJ6pSfpV5HH9QBeXyNMjJ)
+* [Cappadonna - Slang Editorial](https://open.spotify.com/track/4mhjQJhJxX2vbXQA7iemX2)
+* [Craig Mack - Flava in Ya Ear](https://open.spotify.com/track/3X414ZlCf5U7pcpIaIcUkT)
+* [Danger DOOM - Space Hos](https://open.spotify.com/track/7C1j16FmovrwUlkn3X9cP6)
+* [Earl Sweatshirt - Off Top](https://open.spotify.com/track/0Tnv9pQJ1CZfqTpW15xOCL)
+* [Joell Ortiz - Good Man Is Gone](https://open.spotify.com/track/6J7cJqCppCvy8UM3Vi15tH)
+* [Joey Bada\$\$ - Sorry Bonita](https://www.youtube.com/watch?v=BUxLyl1Ucmg)
+* [Kendrick Lamar - Blow My High](https://open.spotify.com/track/6jl01C724Mk68qlOQLco5I)
+* [Thesis Sahib - Sin and Secrecy](https://open.spotify.com/track/1hZAra4PanDNXiKl9GsmPv)
+* [Wu-Tang Clan - Sound The Horns](https://open.spotify.com/track/5KxADn5vhcHtJwV4slTM1Y)
+
+
+
+
+## Particular Moods
+
+### INSPIRING
+
+* [Atmosphere - The Best Day](https://open.spotify.com/track/1WPQ1MfGc8KYi4eu0JwjlR)
+* [B.o.B - Generation Lost](https://open.spotify.com/track/58CWwfJXgMPNqKYqOopsvU)
+* [Eminem - Lose Yourself](https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ)
+* [Murs - Murs Day](https://open.spotify.com/track/7ygki366SWNrd1GHXxLoof)
+* [Pharoahe Monch - D.R.E.A.M.](https://open.spotify.com/track/1ELozWj7PFZvpeAF4coCqo)
+* [TM Juke - Get It Together](https://open.spotify.com/track/21bDxOZP1ZjmXsVmhQ5XlF)
+* [Xzibit - The Foundation](https://open.spotify.com/track/5aRgtLBY5fYQ0RwTDvEYX1)
+
+
+### ANGER
+
+* [Action Bronson - Baby Blue](https://open.spotify.com/track/7gDwRzJhLs0fFHaGtMDJVM)
+* [Big Sean - Don't Tell Me You Love Me](https://open.spotify.com/track/0O29lIj6AZCrjCKyZjhdCE)
+* [Buck 65 - Mr Nobody](https://open.spotify.com/track/14cG39Dvd6WoP9VTFUi2At)
+* [Joyner Lucas - I'm Not Racist](https://open.spotify.com/track/0hL8yBivUahlm1rhQ1a0Xx)
+* [Kendrick Lamar - The Blacker The Berry](https://open.spotify.com/track/5Mtt6tZSZA9cXTHGSGpyh0)
+
+
+### HOPELESSNESS
+
+* [Buck 65 - Tired Out](https://open.spotify.com/track/6ULdRHZ8w5owCMBFWAnkA1)
+* [Danny Brown - XXX](https://open.spotify.com/track/6BAKNnYzWjE7OYlWanmRDq)
+* [Earl Sweatshirt - Faucet](https://open.spotify.com/track/7KKW3MSfqCCai76gKSZEco)
+* [Inspired Flight - It's The Chemicals](https://open.spotify.com/track/1jAQNmO34oMOB7vns0ojLr)
+* [Kendrick Lamar - Kush & Corinthians](https://open.spotify.com/track/705u4LfXcTBuDOB8UCy0A7)
+* [Kid Cudi - Erase Me - Main](https://open.spotify.com/track/6XkuklKiHYVTlVvWlTgQYP)
+* [Kid Cudi - Up Up & Away](https://open.spotify.com/track/1RUTIdTnFs8lHSc0Zr4UJB)
+* [Shad - Out Of Love](https://open.spotify.com/track/3erHLOs45hgtBKjBhsBa0F)
+
+
+### DARK
+
+* [Danny Brown - 30](https://open.spotify.com/track/76pvh4YUJdtxyVA37w7Fsp)
+* [Earl Sweatshirt - Inside](https://open.spotify.com/track/6e1Vn7zlOKQ14SdOfAZlpS)
+* [Hopsin - Heather Nicole](https://open.spotify.com/track/3gPfyQ2IsoaCut0B3SRxIr)
+* [J. Cole - Lost Ones](https://open.spotify.com/track/3FWR4iiUUPHIK7OpiEgh8J)
+* [Jean Grae - My Story](https://www.youtube.com/watch?v=jFz6ECvaiqQ)
+* [Johnny Polygon - Lovesick](https://open.spotify.com/track/2kUrsyQbyNvN3ATql5IyFV)
+* [Kendrick Lamar - Keisha's Song](https://open.spotify.com/track/0bcCgRudYZ4kiOHZNZfqxU)
+* [Lupe Fiasco - Intruder Alert](https://open.spotify.com/track/2fjOaSt26CeQCCCgn8brsH)
+* [Sam Lachow - 80 Bars Part 6](https://www.youtube.com/watch?v=kNuG-8deghg)
+* [Sam Lachow - Wrong Man](https://open.spotify.com/track/2iCsHWWYzSCJ6Z0MyeOv6h)
+* [Scarface - Keep It Movin'](https://open.spotify.com/track/0XbdJ7DTM5VYKje5dc6S02)
+* [Tyler, The Creator - Yonkers](https://open.spotify.com/track/1zsAAnB6dMpGOvXjoYP9Um)
+
+
+### REDEMPTION
+
+* [Atmosphere - Your Name Here](https://open.spotify.com/track/2rPjWpn76p5oK7MOW4KvTh)
+* [DJ Honda - Trouble in the Water](https://www.youtube.com/watch?v=CbtZj73LSMw)
+* [Jaydiohead - Song Cry](https://www.youtube.com/watch?v=YXUnOGqpTEE)
+* [Mick Jenkins - Communicate](https://open.spotify.com/track/0udCQ78g2s33TELmtndMqd)
+* [N.E.R.D - Provider](https://open.spotify.com/track/6H99B8iTsXgCpRzGpyVgCS)
+* [Sam Lachow - Play / Pretend](https://open.spotify.com/track/1ehylmVgZZVl7RtPmmSZ7J)
+* [Tech N9ne - Fragile](https://open.spotify.com/track/7L3YDa0Fd8pmzpAyu6EKOS)
+
+
+
+
+## Miscellaneous Categories
+
+### EASY LISTENING
+
+Looking for an easy playlist for a small get-together? The music here is
+categorized by catchy beats, light subject matter, and being relatively well
+known. You're probably not going to impress anyone by knowing this music, but
+you might get some looks if you *don't.*
+
+* [Atmosphere - Smart Went Crazy](https://open.spotify.com/track/5ELeYitO5MSdzNQBTpAnRw)
+* [Big Daddy Kane - Ain't No Half-Steppin'](https://open.spotify.com/track/0dNiLb9FEHrRK7VFDJctiR)
+* [Big Sean - I Do It](https://open.spotify.com/track/7KtvphOkomIs0EJ7LC7IFM)
+* [DMX - Party Up](https://open.spotify.com/track/4MxZW1XEcPuIZmkANsJabC)
+* [Gorillaz - Clint Eastwood](https://open.spotify.com/track/7yMiX7n9SBvadzox8T5jzT)
+* [House Of Pain - Jump Around](https://open.spotify.com/track/3TZwjdclvWt7iPJUnMpgcs)
+* [Kanye West - GOOD Friday](https://www.youtube.com/watch?v=Ptbqn-7VJUk)
+* [Mac Dre - Feelin' Myself](https://open.spotify.com/track/6SahMe6Q2BqUfnDQ2P9Xea)
+* [Masta Ace - Ninteen Seventy Something](https://open.spotify.com/track/5nP1e5QSwT07XR2zpTVJGc)
+* [Notorious B.I.G. - Juicy](https://open.spotify.com/track/5ByAIlEEnxYdvpnezg7HTX)
+
+
+### LIGHT AND FUN
+
+* [Atmosphere - Besos](https://open.spotify.com/track/6EtM5tNa0XoroLGhvXgs5R)
+* [Danny Brown - Adderall Admiral](https://open.spotify.com/track/2dHTQP3IWIuOD6C1uhwGRD)
+* [Del The Funky Homosapien - If You Must](https://open.spotify.com/track/4QdtxZiSFl0GYrXWOHc3y8)
+* [Eminem - Just Lose It](https://open.spotify.com/track/0qcjuYtMWhBjXg0Xwt5SzS)
+* [J. Cole - Can't Get Enough](https://open.spotify.com/track/20wR5XQpaL1uvVY8gmc4uY)
+* [Joey Bada\$\$ - Big Dusty](https://open.spotify.com/track/3eRu1vN9EBHm9DqzYpjCp3)
+* [Lil Dicky - \$ave Dat Money](https://open.spotify.com/track/6AoYWCzsDls6c61Zp5qTuU)
+* [Lil Wayne - A Milli](https://open.spotify.com/track/6ScJMrlpiLfZUGtWp4QIVt)
+* [Lupe Fiasco - Gotta Eat](https://open.spotify.com/track/3UZH1lr5vx7S19ilecUtwj)
+* [OutKast - Roses](https://open.spotify.com/track/6bUNEbXT7HovLW6BgPCBsb)
+* [Riff Raff - Orions Belt](https://open.spotify.com/track/1Z7qnPAL1RwerFirINUR4w)
+* [STS - Doin' It Right](https://open.spotify.com/track/1eW4xUWUcrB0bGmj9hybs2)
+* [Shad - Real Game](https://open.spotify.com/track/5lxQLMwSct7mmXC9rAGidO)
+* [Shad - The Old Prince Still Lives At Home](https://open.spotify.com/track/63rPZecnzrzYj0Fp3rPiOO)
+* [Trinidad James - All Gold Everything](https://open.spotify.com/track/0pgeVJrdNok4KhbiM58ayZ)
+* [Yung Humma - Lemme Smang It](https://open.spotify.com/track/6wP5uuy0xBEyGl137e3Pu2)
+
+
+### GANGSTER RAP
+
+* [Birdman - Always Strapped](https://open.spotify.com/track/0uiMSv1iUmIELMFnTmyyKX)
+* [DMX - X Gon' Give It To Ya](https://open.spotify.com/track/6uP0XLqjRqFx8HAfesdcAg)
+* [Dr. Dre - Still D.R.E.](https://open.spotify.com/track/503OTo2dSqe7qk76rgsbep)
+* [Geto Boys - Damn It Feels Good to Be a Gangsta](https://open.spotify.com/track/0HOqINudNgQFpg1le5Hnqe)
+* [House Of Pain - I'm A Swing It](https://open.spotify.com/track/4Zgl65eYgR2WhvGDGlv2mz)
+* [Ice Cube - Go To Church](https://open.spotify.com/track/3Feec7M9kLXDHag4iZcBxU)
+* [Kendrick Lamar - Money Trees](https://open.spotify.com/track/2HbKqm4o0w5wEeEFXm2sD4)
+* [Scarface - No Tears](https://open.spotify.com/track/6kYTywTCfycHZcH0WdLyRy)
+* [Snoop Dogg - Down 4 My N's](https://open.spotify.com/track/14uUTfHIwIp587cz13UI5A)
+
+
+### MUSIC BY WOMEN
 
 * [Ana Tijoux - 1977](https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ)
 * [Azealia Banks - 212](https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N)
@@ -333,7 +382,7 @@ SOUR SOUL
 * [Riff Raff (feat. Kitty Pryde) - Orions Belt](https://open.spotify.com/track/1Z7qnPAL1RwerFirINUR4w)
 
 
-## Subgenre: Non-English
+### NON-ENGLISH
 
 * [Ana Tijoux - 1977](https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ)
 * [Daddy Yankee - Gasolina](https://open.spotify.com/track/6jEZLz3YpnEBRpVkv35AmP)
@@ -343,68 +392,30 @@ SOUR SOUL
 * [TBNY - Hey DJ](https://www.youtube.com/watch?v=E2Ubvj4aT8A)
 
 
-## Subgenre: Gangster Rap
+### GENRE BENDING
 
-* [Birdman - Always Strapped](https://open.spotify.com/track/0uiMSv1iUmIELMFnTmyyKX)
-* [DMX - X Gon' Give It To Ya](https://open.spotify.com/track/6uP0XLqjRqFx8HAfesdcAg)
-* [Dr. Dre - Still D.R.E.](https://open.spotify.com/track/503OTo2dSqe7qk76rgsbep)
-* [Geto Boys - Damn It Feels Good to Be a Gangsta](https://open.spotify.com/track/0HOqINudNgQFpg1le5Hnqe)
-* [House Of Pain - I'm A Swing It](https://open.spotify.com/track/4Zgl65eYgR2WhvGDGlv2mz)
-* [Ice Cube - Go To Church](https://open.spotify.com/track/3Feec7M9kLXDHag4iZcBxU)
-* [Kendrick Lamar - Money Trees](https://open.spotify.com/track/2HbKqm4o0w5wEeEFXm2sD4)
-* [Scarface - No Tears](https://open.spotify.com/track/6kYTywTCfycHZcH0WdLyRy)
-* [Snoop Dogg - Down 4 My N's](https://open.spotify.com/track/14uUTfHIwIp587cz13UI5A)
-
-## Subgenre: Heavy Flow
-
-* [Big Pun - Punish Me](https://open.spotify.com/track/06kMGyiybLptwh9hkmhsV5)
-* [Cunninlynguists - Love Ain't](https://open.spotify.com/track/6qfna7A7WvUwyNoqVwbhnc)
-* [Eminem - Rap God](https://open.spotify.com/track/6or1bKJiZ06IlK0vFvY75k)
-* [Joyner Lucas - Ultrasound](https://open.spotify.com/track/37iVijLSSlIbjYbl4ycUge)
-* [Kirk Knight - Good Knight](https://open.spotify.com/track/63m5If0k65YQytMcT91JZI)
-* [Tech N9ne - So Dope](https://open.spotify.com/track/6W19n0LX71Lr7TJc9qwwem)
-* [Tonedeff - Case Closed](https://open.spotify.com/track/24QQx8uSPjQqhhSLMKxaZb)
+* [Buck 65 - Paper Airplane](https://open.spotify.com/track/6xdCj4p7w42ZH6EbB9zvLx)
+* [Buck 65 - Talking Fishing Blues](https://open.spotify.com/track/536jgOa1WR1Gu6idfRCur3)
+* [Phish - Gettin' Jiggy Wit It](https://open.spotify.com/track/7nsLTsE3X93Isuv0qfUgN0)
+* [Robert Glasper Experiment - I Stand Alone](https://open.spotify.com/track/19tAqV4F3ffuE6yMipwDn9)
+* [Scatman John - Let It Go](https://open.spotify.com/track/5e4fXtNCelFTDUd5RYk8GK)
+* [Snoop Dogg - My Medicine](https://open.spotify.com/track/5BL4FPMaF1vmw65OV7yPnE)
+* [The Uncluded - Delicate Cycle](https://open.spotify.com/track/2GA1qg3okvPf9yGfuPktU4)
+* [WHY? - Sod in the Seed](https://open.spotify.com/track/60fqKJrYHODUzNQk74rdqk)
 
 
-Smooth Flow
+### RIDICULOUS
 
-* [A\$AP Rocky - Suddenly](https://open.spotify.com/track/5oJ6pSfpV5HH9QBeXyNMjJ)
-* [Cappadonna - Slang Editorial](https://open.spotify.com/track/4mhjQJhJxX2vbXQA7iemX2)
-* [Craig Mack - Flava in Ya Ear](https://open.spotify.com/track/3X414ZlCf5U7pcpIaIcUkT)
-* [Danger DOOM - Space Hos](https://open.spotify.com/track/7C1j16FmovrwUlkn3X9cP6)
-* [Earl Sweatshirt - Off Top](https://open.spotify.com/track/0Tnv9pQJ1CZfqTpW15xOCL)
-* [Joell Ortiz - Good Man Is Gone](https://open.spotify.com/track/6J7cJqCppCvy8UM3Vi15tH)
-* [Joey Bada\$\$ - Sorry Bonita](https://www.youtube.com/watch?v=BUxLyl1Ucmg)
-* [Kendrick Lamar - Blow My High](https://open.spotify.com/track/6jl01C724Mk68qlOQLco5I)
-* [Thesis Sahib - Sin and Secrecy](https://open.spotify.com/track/1hZAra4PanDNXiKl9GsmPv)
-* [Wu-Tang Clan - Sound The Horns](https://open.spotify.com/track/5KxADn5vhcHtJwV4slTM1Y)
-
-
-ANGER
-
-* [Action Bronson - Baby Blue](https://open.spotify.com/track/7gDwRzJhLs0fFHaGtMDJVM)
-* [Big Sean - Don't Tell Me You Love Me](https://open.spotify.com/track/0O29lIj6AZCrjCKyZjhdCE)
-* [Joyner Lucas - I'm Not Racist](https://open.spotify.com/track/0hL8yBivUahlm1rhQ1a0Xx)
-* [Kendrick Lamar - The Blacker The Berry](https://open.spotify.com/track/5Mtt6tZSZA9cXTHGSGpyh0)
-
-
-HOPELESSNESS
-
-* [Buck 65 - Tired Out](https://open.spotify.com/track/6ULdRHZ8w5owCMBFWAnkA1)
-* [Danny Brown - XXX](https://open.spotify.com/track/6BAKNnYzWjE7OYlWanmRDq)
-* [Earl Sweatshirt - Faucet](https://open.spotify.com/track/7KKW3MSfqCCai76gKSZEco)
-* [Inspired Flight - It's The Chemicals](https://open.spotify.com/track/1jAQNmO34oMOB7vns0ojLr)
-* [Kendrick Lamar - Kush & Corinthians](https://open.spotify.com/track/705u4LfXcTBuDOB8UCy0A7)
-* [Kid Cudi - Erase Me - Main](https://open.spotify.com/track/6XkuklKiHYVTlVvWlTgQYP)
-* [Kid Cudi - Up Up & Away](https://open.spotify.com/track/1RUTIdTnFs8lHSc0Zr4UJB)
-
-
-
-Positive Messages
-
-* [Atmosphere - The Best Day](https://open.spotify.com/track/1WPQ1MfGc8KYi4eu0JwjlR)
-* [Murs - Murs Day](https://open.spotify.com/track/7ygki366SWNrd1GHXxLoof)
-* [Pharoahe Monch - D.R.E.A.M.](https://open.spotify.com/track/1ELozWj7PFZvpeAF4coCqo)
-* [TM Juke - Get It Together](https://open.spotify.com/track/21bDxOZP1ZjmXsVmhQ5XlF)
-* [Xzibit - The Foundation](https://open.spotify.com/track/5aRgtLBY5fYQ0RwTDvEYX1)
+* [Azealia Banks - 212](https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N)
+* [DZK - Highschool Girls](https://open.spotify.com/track/0YX3xAG2w1xBbuspTEsy5J)
+* [Danny Brown - I Will](https://open.spotify.com/track/1iVHnOntYYBQt6SJ5OhLWQ)
+* [Hopsin - I'm Not Introducing You](https://open.spotify.com/track/2975eOXzPqpHb3FtryzRMZ)
+* [Lil Jon - Throw It Up](https://open.spotify.com/track/7MSwclTvW6KLLkTbmw9FUQ)
+* [Ludacris - Move Bitch](https://open.spotify.com/track/1Q9b6CeMcDuO0uq5OJCrqu)
+* [Mos Def - Ms. Fat Booty](https://open.spotify.com/track/0IVAlb0cFCH1cQ974iR1TU)
+* [Obie Trice - Got Some Teeth](https://open.spotify.com/track/7tszeVkfxO5ISkjZWpIG88)
+* [TRPL BLK - Balls Deep](https://www.youtube.com/watch?v=CloCds8CNVc)
+* [Tone-Loc - Funky Cold Medina](https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe)
+* [Tonedeff - Disappointed](https://open.spotify.com/track/2ABYsjibXbMypBHlULAD1N)
+* [Tyler, The Creator - Steak Sauce](https://open.spotify.com/track/7iB57PpM6HkCr7KUVeTrBq)
 
