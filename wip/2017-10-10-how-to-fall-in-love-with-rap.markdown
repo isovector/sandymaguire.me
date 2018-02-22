@@ -145,7 +145,7 @@ you might get some looks if you *don't.*
 * [DMX - Party Up](https://open.spotify.com/track/4MxZW1XEcPuIZmkANsJabC)
 * [Gorillaz - Clint Eastwood](https://open.spotify.com/track/7yMiX7n9SBvadzox8T5jzT)
 * [House Of Pain - Jump Around](https://open.spotify.com/track/3TZwjdclvWt7iPJUnMpgcs)
-* Kanye West - GOOD Friday
+* [Kanye West - GOOD Friday](https://www.youtube.com/watch?v=Ptbqn-7VJUk)
 * [Mac Dre - Feelin' Myself](https://open.spotify.com/track/6SahMe6Q2BqUfnDQ2P9Xea)
 * [Masta Ace - Ninteen Seventy Something](https://open.spotify.com/track/5nP1e5QSwT07XR2zpTVJGc)
 * [Notorious B.I.G. - Juicy](https://open.spotify.com/track/5ByAIlEEnxYdvpnezg7HTX)
@@ -156,12 +156,12 @@ you might get some looks if you *don't.*
 * [Atmosphere - GodLovesUgly](https://open.spotify.com/track/5cq5kRxz0r21ys49CwEV45)
 * [Atmosphere - My Notes](https://open.spotify.com/track/2H1GkggjKmNMbO0lrpJpV3)
 * [Buck 65 - Blood Of A Young Wolf](https://open.spotify.com/track/2AlmuEyTmhFsU1PfyKveL0)
-* Eddie Caine - Aqua 8s and Heartaches
-* Jay Electronica - The Pledge
-* Lil Dicky - Russel Westbrook on a Farm
+* [Eddie Caine - Aqua 8s and Heartaches](https://soundcloud.com/eddiecaine-2/sets/aqua-8s-heartaches)
+* [Jay Electronica - The Pledge](https://www.youtube.com/watch?v=sWc4DG1s53g)
+* [Lil Dicky - Russel Westbrook on a Farm](https://www.youtube.com/watch?v=AOgBg2up7Jg)
 * [Milo - Folk-Metaphysics, 2nd ed.](https://open.spotify.com/track/4Z87DQDqRmt8XQmbKb3yar)
 * [Milo - Souvenir](https://open.spotify.com/track/2prHMFvkekTqqFdB5r6QJJ)
-* Nujabes - Luv(sic) Parts 1-6
+* [Nujabes - Luv(sic) Parts 1-6](https://www.youtube.com/watch?v=wGfguhnvECc)
 * [Shad - Telephone](https://open.spotify.com/track/2Pl5VZhXCQHczbnGpsB8fI)
 
 
@@ -170,15 +170,15 @@ you might get some looks if you *don't.*
 * [Atmosphere - Your Name Here](https://open.spotify.com/track/2rPjWpn76p5oK7MOW4KvTh)
 * [B.o.B - Generation Lost](https://open.spotify.com/track/58CWwfJXgMPNqKYqOopsvU)
 * [Buck 65 - Mr Nobody](https://open.spotify.com/track/14cG39Dvd6WoP9VTFUi2At)
-* DJ Honda - Trouble in the Water
+* [DJ Honda - Trouble in the Water](https://www.youtube.com/watch?v=CbtZj73LSMw)
 * [Eminem - Lose Yourself](https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ)
 * [Hopsin - Heather Nicole](https://open.spotify.com/track/3gPfyQ2IsoaCut0B3SRxIr)
 * [J. Cole - Lost Ones](https://open.spotify.com/track/3FWR4iiUUPHIK7OpiEgh8J)
-* JAY-Z - Song Cry
+* [Jaydiohead - Song Cry](https://www.youtube.com/watch?v=YXUnOGqpTEE)
 * [Kendrick Lamar - Keisha's Song](https://open.spotify.com/track/0bcCgRudYZ4kiOHZNZfqxU)
 * [Mick Jenkins - Communicate](https://open.spotify.com/track/0udCQ78g2s33TELmtndMqd)
 * [N.E.R.D - Provider](https://open.spotify.com/track/6H99B8iTsXgCpRzGpyVgCS)
-* Sam Lachow - Play / Pretend
+* [Sam Lachow - Play / Pretend](https://open.spotify.com/track/1ehylmVgZZVl7RtPmmSZ7J)
 * [Scarface - Keep It Movin'](https://open.spotify.com/track/0XbdJ7DTM5VYKje5dc6S02)
 * [Shad - Out Of Love](https://open.spotify.com/track/3erHLOs45hgtBKjBhsBa0F)
 * [Tech N9ne - Fragile](https://open.spotify.com/track/7L3YDa0Fd8pmzpAyu6EKOS)
@@ -188,10 +188,10 @@ you might get some looks if you *don't.*
 
 * [Danny Brown - 30](https://open.spotify.com/track/76pvh4YUJdtxyVA37w7Fsp)
 * [Earl Sweatshirt - Inside](https://open.spotify.com/track/6e1Vn7zlOKQ14SdOfAZlpS)
-* Jean Grae - My Story
+* [Jean Grae - My Story](https://www.youtube.com/watch?v=jFz6ECvaiqQ)
 * [Johnny Polygon - Lovesick](https://open.spotify.com/track/2kUrsyQbyNvN3ATql5IyFV)
 * [Lupe Fiasco - Intruder Alert](https://open.spotify.com/track/2fjOaSt26CeQCCCgn8brsH)
-* Sam Lachow - 80 Bars Part 6
+* [Sam Lachow - 80 Bars Part 6](https://www.youtube.com/watch?v=kNuG-8deghg)
 * [Sam Lachow - Wrong Man](https://open.spotify.com/track/2iCsHWWYzSCJ6Z0MyeOv6h)
 * [Tyler, The Creator - Yonkers](https://open.spotify.com/track/1zsAAnB6dMpGOvXjoYP9Um)
 
@@ -200,7 +200,7 @@ you might get some looks if you *don't.*
 
 * [A\$AP Rocky - 1Train](https://open.spotify.com/track/7AijU6oTPGmG64uWf63Qvc)
 * [Aesop Rock - None Shall Pass](https://open.spotify.com/track/5DJTYOAHZEKjNqXpOwnomi)
-* Big Sean - Control
+* [Big Sean - Control](https://www.youtube.com/watch?v=W7zdMeZPkpY)
 * [Busta Rhymes - Break Ya Neck](https://open.spotify.com/track/0svl7cK07gK1ia5ainczU5)
 * [Busta Rhymes - Match The Name With The Voice](https://open.spotify.com/track/3dlAIAxU3wZwMJXPPP234O)
 * [Eminem - Rabbit Run](https://open.spotify.com/track/30KKYkJ0lonfKI2eaLACnZ)
@@ -216,9 +216,9 @@ you might get some looks if you *don't.*
 
 * [Aesop Rock - Daylight](https://open.spotify.com/track/3COHXcLRK9brRjMolzkD7Y)
 * [Aesop Rock - Night Light](https://open.spotify.com/track/2PNQeJgqa3H2CpRcn5ypru)
-* D-WHY - Shooter McGavin
-* De La Soul - All Good
-* De La Soul - Rock Co.Kane Flow
+* [D-WHY - Shooter McGavin](https://www.youtube.com/watch?v=tDE0xQQlgZw)
+* [De La Soul - All Good](https://www.youtube.com/watch?v=Dy-FE7A7gwI)
+* [De La Soul - Rock Co.Kane Flow](https://www.youtube.com/watch?v=nmte57oKe6U)
 * [Epik High - Follow The Flow](https://open.spotify.com/track/5S1jCoPvPytK4tKtWERRq7)
 * [Jean Grae - Kill Screen](https://open.spotify.com/track/4pUoUYloKhaaAZahVFzTJ4)
 * [Shad - Telephone](https://open.spotify.com/track/2Pl5VZhXCQHczbnGpsB8fI)
@@ -234,7 +234,7 @@ you might get some looks if you *don't.*
 * [Mos Def - Ms. Fat Booty](https://open.spotify.com/track/0IVAlb0cFCH1cQ974iR1TU)
 * [Obie Trice - Got Some Teeth](https://open.spotify.com/track/7tszeVkfxO5ISkjZWpIG88)
 * [Lil Jon - Throw It Up](https://open.spotify.com/track/7MSwclTvW6KLLkTbmw9FUQ)
-* TRPL BLK - Balls Deep
+* [TRPL BLK - Balls Deep](https://www.youtube.com/watch?v=CloCds8CNVc)
 * [Tone-Loc - Funky Cold Medina](https://open.spotify.com/track/5YIF6HSOtHN9HdcE5IPzMe)
 * [Tonedeff - Disappointed](https://open.spotify.com/track/2ABYsjibXbMypBHlULAD1N)
 * [Tyler, The Creator - Steak Sauce](https://open.spotify.com/track/7iB57PpM6HkCr7KUVeTrBq)
@@ -289,17 +289,17 @@ SOUR SOUL
 ## Subgenre: Storytelling
 
 * [Biz Markie - Just A Friend](https://open.spotify.com/track/3yNVfRQlUPViUh8O2V9SQn)
-* Buck 65 - Riverbed Parts 1 2 3 4 5 6 7
+* Buck 65 - Riverbed Parts [1](https://open.spotify.com/track/18gsFSk4rT9RKivD0tCwdq) [2](https://open.spotify.com/track/own91s2E9fkVt0dcEIuMG) [3](https://open.spotify.com/track/gPHSTV1gJrETID1jwWTza) [4](https://open.spotify.com/track/2Xr3Z24buUP18gogLW9nt) [5](https://open.spotify.com/track/rQnabG55lOiOCNU5LxC62) [6](https://open.spotify.com/track/KlujzsFdnFjTiXyyM4tj3) [7](https://open.spotify.com/track/1WfFmMVdT6B6EeyR8VSDe)
 * [Childish Gambino - That Power](https://open.spotify.com/track/6O8iT490HuTFVjQo3eHdoi)
 * [Earl Sweatshirt - Chum](https://open.spotify.com/track/6plT7nFGiXKSBP9HFSI4ef)
 * [Eminem - Like Toy Soldiers](https://open.spotify.com/track/6CN3e26iQSj1N5lomh0mfO)
 * [Eminem - Stan](https://open.spotify.com/track/3UmaczJpikHgJFyBTAJVoz)
 * [Immortal Technique - Dance With the Devil](https://open.spotify.com/track/7MDUVH4ITohsIjdynRwCJp)
-* Isaiah Rashad - Cilvia Demo
+* [Isaiah Rashad - Cilvia Demo](https://open.spotify.com/track/2bXNVNDdYvAXxf5f33WHy7)
 * [Jean Grae - Don't Rush Me](https://open.spotify.com/track/1gMCYB8iPiCRAiwEXePBMk)
 * [Joell Ortiz - Call Me](https://open.spotify.com/track/70ma1Bessfv2Ra7mazEXmq)
 * [Notorious B.I.G. - Niggas Bleed](https://open.spotify.com/track/15LVUC45FiKlBp0wkmJkcv)
-* Snoop Dogg - Snoopfella
+* [Snoop Dogg - Snoopafella](https://open.spotify.com/track/1BNrSp3xmEPriOavWV1onw)
 * [Tyler, The Creator - Colossus](https://open.spotify.com/track/5AnVuHLmgipXkFmBvj2Q6H)
 * [Viktor Vaughn - Can I Watch?](https://open.spotify.com/track/4i4P1ACAeWcyJTxQSd0prx)
 
@@ -324,25 +324,23 @@ SOUR SOUL
 * [Blue Sky Black Death - Ahead of the Game](https://open.spotify.com/track/3Nu5MGv5LXMBtZr2BoPwFo)
 * [Jean Grae - Don't Rush Me](https://open.spotify.com/track/1gMCYB8iPiCRAiwEXePBMk)
 * [Jean Grae - Kill Screen](https://open.spotify.com/track/4pUoUYloKhaaAZahVFzTJ4)
-* Jean Grae - My Story
+* [Jean Grae - My Story](https://www.youtube.com/watch?v=jFz6ECvaiqQ)
 * [Jean Grae - Nah'mean Nah'm Sayin](https://open.spotify.com/track/02TurAfTVECtLSC120Y5KQ)
 * [Lucy Camp - Be You](https://open.spotify.com/track/6Nnv6xJzsMvtUQrhTfUdQR)
-* Lucy Camp - Can I Forget You?
-* Lucy Camp - Down Talk
-* Lucy Camp - Grey
+* [Lucy Camp - Can I Forget You?](https://www.youtube.com/watch?v=0x0NsUt26Mc)
+* [Lucy Camp - Grey](https://www.youtube.com/watch?v=gCWdIhHPX3g)
 * [Queen Latifah - U.N.I.T.Y.](https://open.spotify.com/track/5cfjHBdMjf0x07VZD70MlE)
-* [Riff Raff - Orions Belt](https://open.spotify.com/track/1Z7qnPAL1RwerFirINUR4w)
+* [Riff Raff (feat. Kitty Pryde) - Orions Belt](https://open.spotify.com/track/1Z7qnPAL1RwerFirINUR4w)
 
-TODO HERE
 
 ## Subgenre: Non-English
 
 * [Ana Tijoux - 1977](https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ)
-* Daddy Yankee - Somos de Calle Remix
+* [Daddy Yankee - Somos de Calle Remix](https://www.youtube.com/watch?v=ktKdnhP7IK0)
 * [Daddy Yankee - Gasolina](https://open.spotify.com/track/6jEZLz3YpnEBRpVkv35AmP)
 * [Epik High - Fly](https://open.spotify.com/track/3N17JQ2yJjQTUOt706Uj6h)
 * [Keny Arkana - La Rage](https://open.spotify.com/track/26r6bZ8iSiuucgNXfWyRyv)
-* TBNY - Hey DJ
+* [TBNY - Hey DJ](https://www.youtube.com/watch?v=E2Ubvj4aT8A)
 
 
 ## Subgenre: Gangster Rap
@@ -372,11 +370,11 @@ Smooth Flow
 
 * [A\$AP Rocky - Suddenly](https://open.spotify.com/track/5oJ6pSfpV5HH9QBeXyNMjJ)
 * [Cappadonna - Slang Editorial](https://open.spotify.com/track/4mhjQJhJxX2vbXQA7iemX2)
-* Craig Mack - Flava in Ya Ear
-* Danger DOOM - Space Ho
+* [Craig Mack - Flava in Ya Ear](https://open.spotify.com/track/3X414ZlCf5U7pcpIaIcUkT)
+* [Danger DOOM - Space Hos](https://open.spotify.com/track/7C1j16FmovrwUlkn3X9cP6)
 * [Earl Sweatshirt - Off Top](https://open.spotify.com/track/0Tnv9pQJ1CZfqTpW15xOCL)
 * [Joell Ortiz - Good Man Is Gone](https://open.spotify.com/track/6J7cJqCppCvy8UM3Vi15tH)
-* Joey Bada\$\$ - Sorry Bonita
+* [Joey Bada\$\$ - Sorry Bonita](https://www.youtube.com/watch?v=BUxLyl1Ucmg)
 * [Kendrick Lamar - Blow My High](https://open.spotify.com/track/6jl01C724Mk68qlOQLco5I)
 * [Thesis Sahib - Sin and Secrecy](https://open.spotify.com/track/1hZAra4PanDNXiKl9GsmPv)
 * [Wu-Tang Clan - Sound The Horns](https://open.spotify.com/track/5KxADn5vhcHtJwV4slTM1Y)
