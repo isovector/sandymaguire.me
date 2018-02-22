@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Beginner's Guide to Rap Music"
-date: 2017-10-10 22:38
+date: 2018-02-21 20:53
 comments: true
 tags: guide, music, rap
 ---
