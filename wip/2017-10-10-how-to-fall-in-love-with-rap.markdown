@@ -1,11 +1,10 @@
 ---
 layout: post
-title: A Beginner's Guide to Rap Music
+title: "A Beginner's Guide to Rap Music"
 date: 2017-10-10 22:38
 comments: true
-tags:
+tags: guide, music, rap
 ---
-
 
 ## How to use this guide
 
@@ -18,10 +17,10 @@ helpful when you're familiar with the genre itself, they're not particularly
 useful when you don't know what you're looking for.
 
 And so, I would suggest this guide be used in the following way. If you're
-completely new to rap music, listen to a random sampling of the tracks TODO
-immediately below this. I've handpicked these to be relatively diverse in their
-sound, yet all should be relatively easy to listen to. Should you not like any
-of them, rap is probably not going to be a genre you'll enjoy.
+completely new to rap music, listen to a random sampling of the tracks under
+[Start Here][#start-here]. I've handpicked these to be relatively diverse in
+their sound, yet all should be relatively easy to listen to. Should you not like
+any of them, rap is probably not going to be a genre you'll enjoy.
 
 However, if you do like some, pay attention to the feelings they evoke in you,
 and to what it is you like about them. Do you like the music behind the words?
@@ -44,6 +43,8 @@ There's a lot of prose in this guide, which is usually intended to give you some
 signposts for things to which you might benefit from paying attention. That
 being said, the majority of the contributions here is the list of music itself.
 Feel free to skip the text if all you're looking for is some new bangers.
+
+
 
 
 ## Caveats and other disclaimers
@@ -72,34 +73,37 @@ I'll even link to it here!)
 And so, without further ado, let's get into the music.
 
 
+
+
 ## Start Here
 
 The following is a list of tracks I consider widely easy to listen to. If none
 of them tickle your toes, rap music might not be for you.
 
+* [2Pac - I Ain't Mad At Cha](https://open.spotify.com/track/0ZDcLapel9chZ15ZNuOdD4)
 * [Buck 65 - Wicked And Weird](https://open.spotify.com/track/1gCteoq5Ko92R6zKXdD52g)
 * [Childish Gambino - Heartbeat](https://open.spotify.com/track/3HooZZPp0evFShqaJ2Pwer)
-* Dr. Dre - Nuthin' But a 'G' Thang
+* [De La Soul - Buddy](https://www.youtube.com/watch?v=2aJZZumrITI)
+* [Dr. Dre - Nuthin' But a 'G' Thang](https://www.youtube.com/watch?v=GPa59XcS6pQ)
 * [Drake - The Motto](https://open.spotify.com/track/49ySwzAyvxcNXOkOP6ZB1L)
+* [Eric B. & Rakim - I Know You Got Soul](https://open.spotify.com/track/5D2lp16FQ0VIfLGRDn5jcG)
 * [First Serve - Pushin' Aside, Pushin' Along](https://open.spotify.com/track/2yC1hbppLEuzmtDDmJu7Iy)
 * [Flo Rida - Right Round](https://open.spotify.com/track/3GpbwCm3YxiWDvy29Uo3vP)
 * [Ice Cube - It Was A Good Day](https://open.spotify.com/track/2qOm7ukLyHUXWyR4ZWLwxA)
-* JAY-Z - Empire State of Mind
+* [JAY-Z - Empire State of Mind](https://www.youtube.com/watch?v=Gt2oKbZKWEw)
 * [Kanye West - Gold Digger](https://open.spotify.com/track/1PS1QMdUqOal0ai3Gt7sDQ)
 * [Kendrick Lamar - i](https://open.spotify.com/track/7wdzLe2Gsx1RGqbvYZHASz)
 * [MF DOOM - Hoe Cakes](https://open.spotify.com/track/6OyRpRa1xjDNriftwh1dZR)
 * [Nas - The World Is Yours](https://open.spotify.com/track/7G3lxTsMfSx4yarMkfgnTC)
-* [Shad - I Get Down](https://open.spotify.com/track/6fXnyKAI4X5zXHMFZCghaq)
-* [Will Smith - Gettin' Jiggy Wit It](https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp)
-
-* De La Soul - Buddy
-* [Eric B. & Rakim - I Know You Got Soul](https://open.spotify.com/track/5D2lp16FQ0VIfLGRDn5jcG)
 * [Notorious B.I.G. - Hypnotize](https://open.spotify.com/track/7KwZNVEaqikRSBSpyhXK2j)
 * [Run–D.M.C. - It's Tricky](https://open.spotify.com/track/6jBCehpNMkwFVF3dz4nLIW)
+* [Shad - I Get Down](https://open.spotify.com/track/6fXnyKAI4X5zXHMFZCghaq)
 * [Snoop Dogg - Gin And Juice](https://open.spotify.com/track/0WKYRFtH6KKbaNWjsxqm70)
-* [2Pac - I Ain't Mad At Cha](https://open.spotify.com/track/0ZDcLapel9chZ15ZNuOdD4)
 * [Warren G - Regulate](https://open.spotify.com/track/7nYvUtkQMx1v80S2FH2s9J)
-* [Wu-Tang Clan - C.R.E.A.M.] (https://open.spotify.com/track/119c93MHjrDLJTApCVGpvx)
+* [Will Smith - Gettin' Jiggy Wit It](https://open.spotify.com/track/0weAUscowxeqDtpCgtbpgp)
+* [Wu-Tang Clan - C.R.E.A.M.](https://open.spotify.com/track/119c93MHjrDLJTApCVGpvx)
+
+
 
 
 ## The Three Pillars
@@ -132,7 +136,11 @@ you than the others.
 
 
 
+
 ## Emphasis on Beats
+
+Tracks with particularly interesting beats. Hip-hop music often samples from
+eclectic sources; these ones are from extra eclectic ones.
 
 * [Ash Roth - Pabst and Jazz](https://open.spotify.com/track/1QP50QGEURn9DVMOMcW0Ts)
 * [Beastie Boys - Brass Monkey](https://open.spotify.com/track/2tY1gxCKslfXLFpFofYmJQ)
@@ -159,6 +167,10 @@ you than the others.
 
 ## Emphasis on Lyricism
 
+These tracks are interesting lyrically. They feature dense rhyme schemes, rely
+on double, triple or sometimes quadruple entendres, and are otherwise rewarding
+to analyze linguistically.
+
 ### POETIC
 
 * [Atmosphere - GodLovesUgly](https://open.spotify.com/track/5cq5kRxz0r21ys49CwEV45)
@@ -171,6 +183,7 @@ you than the others.
 * [Milo - Souvenir](https://open.spotify.com/track/2prHMFvkekTqqFdB5r6QJJ)
 * [Nujabes - Luv(sic) Parts 1-6](https://www.youtube.com/watch?v=wGfguhnvECc)
 * [Shad - Telephone](https://open.spotify.com/track/2Pl5VZhXCQHczbnGpsB8fI)
+
 
 ### CLEVER WORDPLAY
 
@@ -204,6 +217,10 @@ you than the others.
 
 
 ## Emphasis on Flow
+
+Tracks performed exceptionally well. Many of these are very fast, involve tongue
+twisters, or come off so effortlessly that they might lull you to sleep. But in
+a good way.
 
 ### TECHNICALLY IMPRESSIVE
 
@@ -249,6 +266,8 @@ you than the others.
 
 
 ## Particular Moods
+
+Looking for hip-hop music that will scratch a particular itch emotionally?
 
 ### INSPIRING
 
@@ -334,6 +353,9 @@ you might get some looks if you *don't.*
 
 ### LIGHT AND FUN
 
+Hip-hop music that will put a smile on your face, be it for its silly rhyme
+schemes, fun subject matter, or ridiculous imagery.
+
 * [Atmosphere - Besos](https://open.spotify.com/track/6EtM5tNa0XoroLGhvXgs5R)
 * [Danny Brown - Adderall Admiral](https://open.spotify.com/track/2dHTQP3IWIuOD6C1uhwGRD)
 * [Del The Funky Homosapien - If You Must](https://open.spotify.com/track/4QdtxZiSFl0GYrXWOHc3y8)
@@ -354,6 +376,8 @@ you might get some looks if you *don't.*
 
 ### GANGSTER RAP
 
+This is the kind of stuff that rap music gets some of its bad reputation from.
+
 * [Birdman - Always Strapped](https://open.spotify.com/track/0uiMSv1iUmIELMFnTmyyKX)
 * [DMX - X Gon' Give It To Ya](https://open.spotify.com/track/6uP0XLqjRqFx8HAfesdcAg)
 * [Dr. Dre - Still D.R.E.](https://open.spotify.com/track/503OTo2dSqe7qk76rgsbep)
@@ -366,6 +390,10 @@ you might get some looks if you *don't.*
 
 
 ### MUSIC BY WOMEN
+
+While this is not really a genre, rap music is usually dominated by men, so it's
+nice to call out particularly good examples from women. You'll also find these
+tracks in other sections, if they fit there too.
 
 * [Ana Tijoux - 1977](https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ)
 * [Azealia Banks - 212](https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N)
@@ -384,6 +412,9 @@ you might get some looks if you *don't.*
 
 ### NON-ENGLISH
 
+Though rap is an American phenomenon, that doesn't mean it can't cross cultural
+boundaries.
+
 * [Ana Tijoux - 1977](https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ)
 * [Daddy Yankee - Gasolina](https://open.spotify.com/track/6jEZLz3YpnEBRpVkv35AmP)
 * [Daddy Yankee - Somos de Calle Remix](https://www.youtube.com/watch?v=ktKdnhP7IK0)
@@ -393,6 +424,8 @@ you might get some looks if you *don't.*
 
 
 ### GENRE BENDING
+
+Rap can also cross genre boundaries!
 
 * [Buck 65 - Paper Airplane](https://open.spotify.com/track/6xdCj4p7w42ZH6EbB9zvLx)
 * [Buck 65 - Talking Fishing Blues](https://open.spotify.com/track/536jgOa1WR1Gu6idfRCur3)
@@ -404,7 +437,11 @@ you might get some looks if you *don't.*
 * [WHY? - Sod in the Seed](https://open.spotify.com/track/60fqKJrYHODUzNQk74rdqk)
 
 
-### RIDICULOUS
+### RIDICULOUS / OFFENSIVE
+
+And finally, a collection of tracks that are so ridiculous, either on premise or
+how hard they go out of their way to be offensive. That's not to say there isn't
+value here, but if you're squeamish, you might want to look elsewhere first.
 
 * [Azealia Banks - 212](https://open.spotify.com/track/6no1mklq4BJBg7KJ6Dly7N)
 * [DZK - Highschool Girls](https://open.spotify.com/track/0YX3xAG2w1xBbuspTEsy5J)
