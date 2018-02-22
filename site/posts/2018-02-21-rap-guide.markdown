@@ -6,6 +6,8 @@ comments: true
 tags: guide, music, rap
 ---
 
+Don't care about the preamble? [Skip to the music!](#start-here)
+
 ## How to use this guide
 
 This guide is divided into rough "subgenres" of rap music. For the most part,
@@ -18,7 +20,7 @@ useful when you don't know what you're looking for.
 
 And so, I would suggest this guide be used in the following way. If you're
 completely new to rap music, listen to a random sampling of the tracks under
-[Start Here][#start-here]. I've handpicked these to be relatively diverse in
+[Start Here](#start-here). I've handpicked these to be relatively diverse in
 their sound, yet all should be relatively easy to listen to. Should you not like
 any of them, rap is probably not going to be a genre you'll enjoy.
 
