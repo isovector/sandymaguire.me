@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Come to my house and take everything I own for free
+title: Come To My House and Take Everything I Own for Free
 date: 2018-02-27 18:42
 comments: true
 tags: life, travel, reflections
