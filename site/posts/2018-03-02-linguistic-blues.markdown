@@ -27,7 +27,7 @@ don't know where to buy one. OK, I'll have to ask someone.
 
 The words "kur" (where), "parduotuvė" (shop) and "telefonas" (telephone) seem
 like they'd be useful in getting directions to the place. But these things are
-both verbs, and stringing them together as-is would result in something along
+both nouns, and stringing them together as-is would result in something along
 the lines of "where is the shop the phone?" Someone patient might understand,
 but you certainly wouldn't be making it easy for them.
 
