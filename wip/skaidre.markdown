@@ -1,0 +1,250 @@
+---
+layout: post
+title: My Cool Friend Skaidre
+date: TO_BE_DETERMINED
+comments: true
+tags: foo, bar
+---
+
+After far, far too long I am finally back Vilniuje. Not only has it been too
+long since my last visit, but also I arrived about 44 hours later than my
+boarding card might have suggested. The entire journey is an incomplete saga,
+spanning time and space, superposition, one hell of a lot of time spent in
+airports, and a dad's sweater.
+
+This is that story.
+
+---
+
+My trip started off so well and with much enthusiasm. I was intending to arrive
+at the Denver airport the suggested three hours beforehand; with most of my new
+life riding on getting out successfully, I didn't want to a "Sandy special" and
+somehow miss my flight.
+
+I was traveling light; the majority of everything I owned was in my luggage. All
+I had brought on my person was a few electronics, two days worth of clothes, and
+the essential toiletries. No warm clothes. I wasn't going to need them. Sure, it
+was cold right then in Europe, but how often does a bag go missing?
+
+Traffic on the way to the airport was light, and so I arrived almost half an
+hour ahead of the three hour buffer I had allocated. Upon arrival, I was the
+only person checking a bag, so I zipped through that line, and made it through
+security in record time. It was the smoothest airport experience I had ever had.
+
+The flight to Reykjavik was uneventful. The seat immediately beside me was
+unoccupied, and across the gap was an amicable firefighter from Oklahoma on a
+week-long trip to Iceland with his friend "away from the wives."
+
+"What's in Oklahoma?" I asked.
+
+"Not much. They probably wouldn't like you there," he replied.
+
+Fair dos. We didn't chat much after that, but on our way off the plane he wished
+me luck in my new life. The layover in Keflavik was short and uneventful,
+although the red-eye nature of the first leg had left me a little loopy. I found
+myself sitting next to a woman from Boston; we both found ourselves excited to
+be speaking with someone else whose first language was English. She was on her
+way to Copenhagen, and there probably wasn't going to be much more of
+English-first-language in either of our lives.
+
+I managed to get a few hours of sleep on the flight to Denmark, blissfully
+unaware of how much of a shit-show the next few days of my life were going to
+become.
+
+Upon arrival in Copenhagen, I had a few hours to kill until heading to my gate
+-- well, had I had a gate to go to. The departures board ominously marked my
+gate in bold red letters as "info at 14:00" -- roughly an hour after the stated
+departure time. I ate a famous Danish sausage of some sort, not because I was
+particularly keen on it, but because it was the only food I could find in the
+entire wing of the airport. It came with a beer, which helped.
+
+14:00 rolled around, and the board in turn rolled over to its new message: "info
+at 15:30". I don't know if you've ever been to terminal 3 of the Copenhagen
+airport, but it's not exactly a place in which it is easy to spend several
+hours. There is a noticeable lack of power outlets and edible food, and had
+there not been wifi I'd go so far as to suggest the airport had a lack of basic
+human necessities. That being said, wifi only goes so far without power, but it
+sure helped the time go by.
+
+Thank goodness for the wifi.
+
+After what seemed like an eternity, 15:30 came by. The board maintained its
+previous message for a hot minute, triggering the deepest anxieties within me.
+My zen was being encroached upon. When finally, the screen refreshed with a new
+status for my flight.
+
+"Cancelled."
+
+Terrific. An announcement came on over the board, and due to some divine
+influence, I understood enough Danish to make my way to the transfer office and
+attempt to sort out the situation. The transfer office was hopping; apparently
+I'd gotten there slowly. The machine that was supposed to dispense numbers was
+more of what you might call an machine that "in-pensed" numbers -- as it printed
+them out they'd roll back into the machine's cavernous internals. I fucked with
+it for a few minutes, trying to get my ticket out, during which time another big
+wave of people came into the transfer office.
+
+They knew something I didn't: there was another machine that successfully
+managed to dispense the numbers whose expulsion make up the entirety of its
+existence. I got my number: 323; the two tellers were currently serving 289. I
+settled in for a long wait.
+
+An entirely unhelpful man named Kristofer finally called my number. I missed it,
+but noticed a few seconds later, and *charged* my way past the 324 girl on her
+way to the desk. Not today, lady! BROTHA GOTTA MOVE!
+
+Kristofer told me that my flight had been canceled (he didn't say why.) He
+handed me a boarding pass for the next flight at 21:30, a meal voucher for
+\$16.54, and a booklet explaining my rights as a traveler in Europe with a
+cancelled flight. I bought a Guinness and small stew upstairs at the Irish
+pub for \$21, and leafed through the pamphlet, eager to learn my rights. As it
+happens, I don't have any: the airline is not responsible if the cancellation is
+due to weather, technical issues, safety concerns, labor disputes, acts of god,
+snakes, or any other of the possible reasons a flight might be cancelled. I
+spent about fifteen minutes trying to come up with a plausible reason that might
+cause a flight to be cancelled that *wasn't* covered by this law, and I couldn't
+come up with even a single example.
+
+I dug around online; the flight later that day was due to be on the same
+aircraft as the one that had been cancelled. Seeing as the plane was still in
+Italy, it didn't strike me as terribly likely that my 21:30 flight was going to
+make it either. After having been awake for more than 24 hours, the thought of
+spending another six hours in what I then thought was the world's second worst
+airport (hi, Chicago -- O'Hare!) didn't fill me an effervescence of excitement.
+I decided to change my flight to the next day, fought my way back through the
+transfer center, and got a new boarding pass.
+
+They kept my luggage overnight. "There was nothing in there I needed," I said.
+"Great," she said, "I'll put new tags on it to make sure it ends up in Vilnius.
+Hopefully it will see you there."
+
+A quick taxi ride brought me to the [world's coolest looking hotel][cabinn],
+where I checked in and went up to my room. My key didn't open the door. I came
+back. The nice man gave me a new room, so I went up to there. I managed through
+the door, and plopped down on the bed, thankful to not be in an airport for even
+one more second. Today had been hell, but things were going to get better
+tomorrow. I just knew it.
+
+[cabinn]: https://www.google.dk/search?q=cabinn+metro&tbm=isch
+
+I plugged my laptop into the wall, desperate to get some charge into the beast
+before I conked out into an impressive sleep coma, but the little charging light
+didn't come on. That was odd. I tried the other outlet. Nothing. I flipped the
+light switch, and not even those worked. My room didn't have any power!
+
+After packing my things back up, I once again headed for the lobby. I informed
+the nice man that this room didn't have any damn power, and he looked at me like
+I was stupid. "You need to put your key-card in the box by the door; that will
+turn on the power." I went back to my room, and sure enough, the key-card did
+engender electricity. I plugged my laptop in, had a shower, and woke up in my
+bed sixteen hours later to the sound of my alarm going off.
+
+Back to the airport. Day two in Copenhagen. My zen and my attitude had recharged
+over the night, and I was ready to make the most of the experience. The only
+time that exists is "now," and so if you don't love now, you're letting life
+pass you by. Shitty Copenhagen airport or no, I wasn't going to let life pass me
+by.
+
+The day before I had been feeling nervous about meeting people in Europe, unsure
+whether their English would be good enough for us to communicate. And besides,
+the Scandinavian people aren't exactly smiley. But today I was feeling right as
+rain and I not going to [flinch away][flinch]. Over breakfast I met a nice
+Lithuanian girl named Krystina, and I was excited to practice my Lithuanian with
+her. It didn't go very well, but she was very happy I was moving to Lithuania.
+"I hope you like it!" She herself was flying to Kaunas, a city about an hour's
+drive away from Vilnius. Her flight was earlier than mine, but she got out no
+problem.
+
+[flinch]: https://www.goodreads.com/book/show/13159280-the-flinch
+
+The departures board finally had a gate for my flight, and I headed there. The
+gate, however, did *not* say it was going to Vilnius. Hmm. I asked around, and
+the man I talked to said that on the internet, the flight was described as being
+cancelled.
+
+Well, I wasn't going to wait around for that, and besides, I'd learned my
+lesson. Immediately I headed over to the transfer center, avoided the bad
+machine, and was served quickly. The man at the counter confirmed that my flight
+had been canceled, and started rerouting me. My trip gained a few more legs,
+first to Gutenberg, then to Stockholm, then finally to Vilnius around 11pm. My
+hostel stopped doing check-in at midnight, so this was a tight schedule, but as
+long as my luggage came off the belt quickly, it was doable.
+
+The man in the transfer center gave me my new boarding cards, and a meal voucher
+good for \$12.40 to make up for the additional eight hours my flight was going
+to take. I used it to buy another Guinness for \$12.07. They didn't give me
+change.
+
+In the intervening time, I wandered around the airport aimlessly. I met a woman
+named Maria who worked at the concession stand in the lonely part of the
+airport. She had just finished high-school, hated her life, hadn't read a book
+in a few years if ever, and didn't want to race luggage trolleys with me; I took
+off after some time despite how keen she was to have someone to talk to.
+
+My flight for Gutenberg was uneventful, though short. The dude beside me was
+clearly disinterested in talking and so we didn't. Forty five minutes later, I
+found myself in Gutenberg where there was wifi ahoy and power outlets aplenty.
+It felt like the chosen land. I ordered some food, and sat down. A Swedish woman
+sat beside me, and we struck up conversation. I told her I had been playing a
+game called "making eye contact with Scandinavians" which she didn't think was
+very funny but I did.
+
+I hopped on the flight to Stockholm, where I sat beside a man from Vilnius who
+worked for a non-profit for reducing gender inequality. We had an interesting
+chat about that, and he gave me some good tips for life amidst the Lithuanians,
+being a foreigner himself.
+
+We got to Stockholm. The departure board said to check back for info regarding
+my gate. Fuck. It was becoming pretty clear I wasn't going to make it to Vilnius
+by check-in time, so I tried to send a quick email to the hostel asking if I
+could do a self-check-in. Unfortunately, as it happens, there is no free wifi in
+the Stockholm airport, and nothing I attempted to do got around it. In
+exasperation, I bought an hour of wifi, and the damn thing glitched out without
+giving it to me. As I learned later, however, it did not fail to charge me \$10.
+
+With my enthusiasm seemingly as low as it could be, I headed for the gastropub
+and ordered a nice-ass looking burger and a beer. There was a cold-looking
+Scandinavian dude sitting beside me, but I decided to take a chance and say hi
+to him. This turned out to be the best decision I'd made all week. His name was
+Björn, he was a world traveler but was currently traveling for business. The
+gastropub didn't have any beers that he wanted, and after hearing my plight
+regarding having no wifi, he invited me up to the lounge as his guest.
+
+We made gin and tonics and told stories about our travels. Björn told me the
+kind of stories that I want to have for myself and tell others. He had spent the
+night with a random family in East Timor after getting there and realizing there
+was not a hotel room to be found. He had gotten a tattoo from the first place he
+found to commemorate landing in his 100th country. He always liked to travel
+alone, because that's how you met cool people.
+
+Maybe it was the stories, or his attitude, or the gin and tonic, but I was
+feeling inspired. I checked the departures board, and unfortunately it had a
+gate and a boarding time -- I had wanted to sit and talk with Björn forever, but
+duty called.
+
+I was finally on my flight to Vilnius! Happy days! The end was so near! I was
+sitting beside a *large* man whose name was Vitas. He claimed to be from Sweden
+and to just be going to Lithuania for a weekend out with the boys, but he also
+spoke perfect Lithuanian and so I was skeptical. Also his name was Vitas. He was
+*built* and took up the armrest and another inch of my seat without meaning to
+or being able to do anything about it. It was an uncomfortable trip for both of
+us.
+
+The plane was on its final descent to the airport in Vilnius when suddenly it
+swooped upwards and started accelerating. There was an ominous silence on-board.
+What was happening? Several other people on the flight had also been rerouted
+from Copenhagen, and so we were all pretty keen to get there.
+
+"This is the captain speaking. It looks like we're having a slight malfunction
+with our anti-skidding system. We're going to try to diagnose it in the air, and
+make a few more attempts at landing."
+
+We circled Vilnius for thirty minutes (I was definitely *not* going to make my
+check-in time, and had forgotten to send the email to them due to being so
+entranced by Björn's stories) and eventually the captain came back on the
+intercom.
+
+"Hi, flight-deck here. We're unable to land in Vilnius, so we're going to fly up
+to Riga where there is a much longer runway. Don't worry, we'll take care of you
+when we get there. More info when we have it."
+
