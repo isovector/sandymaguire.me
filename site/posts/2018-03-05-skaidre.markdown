@@ -3,7 +3,9 @@ layout: post
 title: My Cool Friend Skaidre
 date: 2018-03-05 13:19
 comments: true
-tags: foo, bar
+tags: stories, travel
+related:
+  - stories-from-2015
 ---
 
 After far, far too long I am finally back Vilniuje. Not only has it been too
