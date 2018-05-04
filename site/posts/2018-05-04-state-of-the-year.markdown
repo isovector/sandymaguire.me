@@ -18,7 +18,6 @@ through the goals and look at my progress on each.
 
 [motion]: /blog/perpetual-motion/
 
----
 
 **Publish 3x as many words as I did in 2017.**
 
@@ -30,7 +29,6 @@ I'm also working pretty hard on a secret book, which means the actual amount of
 *writing* I've done is significantly higher than these numbers might suggest.
 Doesn't count until it's published though.
 
----
 
 **Contribute one major feature to an open source project.**
 
@@ -45,8 +43,6 @@ contribution to GHC this year -- but we'll wait and see on that one.
 
 [proposal]: https://github.com/ghc-proposals/ghc-proposals/pull/129
 
-
----
 
 **Read 52 books.**
 
@@ -65,7 +61,6 @@ The weather's been lovely lately, and I've noticed that my mood is significantly
 boosted if I spend an hour or two in the park working on a book. I want to do
 more of that and get a bunch of books' worth of buffer back in the bank.
 
----
 
 **Work my way through every problem in the *Awodey Category Theory* book.**
 
@@ -94,7 +89,6 @@ I'm finished reading it I'll have extra time *whence* to work through the
 exercises *such that* I understand everything at the end. Even when I'm trying I
 can't make run-on sentences as impressive as his everyday ones.
 
----
 
 **Publish an academic paper contributing something novel to the field of
 computer science.**
@@ -104,7 +98,6 @@ like a reasonable starting point.
 
 [hkd]: http://reasonablypolymorphic.com/blog/higher-kinded-data/
 
----
 
 **Have two five-minute conversations a day with people I don't know.**
 
@@ -116,7 +109,6 @@ up over the next few days; watch this space my dudes!!
 
 [neighborhoods]: /blog/neighborhoods/
 
----
 
 **By the end of the year, have brought together a community of people that meet
 regularly, even without me acting as a catalyst.**
@@ -124,8 +116,6 @@ regularly, even without me acting as a catalyst.**
 I tried to form a board game group, but it imploded pretty much immediately.
 I'll figure something out though, don't you worry.
 
-
----
 
 **For every week that I'm not in a serious, committed relationship, go on a date
 with somebody new.**
