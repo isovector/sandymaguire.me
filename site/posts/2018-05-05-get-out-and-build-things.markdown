@@ -84,7 +84,7 @@ and "all sorts of things" seems to evade the question.
 
 Recently I've been trying "I get out and I build things." It hits the important
 markers: creating things is important to me, even if I'm not entirely sure what
-it is I'm building. It's an eclectic answer, which in itself signals something.
+it is I'm building. It's an eccentric answer, which in itself signals something.
 And, the "getting out" part is important too: just because I'm weird doesn't
 mean I'm antisocial.
 
