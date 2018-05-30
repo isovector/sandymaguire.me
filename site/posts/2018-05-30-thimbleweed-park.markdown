@@ -1,7 +1,7 @@
 ---
 layout: post
-title: thimbleweed
-date: TO_BE_DETERMINED
+title: "Review: Thimbleweed Park"
+date: 2018-05-30 12:58
 comments: true
 tags: foo, bar
 ---
@@ -12,8 +12,8 @@ have with filling my time][retire] has been exacerbated. As a result, I bought
 the neo-classic point-n-click adventure game [Thimbleweed Park][thimbleweed] and
 played through it in record time.
 
-[retire]:
-[thimbleweed]:
+[retire]: /blog/get-out-and-build-things/
+[thimbleweed]: https://thimbleweedpark.com/
 
 You might not know this about me, but I have a strong affection for graphical
 adventure games; the genre was a huge part of my childhood, and I'm unable to
@@ -21,18 +21,15 @@ count the aesthetic influences they've left on me. I've also [built a][devlog1]
 [lot of][devlog2] [technology][devlog3] on which to create my own adventure
 games, if I ever get around to it.
 
-[devlog1]:
-[devlog2]:
-[devlog2]:
+[devlog1]: http://reasonablypolymorphic.com/blog/starting-a-game-engine/
+[devlog2]: http://reasonablypolymorphic.com/blog/action-menus/
+[devlog2]: http://reasonablypolymorphic.com/blog/navigation/
 
 But Thimbleweed Park is the first game of its kind that I've played for the
 first time *as an adult.* While it was an enjoyable experience, it gave me a lot
 of insight into why the genre hasn't persevered in the modern era. There are
 lots of *good* things I can say about the game, but it seems more instructive to
 focus on its negative points.
-
-> TODO(sandy): this game is pretty representative of the genre, so lots of its
-> failings are of the genre's as well
 
 
 ## Part 1: The Puzzles Don't Make Any Damn Sense
@@ -112,8 +109,7 @@ And then I got stuck for an hour. Because the solution was that I needed to put
 *some other* item on their shoes. Some other item I had found, but hadn't known
 I could pick up, because it was a liquid and I didn't have a suitable container.
 
-> TODO(sandy):  fix this
-Which brings me to...
+I'll get back to this in a minute.
 
 There's a corollary to this, which is that when the game DID give me feedback on
 my incorrect solutions, it often would imply that my *completely wrong*
@@ -123,9 +119,9 @@ fountain, which temporarily makes significantly more water come out of it than
 usual, and then goes back to normal after five seconds.
 
 My adventure game brain interpreted this as "hmm, I need to find something I can
-do in these five seconds in order to exacerbate the problem." But no, this is
+do in these five seconds in order to intensify the problem." But no, this is
 unrelated. Don't get me wrong, I can appreciate the value of red herrings, but I
-would have appreciated a little line of dialog along the lines of "this doesn't
+would have appreciated a little bit of dialog along the lines of "this doesn't
 seem to be working" after ten tries or so.
 
 The plumbing situation gets worse, however. There are lots of plumbing-related
@@ -142,6 +138,9 @@ what they don't, how in hell am I going to be able to?
 
 
 ## Part 3: Object Impermanence
+
+Getting back to putting objects on people's shoes, that I had found but didn't
+realize I could pick up because I didn't have a suitable container.
 
 But! At one point in time I did have a suitable container to hold the necessary
 liquid!
@@ -169,6 +168,14 @@ there was already inspected.
 This is more likely a bug than being bad game design, but it was a pretty
 infuriating one to have run into.
 
+There were other cases of this too though. One of the game's gags is three
+characters who are all the same, but have different verbal tics. It's funny, if
+a little overplayed, but at one point in act **1**, my character called him on
+it, asking "aren't you the same as Guy A and Guy B?" Except that I hadn't met
+Guy B yet, and was arbitrarily gated by the game from meeting him until several
+hours of play through later. Again, it broke my immersion. Worse, it continued
+to distract me for a few hours until I actually ran into Guy B, as I anticipated
+the joke.
 
 
 ## Part 4: Arbitrary Goal Gating
@@ -208,5 +215,11 @@ This is nowhere near anything construable as "good game design."
 
 ## Conclusion
 
-talking about the hotel manager like four acts before we've met him
+At the end of the day, Thimbleweed Park is mostly a good distraction from being
+so ill you think you're going to die. If you're already a big fan of the genre,
+I'd recommend it with all of the above caveats. But if you're not, skip this one
+-- it's only going to leave a bad taste in your mouth. Go start with [Monkey
+Island II][mi2], which is a vastly superior game, made by the same dude.
+
+[mi2]: https://store.steampowered.com/app/32460/Monkey_Island_2_Special_Edition_LeChucks_Revenge/
 
