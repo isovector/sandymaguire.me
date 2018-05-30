@@ -3,7 +3,7 @@ layout: post
 title: "Review: Thimbleweed Park"
 date: 2018-05-30 12:58
 comments: true
-tags: foo, bar
+tags: review, game
 ---
 
 I've been confined to bed for the last week or so with the worst flu of my life.
