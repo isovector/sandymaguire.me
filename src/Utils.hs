@@ -77,6 +77,7 @@ makeTag makeUrl tagname posts = object
   , "url"   .= makeUrl tagname
   , "posts" .= posts
   , "page_title" .= ("Posts tagged \"" <> (_Text # tagname) <> "\"" :: Text)
+  , "slug" .= ("tag-" <> (_Text # tagname) :: Text)
   ]
 
 

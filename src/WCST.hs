@@ -36,6 +36,8 @@ main :: IO ()
 main = site $ do
   let l = _Object . at "url" . _Just . _String . _Text
 
+  about <- resourceLoader markdownReader ["about.markdown"]
+
   rawPosts <- sortBy (comparing (^?! l))
           <$> resourceLoader markdownReader ["posts/*.markdown"]
 
@@ -93,9 +95,16 @@ main = site $ do
         ]
 
   writeTemplate' "post.html" . pure
-    $ newest
-      & _Object . at "url"        ?~ _String # "/index.html"
-      & _Object . at "page_title" ?~ _String # "Home"
+    $ head about
+      & _Object . at "url"        ?~ _String # "/about/index.html"
+      & _Object . at "page_title" ?~ _String # "About"
+      & _Object . at "date"       ?~ _String # "June 4, 2018"
+      & _Object . at "slug"       ?~ _String # "about"
+
+--   writeTemplate' "post.html" . pure
+--     $ newest
+--       & _Object . at "url"        ?~ _String # "/index.html"
+--       & _Object . at "page_title" ?~ _String # "Home"
 
   let byYear = reverse
               . flip groupOnKey (reverse posts)
@@ -104,17 +113,24 @@ main = site $ do
                     . reverse
                     $ x ^?! _Object . at "date" . _Just . _String . _Text
 
+  let archive = object
+        [ "url" .= ("/blog/archives/index.html" :: String)
+        , "page_title" .= ("Archives" :: String)
+        , "years" .= (flip fmap byYear $ \(year, ps) ->
+            object
+              [ "posts" .= ps
+              , "year"  .= year
+              ]
+          )
+        , "slug" .= ("archive" :: String)
+        ]
+
+  writeTemplate' "archive.html" $ pure archive
+
   writeTemplate' "archive.html" . pure
-    $ object
-      [ "url" .= ("/blog/archives/index.html" :: String)
-      , "page_title" .= ("Archives" :: String)
-      , "years" .= (flip fmap byYear $ \(year, ps) ->
-          object
-            [ "posts" .= ps
-            , "year"  .= year
-            ]
-        )
-      ]
+    $ archive
+      & _Object . at "url"        ?~ _String # "/index.html"
+      & _Object . at "page_title" ?~ _String # "Home"
 
   writeTemplate' "post.html" posts
   writeTemplate' "tag.html"  tags
@@ -131,16 +147,18 @@ main = site $ do
   books <- for (fmap snd $ groupOnKey bookName clippings) $
     \(sortBy (comparing added) -> items) -> do
       let curBook = head items
+          slug = canonicalName curBook
           book = object
             [ "page_title" .= bookName curBook
             , "title"     .= bookName curBook
             , "author"    .= author curBook
             , "started"   .= added curBook
             , "finished"  .= added (last items)
-            , "url" .= ("books/" <> canonicalName curBook <> ".html")
+            , "url" .= ("books/" <> slug <> ".html")
             , "clippings" .= (flip fmap items $ \item ->
                 object [ "body" .= contents item ]
                )
+            , "slug" .= slug
             ]
       writeTemplate' "book.html" $ pure book
       pure book
@@ -150,6 +168,7 @@ main = site $ do
       [ "page_title" .= ("Index of Book Quotes" :: String)
       , "url" .= ("books/index.html" :: String)
       , "books" .= sortBy (comparing $ titleCompare . (^?! _Object . at "title" . _Just . _String . _Text)) books
+      , "slug" .= ("archive-books" :: String)
       ]
 
   copyFilesWith (drop 7) [ "static/*" ]

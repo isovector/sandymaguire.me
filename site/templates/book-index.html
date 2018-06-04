@@ -1,13 +1,6 @@
 {{> templates/header.html}}
 
 <article>
-<header>
-    <h1><a href="/{{url}}">Index of Book Quotes</a></h1>
-</header>
-<p class="meta">
-    <time>&nbsp;</time>
-</p>
-<div class="content">
     <ul>
     {{#books}}
     <li>
@@ -16,7 +9,6 @@
     </li>
     {{/books}}
     </ul>
-</div>
 </article>
 
 {{> templates/footer.html}}

@@ -1,12 +1,6 @@
 {{> templates/header.html}}
 
 <article>
-<header>
-  <h1><a href="{{url}}">Archives</a></h1>
-</header>
-<p class="meta">
-</p>
-<div class="content">
   {{#years}}
     <h2>{{year}}</h2>
     <ul>
@@ -17,7 +11,6 @@
   {{/posts}}
     </ul>
   {{/years}}
-</div>
 </article>
 
 {{> templates/footer.html}}
