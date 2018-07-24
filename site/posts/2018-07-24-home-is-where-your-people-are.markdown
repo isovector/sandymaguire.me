@@ -49,6 +49,7 @@ that all of this is bullshit, that nobody actually cares if I make mistakes and
 [alieving][alief] it.
 
 [^1]: My friend Austin.
+
 [alief]: https://en.wikipedia.org/wiki/Alief_(mental_state)
 
 Today I'm sitting in that same coffee shop, reflecting back on the mistakes I
