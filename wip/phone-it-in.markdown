@@ -59,10 +59,9 @@ how low the bar really is on competency.
 Most people are only *OK* at their jobs, yet they haven't been fired. And their
 jobs are way easier than yours.
 
-> The best minds of my generation are thinking about how to make people click
-> ads. That sucks.
->
-> Jeff Hammerbacher
+
+
+
 
 The world is being run by people who are merely OK at their jobs. At jobs that
 you would find laughably easy. Take a moment to reflect on that. That inadequacy
@@ -86,16 +85,6 @@ But here's the rub---this exact same line of reasoning applies to you too. If
 you're reading this, you've probably got a pretty sweet track record yourself.
 It would be downright foolish to ignore that evidence in the face of new
 challenges.
-
-> I have to get you to drop modesty and say to yourself, "Yes, I would like to
-> do first-class work." Our society frowns on people who set out to do really
-> good work. You're not supposed to; luck is supposed to descend on you and you
-> do great things by chance. Well, that's a kind of dumb thing to say. I say,
-> why shouldn't you set out to do something significant. You don't have to tell
-> other people, but shouldn't you say to yourself, "Yes, I would like to do
-> something significant."
->
-> Richard Hamming
 
 I have another anecdote I'd like to share. In lieu of writing a thesis, to
 graduate with an engineering degree at university, you had to do what was known
@@ -144,4 +133,5 @@ steps---editing, designing, marketing---didn't come naturally, but I just sat
 down and fought with them for hours on end until I was proud of the result. It's
 not magic; it's just hard work and an unwillingness to do anything with less
 than excellence.
+
 
