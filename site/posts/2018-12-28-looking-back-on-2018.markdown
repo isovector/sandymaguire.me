@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Looking Back on 2018
-date: TO_BE_DETERMINED
+date: 2018-12-28 12:26
 comments: true
 tags: life, analysis, goals
 related:
@@ -244,7 +244,7 @@ I want to take some time to go through each.
 
 ## Publishing
 
-Excluding this post, I published 104,000 words last year---33% more than my goal
+Excluding this post, I published 108,000 words last year---35% more than my goal
 of 78,000. That's 34 blog posts and [one book](http://thinkingwithtypes.com);
 significantly better than the eleven posts I managed in 2017. It's a pretty good
 book. You should go buy a copy.
