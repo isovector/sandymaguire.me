@@ -344,7 +344,7 @@ didn't end up publishing a paper, but I did come up with something novel and
 [wrote a blog post about it][prospect]. This felt good enough---the value was in
 progressing the state of the art, not in getting credit for it.
 
-[prospect]:
+[prospect]: https://reasonablypolymorphic.com/blog/prospecting-free-monads/
 
 The idea, in short, is that I found a technique for performing static analysis
 of free monads. I know you don't really care, but this problem was considered to
