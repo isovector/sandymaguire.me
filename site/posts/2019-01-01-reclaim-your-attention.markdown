@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reclaim Your Attention
+title: "Reclaim Your Attention!"
 date: 2019-01-01 11:55
 comments: true
 tags: tips, computer
@@ -19,8 +19,11 @@ possible on these websites.
 And so I'd like to present the most obvious-in-hindsight solution I've ever come
 across. Just delete the fuckers!
 
+<center>
 <img src="/images/filtering/facebook.png" alt="Facebook" />
+
 <img src="/images/filtering/youtube.png" alt="Youtube" />
+</center>
 
 If you're sold on this idea, it's actually super easy to do, and works anywhere
 on the internet! You're going to need to install the [uBlock
