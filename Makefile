@@ -1,7 +1,6 @@
 wcst:
 	stack install
-	wcst clean
-	wcst watch
+	wcst
 
 test:
 	stack install

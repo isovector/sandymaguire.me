@@ -2,8 +2,8 @@
 {-# LANGUAGE ScopedTypeVariables       #-}
 {-# LANGUAGE TypeApplications          #-}
 {-# LANGUAGE ViewPatterns              #-}
-{-# language DuplicateRecordFields     #-}
-{-# language OverloadedStrings         #-}
+{-# LANGUAGE DuplicateRecordFields     #-}
+{-# LANGUAGE OverloadedStrings         #-}
 
 module Main where
 
@@ -37,6 +37,7 @@ main = site $ do
   let l = _Object . at "url" . _Just . _String . _Text
 
   about <- resourceLoader markdownReader ["about.markdown"]
+  now   <- resourceLoader markdownReader ["now.markdown"]
 
   rawPosts <- sortBy (comparing (^?! l))
           <$> resourceLoader markdownReader ["posts/*.markdown"]
@@ -97,9 +98,12 @@ main = site $ do
   writeTemplate' "post.html" . pure
     $ head about
       & _Object . at "url"        ?~ _String # "/about/index.html"
-      & _Object . at "page_title" ?~ _String # "About"
-      & _Object . at "date"       ?~ _String # "June 4, 2018"
       & _Object . at "slug"       ?~ _String # "about"
+
+  writeTemplate' "post.html" . pure
+    $ head now
+      & _Object . at "url"        ?~ _String # "/now/index.html"
+      & _Object . at "slug"       ?~ _String # "now"
 
 --   writeTemplate' "post.html" . pure
 --     $ newest

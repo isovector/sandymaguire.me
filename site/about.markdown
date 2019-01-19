@@ -1,3 +1,12 @@
+---
+layout: post
+page_title: About
+title: About
+date: "June 4, 2018"
+comments: true
+has_related: false
+---
+
 Hi there! You've unwittingly stumbled upon We Can Solve This, the "experimental
 lifestyle project" of Sandy Maguire. It used to just be my blog, but then I
 somehow convinced the Lithuanian government to give me a visa based solely on
