@@ -13,9 +13,9 @@ I want to share a piece of [ridiculously obvious advice][obvious] today.
 
 [obvious]: http://mindingourway.com/obvious-advice/
 
-I've got a bad habit, which is being too smart for my own good. Which is to say,
-when I want to learn something new, too often I spend my time making tools to
-help me learn, rather than just learning the thing.
+I've got a bad habit, which is being too smart for my own good. That is, when I
+want to learn something new, too often I spend my time making tools to help me
+learn, rather than just learning the thing.
 
 Take, for example, the first time I tried to learn how to play jazz music.
 
