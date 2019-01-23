@@ -56,7 +56,7 @@ people doing the automating-away are programmers, and [some very fortunate
 mathematics][godel] prove that when we can automate programming we must already
 be able to automate everything else.
 
-[godel]:
+[godel]: https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems
 
 *Programming is a creative endeavor.* Most of your time is spent thinking about
 how to solve the problem; very little of it is *actually* solving it. Knowing
