@@ -77,7 +77,7 @@ There are a few reasons you might not want to become a programmer.
 *You* need to spend a lot of time on a computer.
 
 *You feel like you won't be good at it.* In my experience, computer programming
-skills overlap with a lot of over things. If your job consists of working with
+skills overlap with a lot of other things. If your job consists of working with
 lots of different tools and understanding when to use which, then programming is
 going to be a good a fit. If your job consists of diagnosing why things are
 broken, programming will be a very good fit. If your job consists of making
