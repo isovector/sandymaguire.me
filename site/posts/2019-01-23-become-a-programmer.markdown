@@ -198,10 +198,10 @@ companies that you're *serious*, even if you don't have professional experience.
 
 ## Making a Great Resume
 
-Keep in mind that nobody in this industry cares about whether or not you can
-code and whether or not you can make them money. Seriously. That's it. As a
-result, you want to tailor your resume with this in mind. My rules on this are
-simple:
+Keep in mind that nobody in this industry cares about anything. Except for
+whether or not you can code and whether or not you can make them money.
+Seriously. That's it. As a result, you want to tailor your resume with this in
+mind. My rules on this are simple:
 
 *Make the relevant information easy to find.* At the very top, list what
 programming languages you know, and how well you know them. Chop out words if
