@@ -31,7 +31,7 @@ willing to move, let's say \$100,000.
 *You don't need any qualifications.* Nobody in the industry cares whether or not
 you went to university. They don't give a shit about what you look like or who
 your family is; all they care about is whether or not you can reverse a linked
-list in constant time[^1]---whether or not you can code. In other words, it's an
+list in linear time[^1]---whether or not you can code. In other words, it's an
 industry in which skills trump qualifications every time. The interviews rarely
 have any "soft" questions; you're just asked to program a solution to a problem.
 If you can do it and your solution doesn't suck and you don't seem like an
