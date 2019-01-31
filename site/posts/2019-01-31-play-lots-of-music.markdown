@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2019 Goals: Just Play Lots of Music"
+title: "2019 Goal: Just Play Lots of Music"
 date: 2019-01-31 09:27
 comments: true
 tags: planning, year, goals, music
