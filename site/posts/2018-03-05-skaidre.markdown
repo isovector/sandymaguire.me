@@ -4,6 +4,7 @@ title: My Cool Friend Skaidre
 date: 2018-03-05 13:19
 comments: true
 tags: stories, travel
+confidence: 1
 related:
   - stories-from-2015
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Review: Thimbleweed Park"
 date: 2018-05-30 12:58
 comments: true
+confidence: 2
 tags: review, game
 ---
 
