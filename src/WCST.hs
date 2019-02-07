@@ -12,9 +12,11 @@ import           Control.Arrow ((&&&))
 import           Control.Monad (join)
 import           Data.List (sortBy)
 import qualified Data.Map as M
+import           Data.Maybe (catMaybes)
 import           Data.Maybe (isJust)
 import           Data.Monoid ((<>))
 import           Data.Ord (comparing)
+import           Data.Text (Text)
 import           Data.Text.Lens (_Text)
 import           Data.Time.Format (formatTime, defaultTimeLocale)
 import           Data.Time.Parse (strptime)
@@ -31,6 +33,32 @@ postFormat = "/[0-9]{4}-[0-9]{2}-[0-9]{2}-"
 toSlug :: String -> String
 toSlug = replaceAll ("/posts" <> postFormat) (const "")
        . replaceAll "\\.html"  (const "")
+
+
+assembleMeta :: Value -> Value
+assembleMeta o =
+  let date       = o ^?! _Object . at "date"
+      confidence = o ^?! _Object . at "confidence"
+   in o & _Object . at "meta" ?~ Array (fromList $ catMaybes
+          [ date
+          , confidence >>= fmap (String . ("Confidence: " <>))
+                         . getConfidence
+                         . round
+                         . (^?! _Number)
+          ])
+
+
+getConfidence :: Int -> Maybe Text
+getConfidence 1 = Just "certain"
+getConfidence 2 = Just "highly likely"
+getConfidence 3 = Just "likely"
+getConfidence 4 = Just "possible"
+getConfidence 5 = Just "unlikely"
+getConfidence 6 = Just "highly unlikely"
+getConfidence 7 = Just "remote"
+getConfidence 8 = Just "impossible"
+getConfidence _ = Nothing
+
 
 main :: IO ()
 main = site $ do
@@ -77,8 +105,10 @@ main = site $ do
                       formatTime defaultTimeLocale "%Y-%m-%dT%H:%M:%SZ" date
                   & _Object . at "date"       ?~ _String . _Text #
                       formatTime defaultTimeLocale "%B %e, %Y" date
+
       slugList = M.fromList
                $ fmap ((^?! _Object . at "slug" . _Just . _String) &&& id) posts
+
       posts = flip fmap posts' $ \post ->
         post & _Object . at "related" . _Just . _Array
                 %~ fmap (\x -> maybe (error $ "bad related slug: " <> x ^?! _String . _Text) id
@@ -178,6 +208,6 @@ main = site $ do
   copyFilesWith (drop 7) [ "static/*" ]
 
 
-writeTemplate' :: ToJSON a => String -> [a] -> SiteM ()
-writeTemplate' a = writeTemplate ("templates/" <> a)
+writeTemplate' :: String -> [Value] -> SiteM ()
+writeTemplate' a = writeTemplate ("templates/" <> a) . fmap assembleMeta
 
