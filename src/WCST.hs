@@ -130,7 +130,7 @@ main = site $ do
       & _Object . at "url"        ?~ _String # "/about/index.html"
       & _Object . at "slug"       ?~ _String # "about"
 
-  writeTemplate' "post.html" . pure
+  writeTemplate' "now.html" . pure
     $ head now
       & _Object . at "url"        ?~ _String # "/now/index.html"
       & _Object . at "slug"       ?~ _String # "now"

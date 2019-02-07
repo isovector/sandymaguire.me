@@ -3,11 +3,10 @@ layout: post
 page_title: What I'm Doing Now
 title: What I'm Doing Now
 date: "February 6, 2019"
+confidence: 1
 comments: false
 has_related: false
 ---
-
-(This is a [now page](https://nownownow.com/about).)
 
 
 In an attempt to hyper-charge how good I am at music, I'm currently learning,
