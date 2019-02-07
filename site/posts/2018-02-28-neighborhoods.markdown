@@ -4,6 +4,7 @@ title: Neighborhoods
 date: 2018-02-28 20:41
 comments: true
 tags: life, reflections
+confidence: 2
 related:
   - outside-view
 ---

@@ -4,6 +4,7 @@ title: Teaching Badly
 date: 2019-01-07 13:40
 comments: true
 tags: education, analysis, autodidacting
+confidence: 3
 ---
 
 I'd like to demonstrate three widespread flaws in education today, through

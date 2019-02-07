@@ -4,6 +4,7 @@ title: "Book Review: Utopia for Realists"
 date: 2019-02-05 13:37
 comments: true
 tags: bad economics, book review
+confidence: 2
 ---
 
 Rutger Bergman's [Utopia for Realists][utopia] is a book whose primary thesis is

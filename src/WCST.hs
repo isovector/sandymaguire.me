@@ -134,7 +134,7 @@ main = site $ do
   writeTemplate' "archive.html" . pure
     $ archive
       & _Object . at "url"        ?~ _String # "/index.html"
-      & _Object . at "page_title" ?~ _String # "Home"
+      & _Object . at "page_title" ?~ _String # "We Can Solve This"
 
   writeTemplate' "post.html" posts
   writeTemplate' "tag.html"  tags

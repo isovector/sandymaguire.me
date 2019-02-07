@@ -4,6 +4,7 @@ title: "Reclaim Your Attention!"
 date: 2019-01-01 11:55
 comments: true
 tags: tips, computer
+confidence: 1
 ---
 
 I'm still working on my goals for 2019, but one of them is that I want to spend

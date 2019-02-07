@@ -4,6 +4,7 @@ title: Sandy's Guide to a New City
 date: 2018-09-19 16:24
 comments: true
 tags: guide, life, strategy
+confidence: 3
 ---
 
 So I've been in Ottawa for about a month now. Without a doubt, it's the best

@@ -4,6 +4,7 @@ title: Double-Dipping in Dunning--Kruger
 date: 2018-11-27 22:33
 comments: true
 tags: effectiveness, life, strategy
+confidence: 4
 ---
 
 > I have to get you to drop modesty and say to yourself, "Yes, I would like to

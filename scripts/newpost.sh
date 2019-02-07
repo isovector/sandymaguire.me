@@ -10,6 +10,7 @@ title: $slug
 date: TO_BE_DETERMINED
 comments: true
 tags: foo, bar
+confidence: 4
 ---
 
 

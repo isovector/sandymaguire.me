@@ -4,6 +4,7 @@ title: Too Smart for My Own Good
 date: 2019-01-22 12:48
 comments: true
 tags: education, analysis, autodidacting
+confidence: 1
 related:
   - double-dipping
   - teaching-badly

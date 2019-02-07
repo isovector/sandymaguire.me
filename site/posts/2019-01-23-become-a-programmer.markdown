@@ -4,6 +4,7 @@ title: How and Why to Become a Programmer
 date: 2019-01-23 14:00
 comments: true
 tags: autodidacting, technical, programming
+confidence: 1
 ---
 
 I find myself recommending programming as a career path to *lots and lots of

@@ -4,6 +4,7 @@ title: "2019 Goal: Just Play Lots of Music"
 date: 2019-01-31 09:27
 comments: true
 tags: planning, year, goals, music
+confidence: 3
 ---
 
 I promised myself it would happen by today, or not at all. Since I don't want to

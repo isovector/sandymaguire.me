@@ -4,6 +4,7 @@ title: Finding the Best Place to Live in Canada
 date: 2018-05-29 19:31
 comments: true
 tags: guide, math, analysis, fun
+confidence: 4
 ---
 
 Maybe you've heard that [Ottawa is the best place to live in Canada][best]? As

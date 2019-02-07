@@ -4,6 +4,7 @@ title: Looking Back on 2018
 date: 2018-12-28 12:26
 comments: true
 tags: life, analysis, goals
+confidence: 1
 related:
   - 2017-review
   - stories-from-2015

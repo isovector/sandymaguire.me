@@ -4,6 +4,7 @@ title: Thrashing Wildly
 date: 2018-06-03 13:35
 comments: true
 tags: reflection
+confidence: 4
 ---
 
 In the last eight years, I've moved cities 18 times -- an average of five months
