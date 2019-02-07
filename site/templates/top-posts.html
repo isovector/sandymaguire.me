@@ -1,0 +1,13 @@
+{{> templates/header.html}}
+
+<article>
+    {{{content}}}
+
+    <ul>
+    {{#related}}
+      <li><a href="/{{canonical_url}}">{{title}}</a></li>
+    {{/related}}
+    </ul>
+</article>
+
+{{> templates/footer.html}}

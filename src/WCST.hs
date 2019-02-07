@@ -48,6 +48,14 @@ assembleMeta o =
           ])
 
 
+makeRelated :: M.Map Text Value -> Value -> Value
+makeRelated slugList post =
+  post & _Object . at "related" . _Just . _Array %~ fmap (\x ->
+    maybe (error $ "bad related slug: " <> x ^?! _String . _Text) id
+      $ M.lookup (x ^?! _String) slugList
+                                                         )
+
+
 getConfidence :: Int -> Maybe Text
 getConfidence 1 = Just "certain"
 getConfidence 2 = Just "highly likely"
@@ -64,8 +72,9 @@ main :: IO ()
 main = site $ do
   let l = _Object . at "url" . _Just . _String . _Text
 
-  about <- resourceLoader markdownReader ["about.markdown"]
-  now   <- resourceLoader markdownReader ["now.markdown"]
+  about    <- resourceLoader markdownReader ["about.markdown"]
+  now      <- resourceLoader markdownReader ["now.markdown"]
+  topPosts <- resourceLoader markdownReader ["top-posts.markdown"]
 
   rawPosts <- sortBy (comparing (^?! l))
           <$> resourceLoader markdownReader ["posts/*.markdown"]
@@ -109,10 +118,7 @@ main = site $ do
       slugList = M.fromList
                $ fmap ((^?! _Object . at "slug" . _Just . _String) &&& id) posts
 
-      posts = flip fmap posts' $ \post ->
-        post & _Object . at "related" . _Just . _Array
-                %~ fmap (\x -> maybe (error $ "bad related slug: " <> x ^?! _String . _Text) id
-                             $ M.lookup (x ^?! _String) slugList)
+      posts = fmap (makeRelated slugList) posts'
 
   let tags   = getTags makeTagUrl $ reverse posts
       newest = last posts
@@ -134,6 +140,11 @@ main = site $ do
     $ head now
       & _Object . at "url"        ?~ _String # "/now/index.html"
       & _Object . at "slug"       ?~ _String # "now"
+
+  writeTemplate' "top-posts.html" . pure . makeRelated slugList
+    $ head topPosts
+      & _Object . at "url"        ?~ _String # "/top-posts/index.html"
+      & _Object . at "slug"       ?~ _String # "top-posts"
 
 --   writeTemplate' "post.html" . pure
 --     $ newest
