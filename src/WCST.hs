@@ -228,7 +228,7 @@ main = site $ do
   rawReviews <- loadFiles (mkBookReview . read) ["books/*.book"]
   reviews <- for rawReviews $ \(slug, Object rev) -> do
     let obj = Object $ rev <>
-                [ "slug" .= slug
+                [ "slug" .= ("book-review-" <> slug)
                 , "url"  .= ("book-reviews/" <> slug <> "/index.html")
                 , "page_title" .= ("Review of " <> (rev HM.! "title") ^. _String)
                 ]
