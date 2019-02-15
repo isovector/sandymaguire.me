@@ -1,0 +1,1 @@
+Book {title = "In the Beginning...Was the Command Line", author = Just "Neal Stephenson", rating = Just "3", review = Just "A brief history of operating systems and user interfaces. It's a quick read, and has some fun soliloquys on plebians. It's not necessary reading, but it's a good distraction for an hour or two."}

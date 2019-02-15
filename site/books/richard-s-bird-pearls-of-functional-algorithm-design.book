@@ -1,0 +1,1 @@
+Book {title = "Pearls of Functional Algorithm Design", author = Just "Richard S. Bird", rating = Just "2", review = Just "Nah. No motivation, no derivations, just some guy showing how smart he is at irrelevant functional algorithms."}

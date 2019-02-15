@@ -1,0 +1,1 @@
+Book {title = "The Time Machine", author = Just "H.G. Wells", rating = Just "2", review = Just "tl;dr: some guy goes to a strange world, starts a forest fire and beats primitive animals with an iron pipe. No time traveling happens."}

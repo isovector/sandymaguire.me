@@ -21,5 +21,8 @@ newpost:
 clippings:
 	flip -ub site/clippings/*
 
-.PHONY: deploy test newpost clippings
+book-reviews:
+	gr -k OeZYlIV1M4a6ouACnYuSg show read 14945161
+
+.PHONY: deploy test newpost clippings book-reviews
 

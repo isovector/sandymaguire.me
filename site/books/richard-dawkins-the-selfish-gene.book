@@ -1,0 +1,1 @@
+Book {title = "The Selfish Gene", author = Just "Richard Dawkins", rating = Just "3", review = Just "I liked it, but I think most of the book has made it into contemporary culture; I found myself not learning as many things from it as I expected to."}

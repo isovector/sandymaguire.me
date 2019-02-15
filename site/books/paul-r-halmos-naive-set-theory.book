@@ -1,0 +1,1 @@
+Book {title = "Naive Set Theory", author = Just "Paul R. Halmos", rating = Just "2", review = Just "This text shows its age -- it's heavily wordy and pretty light on presenting things in mathematical notation. Although I have never formally studied set theory, I didn't get much out of it, though it did serve to reinforce my knowledge of some of the algebra behind sets."}

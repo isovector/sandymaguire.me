@@ -222,3 +222,13 @@ main = site $ do
 writeTemplate' :: String -> [Value] -> SiteM ()
 writeTemplate' a = writeTemplate ("templates/" <> a) . fmap assembleMeta
 
+-- change this in the goodreads generator if you change it here
+-- https://github.com/isovector/goodreads
+data Book = Book
+  { title :: Text
+  , author :: Maybe Text
+  , rating :: Maybe Text
+  , review :: Maybe Text
+  } deriving Show
+
+

@@ -1,0 +1,1 @@
+Book {title = "Measurement", author = Just "Paul  Lockhart", rating = Just "2", review = Just "I stopped reading around 40%. Being a math major, it wasn't providing enough insight-density to warrant further reading. Others with less math experience would likely get a lot out of it, however."}

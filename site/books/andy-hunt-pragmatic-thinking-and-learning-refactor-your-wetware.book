@@ -1,0 +1,1 @@
+Book {title = "Pragmatic Thinking and Learning: Refactor Your Wetware", author = Just "Andy Hunt", rating = Just "4", review = Just "I liked it! I would recommend it! It's got lots of good mental models and actionable advice for getting started, staying strong, and doing great work. There's nothing original or breathtaking here, but it's a good compendium of pop-psych."}

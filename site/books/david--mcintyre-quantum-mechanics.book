@@ -1,0 +1,1 @@
+Book {title = "Quantum Mechanics", author = Just "David  McIntyre", rating = Just "4", review = Just "One of the more comprehensible textbooks I've ever read. I haven't experienced other introductory quantum books, but this is not a bad place to start."}
