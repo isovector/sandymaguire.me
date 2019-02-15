@@ -1,15 +1,19 @@
+{-# LANGUAGE DuplicateRecordFields     #-}
 {-# LANGUAGE NoMonomorphismRestriction #-}
+{-# LANGUAGE OverloadedLists           #-}
+{-# LANGUAGE OverloadedStrings         #-}
 {-# LANGUAGE ScopedTypeVariables       #-}
 {-# LANGUAGE TypeApplications          #-}
 {-# LANGUAGE ViewPatterns              #-}
-{-# LANGUAGE DuplicateRecordFields     #-}
-{-# LANGUAGE OverloadedStrings         #-}
 
 module Main where
 
+import           BookReviews (mkBookReview)
 import           ClipIt
 import           Control.Arrow ((&&&))
 import           Control.Monad (join)
+import           Control.Monad.Reader.Class (asks)
+import qualified Data.HashMap.Lazy as HM
 import           Data.List (sortBy)
 import qualified Data.Map as M
 import           Data.Maybe (catMaybes)
@@ -22,7 +26,8 @@ import           Data.Time.Format (formatTime, defaultTimeLocale)
 import           Data.Time.Parse (strptime)
 import           Data.Traversable (for)
 import           GHC.Exts (fromList)
-import           SitePipe hiding (getTags)
+import           SitePipe hiding (getTags, reviews)
+import qualified System.FilePath.Glob as G
 import           Utils
 
 
@@ -38,13 +43,22 @@ toSlug = replaceAll ("/posts" <> postFormat) (const "")
 assembleMeta :: Value -> Value
 assembleMeta o =
   let date       = o ^?! _Object . at "date"
+      bookAuthor = o ^?! _Object . at "author"
       confidence = o ^?! _Object . at "confidence"
+      stars      = o ^?! _Object . at "stars"
    in o & _Object . at "meta" ?~ Array (fromList $ catMaybes
           [ date
+          , bookAuthor
           , confidence >>= fmap (String . ("Confidence: " <>))
                          . getConfidence
                          . round
                          . (^?! _Number)
+          , stars >>= fmap ( review (_String . _Text)
+                           . ("Rating: " <>)
+                           . (<> "/5")
+                           . show @Int
+                           . round)
+                    . (^? _Number)
           ])
 
 
@@ -67,11 +81,11 @@ getConfidence 7 = Just "remote"
 getConfidence 8 = Just "impossible"
 getConfidence _ = Nothing
 
+l :: (AsValue t, Applicative f) => (String -> f String) -> t -> f t
+l = _Object . at "url" . _Just . _String . _Text
 
 main :: IO ()
 main = site $ do
-  let l = _Object . at "url" . _Just . _String . _Text
-
   about    <- resourceLoader markdownReader ["about.markdown"]
   now      <- resourceLoader markdownReader ["now.markdown"]
   topPosts <- resourceLoader markdownReader ["top-posts.markdown"]
@@ -146,17 +160,12 @@ main = site $ do
       & _Object . at "url"        ?~ _String # "/top-posts/index.html"
       & _Object . at "slug"       ?~ _String # "top-posts"
 
---   writeTemplate' "post.html" . pure
---     $ newest
---       & _Object . at "url"        ?~ _String # "/index.html"
---       & _Object . at "page_title" ?~ _String # "Home"
-
   let byYear = reverse
-              . flip groupOnKey (reverse posts)
-              $ \x -> reverse
-                    . take 4
-                    . reverse
-                    $ x ^?! _Object . at "date" . _Just . _String . _Text
+             . flip groupOnKey (reverse posts)
+             $ \x -> reverse
+                   . take 4
+                   . reverse
+                   $ x ^?! _Object . at "date" . _Just . _String . _Text
 
   let archive = object
         [ "url" .= ("/blog/archives/index.html" :: String)
@@ -192,7 +201,7 @@ main = site $ do
   books <- for (fmap snd $ groupOnKey bookName clippings) $
     \(sortBy (comparing added) -> items) -> do
       let curBook = head items
-          slug = canonicalName curBook
+          slug = canonicalName (author curBook) (bookName curBook)
           book = object
             [ "page_title" .= bookName curBook
             , "title"     .= bookName curBook
@@ -216,19 +225,42 @@ main = site $ do
       , "slug" .= ("archive-books" :: String)
       ]
 
+  rawReviews <- loadFiles (mkBookReview . read) ["books/*.book"]
+  reviews <- for rawReviews $ \(slug, Object rev) -> do
+    let obj = Object $ rev <>
+                [ "slug" .= slug
+                , "url"  .= ("book-reviews/" <> slug <> "/index.html")
+                , "page_title" .= ("Review of " <> (rev HM.! "title") ^. _String)
+                ]
+    writeTemplate' "book-review.html" $ pure obj
+    pure obj
+
+  writeTemplate' "book-index.html" . pure
+    $ object
+      [ "page_title" .= ("Index of Book Reviews" :: String)
+      , "url" .= ("book-reviews/index.html" :: String)
+      , "books" .= sortBy (comparing $ titleCompare . (^?! _Object . at "title" . _Just . _String . _Text)) reviews
+      , "slug" .= ("archive-book-reviews" :: String)
+      ]
+
+
+
+
   copyFilesWith (drop 7) [ "static/*" ]
 
 
 writeTemplate' :: String -> [Value] -> SiteM ()
 writeTemplate' a = writeTemplate ("templates/" <> a) . fmap assembleMeta
 
--- change this in the goodreads generator if you change it here
--- https://github.com/isovector/goodreads
-data Book = Book
-  { title :: Text
-  , author :: Maybe Text
-  , rating :: Maybe Text
-  , review :: Maybe Text
-  } deriving Show
 
+loadFiles :: (String -> a) -> [GlobPattern] -> SiteM [a]
+loadFiles fileReader patterns = do
+  filenames <- concat <$> traverse srcGlob patterns
+  traverse (fmap fileReader . liftIO . readFile) filenames
+
+
+srcGlob :: GlobPattern -> SiteM [FilePath]
+srcGlob pattern = do
+  srcD <- asks srcDir
+  liftIO $ G.glob (srcD </> pattern)
 

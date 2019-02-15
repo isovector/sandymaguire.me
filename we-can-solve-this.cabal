@@ -28,6 +28,9 @@ executable wcst
                   , lens
                   , regex-tdfa
                   , aeson
+                  , Glob
+                  , mtl
+                  , unordered-containers
   ghc-options:      -threaded -Wall -Werror
   hs-source-dirs:   src
   default-language: Haskell2010

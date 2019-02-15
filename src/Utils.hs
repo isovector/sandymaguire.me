@@ -2,9 +2,11 @@
 
 module Utils where
 
+import           Control.Applicative
 import           Control.Arrow ((&&&))
 import           Control.Lens (view, review)
 import           Data.Aeson (Value, (.=))
+import           Data.Char (toLower, isAlphaNum, isSpace)
 import           Data.List (intercalate, isPrefixOf)
 import qualified Data.Map as M
 import           Data.Maybe (listToMaybe, fromJust)
@@ -92,4 +94,16 @@ titleCompare s =
     if isPrefixOf "The " s
        then drop 4 s
        else s
+
+
+canonicalName :: String -> String -> String
+canonicalName author bookName
+    = replace ' ' '-'
+    . reverse . dropWhile (== ' ') . reverse
+    . filter (liftA2 (||) isAlphaNum isSpace)
+    . fmap toLower
+    $ spaceConcat author bookName
+  where
+    spaceConcat a b = a ++ " " ++ b
+    replace a b = map $ \c -> if (c == a) then b else c
 

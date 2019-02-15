@@ -6,14 +6,12 @@ module ClipIt
     , getClippings
     , parseClippings
     , getBooks
-    , canonicalName
     ) where
 
 import Control.Applicative ((<$>), (<|>))
 import Control.Arrow ((***))
 import Control.Monad (liftM2, join, void)
 import Data.Aeson
-import Data.Char (toLower, isAlphaNum, isSpace)
 import Data.DateTime
 import Data.List (nub)
 import Data.Time.Clock
@@ -37,6 +35,7 @@ typeof :: GenParser Char st String
 typeof = do
   optional $ string "Your "
   choice $ map string ["Highlight", "Note", "Bookmark"]
+
 
 getClippings :: String -> [Clipping]
 getClippings = filter (("" /=) . author)
@@ -151,15 +150,6 @@ parseClippings input = parse parseFile "parsing a file" input
 getBooks :: Either ParseError [Clipping] -> [(String, String)]
 getBooks (Left s) = error $ show s
 getBooks (Right bs) = nub $ map (liftM2 (,) bookName author) bs
-
-canonicalName :: Clipping -> String
-canonicalName = replace ' ' '-'
-              . reverse . dropWhile (== ' ') . reverse
-              . filter (liftM2 (||) isAlphaNum isSpace)
-              . fmap toLower
-              . liftM2 spaceConcat author bookName
-  where spaceConcat a b = a ++ " " ++ b
-        replace a b = map $ \c -> if (c == a) then b else c
 
 
 _oldStyle :: String
