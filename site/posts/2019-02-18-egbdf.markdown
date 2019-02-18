@@ -1,0 +1,17 @@
+---
+layout: post
+title: Every Good Boy Deserves Fruit
+date: 2019-02-18 00:44
+comments: true
+tags: music, announcement
+confidence: 1
+related:
+  - play-lots-of-music
+---
+
+I just wanted to announce that [I've launched a new website][egbdf], documenting
+the things I learn in my quest to [just play lots of music][music].
+
+[egbdf]: https://everygoodboydeservesfruit.com/
+[music]: /blog/play-lots-of-music/
+
