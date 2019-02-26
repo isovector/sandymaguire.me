@@ -2,35 +2,44 @@
 layout: post
 page_title: What I'm Doing Now
 title: What I'm Doing Now
-date: "February 6, 2019"
+date: "February 25, 2019"
 confidence: 1
 comments: false
 has_related: false
 ---
 
+I'm in San Francisco! It's weird to be back---when I left I hated this city, and
+now that I'm back I kind of like it. Proceeding with caution, though. I'm all
+too aware that places are experienced differently between visiting and living.
 
-In an attempt to hyper-charge how good I am at music, I'm currently learning,
-recording and [publishing][soundcloud] one song per day. I'm about a week deep
-into this project, and it's amazing how much better I've gotten in such a short
-time. I mean, you can *actually hear it.* Though I guess that's sort of the
-point.
+It's nice. I hadn't seen the sun in months. The winter in Ottawa still shows no
+sign of abatement.
 
-[soundcloud]: https://soundcloud.com/santino-maguire
+Well, I kind of liked being in SF. Then twenty minutes ago, while giving a
+farewell hug to a friend, I got kicked in my thigh by a hobo. A good, swift
+kick. It hurt. He said I was saying unkind things about him. I wasn't.
 
-Additionally, I've been meeting up with lots of cool new people lately. I'm not
-sure why, but all of a sudden, people have been reaching out. And it's
-*fantastic.* I've noticed that the calibre of interactions I've been having with
-these people is significantly better than those with whom I meet more
-organically. So if you're in the Ottawa area (or in San Francisco), feel free to
-[reach out!](mailto:sandy@sandymaguire.me)
+How are you supposed to respond to being kicked?
 
-Speaking of which, I'm going to be in San Francisco in a few weeks (Feb 22 --
-March 3). I hated SF when I lived there, but my god am I excited to be going
-back. For all of its problems, San Francisco sure has its fair share of
-inspiring humans.
+Anyway. I have lots of friends in San Francisco, and it's really fantastic to
+catch up with them. Ottawa is lovely but lacking in lots of quality of company.
+However, being back I'm reminded of the anti-power of ruts. I've lived in four
+countries since I was last here, dated seven women, retired, written a book, and
+in short gotten into a lot of trouble since then.
 
-Oh, and I'm also writing a typechecker plugin for Haskell that I'm describing
-[like Napster but for instances.][wide]
+But most of my friends are still in the same jobs, dating the same people, doing
+the same hobbies. The big news in the social circle is that some friends have a
+new dog. Seriously, four people have told me about it so far.
 
-[wide]: https://github.com/isovector/wide-open-world
+That sort of thing makes me uncomfortable. I'm happy if it's working for them,
+but it's not what I want out of my life. I fell into the rut thing when I lived
+here, and I'm now wondering if that was a function of me or of the city.
+
+Did I mention that I have an interview on Thursday, for a job I really want? I'm
+not crazy enthralled about the idea of leaving my retirement, but the job seems
+too good to pass up. It's located in the Bay, and so these questions are a
+little more pertinent than they sound.
+
+We'll know more in a few days. Maybe I won't get an offer, which will make
+everything very simple. But maybe I will...
 
