@@ -127,7 +127,9 @@ To quote [Gwern][gwern]:
 > anything meritorious with them, it was perhaps simply putting more work into
 > them than someone else would have.
 
-Or as Joe Kachmar says:
+Or as [Joe Kachmar][jkachmar] says:
+
+[jkachmar]: https://twitter.com/jkachmar
 
 > It's really nice to realize that most/all of the work on these big projects is
 > just folks who have relentlessly kept tugging on some thread until it unravels
