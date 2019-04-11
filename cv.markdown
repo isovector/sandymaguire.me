@@ -3,7 +3,7 @@
 
 \newenvironment{section}[1]{<div class="section"><h2>#1</h2>}{</div>}
 \newenvironment{subsection}[1]{<div class="subsection"><h3>#1</h3>}{</div>}
-\newenvironment{job}[2]{<div class="job"><strong>#1, #2</strong>}{</div>}
+\newenvironment{job}[2]{<div class="job"><strong>#1</strong><br>\authors{#2}}{</div>}
 \newenvironment{when}[1]{<div class="when">#1</div><div class="item">}{</div>}
 \newenvironment{itemize}{<ul>}{</ul>}
 \newcommand{\dateauthor}[3]{<div class="when">#1</div><div class="item"><strong>#3</strong><br>\authors{#2}</div>}
@@ -24,7 +24,7 @@ class="desc">#4</span></div>}
 <style type="text/css">
 body {
   font-size: 10pt;
-  width: 45em;
+  width: 50em;
   font-family: 'Source Serif Pro', serif;
   text-align: justify;
   line-height: 16pt;
@@ -109,7 +109,7 @@ Functional programming, compiler design, free monads
 
 \begin{section}{Education}
 \begin{when}{2010-2015}
-\education{BSE}{Software Engineering, Honours, Co-operative Program}{University of Waterloo}{Waterloo, ON, Canada}
+\education{BSE}{Software Engineering, Honours, Co-operative Program}{University of Waterloo}{Waterloo, ON}
 \end{when}
 \end{section}
 
@@ -127,7 +127,7 @@ Functional programming, compiler design, free monads
 \begin{when}{2015-2016}
 \begin{job}{Engineer III (Identity and Access Management)}{Google}
 \begin{itemize}
-\item{Led the architectural design effort of a user-defined permission model for the cloud – the team's only project for the subsequent quarter.}
+\item{Led the architectural design effort of a user-defined permission model for the cloud --- the team's only project for the subsequent quarter.}
 \item{Took ownership over an unmaintained, service-critical internal compiler; improved compile times by 96\% and test coverage by 65\%.}
 \end{itemize}
 \end{job}
