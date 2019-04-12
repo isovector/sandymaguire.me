@@ -321,13 +321,13 @@ Functional programming, compiler design, free monads
   ourselves. The industry prioritizes writing "readable" code, characterized by
   being verbose and "doing nothing clever".  While each step along the way is
   indeed comprehensible, too often this desideratum manages to lose the original
-  /intention/ behind the code. There's usually somebody who indeed understands
+  <i>intention</i> behind the code. There's usually somebody who indeed understands
   the code, but finding that person is often nontrivial.
 }
 
 \p{
   Some friends and I decided to solve this. As our graduation capstone project,
-  we built an analytics tool to determine /who knows what/ in a codebase. It
+  we built an analytics tool to determine <i>who knows what</i> in a codebase. It
   consisted of editor plugins to record what code was being read, by whom. We
   cross-referenced this against diffs, and found that high scores on both
   measures correlated strongly with the team members considered to be "experts"
@@ -361,7 +361,7 @@ Functional programming, compiler design, free monads
   and so I decided I should start trying to clean up the dirty code that nobody
   else wanted to touch. It's thankless work --- customers don't see it, and
   management doesn't care, but it makes colleagues' lives better, and that
-  seemed worthwhile to me.
+  seemed worthwhile.
 }
 
 \p{
@@ -383,8 +383,8 @@ Functional programming, compiler design, free monads
   Cleaning up bad code is fun for a while, but it gets old rather quickly. It's
   frustrating that today's mainstream tools are simply failing people who want
   to write better code. These people find often themselves between doing the
-  /right/ thing and doing a /quick/ thing. Every incentive structure prioritizes
-  the latter. But personally, I don't think our tools should punish people for
+  <i>right</i> thing and doing a <i>quick</i> thing. Every incentive structure
+  prioritizes the latter. I don't think our tools should punish people for
   attempting to write good code.
 }
 
@@ -393,12 +393,12 @@ Functional programming, compiler design, free monads
   impressively tangled ball of spaghetti. It was untestable, and so people
   simply didn't write any tests. A stupid bug made it into production, and it
   cost us a few million dollars. Several people were subsequently let go, a few
-  of whom were good friends of mine. All of this seemed so preventable, and I
+  of whom were good friends of mine. All of this seemed so preventable that I
   started looking for a solution.
 }
 
 \p{
-  As I dug in, I realized that free monads were the abstraction that /I/ had
+  As I dug in, I realized that free monads were the abstraction that <i>I</i> had
   been grasping for without realizing. They allowed me to express my ideas at a
   very high-level. They let me separate my implementation details from my
   business logic, and as a bonus, I could turn those details into library code.
@@ -432,19 +432,19 @@ Functional programming, compiler design, free monads
   shown that efficient free monads are possible, their technique requires users
   to write a significant amount of boilerplate --- something I knew would be a
   stumbling block to wide adoption. If something is too much work to do write,
-  people simply won't do it. After several months of work, I came up with a
-  solution that could give free implementations of the boilerplate, at the
-  expense of making the compiler work harder. Unfortunately, the compiler wasn't
-  up to the challenge, so I had to patch it. The code review is still in
-  process, but my local branch allows for free monads to be a true zero-cost
-  abstraction.
+  nobody will do it. After several months of work, I came up with a solution
+  that could give free implementations of the boilerplate, at the expense of
+  making the compiler work harder. Unfortunately, the compiler wasn't up to the
+  challenge, so I had to patch it. The code review is still in process, but my
+  local branch allows for free monads to be a true zero-cost abstraction.
 }
 
 \p{
   I really and truly believe that useable free monads will drastically improve
   code "out in the wild." They'll lessen the frequency of newcomers flailing
   around in codebases. Perhaps most importantly, they'll cut down on the frantic
-  four-in-the-morning broken-code alarms that are too prevalent in the industry.
+  four-in-the-morning broken-code alarms that are all too prevalent in the
+  industry.
 }
 
 \p{
