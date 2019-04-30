@@ -16,9 +16,9 @@ The official reason for the rejection is that my undergraduate GPA is too low.
 
 In my eyes, I'm a pretty outstanding candidate. In the last two years I've
 solved two [major][prospect] [problems][polysemy] in my field --- both of which
-people frequently told me I should stop wasting my time because they were
-insolvable. I didn't work on the problems to publish them or for the fame or
-anything; I was just annoyed that I couldn't do something that seemed so
+people frequently said I should stop wasting time on, because they fundamentally
+couldn't be solved. I didn't work on the problems to publish them or for the
+fame or anything; I was just annoyed that I couldn't do something that seemed so
 obviously *possible.*
 
 [prospect]: https://reasonablypolymorphic.com/blog/prospecting-free-monads/

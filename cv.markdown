@@ -121,7 +121,7 @@ margin-top: 2em;
 <h1>Sandy Maguire</h1>
 \begin{when}{ }
 <div class="deets">
-343.262.3363 \spacer sandy@sandymaguire.me \spacer https://reasonablypolymorphic.com
+(+1) 343.262.3363 \spacer sandy@sandymaguire.me \spacer https://reasonablypolymorphic.com
 </div>
 \end{when}
 
@@ -134,7 +134,7 @@ Functional programming, compiler design, free monads
 
 
 \begin{section}{Education}
-\begin{pointednolink}{2010-2015}{University of Waterloo, Waterloo, ON}{BSE, Software Engineering, Honours, Co-operative Program}
+\begin{pointednolink}{2010-2015}{University of Waterloo, Waterloo, ON, Canada}{BSE, Software Engineering, Honours, Co-operative Program}
 \item{77.16 Cumulative GPA}
 \item{Graduated in <emph>Excellent Standing</emph>}
 \end{pointednolink}
@@ -202,34 +202,34 @@ Functional programming, compiler design, free monads
 \begin{section}{Professional Experience}
 
 \begin{when}{2016-2018}
-\begin{job}{Senior Haskell Software Engineer}{Takt}
+\begin{job}{Senior Haskell Software Engineer}{Takt \spacer San Francisco, CA, USA}
 \begin{itemize}
-\item{Led a team of four to reimplement a core subcomponent of the product --- increased the cadence of new feature development from months to days.}
+\item{Led a team of four to reimplement a core subcomponent of the product &mdash; increased the cadence of new feature development from months to days.}
 \item{Directed a team of three to implement a high-throughput, low-latency brokered streaming library. Resulting library became the company's core inter-service communication protocol.}
 \end{itemize}
 \end{job}
 \end{when}
 
 \begin{when}{2015-2016}
-\begin{job}{Engineer III (Identity and Access Management)}{Google}
+\begin{job}{Engineer III (Identity and Access Management)}{Google \spacer Mountain View, CA, USA}
 \begin{itemize}
-\item{Led the architectural design effort of a user-defined permission model for the cloud --- the team's only project for the subsequent quarter.}
+\item{Led the architectural design effort of a user-defined permission model for the cloud &mdash; the team's only project for the subsequent quarter.}
 \item{Took ownership over an unmaintained, service-critical internal compiler; improved compile times by 96\% and test coverage by 65\%.}
 \end{itemize}
 \end{job}
 \end{when}
 
 \begin{when}{2014}
-\begin{job}{Engineering Intern (Ads Ranking)}{Facebook}
+\begin{job}{Engineering Intern (Ads Ranking)}{Facebook \spacer Menlo Park, CA, USA}
 \begin{itemize}
-\item{Analyzed the advertising platform's spending behaviors, and subsequently implemented algorithmic changes --- resulting in a 0.5\% revenue increase.}
+\item{Analyzed the advertising platform's spending behaviors, and subsequently implemented algorithmic changes &mdash; resulting in a 0.5\% revenue increase.}
 \item{Parallelized the back-end graph ranker, resulting in site-wide response time gains of 0.4\%.}
 \end{itemize}
 \end{job}
 \end{when}
 
 \begin{when}{2013}
-\begin{job}{Engineering Intern (FIFA Mobile)}{Electronic Arts Canada}
+\begin{job}{Engineering Intern (FIFA Mobile)}{Electronic Arts Canada \spacer Burnaby, BC, Canada}
 \begin{itemize}
 \item{Single-handedly cleaned up 60\% of the project's technical debt alongside assigned tasks.}
 \end{itemize}
@@ -237,7 +237,7 @@ Functional programming, compiler design, free monads
 \end{when}
 
 \begin{when}{2012}
-\begin{job}{Gameplay Programmer Intern}{Digital Extremes}
+\begin{job}{Gameplay Programmer Intern}{Digital Extremes \spacer London, ON, Canada}
 \begin{itemize}
 \item{Architected and implemented the game's entire voice-over-IP stack.}
 \item{Rewrote a significant portion of the AI and PhysX engines to support arbitrary 3-space rotation.}
@@ -247,7 +247,7 @@ Functional programming, compiler design, free monads
 \end{when}
 
 \begin{when}{2011}
-\begin{job}{.NET Consultant}{Systemgroup Consulting Inc,}
+\begin{job}{.NET Consultant}{Systemgroup Consulting Inc. \spacer Mississauga, ON, Canada}
 \begin{itemize}
 \item{Found and closed over ten highly-exploitable vulnerabilities in a multi-billion-dollar company's website.}
 \end{itemize}
@@ -260,7 +260,7 @@ Functional programming, compiler design, free monads
 \begin{subsection}{Books}
 \begin{pointed}{2018}{\me, self-published}{Thinking with Types: Type-Level Programming in Haskell}{https://thinkingwithtypes.com/}
 \item{Favourably reviewed; described as being "well written and very approacable", "absolutely brilliant," and "a great read."}
-\item{Sold over 1,000 copies --- a significant portion of the estimated 10,000 members in the English-speaking Haskell community.}
+\item{Sold over 1,000 copies &mdash; a significant portion of the estimated 10,000 members in the English-speaking Haskell community.}
 \end{pointed}
 
 \begin{pointed}{2016}{\me, self-published}{How These Things Work}{https://reasonablypolymorphic.com/book/preface}
@@ -276,10 +276,10 @@ Functional programming, compiler design, free monads
 
 
 \begin{section}{Presentations}
-\conference{2019}{Chasing the Performance of Free Monads}{Lambda Montreal}{Montreal, QC}{ }
-\conference{2018}{Existentialization: What Is It Good For?}{Denver FP}{Denver, CO}{\link{slides}{https://reasonablypolymorphic.com/existentialization/}}
-\conference{2017}{Some1 Like You: Dependent Pairs in Haskell}{LambdaConf}{Boulder, CO}{\link{video}{https://www.youtube.com/watch?v=PNkoUv74JQU}}
-\conference{2017}{Don't Eff It Up: Freer Monads in Action}{BayHac}{San Francisco, CA}{\link{video}{https://www.youtube.com/watch?v=gUPuWHAt6SA}}
+\conference{2019}{Chasing the Performance of Free Monads}{Lambda Montreal}{Montreal, QC, Canada}{ }
+\conference{2018}{Existentialization: What Is It Good For?}{Denver FP}{Denver, CO, USA}{\link{slides}{https://reasonablypolymorphic.com/existentialization/}}
+\conference{2017}{Some1 Like You: Dependent Pairs in Haskell}{LambdaConf}{Boulder, CO, USA}{\link{video}{https://www.youtube.com/watch?v=PNkoUv74JQU}}
+\conference{2017}{Don't Eff It Up: Freer Monads in Action}{BayHac}{San Francisco, CA, USA}{\link{video}{https://www.youtube.com/watch?v=gUPuWHAt6SA}}
 \end{section}
 
 
@@ -313,8 +313,8 @@ Functional programming, compiler design, free monads
 
 
 \begin{section}{Honours, Awards and Scholarships}
-\dateauthor{2015}{Yelp}{SoftEng Capstone Design Symposium (2nd place)}
-\dateauthor{2010}{University of Waterloo}{President's Scholarship}
+\dateauthor{2015}{Yelp \spacer Waterloo, ON, Canada}{SoftEng Capstone Design Symposium (2nd place)}
+\dateauthor{2010}{University of Waterloo \spacer Waterloo, ON, Canada}{President's Scholarship}
 \end{section}
 
 \pagebreak
