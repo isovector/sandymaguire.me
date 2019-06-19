@@ -11,7 +11,7 @@ module Main where
 import           BookReviews (mkBookReview)
 import           ClipIt
 import           Control.Arrow ((&&&))
-import           Control.Monad (join)
+import           Control.Monad (join, void)
 import           Control.Monad.Reader.Class (asks)
 import qualified Data.HashMap.Lazy as HM
 import           Data.List (sortBy)
@@ -28,6 +28,7 @@ import           Data.Traversable (for)
 import           GHC.Exts (fromList)
 import           SitePipe hiding (getTags, reviews)
 import qualified System.FilePath.Glob as G
+import           Text.Pandoc.Class
 import           Utils
 
 
@@ -94,7 +95,7 @@ main = site $ do
           <$> resourceLoader markdownReader ["posts/*.markdown"]
 
   clipfiles <- fmap (^?! _Object . at "content" . _Just . _String . _Text)
-           <$> resourceLoader textReader ["clippings/*"]
+           <$> resourceLoader (runIOorExplode . textReader) ["clippings/*"]
   let clippings = join $ fmap getClippings clipfiles
 
   let urls = fmap (^?! l) rawPosts
@@ -192,7 +193,7 @@ main = site $ do
   writeTemplate' "rss.xml"  . pure $ feed "feed.rss"
   writeTemplate' "atom.xml" . pure $ feed "atom.xml"
 
-  copyFiles
+  void $ copyFiles
     [ "css"
     , "js"
     , "images"
@@ -246,7 +247,7 @@ main = site $ do
 
 
 
-  copyFilesWith (drop 7) [ "static/*" ]
+  void $ copyFilesWith (drop 7) [ "static/*" ]
 
 
 writeTemplate' :: String -> [Value] -> SiteM ()

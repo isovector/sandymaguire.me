@@ -1,11 +1,11 @@
 flags: {}
+
 packages:
 - '.'
+
 extra-deps:
 - datetime-0.3.1
+- sitepipe-0.4.0.0
 - strptime-1.0.10
-- sitepipe-0.2.0.0
-- lens-4.15.4
-- lens-aeson-1.0.2
-- profunctors-5.2.1
-resolver: lts-9.0
+
+resolver: lts-13.0

@@ -10,7 +10,7 @@ test:
 	mv _site _live/we-can-solve-this
 
 deploy:
-	@./scripts/cron.sh
+	# @./scripts/cron.sh
 	@./scripts/deploy.sh
 
 publish:
