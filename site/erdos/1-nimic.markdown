@@ -1,5 +1,7 @@
 ---
 host: David Rusu
+city: Toronto
+country: Canada
 project: nimic
 project-url: "https://github.com/isovector/nimic"
 arrival-date: 2019-07-12

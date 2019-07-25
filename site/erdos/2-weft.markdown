@@ -1,5 +1,7 @@
 ---
 host: Jonathan Lorimer
+city: Toronto
+country: Canada
 project: Weft
 project-url: "https://github.com/JonathanLorimer/weft"
 arrival-date: 2019-07-15
