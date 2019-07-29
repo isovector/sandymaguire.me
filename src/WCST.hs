@@ -1,8 +1,10 @@
+{-# LANGUAGE DeriveGeneric             #-}
 {-# LANGUAGE DuplicateRecordFields     #-}
 {-# LANGUAGE NoMonomorphismRestriction #-}
 {-# LANGUAGE OverloadedLists           #-}
 {-# LANGUAGE OverloadedStrings         #-}
 {-# LANGUAGE ScopedTypeVariables       #-}
+{-# LANGUAGE TupleSections             #-}
 {-# LANGUAGE TypeApplications          #-}
 {-# LANGUAGE ViewPatterns              #-}
 
@@ -10,26 +12,59 @@ module Main where
 
 import           BookReviews (mkBookReview)
 import           ClipIt
-import           Control.Arrow ((&&&))
+import           Control.Arrow (first)
 import           Control.Monad (join, void)
 import           Control.Monad.Reader.Class (asks)
+import           Data.Char (toLower)
 import qualified Data.HashMap.Lazy as HM
-import           Data.List (sortBy)
+import           Data.List (sortBy, stripPrefix)
 import qualified Data.Map as M
-import           Data.Maybe (catMaybes)
-import           Data.Maybe (isJust)
+import           Data.Maybe (catMaybes, fromMaybe, isJust)
 import           Data.Monoid ((<>))
 import           Data.Ord (comparing)
 import           Data.Text (Text)
+import qualified Data.Text as T
 import           Data.Text.Lens (_Text)
+import           Data.Time
 import           Data.Time.Format (formatTime, defaultTimeLocale)
-import           Data.Time.Parse (strptime)
 import           Data.Traversable (for)
 import           GHC.Exts (fromList)
+import           GHC.Generics
 import           SitePipe hiding (getTags, reviews)
 import qualified System.FilePath.Glob as G
 import           Text.Pandoc.Class
 import           Utils
+
+
+data PostMeta = PostMeta
+  { postMetaUrl        :: String
+  , postMetaTitle      :: String
+  , postMetaRawDate    :: LocalTime
+  , postMetaComments   :: Bool
+  , postMetaRawTags    :: String
+  , postMetaConfidence :: Maybe Int
+  , postMetaRelated    :: Maybe [String]
+  } deriving (Generic, Show)
+
+postMetaTags :: PostMeta -> [String]
+postMetaTags = splitTags . postMetaRawTags
+
+postMetaSlug :: PostMeta -> String
+postMetaSlug = toSlug . postMetaUrl
+
+postMetaZulu :: PostMeta -> String
+postMetaZulu = formatTime defaultTimeLocale "%Y-%m-%dT%H:%M:%SZ" . postMetaRawDate
+
+postMetaDate :: PostMeta -> String
+postMetaDate = formatTime defaultTimeLocale "%B %e, %Y" . postMetaRawDate
+
+
+
+instance FromJSON PostMeta where
+  parseJSON v =
+    genericParseJSON defaultOptions
+      { fieldLabelModifier = (fromMaybe <*> stripPrefix "raw") . fmap toLower . drop 8
+      } v
 
 
 postFormat :: String
@@ -85,55 +120,68 @@ getConfidence _ = Nothing
 l :: (AsValue t, Applicative f) => (String -> f String) -> t -> f t
 l = _Object . at "url" . _Just . _String . _Text
 
+
+dumpPostMeta :: Value -> PostMeta -> Value
+dumpPostMeta v pm = object $
+  mconcat
+    [ v ^. _Object . SitePipe.to HM.toList
+    , [ "url"           .= ("blog/" <> postMetaSlug pm <> "/index.html")
+      , "canonical_url" .= ("blog/" <> postMetaSlug pm)
+      , "slug"          .= postMetaSlug pm
+      , "zulu"          .= postMetaZulu pm
+      , "date"          .= postMetaDate pm
+      , "related"       .= postMetaRelated pm
+      , "title"         .= postMetaTitle pm
+      , "page_title"    .= postMetaTitle pm
+      , "html_tags"     .= (fmap makeTags $ postMetaTags pm)
+      ]
+    , mkHas "related" $ postMetaRelated pm
+    ]
+
+
+mkHas :: (ToJSON (f a), Foldable f) => Text -> f a -> [(Text, Value)]
+mkHas nm f =
+  case length f of
+    0 -> [ ("has_" <> nm) .= False
+         ]
+    _ -> [ nm .= f
+         , ("has_" <> nm) .= True
+         ]
+
+
 main :: IO ()
 main = site $ do
-  about    <- resourceLoader markdownReader ["about.markdown"]
-  now      <- resourceLoader markdownReader ["now.markdown"]
-  topPosts <- resourceLoader markdownReader ["top-posts.markdown"]
-
   rawPosts <- sortBy (comparing (^?! l))
           <$> resourceLoader markdownReader ["posts/*.markdown"]
 
-  clipfiles <- fmap (^?! _Object . at "content" . _Just . _String . _Text)
-           <$> resourceLoader (runIOorExplode . textReader) ["clippings/*"]
-  let clippings = join $ fmap getClippings clipfiles
-
   let urls = fmap (^?! l) rawPosts
       getEm' = getNextAndPrev urls
+      posts'' = flip fmap rawPosts $ \x ->
+                  let Success pm = fromJSON @PostMeta x
+                   in (pm, x)
       posts' =
-        flip fmap rawPosts $
-          \x ->
+        flip fmap posts'' $
+          \(pm, x) ->
             let url  = x ^?! l
                 (fmap toSlug -> prev, fmap toSlug -> next) = getEm' url
-                tagsOf = x ^? _Object . at "tags" . _Just . _String . _Text
-                related = x ^? _Object . at "related" . _Just
-                date = fst . (^?! _Just) . strptime "%Y-%m-%d %H:%M"
-                     $ x ^?! _Object . at "date" . _Just . _String . _Text
-                slug = toSlug url
 
-             in x & l                         .~ "blog/" <> slug <> "/index.html"
-                  & _Object . at "page_title" .~ x ^?! _Object . at "title"
-                  & _Object . at "canonical_url" ?~ _String . _Text # ("blog/" <> slug)
-                  & _Object . at "slug"       ?~ _String . _Text # slug
+             in (pm, ) $ dumpPostMeta x pm
                   & _Object . at "has_prev"   ?~ _Bool # isJust prev
                   & _Object . at "has_next"   ?~ _Bool # isJust next
-                  & _Object . at "has_related" ?~ _Bool # isJust related
-                  & _Object . at "related"    ?~ (maybe (Array $ fromList []) id related :: Value)
-                  & _Object . at "html_tags"  .~
-                      fmap (\y -> _String . _Text # makeTags y) tagsOf
                   & _Object . at "prev"       .~
                       fmap (review $ _String . _Text) prev
                   & _Object . at "next"       .~
                       fmap (review $ _String . _Text) next
-                  & _Object . at "zulu"       ?~ _String . _Text #
-                      formatTime defaultTimeLocale "%Y-%m-%dT%H:%M:%SZ" date
-                  & _Object . at "date"       ?~ _String . _Text #
-                      formatTime defaultTimeLocale "%B %e, %Y" date
 
-      slugList = M.fromList
-               $ fmap ((^?! _Object . at "slug" . _Just . _String) &&& id) posts
+      slugList = M.fromList $ fmap (first $ T.pack . postMetaSlug) posts'
 
-      posts = fmap (makeRelated slugList) posts'
+      posts = fmap (makeRelated slugList . snd) posts'
+
+  topPosts <- resourceLoader markdownReader ["top-posts.markdown"]
+  writeTemplate' "top-posts.html" . pure . makeRelated slugList
+    $ head topPosts
+      & _Object . at "url"        ?~ _String # "/top-posts/index.html"
+      & _Object . at "slug"       ?~ _String # "top-posts"
 
   let tags   = getTags makeTagUrl $ reverse posts
       newest = last posts
@@ -146,22 +194,8 @@ main = site $ do
         , "last_updated" .= (newest ^?! _Object . at "zulu" . _Just . _String)
         ]
 
-  writeTemplate' "post.html" . pure
-    $ head about
-      & _Object . at "url"        ?~ _String # "/about/index.html"
-      & _Object . at "slug"       ?~ _String # "about"
-
-  writeTemplate' "now.html" . pure
-    $ head now
-      & _Object . at "url"        ?~ _String # "/now/index.html"
-      & _Object . at "slug"       ?~ _String # "now"
-
-  writeTemplate' "top-posts.html" . pure . makeRelated slugList
-    $ head topPosts
-      & _Object . at "url"        ?~ _String # "/top-posts/index.html"
-      & _Object . at "slug"       ?~ _String # "top-posts"
-
-  let byYear = reverse
+  let byYear :: [(String, [Value])]
+      byYear = reverse
              . flip groupOnKey (reverse posts)
              $ \x -> reverse
                    . take 4
@@ -193,11 +227,37 @@ main = site $ do
   writeTemplate' "rss.xml"  . pure $ feed "feed.rss"
   writeTemplate' "atom.xml" . pure $ feed "atom.xml"
 
+  writeStaticStuff
+  writeBooks
+
+
+writeStaticStuff :: SiteM ()
+writeStaticStuff = do
+  about    <- resourceLoader markdownReader ["about.markdown"]
+  writeTemplate' "post.html" . pure
+    $ head about
+      & _Object . at "url"        ?~ _String # "/about/index.html"
+      & _Object . at "slug"       ?~ _String # "about"
+
+  now      <- resourceLoader markdownReader ["now.markdown"]
+  writeTemplate' "now.html" . pure
+    $ head now
+      & _Object . at "url"        ?~ _String # "/now/index.html"
+      & _Object . at "slug"       ?~ _String # "now"
+
   void $ copyFiles
     [ "css"
     , "js"
     , "images"
     ]
+  void $ copyFilesWith (drop 7) [ "static/*" ]
+
+
+writeBooks :: SiteM ()
+writeBooks = do
+  clipfiles <- fmap (^?! _Object . at "content" . _Just . _String . _Text)
+           <$> resourceLoader (runIOorExplode . textReader) ["clippings/*"]
+  let clippings = join $ fmap getClippings clipfiles
 
   books <- for (fmap snd $ groupOnKey bookName clippings) $
     \(sortBy (comparing added) -> items) -> do
@@ -243,11 +303,6 @@ main = site $ do
       , "books" .= sortBy (comparing $ titleCompare . (^?! _Object . at "title" . _Just . _String . _Text)) reviews
       , "slug" .= ("archive-book-reviews" :: String)
       ]
-
-
-
-
-  void $ copyFilesWith (drop 7) [ "static/*" ]
 
 
 writeTemplate' :: String -> [Value] -> SiteM ()
