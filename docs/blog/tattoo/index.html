@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Types, Tattoos and the Extent of Human Accomplishment &larr; We Can Solve This</title>
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+        <link href="/atom.xml" rel="alternate" title="We Can Solve This - Atom" type="application/atom+xml">
+        <link href="/feed.rss" rel="alternate" title="We Can Solve This - RSS" type="application/rss+xml">
+
+        <link href='http://fonts.googleapis.com/css?family=Amiri|Muli' rel='stylesheet' type='text/css'>
+        <link href="/css/style.css" type="text/css" rel="stylesheet" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <script type="text/javascript" src="/js/baseline.js"></script>
+          <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-43091897-1']);
+            _gaq.push(['_trackPageview']);
+        
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+          </script>
+        </head>
+        <body>
+
+    <header>
+      <h1>Types, Tattoos and the Extent of Human Accomplishment</h1>
+    </header>
+
+    <div id="boxes">
+    <div id="flex">
+    <div id="nav">
+      <ul>
+        <li><a href="/blog/archives">Essays</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/now">Now</a></li>
+        <li><a href="/top-posts">Best Of</a></li>
+        <li><a href="/book-reviews">Book Reviews</a></li>
+        <li><a href="/books">Book Quotes</a></li>
+      </ul>
+
+      <p>Built with love by Sandy Maguire.</p>
+      <p>&copy; 2011-2019</p>
+    </div>
+    <div id="main">
+      <div class="content">
+
+         <div class="meta">November 16, 2015</div>
+
+<article>
+    <p>Another day, another post. Considered writing about terrorism, decided against it. I'll save that for another time when I feel like I haven't pissed off enough people. (Un?)fortunately that is not today, so instead I'm going to answer the question I probably get asked most often: "what does your tattoo mean?"</p>
+<p>I've been asked that a few times a week for the last eighteen months, and I have yet to come up with a satisfactory, yet pithy, answer. This blog post aims to serve as at least the satisfactory version of the explanation. It is unlikely to pithy, because we have to talk about arcane mathematics and deep type-theoretical shit. And because I have a daily word quota.</p>
+<p>Although it wasn't my intent when I got it, I have since said that the meaning of this tattoo is to find a wife; I've promised myself that any woman who can successfully identify the meaning of my tattoo will be immediately proposed to. You might scoff, but it's happened. Once. Turns out she was already married, and had a few kids, so she had to politely decline. Also that she had no idea who I was probably helped engender that response. The reason I bring this up, is that if you're a cutie pie looking for a fantastic husband, you know where to find me, and you'll soon know what the secret to my heart is.</p>
+<p>Anyway, for those of you not in the know, my tattoo looks a lot like this:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" title="1"><span class="fu">map</span><span class="ot"> ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> λa <span class="ot">-&gt;</span> λb</a></code></pre></div>
+<p>Long-time readers who aren't afraid of math and have great memories might recognize this as <a href="http://sandymaguire.me/blog/love-types">looking like a type</a> in Haskell. They'd be right, but we haven't discussed yet what <code>λ</code> means in this context. If you want a super clear understanding of the math behind my tat, it might be worthwhile refreshing yourself on the first few sections of that. If you don't, feel free to keep reading; it's OK; I won't be offended.</p>
+<p>So! What does my tattoo mean, you might have wondered at some point during having known me. The super short answer is: <strong>to me, it is why abstraction is possible</strong>, or equivalently <strong>why we can understand the universe</strong>.</p>
+<p>The remainder of this post will be a digression into <em>why</em> it means those things. I'll try to keep it gentle on the math, but, as you would expect from a math tattoo, there will be math. If you really don't give a shit, and just want to tl;dr, search for "To cut a very long story short", which is where I summarize what the fuck is going on.</p>
+<p>Our first foray into this strange realm of things you've never seen before is the symbol <code>::</code>, which unfortunately is overloaded as hell in programming. In C++ it's called the scope operator, and rather notoriously, in PHP it's called <code>T_PAAMAYIM_NEKUDOTAYIM</code>. Fun fact: that used to be my email for a year or two until I realized that nobody ever sent me emails because it was way too much damn work. In this context, we will call <code>::</code> the <em>type-of</em> operator, and you should read it aloud as "is of type". It describes a relationship between what's on the left and what's on the right of it. As a rule, the thing on the left is an <em>instance</em> of the <em>category</em> on the right.</p>
+<p>A few examples will help cement the idea:</p>
+<ul>
+<li><code>7 :: Number</code></li>
+<li><code>100001 :: Number</code></li>
+<li><code>red :: Color</code></li>
+<li><code>garfield :: Cat</code></li>
+<li><code>orange :: Color</code></li>
+<li><code>sandy :: Person</code></li>
+</ul>
+<p>Here both <code>7</code> and <code>100001</code> are of type <code>Number</code>, but <code>garfield</code> is a <code>Cat</code>. The type-of operator performs some mental book-keeping for us; it prevents us from comparing things that are incomparable. What do I mean by that? Well it doesn't make sense to make any comparisons between <code>red</code> and <code>100001</code> -- they're of <em>different types</em>, and so comparing them is like the proverbial "comparing apples to oranges." Except that it's more egregious and is not to even be considered. Attempting to substitute one type with another is what we call a <em>type error</em>.</p>
+<p>If you ever, <em>ever</em>, commit a type error, you've done something terribly wrong, and your answer is guaranteed to be <a href="https://en.wikipedia.org/wiki/Not_even_wrong">not even wrong</a> from there on out. Don't do it. Just say no.</p>
+<p>So, what have we learned so far? Well, we've learned that <code>map</code> "is of type" <code>(a -&gt; b) -&gt; λa -&gt; λb</code>. We haven't made much progress, but now at least we know that <code>map</code> is a thing and that weird math-y lookin' thing is some category. But what?</p>
+<p>We'll start a little slower, with a motivating example. The arrow <code>-&gt;</code> (read aloud as "to") is indicative of a <em>transformation</em> of some "sort". That "sort" turns out to be what you're transforming <em>from</em> to what you're transforming <em>into</em>. We express this as <code>From -&gt; To</code>, where <code>From</code> and <code>To</code> are types of some sort.</p>
+<p>This sounds a little crazy, but bear with me a little while longer. This weird arrow notation lets us describe some things that are otherwise sorta tricky to talk about. For example, we can think about the idea of a favorite color being a transformation from a <code>Person</code> to a <code>Color</code>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" title="1"><span class="ot">favoriteColor ::</span> <span class="dt">Person</span> <span class="ot">-&gt;</span> <span class="dt">Color</span></a></code></pre></div>
+<p>When we talk about favorite colors like this, it helps reinforce the idea that a favorite color is meaningless without talking about a specific person. There is no such thing as a favorite color existing out there in the universe, absent of any person. It has no platonic form, and it is only meaningful when we discuss the favorite color of <em>someone</em>.</p>
+<p>So far, this system of types we're developing is kinda neat, but it falls down pretty quickly if you push it at all. For example, all of our transformations so far are capable only of transforming one thing into another, but that's silly. A transformation that is dependent on <em>two</em> things is easy to come up with. How about addition? <code>a + b = c</code>. Here, addition is a transformation from two numbers into a third. We will write this in our type system as:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" title="1"><span class="ot">add ::</span> <span class="dt">Number</span> <span class="ot">-&gt;</span> (<span class="dt">Number</span> <span class="ot">-&gt;</span> <span class="dt">Number</span>)</a></code></pre></div>
+<p>which should be read as "add is of type Number to Number to Number". I cover the mechanics behind this a little better in my post on <a href="http://sandymaguire.me/blog/love-types">type systems</a>, which is a good place to read more about this if you care.</p>
+<p>Let's go back to our friend <code>map :: (a -&gt; b) -&gt; λa -&gt; λb</code>, which if we put the parentheses in like we did for add, becomes <code>map :: (a -&gt; b) -&gt; (λa -&gt; λb)</code>. This, it seems, is more comprehensible: it's a transformation <em>from</em> a transformation <em>to another</em> transformation. Progress, even if only slightly.</p>
+<p>So what is <code>a -&gt; b</code>? Why, a transformation from <code>a</code> to <code>b</code>, obviously. But... what is <code>a</code>? Well, <code>a</code> is a <em>variable</em>, in the same way that <code>x</code> is in algebra, and as such, it can refer to <em>any other</em> type. That means <code>7 :: a</code> where <code>a ~ Number</code>, or <code>garfield :: a</code> where <code>a ~ Cat</code>. Here, <code>~</code> means "type equivalent", which is to say, these types are the same thing.</p>
+<p>There's a subtle gotcha here, though. Just like in algebra <code>x</code> can be sometimes equal to <code>5</code> or sometimes equal to <code>10</code>, it can't be equal to both <code>5</code> and <code>7</code> <em>simultaneously</em>. <code>x</code> is best understood as a name for a substance whose value you don't know, but you <em>do</em> know that it isn't going to pull a fast one on you and change its identity. <code>a</code> is the same thing here; in some contexts it can be <code>Cat</code>, but in others it might be <code>Color</code>, but it is never both simultaneously.</p>
+<p>What you're going to hate me for, is that sometimes <code>a</code> is even <code>Number -&gt; (Color -&gt; Person)</code> or something crazy like that. <code>a</code> is <em>any type</em>. OK cool. So what's <code>b</code>? Well, <code>b</code> is also any type. We use <code>b</code> instead of <code>a</code> to indicate that <code>b</code> and <code>a</code> are not necessarily the same type. They <em>can</em> be, but they <em>don't have to be</em>.</p>
+<p>Thus, <code>a -&gt; b</code> is actually a transformation from <em>any type</em> to <em>any other type</em>. To me, though, <code>a -&gt; b</code> is the type of <em>thinking</em>, or of an <em>idea</em>. If you take a squinty look at it, the process of having ideas is nothing more than a transformation from <em>what you know</em> into <em>something else</em>.</p>
+<p>If you want to take it further, <code>a -&gt; b</code> is the type of most actions in life. Eating is <code>Food -&gt; Energy</code>; writing is <code>Thoughts -&gt; Text</code>; I'm sure you get the picture.</p>
+<p>We're almost at the home stretch! <code>map</code> <em>is of type</em> <code>Idea -&gt; (λa -&gt; λb)</code>. Notice that <code>λa -&gt; λb</code> looks very similar to <code>a -&gt; b</code>, except for those funny lambdas in the way. In fact, the <code>a</code>s and <code>b</code>s refer to the same types in both transformations. So what is <code>λ</code>, then?</p>
+<p>Intuitively, <code>λ</code> is a <em>context</em>, it's the result of applying an abstract idea <em>to something in particular</em>. You could interpret <code>λ</code> as "having a resulting effect on the universe", or something like that. In this sense, <code>map</code> can be seen as a transformation from <em>an idea</em> into <em>reality</em>.</p>
+<p>Mathematically, <code>λ</code> is a <em>functor</em>, which is to say, a transformation over transformations, which preserves the "intent" of the transformation in some sense. It's kinda sloppy to do so, but we could consider a functor to be something like <code>Spanish</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb4-1" title="1"><span class="ot">writeInSpanish ::</span> (<span class="dt">Thoughts</span> <span class="ot">-&gt;</span> <span class="dt">Text</span>) <span class="ot">-&gt;</span> (<span class="dt">Spanish</span> <span class="dt">Thoughts</span> <span class="ot">-&gt;</span> <span class="dt">Spanish</span> <span class="dt">Text</span>)</a></code></pre></div>
+<p>You can see that writing in Spanish has the same "intent" as writing; they're both transformations from <code>Thoughts</code> to <code>Text</code>, though when you do it in Spanish, there is an extra <code>Spanish</code> context that you need to keep around to ensure you don't commit any type errors. You can also imagine something similar for <code>German</code>:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb5-1" title="1"><span class="ot">writeInGerman ::</span> (<span class="dt">Thoughts</span> <span class="ot">-&gt;</span> <span class="dt">Text</span>) <span class="ot">-&gt;</span> (<span class="dt">German</span> <span class="dt">Thoughts</span> <span class="ot">-&gt;</span> <span class="dt">German</span> <span class="dt">Text</span>)</a></code></pre></div>
+<p>This example isn't fantastic, but that's the problem with real life examples; we're really used to doing this stuff fast-and-loose in our heads that trying to formalize it sounds confusing and unnecessary. I don't have a solution for this unfortunately. I'm not sure if one exists, honestly.</p>
+<p>Let's look at the type of <code>writeInSpanish</code> again: <code>(Thoughts -&gt; Text) -&gt; (Spanish Thoughts -&gt; Spanish Text)</code>. It looks kind of familiar, no? Apply the following substitutions:</p>
+<ul>
+<li><code>writeInSpanish :: (Thoughts -&gt; Text) -&gt; (Spanish Thoughts -&gt; Spanish Text)</code>, but let <code>a ~ Thoughts</code></li>
+<li><code>writeInSpanish :: (a -&gt; Text) -&gt; (Spanish a -&gt; Spanish Text)</code>, but let <code>b ~ Text</code></li>
+<li><code>writeInSpanish :: (a -&gt; b) -&gt; (Spanish a -&gt; Spanish b)</code>, but let <code>λ ~ Spanish</code></li>
+<li><code>writeInSpanish :: (a -&gt; b) -&gt; (λa -&gt; λb)</code></li>
+</ul>
+<p>So it turns out that <code>writeInSpanish :: (a -&gt; b) -&gt; (λa -&gt; λb)</code>. Interesting. You can also do the same thing for <code>writeInGerman</code>. Hmmm. It looks like <code>(a -&gt; b) -&gt; (λa -&gt; λb)</code> might be interesting for some deeper reasons than we've looked at so far.</p>
+<p>If you look at <code>doTheSameThingToEverythingInMyCollection :: (a -&gt; b) -&gt; ([a] -&gt; [b])</code> where <code>[a]</code> is understood to be a collection of <code>a</code>s (and likewise for <code>b</code>), we can look at this as lifting some transformation from <code>a</code> to <code>b</code> into a transformation from <em>collections of <code>a</code></em> into <em>collections of <code>b</code></em>. Here the context is "collections", and if you let <code>λ ~ []</code>, we again get <code>(a -&gt; b) -&gt; (λa -&gt; λb)</code>.</p>
+<p>To cut a very long story short, <code>map</code>, as it turns out, is the only primitive inhabitant of this weird type <code>(a -&gt; b) -&gt; (λa -&gt; λb)</code>. <code>map</code> is the fundamental transformation from ideas into contexts. Construction work is an example of using <code>map</code> to turn building blueprints into buildings. Applied mathematics is an example of using <code>map</code> to turn the boring stuff you learned in algebra class into getting the right answer when you grab two handfuls of apples, and for some reason, they add together.</p>
+<p><code>map</code> is the reason our thoughts can reflect reality. <code>map</code> is the reason abstract thought is possible. <code>map</code> is how we can understand things we can't directly see with our senses. <code>map</code> is why we experience causality. It's all of these things, and it's <a href="http://hackage.haskell.org/package/base-4.8.1.0/docs/Prelude.html#v:fmap">much, much more general than all of those things</a>. But those are the reasons I like it. To me, <code>map</code> is the only reason we humans are capable of being capable of anything. It's the pure, unadulterated essence of all of our accomplishments. It's human thought, boiled down into a pithy one-liner tattoo.</p>
+<p>That's what my tattoo means.</p>
+
+</article>
+
+      </div>
+    </div>
+    </div>
+
+        <div class="comments">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        var slug = "tattoo";
+        this.page.url = "http://sandymaguire.me/blog/" + slug;
+        this.page.identifier = slug;
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://danglinggazpacho.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>
+      Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+    </div>
+    </div>
+  </body>
+</html>

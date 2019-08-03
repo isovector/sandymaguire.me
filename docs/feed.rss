@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>We Can Solve This</title>
+  <link>http://sandymaguire.me</link>
+  <atom:link href="http://sandymaguire.me/feed.rss" rel="self" type="application/rss+xml" />
+  <description>Musings on effective life strategies</description>
+  <category>Life</category>
+  <copyright>2018 Sandy Maguire</copyright>
+  <pubDate>2019-04-19T01:10:00Z</pubDate>
+  <language>en-us</language>
+  <image>
+      <url>http://sandymaguire.me/images/favicon.png</url>
+    <title>Sandy Maguire</title>
+    <link>http://sandymaguire.me</link>
+  </image>
+  <item>
+      <title>Gatekept</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/gatekept/index.html</link>
+      <guid>http://sandymaguire.me/blog/gatekept/index.html</guid>
+      <pubDate>2019-04-19T01:10:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>A few days ago I got rejected from a PhD program at Imperial College London --- a program I was <em>invited to apply for by a member of their faculty who wanted to supervise me.</em> The experience left a sour taste in my mouth.</p>
+<p>The official reason for the rejection is that my undergraduate GPA is too low. 0.86% too low, in fact. Missed it by a hair!</p>
+<p>In my eyes, I'm a pretty outstanding candidate. In the last two years I've solved two <a href="https://reasonablypolymorphic.com/blog/prospecting-free-monads/">major</a> <a href="https://reasonablypolymorphic.com/blog/polysemy/">problems</a> in my field --- both of which people frequently said I should stop wasting time on, because they fundamentally couldn't be solved. I didn't work on the problems to publish them or for the fame or anything; I was just annoyed that I couldn't do something that seemed so obviously <em>possible.</em></p>
+<p>My <a href="https://sandymaguire.me/resume.html">professional experience</a> is characterized by doing extracurricular tasks to solve technical debt that nobody else wanted to touch, and by <em>knocking assigned tasks out of the park:</em> I single-handedly made Facebook \$60M in four months while I was an intern, and I successfully tackled design work at Google that people said I needed five years more experience in order to have any chance at.</p>
+<p>The point is not to toot my own horn here, but merely to point out that I have a proven track record of self-directed study, of hard work, of executing on what I say I'm going to do, and of excelling at it.</p>
+<p>But no. My average grade is 0.86% too low to qualify. Looking at <em>average</em> grades strikes me as a particularly stupid strategy for assessing PhD work. PhDs aren't supposed to be well-rounded; they're <em>experts in narrow fields.</em> Looking at average grades equally weighs my 68% in a mandated, irrelevant-to-my-degree, automatically-get-15%-for-putting-your-name-on-the-final class on "The Role of Technology In Society" against my 92% in a voluntarily taken, relevant-to-my-degree (and PhD topic) class on compilers --- widely regarded as one of the hardest three classes in the most challenging technical university in the country.</p>
+<p>"The Role of Technology in Society" was clearly a waste of my time, so I did only as much as I needed to in order to pass, and no more (I was actually aiming for 51%, but that blasted extra 15% blindsided me). Compilers, on the other hand, are a subject very close to my heart, and are something I'd like to dedicate my life to thinking more about.</p>
+<p>If your goal really is, as Imperial College London <a href="https://www.imperial.ac.uk/strategy/developing-this-strategy/strategy2014/mission/">claims</a>, "to deliver world class research in engineering" --- then weighing "The Role of Technology in Society" equally against actual technical topics is <em>profoundly stupid.</em> If we take them at their word that my low marks are the problem[^1] then this decision is <em>elitist gate-keeping</em> at its worst, rather than any honest attempt at producing good research. It's a reactionary strategy to willingly accept false-negatives in order to maintain its prestigious name, rather than willingly accept false-positives and actually try to do more of what built its name in the first place.</p>
+<p>I sound saltier than I actually am. Seven days ago I'd never even considered applying to Imperial College London; so not being there in September is exactly the same state of affairs that my life was already in. Their decision hasn't dashed my plans or anything. Despite the fact that I'm apparently <em>not worthy</em> of attending ICL, I'm pretty sure this is a bigger problem for them than me.</p>
+<p>For my part, I'm just going to keep doing my own research. <a href="https://www.youtube.com/watch?v=f61KMw5zVhg">To quote Feynman</a>:</p>
+<blockquote>
+<p>I'm appreciative for the work that I did, and for the people who appreciate it. And I notice that other physicists use my work. I don't need anything else. I don't see that it makes any point that somebody ... decides that this work is noble enough to receive a prize. I've already got the prize! The prize is the pleasure of finding the thing out. The kick is the discovery, the observation that other people use it. Those are the real things. The honors are unreal to me.</p>
+<p> When I became a member of the National Academy of Science I had ultimately to resign. Because there was another organization, most of whose time was spent in choosing who was "illustrious" to be allowed to join us in our organization... the whole thing was rotten.</p>
+</blockquote>
+<p>Yeah, that sums up my feelings pretty well. Maybe it's sour grapes, but if Imperial College London really and truly believes I'm not good enough for them, well, good riddance! It's their loss, really!</p>
+<p>In conclusion, I'd like to extend an open invitation. If you, like me, believe that effect systems and free monads are what programming is going to look like in 30 years, please get in touch. I'd love to talk with you. Regardless of your academic or industrial affiliation, regardless of your skill level, and <em>especially</em> regardless of your GPA. Get in touch.</p>
+<p>Ideas like these are the ones that change the world, and I'm willing to dedicate my life to it. If you are too, then why the hell aren't we already collaborating?</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>You Don&#39;t Need to Be Brilliant to Do Brilliant Work</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/brilliance/index.html</link>
+      <guid>http://sandymaguire.me/blog/brilliance/index.html</guid>
+      <pubDate>2019-04-02T12:11:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <blockquote>
+<p>Greatness is something you do, not something you are.</p>
+<p>-Sebastian Marshall</p>
+</blockquote>
+<h1 id="i">I</h1>
+<p>My friend Csongor <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/ho-haskell.pdf">recently published a computer science paper</a> that's super interesting if you're as big a nerd as I am. The details are too much to go into here, but suffice to say, it lets us do a lot of things I'd always been told were impossible.</p>
+<p>Being told you're now allowed to do the impossible is a staggering experience.</p>
+<p>What's more staggering is knowing the guy responsible for letting you do it.</p>
+<p>I was curious about how he'd gone about solving this problem. Part of it was a question of ego --- I'd run into this problem around the same time Csongor had. But where he'd stuck with it and eventually broken through, I'd bounced off it assuming there was a <em>reason</em> for the limitation.</p>
+<p>Csongor is obviously brilliant, <a href="/blog/no-miracle-people/">but I don't think his brain works <em>significantly better</em> than mine</a>. Rather than assuming he'd solved the problem because he was smart and I wasn't, I took the position that he had some <em>skill</em> that I was missing. Skills, after all, can be learned.</p>
+<p>And so I asked him. How did he start working on it? What was the process like? How long did it take? His answer to the first question[^1] was:</p>
+<blockquote>
+<p>I wanted to understand why this limitation was there. Then learning the answer revealed that it's actually something that can be fixed --- as is always the case with these things if you think about them enough.</p>
+</blockquote>
+<p>He made sure to reiterate the point:</p>
+<blockquote>
+<p>Though I must say that the solution is really quite obvious once you know the underlying reasons, so there was not much brilliance involved.</p>
+</blockquote>
+<h1 id="ii">II</h1>
+<p>Sometime recently, without realizing it, I've become a big wig in my nerdy programming circle. All of a sudden people were throwing my name around in the company of the people I looked up to, whose work I'd always felt was far beyond my grasp.</p>
+<p>This was puzzling to me for an embarrassingly long time. What had changed? I was still the same guy as always, doing lots of experiments and having 95% of them fail on me. I was still as outspoken as ever.</p>
+<p>What changed? I think it's that I wrote a <a href="https://thinkingwithtypes.com/">book</a>.</p>
+<p>All of a sudden my status jumped up a few rungs because my ideas were worthy of <em>a book.</em> I mean, it's a great book and <a href="https://thinkingwithtypes.com/">you should go buy a copy</a>, but it's nothing novel. It's just a consolidation of lots of existing techniques, that I painstakingly put in the time and sweat to understand for myself.</p>
+<p>All of a sudden, people had a good educational resource, and it had my name attached to it. The book doesn't pull any punches --- it really and truly is a book of difficult things --- but it tries to introduce the ideas as gently and usefully as possible.</p>
+<p>I think what happened is that people started thinking "man, this book is full of really hard concepts. The guy who wrote it must be really smart." And they're not <em>wrong</em>, but that's not the point. Really, most of it I learned from long conversations with exceptionally kind and patient people like <a href="https://ren.zone/">Renzo Carbonara</a> and <a href="https://twitter.com/shajra?lang=en">Sukant Hajra</a>.</p>
+<p>The point is that all people see are my successes. They see this book in its finished form, but are shielded away from the tortuous months I spent writing it. They aren't aware of just how many hours I spent fighting with LaTeX. Or of cajoling my designer-then-girlfriend to help me pick fonts. Or from the countless sleepless nights I spent spinning the ideas around in my head, trying as best I could to find something, <em>anything,</em> to grab on to.</p>
+<p>None of it was exceptionally difficult. Mostly it was just tedious.</p>
+<p>The book itself took four months to write, but the material took five years to <em>learn</em>. And that seemed like a waste of time if I wasn't able to amortize by that helping other people learn the same things.</p>
+<p>Any idiot could have done what I did --- read blog posts, think hard about them, write some code that used the idea, and then write one chapter at a time. That's it. There was no magic.</p>
+<h2 id="iii">III</h2>
+<p>The point I'm trying to make here is that, on the inside, it doesn't feel remarkable to do "great" work. Csongor says "there was not much brilliance involved" in his work. I'm convinced that any idiot could have put together the same book that I did.</p>
+<p>The hardest part is putting in the time, and even that's not very hard if you find the process enjoyable and meaningful.</p>
+<p>To quote <a href="https://www.gwern.net/index">Gwern</a>:</p>
+<blockquote>
+<p>None of these seems special to me. Anyone could’ve compiled the DNB FAQ; anyone could’ve kept a list of online pharmacies where one could buy modafinil; someone tried something similar to my Google shutdown analysis before me (and the fancier statistics were all standard tools). If I have done anything meritorious with them, it was perhaps simply putting more work into them than someone else would have.</p>
+</blockquote>
+<p>Or as <a href="https://twitter.com/jkachmar">Joe Kachmar</a> says:</p>
+<blockquote>
+<p>It's really nice to realize that most/all of the work on these big projects is just folks who have relentlessly kept tugging on some thread until it unravels neatly for them.</p>
+</blockquote>
+<p>There likely are problems out there that are <em>brilliance-constrained,</em> but I'd argue that there 100x more problems which are merely <em>effort-constrained.</em> This is good news, because while it's not clear how to become smarter, it's very doable to just throw more energy at something.</p>
+<p>Maybe the problems you consider to be exceptionally hard are just ones that merely require some dedication --- and a doggedness to fix, come-what-may.</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>Every Good Boy Deserves Fruit</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/egbdf/index.html</link>
+      <guid>http://sandymaguire.me/blog/egbdf/index.html</guid>
+      <pubDate>2019-02-18T00:44:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>I just wanted to announce that <a href="https://everygoodboydeservesfruit.com/">I've launched a new website</a>, documenting the things I learn in my quest to <a href="/blog/play-lots-of-music/">just play lots of music</a>.</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>Book Review: Utopia for Realists</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/utopia-for-realists/index.html</link>
+      <guid>http://sandymaguire.me/blog/utopia-for-realists/index.html</guid>
+      <pubDate>2019-02-05T13:37:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>Rutger Bergman's <a href="https://www.goodreads.com/book/show/40876575-utopia-for-realists">Utopia for Realists</a> is a book whose primary thesis is that we should have a guaranteed minimum income (GMI).</p>
+<p>I must admit, I was pretty sold on a guaranteed minimum income before reading this book. I hadn't thought too much about it, besides the fact that lots of smart people I know say it's a good idea, and that obviously we're going to need a solution to what happens to humans after we automate away all of the jobs.</p>
+<p>After reading this book, I am significantly less on-board with the idea.</p>
+<p>What it boils down to is that Utopia for Realists isn't very good. If these are the best arguments for a GMI, well... let's hope that they're not the best arguments for a GMI.</p>
+<p>I can't make up my mind on whether this book is <em>merely incompetent</em> or actively <em>dishonest.</em></p>
+<p>For example, the book discusses the <a href="https://en.wikipedia.org/wiki/Speenhamland_system">Speenhamland system</a>, which it describes as an early form of GMI, and then discusses a contemporary report which described it as a failed experiment. But then Utopia for Realists turns around with the sentence "more recent research has revealed that the Speenhamland system was actually a success." A description of how the original study was supposedly flawed, but no citation to back it up. No reference to which "more recent research" reveals resounding success. There are lots of other citations in the book. Why not one here?</p>
+<p>Utopia makes some other bold claims without backing them up; here's a few that bothered me enough to mark them down:</p>
+<ul>
+<li>"Ultimately, the perfect, self-regulating market proved an illusion."</li>
+<li>"The historian Brian Steesland... emphasizes that, had Nixon's plan gone ahead, the ramifications would have been huge... No longer would there be such a thing as the 'deserving' or 'undeserving poor' [no citation]"</li>
+</ul>
+<p>There was another time I wanted to check a source. The book makes a case for "giving housing/money to homeless people is cheaper than dealing with the consequences of not" via a case study. I'm willing to believe this; prevention <em>is</em> usually a better strategy than treatment. OK, fine. What I wanted to check was the cost breakdown; Utopia describes the project as costing \$217 million, and being responsible for getting 6,500 people off of the streets over nine years. This struck me as being exorbitantly expensive, and I wanted to check their methodologies and math.</p>
+<p>The given citation for this "unmitigated success" was to a random pdf on the Utrecht municipal website which doesn't exist anymore. I didn't try any harder than this to find the document. <a href="https://www.binnenlandsbestuur.nl/sociaal/achtergrond/achtergrond/rotterdam-haalt-daklozen-in-huis.127589.lynkx">The citation describing the experiment</a> points to a Dutch news site (that Google annoyingly refuses to translate) that looks more like an op-ed than anything official, but more damningly, doesn't provide any links closer to the original source.</p>
+<p>Bregman's grasp of economics is pretty tenuous. For example:</p>
+<blockquote>
+<p>From a certain perspective, [Bastiat] says, breaking a window sounds like a fine idea. "Imagine it costs six francs to repair the damage. And imagine that this creates a commercial gain of six francs---<em>I confess there's no arguing with this reasoning.</em> The glazier comes along, does his work, and happily pockets six francs..." [emphasis mine]</p>
+</blockquote>
+<p><em>No arguing?</em> Except that the glazier charges a fair price to replace the window, so he is only marginally better off after replacing the window, but the world <a href="https://www.youtube.com/watch?v=rK6VGP1B2Hw">has lost one window</a> and the owner is the worse-off for it.</p>
+<p>He goes on:</p>
+<blockquote>
+<p>Unlike the manufacture of a fridge or a car, history lessons and doctor's [sic] checkups can't simply be made "more efficient."</p>
+</blockquote>
+<p>This is absurdly stupid. We've all taken classes that were long-winded and boring. The quality of a teacher has a huge bearing on how efficiently we learn from them. Websites like <a href="https://www.khanacademy.org/">Khan Academy</a> are teaching entire university courses in a fraction of the time it would take to do through the usual channels. Doctors' checkups <em>can</em> and <em>have</em> been made more efficient; it's not an accident that doctors carry stethoscopes and have access to MRI machines.</p>
+<p>But Bergman persists:</p>
+<blockquote>
+<p>... the government is gobbling up a growing share of the economic pie... this phenomenon is now known as "Baumol's cost disease," basically says that prices in labor-intensive sectors such as healthcare and education increase faster than prices in sectors where most of the work can be more extensively automated... shouldn't we be calling this a blessing, rather than a disease? After all, the more efficient our factories and our computers, the less efficient our healthcare and education need to be; that is, the more time we have left to attend to the old and infirm and to organize education on a more personal scale.</p>
+<p>When you're obsessed with efficient and productivity, it's difficult to see the real value of education and care. Which is why so many politicians and taxpayers alike see only the costs. They don't realize that the richer a country becomes the more it should be spending on teachers and doctors.</p>
+</blockquote>
+<p>No no no no no no. Cost disease doesn't say "we spend too much on healthcare and education." It says "<a href="https://slatestarcodex.com/2017/02/09/considerations-on-cost-disease/">we spend too much on healthcare and education <em>on the margin.</em></a>" Which is to say that in less cost-diseased countries, spending an additional \$1,000 will buy you a lot more than <em>the same additional</em> \$1,000 in a more cost-diseased place.</p>
+<p>Cost disease is the phenomenon that we're <em>paying more to get less.</em> For example, Thailand has a booming dentistry industry among Australians because you can get the same quality work done for significantly less money. This isn't "exploiting Thai workers" nor is it "taking jobs away from Australians"---it's just Australian cost disease.</p>
+<hr />
+<p>A significantly smaller portion of the book describes the fifteen-hour workweek is an ideal one. Sure! Sounds good! But, Bergman says, "breaking the vicious cycle [of the 40 hour workweek] will require collective action---by companies, or better yet, by countries."</p>
+<p>I don't get this one. If you want to work less than 40 hours, just... work less than 40 hours? Nobody is forcing you, except your spending habits. As it happens, life is actually pretty cheap. Find a small apartment, share it with some roommates, and eat a lot of rice. You can definitely manage to do it for less than \$800 a month if you're willing to shop around---and especially if you're willing to move.</p>
+<p>The secret is to just not spend money. That means stop eating lavish meals. Don't get a pet. Don't buy a vehicle. Stop drinking and smoking and give up whatever other vices you have that cost a bunch of money. It sounds dumb, but the secret to not working very much is to not need a lot of money.</p>
+<p>And then use your extra time to <a href="/blog/become-a-programmer">learn how to do something valuable</a> so that you can work even less.</p>
+<hr />
+<p>At the end of the day, I get the strong impression that this book was <a href="https://www.lesswrong.com/posts/34XxbRFe54FycoCDw/the-bottom-line">written backwards</a>. Bergman very clearly believes in his cause, and has worked backwards trying to find arguments that support it---as evidenced by the sloppy citation work, numerous straw-men and gross-misunderstanding of the arguments against his point of view.</p>
+<p>It's a particularly bad sign when a book is <em>so bad that it makes people on your side agree with you less after reading it.</em> Give this one a miss, but if you're looking for a <em>significantly</em> better resource championing MGI, look no further than <a href="https://slatestarcodex.com/2018/05/16/basic-income-not-basic-jobs-against-hijacking-utopia/">Slate Star Codex's take on same</a>.</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>2019 Goal: Just Play Lots of Music</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/play-lots-of-music/index.html</link>
+      <guid>http://sandymaguire.me/blog/play-lots-of-music/index.html</guid>
+      <pubDate>2019-01-31T09:27:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>I promised myself it would happen by today, or not at all. Since I don't want to not do it, I guess I'd better stop procrastinating and write about <em>my plans for 2019.</em></p>
+<p>My friend Sara challenged me to do something different this year. She suggested I become the captain of a sports team. This is too scary even for me[^1], but I decided to follow the spirit of the idea.</p>
+<p>Rather than doing quantitatively more of what I have been, it's time to try something new. And so: my major goal for the year is to learn how to play music. To be more specific, I want to be able to play piano like <a href="https://www.youtube.com/watch?v=ZslxpecR7vE">Jerry Garcia plays guitar.</a></p>
+<p>I once met a guy noodling around on the ukulele in the Vilnius airport. I struck up conversation with him and asked how he was so good. The answer? "Never do the same thing twice. Always be pushing yourself to try new things."</p>
+<p>Along those lines, there's this fantastic proverb from <a href="https://www.goodreads.com/book/show/187633.Art_and_Fear">Art and Fear</a>:</p>
+<blockquote>
+<p>The ceramics teacher announced on opening day that he was dividing the class into two groups. All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality. His procedure was simple: on the final day of class he would bring in his bathroom scales and weigh the work of the “quantity” group: fifty pound of pots rated an “A”, forty pounds a “B”, and so on. Those being graded on “quality”, however, needed to produce only one pot — albeit a perfect one — to get an “A”. Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity. It seems that while the “quantity” group was busily churning out piles of work - and learning from their mistakes — the “quality” group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.</p>
+</blockquote>
+<p>Unfortunately this story is apocryphal, but it resounds pretty strongly with my experience. It's a trap I see beginner programmers fall into all the time; they continually ask "how can I get good at programming?" and the answer is always "do more programming." That's not to say that some good advice can't help steer you away from the weeds, but fundamentally, <em>theory is only as valuable as it improves your craft.</em> <a href="/blog/too-smart/">Theory for its own sake is nothing but mental masturbation.</a></p>
+<p>This is a trap that I often fall into myself. Rather than just getting started, I spend lots of time <em>thinking</em> about the best way to get started. Sometimes if the risk of failure is particularly high, that might be the approach to go. But it's usually not.</p>
+<p>So I want to take this year as a case study in the "quantity over quality" approach. To that end, I'm going to learn, record and upload a new song every day that I'm not sick or traveling. <a href="https://soundcloud.com/santino-maguire">I started yesterday.</a></p>
+<p>I reserve the right to change the specifics of this goal if it ends up conflicting with actually getting better at music---eg. maybe the overhead of learning and recording everyday will get in the way of actually practicing more directly-musical things. But I'll worry about those problems if I come to them.</p>
+<p>So, here's the plan. I'm going to learn and play and record these songs, and then every day, listen to yesterday's. I'm going to ask myself "why isn't this as good as it could be?" and then I'm going to spend the day focusing on whichever aspect seems like it will have the most impact. Presumably in time this can't help but force me to get good.</p>
+<p>Nothing big or dramatic this year: just play lots of music and give myself permission to do it badly until it starts being good.</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>How and Why to Become a Programmer</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/become-a-programmer/index.html</link>
+      <guid>http://sandymaguire.me/blog/become-a-programmer/index.html</guid>
+      <pubDate>2019-01-23T14:00:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>I find myself recommending programming as a career path to <em>lots and lots of people.</em> It gets boring to write the same arguments over and over, so I thought I should just do it once more: the definitive guide to why programming is a great choice and how to break into it.</p>
+<h2 id="why">Why?</h2>
+<p>Programming is fucking cushy.</p>
+<p><em>The money is really good.</em> Like, we're talking <em>really good.</em> If you're willing to relocate, your first job will probably pay around \$105,000 USD in salary. In addition, you're going to make stock options (worth maybe \$50,000 a year if it's for a company that actually makes money---worth nothing otherwise.) Also, lots of big companies will actually <em>pay you money</em> to sign their contract. It's called a signing bonus, you get it on your first paycheck, and it's somewhere between \$10,000 and \$80,000. The only catch is that you have to stay for a year. After that, you're free to go somewhere else, get a 15% raise, and another big signing bonus. Before tax, you're looking at about \$200,000 USD per year on your first job, if you can land one of the good ones. If not, or if you're not willing to move, let's say \$100,000.</p>
+<p><em>You don't need any qualifications.</em> Nobody in the industry cares whether or not you went to university. They don't give a shit about what you look like or who your family is; all they care about is whether or not you can reverse a linked list in linear time[^1]---whether or not you can code. In other words, it's an industry in which skills trump qualifications every time. The interviews rarely have any "soft" questions; you're just asked to program a solution to a problem. If you can do it and your solution doesn't suck and you don't seem like an asshole, you get the job. Sometimes if your code is <em>really</em> good, they'll even look the other way on the asshole bit.</p>
+<p><em>Everything you need is free.</em> There's this neat culture in programming circles of people who make cool stuff and then give it away for free. That means <em>every tool you need</em> is already made and is freely available. And if it isn't, programming skills are the same ones you need in order to build the tools that don't yet exist. See <em>working on real projects</em> later in this essay.</p>
+<p><em>It's a hot industry.</em> Seriously hot. There are simply not enough people good at computers in the world. <em>Everyone</em> is hiring. I'm not kidding about that; <em>I get roughly one job offer per week, sent to me by people I've never met before.</em> And this number is low compared to lots of people in the industry---some people get a few every day. How many times per year do you turn down six-figure jobs? In addition, you don't need to worry about your job being automated-away---the people doing the automating-away are programmers, and <a href="https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems">some very fortunate mathematics</a> prove that when we can automate programming we must already be able to automate everything else.</p>
+<p><em>Programming is a creative endeavor.</em> Most of your time is spent thinking about how to solve the problem; very little of it is <em>actually</em> solving it. Knowing the problem is like 99% of the way there. That means you can work from anywhere---in the park, in the shower, on the beach in Mexico. Seriously, I've gotten paid to work from all of those locations. The people in charge don't really know what you do; they just know that if they feed you energy drinks and buy a foosball table for the office, somehow lots of money gets made. Unless you work at a bank, your boss will recognize this and let you do your thing. So long as you get your work done and make a halfhearted attempt to make it to meetings, nobody cares what hours you hold.</p>
+<h2 id="why-not">Why Not?</h2>
+<p>There are a few reasons you might not want to become a programmer.</p>
+<p><em>You</em> need to spend a lot of time on a computer.</p>
+<p><em>You feel like you won't be good at it.</em> In my experience, computer programming skills overlap with a lot of other things. If your job consists of working with lots of different tools and understanding when to use which, then programming is going to be a good a fit. If your job consists of diagnosing why things are broken, programming will be a very good fit. If your job consists of making simple things and then assembling them into more complicated things, programming will be a good fit.</p>
+<p><em>You need to spend a lot of time interacting with people who are lacking some crucial social skills.</em> These people are not unpleasant by any means, just weird as fuck. In time, you will become more like them than you are comfortable admitting to yourself. It's OK.</p>
+<p><em>"Isn't tech just full of tech bros?"</em> No. See the above point.</p>
+<p><em>It can be hard to experience your accomplishments.</em> Unlike carpentry, when you've finished a software project, there's usually nothing that you can point at and say "yes, I made that." The construction exists only in the platonic world of ideas. Relatedly:</p>
+<p><em>Nobody except other nerds will understand what the fuck you do.</em> Despite hundreds of hours of talking with my mom about my interests, she's never going to truly understand what it is that I do. And she <em>actually wants to know.</em> If sharing understanding of your work with a wide group of people is something you really care about, this might not be a good career path.</p>
+<h2 id="why-not-why-not">Why Not "Why Not?"?</h2>
+<p>Is any of those "why nots" <em>really</em> worth \$200,000 a year to you?</p>
+<h2 id="getting-in-the-door">Getting in the Door</h2>
+<p>"Ok, great! I'm sold on this exciting career aspect, Sandy! But how can I make it happen?" I can practically hear you shouting enthusiastically at me! Before we get into the "how to learn this stuff" bit, I want to give you a little more insight into the industry.</p>
+<p><em>The cards are stacked in your favor.</em> OK, get this. Every company I've ever worked at has this thing called a "referral policy." The deal is, if someone who works there hands your resume to the boss, and you end up getting hired, then that person makes somewhere between \$5,000 and \$20,000. I think the idea is to inspire people to recommend their friends, but they get the money regardless of whether they know you or not.</p>
+<p>That's right. People get paid if they can get you a job where they work. This means LinkedIn is your best friend. You can just search for people who work at any particular company you want to work for, send them cold emails saying "here's my resume, please refer me," and they will because these people are smart and would like to make some easy extra money on top of their already-exuberant salaries.</p>
+<p><em>But wait, there's more.</em> You remember how I said that you'll be getting a job offer every week? Those things are sent by people called "recruiters" whose job it is is to hire people. It turns out that <em>they too</em> get paid if they can find you a job. Which means that if you're lazy, you can also just email random recruiters you find on LinkedIn and tell them you're on the job market. <em>They will literally do the job hunt for you.</em></p>
+<h2 id="learning-how-to-program">Learning How to Program</h2>
+<p>All of this sounds too good to be true, doesn't it?</p>
+<p>Unfortunately, all of the above information is only applicable if you know how to program. Fortunately, while learning it is <em>hard,</em> you can do it in six months if you're dedicated. Most people in this field are mostly self-taught. You don't need to go to school or get a certificate or anything.</p>
+<p>Seriously. Six months. No bullshitting. It'll be grueling, twelve-hour days, but it's doable. That's like, what, \$5,000 worth of food and rent? <strong>Go take out a loan and quit your job and focus on this. It's probably the most important thing you'll ever do.</strong> Programming has a 100% employment rate. In six months you can pay back that loan with your signing bonus and then take the rest of it to the bank.</p>
+<p>So how do you do it? You don't need a special computer---whatever you already have will work, as long as it has a keyboard (no phones, sorry!). Go buy a copy of <a href="http://www.crackingthecodinginterview.com">Cracking the Coding Interview</a>, and use that as a todo-list of things you need to learn. This is a fantastic book that will prepare you for what sorts of questions you can expect in a technical interview. If you can correctly answer every exercise in the book in less than an hour, you are already more qualified than the vast majority of people I've ever interviewed.</p>
+<p>To clarify, the goal is <em>not</em> to memorize the solutions to the questions. That won't work; interviewers can sniff that out a mile away. But if you can genuinely work out the answer to all of those questions based only on what's inside your head, <em>you know more than enough.</em> At that point you are <em>highly employable.</em> Enjoy those six figures, baby!</p>
+<p>So, with Cracking the Coding Interview as your guide, how do you actually <em>learn this stuff?</em> Two fold: you ask lots of questions and you do projects. To ask questions, a good place to start is at <a href="https://www.reddit.com/r/learnprogramming/">/r/learnprogramming</a>. A <em>really</em> good place to start is their FAQ question <a href="https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started">Where Do I Get Started</a>. Everyone is really very friendly.</p>
+<p>But beware! There is a <em>very common</em> misstep here that bites beginners---the communities that help beginners are often <em>too helpful,</em> and many a new programmer will develop <em>learned helplessness.</em> Which is to say they'll automatically ask for help whenever they see a new problem, without first giving their best attempt to solve it. <strong>Do not fall into this trap---you might never get out.</strong></p>
+<p>In order to do projects, pick something on the computer that <em>you wish existed</em> or <em>something that does exist but you can immediately see how it could be better.</em> Then dive in, and systematically work on bringing this idea to fruition. The only way to learn how to program is by actually doing it and bumping into reality. Having a real project in mind is a great way to accidentally discover holes in your knowledge. Ask for help when you need it, but give it a solid 30 minutes of <em>thinking really hard</em> first.</p>
+<p>Additionally, having made real projects is great for your resume. It helps show companies that you're <em>serious</em>, even if you don't have professional experience.</p>
+<h2 id="making-a-great-resume">Making a Great Resume</h2>
+<p>Keep in mind that nobody in this industry cares about anything. Except for whether or not you can code and whether or not you can make them money. Seriously. That's it. As a result, you want to tailor your resume with this in mind. My rules on this are simple:</p>
+<p><em>Make the relevant information easy to find.</em> At the very top, list what programming languages you know, and how well you know them. Chop out words if they're not necessary. Short and sweet.</p>
+<p><em>If it's not impressive, take it off.</em> This includes both work experience and bullet points. If your last job was a barista, nobody cares. Get rid of it. Unless you were the shift manager and realized that the company practices were terrible and you singlehandedly introduced a new system that saved ten thousand dollars a year. It's OK if this makes your resume short; better to be short and impressive than long and dull.</p>
+<p><em>Put things in context.</em> Programming people are an analytical bunch, so put in numbers wherever you can. Make sure the numbers are <em>meaningful</em> to someone who wasn't there. For example, saying you increased something's speed by 10 seconds is meaningless; instead say you improved it by 95%. Rather than saying you lead a project, say that you lead the team responsible for the company's most important project. Only if it's true, of course. If you don't know how to put things in context, go read <a href="https://www.amazon.ca/How-Measure-Anything-Intangibles-Business/dp/1452654204">this book</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>So that's all I've got. If you're dissatisfied with your job or your money situation, I can't think of a single reason why you shouldn't commit yourself to this approach 100%. It will be hard and scary, but it will all be over in a few months and you'll be laughing about the experience all the way to the bank.</p>
+<p>If you have questions about any of this, or if you just need a pep-talk, feel free to <a href="mailto:%20sandy@sandymaguire.me">email me</a>. I'd love to hear from you.</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>Too Smart for My Own Good</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/too-smart/index.html</link>
+      <guid>http://sandymaguire.me/blog/too-smart/index.html</guid>
+      <pubDate>2019-01-22T12:48:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>I want to share a piece of <a href="http://mindingourway.com/obvious-advice/">ridiculously obvious advice</a> today.</p>
+<p>I've got a bad habit, which is being too smart for my own good. That is, when I want to learn something new, too often I spend my time making tools to help me learn, rather than just learning the thing.</p>
+<p>Take, for example, the first time I tried to learn how to play jazz music.</p>
+<p>There's only one thing that I'm really good at, which is programming. The central tenet in programming is that "laziness is good," and if you're faced with doing something boring and repetitive, you should instead automate that thing away.</p>
+<p>When all you have is a hammer...</p>
+<p>According to <a href="https://www.shermusic.com/1883217040.php">The Book</a>, the first thing to do to learn jazz is to learn your scales---in every mode for every key for several varieties of harmony. There are 12 notes, and seven modes, and at least four harmonies. That's what, like 336 different scales to learn?</p>
+<p>"WHO HAS TIME FOR ALL THAT CRAP," I thought. "I'LL JUST WRITE A <a href="http://reasonablypolymorphic.com/blog/modeling-music/">COMPUTER PROGRAM</a> TO GENERATE THE SCALES FOR ME, AND THEN PLAY THOSE."</p>
+<p>In retrospect, this was a <em>terrible plan.</em> Not only did it not get me closer to my goal of knowing how to play jazz music, I also <em>didn't know enough about the domain to successfully model it.</em> It's funny to read back through that blog post with the benefit of hindsight, but at the time I really thought I was onto something!</p>
+<p>That's not to say it was <em>wasted effort</em> nor that it was <em>useless</em>, merely that it wasn't actually moving me closer to my stated goal of being able to play jazz music. It was scratching my itch for mental masturbation, and was a good exercise in attempting to model things I don't understand very well, but crucially, it wasn't <em>helping.</em></p>
+<p>Or take another example, a more recent foray into music for me---only a few weeks ago. This time I had more of a plan; I was taking piano lessons and getting advice on how to practice from my teacher. One of the things he suggested I do was to solo around in the minor pentatonic scale. And so I did, starting in C, and (tentatively) moving to G.</p>
+<p>But doing it in Bb was hard! Rather than spend the two minutes that would be required to work out what notes I should play in the Bb minor pentatonic, I decided it would be <a href="https://github.com/isovector/haskell-realtime-midi">better to write a computer program</a>! This time it would connect to my keyboard and "listen" to the notes I played, and flash red whenever I played a note that wasn't in the Bb minor pentatonic. I guess the reasoning was "I'll train myself to play the right notes subconsciously." Or something.</p>
+<p>I spent like 15 hours writing this computer program.</p>
+<p>This attempt was arguably more helpful than my first computer program, but again, it's a pretty fucking roundabout way of accomplishing the goal. Here we are, four weeks later, and I still don't know how to noodle around in the Bb minor pentatonic.</p>
+<p>Like I said. Too smart for my own good.</p>
+<p>There's a happy ending to this story, however. Earlier this week, I decided I was going to <em>actually</em> learn how to play jazz music. So I started reading The Book again, and when I got to the scale exercises, I decided I'd just give them a go. No computers. Just the boring, repetitive stuff it said would make me a great jazz musician.</p>
+<p>The book even gave me some suggestions on how to minimize the amount of exercises I need to do---rather than playing every mode in every key (eg. C ionian, then G ionian, then A ionian, etc etc until it's time to play dorians), instead to play C ionian followed by D dorian followed by E phrygian. These scales all share the same notes, so they're more-or-less the same thing, which means I actually only need to practice 12 things, rather than 84 (the other 250 can likewise be compressed together.)</p>
+<p>If I had been patient, I would have read that PRO-TIP the first time around. It probably wouldn't have helped me make less-"smart" decisions, but it's worth keeping in mind that I could be two years ahead of where I am today if I were better at keeping my eye on the ball.</p>
+<p>One of the scales the book made me do was Ab major---something I'd literally <em>never once</em> played in my twenty years of piano. It started on a black note and always felt <em>too hard to actually do.</em> I approached it with trepidation, but realized that it only took about three minutes to figure out.</p>
+<p><strong>The thing I'd been putting off for twenty years out of fear only took three minutes to accomplish.</strong></p>
+<p>I've often wondered why it seems like all of the good musicians have been playing their instruments for like 25 years. Surely music can't be <em>that</em> hard---you can get pretty fucking good at most things in six months of dedicated study. But in the light of all of this, it makes sense. If everyone learns music as haphazardly as I've been doing it, it's no wonder that it takes us all so long.</p>
+<p>What have you been putting off out of fear? Are you sure it's as hard as it seems?</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>Teaching Badly</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/teaching-badly/index.html</link>
+      <guid>http://sandymaguire.me/blog/teaching-badly/index.html</guid>
+      <pubDate>2019-01-07T13:40:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>I'd like to demonstrate three widespread flaws in education today, through a few little narratives.</p>
+<p>The first stems from an early gifted-ed teacher of mine; I had the naive view that my teacher could provide insight on any problem I posed to him. And usually this was the truth; he often could help.</p>
+<p>But on matters of mathematics, he knew very little. Unfortunately, this did not stop my teacher from providing advice on these topics, and he did so with his usual degree of confidence. I'd take him at his word and resultantly spend many hours barking up the wrong, impossible tree.</p>
+<p>That's not to say that spinning your tires on a problem is necessarily a bad thing, but it's frustrating when you've been lead by a trusted adviser that a bad approach is in fact a good one.</p>
+<p>This leads us to our first insight: <em>be knowledgeable in your topic, or at least in your ignorance. If you are teaching, ensure you know what it is that you're trying to teach.</em> This problem is particularly prevalent in North American schooling, where teachers are often treated as being fungible---the typical example is enlisting the gym teacher to teach science class.</p>
+<p>Kids aren't stupid, and it quickly becomes evident that the person responsible for teaching a subject knows as much about it as they do. I would suggest that this teaches the wrong lesson; that it's OK to boldly not know what you're talking about because you have vested authority.</p>
+<p>The second flaw in education I've seen comes from a more topical experience. A few months ago, I started taking piano lessons again. It was mostly an accident---a piano teacher got in touch wondering if I could tutor her daughter in computer science. We decided on a quid-pro-quo agreement where I'd trade CS lessons for piano lessons.</p>
+<p>The lessons started with an exceptionally high learning curve. My new teacher had expectations about where I <em>should</em> be in terms of piano, and set her lessons accordingly. Needless to say, these expectations of hers were significantly above where I actually was in skill level.</p>
+<p>Now, I'm not one to shy away from a challenge, so I duly gave it the old college try. My teacher would give me a piece to sight read (play without having seen before) that was in a key signature I wasn't familiar with, making sure I played every note for the exact correct duration of time, while asking me to perform an analysis of the chords as I went, and expecting me to notice repeating patterns in the music.</p>
+<p>Any one, or possibly even two of these tasks, would have been possible for me given serious, concerted effort. But attempting to simultaneously juggle five difficult tasks in real-time is not a recipe for success. I'd play the piece attempting to focus on all of my goals, and inevitably drop one or two. My teacher would immediately stop me and point out the mistake.</p>
+<p>Frustrating, concentration-breaking, and <em>actively unhelpful.</em> If you're having a hard time focusing on a single challenge, your performance isn't going to improve by instead focusing on <em>two</em> challenges.</p>
+<p>This is our second insight, and it's one of methodology---<em>focus on doing only one thing at a time, and on doing it well.</em> Practice a skill until it becomes instinctive, then---and only then---tackle the next piece of the overall problem. In other words, decompose a hard problem into easier sub-problems and conquer them individually.</p>
+<p>My third example comes from an improv class I took a few months back. Despite having taken about a year's worth of improv, I decided to sign up for the beginner's class. This was a mistake on my part, but gave me a better context in which to evaluate the teaching.</p>
+<p>After each class, I'd conduct an informal little straw poll among the other students---"how are you liking improv so far?"---that kind of thing. The response was always lukewarm. "It doesn't really feel like we're learning anything."</p>
+<p>Somehow learning wasn't happening, despite us doing three hours of exercises per week. The problem, I think, was that the instructor never impressed upon us <em>why</em> we were doing the exercises. Exercises that are not themselves the eventual end-goal are helpful insofar as they build related skills. However, if you don't know what the exercise is trying to teach, it's hard to extract value from it.</p>
+<p>That's not to say it's impossible, per se, merely that it's an inefficient way of learning. It feels like the equivalent of listening to foreign-language tapes while you sleep, hoping that they'll sink in through osmosis. While this may or may not be true, it's certainly less effective than saying "I reliably mess up the subjunctive tense in French; I'm going to go practice that and pay attention to it for a little while."</p>
+<p>There is a related failure mode here, which I've often noticed from musicians. They'll play something that I like and I'll ask "what did you just do?" And more often than not, they won't know how to articulate it. "I was just screwing around." It's not that they've <em>forgotten,</em> it's that they don't have the <em>awareness</em> of why something works. It just does. They've learned it instinctually through brute force, and subsequently lack the tools to analyze or articulate it.</p>
+<p>And so we make our way to the third insight---<em>exercises are most valuable when you understand what they're trying to teach you.</em> To the instructor, it's probably obvious what the goal is, but this is only through the lens of hindsight bias. The beginner doesn't have enough knowledge to identify specific sub-skills or, relatedly, their value.</p>
+<p>The takeaway is obvious: if you're responsible for providing examples to students, take a moment to <em>explicitly tell them what to focus on while doing it.</em> Provide a high-level description of <em>why this is a valuable thing</em> and how it relates to the bigger skill at large. And it should go without saying that if you're only recommending an exercise because your teacher recommended it to you, maybe you should take a moment before passing on that particular torch.</p>
+<p>Not only does knowledge of the immediate goal help motivate the students, but it helps train them in the more immediate skill of "how do I know if I'm doing this thing well?" Fast feedback cycles are key to fast learning. It's hard enough throwing a basketball into the hoop---imagine if you had to learn how to do it while blind.</p>
+<p>My claim is that these three points are crucial in the pursuit of good education. Know what you're talking about, and if you don't, be clear about it. Subdivide problems into easier ones, and ensure mastery of the essentials before attempting to synthesize them together. Finally, provide guidance on what these sub-skills are, how they relate to the bigger picture, and how to go about learning them.</p>
+<p>When put this way, my ideal educator is less of a grade-school teacher and more of a mentor. Someone whose responsibility is to show you the right direction, to keep you from going off into the weeds, and to suggest a training regimen to help. In short, the mentor isn't responsible for your success, only for giving you the best possible chance at it.</p>
+<blockquote>
+<p>I can only show you the door. You're the one that has to walk through it.</p>
+<p>Morpheus, The Matrix</p>
+</blockquote>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>Reclaim Your Attention!</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/reclaim-your-attention/index.html</link>
+      <guid>http://sandymaguire.me/blog/reclaim-your-attention/index.html</guid>
+      <pubDate>2019-01-01T11:55:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>I'm still working on my goals for 2019, but one of them is that I want to spend less time mindlessly consuming media. Like, less time scrolling through Facebook, less time perusing low-value videos on YouTube, that sort of thing.</p>
+<p>The problem is that these sites aren't devoid of value; I still want to hear about events in my neighborhood, and I still want to watch high-value videos. Upon reflection, what I don't like about these services is their recommendation services---the algorithms whose goals are to make me spend as much time as possible on these websites.</p>
+<p>And so I'd like to present the most obvious-in-hindsight solution I've ever come across. Just delete the fuckers!</p>
+<center>
+<img src="/images/filtering/facebook.png" alt="Facebook" />
+
+<img src="/images/filtering/youtube.png" alt="Youtube" />
+</center>
+<p>If you're sold on this idea, it's actually super easy to do, and works anywhere on the internet! You're going to need to install the <a href="https://github.com/gorhill/uBlock">uBlock Origin</a> browser extension.</p>
+<p>Now, right click vaguely anywhere around the bit of the website that you don't like, and go down to "Block element."</p>
+<p><img src="/images/filtering/block.png" alt="Block element" /></p>
+<p>Lots of technical mumbo jumbo will pop up in the bottom right of your screen.</p>
+<p><img src="/images/filtering/mumbojumbo.png" alt="Mumbo jumbo" /></p>
+<p>Click on a line under "Cosmetic filters." Some portion of the website will glow red, showing you how much of it you're about to delete. If the selection is too broad or too specific, try choosing a different cosmetic filter. Narrow in on exactly the section of the website that's the problem---the Facebook newsfeed for example---and then click on "Create."</p>
+<p>And poof! That section of the website will be gone forevermore. Reclaim your attention and save it for more important things than stupid bullshit on the internet.</p>
+      ]]></content:encoded>
+  </item>
+  <item>
+      <title>Looking Back on 2018</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/looking-back-on-2018/index.html</link>
+      <guid>http://sandymaguire.me/blog/looking-back-on-2018/index.html</guid>
+      <pubDate>2018-12-28T12:26:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <h1 id="narrative">Narrative</h1>
+<p>The year started with a bang! I had just come back from a month in Thailand, confident in the fact that my life needed a big change. I quit my job and hung out with my parents for a bit, while trying to figure out what to make of my life.</p>
+<p>Because I was on a work visa in the US, that meant without a job I was going to be soon deported. Since I needed to move anyway, I started thinking about what other countries I could live in. Thailand and Lithuania were the two strongest contenders---the tie was broken by how easily I could get a Lithuanian visa.</p>
+<p>But it wasn't <em>that</em> easy. The only place to do it in Canada was on the other side of the country, so I packed my bags and went to visit my family in Ottawa. I snuck in overnight, had a great time with them, ate some grim shawarma, and went on a tour of parliament.</p>
+<p>The appointment for getting my visa was rather eventful. The Lithuanian ambassador didn't speak much English, and his fingerprint machine wasn't working particularly well. What resulted was 45 minutes of him yelling at me to "PUSH IT PUSH IT PUSH IT" as we tried to line my fingerprints up well enough to get a scan. The fee for a visa was \$92, which I paid with a \$100. He didn't have change and I didn't really need it, so I told him to keep it.</p>
+<p>APPARENTLY THIS IS UNWISE. APPARENTLY THIS COULD BE CONSTRUED AS ATTEMPTING TO BRIBE A FOREIGN OFFICIAL. WHOOPS.</p>
+<p>He was very good about it. When I came back to pick up my visa the day after, it came with \$8 in change. Getting the little piece of sticky paper that said I was allowed to live in Lithuania was one of the best feelings of my life. It's no secret that I have fond feelings for the country, and my spirits were extraordinarily high for a few days.</p>
+<p>That night my cousin and I went to Ottawa's oldest bar, where we started a dance party, convinced the band to only play Sublime covers, and met the oddest cast of characters.</p>
+<p>I flew back to Denver, where I found my friend from Ireland who had arrived a few days earlier and was expecting to stay at my place. Whoopsies! Thankfully he didn't die in the cold---though he was a welcome addition to the little welcome-back party that my friends threw for me.</p>
+<p>In Denver, I decided to get back in touch with a women I'd gone on a few dates with in 2017. It... wasn't good. She blew me off more often than she didn't. She'd always have a good excuse, but they were always a little <em>too</em> good. Like, nobody has that many excuses.</p>
+<p>We'd decided to prepare stand-up sets together. I did my bit; she didn't, and even had the audacity to not show up. We stopped dating shortly after. Even though the experience wasn't very good, it taught me something. I knew in my heart that this woman was no good for me, but my brain couldn't explicitly point out the bad behavior. I learned to trust my feelings more than I was.</p>
+<p>I spent my last few months in Denver trying to meet as many people as possible. The result was staggering---in a few short weeks <a href="/blog/neighborhoods">Denver went from a place I couldn't wait to leave to a place I was going to miss</a>.</p>
+<p>My last few days in Denver were rather eventful. I'd talked a bunch of close personal friends into flying up to Denver for my going away party. We threw one hell of a rager, which resulted in me going to the Grateful Dead bar across the street wearing only a sexy bathrobe. Allegedly I drunkenly came back at 2am in the morning waking everyone up telling them about how many kisses I got. However I maintain that this is all hearsay and slander.</p>
+<p>On my last day in town, I put up a craigslist ad with the title "<a href="/blog/no-possessions">come to my house and take everything I own for free.</a>" The scavengers came with great alacrity, separating me from all my worldly possessions in less than an hour. Unfortunately for them, the elevator got stuck during the event, and so many people found themselves trapped or trying to carry a couch down 16 flights of stairs.</p>
+<p>With a heavy yet hopeful heart, I headed for the airport. My flight to Vilnius was supposed to be three legs <a href="/blog/skaidre">but ended up being 14, and leaving me in the wrong country</a>. It was not a great experience, but it was a nice chance to practice my zen. I got a lot of practice.</p>
+<p>Being back in Vilnius was odd. I could still find my way around, but I had no idea where anything was. Also it was cold as all heck, and my luggage had gotten lost somewhere in Iceland. Lots had happened in Lithuania since I'd been gone---perhaps the most relevant of which was my best Lithuanian friends were no longer friends with one another. They didn't mention this to me, and so I'd often invite both of them to do things. They'd usually both decline.</p>
+<p>My interpretation of this was that they didn't like me.</p>
+<p>So instead I holed up and started working on personal projects. I wasn't necessarily what you'd call depressed, but my visions of what it'd be like to be back in Vilnius were sorely mistaken. It wasn't all bad! I dated a fantastic woman for a few months; she was running a film festival and so I got to see a lot of weird-ass European films.</p>
+<p>Even though my old skateboard was still safe and sound with my ex-roommates, their cat had claimed it and had started to ride around the apartment. I couldn't take that away from him, so I decided to buy my own. Because I was embarrassed about being bad (and because it was really fucking hot), I went out every night around midnight and practice ollying for an hour. I landed a few, though it was nothing to call home about.</p>
+<p>But I did anyway.</p>
+<p>After about four months <a href="/blog/home-is-where-your-people-are">I reached rock bottom and decided that Lithuania wasn't the place for me</a>. I was having too hard a time fitting in culturally and linguistically and it seemed like I might <em>just</em> be getting over those obstacles in time to have my visa expire. I notified my landlord I was canceling the lease and booked a flight for home a few months hence.</p>
+<p>I started writing a book. A few weeks later when I showed a rough draft to people, they said they'd pay me to write it. So I got started.</p>
+<p>Before leaving Europe, in June I went to ZuriHac and met a bunch of nerds and had a fantastic time talking about Haskell. I also met a woman I hit it off with, and on a whim went to visit her in a different country for a week immediately after the conference. We got along surprisingly well.</p>
+<p>What proceeded was a few months worth of long-distance dating, which didn't go too well. We'd feel the need to have longer visits when we did meet up, even though shorter ones are significantly better for budding new relationships. There was talk of me moving to the same city as her. The idea was that in the past I've continually prioritized my plans over women I've liked, and where the hell has that gotten me in my love life? She was keen on this idea, but the more I thought about it, the more it got in the way of the things I wanted to do. It felt like too much sacrifice on my part for too little on hers.</p>
+<p>Things fizzled out and I winded my way back to Canada. On my second day back, my cousin drove me out into the woods to go to a weird music festival. I met a ton of strange characters out there, all of whom implored me to come live in Ottawa. At the time, my plan was to move back to Kitchener/Waterloo where I'd done my undergrad. I had a good time in the woods, but soon after went back to KW.</p>
+<p>I was expecting big things from Waterloo, but a vast number of the people I was excited to see again were not there. Even though they lived there, they just didn't happen to be around that week. My takeaway was that people don't really like living in Waterloo, and they take as many opportunities to leave as they could. Informal surveys of random passersby agreed with this sentiment.</p>
+<p>The woman I'd been seeing in Europe happened to be in New York for a conference. It seemed too close for us to not see one another, so I suggested we meet up. She said there was no way in hell she'd come to Waterloo, so we agreed to meet in Ottawa. We spent some time there, but she left and I didn't. I haven't seen or talked to her since. But I'm still in Ottawa---taking the night bus back to Waterloo only to be unimpressed by it again seemed like too high an order.</p>
+<p>I spent <em>forever</em> trying to find a place to rent in Ottawa. Apparently my lifestyle is weird enough that people were averse to renting to me. I sort of get it---no job, no long-term residencies. But I had cash, and I was willing to put down six months in advance. No takers. It reminded me of this quote from the <em>Elon Musk</em> book:</p>
+<blockquote>
+<p>Every time Tesla interacted with Detroit it received a reminder of how the once-great city had been separated from its own can-do culture. Tesla tried to lease a small office in Detroit. The costs were incredibly low compared with space in Silicon Valley, but the city's bureaucracy made getting just a basic office an ordeal. The building's owner wanted to see seven years of audited financials from Tesla, which was still a private company. Then the building owner wanted about two years' worth of advanced rent. Tesla had about \$50 million in the bank and could have bought the building outright. "In Silicon Valley, you say you're backed by a venture capitalist, and that's the end of the negotiation," Tarpenning said. "But everything was like that in Detroit."</p>
+<p>Ashlee Vance, Elon Musk</p>
+</blockquote>
+<p>Eventually I teamed up with a realtor, assuming I could develop rapport with her, and she could use her clout to win over others. It worked, but only by the skin of our teeth. I'd promised myself that if this final place hadn't gone through I'd go back to Waterloo where the startup vibe is still alive and strong.</p>
+<p>I joined an old person choir. On my first rehearsal I was the youngest member by like forty years. Thankfully a few other youthful types have joined since.</p>
+<p>During the housing search, I'd met a woman on Tinder. We'd gone on a lunch date that hadn't gone very sexily, but somehow ended up on a second date later that evening. I got a text the next day saying "you're great but we'd never work out, though let's stay friends." I replied that that didn't work for me. Lads, if you find yourselves with a friend-zone problem (which I had been at the time) give this technique a go. I got an instant 180 turn on it, and we dated for a few months.</p>
+<p>Things were really good, but eventually <em>the big issues</em> caught up with us and we found them insurmountable. It's a bit of a shame, but my feelings are that it's better sooner than later.</p>
+<p>My housing finally went through, and I went into full beast mode to finish my book. I'd found myself stagnating on it, and in a burst of inspiration, decided to give myself a deadline. It's amazing what happens to ones productivity if your reputation is on the line. I published it, and it made back about as much money as I'd spent in the last year. That means I'm relatively net-neutral financially, which gives a good indication that I can do this retired thing forever.</p>
+<p>After a few days of well-deserved rest, I started hunting for roommates. A fantastic lad who'd crashed my birthday party was looking for a place, so I invited him to come live with me. It's one of the better things I did last year. In a surprise twist, I found a random woman on Facebook to also come live with us, and she's turned out to be fantastic also! I've come a long way on the roommate front from the cocaine dealer who was always trying to kill me.</p>
+<h1 id="retrospective">Retrospective</h1>
+<p>You know that feeling where you look back a few months in the past and think to yourself "wow, how was I such a big idiot back then?" I like that feeling. Some people get bummed out by having been an idiot, but me, I'm thankful that I'm no longer as big of an idiot.</p>
+<p>That's sort of how I feel about 2018.</p>
+<p>One year ago, I set what-felt-like <a href="/blog/perpetual-motion">big and scary goals</a>. Today, having accomplished most of them, it seems sort of silly to have <em>set the bar so low</em> last year. I fucked around without direction for most of the year and yet it still came out alright.</p>
+<p>To jog your memory, my goals for 2018 were these:</p>
+<ul>
+<li>Publish 3x as many words as I did in 2017. This works out to roughly one blog post per week.</li>
+<li>Contribute one major feature to an open source project.</li>
+<li>Read 52 books.</li>
+<li>Work my way through every problem in the <em>Awodey Category Theory</em> book.</li>
+<li>Publish an academic paper contributing something novel to the field of computer science.</li>
+<li>Have two five-minute conversations a day with people I don't know.</li>
+<li>For every week that I'm not in a serious, committed relationship, go on a date with somebody new.</li>
+<li>By the end of the year, have brought together a community of people that meet regularly, even without me acting as a catalyst.</li>
+</ul>
+<p>I want to take some time to go through each.</p>
+<h2 id="publishing">Publishing</h2>
+<p>Excluding this post, I published 108,000 words last year---35% more than my goal of 78,000. That's 34 blog posts and <a href="http://thinkingwithtypes.com">one book</a>; significantly better than the eleven posts I managed in 2017. It's a pretty good book. You should go buy a copy.</p>
+<p>I'm going to score this one as <strong>successful.</strong></p>
+<h2 id="contribute-to-open-source">Contribute to Open Source</h2>
+<p>My plan for this goal was to contribute to Conal Elliott's fantastic <a href="https://github.com/conal/concat">compiling to categories</a> tool---a piece of software that is capable of transforming arbitrary computer programs into other domains that are also capable of computing. This doesn't sound particularly interesting until you realize <em>just how much of the universe is capable of computation</em>---everything from Mario levels to highway layouts to (maybe) soap bubbles.</p>
+<p>I synched up with Conal and got a small amount of work done, but in the end, creative differences took reign. Conal is one of my intellectual heroes, but it was evident early on that we weren't going to work together very well. That's OK, it happens!</p>
+<p>However, a few months later it dawned on me that it wasn't the <em>open source</em> aspect that I cared about, merely the <em>contributing</em> part. The spirit of the goal was to use my skills to give something back to a community, and in that aim, I decided to do some pro bono work for a <a href="https://ottawabrahmschoir.ca/">choir I'd joined</a>. I made them a website, and have dragged them somewhat-kicking-and-screaming into the 21st century technology-wise.</p>
+<p>All in all, I'm also scoring this one as a <strong>success.</strong></p>
+<h2 id="read-52-books">Read 52 Books</h2>
+<p><a href="https://www.goodreads.com/user_challenges/11190050">Heck yeah I did.</a></p>
+<p>This goal was actually surprisingly hard. 52 books is enough that you don't really have time to choose what you're going to read next---you just depend on lists you've made in the past and the recommendations of people you trust. As a result, I read <em>way more books</em> this year than my last few put together, but I also read a bunch more books that I actively hated.</p>
+<p>And this is where the difficulty comes from. It's not in the actual reading, but in the structure of needing to finish a book a week. I'd find myself about 30% of the way through a long book that I hated, and instead of either finishing it or putting it down, I'd just avoid reading. Sometimes for weeks on end.</p>
+<p>The good news is that I read about the same number of 5 star books this year as I have cumulatively since 2014. What a fantastic feeling!</p>
+<p>Put another in the <strong>success</strong> column!</p>
+<p>My top books of the year are these:</p>
+<ul>
+<li><a href="https://www.goodreads.com/review/show/2447203644">The Myth of the Rational Voter</a></li>
+<li><a href="https://www.goodreads.com/review/show/1302073649">Elon Musk</a></li>
+<li><a href="https://www.goodreads.com/book/show/23786061-the-flinch">The Flinch</a></li>
+<li><a href="https://www.goodreads.com/review/show/2394272534">The Death and Life of Great American Cities</a></li>
+<li><a href="https://www.goodreads.com/book/show/3591262-cutting-for-stone">Cutting for Stone</a></li>
+</ul>
+<h2 id="category-theory">Category Theory</h2>
+<p>Finally we get to a goal I failed. Awodey's Category Theory is 247 pages long, and I made it through 87 of them. That's about 35%. Something I knew early on was that Awodey was not trying his best to write an accessible book. Here's an example of a sentence directly out of the book:</p>
+<blockquote>
+<p>"Since if fh(z) = gh(z) for some h : Z → A, then h(z) ∈ {x ∈ A|f (x) = g(x)} for all z ∈ Z, whence h “factors through” the inclusion function i, in the sense that there is a function h̄ : Z → {x ∈ A|f (x) = g(x)} such that i ◦ h̄ = h."</p>
+</blockquote>
+<p>Take a few minutes to try to parse that sentence. It's hard enough to decipher grammatically, even if you completely ignore all of the math bits. As a result, I'd spend about an hour per paragraph working my way through this book. Most of it was not spent on difficult math, but merely on figuring out what the hell Awodey was trying to tell me.</p>
+<p>After a few months I realized that there was no way in hell that the secrets of category theory were valuable enough to put up with this crap. The mathematics were too far removed from any topic I knew how to care about and my motivation gradually slipped away.</p>
+<p>This one was <strong>failed.</strong></p>
+<h2 id="contribute-something-novel-to-computer-science">Contribute Something Novel to Computer Science</h2>
+<p>The goal here was publish an academic paper contributing something novel. I didn't end up publishing a paper, but I did come up with something novel and <a href="https://reasonablypolymorphic.com/blog/prospecting-free-monads/">wrote a blog post about it</a>. This felt good enough---the value was in progressing the state of the art, not in getting credit for it.</p>
+<p>The idea, in short, is that I found a technique for performing static analysis of free monads. I know you don't really care, but this problem was considered to be <strong>impossible.</strong> The general solution still is, but my technique allows you to do the impossible in many cases, and to determine when it's feasible to do so.</p>
+<p>This is a pretty big result I think, and so I'm calling it a resounding <strong>success!</strong></p>
+<h2 id="meet-new-people">Meet New People</h2>
+<p>I was supposed to have two five-minute conversations every day. With people I didn't know.</p>
+<p>This one was hard. Really hard. Worthwhile, but hard. It was pretty OK while I was in Denver and everyone around me spoke English. I met lots of <a href="/blog/neighborhoods">people in my neighborhood</a>, which singlehandedly turned Denver from a cold city into one where I ran into friends everywhere I went. That was cool.</p>
+<p>Having a goal of meeting new people is a great feeling. It forces you to get off your phone or out of your book or whatever, and go up and just talk to people. It sure makes airports more interesting!</p>
+<p>But when I got to Lithuania, I noticed this habit of mine started slipping. All of a sudden I had an excuse to <em>not go talk to people:</em> "oh, they probably don't speak English. It would be a waste of time." Obviously bullshit, but that doesn't matter. Excuses are insidious things.</p>
+<p>To stay afloat on my goal, I'd go out to parties and mingle there---often meeting ten or more people in one fell swoop. It was better than nothing, but for some reason wasn't as satisfying. I think it's because the people you meet in your everyday life are the people who are <em>around</em> in your everyday life. As in, you're way more likely to run into them again.</p>
+<p>Let's get down to brass tacks. As of writing, I'm about 25 days behind on this goal---which corresponds to being about 95% successful. As such, I'm marking it as <strong>mostly successful.</strong> It was beneficial to me to have gone out and done, but it certainly could have been executed better.</p>
+<h2 id="go-on-dates">Go on Dates</h2>
+<p>The goal was to go on a date with someone new every week that I wasn't in a serious relationship. In 2018 I went on 68 dates with 15 different women, which you'll notice is above the date-goal but below the person-goal. I was in three serious relationships last year, so I can't fall back on that as a crutch.</p>
+<p>Early on into the goal I noticed that it had perverse incentives---rather than going on second dates with women I liked, I'd just go out with someone else instead. In addition, my tracking for this metric was poorly thought out. It would only track dates rather than <em>dates with unique women,</em> which meant it was often showing green even though I was technically behind.</p>
+<p>In retrospect, the goal was somewhat poorly thought out. I like that it got me out and actively asking women on dates---68 is a <em>looooot</em> more than I went on in 2017---but the quantification was flawed.</p>
+<p>Because you're interested, the wildest date I went on was a week long, in a different country, staying with a woman I'd only met once a few days before. Having a life strategy of "always saying yes" sure leads to some interesting experiences!</p>
+<p>I'm marking this goal down as <strong>mostly successful</strong> since I got what I wanted out of it, despite not actually accomplishing it in letter nor spirit.</p>
+<h2 id="create-communities">Create Communities</h2>
+<p>At the end of November, realizing I was hella behind on this one, I decided to sign up for a Meetup.com account and start a group. The idea was "Coworking Ottawa"---a chance for people to get together and work on the things they've always said they'll get around to doing, but somehow never do. I thought it was a pretty great idea!</p>
+<p>I hosted three weeks of it, but unfortunately the turnout wasn't spectacular. Only one person showed up whom I hadn't first bullied into coming.</p>
+<p>ROOM FOR IMPROVEMENT. This one is a <strong>failure.</strong></p>
+<h1 id="conclusion">Conclusion</h1>
+<p>All in all, 2018 has been my best year ever. For the first time in my life, I'm feeling confident in my skin, <a href="/blog/double-dipping">like I'm ready to take on the world.</a> A big part of it is having set lofty goals and, for the most part, crushing them. But the other part is having struck out on my own, living life the way I want to, rather than the way other people tell me it should be done.</p>
+<p>I'm not yet sure what I want out of 2019, but I've set a high bar for it, and I can't wait to crush that one too.</p>
+      ]]></content:encoded>
+  </item>
+</channel>
+</rss>

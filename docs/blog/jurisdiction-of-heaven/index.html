@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>The Jurisdiction of Heaven &larr; We Can Solve This</title>
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+        <link href="/atom.xml" rel="alternate" title="We Can Solve This - Atom" type="application/atom+xml">
+        <link href="/feed.rss" rel="alternate" title="We Can Solve This - RSS" type="application/rss+xml">
+
+        <link href='http://fonts.googleapis.com/css?family=Amiri|Muli' rel='stylesheet' type='text/css'>
+        <link href="/css/style.css" type="text/css" rel="stylesheet" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <script type="text/javascript" src="/js/baseline.js"></script>
+          <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-43091897-1']);
+            _gaq.push(['_trackPageview']);
+        
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+          </script>
+        </head>
+        <body>
+
+    <header>
+      <h1>The Jurisdiction of Heaven</h1>
+    </header>
+
+    <div id="boxes">
+    <div id="flex">
+    <div id="nav">
+      <ul>
+        <li><a href="/blog/archives">Essays</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/now">Now</a></li>
+        <li><a href="/top-posts">Best Of</a></li>
+        <li><a href="/book-reviews">Book Reviews</a></li>
+        <li><a href="/books">Book Quotes</a></li>
+      </ul>
+
+      <p>Built with love by Sandy Maguire.</p>
+      <p>&copy; 2011-2019</p>
+    </div>
+    <div id="main">
+      <div class="content">
+
+         <div class="meta">November  4, 2015</div>
+
+<article>
+    <p>With yesterdays feels safely out of the way, let's turn our attention back to the one of the finer things in life: functional programming. If you're a fan of <a href="http://sandymaguire.me/tags/feels.html">the feels</a>, consider <a href="https://github.com/isovector/we-can-really-solve-this/issues/1">filing a bug</a> against me; until you do, I'm going to assume my "peeps" want gnarly haskell stuff.</p>
+<p>You probably don't know it, but I'm writing a <a href="https://github.com/isovector/eden">vim clone</a> in Haskell (don't worry, this post isn't about vim after this paragraph.) One of the huge problems with vim that <a href="https://neovim.io/">neovim</a> and others are trying to solve is that the vim codebase is crunchy. <a href="https://en.wikipedia.org/wiki/Bram_Moolenaar">Bram</a> is very hesitant to merge pull requests as of late, since the code is such a mess of spaghetti that it's hard to tell a priori what is going to tear down beloved piece of text-editing infrastructure. vim is written in C, and unfortunately C is very amenable to this kind of situation. In addition, vimscript is <a href="http://learnvimscriptthehardway.stevelosh.com/chapters/21.html">atrocious</a>. This got me thinking, is there a way we can solve all of these problems simultaneously?</p>
+<p>The answer, as you might expect, is Haskell. We can <a href="http://sandymaguire.me/blog/love-types">exploit the typesystem</a> to enforce a no-spaghetti policy, and we can rewrite vimscript as a <a href="https://en.wikipedia.org/wiki/Domain-specific_language">domain specific language</a> using <a href="http://dlaing.org/cofun/posts/free_and_cofree.html">free monads</a>. Additionally, Haskell composes well, which <a href="http://sandymaguire.me/blog/vim-is-not-about-hjkl">is nice</a> for implementing a lot of vim features.</p>
+<p>Unfortunately, text editors are programs that are chalked full of state<sup>[citation needed]</sup>, and, as you might remember, Haskell isn't a huge fan of state. <a href="https://hackage.haskell.org/package/lens">Lenses</a> and the <code>State</code> monad can alleviate a lot of the potential issues with trying to work with state, but as I dug deeper and deeper into what I wanted to accomplish, I quickly realized something. The typesystem had no mechanism for some of the constraints I wanted to express.</p>
+<p>Consider this. The <code>State</code> monad gives us a single datum as state, with which we need to encapsulate our entire world (which for simplicity we will express in this post as being of type <code>data World</code>.) For our purposes, the world will only contain the current editor mode, and a collection of buffers:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">data</span> <span class="dt">Buffer</span> <span class="fu">=</span></a>
+<a class="sourceLine" id="cb1-2" title="2">    <span class="dt">Buffer</span></a>
+<a class="sourceLine" id="cb1-3" title="3">    {<span class="ot"> _bFilename ::</span> <span class="dt">FilePath</span></a>
+<a class="sourceLine" id="cb1-4" title="4">    ,<span class="ot"> _bContent  ::</span> <span class="dt">String</span></a>
+<a class="sourceLine" id="cb1-5" title="5">    }</a>
+<a class="sourceLine" id="cb1-6" title="6">makeLenses &#39;<span class="dt">&#39;Buffer</span></a>
+<a class="sourceLine" id="cb1-7" title="7"></a>
+<a class="sourceLine" id="cb1-8" title="8"><span class="kw">data</span> <span class="dt">World</span> <span class="fu">=</span></a>
+<a class="sourceLine" id="cb1-9" title="9">    <span class="dt">World</span></a>
+<a class="sourceLine" id="cb1-10" title="10">    {<span class="ot"> _wBuffers ::</span> [<span class="dt">Buffer</span>]</a>
+<a class="sourceLine" id="cb1-11" title="11">    ,<span class="ot"> _wCurrent ::</span> <span class="dt">Int</span></a>
+<a class="sourceLine" id="cb1-12" title="12">    ,<span class="ot"> _wMode    ::</span> <span class="dt">Mode</span></a>
+<a class="sourceLine" id="cb1-13" title="13">    }</a>
+<a class="sourceLine" id="cb1-14" title="14">makeLenses &#39;<span class="dt">&#39;World</span></a></code></pre></div>
+<p>The leading underscores are a convention when working with lenses; <code>makeLenses</code> will generate non-prefixed lenses for each of our records. In order to avoid spaghetti state (where anybody can do anything to any piece of the state), it would be nice to be able to be able to restrict functions to a subtree of the state. A bug in the <code>change</code> operator shouldn't be able to close inactive buffers, for example.</p>
+<p>A few minutes of googling later, I found the <tt>Control.Lens.Zoom</tt>[^1] package, which provides <code>zoom :: Lens s r -&gt; State r -&gt; State s</code>[^2]. <code>zoom</code> lifts a <code>Lens s r</code> over a <code>State s</code> monad, which as you might expect from the name, behaves just like zooming on a microscope. It lets you look at a deeper piece of state without needing to pay attention to any of the underlying context.</p>
+<p>So I hooked up all the necessary infrastructure to use <code>zoom</code>, and after some wrangling, got it to typecheck. I ran it. It worked. But there was a conceptual problem: zooming turns out to not be what I wanted.</p>
+<p>Remember that a <code>zoom</code> ignores the underlying context; which means when we zoom into our <code>Buffer</code> record, we can no longer determine what the value of <code>wMode</code> (the editor mode) is. It turns out <code>zoom</code> enforces too strong a constraint -- that the only piece of state you're allowed to read is the bit you're allowed to write. But this isn't useful to us: we want to be able to <em>read</em> the whole state, but only <em>write</em> over the piece we've been restricted to.</p>
+<p>Despair. I spent a day trying to hook up some monad transformer stacks of various combinations of <code>StateT</code> and <code>ReaderT</code>, hoping to be able to use the <code>MonadReader</code> instance to give me access to the whole state, but <code>zoom</code> over the <code>MonadState</code>. I actually managed to get an implementation of this "working", but it had some issues -- the most egregious of which was that writing state would desynchronize <code>get</code> and <code>view lensesCurrentlyRestrictedOver &lt;$&gt; ask</code>, even though conceptually they should have been the same thing.</p>
+<p>Eventually it became painfully clear that <code>zoom</code> wasn't the right tool for the job. Even more painful was that it appeared that no tool was right for the job. Somehow, nobody had never (published) needing to do what I wanted. I'm pretty sure about this; I spent <em>several</em> hours googling. So I decided to write my own monad to do what I wanted.</p>
+<p>Behold, <code>Jurisdiction s r a</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">type</span> <span class="dt">RLens</span> r s <span class="fu">=</span> <span class="dt">Lens</span> s s r r</a>
+<a class="sourceLine" id="cb2-2" title="2"></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="kw">newtype</span> <span class="dt">Jurisdiction</span> s r a <span class="fu">=</span></a>
+<a class="sourceLine" id="cb2-4" title="4">    <span class="dt">Jurisdiction</span></a>
+<a class="sourceLine" id="cb2-5" title="5">    {<span class="ot"> runJurisdiction&#39; ::</span> <span class="dt">RLens</span> r s <span class="ot">-&gt;</span> s <span class="ot">-&gt;</span> (a, s, <span class="dt">RLens</span> r s) }</a>
+<a class="sourceLine" id="cb2-6" title="6">    <span class="kw">deriving</span> (<span class="dt">Functor</span>)</a></code></pre></div>
+<p><code>Jurisdiction s r</code> is a monad (which we'll derive in a bit) you can interpret as a <code>State r</code> monad combined with a <code>Reader s</code> instance, except that <code>get</code> and <code>view restrictions &lt;$&gt; ask</code> always remain synchronized. What this means is that we can now express our buffer constraint earlier as <code>Jurisdiction World Buffer</code> -- any function whose type is this can read the entire <code>World</code>, but only write to a restricted <code>Buffer</code> subset of that world.</p>
+<p>This was the first monad I've ever implemented, and conceptually I wasn't really clear on what I needed to do. So I closely followed Bartosz Milewski's <a href="https://www.fpcomplete.com/school/starting-with-haskell/basics-of-haskell/12-State-Monad">great tutorial</a> on implementing the <code>State</code> monad, which is pretty much what I wanted. But because I'm lazy, I used <code>deriving Functor</code>. No judgment.</p>
+<p>I had to do some mental gymnastics to figure out what this monad actually is, but the answer is "it's a function <code>RLens r s -&gt; s -&gt; (a s, RLens r s)</code> that composes with itself." Thats why we're going to keep seeing <code>Jurisdiction $ \l s -&gt;</code> in the forthcoming code snippets. I guess this makes sense when you look at its only record, <code>runJurisdiction'</code>, but this took me a few days to wrap my mind around.</p>
+<p>I wrote my monad instance by following Milewski's code, and then randomly making changes until it typechecked with <code>Jurisdiction s r</code>. I had originally written a bunch of text here explaining the code with inline snippets, but that felt gratuitous, so instead I'll skip past all of the different <code>Monad*</code> instances and jump into the bits that make <code>Jurisdiction</code> interesting. If you're curious in the implementation, you can check it out <a href="https://github.com/isovector/eden/blob/master/src/Control/Monad/Jurisdiction.hs">on github</a></p>
+<p>However, the <code>MonadState</code> instance has some inside baseball that is worth taking a look at.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" title="1"><span class="kw">instance</span> <span class="dt">MonadState</span> r (<span class="dt">Jurisdiction</span> s r) <span class="kw">where</span></a>
+<a class="sourceLine" id="cb3-2" title="2">    get   <span class="fu">=</span> <span class="dt">Jurisdiction</span> <span class="fu">$</span> \l s <span class="ot">-&gt;</span> (view l s, s,         l)</a>
+<a class="sourceLine" id="cb3-3" title="3">    put v <span class="fu">=</span> <span class="dt">Jurisdiction</span> <span class="fu">$</span> \l s <span class="ot">-&gt;</span> ((),       set l v s, l)</a></code></pre></div>
+<p>Recall that the first element of our resulting tuple is the result of our monad, the second is the state contained in it, and the third is the current lens which acts as a filter over what we're allowed to touch. <code>get</code> pulls our state through the lens <code>l</code> at the very last second, so there's no chance for it to get out of sync with the state. Likewise, <code>set</code> pushes the state through the lens in order to change its value.</p>
+<p>But just because <code>Jurisdiction</code> is now a <code>MonadState</code> and a <code>MonadReader</code> (a very boring implementation[^3]) doesn't actually mean it's useful yet. So far we have no means of restricting the scope of our jurisdiction, and without that, it's just a clunky <code>State</code>. Instead, we introduce <code>restrict</code>, which takes a lens into our restricted scope from our current scope, and a <code>Jurisdiction</code> in that restricted scope, giving us back one in the unrestricted scope.</p>
+<p>At first glance, this might sound like our types are backwards; relative to the callee, <code>restrict</code> is actually widening their scope. We want to <em>widen</em> restricted scopes so they apply to the <em>entire</em> state by the time they've made it to the point where the user will call <code>runJurisdiction</code>. But to calling code, <code>restrict</code> behaves as intended, it takes the current scope and runs something with less scope. Confused yet? I was the first three times I tried to write this function.</p>
+<p>So let's take a look at the code.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb4-1" title="1"><span class="ot">restrict ::</span> <span class="dt">RLens</span> r&#39; r</a>
+<a class="sourceLine" id="cb4-2" title="2">         <span class="ot">-&gt;</span> <span class="dt">Jurisdiction</span> s r&#39; a</a>
+<a class="sourceLine" id="cb4-3" title="3">         <span class="ot">-&gt;</span> <span class="dt">Jurisdiction</span> s r  a</a>
+<a class="sourceLine" id="cb4-4" title="4">restrict l&#39; j <span class="fu">=</span> <span class="dt">Jurisdiction</span> <span class="fu">$</span> \l s <span class="ot">-&gt;</span></a>
+<a class="sourceLine" id="cb4-5" title="5">    <span class="kw">let</span> (a, s&#39;, _) <span class="fu">=</span> runJurisdiction&#39; j (l <span class="fu">.</span> l&#39;) s</a>
+<a class="sourceLine" id="cb4-6" title="6">     <span class="kw">in</span> (a, s&#39;, l)</a></code></pre></div>
+<p>The moving part here is is the composition of our lenses. Recall <code>l</code> is the current lens, and <code>l'</code> is a lens relative to it. These two lenses therefore compose, and thusly we get that <code>restrict</code> composes with itself for free. This is a good thing; we'd be in trouble if it didn't. When we run our restricted <code>Jurisdiction</code>, we simply swap out our lens with the composed lens, which will necessary narrow its scope. Cool!</p>
+<p>I want to say here that I checked all the <a href="https://wiki.haskell.org/Monad_laws">monad</a> and <a href="https://wiki.haskell.org/Functor">functor</a> laws, but I didn't actually. I couldn't be fucked, but I'd be very surprised if I had violated them somewhere.</p>
+<p>Anyway, everything seems to be in place now, all that's left is a friendly interface for users to call. Because the lens is an implementation detail, and we should always start the state with unrestricted access, we hide it. Coincidentally, this is why our <code>runJurisdiction'</code> has had the trailing prime; my motives are revealed at last!</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb5-1" title="1"><span class="ot">runJurisdiction ::</span> <span class="dt">JurisdictionT</span> s s a</a>
+<a class="sourceLine" id="cb5-2" title="2">                <span class="ot">-&gt;</span> s</a>
+<a class="sourceLine" id="cb5-3" title="3">                <span class="ot">-&gt;</span> (a, s)</a>
+<a class="sourceLine" id="cb5-4" title="4">runJurisdiction j <span class="fu">=</span> (\(a, s, l) <span class="ot">-&gt;</span> (a, s)) <span class="fu">$</span> runJurisdiction&#39; j <span class="fu">id</span></a></code></pre></div>
+<p>With what seemed like everything in order, I went back to my little vim clone and went to try it out. Because my underlying state is always going to be <code>World</code>, I made a new type:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb6-1" title="1"><span class="kw">type</span> <span class="dt">Eden</span> r a <span class="fu">=</span> <span class="dt">Jurisdiction</span> <span class="dt">World</span> r a</a></code></pre></div>
+<p>and went on to write a command to put me into insert mode.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb7-1" title="1"><span class="ot">enterInsertMode ::</span> <span class="dt">Eden</span> <span class="dt">Mode</span> ()</a>
+<a class="sourceLine" id="cb7-2" title="2">enterInsertMode <span class="fu">=</span> put <span class="dt">INSERT</span></a></code></pre></div>
+<p>The actual test was a little more involved than this (it loaded a prompt and let you run commands in a big loop), but it is more than enough to demonstrate the point. What I really like about this is that it's now self-evident that our constraint is satisfied; <code>enterInsertMode</code> has <em>literally</em> no way to express anything except how to change the mode. In my mind, this is a huge win for functional programming; if you can't express something in the language, there's <em>no way</em> for it to go wrong.</p>
+<p>Basking in my success, I went to write <code>appendToBuffer</code>:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb8-1" title="1"><span class="ot">appendToBuffer ::</span> <span class="dt">String</span> <span class="ot">-&gt;</span> <span class="dt">Eden</span> <span class="dt">Buffer</span> ()</a>
+<a class="sourceLine" id="cb8-2" title="2">appendToBuffer str <span class="fu">=</span> proclaims bContent (<span class="fu">++</span> str)</a></code></pre></div>
+<p>where <code>proclaims</code> is a helper function[^4] which <code>get</code>s the current value, applies a function to it, and <code>put</code>s the result back. So far, so good, but then something bad happened. How do I get a lens to the current buffer?</p>
+<p>A quick google search led me to the <code>ix</code> function. I hopefully (and naively) tried <code>restrict (wBuffers . ix 0)</code> as a test to see if I could get the first element of my list, but to no avail. GHC complained that my lens type in <code>Jurisdiction</code> now needed to be an <code>Applicative</code>, when a <code>Functor</code> had been good enough before this foray.</p>
+<p>So I listened to GHC, and changed all of my constraints to require <code>Applicative</code> lenses. It felt dirty, but as they say, make it typecheck and worry about the consequences later. I made it typecheck, but the consequences were bad. The compiler had crunched the types and the results were in: any scope I wanted to restrict to now needed to be an instance of <code>Monoid</code>. The good news was that <code>[Buffer]</code> <em>is</em> a <code>Monoid</code>. The bad news is that most things aren't.</p>
+<p>This was unacceptable. I reverted my changes, and looked for another way. Expanding out the <code>RLens [r] r</code> type, I found that it was <code>(Functor f) =&gt; (r -&gt; f r) -&gt; [r] -&gt; f [r]</code>. If only, I thought, I could find a function of this form, it might behave as the proper lens. There were a few magical hours of trying to conditionally filter over a list to see if I had the right index, but all was for naught. In fact, even a trivial implementation of this function is surprisingly hard. Give it a try; I'd love to see what you come up with.</p>
+<p>In a moment of insight, I realized there was a function I had seen during my perusal of the <tt>Control.Lens</tt> library that I'd forgotten about. It was called <code>at</code>, and I had passed it over because it didn't typecheck with <code>[a]</code>. <code>at</code>'s semantics allow it to insert or delete from its container if the key doesn't exist, or if you return a <code>None</code>. Obviously this doesn't work for <code>[a]</code>, as it's impossible to meaningfully insert at index 1000 into an empty list.</p>
+<p>But the insight remained. Maybe <code>_wBuffers :: [Buffer]</code> had the wrong type! I eagerly changed it to <code>_wBuffers :: IntMap Buffer</code>, and lo and behold, <code>at</code> typechecked, though <code>appendToBuffer</code> needed some changes:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb9-1" title="1"><span class="ot">{-# LANGUAGE LambdaCase #-}</span></a>
+<a class="sourceLine" id="cb9-2" title="2"><span class="ot">appendToBuffer ::</span> <span class="dt">String</span> <span class="ot">-&gt;</span> <span class="dt">Eden</span> (<span class="dt">Maybe</span> <span class="dt">Buffer</span>) ()</a>
+<a class="sourceLine" id="cb9-3" title="3">appendToBuffer str <span class="fu">=</span> get <span class="fu">&gt;&gt;=</span> put <span class="fu">.</span> <span class="dt">Just</span> <span class="fu">.</span> \<span class="kw">case</span></a>
+<a class="sourceLine" id="cb9-4" title="4">    <span class="co">-- there&#39;s a nicer way to do this but I&#39;m doing it from memory</span></a>
+<a class="sourceLine" id="cb9-5" title="5">    <span class="dt">Just</span> x  <span class="ot">-&gt;</span> x { _bContents <span class="fu">=</span> (view bContents x) <span class="fu">++</span> str }</a>
+<a class="sourceLine" id="cb9-6" title="6">    <span class="dt">Nothing</span> <span class="ot">-&gt;</span> emptyBuffer { _bContents <span class="fu">=</span> str }</a></code></pre></div>
+<p>All of a sudden, we get some cool magic for free! We can <em>create</em> buffers where none existed before. What might be more interesting is now the user can close the first buffer but keep the number ordering on the remaining ones. This is something that vim does, and we've accidentally implemented it by doing no extra work.</p>
+<p>If that's not divine mandate that this project is the right and holy implementation of vim, I don't know what is.</p>
+<hr />
+<p>If you're interested in seeing the whole source for this post, following the development of eden, or contributing yourself, the project can be found <a href="https://github.com/isovector/eden">here</a>.</p>
+
+</article>
+
+      </div>
+    </div>
+    </div>
+
+        <div class="comments">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        var slug = "jurisdiction-of-heaven";
+        this.page.url = "http://sandymaguire.me/blog/" + slug;
+        this.page.identifier = slug;
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://danglinggazpacho.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>
+      Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+    </div>
+    </div>
+  </body>
+</html>
