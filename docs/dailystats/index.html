@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Daily Usage</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="icon-style.css" rel="stylesheet" type="text/css">
+    <script src="./libs/underscore.js"></script>
+    <script src="./libs/d3.js"></script>
+    <script src="./libs/d3-shape.min.js"></script>
+    <script src="./libs/spin.min.js"></script>
+    <script type="text/javascript" src="./libs/jquery.min.js"></script>
+    <script src="d3utils.js" charset="utf-8"></script>
+    <script src="common.js" charset="utf-8"></script>
+    <script src="settings.js"></script>
+    <script type="text/javascript">
+      function ppDate(date) {
+        return ['Jan.', 'Feb.', 'Mar.',
+                'Apr.', 'May.', 'Jun.',
+                'Jul.', 'Aug.', 'Sep.',
+                'Oct.', 'Nov.', 'Dec.'][date.getMonth()] + " " + (function (d) { var s = d.toString(), l = s[s.length-1];
+                  if (s == 11 || s == 12) return s + 'th';
+                  return s+(['st','nd','rd'][l-1] || 'th');
+                })(date.getUTCDate()) + ", " + date.getFullYear() + " ";
+      }
+
+
+      function createPieChart(stats) {
+        var chart_data = {}
+        chart_data.width = $(window).width();
+        chart_data.height = 500;
+        chart_data.data = stats;
+        d3utils.drawPieChart(d3.select('#piechart'), chart_data)
+      }
+
+      function writeTotalTime(tot) {
+        t = tot.split(":");
+          $("#totaltime").html("<span class=\"icon-clock\" style=\"font-size:2rem;color:#26A65B\" aria-hidden=\"true\"></span> " + t[0] + "hr "+ t[1]+ "min "+ t[2]+ "s" + "<span style=\"color:#888\"> logged in.</span>")
+      }
+
+      function writeCarousel(daylog) {
+        dat =  daylog.fname.substring(6).split('.')[0];
+
+        var d = new Date(dat);
+        $("#car").html('<h2>' + ppDate(d) + '</h2>');
+      }
+
+      function createBarcode(st, waves) {
+        $("#barcode").empty();
+        _.each(display_groups, function(x) { visualizeMinutes(st, x); })
+        $("#brainwaves").empty();
+        visualizeBrain(waves);
+      }
+
+      function visualizeBrain(waves) {
+        if (Object.keys(waves).length == 0) return;
+        var div = d3.select("#brainwaves").append("div");
+        var W = $(window).width() - 40;
+
+        var height = 200;
+        var svg = div.append("svg")
+                     .attr("width", W)
+                     .attr("height", height);
+
+        var x = d3.scale.linear()
+                        .domain([1, 1440])
+                        .range([0, W]);
+
+        var xgrid = d3.scale.linear()
+                        .domain([0, 100])
+                        .range([0, W]);
+
+        var y = d3.scale.linear()
+                        .domain([0, 100])
+                        .range([height, 0]);
+
+        var y2 = d3.scale.linear()
+                        .domain([1, 15])
+                        .range([height, 0]);
+
+        var valueline = d3.svg.line()
+          .defined((d, i) => {
+            if (i == 0) return true;
+            return (waves.moment[i] - waves.moment[i - 1] <= 2)
+          })
+          .x((d, i) => x(waves.moment[i]) )
+          .y(d => y(d) );
+
+        var valueline2 = d3.svg.line()
+          .defined((d, i) => {
+            if (i == 0) return true;
+            return (waves.moment[i] - waves.moment[i - 1] <= 2)
+          })
+          .x((d, i) => x(waves.moment[i]) )
+          .y(d => y2(d) );
+
+        var gridline = d3.svg.line()
+          .x(d => xgrid(d[0]))
+          .y(d => y(d[1]) );
+
+        function buildWave(name, color) {
+          svg.append("path")
+             .attr("class", "line")
+             .attr("fill", "none")
+             .attr("stroke", color)
+             .attr("d", valueline(waves[name]));
+        }
+
+        function buildWave2(name, color) {
+          svg.append("path")
+             .attr("class", "line")
+             .attr("fill", "none")
+             .attr("stroke", color)
+             .attr("opacity", 0.4)
+             .attr("d", valueline2(waves[name]));
+        }
+
+        function buildGrid(cy) {
+          svg.append("path")
+             .attr("class", "line")
+             .attr("fill", "none")
+             .attr("stroke", "black")
+             .style("stroke-dasharray", ("10, 10"))
+             .attr("opacity", 0.2)
+             .attr("d", gridline([[0,cy], [100,cy]]));
+        }
+
+        buildGrid(25)
+        buildGrid(50)
+        buildGrid(75)
+
+        buildWave2("delta", "#005500")
+        buildWave2("theta", "#009900")
+        buildWave2("low_alpha", "#550055")
+        buildWave2("high_alpha", "#990099")
+        buildWave2("low_beta", "#555500")
+        buildWave2("high_beta", "#999900")
+        buildWave2("low_gamma", "#005555")
+        buildWave2("mid_gamma", "#009999")
+        buildWave("meditation", "blue")
+        buildWave("attention", "red")
+
+      }
+
+      function visualizeMinutes(st, filter) {
+        var div = d3.select("#barcode").append("div");
+        var filters_div = div.append("div").attr("class", "fsdiv");
+        var W = $(window).width() - 40;
+
+        var svg = div.append("svg")
+                     .attr("width", W)
+                     .attr("height", 50);
+
+        var x = d3.scale.linear()
+                        .domain([1, 1440])
+                        .range([0, W]);
+
+        // For every tag in display_group
+        for(var q in st) {
+          if (!st.hasOwnProperty(q)) continue;
+          var name = q;
+          var keep = false;
+          for(var f=0; f<filter.length; f++) {
+            var myf = filter[f];
+            if (q.startsWith(myf)) {
+              if (q.includes(":"))
+                name = name.substr(myf.length + 1);
+              keep = true;
+              break;
+            }
+          }
+          if (!keep) continue;
+
+          var filter_div = filters_div.append("div").attr("class", "fdiv");
+          var dt = st[q];
+          if(dt == null) continue;
+          var col = dt['color'];
+          var minute = dt['minute'];
+
+          filter_div.append("p").attr("class", "tt").attr("style", "color:"+col).text(name);
+
+          var g = svg.selectAll("e")
+                     .data(minute)
+                     .enter().append("g");
+          g.append("rect")
+           .attr("x", function(d) { return x(d); })
+           .attr("width", W/1440)
+           .attr("y", 0)
+           .attr("height", 30)
+           .attr("fill", col);
+        }
+
+        var t = 0;
+        while(t < 1440) {
+          svg.append("text")
+             .attr("transform", "translate(" + [t*W/1440, 50] + ")")
+             .attr("font-family", "'Lato', sans-serif")
+             .attr("font-size", '0.9rem')
+             .attr("fill", "#aaa")
+             .text(t/60 + ":00");
+          t += 240;
+        }
+      }
+
+      function startSpinner() {
+        // create a spinner
+        var target = document.getElementById('spinnerdiv');
+        opts = {left:'30px', top:'40px', radius: 10, color: "#FFF" };
+        var spinner = new Spinner(opts).spin(target);
+      }
+      function stopSpinner() {
+        $("#spinnerdiv").empty();
+      }
+
+
+      function fetchAndLoadEvents(daylog) {
+        loaded = false;
+        // we do this random thing to defeat caching.
+        var json_path = "data/" + daylog.fname + "?sigh=" + Math.floor(10000*Math.random());
+          $.getJSON(json_path, function(data){
+            loaded = true;
+
+            // Save these as globals so that we can access them later
+            dailyData = data['piedata'];
+            minuteData = data['tagdata'];
+            brainData = data['braindata'];
+            createPieChart(dailyData);
+            createBarcode(minuteData, brainData);
+          });
+      }
+      var totalTime;
+      var dailyData;
+      var minuteData;
+      var brainData;
+      var loglist = [];
+      var curLogId = -1;
+
+      function start() {
+        $.getJSON("loglist.json" + "?sigh=" + Math.floor(10000*Math.random()), function(data){
+          // Save in global var
+          loglist = data;
+          curLogId = loglist.length - 1;
+          if('gotoday' in QueryString) { curLogId = parseInt(QueryString.gotoday); }
+
+          fetchAndLoadEvents(loglist[curLogId]);
+          writeTotalTime(loglist[curLogId].totalTime);
+          writeCarousel(loglist[curLogId]);
+
+          // setup refresh handler to create a post request to /reload
+          $("#reloadbutton").click(function() {
+
+            startSpinner();
+            $.post("/refresh", {},
+                   function(data,status){
+                     stopSpinner();
+                     if(data === 'OK') {
+                       // everything went well, refresh current view
+                       fetchAndLoadEvents(loglist[curLogId]);
+                       writeTotalTime(loglist[curLogId].totalTime);
+                       writeCarousel(loglist[curLogId]);
+                     }
+                   });
+          });
+
+
+          // setup arrow events
+          $("#leftarrow").click(function() {
+            curLogId--;
+            if(curLogId < 0) {
+              curLogId = 0;
+            } else {
+              fetchAndLoadEvents(loglist[curLogId]); // display latest
+              writeTotalTime(loglist[curLogId].totalTime);
+              writeCarousel(loglist[curLogId]);
+            }
+          });
+          $("#rightarrow").click(function() {
+            curLogId++;
+            if(curLogId >= loglist.length) {
+              curLogId = loglist.length - 1;
+            } else {
+              fetchAndLoadEvents(loglist[curLogId]); // display latest
+              writeTotalTime(loglist[curLogId].totalTime);
+              writeCarousel(loglist[curLogId]);
+            }
+          });
+
+        });
+        setInterval(redraw, 1000); // in case of window resize, we can redraw
+      }
+      // redraw if dirty (due to window resize event)
+      function redraw() {
+        if(!dirty) return;
+        createBarcode(minuteData, brainData);
+        dirty = false;
+      }
+
+      var dirty = false;
+      $(window).resize(function() {
+        dirty = true;
+      });
+
+    </script>
+  </head>
+
+  <body onload="start()">
+    <div id="spinnerdiv"></div>
+    <div>
+      <div id="leftarrow" class="arrow">&#8592;</div>
+      <div id="rightarrow" class="arrow">&#8594;</div>
+      <div id="car"></div>
+    </div>
+    <div id="wrap">
+      <div id="totaltime"></div>
+      <div id="piechart"></div>
+
+      <div id="brainwaves"></div>
+      <div id="barcode"></div>
+    </div>
+  </body>
+</html>

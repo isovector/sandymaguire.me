@@ -3,8 +3,8 @@ host: Asad Saeeduddin
 city: Toronto
 country: Canada
 project: Just Hanging Out
-arrival-date: 2019-07-03
-departure-date: 2019-07-03
+arrival-date: 2019-08-03
+departure-date: 2019-08-03
 ---
 
 Asad and I met on the University of Toronto campus. We were planning on

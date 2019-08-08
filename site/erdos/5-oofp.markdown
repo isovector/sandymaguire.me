@@ -4,8 +4,8 @@ city: Richmond Hill
 country: Canada
 project: "Type-Sets, Cmptype, and MagicTyFams"
 project-url: "https://github.com/isovector/type-sets"
-arrival-date: 2019-07-03
-departure-date: 2019-07-05
+arrival-date: 2019-08-03
+departure-date: 2019-08-05
 ---
 
 Boris has been working on a library for tracking dependent state management of
@@ -30,6 +30,6 @@ On Boris' project, we found a bug in GHC's `TypeError` machinery --- it explodes
 in the wrong place in the presence of partial type signatures. Having tracked
 that down, we did some work on existentializing his types so the partial ty sigs
 weren't required. We then thought about how to reduce the boilerplate in his
-library; I suggested a combination of Servant and HKD for expressing the state
-transition graph. We'll see what comes from it!
+library, and came up with a combination of Servant and HKD for expressing the
+state transition graph.
 

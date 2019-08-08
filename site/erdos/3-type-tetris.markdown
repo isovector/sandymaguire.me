@@ -4,8 +4,8 @@ city: Toronto
 country: Canada
 project: Type Tetris
 project-url: "https://github.com/Benjmhart/urban-octo-barnacle"
-arrival-date: 2019-07-02
-departure-date: 2019-07-02
+arrival-date: 2019-08-02
+departure-date: 2019-08-02
 ---
 
 Ben and I met up for dinner, and spent it discussing why Haskell hasn't taken
