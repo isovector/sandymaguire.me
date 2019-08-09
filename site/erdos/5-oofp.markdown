@@ -1,5 +1,6 @@
 ---
 host: Boris Rozinov
+github-user: oofp
 city: Richmond Hill
 country: Canada
 project: "Type-Sets, Cmptype, and MagicTyFams"

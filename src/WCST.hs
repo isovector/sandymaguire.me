@@ -24,11 +24,17 @@ import           Data.Text (Text)
 import qualified Data.Text as T
 import           Data.Text.Lens (_Text)
 import           Data.Traversable (for)
+import           Erdos
 import           Meta
 import           SitePipe hiding (getTags, reviews)
 import           SitePipeUtils
 import           Text.Pandoc.Class
 import           Utils
+
+
+fromResult :: Result a -> a
+fromResult (Success a) = a
+fromResult (Error a) = error a
 
 
 makeRelated :: M.Map Text Value -> Value -> Value
@@ -108,16 +114,17 @@ main = site $ do
         ]
 
   erdos <- sortBy (comparing $ Down
-                             . fmap (read @Int . takeWhile (/= '-')
-                                               . drop (length $ id @String "/erdos/"))
-                             . (^? l))
+                             . read @Int . takeWhile (/= '-')
+                                         . drop (length $ id @String "/erdos/")
+                                         . emUrl)
+        . fmap (fromResult . fromJSON)
        <$> resourceLoader markdownReader ["erdos/*.markdown"]
 
   writeTemplate' "erdos.html" . pure
     $ object
       [ "url" .= ("/erdos/index.html" :: String)
       , "page_title" .= ("Erdos Project" :: String)
-      , "posts" .= erdos
+      , "spans" .= buildCitySpan erdos
       , "slug" .= ("erdos" :: String)
       ]
 

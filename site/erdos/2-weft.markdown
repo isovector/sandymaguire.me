@@ -1,5 +1,6 @@
 ---
 host: Jonathan Lorimer
+github-user: JonathanLorimer
 city: Toronto
 country: Canada
 project: Weft

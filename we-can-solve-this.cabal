@@ -19,6 +19,7 @@ executable wcst
       Utils
       Meta
       SitePipeUtils
+      Erdos
   build-depends:    base
                   , datetime
                   , parsec

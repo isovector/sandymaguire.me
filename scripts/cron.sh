@@ -9,6 +9,6 @@ cd /home/sandy/prj/sandymaguire.me
 rm -rf docs/dailystats
 cp -R ../arbtt-graph/render docs/dailystats
 git add docs/dailystats
-git commit "update daily stats"
+git commit -m "update daily stats"
 git push
 

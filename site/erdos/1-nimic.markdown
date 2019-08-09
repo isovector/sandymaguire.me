@@ -1,5 +1,6 @@
 ---
 host: David Rusu
+github-user: davidrusu
 city: Toronto
 country: Canada
 project: nimic

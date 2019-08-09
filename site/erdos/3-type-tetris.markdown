@@ -1,5 +1,6 @@
 ---
 host: Ben Hart
+github-user: Benjmhart
 city: Toronto
 country: Canada
 project: Type Tetris

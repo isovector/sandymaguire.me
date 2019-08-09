@@ -1,8 +1,9 @@
 ---
 host: James King
+github-user: agentultra
 city: Hamilton
 country: Canada
-project: "Data Migration (YoloSwag69)"
+project: "DataMigration"
 project-url: "https://github.com/agentultra/DataMigration"
 arrival-date: 2019-08-05
 departure-date: 2019-08-06

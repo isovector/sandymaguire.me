@@ -9,7 +9,8 @@ rm -rf docs/
 mkdir docs
 mv dist/* docs/
 git checkout docs/CNAME
+git checkout docs/dailystats/
 git add docs
-git commit -m "i am excellent at programming"
+git commit -m "automatic deploy"
 git push
 
