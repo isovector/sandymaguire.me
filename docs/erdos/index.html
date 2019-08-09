@@ -59,19 +59,14 @@
 
 <article>
   <div>
-    <div class="meta">host: James King</div>
-    <div class="meta">city: Hamilton</div>
-    <div class="meta">country: Canada</div>
-    <div class="meta">project: Data Migration (YoloSwag69)</div>
-    <div class="meta">project-url: https://github.com/agentultra/DataMigration</div>
-    <div class="meta">arrival-date: 2019-08-05</div>
-    <div class="meta">departure-date: 2019-08-06</div>
+    <div class="meta"><a href="https://github.com/agentultra/DataMigration">Link to project</a></div>
 
     <p>James and I bonded over a shared uneasiness with data versioning. It's tedious, and hard to do correctly. So we decided to build a data migration library, where you explicitly tag your types via a data family indexed by the version. OK, obvious idea, right? But not quite!</p>
 <p>We realized that if you enable <code>-XDuplicateRecordFields</code>, you can use the same field names between different versions. Which means we can now programmatically compute most of the migration details from one type to the next; if the name and the type stay the same, you just want to copy the data between versions. If the type changes, you want to provide a function to map it. If a field gets added, you can hopefully compute it via some projection of the full data structure.</p>
 <p>Unfortunately we didn't have enough time to finish everything up, but when I left we were half way through writing a DSL for providing the missing transformation pieces. The idea was to compute a <code>superrecord</code> whose names correspond to the fields you need to fill in, and then put their transformations inside there.</p>
   </div>
   <div>
+    <div class="meta"><a href="https://github.com/isovector/type-sets">Link to project</a></div>
 
     <p>Boris has been working on a library for tracking dependent state management of resources over application lifetimes, complete with refinement of the possibilities based on specific filters. It's wicked cool, though performs compiles aggressively slowly. We looked at the performance, and realized the primary problem is that everything is encoded as type-level lists. We thought that maybe having a better type-level data structure would be effective.</p>
 <p>So I implemented a plugin that solves a type-level <code>CmpType</code> for ordering types. Such a thing means we can effectively write binary search trees for arbitrary types of kind <code>*</code>, and now get all sorts of great performance improvements. We hunkered down on that, and then on writing BSTs in terms of it. But then I realized most of the work was actually in getting the plugin to solve the type family, and not in comparing types, so we spun out another library for generating plugins.</p>
@@ -83,15 +78,18 @@
     <p>Asad and I met on the University of Toronto campus. We were planning on infiltrating a lecture hall, but they were all locked up. He showed me his encoding of all user interfaces via <code>(u -&gt; m ()) -&gt; s -&gt; v</code>, and walked me through how it actually works --- pretty dang cool. We grabbed coffee, and Asad saved me a few hundred bucks per year in AWS costs. He walked me through some of the intuitions behind how lenses work, and it was an excellent time.</p>
   </div>
   <div>
+    <div class="meta"><a href="https://github.com/Benjmhart/urban-octo-barnacle">Link to project</a></div>
 
     <p>Ben and I met up for dinner, and spent it discussing why Haskell hasn't taken over the world, and what it would need to be in order to do so. We then meandered down to his office, hung out on the roof on a Friday night, and coded up the most type-astronaut version of Tetris we could think of. The board is a <code>Store</code> comonad, with gravity and movement being implemented as <code>extend</code>s. A lot of the core implementation got finished, but the game aspect sadly not.</p>
   </div>
   <div>
+    <div class="meta"><a href="https://github.com/JonathanLorimer/weft">Link to project</a></div>
 
     <p>Weft is a GraphQL implementation for Haskell, based around the idea that Haskell types should be powerful enough to encode everything you need to generate a GQL server. It uses HKDs extensively, to reuse the same data structure from everything from data, IO resolvers, parsed queries, and responses.</p>
 <p>Also, Jonathan and Claire took me out to the art museum where we saw totem poles built out of sports bags. We had great philosophical chats (he is a philosopher by training!)</p>
   </div>
   <div>
+    <div class="meta"><a href="https://github.com/isovector/nimic">Link to project</a></div>
 
     <p>Nimic is a tiny macro language, with no built-in syntax or operational semantics. I wrote a <a href="https://reasonablypolymorphic.com/blog/nimic/">little blog post on it</a>.</p>
 <p>Together, David and I designed the language, wrote a parser and the macro substitution, and a "compiler." He added the <code>bash</code> primitive, and I worked on the interactive stepper.</p>
