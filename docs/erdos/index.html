@@ -45,6 +45,7 @@
         <li><a href="/blog/archives">Essays</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/now">Now</a></li>
+        <li><a href="/erdos">Erdos Project</a></li>
         <li><a href="/top-posts">Best Of</a></li>
         <li><a href="/book-reviews">Book Reviews</a></li>
         <li><a href="/books">Book Quotes</a></li>
@@ -58,46 +59,66 @@
 
 
 <article>
-    <h2>Hamilton, Canada</h2>
-    <div class="meta">2019-08-05 &rarr; 2019-08-06</div>
-      <h3><a href="https://github.com/agentultra">James King</a></h3>
-      <div class="meta">DataMigration</div>
-      <div class="meta">2019-08-05 &rarr; 2019-08-06</div>
+    <h1>Toronto, Canada</h1>
+    <h2>Jonathan Lorimer (<a href="https://github.com/JonathanLorimer">JonathanLorimer</a>)</h2>
+      <div class="meta">Project: <a href="https://github.com/JonathanLorimer/weft">Weft</a></div>
+      <div class="meta">Dates: 2019-08-06 &rarr; 2019-08-09</div>
+
+      <p>Back at Jonathan's, in a second push attempting to get <code>weft</code> finished. We had a long list of things to do, and we powered through almost all of them. We pulled a few 15 hour days, aggressively programming as hard as we could. Things were looking promising to releasing the library --- just hours before Jon was going to present it at the local Haskell meetup.</p>
+<p>But that morning, I'd decided to do a big refactor, using <code>higgledy</code> to magically hide all of our HKD machinery. The approach is actually quite involved: instead of forcing your users to use a type family <code>TypeFam a</code>, you instead wrap it with a newtype <code>newtype ToTypeFam a = ToTypeFam (TypeFam a)</code>, and then <code>HKD</code> over <em>that</em>. The result is gross, but it works.</p>
+<p>God am I ever excited for unsaturated type families.</p>
+<p>Anyway, such a refactor was an exceptionally breaking change. Literally every module we had assumed your code was written in the direct-HKD style. A few extra typeclass instances helped:</p>
+<p>Assuming you have <code>class GSomething (rep :: * -&gt; *)</code>, with instances for <code>GHC.Generics</code>, we found that if you separate the structural bits (<code>M1</code>, <code>:*:</code>, <code>:+:</code>, eg.) from the interesting pieces (<code>K1</code>), everything becomes much easier. We introduced a second typeclass for the <code>K1</code> contents, and then implemented the structural bit in terms of it:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">class</span> <span class="dt">GSomethingTerm</span> (<span class="ot">t ::</span> <span class="fu">*</span>)</a>
+<a class="sourceLine" id="cb1-2" title="2"></a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="kw">instance</span> <span class="dt">GSomethingTerm</span> t <span class="ot">=&gt;</span> <span class="dt">GSomething</span> (<span class="dt">K1</span> _1 t) <span class="kw">where</span></a>
+<a class="sourceLine" id="cb1-4" title="4">  gSomething <span class="fu">=</span> <span class="dt">K1</span> gSomethingTerm</a></code></pre></div>
+<p>This separation allows you to easily inject the <code>higgledy</code>-style HKD logic into a more traditional approach. You need to add two additional cases of <code>GSomethingTerm</code>. The first is:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">instance</span> <span class="dt">GSomethingTerm</span> (<span class="dt">Magic</span> a) <span class="ot">=&gt;</span> <span class="dt">GSomethingTerm</span> (<span class="dt">ToTypeFam</span> a) <span class="kw">where</span></a>
+<a class="sourceLine" id="cb2-2" title="2">  gSomethingTerm <span class="fu">=</span> <span class="dt">ToTypeFam</span> gSomethingTerm</a></code></pre></div>
+<p>which expands your type family's instance. The second is:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" title="1"><span class="kw">instance</span> <span class="dt">GSomething</span> (<span class="dt">M1</span> _1 _2 _3) <span class="ot">=&gt;</span> <span class="dt">GSomethingTerm</span> (<span class="dt">M1</span> _1 _2 _3 _4) <span class="kw">where</span></a>
+<a class="sourceLine" id="cb3-2" title="2">  gSomethingTerm <span class="fu">=</span> gSomething</a></code></pre></div>
+<p>which ties the recursive knot, connecting the <code>GHC.Generics</code>-based representation of <code>higgledy</code> back into the original generics instances you wrote for the traditional HKD style.</p>
+<p>It's crazy, but amazingly, it works. I don't even want to think about how much work we're making the compiler do in Weft.</p>
+<p>Enough shop talk. Jonathan also took me to the Toronto Haskell meetup which he organizes. I gave a beginner-level talk about the value of types, stressing Matt Parsons' old adage that <em>if your business logic bugs aren't type errors, you should make them be.</em></p>
+    <h1>Hamilton, Canada</h1>
+    <h2>James King (<a href="https://github.com/agentultra">agentultra</a>)</h2>
+      <div class="meta">Project: <a href="https://github.com/agentultra/DataMigration">DataMigration</a></div>
+      <div class="meta">Dates: 2019-08-05 &rarr; 2019-08-06</div>
 
       <p>James and I bonded over a shared uneasiness with data versioning. It's tedious, and hard to do correctly. So we decided to build a data migration library, where you explicitly tag your types via a data family indexed by the version. OK, obvious idea, right? But not quite!</p>
 <p>We realized that if you enable <code>-XDuplicateRecordFields</code>, you can use the same field names between different versions. Which means we can now programmatically compute most of the migration details from one type to the next; if the name and the type stay the same, you just want to copy the data between versions. If the type changes, you want to provide a function to map it. If a field gets added, you can hopefully compute it via some projection of the full data structure.</p>
 <p>Unfortunately we didn't have enough time to finish everything up, but when I left we were half way through writing a DSL for providing the missing transformation pieces. The idea was to compute a <code>superrecord</code> whose names correspond to the fields you need to fill in, and then put their transformations inside there.</p>
-    <h2>Richmond Hill, Canada</h2>
-    <div class="meta">2019-08-03 &rarr; 2019-08-05</div>
-      <h3><a href="https://github.com/oofp">Boris Rozinov</a></h3>
-      <div class="meta">Type-Sets, Cmptype, and MagicTyFams</div>
-      <div class="meta">2019-08-03 &rarr; 2019-08-05</div>
+    <h1>Richmond Hill, Canada</h1>
+    <h2>Boris Rozinov (<a href="https://github.com/oofp">oofp</a>)</h2>
+      <div class="meta">Project: <a href="https://github.com/isovector/type-sets">Type-Sets, Cmptype, and MagicTyFams</a></div>
+      <div class="meta">Dates: 2019-08-03 &rarr; 2019-08-05</div>
 
       <p>Boris has been working on a library for tracking dependent state management of resources over application lifetimes, complete with refinement of the possibilities based on specific filters. It's wicked cool, though performs compiles aggressively slowly. We looked at the performance, and realized the primary problem is that everything is encoded as type-level lists. We thought that maybe having a better type-level data structure would be effective.</p>
 <p>So I implemented a plugin that solves a type-level <code>CmpType</code> for ordering types. Such a thing means we can effectively write binary search trees for arbitrary types of kind <code>*</code>, and now get all sorts of great performance improvements. We hunkered down on that, and then on writing BSTs in terms of it. But then I realized most of the work was actually in getting the plugin to solve the type family, and not in comparing types, so we spun out another library for generating plugins.</p>
 <p>The result: three libraries. <code>type-sets</code>, <code>cmptype</code> and <code>magic-tyfams</code>; not bad for a weekend of work.</p>
 <p>On Boris' project, we found a bug in GHC's <code>TypeError</code> machinery --- it explodes in the wrong place in the presence of partial type signatures. Having tracked that down, we did some work on existentializing his types so the partial ty sigs weren't required. We then thought about how to reduce the boilerplate in his library, and came up with a combination of Servant and HKD for expressing the state transition graph.</p>
-    <h2>Toronto, Canada</h2>
-    <div class="meta">2019-07-12 &rarr; 2019-08-03</div>
-      <h3><a href="https://github.com/masaeedu">Asad Saeeduddin</a></h3>
-      <div class="meta">Just Hanging Out</div>
-      <div class="meta">2019-08-03 &rarr; 2019-08-03</div>
+    <h1>Toronto, Canada</h1>
+    <h2>Asad Saeeduddin (<a href="https://github.com/masaeedu">masaeedu</a>)</h2>
+      <div class="meta">Project: <a href="#">Just Hanging Out</a></div>
+      <div class="meta">Dates: 2019-08-03 &rarr; 2019-08-03</div>
 
       <p>Asad and I met on the University of Toronto campus. We were planning on infiltrating a lecture hall, but they were all locked up. He showed me his encoding of all user interfaces via <code>(u -&gt; m ()) -&gt; s -&gt; v</code>, and walked me through how it actually works --- pretty dang cool. We grabbed coffee, and Asad saved me a few hundred bucks per year in AWS costs. He walked me through some of the intuitions behind how lenses work, and it was an excellent time.</p>
-      <h3><a href="https://github.com/Benjmhart">Ben Hart</a></h3>
-      <div class="meta">Type Tetris</div>
-      <div class="meta">2019-08-02 &rarr; 2019-08-02</div>
+    <h2>Ben Hart (<a href="https://github.com/Benjmhart">Benjmhart</a>)</h2>
+      <div class="meta">Project: <a href="https://github.com/Benjmhart/urban-octo-barnacle">Type Tetris</a></div>
+      <div class="meta">Dates: 2019-08-02 &rarr; 2019-08-02</div>
 
       <p>Ben and I met up for dinner, and spent it discussing why Haskell hasn't taken over the world, and what it would need to be in order to do so. We then meandered down to his office, hung out on the roof on a Friday night, and coded up the most type-astronaut version of Tetris we could think of. The board is a <code>Store</code> comonad, with gravity and movement being implemented as <code>extend</code>s. A lot of the core implementation got finished, but the game aspect sadly not.</p>
-      <h3><a href="https://github.com/JonathanLorimer">Jonathan Lorimer</a></h3>
-      <div class="meta">Weft</div>
-      <div class="meta">2019-07-15 &rarr; 2019-07-18</div>
+    <h2>Jonathan Lorimer (<a href="https://github.com/JonathanLorimer">JonathanLorimer</a>)</h2>
+      <div class="meta">Project: <a href="https://github.com/JonathanLorimer/weft">Weft</a></div>
+      <div class="meta">Dates: 2019-07-15 &rarr; 2019-07-18</div>
 
       <p>Weft is a GraphQL implementation for Haskell, based around the idea that Haskell types should be powerful enough to encode everything you need to generate a GQL server. It uses HKDs extensively, to reuse the same data structure from everything from data, IO resolvers, parsed queries, and responses.</p>
 <p>Also, Jonathan and Claire took me out to the art museum where we saw totem poles built out of sports bags. We had great philosophical chats (he is a philosopher by training!)</p>
-      <h3><a href="https://github.com/davidrusu">David Rusu</a></h3>
-      <div class="meta">nimic</div>
-      <div class="meta">2019-07-12 &rarr; 2019-07-15</div>
+    <h2>David Rusu (<a href="https://github.com/davidrusu">davidrusu</a>)</h2>
+      <div class="meta">Project: <a href="https://github.com/isovector/nimic">nimic</a></div>
+      <div class="meta">Dates: 2019-07-12 &rarr; 2019-07-15</div>
 
       <p>Nimic is a tiny macro language, with no built-in syntax or operational semantics. I wrote a <a href="https://reasonablypolymorphic.com/blog/nimic/">little blog post on it</a>.</p>
 <p>Together, David and I designed the language, wrote a parser and the macro substitution, and a "compiler." He added the <code>bash</code> primitive, and I worked on the interactive stepper.</p>
