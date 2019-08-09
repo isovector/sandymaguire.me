@@ -14,88 +14,21 @@ import           BookReviews (mkBookReview)
 import           ClipIt
 import           Control.Arrow (first)
 import           Control.Monad (join, void)
-import           Control.Monad.Reader.Class (asks)
-import           Data.Char (toLower)
 import qualified Data.HashMap.Lazy as HM
-import           Data.List (sortBy, stripPrefix)
+import           Data.List (sortBy)
 import qualified Data.Map as M
-import           Data.Maybe (catMaybes, fromMaybe, isJust)
+import           Data.Maybe (isJust)
 import           Data.Monoid ((<>))
-import           Data.Ord (comparing)
+import           Data.Ord (comparing, Down (..))
 import           Data.Text (Text)
 import qualified Data.Text as T
 import           Data.Text.Lens (_Text)
-import           Data.Time
-import           Data.Time.Format (formatTime, defaultTimeLocale)
 import           Data.Traversable (for)
-import           GHC.Exts (fromList)
-import           GHC.Generics
+import           Meta
 import           SitePipe hiding (getTags, reviews)
-import qualified System.FilePath.Glob as G
+import           SitePipeUtils
 import           Text.Pandoc.Class
 import           Utils
-
-
-data PostMeta = PostMeta
-  { postMetaUrl        :: String
-  , postMetaTitle      :: String
-  , postMetaRawDate    :: LocalTime
-  , postMetaComments   :: Bool
-  , postMetaRawTags    :: String
-  , postMetaConfidence :: Maybe Int
-  , postMetaRelated    :: Maybe [String]
-  } deriving (Generic, Show)
-
-postMetaTags :: PostMeta -> [String]
-postMetaTags = splitTags . postMetaRawTags
-
-postMetaSlug :: PostMeta -> String
-postMetaSlug = toSlug . postMetaUrl
-
-postMetaZulu :: PostMeta -> String
-postMetaZulu = formatTime defaultTimeLocale "%Y-%m-%dT%H:%M:%SZ" . postMetaRawDate
-
-postMetaDate :: PostMeta -> String
-postMetaDate = formatTime defaultTimeLocale "%B %e, %Y" . postMetaRawDate
-
-
-
-instance FromJSON PostMeta where
-  parseJSON v =
-    genericParseJSON defaultOptions
-      { fieldLabelModifier = (fromMaybe <*> stripPrefix "raw") . fmap toLower . drop 8
-      } v
-
-
-postFormat :: String
-postFormat = "/[0-9]{4}-[0-9]{2}-[0-9]{2}-"
-
-
-toSlug :: String -> String
-toSlug = replaceAll ("/posts" <> postFormat) (const "")
-       . replaceAll "\\.html"  (const "")
-
-
-assembleMeta :: Value -> Value
-assembleMeta o =
-  let date       = o ^?! _Object . at "date"
-      bookAuthor = o ^?! _Object . at "author"
-      confidence = o ^?! _Object . at "confidence"
-      stars      = o ^?! _Object . at "stars"
-   in o & _Object . at "meta" ?~ Array (fromList $ catMaybes
-          [ date
-          , bookAuthor
-          , confidence >>= fmap (String . ("Confidence: " <>))
-                         . getConfidence
-                         . round
-                         . (^?! _Number)
-          , stars >>= fmap ( review (_String . _Text)
-                           . ("Rating: " <>)
-                           . (<> "/5")
-                           . show @Int
-                           . round)
-                    . (^? _Number)
-          ])
 
 
 makeRelated :: M.Map Text Value -> Value -> Value
@@ -105,48 +38,8 @@ makeRelated slugList post =
       $ M.lookup (x ^?! _String) slugList
                                                          )
 
-
-getConfidence :: Int -> Maybe Text
-getConfidence 1 = Just "certain"
-getConfidence 2 = Just "highly likely"
-getConfidence 3 = Just "likely"
-getConfidence 4 = Just "possible"
-getConfidence 5 = Just "unlikely"
-getConfidence 6 = Just "highly unlikely"
-getConfidence 7 = Just "remote"
-getConfidence 8 = Just "impossible"
-getConfidence _ = Nothing
-
 l :: (AsValue t, Applicative f) => (String -> f String) -> t -> f t
 l = _Object . at "url" . _Just . _String . _Text
-
-
-dumpPostMeta :: Value -> PostMeta -> Value
-dumpPostMeta v pm = object $
-  mconcat
-    [ v ^. _Object . SitePipe.to HM.toList
-    , [ "url"           .= ("blog/" <> postMetaSlug pm <> "/index.html")
-      , "canonical_url" .= ("blog/" <> postMetaSlug pm)
-      , "slug"          .= postMetaSlug pm
-      , "zulu"          .= postMetaZulu pm
-      , "date"          .= postMetaDate pm
-      , "related"       .= postMetaRelated pm
-      , "title"         .= postMetaTitle pm
-      , "page_title"    .= postMetaTitle pm
-      , "html_tags"     .= (fmap makeTags $ postMetaTags pm)
-      ]
-    , mkHas "related" $ postMetaRelated pm
-    ]
-
-
-mkHas :: (ToJSON (f a), Foldable f) => Text -> f a -> [(Text, Value)]
-mkHas nm f =
-  case length f of
-    0 -> [ ("has_" <> nm) .= False
-         ]
-    _ -> [ nm .= f
-         , ("has_" <> nm) .= True
-         ]
 
 
 main :: IO ()
@@ -159,6 +52,9 @@ main = site $ do
       posts'' = flip fmap rawPosts $ \x ->
                   let Success pm = fromJSON @PostMeta x
                    in (pm, x)
+      slugList = M.fromList $ fmap (first $ T.pack . postMetaSlug) posts'
+      posts = fmap (makeRelated slugList . snd) posts'
+
       posts' =
         flip fmap posts'' $
           \(pm, x) ->
@@ -173,9 +69,6 @@ main = site $ do
                   & _Object . at "next"       .~
                       fmap (review $ _String . _Text) next
 
-      slugList = M.fromList $ fmap (first $ T.pack . postMetaSlug) posts'
-
-      posts = fmap (makeRelated slugList . snd) posts'
 
   topPosts <- resourceLoader markdownReader ["top-posts.markdown"]
   writeTemplate' "top-posts.html" . pure . makeRelated slugList
@@ -213,6 +106,20 @@ main = site $ do
           )
         , "slug" .= ("archive" :: String)
         ]
+
+  erdos <- sortBy (comparing $ Down
+                             . fmap (read @Int . takeWhile (/= '-')
+                                               . drop (length $ id @String "/erdos/"))
+                             . (^? l))
+       <$> resourceLoader markdownReader ["erdos/*.markdown"]
+
+  writeTemplate' "erdos.html" . pure
+    $ object
+      [ "url" .= ("/erdos/index.html" :: String)
+      , "page_title" .= ("Erdos Project" :: String)
+      , "posts" .= erdos
+      , "slug" .= ("erdos" :: String)
+      ]
 
   writeTemplate' "archive.html" $ pure archive
 
@@ -303,20 +210,4 @@ writeBooks = do
       , "books" .= sortBy (comparing $ titleCompare . (^?! _Object . at "title" . _Just . _String . _Text)) reviews
       , "slug" .= ("archive-book-reviews" :: String)
       ]
-
-
-writeTemplate' :: String -> [Value] -> SiteM ()
-writeTemplate' a = writeTemplate ("templates/" <> a) . fmap assembleMeta
-
-
-loadFiles :: (String -> a) -> [GlobPattern] -> SiteM [a]
-loadFiles fileReader patterns = do
-  filenames <- concat <$> traverse srcGlob patterns
-  traverse (fmap fileReader . liftIO . readFile) filenames
-
-
-srcGlob :: GlobPattern -> SiteM [FilePath]
-srcGlob pattern = do
-  srcD <- asks srcDir
-  liftIO $ G.glob (srcD </> pattern)
 

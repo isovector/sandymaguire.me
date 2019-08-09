@@ -17,6 +17,8 @@ executable wcst
       BookReviews
       ClipIt
       Utils
+      Meta
+      SitePipeUtils
   build-depends:    base
                   , datetime
                   , parsec
