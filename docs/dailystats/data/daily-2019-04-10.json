@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (50.00%)", "value": 50.0}, {"color": "#23e272", "label": "slack:haskell (50.00%)", "value": 50.0}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [1420]}, "slack:haskell": {"color": "#23e272", "minute": [1421]}}}
+{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (50.00%)", "value": 50.0}, {"color": "#2722e3", "label": "slack:haskell (50.00%)", "value": 50.0}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [1420]}, "slack:haskell": {"color": "#2722e3", "minute": [1421]}}}
