@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#0726f7", "label": "call (2.54%)", "value": 2.54}, {"color": "#17b02c", "label": "comm:im (1.69%)", "value": 1.69}, {"color": "#1f70d5", "label": "maps (1.69%)", "value": 1.69}], "tagdata": {"call": {"color": "#0726f7", "minute": [1119, 1120, 1121]}, "comm:im": {"color": "#17b02c", "minute": [917, 918]}, "maps": {"color": "#1f70d5", "minute": [919, 920]}}}
+{"braindata": {}, "piedata": [{"color": "#0726f7", "label": "call (2.65%)", "value": 2.65}], "tagdata": {"call": {"color": "#0726f7", "minute": [1119, 1120, 1121]}}}
