@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (66.67%)", "value": 66.67}, {"color": "#e7cead", "label": "reddit:lang (33.33%)", "value": 33.33}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [1273, 1274]}, "reddit:lang": {"color": "#e7cead", "minute": [1275]}}}
+{"braindata": {}, "piedata": [{"color": "#e7cead", "label": "reddit:lang (100.00%)", "value": 100.0}], "tagdata": {"reddit:lang": {"color": "#e7cead", "minute": [1275]}}}
