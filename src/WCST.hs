@@ -19,12 +19,11 @@ import           Data.List (sortBy)
 import qualified Data.Map as M
 import           Data.Maybe (isJust)
 import           Data.Monoid ((<>))
-import           Data.Ord (comparing, Down (..))
+import           Data.Ord (comparing)
 import           Data.Text (Text)
 import qualified Data.Text as T
 import           Data.Text.Lens (_Text)
 import           Data.Traversable (for)
-import           Erdos
 import           Meta
 import           SitePipe hiding (getTags, reviews)
 import           SitePipeUtils
@@ -112,21 +111,6 @@ main = site $ do
           )
         , "slug" .= ("archive" :: String)
         ]
-
-  erdos <- sortBy (comparing $ Down
-                             . read @Int . takeWhile (/= '-')
-                                         . drop (length $ id @String "/erdos/")
-                                         . emUrl)
-        . fmap (fromResult . fromJSON)
-       <$> resourceLoader markdownReader ["erdos/*.markdown"]
-
-  writeTemplate' "erdos.html" . pure
-    $ object
-      [ "url" .= ("/erdos/index.html" :: String)
-      , "page_title" .= ("Erdos Project" :: String)
-      , "spans" .= buildCitySpan erdos
-      , "slug" .= ("erdos" :: String)
-      ]
 
   writeTemplate' "archive.html" $ pure archive
 
