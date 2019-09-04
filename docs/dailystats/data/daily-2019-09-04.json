@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#2722e3", "label": "slack:haskell (6.67%)", "value": 6.67}], "tagdata": {"slack:haskell": {"color": "#2722e3", "minute": [0]}}}
+{"braindata": {}, "piedata": [{"color": "#2bdd6d", "label": "pp (14.67%)", "value": 14.67}, {"color": "#971f5e", "label": "web:wikipedia (5.33%)", "value": 5.33}], "tagdata": {"pp": {"color": "#2bdd6d", "minute": [58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68]}, "slack:haskell": {"color": "#2722e3", "minute": [0]}, "web:wikipedia": {"color": "#971f5e", "minute": [53, 54, 55, 56]}}}
