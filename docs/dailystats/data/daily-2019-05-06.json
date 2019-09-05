@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#0eff7f", "label": "comm:email (1.86%)", "value": 1.86}, {"color": "#17b02c", "label": "comm:im (2.48%)", "value": 2.48}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [1054, 1071, 1072]}, "comm:im": {"color": "#17b02c", "minute": [1050, 1051, 1070, 1206]}, "maps": {"color": "#1f70d5", "minute": [1055, 1056]}}}
+{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (2.38%)", "value": 2.38}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [1206]}}}
