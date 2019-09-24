@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#7f764b", "label": "slack:sellout (60.00%)", "value": 60.0}, {"color": "#aec8ae", "label": "web:wikipedia (10.00%)", "value": 10.0}], "tagdata": {"slack:sellout": {"color": "#7f764b", "minute": [0, 1, 3, 4, 5, 7]}, "web:wikipedia": {"color": "#aec8ae", "minute": [8]}}}
