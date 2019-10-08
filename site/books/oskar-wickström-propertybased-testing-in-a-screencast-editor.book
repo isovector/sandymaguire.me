@@ -1,0 +1,1 @@
+Book {title = "Property-Based Testing in a Screencast Editor", author = Just "Oskar Wickstr\246m", rating = Just "4", review = Just "It's mostly a rehash of his blog on the same topic, but the information is good, the topic is interesting, and as far as I can tell, nobody's ever managed to do gui-based property testing before. It's worth the read!"}
