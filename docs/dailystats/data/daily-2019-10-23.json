@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#0eff7f", "label": "comm:email (73.33%)", "value": 73.33}, {"color": "#56449c", "label": "slack:haskell (6.67%)", "value": 6.67}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}, "slack:haskell": {"color": "#56449c", "minute": [11]}}}
