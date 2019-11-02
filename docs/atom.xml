@@ -1,11 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2019-10-07T19:54:00Z</updated>
+  <updated>2019-11-02T15:21:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>Moments of Strength</title>
+      <id>blog/strength/index.html</id>
+      <link href='blog/strength/index.html'/>
+      <published>2019-11-02T15:21:00Z</published>
+      <updated>2019-11-02T15:21:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <blockquote>
+<p>It is important in life not to be strong, but to feel strong.</p>
+<p>-Christopher McCandless</p>
+</blockquote>
+<p>I'm writing this in the park, sitting in the first sun that Munich has seen in a week. This wasn't my plan for today, which was to stay inside in a Haribo induced stupor, watching Starcraft. You see, I've been traveling now for three months, sleeping on strangers couches and doing nonstop programming. I'm absolutely exhausted, and so my mini stay-cation in Munich has been less productive than I'd like.</p>
+<p>What I want to talk about today are moments of strength --- those rare times when you're feeling slightly more powerful than usual. These are exceedingly valuable events and should be sought out and capitalized on whenever they occur. Using your moments of strength wisely in your most powerful tools for improving your life.</p>
+<p>The other day, in a moment of strength, I realized I was wasting too much of my attention on watching useless YouTube videos And so, while I had the clarity and ability to do so, <a href="/blog/reclaim-your-attention/">I blocked the entire website</a>. Now in my moments of weakness, I can't renege on this, and am forced to find more productive ways of spending my time. I took advantage of my moment of strength, and fixed a glaring problem in my life.</p>
+<p>The idea is that most of the time, we are not very strong, and so we should take these rare opportunities to change our lives so we don't <em>require</em> strength. And the easiest time to do this is when you are feeling strong.</p>
+<p>I have a friend who says she feels trapped in her life. We have spent a lot of time together over the last few weeks, and while she certainly has real problems, they don't seem nearly as insurmountable to me as to her. Over this time, I've seen quite a few moments of strength in my friend, though unfortunately I've seen most of them go squandered. Rather than taking the opportunity to solve a problem, she will often bask in the feeling of strength. This is not <em>bad</em> per se, but it is strategically shortsighted.</p>
+<p>Moments of strength are great opportunities for bootstrapping oneself. The next time you feel more capable than usual, even if only by a little, look at it as a rare chance to fix a problem. And act immediately on it-it might not stick around for long. That habit is what compelled me to grab my notebook, walk to the park, and write this essay that I've been meaning to get to for months.</p>
+<p>Capitalizing on moments of strength is a habit you build over time. The next time you have one, use it to catalog the big problems in your life --- the things getting in the of the life you want to live. Make an actual list, and make sure it's easily accessible for the next time you have a moment of strength.</p>
+<p>Circle any problems that are easy to tackle-things like making a phone call or could otherwise be solved in an hour. Put a star next to the most important item on your list. If, after making the list, you're still feeling motivated, pick one and go solve it <em>right that second.</em> Don't think about it, don't give yourself a chance to lose momentum. Just start moving. That second. Don't have a shower first. Put on your coat and start moving out the door, or start dialing the member, or whatever it is you need to actually do.</p>
+<p>If you are tempted to get distracted, make a mental note to remove that sort of distraction during your next moment of strength, and then, crucially, don't get distracted. Don't let yourself stop until you've made real progress towards your goal.</p>
+<p>I actually just left the park, as it was getting cold and the mosquitoes were coming out in full force. As I got home, I noticed I was hungry, and that I had quite a few interesting emails that could use some of my attention. But I know from lots of past experience that if a blog post doesn't get finished in one sitting, it never will be. And so here I am, ignoring my inbox and trying not to think about how hungry I am, because I am temporarily feeling strong and that's much more important.</p>
+<p>Moments of strength beget other moments of strength in two ways. The first is that, as you start solving problems in your life, they're no longer there to get in the way of solving more problems. The second is that <em>you are actually getting stronger,</em> which itself leads to having more moments of strength. After you accomplish something you've been putting off, take a few minutes to sit and appreciate the glorious feeling that comes with it. This is the greatest feeling in all of life, better than any orgasm, meal or drug.</p>
+<p>This feeling alone is enough to make life worth living. If you're not very well acquainted with it, you are in for one hell of a ride. Treasure your moments of strength, and they will reward you in turn.</p>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>Generalized One-Night Stands</title>
       <id>blog/one-night-stands/index.html</id>
@@ -328,33 +356,6 @@
 <p>I can only show you the door. You're the one that has to walk through it.</p>
 <p>Morpheus, The Matrix</p>
 </blockquote>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>Reclaim Your Attention!</title>
-      <id>blog/reclaim-your-attention/index.html</id>
-      <link href='blog/reclaim-your-attention/index.html'/>
-      <published>2019-01-01T11:55:00Z</published>
-      <updated>2019-01-01T11:55:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <p>I'm still working on my goals for 2019, but one of them is that I want to spend less time mindlessly consuming media. Like, less time scrolling through Facebook, less time perusing low-value videos on YouTube, that sort of thing.</p>
-<p>The problem is that these sites aren't devoid of value; I still want to hear about events in my neighborhood, and I still want to watch high-value videos. Upon reflection, what I don't like about these services is their recommendation services---the algorithms whose goals are to make me spend as much time as possible on these websites.</p>
-<p>And so I'd like to present the most obvious-in-hindsight solution I've ever come across. Just delete the fuckers!</p>
-<center>
-<img src="/images/filtering/facebook.png" alt="Facebook" />
-
-<img src="/images/filtering/youtube.png" alt="Youtube" />
-</center>
-<p>If you're sold on this idea, it's actually super easy to do, and works anywhere on the internet! You're going to need to install the <a href="https://github.com/gorhill/uBlock">uBlock Origin</a> browser extension.</p>
-<p>Now, right click vaguely anywhere around the bit of the website that you don't like, and go down to "Block element."</p>
-<p><img src="/images/filtering/block.png" alt="Block element" /></p>
-<p>Lots of technical mumbo jumbo will pop up in the bottom right of your screen.</p>
-<p><img src="/images/filtering/mumbojumbo.png" alt="Mumbo jumbo" /></p>
-<p>Click on a line under "Cosmetic filters." Some portion of the website will glow red, showing you how much of it you're about to delete. If the selection is too broad or too specific, try choosing a different cosmetic filter. Narrow in on exactly the section of the website that's the problem---the Facebook newsfeed for example---and then click on "Create."</p>
-<p>And poof! That section of the website will be gone forevermore. Reclaim your attention and save it for more important things than stupid bullshit on the internet.</p>
         ]]>
       </content>
     </entry>
