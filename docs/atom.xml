@@ -1,11 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2019-11-02T15:21:00Z</updated>
+  <updated>2019-11-03T12:56:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>The Mechanics of Writing a Book</title>
+      <id>blog/book-mechanics/index.html</id>
+      <link href='blog/book-mechanics/index.html'/>
+      <published>2019-11-03T12:56:00Z</published>
+      <updated>2019-11-03T12:56:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <p>One of my core tenets is that processes are much more important than results. A well-executed result is good for me, but a good, reified process is good for the world. Far too much human ingenuity is spent figuring out how someone else made something cool, and we'd all be better off if we could just communicate those things openly.</p>
+<p>If you haven't heard the good word, I'm actively writing a book called <a href="https://www.patreon.com/designandinterpretation">Design and Interpretation of Haskell Programs</a>. It's about writing good and robust software in Haskell, something that is regrettably not yet very well known. But don't worry, I'm not going to talk about Haskell today. I want to talk about how I go about writing a book.</p>
+<h2 id="where-does-a-book-come-from">Where Does a Book Come From?</h2>
+<p>I write practical nonfiction. My impetus to write nonfiction comes from spending a lot of time thinking about just how frustrating life today is, and how it doesn't need to be that way. Paul Graham has a quote on this that I really like and identify with:</p>
+<blockquote>
+<p>Live in the future, then build what's missing.</p>
+<p>-Paul Graham</p>
+</blockquote>
+<p>For me, writing books isn't about <em>building,</em> but about <em>bridging.</em> In technology, most of our problems were solved 30 years ago, but nobody knows about it because minds are slow to change and academics are particularly bad at communicating. As such, my work doesn't contribute anything new, it just synthesizes other people's work into one place.</p>
+<p>This is great news, because it means that I can just spend lots of time reading weird, obscure things, and keep track of which ones feel like they're onto something. I'm very familiar with the day-to-day workings of my field, and by paying attention to research that tackles the everyday problems, that's most of the work right there.</p>
+<p>At the end of the day, a book comes from wanting the world to be different, and, in particular, knowing in what way you'd like it to be different. If your personality is like mine, this is sufficient motivation. Knowing the right answer and feeling like society is to sluggish to get there on its own makes it feel like writing this book is a <em>responsibility</em> that you have to the world.</p>
+<p>If you are going into this project to get rich, <em>stop right now.</em> It's a) the wrong motivation, because you probably won't, and b) going to be very obvious to all of your readers. Audiences can smell a cash grab a mile away, and aren't likely to reward you with their hard-earned cash.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>I begin by identifying a theme for the book. Roughly, what is it going to be about? This thing should be the length of a subtitle, for example "type level programming in Haskell" or "a guide to building robust software." Having a theme helps identify who would be interested in such a thing, and roughly what sorts of things you should be writing about (which is less obvious that it sounds!)</p>
+<p>This gets me thinking about the people that I know personally. Are any of them the target audience? I'll make a list of people I know who might be interested, and then roughly estimate how much they know about the topic at hand. I am always looking for someone I know personally who is a) smart, b) interested, and</p>
+<p>c) average in their knowledge on the subject.</p>
+<p>After identifying one to three of these people, I'll go and explicitly say to them "hey, I'm thinking about writing a book on topic X --- how likely would you be to buy such a book?" I will iterate on the theme, and the people until I find a combination that evokes enthusiasm.</p>
+<p>Enthusiasm is the key. I am looking for sentiments along the lines of "thank god, I've been waiting for someone to write that," or "I didn't know I wanted that, but now I can't wait," or, "shut up and take my money!" If you can evoke that sort of response, and have no reason to believe that your friend is alone in that opinion, then congratulations. You've found a market for your book.</p>
+<p>It's important to target a friend who is in the average understanding. If you find someone who is far below average, your book is going to need to spend a lot of time covering first principles. If they're far above average, the pool of people who will buy your book is going to be unreasonably small.</p>
+<h2 id="the-target-audience">The Target Audience</h2>
+<p>This enthusiastic friend of yours is your greatest asset in writing a book. You are writing this book <em>for them,</em> and for no one else. The goal is to take your friend, at their current level of understanding, and gently lead them to your point of view. Doing so requires a deep understanding of what you want to teach, but it requires a <em>deeper</em> understanding of the way that they see the world. It's okay --- and natural --- to be a little fuzzy on what you're going to write about. That part comes from actually writing it. But you need to understand your friend well enough that you can frame the problem and motivate the solution in language that they can understand.</p>
+<h2 id="promise-yourself-to-get-it-done">Promise Yourself to Get It Done</h2>
+<p>I always make a promise to myself that if I'm going to do this work, I'm not going to waste my time by <em>not finishing it.</em> That's not to say I should sink my costs if the book truly isn't very good, but it's a good defense against akrasia.</p>
+<p>This comes in two flavors. The first is that while I'm committed to finishing the project, I need to work on it <em>every single day.</em> "Working" here is intentionally defined very loosely. Fixing a typo counts as doing work. Writing a single sentence, or editing a paragraph for flow counts as doing work. Obviously, writing significant amounts of prose also counts as doing work. So long as my document isn't in exactly the same state as it was 24 hours ago, it counts.</p>
+<p>The psychology here is that projects that are always being worked on are eventually finished. But, it's an acknowledgment that life can often get in the way of the best laid plans. And so, we define progress by input, not by output. So long as you do <em>something, anything,</em> you haven't broken the streak.</p>
+<p>Having a low barrier on this front is amazingly powerful. Often I'll find myself in bed getting ready to sleep, and realize "oh shit, I didn't work on the book yet today!" My initial reaction will be "eh... fuck it." But having such a low barrier to progress means I'll feel like a piece of shit if I'm <em>so lazy</em> that I can't manage to pull open my laptop, write a single sentence, and then put it away again. It's the inertia the counts, not the speed.</p>
+<p>Working on it every day is a good way to prevent the accidental death of your project. But it's not a good strategy if this thing you're creating <em>truly isn't worth finishing.</em> For that, I also write a quick document describing under which circumstances I'm allowed to quit, and when. For example, on my last book, I wrote this:</p>
+<blockquote>
+<p>When To Quit</p>
+<p>There will be no quitting, unless another book comes out before this, also targeted explicitly at type-level programming in Haskell, which is judged by me to be superior.</p>
+</blockquote>
+<p>Notice how clear that is. It gives an explicit stop condition --- someone writing a better book, <em>as judged by me.</em> In fact, while writing my book, someone else did publish first, but after skimming a few chapters, it was clearly an inferior product. Rather than let it get me down, I realized that neither my mission nor the world had changed in light of this other book, and so I should keep my head down.</p>
+<p>And the market agreed with me. To date I've sold at least 20x more copies! The power of strategic perseverance is a powerful one,</p>
+<h2 id="work-on-philosophy-first">Work on Philosophy First</h2>
+<p>Spend a lot of time writing the philosophy of the way you see the world. Describe the problems you see with great anguish. Really sell just how painful this experience is, and try to motivate a world in which we haven't already internalized this pain. How if your solution were already the status quo, we'd never think about trying the things we're doing now. Rhetoric is a powerful tool here.</p>
+<p>Your argument doesn't need to be technical. Not yet. All it needs to do is be strongly motivating. You need to convince your reader that this problem is worth solving, and, by extension, that your book is worth reading.</p>
+<p>Throughout the writing process, I will often finish five or six chapters along these lines. Few if any of them end up in the final print. But the exercise is not for naught; by expounding on these issues you will clarify exactly what problems you see, you will discover a natural structure for the book, and you will come up with good material for copy.</p>
+<p>The philosophy is much easier for people to understand than the technical solutions. The latter require significantly more attention, and so by making the philosophy as persuasive as possible, you are readying your reader for the difficult tasks ahead. In my experience, very few nonfiction books take the motivation aspect seriously enough. With so many excellent books out there, it takes quite a lot to convince me that <em>this one in particular</em> is worth reading.</p>
+<p>Nailing the motivation is by far the hardest part of the process. So spend lots of time waxing poetically on the way the world should look. Tackle it from as many different angles as possible. If possible, show that several real problems all share the same structure, and thus that your one solution would solve all of them simultaneously.</p>
+<h2 id="test-your-assumptions">Test Your Assumptions</h2>
+<p>Take two of your best motivating pieces, and start rolling with them. Find a relatable example, show how it's a problem with traditional methods, and do a case study of applying your technique to it. You don't need to spend a lot of time on this, just enough to convince yourself --- and an audience --- that everything works as you say it does.</p>
+<p>Write prose around the example, explaining every piece in great detail. Assume the reader knows exactly what your target audience friend does, and explain the bits that you would explain to your friend. Walk them through your thought process, about when this technique can be expected to work, and good heuristics for how to use it.</p>
+<p>Tackle two of these case studies, ideally two that are in very different domains, which can showcase different aspects of the solution.</p>
+<p>Compile the two case studies and two best pieces of philosophy into a single document, and spend an hour or two polishing it. When you're done, here comes the scary part: sharing it. You need to distribute this document of yours widely. Make it freely available in the circles that your ideal readership hangs out in. See how people respond to it. Make the necessary changes in order to convince them that your nascent book is worthwhile.</p>
+<p>If you've done your homework and made a compelling case, I suspect the audience will be supportive. But there's always the chance they aren't, and this too is valuable. Honestly consider their concerns. If you can't convince your core audience to get excited about this thing, you're probably not going to convince a wider audience either. If it seems like the problems are solvable, go back to the drawing board and try again. Otherwise, now might be a good time to cut your losses.</p>
+<hr />
+<p>This is about as far as I've gotten in my new book, so it's as much as I've been reminded about. More to come as I get further in.</p>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>Moments of Strength</title>
       <id>blog/strength/index.html</id>
@@ -318,44 +377,6 @@
 <p><strong>The thing I'd been putting off for twenty years out of fear only took three minutes to accomplish.</strong></p>
 <p>I've often wondered why it seems like all of the good musicians have been playing their instruments for like 25 years. Surely music can't be <em>that</em> hard---you can get pretty fucking good at most things in six months of dedicated study. But in the light of all of this, it makes sense. If everyone learns music as haphazardly as I've been doing it, it's no wonder that it takes us all so long.</p>
 <p>What have you been putting off out of fear? Are you sure it's as hard as it seems?</p>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>Teaching Badly</title>
-      <id>blog/teaching-badly/index.html</id>
-      <link href='blog/teaching-badly/index.html'/>
-      <published>2019-01-07T13:40:00Z</published>
-      <updated>2019-01-07T13:40:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <p>I'd like to demonstrate three widespread flaws in education today, through a few little narratives.</p>
-<p>The first stems from an early gifted-ed teacher of mine; I had the naive view that my teacher could provide insight on any problem I posed to him. And usually this was the truth; he often could help.</p>
-<p>But on matters of mathematics, he knew very little. Unfortunately, this did not stop my teacher from providing advice on these topics, and he did so with his usual degree of confidence. I'd take him at his word and resultantly spend many hours barking up the wrong, impossible tree.</p>
-<p>That's not to say that spinning your tires on a problem is necessarily a bad thing, but it's frustrating when you've been lead by a trusted adviser that a bad approach is in fact a good one.</p>
-<p>This leads us to our first insight: <em>be knowledgeable in your topic, or at least in your ignorance. If you are teaching, ensure you know what it is that you're trying to teach.</em> This problem is particularly prevalent in North American schooling, where teachers are often treated as being fungible---the typical example is enlisting the gym teacher to teach science class.</p>
-<p>Kids aren't stupid, and it quickly becomes evident that the person responsible for teaching a subject knows as much about it as they do. I would suggest that this teaches the wrong lesson; that it's OK to boldly not know what you're talking about because you have vested authority.</p>
-<p>The second flaw in education I've seen comes from a more topical experience. A few months ago, I started taking piano lessons again. It was mostly an accident---a piano teacher got in touch wondering if I could tutor her daughter in computer science. We decided on a quid-pro-quo agreement where I'd trade CS lessons for piano lessons.</p>
-<p>The lessons started with an exceptionally high learning curve. My new teacher had expectations about where I <em>should</em> be in terms of piano, and set her lessons accordingly. Needless to say, these expectations of hers were significantly above where I actually was in skill level.</p>
-<p>Now, I'm not one to shy away from a challenge, so I duly gave it the old college try. My teacher would give me a piece to sight read (play without having seen before) that was in a key signature I wasn't familiar with, making sure I played every note for the exact correct duration of time, while asking me to perform an analysis of the chords as I went, and expecting me to notice repeating patterns in the music.</p>
-<p>Any one, or possibly even two of these tasks, would have been possible for me given serious, concerted effort. But attempting to simultaneously juggle five difficult tasks in real-time is not a recipe for success. I'd play the piece attempting to focus on all of my goals, and inevitably drop one or two. My teacher would immediately stop me and point out the mistake.</p>
-<p>Frustrating, concentration-breaking, and <em>actively unhelpful.</em> If you're having a hard time focusing on a single challenge, your performance isn't going to improve by instead focusing on <em>two</em> challenges.</p>
-<p>This is our second insight, and it's one of methodology---<em>focus on doing only one thing at a time, and on doing it well.</em> Practice a skill until it becomes instinctive, then---and only then---tackle the next piece of the overall problem. In other words, decompose a hard problem into easier sub-problems and conquer them individually.</p>
-<p>My third example comes from an improv class I took a few months back. Despite having taken about a year's worth of improv, I decided to sign up for the beginner's class. This was a mistake on my part, but gave me a better context in which to evaluate the teaching.</p>
-<p>After each class, I'd conduct an informal little straw poll among the other students---"how are you liking improv so far?"---that kind of thing. The response was always lukewarm. "It doesn't really feel like we're learning anything."</p>
-<p>Somehow learning wasn't happening, despite us doing three hours of exercises per week. The problem, I think, was that the instructor never impressed upon us <em>why</em> we were doing the exercises. Exercises that are not themselves the eventual end-goal are helpful insofar as they build related skills. However, if you don't know what the exercise is trying to teach, it's hard to extract value from it.</p>
-<p>That's not to say it's impossible, per se, merely that it's an inefficient way of learning. It feels like the equivalent of listening to foreign-language tapes while you sleep, hoping that they'll sink in through osmosis. While this may or may not be true, it's certainly less effective than saying "I reliably mess up the subjunctive tense in French; I'm going to go practice that and pay attention to it for a little while."</p>
-<p>There is a related failure mode here, which I've often noticed from musicians. They'll play something that I like and I'll ask "what did you just do?" And more often than not, they won't know how to articulate it. "I was just screwing around." It's not that they've <em>forgotten,</em> it's that they don't have the <em>awareness</em> of why something works. It just does. They've learned it instinctually through brute force, and subsequently lack the tools to analyze or articulate it.</p>
-<p>And so we make our way to the third insight---<em>exercises are most valuable when you understand what they're trying to teach you.</em> To the instructor, it's probably obvious what the goal is, but this is only through the lens of hindsight bias. The beginner doesn't have enough knowledge to identify specific sub-skills or, relatedly, their value.</p>
-<p>The takeaway is obvious: if you're responsible for providing examples to students, take a moment to <em>explicitly tell them what to focus on while doing it.</em> Provide a high-level description of <em>why this is a valuable thing</em> and how it relates to the bigger skill at large. And it should go without saying that if you're only recommending an exercise because your teacher recommended it to you, maybe you should take a moment before passing on that particular torch.</p>
-<p>Not only does knowledge of the immediate goal help motivate the students, but it helps train them in the more immediate skill of "how do I know if I'm doing this thing well?" Fast feedback cycles are key to fast learning. It's hard enough throwing a basketball into the hoop---imagine if you had to learn how to do it while blind.</p>
-<p>My claim is that these three points are crucial in the pursuit of good education. Know what you're talking about, and if you don't, be clear about it. Subdivide problems into easier ones, and ensure mastery of the essentials before attempting to synthesize them together. Finally, provide guidance on what these sub-skills are, how they relate to the bigger picture, and how to go about learning them.</p>
-<p>When put this way, my ideal educator is less of a grade-school teacher and more of a mentor. Someone whose responsibility is to show you the right direction, to keep you from going off into the weeds, and to suggest a training regimen to help. In short, the mentor isn't responsible for your success, only for giving you the best possible chance at it.</p>
-<blockquote>
-<p>I can only show you the door. You're the one that has to walk through it.</p>
-<p>Morpheus, The Matrix</p>
-</blockquote>
         ]]>
       </content>
     </entry>
