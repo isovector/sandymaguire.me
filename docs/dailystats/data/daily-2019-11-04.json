@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (12.50%)", "value": 12.5}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [13, 14]}}}
+{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (7.89%)", "value": 7.89}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [30]}, "comm:im": {"color": "#17b02c", "minute": [13, 14, 16, 40, 44, 55]}, "slack:jvanbruegge": {"color": "#2c2377", "minute": [29]}}}
