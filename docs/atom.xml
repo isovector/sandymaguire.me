@@ -1,11 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2019-11-03T12:56:00Z</updated>
+  <updated>2019-11-12T23:14:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>Making and Spending Money</title>
+      <id>blog/making-and-spending-money/index.html</id>
+      <link href='blog/making-and-spending-money/index.html'/>
+      <published>2019-11-12T23:14:00Z</published>
+      <updated>2019-11-12T23:14:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <p>I read an excellent blog post yesterday: <a href="https://www.reddit.com/r/slatestarcodex/comments/duv1x8/making_money_isnt_magic/">Making Money Isn't Magic</a>. It's a great look at strategies for generating cash. Several techniques that won't get you rich quick, but also will clearly work given a year or two of preparation. And significantly less lead time if you come ready.</p>
+<p>Anyway, this got me thinking about my approach to this money stuff --- which seems notably than how most people I run with think about it. My family is aggressively the upper middle class. With the notable exception of a failed startup in the extended parts of the tree, every one of them works as a professional or at a not-for-profit. You name it, we got it. From engineering to law to medicine to police to university professor --- my family has flourished by having a job and working for the man.</p>
+<p>Tried and true, it's a strategy that's been working for us for generation --- at least as far back in the lineage as I'm privy to.</p>
+<p>With the eruption of my uncle, there isn't a shred of entrepreneurship anywhere in the blood. My family is particularly risk averse; not only in business, but also in temperament. The emphasis is and has always been on credentials and a good job with a good salary. Although no one would explicitly say it, I suspect they equate a hard day's work with both financial success and with honesty. To make money without exchanging it for time at a linear rate is both unfathomable and immoral.</p>
+<p>Me, I'm much more of a libertarian than my fairly is. Its the source of no end of (mostly) good-hearted ribbing at the Maguire-family dinner table. I believe that money is just and foremost a measure of value. We exchange money for things we care about more than money --- otherwise tautologically we'd hold on to it.</p>
+<p>If someone is willing to give you money, it means you are creating value for them one way or another. They must think it's worthwhile. This was the first big hurdle in debugging my brain about money --- and huge shoutout to <a href="https://joshkaufman.net/">Josh Kaufman</a> for spending an evening setting me straight. Where things go weirder is on the other side of that transaction. Just because someone is willing to pay me to do something doesn't mean I must. Even if the money is really good.</p>
+<p>Last week I stopped responding to a recruiter trying to place me at a job offering me half a million in salary. Tempting to be sure, but he got miffed when I asked to use Hangouts instead of doing a phone call. I don't have a phone, you see. But instead of just saying yes, he got grumpy. I'm not sure if he's lazy, inflexible, or incompetent, but either way, it reflects poorly on both him and the company. I don't need the money, so why would I subject myself to that kind of an environment?</p>
+<p>My rule of themes is that the more a job pays, the more unpleasant it is. This is not a deep truth about the universe, but it seems to be a good heuristic nevertheless. If a job were good, they wouldn't need to pay people so much to fill it.</p>
+<p>Clearly this company thinks I'm worth the pay, but are <em>they</em> worth <em>my</em> time and attention?</p>
+<p>The interesting thing about knowing how to make money is that it makes you care less about it. Once it stops being hard, you can just stay prepared and make some whenever you need it. I can't generate \$10k overnight, but certainly could in two weeks --- probably in one if my life depended on it.</p>
+<p>This is unfathomable to most people in most of the world. Nobody in Ottawa would give me an apartment because I didn't have any "steady income." They didn't care that I could pay the entire lease upfront, nor that I <em>actually offered</em> it to them to get around the income "issue!"</p>
+<p>There's an excellent quote in the Elon Musk biography:</p>
+<blockquote>
+<p>Every time Tesla interacted with Detroit it received a reminder of how the once-great city had been separated from its own can-do culture. Tesla tried to lease a small office in Detroit. The costs were incredibly low compared with space in Silicon Valley, but the city's bureaucracy made getting just a basic office an ordeal. The building's owner wanted to see seven years of audited financials from Tesla, which was still a private company. Then the building owner wanted about two years' worth of advanced rent. Tesla had about \$50 million in the bank and could have bought the building outright. "In Silicon Valley, you say you're backed by a venture capitalist, and that's the end of the negotiation," Tarpenning said. "But everything was like that in Detroit."</p>
+<p>Ashlee Vance, Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</p>
+</blockquote>
+<p>Money really and truly is just a number in a computer somewhere --- especially in the 21st century. So long as you have enough runway to last you until you're prepared to make more, you're fine. But this is where it breaks down for most people. Most people are under prepared and their spending is too damn high!</p>
+<p>A few years before I retired (but after I had decided to,) I started judging amounts by how much of my retirement they would consume. After a few months of living well in Lithuania, I calculated that I could live on \$25 a day, housing included. That meant every \$25 I spent, I got one fewer day of <em>not working.</em> \$25 doesn't buy a hell of a lot; it doesn't buy a thing! It's meaningless psychologically, but my brain sure as heck understands the value of having a day off. And I'd gladly buy a <em>lot</em> of days off at \$25 a piece!</p>
+<p>I found myself doing the math before every transaction --- and, almost always --- realized it wasn't a worthwhile trade. That's a powerful technique they don't teach you in school.</p>
+<p>I'm not saying you too should measure your life in terms of \$25-per-day retirement, but by god, measure it in terms of something meaningful to you! If you're saving money, what are you saving it for? If you don't set a concrete, specific goal, you'll never get there --- forever making money you don't need to spend on things you don't really want.</p>
+<p>Is "owning" a mortgaged house really worth the down payment and mandated years of slavery to pay off the rest of it? I'm not so sure, but I do know how much life you can buy for that same down payment. And I guarantee you that the grind to make the mortgage payment gets in the way of a lot of preparation to make money.</p>
+<p>Out of all my professional engineering friends, I'm probably the poorest of all of them, likely by a factor of Sx or more. But I haven't worked a job in two years. I travel all around the world on a whim, and spend month at a time living on tropical islands and doing scuba everyday. Amazingly, despite this, my bank account has the rare number it shored the day I quit working.</p>
+<p>I don't live off the interest or any "safe" strategy like that --- I just have lots of time and energy to create. And that's the kind of stuff that people find valuable and are willing to pay me for. Is it a lot of money? No, it works out to about minimum wage, but that pays for rent, food, travel, and diving vacations.</p>
+<p>Meanwhile, every time I go to visit my professional friends, I'm struck by just how miserable they are. And what's worse is they don't even notice it-not even after breaking into tears at the mall food court. But this is a choice that they are making, every day. It's the safe path that I inherited from my upper-middle class upbringing, and likely they from theirs. But all you need to do is pay rent and food. Literally all the rest is non-essential bonus stuff.</p>
+<p>Find a to take care of that part, and then spend a lot of time thinking about what you want your life to look like. How much money you need to make that happen?</p>
+<p>One common objection I hear to this is "but I don't know, so I will keep making money until I figure it out." This would indeed be a good strategy if it weren't based on a fundamental misunderstanding. Deciding what you want gave life to look like is scary as hell (what if I get it wrong!) and so defaulting to the status-quo is a defense mechanism.</p>
+<p>Instead, we must ask ourselves whether we want the rust of your life to look like it does now. We must come to grips with the fact that this is all it's ever going to be, unless we change it. This is all we get. Lets try our best not to squander it.</p>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>The Mechanics of Writing a Book</title>
       <id>blog/book-mechanics/index.html</id>
@@ -344,39 +383,6 @@
 <h2 id="conclusion">Conclusion</h2>
 <p>So that's all I've got. If you're dissatisfied with your job or your money situation, I can't think of a single reason why you shouldn't commit yourself to this approach 100%. It will be hard and scary, but it will all be over in a few months and you'll be laughing about the experience all the way to the bank.</p>
 <p>If you have questions about any of this, or if you just need a pep-talk, feel free to <a href="mailto:%20sandy@sandymaguire.me">email me</a>. I'd love to hear from you.</p>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>Too Smart for My Own Good</title>
-      <id>blog/too-smart/index.html</id>
-      <link href='blog/too-smart/index.html'/>
-      <published>2019-01-22T12:48:00Z</published>
-      <updated>2019-01-22T12:48:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <p>I want to share a piece of <a href="http://mindingourway.com/obvious-advice/">ridiculously obvious advice</a> today.</p>
-<p>I've got a bad habit, which is being too smart for my own good. That is, when I want to learn something new, too often I spend my time making tools to help me learn, rather than just learning the thing.</p>
-<p>Take, for example, the first time I tried to learn how to play jazz music.</p>
-<p>There's only one thing that I'm really good at, which is programming. The central tenet in programming is that "laziness is good," and if you're faced with doing something boring and repetitive, you should instead automate that thing away.</p>
-<p>When all you have is a hammer...</p>
-<p>According to <a href="https://www.shermusic.com/1883217040.php">The Book</a>, the first thing to do to learn jazz is to learn your scales---in every mode for every key for several varieties of harmony. There are 12 notes, and seven modes, and at least four harmonies. That's what, like 336 different scales to learn?</p>
-<p>"WHO HAS TIME FOR ALL THAT CRAP," I thought. "I'LL JUST WRITE A <a href="http://reasonablypolymorphic.com/blog/modeling-music/">COMPUTER PROGRAM</a> TO GENERATE THE SCALES FOR ME, AND THEN PLAY THOSE."</p>
-<p>In retrospect, this was a <em>terrible plan.</em> Not only did it not get me closer to my goal of knowing how to play jazz music, I also <em>didn't know enough about the domain to successfully model it.</em> It's funny to read back through that blog post with the benefit of hindsight, but at the time I really thought I was onto something!</p>
-<p>That's not to say it was <em>wasted effort</em> nor that it was <em>useless</em>, merely that it wasn't actually moving me closer to my stated goal of being able to play jazz music. It was scratching my itch for mental masturbation, and was a good exercise in attempting to model things I don't understand very well, but crucially, it wasn't <em>helping.</em></p>
-<p>Or take another example, a more recent foray into music for me---only a few weeks ago. This time I had more of a plan; I was taking piano lessons and getting advice on how to practice from my teacher. One of the things he suggested I do was to solo around in the minor pentatonic scale. And so I did, starting in C, and (tentatively) moving to G.</p>
-<p>But doing it in Bb was hard! Rather than spend the two minutes that would be required to work out what notes I should play in the Bb minor pentatonic, I decided it would be <a href="https://github.com/isovector/haskell-realtime-midi">better to write a computer program</a>! This time it would connect to my keyboard and "listen" to the notes I played, and flash red whenever I played a note that wasn't in the Bb minor pentatonic. I guess the reasoning was "I'll train myself to play the right notes subconsciously." Or something.</p>
-<p>I spent like 15 hours writing this computer program.</p>
-<p>This attempt was arguably more helpful than my first computer program, but again, it's a pretty fucking roundabout way of accomplishing the goal. Here we are, four weeks later, and I still don't know how to noodle around in the Bb minor pentatonic.</p>
-<p>Like I said. Too smart for my own good.</p>
-<p>There's a happy ending to this story, however. Earlier this week, I decided I was going to <em>actually</em> learn how to play jazz music. So I started reading The Book again, and when I got to the scale exercises, I decided I'd just give them a go. No computers. Just the boring, repetitive stuff it said would make me a great jazz musician.</p>
-<p>The book even gave me some suggestions on how to minimize the amount of exercises I need to do---rather than playing every mode in every key (eg. C ionian, then G ionian, then A ionian, etc etc until it's time to play dorians), instead to play C ionian followed by D dorian followed by E phrygian. These scales all share the same notes, so they're more-or-less the same thing, which means I actually only need to practice 12 things, rather than 84 (the other 250 can likewise be compressed together.)</p>
-<p>If I had been patient, I would have read that PRO-TIP the first time around. It probably wouldn't have helped me make less-"smart" decisions, but it's worth keeping in mind that I could be two years ahead of where I am today if I were better at keeping my eye on the ball.</p>
-<p>One of the scales the book made me do was Ab major---something I'd literally <em>never once</em> played in my twenty years of piano. It started on a black note and always felt <em>too hard to actually do.</em> I approached it with trepidation, but realized that it only took about three minutes to figure out.</p>
-<p><strong>The thing I'd been putting off for twenty years out of fear only took three minutes to accomplish.</strong></p>
-<p>I've often wondered why it seems like all of the good musicians have been playing their instruments for like 25 years. Surely music can't be <em>that</em> hard---you can get pretty fucking good at most things in six months of dedicated study. But in the light of all of this, it makes sense. If everyone learns music as haphazardly as I've been doing it, it's no wonder that it takes us all so long.</p>
-<p>What have you been putting off out of fear? Are you sure it's as hard as it seems?</p>
         ]]>
       </content>
     </entry>
