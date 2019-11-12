@@ -1,0 +1,155 @@
+---
+layout: post
+title: Making and Spending Money
+date: 2019-11-12 23:14
+comments: true
+tags: finances
+confidence: 4
+---
+
+
+I read an excellent blog post yesterday: [Making Money Isn't
+Magic][making-money]. It's a great look at strategies for generating cash.
+Several techniques that won't get you rich quick, but also will clearly work
+given a year or two of preparation. And significantly less lead time if you come
+ready.
+
+[making-money]: https://www.reddit.com/r/slatestarcodex/comments/duv1x8/making_money_isnt_magic/
+
+Anyway, this got me thinking about my approach to this money stuff --- which
+seems notably than how most people I run with think about it. My family is
+aggressively the upper middle class. With the notable exception of a failed
+startup in the extended parts of the tree, every one of them works as a
+professional or at a not-for-profit. You name it, we got it. From engineering to
+law to medicine to police to university professor --- my family has flourished
+by having a job and working for the man.
+
+Tried and true, it's a strategy that's been working for us for generation --- at
+least as far back in the lineage as I'm privy to.
+
+With the eruption of my uncle, there isn't a shred of entrepreneurship anywhere
+in the blood. My family is particularly risk averse; not only in business, but
+also in temperament. The emphasis is and has always been on credentials and a
+good job with a good salary. Although no one would explicitly say it, I suspect
+they equate a hard day's work with both financial success and with honesty. To
+make money without exchanging it for time at a linear rate is both unfathomable
+and immoral.
+
+Me, I'm much more of a libertarian than my fairly is. Its the source of no end
+of (mostly) good-hearted ribbing at the Maguire-family dinner table. I believe
+that money is just and foremost a measure of value. We exchange money for things
+we care about more than money --- otherwise tautologically we'd hold on to it.
+
+If someone is willing to give you money, it means you are creating value for
+them one way or another.  They must think it's worthwhile. This was the first
+big hurdle in debugging my brain about money --- and huge shoutout to [Josh
+Kaufman][josh] for spending an evening setting me straight. Where things go
+weirder is on the other side of that transaction. Just because someone is
+willing to pay me to do something doesn't mean I must. Even if the money is
+really good.
+
+[josh]: https://joshkaufman.net/
+
+Last week I stopped responding to a recruiter trying to place me at a job
+offering me half a million in salary. Tempting to be sure, but he got miffed
+when I asked to use Hangouts instead of doing a phone call. I don't have a
+phone, you see. But instead of just saying yes, he got grumpy. I'm not sure if
+he's lazy, inflexible, or incompetent, but either way, it reflects poorly on
+both him and the company. I don't need the money, so why would I subject myself
+to that kind of an environment?
+
+My rule of themes is that the more a job pays, the more unpleasant it is. This
+is not a deep truth about the universe, but it seems to be a good heuristic
+nevertheless. If a job were good, they wouldn't need to pay people so much to
+fill it.
+
+Clearly this company thinks I'm worth the pay, but are *they* worth *my* time
+and attention?
+
+The interesting thing about knowing how to make money is that it makes you care
+less about it. Once it stops being hard, you can just stay prepared and make
+some whenever you need it. I can't generate \$10k overnight, but certainly could
+in two weeks --- probably in one if my life depended on it.
+
+This is unfathomable to most people in most of the world. Nobody in Ottawa would
+give me an apartment because I didn't have any "steady income." They didn't care
+that I could pay the entire lease upfront, nor that I *actually offered* it to
+them to get around the income "issue!"
+
+There's an excellent quote in the Elon Musk biography:
+
+> Every time Tesla interacted with Detroit it received a reminder of how the
+> once-great city had been separated from its own can-do culture. Tesla tried to
+> lease a small office in Detroit. The costs were incredibly low compared with
+> space in Silicon Valley, but the city's bureaucracy made getting just a basic
+> office an ordeal. The building's owner wanted to see seven years of audited
+> financials from Tesla, which was still a private company. Then the building
+> owner wanted about two years' worth of advanced rent. Tesla had about \$50
+> million in the bank and could have bought the building outright. "In Silicon
+> Valley, you say you're backed by a venture capitalist, and that's the end of
+> the negotiation," Tarpenning said. "But everything was like that in Detroit."
+>
+> Ashlee Vance, Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future
+
+Money really and truly is just a number in a computer somewhere --- especially in
+the 21st century. So long as you have enough runway to last you until you're
+prepared to make more, you're fine. But this is where it breaks down for most
+people. Most people are under prepared and their spending is too damn high!
+
+A few years before I retired (but after I had decided to,) I started judging
+amounts by how much of my retirement they would consume.  After a few months of
+living well in Lithuania, I calculated that I could live on \$25 a day, housing
+included. That meant every \$25 I spent, I got one fewer day of *not working.*
+\$25 doesn't buy a hell of a lot; it doesn't buy a thing! It's meaningless
+psychologically, but my brain sure as heck understands the value of having a day
+off. And I'd gladly buy a *lot* of days off at \$25 a piece!
+
+I found myself doing the math before every transaction --- and, almost always
+--- realized it wasn't a worthwhile trade. That's a powerful technique they
+don't teach you in school.
+
+I'm not saying you too should measure your life in terms of \$25-per-day
+retirement, but by god, measure it in terms of something meaningful to you! If
+you're saving money, what are you saving it for?  If you don't set a concrete,
+specific goal, you'll never get there --- forever making money you don't need to
+spend on things you don't really want.
+
+Is "owning" a mortgaged house really worth the down payment and mandated years
+of slavery to pay off the rest of it? I'm not so sure, but I do know how much
+life you can buy for that same down payment. And I guarantee you that the grind
+to make the mortgage payment gets in the way of a lot of preparation to make money.
+
+Out of all my professional engineering friends, I'm probably the poorest of all
+of them, likely by a factor of Sx or more. But I haven't worked a job in two
+years. I travel all around the world on a whim, and spend month at a time living
+on tropical islands and doing scuba everyday. Amazingly, despite this, my bank
+account has the rare number it shored the day I quit working.
+
+I don't live off the interest or any "safe" strategy like that --- I just have
+lots of time and energy to create. And that's the kind of stuff that people find
+valuable and are willing to pay me for. Is it a lot of money? No, it works out
+to about minimum wage, but that pays for rent, food, travel, and diving
+vacations.
+
+Meanwhile, every time I go to visit my professional friends, I'm struck by just
+how miserable they are. And what's worse is they don't even notice it-not even
+after breaking into tears at the mall food court. But this is a choice that they
+are making, every day. It's the safe path that I inherited from my upper-middle
+class upbringing, and likely they from theirs. But all you need to do is pay
+rent and food. Literally all the rest is non-essential bonus stuff.
+
+Find a to take care of that part, and then spend a lot of time thinking about
+what you want your life to look like. How much money you need to make that
+happen?
+
+One common objection I hear to this is "but I don't know, so I will keep making
+money until I figure it out." This would indeed be a good strategy if it weren't
+based on a fundamental misunderstanding. Deciding what you want gave life to
+look like is scary as hell (what if I get it wrong!) and so defaulting to the
+status-quo is a defense mechanism.
+
+Instead, we must ask ourselves whether we want the rust of your life to look
+like it does now. We must come to grips with the fact that this is all it's ever
+going to be, unless we change it. This is all we get. Lets try our best not to
+squander it.
+
