@@ -35,7 +35,7 @@ they equate a hard day's work with both financial success and with honesty. To
 make money without exchanging it for time at a linear rate is both unfathomable
 and immoral.
 
-Me, I'm much more of a libertarian than my fairly is. Its the source of no end
+Me, I'm much more of a libertarian than my family is. Its the source of no end
 of (mostly) good-hearted ribbing at the Maguire-family dinner table. I believe
 that money is just and foremost a measure of value. We exchange money for things
 we care about more than money --- otherwise tautologically we'd hold on to it.
@@ -58,7 +58,7 @@ he's lazy, inflexible, or incompetent, but either way, it reflects poorly on
 both him and the company. I don't need the money, so why would I subject myself
 to that kind of an environment?
 
-My rule of themes is that the more a job pays, the more unpleasant it is. This
+My rule of thumb is that the more a job pays, the more unpleasant it is. This
 is not a deep truth about the universe, but it seems to be a good heuristic
 nevertheless. If a job were good, they wouldn't need to pay people so much to
 fill it.
@@ -132,23 +132,23 @@ to about minimum wage, but that pays for rent, food, travel, and diving
 vacations.
 
 Meanwhile, every time I go to visit my professional friends, I'm struck by just
-how miserable they are. And what's worse is they don't even notice it-not even
+how miserable they are. And what's worse is they don't even notice it --- not even
 after breaking into tears at the mall food court. But this is a choice that they
 are making, every day. It's the safe path that I inherited from my upper-middle
 class upbringing, and likely they from theirs. But all you need to do is pay
 rent and food. Literally all the rest is non-essential bonus stuff.
 
-Find a to take care of that part, and then spend a lot of time thinking about
-what you want your life to look like. How much money you need to make that
+Find a way to take care of that part, and then spend a lot of time thinking about
+what you want your life to look like. How much money do you need to make that
 happen?
 
 One common objection I hear to this is "but I don't know, so I will keep making
 money until I figure it out." This would indeed be a good strategy if it weren't
-based on a fundamental misunderstanding. Deciding what you want gave life to
+based on a fundamental misunderstanding. Deciding what you want your life to
 look like is scary as hell (what if I get it wrong!) and so defaulting to the
-status-quo is a defense mechanism.
+status quo is a defense mechanism.
 
-Instead, we must ask ourselves whether we want the rust of your life to look
+Instead, we must ask ourselves whether we want the rest of your life to look
 like it does now. We must come to grips with the fact that this is all it's ever
 going to be, unless we change it. This is all we get. Lets try our best not to
 squander it.
