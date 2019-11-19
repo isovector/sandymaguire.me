@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (2.78%)", "value": 2.78}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [1344, 1347]}, "slack:solomon": {"color": "#2c2377", "minute": [1415]}}}
+{"braindata": {}, "piedata": [{"color": "#2c2377", "label": "slack:solomon (5.00%)", "value": 5.0}], "tagdata": {"slack:solomon": {"color": "#2c2377", "minute": [1415]}}}
