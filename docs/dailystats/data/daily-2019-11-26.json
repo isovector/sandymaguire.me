@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#a77f8e", "label": "reddit:gwern (6.25%)", "value": 6.25}], "tagdata": {"reddit:gwern": {"color": "#a77f8e", "minute": [15]}}}
+{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (1.64%)", "value": 1.64}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [533, 542]}, "reddit:gwern": {"color": "#1f70d5", "minute": [15]}, "slack:haskell": {"color": "#ff9f98", "minute": [534]}}}
