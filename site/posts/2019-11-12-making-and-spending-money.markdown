@@ -10,24 +10,24 @@ confidence: 4
 
 I read an excellent blog post yesterday: [Making Money Isn't
 Magic][making-money]. It's a great look at strategies for generating cash.
-Several techniques that won't get you rich quick, but also will clearly work
+Several techniques that won't get you rich quick, though they will clearly work
 given a year or two of preparation. And significantly less lead time if you come
 ready.
 
 [making-money]: https://www.reddit.com/r/slatestarcodex/comments/duv1x8/making_money_isnt_magic/
 
 Anyway, this got me thinking about my approach to this money stuff --- which
-seems notably than how most people I run with think about it. My family is
+is notably different than how most people seem to think about it. My family is
 aggressively the upper middle class. With the notable exception of a failed
 startup in the extended parts of the tree, every one of them works as a
 professional or at a not-for-profit. You name it, we got it. From engineering to
 law to medicine to police to university professor --- my family has flourished
 by having a job and working for the man.
 
-Tried and true, it's a strategy that's been working for us for generation --- at
+Tried and true, it's a strategy that's been working for us for generations --- at
 least as far back in the lineage as I'm privy to.
 
-With the eruption of my uncle, there isn't a shred of entrepreneurship anywhere
+With the exception of my uncle, there isn't a shred of entrepreneurship anywhere
 in the blood. My family is particularly risk averse; not only in business, but
 also in temperament. The emphasis is and has always been on credentials and a
 good job with a good salary. Although no one would explicitly say it, I suspect
@@ -45,8 +45,8 @@ them one way or another.  They must think it's worthwhile. This was the first
 big hurdle in debugging my brain about money --- and huge shoutout to [Josh
 Kaufman][josh] for spending an evening setting me straight. Where things go
 weirder is on the other side of that transaction. Just because someone is
-willing to pay me to do something doesn't mean I must. Even if the money is
-really good.
+willing to pay me to do something doesn't mean I must do it. Even if the money
+is really good.
 
 [josh]: https://joshkaufman.net/
 
@@ -120,23 +120,24 @@ life you can buy for that same down payment. And I guarantee you that the grind
 to make the mortgage payment gets in the way of a lot of preparation to make money.
 
 Out of all my professional engineering friends, I'm probably the poorest of all
-of them, likely by a factor of Sx or more. But I haven't worked a job in two
+of them, likely by a factor of 5x or more. But I haven't worked a job in two
 years. I travel all around the world on a whim, and spend month at a time living
 on tropical islands and doing scuba everyday. Amazingly, despite this, my bank
-account has the rare number it shored the day I quit working.
+account has the same number it showed the day I quit working.
 
 I don't live off the interest or any "safe" strategy like that --- I just have
 lots of time and energy to create. And that's the kind of stuff that people find
 valuable and are willing to pay me for. Is it a lot of money? No, it works out
 to about minimum wage, but that pays for rent, food, travel, and diving
-vacations.
+vacations. Crucially, it's not a minimum wage that I need to spend 40 hours a
+week earning.
 
-Meanwhile, every time I go to visit my professional friends, I'm struck by just
-how miserable they are. And what's worse is they don't even notice it --- not even
-after breaking into tears at the mall food court. But this is a choice that they
-are making, every day. It's the safe path that I inherited from my upper-middle
-class upbringing, and likely they from theirs. But all you need to do is pay
-rent and food. Literally all the rest is non-essential bonus stuff.
+Meanwhile, every time I go to visit my professional friends, I'm struck by *just
+how miserable* they are. And what's worse is they don't even notice it --- not
+even after breaking into tears at the mall food court. But this is a choice that
+they are making, every day. It's the safe path that I inherited from my
+upper-middle class upbringing, and likely they from theirs. But all you need to
+do is pay rent and food. Literally all the rest is non-essential bonus stuff.
 
 Find a way to take care of that part, and then spend a lot of time thinking about
 what you want your life to look like. How much money do you need to make that
@@ -145,7 +146,7 @@ happen?
 One common objection I hear to this is "but I don't know, so I will keep making
 money until I figure it out." This would indeed be a good strategy if it weren't
 based on a fundamental misunderstanding. Deciding what you want your life to
-look like is scary as hell (what if I get it wrong!) and so defaulting to the
+look like is scary as hell ("what if I get it wrong?") and so defaulting to the
 status quo is a defense mechanism.
 
 Instead, we must ask ourselves whether we want the rest of your life to look
