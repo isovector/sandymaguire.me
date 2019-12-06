@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#0eff7f", "label": "comm:email (40.00%)", "value": 40.0}, {"color": "#17b02c", "label": "comm:im (20.00%)", "value": 20.0}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [489, 490, 491, 492, 493, 494]}, "comm:im": {"color": "#17b02c", "minute": [481, 482, 495]}}}
