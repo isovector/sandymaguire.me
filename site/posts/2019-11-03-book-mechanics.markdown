@@ -68,8 +68,8 @@ of things you should be writing about (which is less obvious that it sounds!)
 This gets me thinking about the people that I know personally. Are any of them
 the target audience? I'll make a list of people I know who might be interested,
 and then roughly estimate how much they know about the topic at hand. I am
-always looking for someone I know personally who is a) smart, b) interested, and
-c) average in their knowledge on the subject.
+always looking for someone I know personally who is a) smart, b) interested, and c)
+average in their knowledge on the subject.
 
 After identifying one to three of these people, I'll go and explicitly say to
 them "hey, I'm thinking about writing a book on topic X --- how likely would you
@@ -96,9 +96,9 @@ friend, at their current level of understanding, and gently lead them to your
 point of view. Doing so requires a deep understanding of what you want to teach,
 but it requires a *deeper* understanding of the way that they see the world.
 It's okay --- and natural --- to be a little fuzzy on what you're going to write
-about. That part comes from actually writing it. But you need to understand your
-friend well enough that you can frame the problem and motivate the solution in
-language that they can understand.
+about. That part gets solved by actually writing it. But you need to understand
+your friend well enough that you can frame the problem and motivate the solution
+in language that they can understand.
 
 
 ## Promise Yourself to Get It Done
