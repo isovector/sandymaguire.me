@@ -1,0 +1,92 @@
+<h1>Sandy's Virtual Looper Pedal</h1>
+
+<button id="stop">Record</button>
+<button id="remove">Remove</button>
+
+<script>
+  let media_rec = null;
+  let root_audio = null;
+  let start_time = 0;
+  const stopButton = document.getElementById('stop');
+  const removeButton = document.getElementById('remove');
+  const players = [];
+
+  stopButton.addEventListener('click', function() {
+    if (media_rec.state == "recording") {
+      media_rec.stop();
+    } else {
+      media_rec.start(100);
+      if (root_audio !== null) {
+        start_time = root_audio.currentTime;
+      }
+    }
+  });
+
+  removeButton.addEventListener('click', function() {
+    const player = players.pop();
+    player.sandy_loop = false;
+    player.stop();
+  });
+
+  const createRootLoop = function(audio_url) {
+    const player = document.createElement('audio');
+    player.src = audio_url;
+    player.addEventListener('ended', function() {
+      player.play();
+    });
+    player.play();
+    return player;
+  }
+
+  const createLoop = function(audio_url, start_time, root_audio) {
+    const player = document.createElement('audio');
+    player.src = audio_url;
+    player.sandy_loop = true;
+    const duration = player.duration;
+
+
+    const doLoop = function() {
+      if (player.sandy_loop) {
+        root_audio.addEventListener('ended', function() {
+          setTimeout(function() {
+            player.play();
+          }, start_time * 1000);
+        }, {once: true});
+      }
+    };
+    doLoop();
+    player.addEventListener('ended', doLoop);
+    return player;
+  }
+
+
+  const handleSuccess = function(stream) {
+    const options = {mimeType: 'audio/webm'};
+    let recordedChunks = [];
+    const mediaRecorder = new MediaRecorder(stream, options);
+    media_rec = mediaRecorder;
+
+    mediaRecorder.addEventListener('dataavailable', function(e) {
+      if (e.data.size > 0) {
+        recordedChunks.push(e.data);
+      }
+    });
+
+    mediaRecorder.addEventListener('start', function() {
+      recordedChunks = [];
+    });
+
+    mediaRecorder.addEventListener('stop', function() {
+      const audio_url = URL.createObjectURL(new Blob(recordedChunks));
+      if (root_audio === null) {
+        root_audio = createRootLoop(audio_url);
+      } else {
+        players.push(createLoop(audio_url, start_time, root_audio));
+      }
+    });
+  };
+
+  navigator.mediaDevices.getUserMedia({ audio: true, video: false })
+      .then(handleSuccess);
+
+</script>
