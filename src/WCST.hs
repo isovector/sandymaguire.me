@@ -27,8 +27,10 @@ import           Data.Traversable (for)
 import           Meta
 import           SitePipe hiding (getTags, reviews)
 import           SitePipeUtils
-import           Text.Pandoc.Class
+import           SitePipe.Readers
+import           Text.Pandoc
 import           Utils
+import           Data.Text (pack, unpack)
 
 
 fromResult :: Result a -> a
@@ -50,7 +52,7 @@ l = _Object . at "url" . _Just . _String . _Text
 main :: IO ()
 main = site $ do
   rawPosts <- sortBy (comparing (^?! l))
-          <$> resourceLoader markdownReader ["posts/*.markdown"]
+          <$> resourceLoader sandyReader ["posts/*.markdown"]
 
   let urls = fmap (^?! l) rawPosts
       getEm' = getNextAndPrev urls
@@ -202,3 +204,23 @@ writeBooks = do
       , "slug" .= ("archive-book-reviews" :: String)
       ]
 
+
+sandyReader :: String -> IO String
+sandyReader =
+  mkPandocReaderWith
+    (\ro -> readMarkdown ro { readerExtensions = foldr enableExtension
+                                                       pandocExtensions
+                                                       extensions
+                            } . pack)
+    pure
+    (fmap unpack . writeHtml5String def
+        { writerExtensions = foldr enableExtension pandocExtensions extensions
+        })
+
+
+extensions :: [Extension]
+extensions =
+  [ Ext_tex_math_dollars
+  -- , Ext_latex_macros
+  , Ext_footnotes
+  ]
