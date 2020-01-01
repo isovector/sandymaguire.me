@@ -52,10 +52,10 @@
     <h2 id="down-the-rabbit-hole">Down the Rabbit Hole</h2>
 <p>So last week as I was writing a <a href="/blog/sandy-runback">blog post</a>, I found myself switching back and forth between two buffers in <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">vim</a>. A lot. So much that my hands actually started hurting, and I realized something: <code>:4b⏎</code> is <em>five</em> keystrokes.</p>
 <p>Who has the time or wrist capacity to type <em>five</em> keystrokes every time they want to switch buffers? Not me.</p>
-<p>Clearly something had to change. Because I had just finished reading <a href="http://learnvimscriptthehardway.stevelosh.com/">Learn Vimscript the Hard Way</a>, I put my writing on hold, and switched to <code>.vimrc</code> where I hacked together a little something. After lots of research and false starts, I got <code>4t</code> to switch to buffer 4, but for <code>tx</code> to work like usual and move to the next occurrence of 'x'. This was implemented with some magic trickery by checking what the number prefix had been set to, and to use the default implementation when that number was 1.</p>
-<p>(I don't have enough patience to count more than 1 for move-aheads, so this behavior is OK by me.)</p>
-<p>This lead to an unfortunate situation where buffer 1 couldn't be switched to via my lovely new method. A discrepancy! Since there's no way to renumber buffers, I decided just to make buffer 1 get destroyed by default. It's a kinda shitty solution, but poorly hacking things together is oddly cathartic.</p>
-<p>Here's what I ended up dumping into <code>.vimrc</code> by the time all was said and done:</p>
+<p>Clearly something had to change. Because I had just finished reading <a href="http://learnvimscriptthehardway.stevelosh.com/">Learn Vimscript the Hard Way</a>, I put my writing on hold, and switched to <code>.vimrc</code> where I hacked together a little something. After lots of research and false starts, I got <code>4t</code> to switch to buffer 4, but for <code>tx</code> to work like usual and move to the next occurrence of ‘x’. This was implemented with some magic trickery by checking what the number prefix had been set to, and to use the default implementation when that number was 1.</p>
+<p>(I don’t have enough patience to count more than 1 for move-aheads, so this behavior is OK by me.)</p>
+<p>This lead to an unfortunate situation where buffer 1 couldn’t be switched to via my lovely new method. A discrepancy! Since there’s no way to renumber buffers, I decided just to make buffer 1 get destroyed by default. It’s a kinda shitty solution, but poorly hacking things together is oddly cathartic.</p>
+<p>Here’s what I ended up dumping into <code>.vimrc</code> by the time all was said and done:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode php"><code class="sourceCode php"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">function</span>! s:bufSwitch<span class="ot">(</span><span class="fu">count</span><span class="ot">)</span></a>
 <a class="sourceLine" id="cb1-2" title="2">    <span class="kw">if</span> <span class="fu">count</span> &gt;<span class="co"># 1</span></a>
 <a class="sourceLine" id="cb1-3" title="3">        <span class="kw">return</span> <span class="st">&quot;:\&lt;C-U&gt;&quot;</span> . <span class="fu">count</span> . <span class="st">&quot;b\&lt;CR&gt;&quot;</span></a>
@@ -67,15 +67,15 @@
 <a class="sourceLine" id="cb1-9" title="9">au VimEnter * <span class="kw">if</span> v:progname ==<span class="co"># &quot;gvim&quot; &amp;&amp; expand(&#39;%&#39;) ==# &quot;&quot; |</span></a>
 <a class="sourceLine" id="cb1-10" title="10">                \ execute <span class="st">&quot;normal! ihello\&lt;Esc&gt;:bw!\&lt;CR&gt;&quot;</span>    |</a>
 <a class="sourceLine" id="cb1-11" title="11">                \ <span class="kw">endif</span></a></code></pre></div>
-<p>In my excitement, I wanted to post this fantastic solution on my blog to share with all of the world. But there was a problem: I didn't want to post it in the <em>main</em> section of my blog[^1], since my usual readership has plummeted over the last few technical posts, and it's probably not a very good idea to alienate most of ones readers. It seemed like a good idea to separate out the technical content into a new mostly-independent blog.</p>
-<p>One would expect this to be a relatively simple job. But it wasn't. My blog used to run on <a href="http://octopress.org/">Octopress</a>, which is pretty cool if you want something to Just Work(TM). Unfortunately, it is written in Ruby, and like most things written in Ruby, the whole thing runs on magic. Running on magic is good if you want things to happen, but it is <em>not very good whatsoever</em> if you want to change things.</p>
+<p>In my excitement, I wanted to post this fantastic solution on my blog to share with all of the world. But there was a problem: I didn’t want to post it in the <em>main</em> section of my blog<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, since my usual readership has plummeted over the last few technical posts, and it’s probably not a very good idea to alienate most of ones readers. It seemed like a good idea to separate out the technical content into a new mostly-independent blog.</p>
+<p>One would expect this to be a relatively simple job. But it wasn’t. My blog used to run on <a href="http://octopress.org/">Octopress</a>, which is pretty cool if you want something to Just Work(TM). Unfortunately, it is written in Ruby, and like most things written in Ruby, the whole thing runs on magic. Running on magic is good if you want things to happen, but it is <em>not very good whatsoever</em> if you want to change things.</p>
 <p>And I wanted to change things.</p>
-<p>And I'm pretty sure it's impossible to change.</p>
-<p>After three hours of fighting with the damn thing, I decided just to port the whole mess over to <a href="http://jaspervdj.be/hakyll/">Hakyll</a> -- a spiritual relative of Octopress, but written in Haskell and, more importantly, not completely shit.</p>
-<p>Since I didn't really know how the Octopress stuff worked, porting the site as-was turned out to be more work than I cared for, so I decided that I might as well just do an entire redesign while I was at it. The old templates had all sorts of weird things that I couldn't account for: random whitespace, a million files that never seemed to actually be used, and the weirdest CSS pipeline in existence.</p>
+<p>And I’m pretty sure it’s impossible to change.</p>
+<p>After three hours of fighting with the damn thing, I decided just to port the whole mess over to <a href="http://jaspervdj.be/hakyll/">Hakyll</a> – a spiritual relative of Octopress, but written in Haskell and, more importantly, not completely shit.</p>
+<p>Since I didn’t really know how the Octopress stuff worked, porting the site as-was turned out to be more work than I cared for, so I decided that I might as well just do an entire redesign while I was at it. The old templates had all sorts of weird things that I couldn’t account for: random whitespace, a million files that never seemed to actually be used, and the weirdest CSS pipeline in existence.</p>
 <p>I nuked the whole thing from orbit.</p>
-<h2 id="the-devils-in-the-details">The Devil's in the Details</h2>
-<p>Starting entirely from scratch, I coded up the first HTML document I've done in years. I don't know exactly how Web 2.0(TM) Ready it is -- there is a lot of new technology these days that I'd never heard of -- but hey, it works. And it doesn't have a single &lt;table&gt; tag. Good enough for me.</p>
+<h2 id="the-devils-in-the-details">The Devil’s in the Details</h2>
+<p>Starting entirely from scratch, I coded up the first HTML document I’ve done in years. I don’t know exactly how Web 2.0(TM) Ready it is – there is a lot of new technology these days that I’d never heard of – but hey, it works. And it doesn’t have a single &lt;table&gt; tag. Good enough for me.</p>
 <script type="text/javascript">
 var toggled = false;
 function toggleLines() {
@@ -89,25 +89,25 @@ function toggleLines() {
     }
 }
 </script>
-<p>The layout stuff, of course, was easy. Conceptually I know what the structure of my page should be: a central column, a sidebar, what have you. The HTML, now that's baby stuff. But styling it? An entirely different story.</p>
-<p>I probably spent three works tweaking color-schemes. I'm an idiot and shouldn't have spent this long, because I could have been doing it in photoshop (which would be fast), but instead was editing CSS by hand (which wasn't fast).</p>
-<p>Tweaking colors got tedious, so I started looking for a program I could drop into my test page and preview colors in real time. To my unlimited surprise, no such thing existed. You can guess where this is going... I decided to write one.</p>
-<p>I found a color-scheme library, and hooked it up to some sliders that would jigger all the colors on my page simultaneously. I got something up and running, but soon found out there was a good reason no such thing existed: it wasn't very helpful. I scrapped it, and started looking through color swatches.</p>
+<p>The layout stuff, of course, was easy. Conceptually I know what the structure of my page should be: a central column, a sidebar, what have you. The HTML, now that’s baby stuff. But styling it? An entirely different story.</p>
+<p>I probably spent three works tweaking color-schemes. I’m an idiot and shouldn’t have spent this long, because I could have been doing it in photoshop (which would be fast), but instead was editing CSS by hand (which wasn’t fast).</p>
+<p>Tweaking colors got tedious, so I started looking for a program I could drop into my test page and preview colors in real time. To my unlimited surprise, no such thing existed. You can guess where this is going… I decided to write one.</p>
+<p>I found a color-scheme library, and hooked it up to some sliders that would jigger all the colors on my page simultaneously. I got something up and running, but soon found out there was a good reason no such thing existed: it wasn’t very helpful. I scrapped it, and started looking through color swatches.</p>
 <p>With the colors out of the way, I decided that if I was going to do this, I was going to do it <em>right</em>. One of my heroes had <a href="http://journal.stuffwithstuff.com/2014/11/03/bringing-my-web-book-to-print-and-ebook/">recently written</a> about all the typography work that had gone into producing his most recent book. I was inspired, and decided to learn about typography.</p>
-<p>The next few hours were spent reading about things like <a href="http://typecast.com/blog/4-simple-steps-to-vertical-rhythm">vertical rhythm</a> and how to go about sizing fonts relative to one another. Learning the stuff was easy; implementing it on the web is a whole different ball game. Thankfully there is a <a href="https://drewish.com/tools/vertical-rhythm/">tool</a> that figures out a lot of it for you, but there's always a catch. When you do them right, sizes on the web are all relative to one another, but structure embeds arbitrarily.</p>
-<p>Four hours went by, with me meticulously rendering pages, ensuring their vertical rhythm worked, and tweaking the CSS if it didn't. I usually broke other bits of the website while tweaking. It wasn't fun.</p>
+<p>The next few hours were spent reading about things like <a href="http://typecast.com/blog/4-simple-steps-to-vertical-rhythm">vertical rhythm</a> and how to go about sizing fonts relative to one another. Learning the stuff was easy; implementing it on the web is a whole different ball game. Thankfully there is a <a href="https://drewish.com/tools/vertical-rhythm/">tool</a> that figures out a lot of it for you, but there’s always a catch. When you do them right, sizes on the web are all relative to one another, but structure embeds arbitrarily.</p>
+<p>Four hours went by, with me meticulously rendering pages, ensuring their vertical rhythm worked, and tweaking the CSS if it didn’t. I usually broke other bits of the website while tweaking. It wasn’t fun.</p>
 <p>The <em>good news</em> is that my meticulous work has paid off. <a
 onclick="toggleLines();" href="#">Click here</a> to see just how perfect the vertical rhythm is. Amazing stuff.</p>
-<p>Click that link again if you want to make the pretty rule lines go away. But I'm not sure why you'd want to. They're gorgeous, aren't they?</p>
+<p>Click that link again if you want to make the pretty rule lines go away. But I’m not sure why you’d want to. They’re gorgeous, aren’t they?</p>
 <h2 id="hakyll-hacking">Hakyll Hacking</h2>
 <blockquote>
-<p>Feel free to skip the rest of this post if you don't care about the technical issues and solutions I ran into while setting up the rest of the site.</p>
+<p>Feel free to skip the rest of this post if you don’t care about the technical issues and solutions I ran into while setting up the rest of the site.</p>
 </blockquote>
 <p>Design? Officially done. All that was left was to get Hakyll setup properly. How hard could that be, right?</p>
-<p>See, the problem with that line of reasoning was that I had forgotten that I'm not really all that good with real-world Haskell. It's one thing to write your own code, but interacting with other people's is entirely different.</p>
+<p>See, the problem with that line of reasoning was that I had forgotten that I’m not really all that good with real-world Haskell. It’s one thing to write your own code, but interacting with other people’s is entirely different.</p>
 <p>The first thing to do was getting it to render <a href="https://www.mathjax.org/">MathJax</a>, but thankfully this was already a <a href="http://jdreaver.com/posts/2014-06-22-math-programming-blog-hakyll.html">solved problem</a>. So far, so good.</p>
 <p>Getting RSS/Atom set up was also <a href="http://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html">surprisingly easy</a>.</p>
-<p>Next, I ensured I wouldn't break any existing links to my website. My <a href="https://github.com/isovector/we-can-really-solve-this/tree/master/posts">markdown files</a> have paths of the form <code>posts/yyyy-mm-dd-slug.markdown</code>, but I wanted <code>blog/slug</code>. Octopress would rewrite them as <code>blog/slug/index.html</code> and then silently trim off the <code>index.html</code> bits, but when I tried this approach, Hakyll wasn't very happy. In the end, I settled for writing the HTML files without an extension, and changing nginx to have a default MIME type of <code>text/html</code>. Ultra yucky, but it gets the job done.</p>
+<p>Next, I ensured I wouldn’t break any existing links to my website. My <a href="https://github.com/isovector/we-can-really-solve-this/tree/master/posts">markdown files</a> have paths of the form <code>posts/yyyy-mm-dd-slug.markdown</code>, but I wanted <code>blog/slug</code>. Octopress would rewrite them as <code>blog/slug/index.html</code> and then silently trim off the <code>index.html</code> bits, but when I tried this approach, Hakyll wasn’t very happy. In the end, I settled for writing the HTML files without an extension, and changing nginx to have a default MIME type of <code>text/html</code>. Ultra yucky, but it gets the job done.</p>
 <p>In the end, my posts routing looked like this:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb2-1" title="1">match <span class="st">&quot;posts/*&quot;</span> <span class="fu">$</span> <span class="kw">do</span></a>
 <a class="sourceLine" id="cb2-2" title="2">    postMatches <span class="ot">&lt;-</span> getMatches <span class="st">&quot;posts/*&quot;</span></a>
@@ -117,8 +117,8 @@ onclick="toggleLines();" href="#">Click here</a> to see just how perfect the ver
 <a class="sourceLine" id="cb2-6" title="6">    compile <span class="fu">$</span> <span class="kw">do</span></a>
 <a class="sourceLine" id="cb2-7" title="7">        <span class="co">-- etc</span></a>
 <a class="sourceLine" id="cb2-8" title="8">  <span class="kw">where</span> (<span class="fu">&lt;+&gt;</span>) <span class="fu">=</span> composeRoutes</a></code></pre></div>
-<p>The <code>(&lt;+&gt;)</code> operator is there because <code>Routes</code> <em>has</em> a <code>Monoid</code> instance, but <code>mappend</code> is <strong>not</strong> defined as <code>composeRoutes</code>. That means it'll compile if you treat it like a monoid, but it won't work properly. This caught me up, and is particularly egregious because every other <code>Monoid</code> instance works as expected in Hakyll.</p>
-<p>The next step was to get the home page serving the most recent blog post. This was deceptively hard: I managed to implement it in 20 minutes by getting Hakyll to copy the most recent post to <code>index.html</code>, but there was a problem. The title didn't say "Home", because it was a copy. A minor problem, but since this project was all about perfectionism, I wasn't willing to give up.</p>
+<p>The <code>(&lt;+&gt;)</code> operator is there because <code>Routes</code> <em>has</em> a <code>Monoid</code> instance, but <code>mappend</code> is <strong>not</strong> defined as <code>composeRoutes</code>. That means it’ll compile if you treat it like a monoid, but it won’t work properly. This caught me up, and is particularly egregious because every other <code>Monoid</code> instance works as expected in Hakyll.</p>
+<p>The next step was to get the home page serving the most recent blog post. This was deceptively hard: I managed to implement it in 20 minutes by getting Hakyll to copy the most recent post to <code>index.html</code>, but there was a problem. The title didn’t say “Home”, because it was a copy. A minor problem, but since this project was all about perfectionism, I wasn’t willing to give up.</p>
 <p>This one turned out to be a big hack too: the template thought it was going to render all of the posts, but I only ever gave it the most recent one.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb3-1" title="1">create [<span class="st">&quot;index.html&quot;</span>] <span class="fu">$</span> <span class="kw">do</span></a>
 <a class="sourceLine" id="cb3-2" title="2">    route idRoute</a>
@@ -130,18 +130,18 @@ onclick="toggleLines();" href="#">Click here</a> to see just how perfect the ver
 <a class="sourceLine" id="cb3-8" title="8">                , defaultContext</a>
 <a class="sourceLine" id="cb3-9" title="9">                ]</a>
 <a class="sourceLine" id="cb3-10" title="10">        contentCompiler <span class="st">&quot;templates/index.html&quot;</span> indexCtx</a></code></pre></div>
-<p>Notice that I'm giving it a "list" of one post. The template <code>templates/index.html</code> looks stupid, but it's good enough for the internet:</p>
+<p>Notice that I’m giving it a “list” of one post. The template <code>templates/index.html</code> looks stupid, but it’s good enough for the internet:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb4-1" title="1">$for(posts)$</a>
 <a class="sourceLine" id="cb4-2" title="2">$body$</a>
 <a class="sourceLine" id="cb4-3" title="3">$endfor$</a></code></pre></div>
 <p>The home stretch was in sight. All that was left was to get little forward and backwards arrows on posts for easy navigation. This turned out to be <em>brutal</em>, but I eventually <a href="https://github.com/rgoulter/my-hakyll-blog/commit/47f854501395146655967db82ac740e762ef89d0">found a solution</a> deep within an old commit on GitHub.</p>
 <p>Marvelous! Everything was done! Or so I thought.</p>
 <h2 id="burning-the-books">Burning the Books</h2>
-<p>One of the lesser-known features of my website is that I collect <a href="/books/">quotes that I like from books that I've read</a>. I do all of my reading on a Kindle, which has a great feature called "My Clippings" that lets you underline and save text. Every couple of books I synchronize these clippings onto my website and build a big index.</p>
+<p>One of the lesser-known features of my website is that I collect <a href="/books/">quotes that I like from books that I’ve read</a>. I do all of my reading on a Kindle, which has a great feature called “My Clippings” that lets you underline and save text. Every couple of books I synchronize these clippings onto my website and build a big index.</p>
 <p>This has always been a huge kludge; the old Octopress site had a hand-run <a href="https://github.com/isovector/we-can-really-solve-this/blob/f0a5a0191f531453b2bd6cac5eddd3e80fe08336/octo-clip-it/clip-it.py">gnarly-ass python script</a> that would pre-process and poorly parse the Kindle files into Markdown, and then throw the resulting files somewhere Octopress could find them for its next build. It was gross, but it mostly worked. That seems to be a theme today.</p>
 <p>The problem was that it <em>mostly</em> worked. There were a bunch of things I had overlooked in my parsing: most prominently the byte-order-mark which lead to my script sometimes generating two copies of the same book with different titles.</p>
-<p>Since Hakyll wants to be the end-all-and-be-all of your site generation, I decided I'd better port over this mess as well. I learned how to use <a href="https://hackage.haskell.org/package/parsec">parsec</a>, the Haskell parser combinator library. I'm sure it would have been great if a) the Kindle files were in any sensible format and b) I had known how to use parsec properly.</p>
-<p>Neither of these were the case. I ended up doing most of the parsing with parsec, but resorted to a bodacious regex to get the title and author meta-data out. Here's a little sample for you:</p>
+<p>Since Hakyll wants to be the end-all-and-be-all of your site generation, I decided I’d better port over this mess as well. I learned how to use <a href="https://hackage.haskell.org/package/parsec">parsec</a>, the Haskell parser combinator library. I’m sure it would have been great if a) the Kindle files were in any sensible format and b) I had known how to use parsec properly.</p>
+<p>Neither of these were the case. I ended up doing most of the parsing with parsec, but resorted to a bodacious regex to get the title and author meta-data out. Here’s a little sample for you:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb5-1" title="1"><span class="ot">clipping ::</span> <span class="dt">GenParser</span> <span class="dt">Char</span> st <span class="dt">Clipping</span></a>
 <a class="sourceLine" id="cb5-2" title="2">clipping <span class="fu">=</span> <span class="kw">do</span></a>
 <a class="sourceLine" id="cb5-3" title="3">    meta <span class="ot">&lt;-</span> line</a>
@@ -155,13 +155,13 @@ onclick="toggleLines();" href="#">Click here</a> to see just how perfect the ver
 <a class="sourceLine" id="cb5-11" title="11">                <span class="dt">Nothing</span>  <span class="ot">-&gt;</span> ((<span class="st">&quot;&quot;</span>, <span class="dt">Nothing</span>), <span class="st">&quot;&quot;</span>)</a>
 <a class="sourceLine" id="cb5-12" title="12">    <span class="co">-- so, so much more</span></a></code></pre></div>
 <p>I still feel dirty.</p>
-<p>After all that work, it turns out <a href="https://hackage.haskell.org/package/clippings">there already is</a> a Haskell library to parse these damn files. I felt better when I saw that it doesn't seem like it works anymore. If I am motivated, I might clean up my copy and submit it to Hackage so nobody else needs ever again to deal with this stupid file format.</p>
+<p>After all that work, it turns out <a href="https://hackage.haskell.org/package/clippings">there already is</a> a Haskell library to parse these damn files. I felt better when I saw that it doesn’t seem like it works anymore. If I am motivated, I might clean up my copy and submit it to Hackage so nobody else needs ever again to deal with this stupid file format.</p>
 <p>I had now <em>parsed</em> the book data, but had yet to actually put it on the website. None of my initial attempts of manipulating the existing <code>create</code> directives did the trick, <a href="/blog/love-types">so I dove into the type system</a>.</p>
-<p>As far as I can tell, there is <em>no information</em> about this on the internet, so I'll explain what I did -- hopefully as a result, someone in the future will tear out less of their hair than I did.</p>
+<p>As far as I can tell, there is <em>no information</em> about this on the internet, so I’ll explain what I did – hopefully as a result, someone in the future will tear out less of their hair than I did.</p>
 <h3 id="the-theoretical">The Theoretical</h3>
 <p>Your templates can dive into a <code>$for(list)$</code> block whenever <code>list</code> has been provided in the <code>Context</code> as a <code>listField</code>. When specifying the <code>listField</code>, you need to give it a <code>[Item a]</code> and a <code>Context a</code>, where <code>Item a</code> is a unique handle for the data you want to iterate over, and the context is a way of getting data out of it.</p>
-<p>You'll need to transform any <code>[a]</code> you want to iterate over into a <code>[Item a]</code>, which is luckily just <code>mapM makeItem as</code>.</p>
-<p>Here's the kicker: diving into that <code>$for(list)$</code> block <em>changes</em> the context, and once you do, you're have a completely different variable scope. It is <strong>not</strong> lexically scoped. Right?</p>
+<p>You’ll need to transform any <code>[a]</code> you want to iterate over into a <code>[Item a]</code>, which is luckily just <code>mapM makeItem as</code>.</p>
+<p>Here’s the kicker: diving into that <code>$for(list)$</code> block <em>changes</em> the context, and once you do, you’re have a completely different variable scope. It is <strong>not</strong> lexically scoped. Right?</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb6-1" title="1">forM_ clippingsByBook <span class="fu">$</span> \book <span class="ot">-&gt;</span> <span class="kw">do</span></a>
 <a class="sourceLine" id="cb6-2" title="2">    <span class="kw">let</span> clipItems <span class="fu">=</span> sortBy (comparing dateAdded) book</a>
 <a class="sourceLine" id="cb6-3" title="3">        curBook <span class="fu">=</span> <span class="fu">head</span> book</a>
@@ -177,7 +177,7 @@ onclick="toggleLines();" href="#">Click here</a> to see just how perfect the ver
 <a class="sourceLine" id="cb6-13" title="13">                    , defaultContext</a>
 <a class="sourceLine" id="cb6-14" title="14">                    ]</a>
 <a class="sourceLine" id="cb6-15" title="15">            contentCompiler <span class="st">&quot;templates/book.html&quot;</span> ctx</a></code></pre></div>
-<p>The <code>ctx</code> here is the context for the embedding page, but the <code>clippingCtx</code> is the context for whenever you're in <code>$for(clippings)$</code>. Here's what that context looks like:</p>
+<p>The <code>ctx</code> here is the context for the embedding page, but the <code>clippingCtx</code> is the context for whenever you’re in <code>$for(clippings)$</code>. Here’s what that context looks like:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb7-1" title="1"><span class="ot">liftClip ::</span> (<span class="dt">Clipping</span> <span class="ot">-&gt;</span> <span class="dt">String</span>) <span class="ot">-&gt;</span> <span class="dt">Item</span> <span class="dt">Clipping</span> <span class="ot">-&gt;</span> <span class="dt">Compiler</span> <span class="dt">String</span></a>
 <a class="sourceLine" id="cb7-2" title="2">liftClip f <span class="fu">=</span> <span class="fu">return</span> <span class="fu">.</span> f <span class="fu">.</span> itemBody</a>
 <a class="sourceLine" id="cb7-3" title="3"></a>
@@ -190,9 +190,15 @@ onclick="toggleLines();" href="#">Click here</a> to see just how perfect the ver
 <a class="sourceLine" id="cb7-10" title="10">    ]</a></code></pre></div>
 <p>Types. Blegh.</p>
 <h2 id="infrastructure">Infrastructure</h2>
-<p>Alright! So now everything was ported, and looking <em>fresh</em>. But since I'm working on all this infrastructure anyway, there was one last piece to do. My old deploy procedure looked something like this:</p>
-<p>1) ssh into the box 2) press up 3) hope I hadn't done anything else on the box to change my history 4) hit enter 5) wait <em>forever</em> because Octopress is hella slow</p>
-<p>Yuck. Not something that would pass the <a href="http://www.joelonsoftware.com/articles/fog0000000043.html">Joel Test</a>. After a little thinking, I came up with a script that checks if it's on the right box and performs the deploy if so. If it's not, it ssh's to the box and then quines itself. I was pretty stoked with it, so I'll include it here since I'm already tooting my own horn:</p>
+<p>Alright! So now everything was ported, and looking <em>fresh</em>. But since I’m working on all this infrastructure anyway, there was one last piece to do. My old deploy procedure looked something like this:</p>
+<ol type="1">
+<li>ssh into the box</li>
+<li>press up</li>
+<li>hope I hadn’t done anything else on the box to change my history</li>
+<li>hit enter</li>
+<li>wait <em>forever</em> because Octopress is hella slow</li>
+</ol>
+<p>Yuck. Not something that would pass the <a href="http://www.joelonsoftware.com/articles/fog0000000043.html">Joel Test</a>. After a little thinking, I came up with a script that checks if it’s on the right box and performs the deploy if so. If it’s not, it ssh’s to the box and then quines itself. I was pretty stoked with it, so I’ll include it here since I’m already tooting my own horn:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb8-1" title="1"><span class="co">#!/bin/bash</span></a>
 <a class="sourceLine" id="cb8-2" title="2"></a>
 <a class="sourceLine" id="cb8-3" title="3"><span class="kw">if</span><span class="bu"> [</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">whoami</span><span class="va">)</span><span class="st">&quot;</span> <span class="ot">==</span> <span class="st">&quot;server&quot;</span><span class="bu"> ]</span>; <span class="kw">then</span></a>
@@ -204,12 +210,18 @@ onclick="toggleLines();" href="#">Click here</a> to see just how perfect the ver
 <a class="sourceLine" id="cb8-9" title="9">    <span class="fu">ssh</span> server@sandymaguire.me <span class="st">&#39;bash -s&#39;</span> <span class="op">&lt;</span> <span class="va">$0</span></a>
 <a class="sourceLine" id="cb8-10" title="10"><span class="kw">fi</span></a></code></pre></div>
 <p>Genius. And more impressively, it actually works.</p>
-<p>Well, at least, in principle. I tried it, and my box exploded because it had ran out of RAM, because I hadn't set up a swap, because I'm a shitty sysadmin, and was an even worse one when I set it up four years ago.</p>
-<p>After fighting with it for a little bit, I took the nuclear option once again. I nuked the entire instance. And I also learned I had been paying a bunch of money to Amazon for other instances I wasn't using. Kinda lame, but better late than never!</p>
-<p>Setting up EC2 is always a bigger pain than one would expect, but in the end, everything was up and running. But I couldn't launch it, because people would see the FANCY NEW DESIGN but wouldn't have any fantastic blog post to elucidate them on what happened.</p>
-<p>If you're interested, all the source code for my labors of love can be found on <a href="https://github.com/isovector/we-can-really-solve-this">GitHub</a>.</p>
-<p>It's been a busy week. It's been a really busy week. And the worst part is, this is the only thing I've been working on for that <em>entire time</em>. And now it's done and it's only 2am and I can spend the rest of the night finding something new and trivial to work on.</p>
+<p>Well, at least, in principle. I tried it, and my box exploded because it had ran out of RAM, because I hadn’t set up a swap, because I’m a shitty sysadmin, and was an even worse one when I set it up four years ago.</p>
+<p>After fighting with it for a little bit, I took the nuclear option once again. I nuked the entire instance. And I also learned I had been paying a bunch of money to Amazon for other instances I wasn’t using. Kinda lame, but better late than never!</p>
+<p>Setting up EC2 is always a bigger pain than one would expect, but in the end, everything was up and running. But I couldn’t launch it, because people would see the FANCY NEW DESIGN but wouldn’t have any fantastic blog post to elucidate them on what happened.</p>
+<p>If you’re interested, all the source code for my labors of love can be found on <a href="https://github.com/isovector/we-can-really-solve-this">GitHub</a>.</p>
+<p>It’s been a busy week. It’s been a really busy week. And the worst part is, this is the only thing I’ve been working on for that <em>entire time</em>. And now it’s done and it’s only 2am and I can spend the rest of the night finding something new and trivial to work on.</p>
 <p><em>Muahahahaha.</em></p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>I realize the irony, thank you.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
 
 </article>
 

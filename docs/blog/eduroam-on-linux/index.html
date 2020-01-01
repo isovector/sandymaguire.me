@@ -49,19 +49,19 @@
          <div class="meta">November 11, 2013</div>
 
 <article>
-    <p>My life over the last few months has been a living hell, and it's almost entirely been <a href="https://www.eduroam.org/">eduroam</a>'s fault. For those of you who don't know what eduroam is:</p>
+    <p>My life over the last few months has been a living hell, and it’s almost entirely been <a href="https://www.eduroam.org/">eduroam</a>’s fault. For those of you who don’t know what eduroam is:</p>
 <ul>
-<li>it's a wireless network supported at most universities</li>
+<li>it’s a wireless network supported at most universities</li>
 <li>this blog post is not for you.</li>
 </ul>
-<p>For those of you who DO know what eduroam is, however, you've probably noticed that it doesn't work well (if at all) on Linux. Why? Nobody seems to know, but today I got fed up with not having wireless on campus and decided to see if I could figure it out.</p>
-<p>The good news: I was successful. The bad news is that my solution is pretty roundabout, and I'm not entirely sure what's necessary. Irregardless, I've decided to share it with you, just in case somebody is running into the same issues and are otherwise being failed by their google-fu.</p>
+<p>For those of you who DO know what eduroam is, however, you’ve probably noticed that it doesn’t work well (if at all) on Linux. Why? Nobody seems to know, but today I got fed up with not having wireless on campus and decided to see if I could figure it out.</p>
+<p>The good news: I was successful. The bad news is that my solution is pretty roundabout, and I’m not entirely sure what’s necessary. Irregardless, I’ve decided to share it with you, just in case somebody is running into the same issues and are otherwise being failed by their google-fu.</p>
 <p>I can only claim this will work on Debian, and even then, there are no guarantees, and I am not liable if something breaks.</p>
 <p>So, first things first, I got rid of any built-in network managers, deciding to roll with my boy on the command line, <em>wpa_supplicant</em> (and <em>wpagui</em> if I ever really need a connection manager).</p>
 <pre><code>$ sudo apt-get install openssl wget wpasupplicant wpagui</code></pre>
-<p>Next, calculate the hash of your password so you don't need to keep it in plaintext:</p>
+<p>Next, calculate the hash of your password so you don’t need to keep it in plaintext:</p>
 <pre><code>$ echo -n your-password-goes-here | iconv -t utf16le | openssl md4</code></pre>
-<p>With this, we're now ready to set up <strong>/etc/wpa_supplicant.conf</strong>:</p>
+<p>With this, we’re now ready to set up <strong>/etc/wpa_supplicant.conf</strong>:</p>
 <pre><code>ctrl_interface=DIR=/run/wpa_supplicant GROUP=users
 eapol_version=1
 ap_scan=1
@@ -83,19 +83,19 @@ network={
 $ sudo wget -O /usr/share/ca-certificates/mozilla/Eduroam.crt https://www.eduroam.us/webfm_send/223</code></pre>
 <p>And prevent the default networking service, which thrashes with our new setup:</p>
 <pre><code>$ sudo update-rc.d networking remove</code></pre>
-<p>Now, if you're lucky (which I wasn't), you should be now able to connect to (and successfully use) eduroam:</p>
+<p>Now, if you’re lucky (which I wasn’t), you should be now able to connect to (and successfully use) eduroam:</p>
 <pre><code>$ sudo wpa_supplicant -Dnl80211,wext -iwlan0 -c/etc/wpa_supplicant.conf &amp;
 $ sudo dhclient wlan0</code></pre>
-<p>If you're unlucky, it will connect, and you'll get great speeds for a few seconds, and then experience ridiculous amounts of packet loss. In my case, this was caused by some tricky driver issues.</p>
+<p>If you’re unlucky, it will connect, and you’ll get great speeds for a few seconds, and then experience ridiculous amounts of packet loss. In my case, this was caused by some tricky driver issues.</p>
 <p>Check the output of:</p>
 <pre><code>$ lsmod | grep iwlwifi</code></pre>
-<p>Should you get any output whatsoever, you're using the Intel iwlwifi drivers, and you will probably experience the networking thrashing. The issue in particular is that the wireless-n support is really spotty, and takes precedence over the working interfaces.</p>
+<p>Should you get any output whatsoever, you’re using the Intel iwlwifi drivers, and you will probably experience the networking thrashing. The issue in particular is that the wireless-n support is really spotty, and takes precedence over the working interfaces.</p>
 <p>Put the following into <strong>/etc/modprobe.d/iwlwifi.conf</strong>:</p>
 <pre><code>options iwlwifi auto_agg=0 wd_disable=1 11n_disable=1 swcrypto=1</code></pre>
 <p>And then reload the iwlwifi module:</p>
 <pre><code>$ sudo rmmod iwldvm iwlwifi
 $ sudo modprobe iwlwifi</code></pre>
-<p>Connect again. It'll probably work!</p>
+<p>Connect again. It’ll probably work!</p>
 <pre><code>$ sudo wpa_supplicant -Dnl80211,wext -iwlan0 -c/etc/wpa_supplicant.conf &amp;
 $ sudo dhclient wlan0</code></pre>
 <p>Yay! Great success! Well done, everybody. Give yourself a pat on the back, and enjoy that sweet, sweet eduroam access.</p>
