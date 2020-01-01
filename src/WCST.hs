@@ -220,7 +220,7 @@ sandyReader =
 
 extensions :: [Extension]
 extensions =
-  [ Ext_tex_math_dollars
+  [ -- Ext_tex_math_dollars
   -- , Ext_latex_macros
-  , Ext_footnotes
+  Ext_footnotes
   ]
