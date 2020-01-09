@@ -2,30 +2,26 @@
 layout: post
 page_title: What I'm Doing Now
 title: What I'm Doing Now
-date: "July 22, 2019"
+date: "January 09, 2020"
 confidence: 1
 comments: false
 has_related: false
 ---
 
-I've decided to leave Ottawa, to focus full time on my [Erdos Project][erdos].
-The idea is to travel around the world, sleeping on Haskeller's couches,
-inspiring them to bunk off work and program with me nonstop for a few days.
-Rinse and repeat for as long as I can handle sleeping on couches.
+Vietnam. I'm not sure how I ended up here, but I'm hot on the trail of a few
+intensely-burning and unsurprisingly wildly-short relationships. I'm taking a
+sabbatical from programming due to serious burnout, and am instead playing music
+and taking care of myself.
 
-[erdos]: https://isovector.github.io/erdos/
+The plan is to slowly meander my way down to Koh Lanta, where I spent six lovely
+weeks. It's the only place that's felt like "home" in a long time, so it seems
+like the sort of place I should get back to.
 
-The last few days have been a flurry of Kijiji, Craigslist and Facebook selling.
-I've never used any of these services to buy anything, so I'm continually amazed
-at how thirsty people are for *stuff.* As someone who practices inbox
-zero, getting emails stresses me the fuck out. It's been a hard few days, but
-I've now gotten rid of almost everything I own. I'll only be taking one
-carry-on-sized suitcase. It looks small, but my god, having such a constraint
-really forces you to pare down to the necessities.
+Output-wise, I'm currently working on some 2020 goals, and putting together a
+retrospective of the last decade. The goals are tentatively to learn how to love
+vegetables, find a location to settle, fill my passport, go on more adventures,
+and broaden my employable skills.
 
-All of this is scary, but I feel more alive than I have in years. As far as
-strategies go, I think that moving towards feeling alive can't possibly be a bad
-one.
-
-More when I know it.
+Maybe I should add "update my *now* page more often than every six months" too
+that list.
 
