@@ -1,0 +1,126 @@
+---
+layout: post
+title: decade
+date: 2020-01-12 12:48
+comments: true
+tags: foo, bar
+confidence: 4
+---
+
+Not only is it a new year --- and therefore a new me --- but it's also a *new
+decade.* Having been born in 1990, new decades for the world roughly correspond
+to new decades for me. I thought it would be interesting and nostalgic to look
+back at the last ten years to see what I've learned.
+
+The most important thing I learned in the last decade was **confidence.**
+Interestingly, in my [earliest blog post](/blog/the-secret-of-happinesstm/), I
+give the advice to "trust yourself. I mean, really trust yourself." Apparently I
+thought I was already confident --- I wasn't. In particular, I learned to be
+aware of [Dunning-Kruger](/blog/double-dipping/), and that [most problems are
+effort-constrained](/blog/brilliance/). I learned that there is nothing magical
+[separating me (or anyone else) from geniuses](/blog/no-miracle-people/). I
+learned to [separate the person I am from the person I want to
+be](/blog/a-lesson-learned/), and to focus on the latter. I learned about the
+[importance of knowing the people around you](193.138.218.74), and of [having
+good social support structures in place](/blog/home-is-where-your-people-are/).
+Along those lines, I started being [very selective about the people I was
+spending time with](193.138.218.74). I [learned about
+dating](/blog/get-the-girl/), and how to be attractive, and how to make moves
+--- it turns out people aren't mind readers, and if you don't tell them you're
+interested, they don't know.
+
+But in general, what I really learned here was to [stop being so *fucking
+scared*](/blog/building-over-the-abyss/) of [everything all the
+time](/blog/comfort-zones/). I learned to just go do things. Sometimes they'll
+go poorly, but more often they'll go well. And if you're smart and trust in
+yourself to be able to handle the failures, well, that's most of life right
+there. I learned about [how I failed](/blog/shame/), and to [reflect on those
+things](/blog/why-i-quit/), and to promise myself [to never do them
+again](/blog/letter-to-myself/). One particular tactic that came out of this new
+understanding is to [always say "yes" to thing.](/blog/new-city-guide/)
+
+The second most important thing I learned over the last decade was **strategy.**
+I learned to [build up momentum](/blog/affording-ascendancy/) in roughly the
+right direction, even if I wasn't [entirely sure](/blog/one-night-stands/) where
+I was [intending to land](/blog/showing-me-the-way/). I used this technique to
+[systematically put together](/blog/book-mechanics/) an amazing CV, and arguably
+[an even more impressive set of skills](/blog/become-a-programmer/). I learned
+about the [notion of career capital](/blog/say-hi-to-lucy/), and [accumulated
+enough of it](/blog/book-mechanics/) to turn it into a [successful
+book](https://thinkingwithtypes.com). I learned about the value of publicly
+[committing to doing something that sounds hard and
+scary](/blog/book-mechanics/)[^1]. After some talks at work that went *very
+badly,* I learned the importance of playing to your audience. Perhaps *most
+importantly*, I learned that I need [very specific goals and
+metrics](/blog/looking-back-on-2018/) if I want to have [successful
+years](/blog/2013-in-review/).
+
+[^1]: Which, as it happens, is why I'm writing this post today. I promised my
+  friend Ciara that I would. Thanks Ciara!
+
+The third most important thing I learned was how to get a sense of my **limits
+and capabilities.** I learned that that feeling of "omg I am *already* working
+at full capacity" is [usually wrong](/blog/nanowrimo-postmortem/), and that
+[real burnout](/blog/burnout/) feels more like carrying physical weight. I
+successfully [identified abstraction as being a worthwhile
+tool](/blog/generalization-as-intelligence-amplification/) to [study in its own
+regard](/blog/chunking-conceptual-legos/). I realized that Haskell is [the best
+vessel for exercising those abstraction
+muscles](https://reasonablypolymorphic.com/blog/archives/). I learned to put [my
+money where my mouth is](/blog/first-20-recursive-bees/) and to always be
+willing to bet on my beliefs. I further learned that this makes *everyone else*
+very very uncomfortable. I learned how to focus my zen, and how to be
+responsible for how I feel, and to not try and shirk it off onto other people. I
+learned a lot about my [common](/blog/thrashing-wildly/) [failure
+methods](/blog/too-smart/). I realized the importance of having [uninterrupted
+attention](/blog/reclaim-your-attention/), and [threw my phone into a large body
+of water](/blog/reflections-on-a-dumb-phone/) not once, but three times, during
+the last decade.
+
+Fourth on the list of big things I made progress on is my **sense of purpose.**
+In the early days of the decade, I spent a [lot of
+time](/blog/along-for-the-ride/) talking about [saving the
+world](/blog/not-for-its-own-sake/) without knowing what that meant or what it
+would look like. I think I have made some good progress on this, and to be
+specific, I think that climate change and late-stage democracy are big problems
+that could be solved by a few smart, technical people working evening weekends.
+I intend to spend the next decade being one of those people. I learned to start
+[taking responsibility](/blog/building-over-the-abyss/) for my failings, and
+[for problems around me.](/blog/shame)[^2] I learned to [question
+authority](/blog/authority-and-momentum/), and that [the people in
+charge](/blog/where-uni-fails/) don't [know any better than I
+do,](/blog/teaching-badly)
+
+[^2]: In particular, my good friend Austin Dobrik has been a huge role model on
+  this front. I've spent the last ten years constantly amazed at his bravery in
+  calling out bad behavior and helping people in dire situations.
+
+Finally, I made a lot of progress on my **lifestyle.** I learned that the
+traditional Western path is [definitely not](/blog/perpetual-motion/) [for
+me.](/blog/reaching-climbing/) I learned that I need [very
+little](/blog/no-possessions/) to survive, and that realization has afforded me
+the ability to [pack up and leave](/blog/skaidre/) whenever I [feel like
+it.](/blog/best-place-to-live/) These days, my total worldly possessions weigh
+about 7kg. I've learned how to travel, and how to put myself in uncomfortable
+situations in which I need to YOLO my way out. Through lots of trial and error,
+I learned [how to move to a new city](/blog/new-city-guide/).
+
+In addition to all of this, I learned lots of *things.* After all, I spent five
+years this decade in university, another five teaching myself Haskell, and one
+year [actively doing
+research](https://reasonablypolymorphic.com/tags/polysemy.html). As a
+programmer, I'm several orders of magnitude better than I was ten years ago. I'm
+also [ten times a better musician](/blog/play-lots-of-music/), much better at
+speaking French, and infinitely better at skateboarding, improv, electronics
+repair, building IKEA furniture, and miming in languages I don't understand.
+
+<a href="/images/decade/world2020.png"><img src="/images/decade/world2020.png" alt="Everywhere I've been"
+width="50%" height="50%"/></a>
+
+All in all, it's been a great decade. I'm happy with how much progress I've
+made, but it's clear that I need to get better faster if I want to tackle
+everything on the bucket list.
+
+Thanks for staying with me over the last decade. Let's strive, and collectively
+make the 2020s our best decade yet.
+
