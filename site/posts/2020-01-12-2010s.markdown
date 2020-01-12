@@ -1,10 +1,10 @@
 ---
 layout: post
-title: decade
+title: "What Did I Learn in the 2010s?"
 date: 2020-01-12 12:48
 comments: true
-tags: foo, bar
-confidence: 4
+tags: review
+confidence: 2
 ---
 
 Not only is it a new year --- and therefore a new me --- but it's also a *new
