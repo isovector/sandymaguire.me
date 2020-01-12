@@ -114,8 +114,12 @@ also [ten times a better musician](/blog/play-lots-of-music/), much better at
 speaking French, and infinitely better at skateboarding, improv, electronics
 repair, building IKEA furniture, and miming in languages I don't understand.
 
+<center>
 <a href="/images/decade/world2020.png"><img src="/images/decade/world2020.png" alt="Everywhere I've been"
-width="50%" height="50%"/></a>
+width="80%" height="80%"/></a>
+
+Everywhere I've been, as of 2020
+</center>
 
 All in all, it's been a great decade. I'm happy with how much progress I've
 made, but it's clear that I need to get better faster if I want to tackle
