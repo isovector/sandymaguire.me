@@ -1,11 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2020-01-01T14:58:00Z</updated>
+  <updated>2020-01-12T12:48:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>What Did I Learn in the 2010s?</title>
+      <id>blog/2010s/index.html</id>
+      <link href='blog/2010s/index.html'/>
+      <published>2020-01-12T12:48:00Z</published>
+      <updated>2020-01-12T12:48:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <p>Not only is it a new year — and therefore a new me — but it’s also a <em>new decade.</em> Having been born in 1990, new decades for the world roughly correspond to new decades for me. I thought it would be interesting and nostalgic to look back at the last ten years to see what I’ve learned.</p>
+<p>The most important thing I learned in the last decade was <strong>confidence.</strong> Interestingly, in my <a href="/blog/the-secret-of-happinesstm/">earliest blog post</a>, I give the advice to “trust yourself. I mean, really trust yourself.” Apparently I thought I was already confident — I wasn’t. In particular, I learned to be aware of <a href="/blog/double-dipping/">Dunning-Kruger</a>, and that <a href="/blog/brilliance/">most problems are effort-constrained</a>. I learned that there is nothing magical <a href="/blog/no-miracle-people/">separating me (or anyone else) from geniuses</a>. I learned to <a href="/blog/a-lesson-learned/">separate the person I am from the person I want to be</a>, and to focus on the latter. I learned about the <a href="193.138.218.74">importance of knowing the people around you</a>, and of <a href="/blog/home-is-where-your-people-are/">having good social support structures in place</a>. Along those lines, I started being <a href="193.138.218.74">very selective about the people I was spending time with</a>. I <a href="/blog/get-the-girl/">learned about dating</a>, and how to be attractive, and how to make moves — it turns out people aren’t mind readers, and if you don’t tell them you’re interested, they don’t know.</p>
+<p>But in general, what I really learned here was to <a href="/blog/building-over-the-abyss/">stop being so <em>fucking scared</em></a> of <a href="/blog/comfort-zones/">everything all the time</a>. I learned to just go do things. Sometimes they’ll go poorly, but more often they’ll go well. And if you’re smart and trust in yourself to be able to handle the failures, well, that’s most of life right there. I learned about <a href="/blog/shame/">how I failed</a>, and to <a href="/blog/why-i-quit/">reflect on those things</a>, and to promise myself <a href="/blog/letter-to-myself/">to never do them again</a>. One particular tactic that came out of this new understanding is to <a href="/blog/new-city-guide/">always say “yes” to thing.</a></p>
+<p>The second most important thing I learned over the last decade was <strong>strategy.</strong> I learned to <a href="/blog/affording-ascendancy/">build up momentum</a> in roughly the right direction, even if I wasn’t <a href="/blog/one-night-stands/">entirely sure</a> where I was <a href="/blog/showing-me-the-way/">intending to land</a>. I used this technique to <a href="/blog/book-mechanics/">systematically put together</a> an amazing CV, and arguably <a href="/blog/become-a-programmer/">an even more impressive set of skills</a>. I learned about the <a href="/blog/say-hi-to-lucy/">notion of career capital</a>, and <a href="/blog/book-mechanics/">accumulated enough of it</a> to turn it into a <a href="https://thinkingwithtypes.com">successful book</a>. I learned about the value of publicly <a href="/blog/book-mechanics/">committing to doing something that sounds hard and scary</a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. After some talks at work that went <em>very badly,</em> I learned the importance of playing to your audience. Perhaps <em>most importantly</em>, I learned that I need <a href="/blog/looking-back-on-2018/">very specific goals and metrics</a> if I want to have <a href="/blog/2013-in-review/">successful years</a>.</p>
+<p>The third most important thing I learned was how to get a sense of my <strong>limits and capabilities.</strong> I learned that that feeling of “omg I am <em>already</em> working at full capacity” is <a href="/blog/nanowrimo-postmortem/">usually wrong</a>, and that <a href="/blog/burnout/">real burnout</a> feels more like carrying physical weight. I successfully <a href="/blog/generalization-as-intelligence-amplification/">identified abstraction as being a worthwhile tool</a> to <a href="/blog/chunking-conceptual-legos/">study in its own regard</a>. I realized that Haskell is <a href="https://reasonablypolymorphic.com/blog/archives/">the best vessel for exercising those abstraction muscles</a>. I learned to put <a href="/blog/first-20-recursive-bees/">my money where my mouth is</a> and to always be willing to bet on my beliefs. I further learned that this makes <em>everyone else</em> very very uncomfortable. I learned how to focus my zen, and how to be responsible for how I feel, and to not try and shirk it off onto other people. I learned a lot about my <a href="/blog/thrashing-wildly/">common</a> <a href="/blog/too-smart/">failure methods</a>. I realized the importance of having <a href="/blog/reclaim-your-attention/">uninterrupted attention</a>, and <a href="/blog/reflections-on-a-dumb-phone/">threw my phone into a large body of water</a> not once, but three times, during the last decade.</p>
+<p>Fourth on the list of big things I made progress on is my <strong>sense of purpose.</strong> In the early days of the decade, I spent a <a href="/blog/along-for-the-ride/">lot of time</a> talking about <a href="/blog/not-for-its-own-sake/">saving the world</a> without knowing what that meant or what it would look like. I think I have made some good progress on this, and to be specific, I think that climate change and late-stage democracy are big problems that could be solved by a few smart, technical people working evening weekends. I intend to spend the next decade being one of those people. I learned to start <a href="/blog/building-over-the-abyss/">taking responsibility</a> for my failings, and <a href="/blog/shame">for problems around me.</a><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> I learned to <a href="/blog/authority-and-momentum/">question authority</a>, and that <a href="/blog/where-uni-fails/">the people in charge</a> don’t <a href="/blog/teaching-badly">know any better than I do,</a></p>
+<p>Finally, I made a lot of progress on my <strong>lifestyle.</strong> I learned that the traditional Western path is <a href="/blog/perpetual-motion/">definitely not</a> <a href="/blog/reaching-climbing/">for me.</a> I learned that I need <a href="/blog/no-possessions/">very little</a> to survive, and that realization has afforded me the ability to <a href="/blog/skaidre/">pack up and leave</a> whenever I <a href="/blog/best-place-to-live/">feel like it.</a> These days, my total worldly possessions weigh about 7kg. I’ve learned how to travel, and how to put myself in uncomfortable situations in which I need to YOLO my way out. Through lots of trial and error, I learned <a href="/blog/new-city-guide/">how to move to a new city</a>.</p>
+<p>In addition to all of this, I learned lots of <em>things.</em> After all, I spent five years this decade in university, another five teaching myself Haskell, and one year <a href="https://reasonablypolymorphic.com/tags/polysemy.html">actively doing research</a>. As a programmer, I’m several orders of magnitude better than I was ten years ago. I’m also <a href="/blog/play-lots-of-music/">ten times a better musician</a>, much better at speaking French, and infinitely better at skateboarding, improv, electronics repair, building IKEA furniture, and miming in languages I don’t understand.</p>
+<p><a href="/images/decade/world2020.png"><img src="/images/decade/world2020.png" alt="Everywhere I've been"
+width="50%" height="50%"/></a></p>
+<p>All in all, it’s been a great decade. I’m happy with how much progress I’ve made, but it’s clear that I need to get better faster if I want to tackle everything on the bucket list.</p>
+<p>Thanks for staying with me over the last decade. Let’s strive, and collectively make the 2020s our best decade yet.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Which, as it happens, is why I’m writing this post today. I promised my friend Ciara that I would. Thanks Ciara!<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>In particular, my good friend Austin Dobrik has been a huge role model on this front. I’ve spent the last ten years constantly amazed at his bravery in calling out bad behavior and helping people in dire situations.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>Revisiting 2019</title>
       <id>blog/revisiting-2019/index.html</id>
@@ -401,56 +432,6 @@
       <content type="html">
         <![CDATA[
         <p>I just wanted to announce that <a href="https://everygoodboydeservesfruit.com/">I’ve launched a new website</a>, documenting the things I learn in my quest to <a href="/blog/play-lots-of-music/">just play lots of music</a>.</p>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>Book Review: Utopia for Realists</title>
-      <id>blog/utopia-for-realists/index.html</id>
-      <link href='blog/utopia-for-realists/index.html'/>
-      <published>2019-02-05T13:37:00Z</published>
-      <updated>2019-02-05T13:37:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <p>Rutger Bergman’s <a href="https://www.goodreads.com/book/show/40876575-utopia-for-realists">Utopia for Realists</a> is a book whose primary thesis is that we should have a guaranteed minimum income (GMI).</p>
-<p>I must admit, I was pretty sold on a guaranteed minimum income before reading this book. I hadn’t thought too much about it, besides the fact that lots of smart people I know say it’s a good idea, and that obviously we’re going to need a solution to what happens to humans after we automate away all of the jobs.</p>
-<p>After reading this book, I am significantly less on-board with the idea.</p>
-<p>What it boils down to is that Utopia for Realists isn’t very good. If these are the best arguments for a GMI, well… let’s hope that they’re not the best arguments for a GMI.</p>
-<p>I can’t make up my mind on whether this book is <em>merely incompetent</em> or actively <em>dishonest.</em></p>
-<p>For example, the book discusses the <a href="https://en.wikipedia.org/wiki/Speenhamland_system">Speenhamland system</a>, which it describes as an early form of GMI, and then discusses a contemporary report which described it as a failed experiment. But then Utopia for Realists turns around with the sentence “more recent research has revealed that the Speenhamland system was actually a success.” A description of how the original study was supposedly flawed, but no citation to back it up. No reference to which “more recent research” reveals resounding success. There are lots of other citations in the book. Why not one here?</p>
-<p>Utopia makes some other bold claims without backing them up; here’s a few that bothered me enough to mark them down:</p>
-<ul>
-<li>“Ultimately, the perfect, self-regulating market proved an illusion.”</li>
-<li>“The historian Brian Steesland… emphasizes that, had Nixon’s plan gone ahead, the ramifications would have been huge… No longer would there be such a thing as the ‘deserving’ or ‘undeserving poor’ [no citation]”</li>
-</ul>
-<p>There was another time I wanted to check a source. The book makes a case for “giving housing/money to homeless people is cheaper than dealing with the consequences of not” via a case study. I’m willing to believe this; prevention <em>is</em> usually a better strategy than treatment. OK, fine. What I wanted to check was the cost breakdown; Utopia describes the project as costing $217 million, and being responsible for getting 6,500 people off of the streets over nine years. This struck me as being exorbitantly expensive, and I wanted to check their methodologies and math.</p>
-<p>The given citation for this “unmitigated success” was to a random pdf on the Utrecht municipal website which doesn’t exist anymore. I didn’t try any harder than this to find the document. <a href="https://www.binnenlandsbestuur.nl/sociaal/achtergrond/achtergrond/rotterdam-haalt-daklozen-in-huis.127589.lynkx">The citation describing the experiment</a> points to a Dutch news site (that Google annoyingly refuses to translate) that looks more like an op-ed than anything official, but more damningly, doesn’t provide any links closer to the original source.</p>
-<p>Bregman’s grasp of economics is pretty tenuous. For example:</p>
-<blockquote>
-<p>From a certain perspective, [Bastiat] says, breaking a window sounds like a fine idea. “Imagine it costs six francs to repair the damage. And imagine that this creates a commercial gain of six francs—<em>I confess there’s no arguing with this reasoning.</em> The glazier comes along, does his work, and happily pockets six francs…” [emphasis mine]</p>
-</blockquote>
-<p><em>No arguing?</em> Except that the glazier charges a fair price to replace the window, so he is only marginally better off after replacing the window, but the world <a href="https://www.youtube.com/watch?v=rK6VGP1B2Hw">has lost one window</a> and the owner is the worse-off for it.</p>
-<p>He goes on:</p>
-<blockquote>
-<p>Unlike the manufacture of a fridge or a car, history lessons and doctor’s [sic] checkups can’t simply be made “more efficient.”</p>
-</blockquote>
-<p>This is absurdly stupid. We’ve all taken classes that were long-winded and boring. The quality of a teacher has a huge bearing on how efficiently we learn from them. Websites like <a href="https://www.khanacademy.org/">Khan Academy</a> are teaching entire university courses in a fraction of the time it would take to do through the usual channels. Doctors’ checkups <em>can</em> and <em>have</em> been made more efficient; it’s not an accident that doctors carry stethoscopes and have access to MRI machines.</p>
-<p>But Bergman persists:</p>
-<blockquote>
-<p>… the government is gobbling up a growing share of the economic pie… this phenomenon is now known as “Baumol’s cost disease,” basically says that prices in labor-intensive sectors such as healthcare and education increase faster than prices in sectors where most of the work can be more extensively automated… shouldn’t we be calling this a blessing, rather than a disease? After all, the more efficient our factories and our computers, the less efficient our healthcare and education need to be; that is, the more time we have left to attend to the old and infirm and to organize education on a more personal scale.</p>
-<p>When you’re obsessed with efficient and productivity, it’s difficult to see the real value of education and care. Which is why so many politicians and taxpayers alike see only the costs. They don’t realize that the richer a country becomes the more it should be spending on teachers and doctors.</p>
-</blockquote>
-<p>No no no no no no. Cost disease doesn’t say “we spend too much on healthcare and education.” It says “<a href="https://slatestarcodex.com/2017/02/09/considerations-on-cost-disease/">we spend too much on healthcare and education <em>on the margin.</em></a>” Which is to say that in less cost-diseased countries, spending an additional $1,000 will buy you a lot more than <em>the same additional</em> $1,000 in a more cost-diseased place.</p>
-<p>Cost disease is the phenomenon that we’re <em>paying more to get less.</em> For example, Thailand has a booming dentistry industry among Australians because you can get the same quality work done for significantly less money. This isn’t “exploiting Thai workers” nor is it “taking jobs away from Australians”—it’s just Australian cost disease.</p>
-<hr />
-<p>A significantly smaller portion of the book describes the fifteen-hour workweek is an ideal one. Sure! Sounds good! But, Bergman says, “breaking the vicious cycle [of the 40 hour workweek] will require collective action—by companies, or better yet, by countries.”</p>
-<p>I don’t get this one. If you want to work less than 40 hours, just… work less than 40 hours? Nobody is forcing you, except your spending habits. As it happens, life is actually pretty cheap. Find a small apartment, share it with some roommates, and eat a lot of rice. You can definitely manage to do it for less than $800 a month if you’re willing to shop around—and especially if you’re willing to move.</p>
-<p>The secret is to just not spend money. That means stop eating lavish meals. Don’t get a pet. Don’t buy a vehicle. Stop drinking and smoking and give up whatever other vices you have that cost a bunch of money. It sounds dumb, but the secret to not working very much is to not need a lot of money.</p>
-<p>And then use your extra time to <a href="/blog/become-a-programmer">learn how to do something valuable</a> so that you can work even less.</p>
-<hr />
-<p>At the end of the day, I get the strong impression that this book was <a href="https://www.lesswrong.com/posts/34XxbRFe54FycoCDw/the-bottom-line">written backwards</a>. Bergman very clearly believes in his cause, and has worked backwards trying to find arguments that support it—as evidenced by the sloppy citation work, numerous straw-men and gross-misunderstanding of the arguments against his point of view.</p>
-<p>It’s a particularly bad sign when a book is <em>so bad that it makes people on your side agree with you less after reading it.</em> Give this one a miss, but if you’re looking for a <em>significantly</em> better resource championing MGI, look no further than <a href="https://slatestarcodex.com/2018/05/16/basic-income-not-basic-jobs-against-hijacking-utopia/">Slate Star Codex’s take on same</a>.</p>
         ]]>
       </content>
     </entry>
