@@ -1,0 +1,74 @@
+---
+layout: post
+title: Habits
+date: 2020-01-13 14:21
+comments: true
+tags: life, relationships
+confidence: 3
+---
+
+
+One of the things I learned last decade ([but forgot to mention][decade]) is that actions
+are the only things that matter. Who you are inside simply doesn't count if you
+never show it to people. This is an important realization --- that true beliefs
+must guide action. Nobody in a mind-reader, and so nobody will never know what's
+inside if you don't show them.
+
+[decade]: /blog/2010s/
+
+Beliefs that are only inside you, by definition, are not out in the world, and
+thus can never influence the world. Action are what count --- in fact, they're
+all that count.
+
+Before this week, when I thought of "habits", I associated "thing that you
+consistently do". But as I've been coming to realize, habits of "things you
+consistently do not do" are likely just as important, if not more. For example,
+late last year I was going through a machine learning course, and while I made
+it a habit of watching a lecture every day, I also made a habit of not actually
+trying any of it myself. The result: I have a high-level idea of how machine
+learning works, but I've never tried it, and the thought of getting started and
+*actually doing it* feels uncomfortable. My habit is now to learn about machine
+learning, but to not actually practice it.
+
+Bad idea.
+
+All we are is creatures of habits. In a very real sense, we are defined by the
+things we do habitually. And this is an important thing to recognize --- that if
+we don't nip small problem, they will quickly grow into traits that
+fundamentally weaken our character.
+
+Dollar to donuts, I would guess that this idea of "negative habits" is why
+university is so much more successful at teaching than self-directed online
+classes. Having graded homework that you're paying for is one hell of a
+motivator to get into the habit of applying what you learn.
+
+Right now I'm studying computer security from a textbook. The nice part of a
+textbook is that you can work on it anywhere. After three days of study, I
+realized I had made terrific progress through the book, but, like in machine
+learning, hadn't attempted any of the exercises for myself. Worse, the thought of
+doing an exercise already filled me with apprehension.
+
+Another bad situation to be in. So I [drew up some willpower][strength], then
+and there, to get started on one.  Mustering the energy was hard, but learning
+this stuff is important to me --- and it definitely wasn't going to get easier
+to break the habit if I put this thing off again.
+
+[strength]: /blog/strength/
+
+On a related note, I have recently identified a failure mechanism in
+myself. I just got out of a short, but fiery relationship. Within a month we
+went from having never met to living with one another in a foreign country where
+neither of us spoke the language, and spending literally all of our time together.
+
+As you might expect, things exploded rather spectacularly, and I think a huge
+part of it was due to the fact that neither of us could practice the habits that
+define us. We were too crowded by one another to maintain ourselves. Without
+practicing our habits, we stop being ourselves in a very literal sense --- after
+all, we are what we do.
+
+I think this is an important thing to keep in mind when navigating a new
+relationship: the reason you like someone is the culmination of the things they
+do. As such, we should be very hesitant to disrupt that balance. Unless
+you're impossibly compatible to begin with, introducing charge slowly (maybe
+imperceptibly) seem like a prudent move.
+
