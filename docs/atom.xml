@@ -1,11 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2020-01-12T12:48:00Z</updated>
+  <updated>2020-01-13T14:21:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>Habits</title>
+      <id>blog/habits/index.html</id>
+      <link href='blog/habits/index.html'/>
+      <published>2020-01-13T14:21:00Z</published>
+      <updated>2020-01-13T14:21:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <p>One of the things I learned last decade (<a href="/blog/2010s/">but forgot to mention</a>) is that actions are the only things that matter. Who you are inside simply doesn’t count if you never show it to people. This is an important realization — that true beliefs must guide action. Nobody in a mind-reader, and so nobody will never know what’s inside if you don’t show them.</p>
+<p>Beliefs that are only inside you, by definition, are not out in the world, and thus can never influence the world. Action are what count — in fact, they’re all that count.</p>
+<p>Before this week, when I thought of “habits”, I associated “thing that you consistently do”. But as I’ve been coming to realize, habits of “things you consistently do not do” are likely just as important, if not more. For example, late last year I was going through a machine learning course, and while I made it a habit of watching a lecture every day, I also made a habit of not actually trying any of it myself. The result: I have a high-level idea of how machine learning works, but I’ve never tried it, and the thought of getting started and <em>actually doing it</em> feels uncomfortable. My habit is now to learn about machine learning, but to not actually practice it.</p>
+<p>Bad idea.</p>
+<p>All we are is creatures of habits. In a very real sense, we are defined by the things we do habitually. And this is an important thing to recognize — that if we don’t nip small problem, they will quickly grow into traits that fundamentally weaken our character.</p>
+<p>Dollar to donuts, I would guess that this idea of “negative habits” is why university is so much more successful at teaching than self-directed online classes. Having graded homework that you’re paying for is one hell of a motivator to get into the habit of applying what you learn.</p>
+<p>Right now I’m studying computer security from a textbook. The nice part of a textbook is that you can work on it anywhere. After three days of study, I realized I had made terrific progress through the book, but, like in machine learning, hadn’t attempted any of the exercises for myself. Worse, the thought of doing an exercise already filled me with apprehension.</p>
+<p>Another bad situation to be in. So I <a href="/blog/strength/">drew up some willpower</a>, then and there, to get started on one. Mustering the energy was hard, but learning this stuff is important to me — and it definitely wasn’t going to get easier to break the habit if I put this thing off again.</p>
+<p>On a related note, I have recently identified a failure mechanism in myself. I just got out of a short, but fiery relationship. Within a month we went from having never met to living with one another in a foreign country where neither of us spoke the language, and spending literally all of our time together.</p>
+<p>As you might expect, things exploded rather spectacularly, and I think a huge part of it was due to the fact that neither of us could practice the habits that define us. We were too crowded by one another to maintain ourselves. Without practicing our habits, we stop being ourselves in a very literal sense — after all, we are what we do.</p>
+<p>I think this is an important thing to keep in mind when navigating a new relationship: the reason you like someone is the culmination of the things they do. As such, we should be very hesitant to disrupt that balance. Unless you’re impossibly compatible to begin with, introducing charge slowly (maybe imperceptibly) seem like a prudent move.</p>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>What Did I Learn in the 2010s?</title>
       <id>blog/2010s/index.html</id>
@@ -422,19 +445,6 @@ Everywhere I’ve been, as of 2020
 <li id="fn1"><p>Though the answer to “how long did it take?” did help cement Csongor in my mind as <em>actually</em> being brilliant.<a href="#fnref1" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>Every Good Boy Deserves Fruit</title>
-      <id>blog/egbdf/index.html</id>
-      <link href='blog/egbdf/index.html'/>
-      <published>2019-02-18T00:44:00Z</published>
-      <updated>2019-02-18T00:44:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <p>I just wanted to announce that <a href="https://everygoodboydeservesfruit.com/">I’ve launched a new website</a>, documenting the things I learn in my quest to <a href="/blog/play-lots-of-music/">just play lots of music</a>.</p>
         ]]>
       </content>
     </entry>
