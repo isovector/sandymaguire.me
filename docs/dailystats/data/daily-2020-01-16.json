@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (6.25%)", "value": 6.25}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [14]}}}
+{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (7.69%)", "value": 7.69}, {"color": "#b418df", "label": "reddit:ssc (6.15%)", "value": 6.15}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [14, 571, 661, 733, 734]}, "reddit:ssc": {"color": "#b418df", "minute": [574, 591, 663, 664]}}}
