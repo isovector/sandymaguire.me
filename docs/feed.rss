@@ -7,13 +7,51 @@
   <description>Musings on effective life strategies</description>
   <category>Life</category>
   <copyright>2018 Sandy Maguire</copyright>
-  <pubDate>2020-01-13T14:21:00Z</pubDate>
+  <pubDate>2020-02-03T18:19:00Z</pubDate>
   <language>en-us</language>
   <image>
       <url>http://sandymaguire.me/images/favicon.png</url>
     <title>Sandy Maguire</title>
     <link>http://sandymaguire.me</link>
   </image>
+  <item>
+      <title>Resolutions for the Year</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/2020-goals/index.html</link>
+      <guid>http://sandymaguire.me/blog/2020-goals/index.html</guid>
+      <pubDate>2020-02-03T18:19:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>Seeing as it’s already(!) February, now is a bit late to be writing my new year’s resolutions. But late is better than never, so instead, we’ll just call them <em>resolutions for the year.</em> I’ve been putting this stuff off for six weeks now, so shoutouts to my new friend Katha for holding me accountable.</p>
+<p>I’m half-way through a blog post on “excellence comes from qualitative changes, not quantitative ones,” and with that in mind, much of my focus for the next year will be to do things differently than I have been. It’s pretty clear that I could write more blog posts or read more books or live in more countries. But those things are playing to my strengths, rather than work on my weaknesses.</p>
+<p>The big theme of 2020 is that it’s the year I turn 30! My <em>god</em> where has the time gone? Thankfully I don’t feel old, nor am I worried about an arbitrary number — but 30 feels like a good excuse to make some lifestyle changes. I’d like to spend a lot of this year focusing on having my life in a stable configuration for the upcoming decade.</p>
+<p>Along those lines, I’ve divided my goals for 2020 into three categories — two focused on the future, and one for making sure I keep doing cool stuff in the here-and-now. Since we’re <em>already</em> here and now, let’s talk about that one first.</p>
+<h2 id="output">Output</h2>
+<p><strong>First</strong>, this year I will finish and publish my new book, <a href="https://www.patreon.com/designandinterpretation">Design and Interpretation of Haskell Programs</a>. This isn’t going to be challenging other than simply putting in the time, so I’m including it just to ensure it actually gets done.</p>
+<p><strong>Second</strong>, I am going to perform two hours worth of live music this year. I’m not sure if the format will be one big show, or lots of little ones, but I’ve got 11 months to figure that out. This is scary.</p>
+<p><strong>Third</strong>, and relatedly, I am going to compose 5 songs that I’m proud of. I don’t really know how to compose music, but I am excited to learn. It’s probably one of those practice-makes-perfect situations — hopefully.</p>
+<p><strong>Fourth</strong>, I am going to learn a new programming language. I’m getting musty and curmudgeonly by only writing Haskell, so it’s time to branch out and learn something new. To avoid any weaseling, this has to be an <em>interesting</em> new language, so something along the lines of Prolog or Rust or Lisp, rather than Ruby or Go. The metric for success here is to have written a non-trivial, real-life, idiomatic program in the language.</p>
+<p><strong>Fifth</strong>, I am going to finish all of the exercises on <a href="https://portswingger.net">Portswigger</a>, because they’re interesting and very outside of my skill-set of writing good Haskell programs.</p>
+<p><strong>Finally</strong> for this pillar, I am going to read 10 <em>really excellent</em> books this year. Last year was a bit of a dearth on the reading front, and despite reading something like 60 books, I found it very hard to pick 5 good ones. I want to change that; there’s no point in reading a bunch of shit just for the sake of it.</p>
+<h2 id="health">Health</h2>
+<p>A change I’ve really wanted to make in my lifestyle has been to get healthy. I’ve never been particularly <em>unhealthy,</em> which has been my excuse for putting it off for so long. But my biggest fear is that I am only operating at 1/10th of my productive capability, and simply have no basis for comparison. Rather than continue to worry about that, I’m just going to spend a year throwing empiricism at it and see what shakes out.</p>
+<p><strong>First</strong>, this year I am going to learn to love vegetables. Currently I don’t. I never have. People keep saying they’re good for me and I am going to die without them, but seeing as I haven’t ever died<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> I haven’t really taken them at their word. BUT my god is this a ubiquitous one. At the very least, picking around the vegetables takes a big toll on my quality of life. So it’s time to face the fear, and learn to love vegetables. By the end of the year, I will be actively eating fruits and vegetables with every meal.</p>
+<p><strong>Second</strong>, I am not going to consume any alcohol in 2020. I’m already about two months in, and have been having a great time. But sometimes the urge comes back, and I need to beat it down into submission. Qualifying this as an explicit goal for my year will assuage the desire, I suspect.</p>
+<p><strong>Third</strong>, I am going to do at least 150 minutes of exercise every week this year. That’s about 20 minutes a day, and is allegedly the bare minimum necessary to keep yourself fit and healthy. Seeing as I currently do about zero minutes of exercise a week, this seems like a drastic improvement.</p>
+<p><strong>Fourth</strong>, I am only going to watch high-value TV this year. Since I started tracking my youtube view-time, I’ve been disgusted with myself. There’s a lot of dumb bullshit I watch just because it’s there; I don’t find myself actively learning or feeling inspired by it, and I never feel like it was time well-spent. Any content that isn’t actively-educational to something I want to learn, or otherwise inspiring, will be forfeited. However, I will grant myself one movie a week, because media can be a social thing that I don’t necessarily want to miss out on.</p>
+<h2 id="foundation">Foundation</h2>
+<p>My final category of goals is of bigger, more meaningful stuff in my life that I think is missing.</p>
+<p><strong>First</strong>, I am going to do consistent journaling this year. I will aim for at least five times a week, but not stress the actual numbers so long as it happens weekly. I find journaling helps me sort out my mind, but sometimes there just isn’t anything that actively needs to be sorted out!</p>
+<p><strong>Second</strong>, I am going to volunteer my skills to a worthwhile organization this year. I don’t know who, exactly, but I’m sure almost every small non-profit has IT problems. And I’m good at IT.</p>
+<p><strong>Third</strong>, I am going to make five <em>really good</em> friends this year. Over the last several years I have moved too often to really invest in tight friendships. While we do our best to stay in touch, it is often not particularly successful. But strong friendships are an important part of any nutritious breakfast, and I find myself lonely without them. So it’s time to put in the work, and make some really good friends. They don’t necessarily need to be new acquaintances — new friendships with old people is OK. My criteria for success is to see these people at least once a week, and to always come away from my interactions with them feeling powerful, inspired, and better about life than I did before.</p>
+<p><strong>Finally</strong>, I’m really fucking tired of being on the move. By the end of this year, I am going to have found a place to settle down for a good portion of my 30s. Somewhere I’m allowed to live, with my own place, with a good and solid social network around me. This is the most important thing I’ve been missing for the last several years, and I am <em>aching</em> to get it resolved.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Not even one time.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+      ]]></content:encoded>
+  </item>
   <item>
       <title>Habits</title>
       <author>sandy@sandymaguire.me (Sandy Maguire)</author>
@@ -365,63 +403,6 @@ Everywhere I’ve been, as of 2020
 <hr />
 <ol>
 <li id="fn1"><p>As opposed to my being caught in the middle of some political game they’re playing with my would-be advisor, for example.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-</ol>
-</section>
-      ]]></content:encoded>
-  </item>
-  <item>
-      <title>You Don&#39;t Need to Be Brilliant to Do Brilliant Work</title>
-      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
-      <link>http://sandymaguire.me/blog/brilliance/index.html</link>
-      <guid>http://sandymaguire.me/blog/brilliance/index.html</guid>
-      <pubDate>2019-04-02T12:11:00Z</pubDate>
-      <content:encoded><![CDATA[
-        <blockquote>
-<p>Greatness is something you do, not something you are.</p>
-<p>-Sebastian Marshall</p>
-</blockquote>
-<h1 id="i">I</h1>
-<p>My friend Csongor <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/ho-haskell.pdf">recently published a computer science paper</a> that’s super interesting if you’re as big a nerd as I am. The details are too much to go into here, but suffice to say, it lets us do a lot of things I’d always been told were impossible.</p>
-<p>Being told you’re now allowed to do the impossible is a staggering experience.</p>
-<p>What’s more staggering is knowing the guy responsible for letting you do it.</p>
-<p>I was curious about how he’d gone about solving this problem. Part of it was a question of ego — I’d run into this problem around the same time Csongor had. But where he’d stuck with it and eventually broken through, I’d bounced off it assuming there was a <em>reason</em> for the limitation.</p>
-<p>Csongor is obviously brilliant, <a href="/blog/no-miracle-people/">but I don’t think his brain works <em>significantly better</em> than mine</a>. Rather than assuming he’d solved the problem because he was smart and I wasn’t, I took the position that he had some <em>skill</em> that I was missing. Skills, after all, can be learned.</p>
-<p>And so I asked him. How did he start working on it? What was the process like? How long did it take? His answer to the first question<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> was:</p>
-<blockquote>
-<p>I wanted to understand why this limitation was there. Then learning the answer revealed that it’s actually something that can be fixed — as is always the case with these things if you think about them enough.</p>
-</blockquote>
-<p>He made sure to reiterate the point:</p>
-<blockquote>
-<p>Though I must say that the solution is really quite obvious once you know the underlying reasons, so there was not much brilliance involved.</p>
-</blockquote>
-<h1 id="ii">II</h1>
-<p>Sometime recently, without realizing it, I’ve become a big wig in my nerdy programming circle. All of a sudden people were throwing my name around in the company of the people I looked up to, whose work I’d always felt was far beyond my grasp.</p>
-<p>This was puzzling to me for an embarrassingly long time. What had changed? I was still the same guy as always, doing lots of experiments and having 95% of them fail on me. I was still as outspoken as ever.</p>
-<p>What changed? I think it’s that I wrote a <a href="https://thinkingwithtypes.com/">book</a>.</p>
-<p>All of a sudden my status jumped up a few rungs because my ideas were worthy of <em>a book.</em> I mean, it’s a great book and <a href="https://thinkingwithtypes.com/">you should go buy a copy</a>, but it’s nothing novel. It’s just a consolidation of lots of existing techniques, that I painstakingly put in the time and sweat to understand for myself.</p>
-<p>All of a sudden, people had a good educational resource, and it had my name attached to it. The book doesn’t pull any punches — it really and truly is a book of difficult things — but it tries to introduce the ideas as gently and usefully as possible.</p>
-<p>I think what happened is that people started thinking “man, this book is full of really hard concepts. The guy who wrote it must be really smart.” And they’re not <em>wrong</em>, but that’s not the point. Really, most of it I learned from long conversations with exceptionally kind and patient people like <a href="https://ren.zone/">Renzo Carbonara</a> and <a href="https://twitter.com/shajra?lang=en">Sukant Hajra</a>.</p>
-<p>The point is that all people see are my successes. They see this book in its finished form, but are shielded away from the tortuous months I spent writing it. They aren’t aware of just how many hours I spent fighting with LaTeX. Or of cajoling my designer-then-girlfriend to help me pick fonts. Or from the countless sleepless nights I spent spinning the ideas around in my head, trying as best I could to find something, <em>anything,</em> to grab on to.</p>
-<p>None of it was exceptionally difficult. Mostly it was just tedious.</p>
-<p>The book itself took four months to write, but the material took five years to <em>learn</em>. And that seemed like a waste of time if I wasn’t able to amortize by that helping other people learn the same things.</p>
-<p>Any idiot could have done what I did — read blog posts, think hard about them, write some code that used the idea, and then write one chapter at a time. That’s it. There was no magic.</p>
-<h2 id="iii">III</h2>
-<p>The point I’m trying to make here is that, on the inside, it doesn’t feel remarkable to do “great” work. Csongor says “there was not much brilliance involved” in his work. I’m convinced that any idiot could have put together the same book that I did.</p>
-<p>The hardest part is putting in the time, and even that’s not very hard if you find the process enjoyable and meaningful.</p>
-<p>To quote <a href="https://www.gwern.net/index">Gwern</a>:</p>
-<blockquote>
-<p>None of these seems special to me. Anyone could’ve compiled the DNB FAQ; anyone could’ve kept a list of online pharmacies where one could buy modafinil; someone tried something similar to my Google shutdown analysis before me (and the fancier statistics were all standard tools). If I have done anything meritorious with them, it was perhaps simply putting more work into them than someone else would have.</p>
-</blockquote>
-<p>Or as <a href="https://twitter.com/jkachmar">Joe Kachmar</a> says:</p>
-<blockquote>
-<p>It’s really nice to realize that most/all of the work on these big projects is just folks who have relentlessly kept tugging on some thread until it unravels neatly for them.</p>
-</blockquote>
-<p>There likely are problems out there that are <em>brilliance-constrained,</em> but I’d argue that there 100x more problems which are merely <em>effort-constrained.</em> This is good news, because while it’s not clear how to become smarter, it’s very doable to just throw more energy at something.</p>
-<p>Maybe the problems you consider to be exceptionally hard are just ones that merely require some dedication — and a doggedness to fix, come-what-may.</p>
-<section class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Though the answer to “how long did it take?” did help cement Csongor in my mind as <em>actually</em> being brilliant.<a href="#fnref1" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
       ]]></content:encoded>
