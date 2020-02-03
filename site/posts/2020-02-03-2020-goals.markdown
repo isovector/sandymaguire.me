@@ -1,0 +1,135 @@
+---
+layout: post
+title: Resolutions for the Year
+date: 2020-02-03 18:19
+comments: true
+tags: goals
+confidence: 2
+---
+
+Seeing as it's already(!) February, now is a bit late to be writing my new
+year's resolutions. But late is better than never, so instead, we'll just call
+them *resolutions for the year.* I've been putting this stuff off for six weeks
+now, so shoutouts to my new friend Katha for holding me accountable.
+
+I'm half-way through a blog post on "excellence comes from qualitative changes,
+not quantitative ones," and with that in mind, much of my focus for the next
+year will be to do things differently than I have been. It's pretty clear that I
+could write more blog posts or read more books or live in more countries. But
+those things are playing to my strengths, rather than work on my weaknesses.
+
+The big theme of 2020 is that it's the year I turn 30! My *god* where has the
+time gone? Thankfully I don't feel old, nor am I worried about an arbitrary
+number --- but 30 feels like a good excuse to make some lifestyle changes. I'd
+like to spend a lot of this year focusing on having my life in a stable
+configuration for the upcoming decade.
+
+Along those lines, I've divided my goals for 2020 into three categories --- two
+focused on the future, and one for making sure I keep doing cool stuff in the
+here-and-now. Since we're *already* here and now, let's talk about that one
+first.
+
+
+## Output
+
+**First**, this year I will finish and publish my new book, [Design and
+Interpretation of Haskell
+Programs](https://www.patreon.com/designandinterpretation). This isn't going to
+be challenging other than simply putting in the time, so I'm including it just
+to ensure it actually gets done.
+
+**Second**, I am going to perform two hours worth of live music this year. I'm not
+sure if the format will be one big show, or lots of little ones, but I've got 11
+months to figure that out. This is scary.
+
+**Third**, and relatedly, I am going to compose 5 songs that I'm proud of. I don't
+really know how to compose music, but I am excited to learn. It's probably one
+of those practice-makes-perfect situations --- hopefully.
+
+**Fourth**, I am going to learn a new programming language. I'm getting musty and
+curmudgeonly by only writing Haskell, so it's time to branch out and learn
+something new. To avoid any weaseling, this has to be an *interesting* new
+language, so something along the lines of Prolog or Rust or Lisp, rather than
+Ruby or Go. The metric for success here is to have written a non-trivial,
+real-life, idiomatic program in the language.
+
+**Fifth**, I am going to finish all of the exercises on
+[Portswigger](https://portswingger.net), because they're interesting and very
+outside of my skill-set of writing good Haskell programs.
+
+**Finally** for this pillar, I am going to read 10 *really excellent* books this
+year. Last year was a bit of a dearth on the reading front, and despite reading
+something like 60 books, I found it very hard to pick 5 good ones. I want to
+change that; there's no point in reading a bunch of shit just for the sake of
+it.
+
+
+## Health
+
+A change I've really wanted to make in my lifestyle has been to get healthy.
+I've never been particularly *unhealthy,* which has been my excuse for putting
+it off for so long. But my biggest fear is that I am only operating at 1/10th of
+my productive capability, and simply have no basis for comparison. Rather than
+continue to worry about that, I'm just going to spend a year throwing empiricism
+at it and see what shakes out.
+
+**First**, this year I am going to learn to love vegetables. Currently I don't. I
+never have. People keep saying they're good for me and I am going to die without
+them, but seeing as I haven't ever died[^even-once] I haven't really taken them
+at their word. BUT my god is this a ubiquitous one. At the very least, picking
+around the vegetables takes a big toll on my quality of life. So it's time to
+face the fear, and learn to love vegetables. By the end of the year, I will be
+actively eating fruits and vegetables with every meal.
+
+[^even-once]: Not even one time.
+
+**Second**, I am not going to consume any alcohol in 2020. I'm already about two
+months in, and have been having a great time. But sometimes the urge comes back,
+and I need to beat it down into submission. Qualifying this as an explicit goal
+for my year will assuage the desire, I suspect.
+
+**Third**, I am going to do at least 150 minutes of exercise every week this year.
+That's about 20 minutes a day, and is allegedly the bare minimum necessary to
+keep yourself fit and healthy. Seeing as I currently do about zero minutes of
+exercise a week, this seems like a drastic improvement.
+
+**Fourth**, I am only going to watch high-value TV this year. Since I started
+tracking my youtube view-time, I've been disgusted with myself. There's a lot of
+dumb bullshit I watch just because it's there; I don't find myself actively
+learning or feeling inspired by it, and I never feel like it was time
+well-spent. Any content that isn't actively-educational to something I want to
+learn, or otherwise inspiring, will be forfeited. However, I will grant myself
+one movie a week, because media can be a social thing that I don't necessarily
+want to miss out on.
+
+
+## Foundation
+
+My final category of goals is of bigger, more meaningful stuff in my life that I
+think is missing.
+
+**First**, I am going to do consistent journaling this year. I will aim for at least
+five times a week, but not stress the actual numbers so long as it happens
+weekly. I find journaling helps me sort out my mind, but sometimes there just
+isn't anything that actively needs to be sorted out!
+
+**Second**, I am going to volunteer my skills to a worthwhile organization this
+year. I don't know who, exactly, but I'm sure almost every small non-profit has
+IT problems. And I'm good at IT.
+
+**Third**, I am going to make five *really good* friends this year. Over the last
+several years I have moved too often to really invest in tight friendships.
+While we do our best to stay in touch, it is often not particularly successful.
+But strong friendships are an important part of any nutritious breakfast, and I
+find myself lonely without them. So it's time to put in the work, and make some
+really good friends. They don't necessarily need to be new acquaintances --- new
+friendships with old people is OK. My criteria for success is to see these
+people at least once a week, and to always come away from my interactions with
+them feeling powerful, inspired, and better about life than I did before.
+
+**Finally**, I'm really fucking tired of being on the move. By the end of this year,
+I am going to have found a place to settle down for a good portion of my 30s.
+Somewhere I'm allowed to live, with my own place, with a good and solid social
+network around me. This is the most important thing I've been missing for the
+last several years, and I am *aching* to get it resolved.
+
