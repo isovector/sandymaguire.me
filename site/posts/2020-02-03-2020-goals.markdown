@@ -54,7 +54,7 @@ Ruby or Go. The metric for success here is to have written a non-trivial,
 real-life, idiomatic program in the language.
 
 **Fifth**, I am going to finish all of the exercises on
-[Portswigger](https://portswingger.net), because they're interesting and very
+[Portswigger](https://portswigger.net), because they're interesting and very
 outside of my skill-set of writing good Haskell programs.
 
 **Finally** for this pillar, I am going to read 10 *really excellent* books this
