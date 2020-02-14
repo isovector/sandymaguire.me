@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (80.00%)", "value": 80.0}, {"color": "#56449c", "label": "reddit:ssc (13.33%)", "value": 13.33}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}, "reddit:ssc": {"color": "#56449c", "minute": [1, 2]}}}
