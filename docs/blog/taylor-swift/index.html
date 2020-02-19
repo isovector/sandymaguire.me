@@ -55,7 +55,7 @@
 <p>If you took the net worth of Taylor Swift, in $20 bills, and used those as building blocks, how big of an enclosure could you build around her and still have it remain soundproof?</p>
 </blockquote>
 <p>Great question. Let’s see if we can figure it out.</p>
-<p>A <a href="https://www.google.com/search?q=net%20worth%20of%20taylor%20swift">quick google search</a> indicates that Taylor Swift’s net worth is $240 million USD. WolframAlpha, the source of all sorts of fantastic and weird mathematical facts, <a href="http://www.wolframalpha.com/input/?i=volume+of+a+%2420+USD+bill">states</a> the volume of a $20 USD bill is <span class="math inline">1138mm<sup>3</sup></span>, which gives us an easy <span class="math inline">2.4 ⋅ 10<sup>8</sup>USD ÷ 20 × 1138mm<sup>3</sup>/ USD = 136.5m<sup>3</sup></span> of building material to work with<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<p>A <a href="https://www.google.com/search?q=net%20worth%20of%20taylor%20swift">quick google search</a> indicates that Taylor Swift’s net worth is $240 million USD. WolframAlpha, the source of all sorts of fantastic and weird mathematical facts, <a href="http://www.wolframalpha.com/input/?i=volume+of+a+%2420+USD+bill">states</a> the volume of a $20 USD bill is <span class="math inline">1138mm<sup>3</sup></span>, which gives us an easy <span class="math inline">2.4 ⋅ 10<sup>8</sup>USD ÷ 20 × 1138mm<sup>3</sup>/ USD = 136.5m<sup>3</sup></span> of building material to work with<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <p>Good start.</p>
 <p>We will assume an enclosure around Taylor Swift is a hemisphere shell, and for good measure, we’ll pad the floor of the enclosure as well. The volume of a hemisphere is</p>
 <p><br /><span class="math display">$$
@@ -66,7 +66,7 @@ $$</span><br /></p>
 v = \frac{4 \pi \left(r^3 - (r-s)^3\right)}{6}
 $$</span><br /></p>
 <p>where <span class="math inline"><em>s</em></span> is now the shell thickness, and <span class="math inline"><em>r</em></span> is the outer radius.</p>
-<p>We now need to add the floor of the enclosure, and since hemispherical shells with a floor aren’t very popular, we’ll need to do the mathematics ourselves. We can model the floor as a bunch of infinitesimally thin of cylinders of varying radii:<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>We now need to add the floor of the enclosure, and since hemispherical shells with a floor aren’t very popular, we’ll need to do the mathematics ourselves. We can model the floor as a bunch of infinitesimally thin of cylinders of varying radii:<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 <p>Let <span class="math inline"><em>l</em></span> be the total height of the stacked cylinders, and thus volume of our floor’s enclosure is:</p>
 <p><br /><span class="math display">$$
 \int_0^s \pi \left((r-s) \sqrt{1 - \left(\frac{l}{r-s}\right)^2}\right)^2 dl =
@@ -106,11 +106,11 @@ r_c = 4.0 \text{m}
 $$</span><br /></p>
 <p>Success! If you want to silence just Taylor Swift, your enclosure can be <span class="math inline">4.2m</span> in radius, and to silence her concert, you lose less than a meter in total radius. Which is super cool, and actually pretty surprising. So, if paper attenuates like snow, you <em>can</em> enclose Taylor Swift in her own money and have her play a concert that no one will ever hear.</p>
 <p>Marvelous.</p>
-<section class="footnotes">
+<section class="footnotes" role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1"><p>The original version of this post accidentally calculated this in terms of $1 USD bills, so this number was off by a factor of <span class="math inline">20</span>. Thanks to James Barton for spotting this error.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>The original version of this post approximated this floor as a single cylinder, which is a good approximation only for small <span class="math inline"><em>s</em></span>. Thanks to Marius van Voorden for spotting this error.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn1" role="doc-endnote"><p>The original version of this post accidentally calculated this in terms of $1 USD bills, so this number was off by a factor of <span class="math inline">20</span>. Thanks to James Barton for spotting this error.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>The original version of this post approximated this floor as a single cylinder, which is a good approximation only for small <span class="math inline"><em>s</em></span>. Thanks to Marius van Voorden for spotting this error.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
