@@ -1,0 +1,101 @@
+---
+layout: post
+title: No Coffee and Quantifying the Self
+date: 2020-02-28 00:50
+comments: true
+tags: lifestyle, experiments
+confidence: 4
+---
+
+For my first two decades of life, I could never sleep. I'd go to bed at whatever
+time was my bedtime (maybe 9pm?) and lay restlessly in the dark for several
+hours every night until I finally got to sleep. I honestly had no idea that
+other people *didn't* do that, that they got to sleep in an average of twenty
+minutes. I attribute a lot of my current mental acuity to this --- that I had
+three hours of dedicated and mandatory *thinking time* every day for twenty
+years.
+
+In retrospect, probably it was that can of Coke I habitually drank every dinner.
+It never felt like the caffeine affected me. Those endless nights of
+sleeplessness just felt like *the way it was.*
+
+I was reminded of this anecdote by a scary experience I had today. I ran into a
+guy who might have been my old coworker from halfway around the world, many
+years ago. We never worked together, but he had a distinctive face, and this guy
+had the same distinctive face.
+
+He might have been my old coworker, but I'm not sure. I didn't ask. Instead I
+got *the fear.* I got so fucking nervous about saying hi to this guy that I
+flinched away from the encounter, and am left to wonder about his identity
+forever. Or at least until tomorrow when I'll probably run into him again at the
+same place.
+
+These bouts of nerves --- I used to get them all the time. But haven't for the
+last four months or so. And my last four months have been overwhelmingly
+socially successful, most of which I attribute to higher-than-usual confidence.
+It's the same nerves I used to associate with going over and talking to pretty
+girls. It's the same nerves that I got before asking for a raise. It's the same
+nerves I got while waiting in the queue at the bank.
+
+Wait, what? Waiting at the bank? How is that nerve-racking? Good question. I'm
+not sure, but that was the first time I ever associated *my nervousness* with
+*all the damn caffeine I was drinking.* Not that I ever let that stop me from
+drinking coffee, but at least I was aware of it.
+
+Today, nerves again, for the first time in months. And maybe it's a coincidence,
+but I had just finished a strong coffee, after only eating soup for breakfast,
+after spending four months on an island with notoriously bad coffee, where the
+instant-variety is ubiquitous. I hadn't stopped drinking coffee over the last
+few months, but maybe I'd accidentally stopped overdosing on caffeine?
+
+I've been really grooving on being not-unbearably-nervous Sandy these last few
+months. It's been a period of aggressive self-actualization; getting to a point
+where not only do I know I can take on the world, but I *feel it,* too. How
+silly would it be if my amazing change in personality was due to a fluke
+accident of stopping my socially-acceptable drug habit?
+
+Now, granted, this is all conjecture, but it seems worth an experiment. So for
+the next two weeks, I'm going to consume zero caffeine, and see if I get any
+more of these nerves. I'll keep track of my subjective confidence levels, and of
+my feelings of self-actualization.
+
+On first glance, it feels like my productivity is going to suffer. "Of course
+caffeine makes me more productive!" Well known fact, that. *Everyone knows*
+caffeine makes you more productive. But I can think of more times I've been *way
+too caffeinated* and completely unable to work, than I can think of times I felt
+a profound performance improvement from taking a coffee (hangovers excluded.)
+
+Last year I read a book on quitting smoking, even though I don't and have never
+smoked. It made the interesting claim that over time, smoking lowers your
+default state, and having a cigarette brings you back to your old norm. The
+contrast is there; smoking does make you feel better and more productive, but
+only relative to your state of withdrawal. Relative to your non-smoking normal,
+it just brings you back to par. This feels very plausible for the case of coffee
+as well; I've heard much of the same comments from my friends who have stopped
+drinking it.
+
+The great part is that I already have the infrastructure in place to measure my
+productivity. A little known secret of this website is that it [tracks my
+computer time *to the minute.*][daily] Which means that I have historical
+productivity data for the last few years, and so looking at trends during the
+next two weeks requires no extra effort on my part.
+
+[daily]: https://sandymaguire.me/dailystats/
+
+I'm writing this blog post mostly because I couldn't sleep (related????) and
+figured I might as well do something productive instead of being uncomfortable
+in bed. I guess the takeaway here is to build lots of weird infrastructure just
+because it's interesting. I never expected my daily tracking stuff to be
+*useful,* but having already done the legwork means that I'm now ready to carry
+out an [exceptionally high value-of-information][voi] experiment.
+
+[voi]: https://sandymaguire.me/blog/time-compression/
+
+Oh, and also a reminder that our bodies are just meat machines that respond to
+chemical inputs just like any other automation does. This is a thing that I
+always seem to forget, and am constantly amazed when I remember it. Maybe
+writing it down will help. Hopefully.
+
+You guys! We're just *meat machines!* Maybe changing our personalities isn't as
+easy as just drinking less coffee, but then again, *maybe it is.*
+
