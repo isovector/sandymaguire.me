@@ -1,0 +1,39 @@
+<html>
+  <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43091897-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-43091897-1');
+</script>
+  </head>
+
+<body>
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-firestore.js"></script>
+<script>
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyAk_xQXW5JMWtqrig0S2weuwSTeqidqY6c",
+  authDomain: "geostickers-ad0f3.firebaseapp.com",
+  databaseURL: "https://geostickers-ad0f3.firebaseio.com",
+  projectId: "geostickers-ad0f3",
+  storageBucket: "geostickers-ad0f3.appspot.com",
+  messagingSenderId: "398701643885",
+  appId: "1:398701643885:web:b5fc09ddb85a9072be1764"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+var db = firebase.firestore();
+
+navigator.geolocation.getCurrentPosition(function(position) {
+  var ref = db.collection("locations").add({
+    scanpoint: new firebase.firestore.GeoPoint(position.coords.latitude, position.coords.longitude)
+  });
+});
+
+</script>
+</body>
+</html>
