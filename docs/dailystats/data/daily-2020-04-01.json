@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#0eff7f", "label": "comm:email (2.50%)", "value": 2.5}, {"color": "#1f70d5", "label": "comm:zulip (20.00%)", "value": 20.0}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [468]}, "comm:zulip": {"color": "#1f70d5", "minute": [469, 470, 471, 472, 473, 474, 475, 476]}}}
+{"braindata": {}, "piedata": [{"color": "#1f70d5", "label": "comm:zulip (8.00%)", "value": 8.0}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [468]}, "comm:zulip": {"color": "#1f70d5", "minute": [469, 470, 471, 472, 473, 474, 475, 476]}}}
