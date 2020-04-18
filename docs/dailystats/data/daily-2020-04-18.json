@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#56449c", "label": "pp (86.67%)", "value": 86.67}, {"color": "#bf7f7f", "label": "web:wikipedia (13.33%)", "value": 13.33}], "tagdata": {"pp": {"color": "#56449c", "minute": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}, "web:wikipedia": {"color": "#bf7f7f", "minute": [0, 1]}}}
