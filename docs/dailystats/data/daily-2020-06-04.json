@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#0eff7f", "label": "comm:call (6.67%)", "value": 6.67}], "tagdata": {"comm:call": {"color": "#0eff7f", "minute": [9]}}}
+{"braindata": {}, "piedata": [{"color": "#1f70d5", "label": "comm:im (2.67%)", "value": 2.67}], "tagdata": {"comm:call": {"color": "#0eff7f", "minute": [9]}, "comm:im": {"color": "#1f70d5", "minute": [73, 74]}}}
