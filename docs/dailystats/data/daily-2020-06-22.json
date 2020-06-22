@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#e8af77", "label": "tv:youtube (60.00%)", "value": 60.0}, {"color": "#ebdb2c", "label": "web:wikipedia (6.67%)", "value": 6.67}], "tagdata": {"tv:youtube": {"color": "#e8af77", "minute": [0, 1, 2, 3, 4, 5, 6, 12, 13]}, "web:wikipedia": {"color": "#ebdb2c", "minute": [10, 15]}}}
