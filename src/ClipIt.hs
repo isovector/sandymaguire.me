@@ -8,7 +8,7 @@ module ClipIt
     , getBooks
     ) where
 
-import Control.Applicative ((<$>), (<|>))
+import Control.Applicative ((<|>))
 import Control.Arrow ((***))
 import Control.Monad (liftM2, join, void)
 import Data.Aeson
