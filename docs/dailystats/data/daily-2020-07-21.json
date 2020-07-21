@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#4c9465", "label": "pp (93.33%)", "value": 93.33}, {"color": "#f22d2d", "label": "tv:youtube (6.67%)", "value": 6.67}], "tagdata": {"pp": {"color": "#4c9465", "minute": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}, "tv:youtube": {"color": "#f22d2d", "minute": [14, 15]}}}
