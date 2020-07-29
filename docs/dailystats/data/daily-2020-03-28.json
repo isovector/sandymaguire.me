@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#bb7a98", "label": "prj:wheatley (8.00%)", "value": 8.0}], "tagdata": {"prj:ghc": {"color": "#8dd728", "minute": [1412]}, "prj:wheatley": {"color": "#bb7a98", "minute": [1425, 1426, 1428, 1429, 1434, 1436]}}}
+{"braindata": {}, "piedata": [{"color": "#8dd728", "label": "prj:ghc (2.22%)", "value": 2.22}, {"color": "#bb7a98", "label": "prj:wheatley (13.33%)", "value": 13.33}], "tagdata": {"prj:ghc": {"color": "#8dd728", "minute": [1412]}, "prj:wheatley": {"color": "#bb7a98", "minute": [1425, 1426, 1428, 1429, 1434, 1436]}}}
