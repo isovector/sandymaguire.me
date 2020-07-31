@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#ff7f8a", "label": "tv:twitch (6.25%)", "value": 6.25}, {"color": "#ff9f98", "label": "tv:youtube (93.75%)", "value": 93.75}], "tagdata": {"tv:twitch": {"color": "#ff7f8a", "minute": [0]}, "tv:youtube": {"color": "#ff9f98", "minute": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}}}
