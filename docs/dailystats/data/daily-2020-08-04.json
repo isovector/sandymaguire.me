@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#b418df", "label": "prj:sdcp (80.00%)", "value": 80.0}, {"color": "#0726f7", "label": "web:wikipedia (6.67%)", "value": 6.67}], "tagdata": {"prj:sdcp": {"color": "#b418df", "minute": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15]}, "web:wikipedia": {"color": "#0726f7", "minute": [11]}}}
