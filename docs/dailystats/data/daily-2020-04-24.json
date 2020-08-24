@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#0eff7f", "label": "comm:email (3.08%)", "value": 3.08}, {"color": "#17b02c", "label": "comm:im (15.38%)", "value": 15.38}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [1287, 1288]}, "comm:im": {"color": "#17b02c", "minute": [977, 978, 979, 980, 999, 1000, 1001, 1002, 1003, 1004]}}}
+{"braindata": {}, "piedata": [{"color": "#0eff7f", "label": "comm:email (5.56%)", "value": 5.56}], "tagdata": {"comm:email": {"color": "#0eff7f", "minute": [1287, 1288]}}}
