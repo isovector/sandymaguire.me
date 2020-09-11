@@ -1,0 +1,1 @@
+{"braindata": {}, "piedata": [{"color": "#1f70d5", "label": "comm:irc (6.67%)", "value": 6.67}, {"color": "#8c56ff", "label": "pp (93.33%)", "value": 93.33}], "tagdata": {"comm:irc": {"color": "#1f70d5", "minute": [0]}, "pp": {"color": "#8c56ff", "minute": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}}}
