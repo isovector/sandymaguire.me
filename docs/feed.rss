@@ -7,13 +7,30 @@
   <description>Musings on effective life strategies</description>
   <category>Life</category>
   <copyright>2018 Sandy Maguire</copyright>
-  <pubDate>2020-02-28T00:50:00Z</pubDate>
+  <pubDate>2020-09-10T16:55:00Z</pubDate>
   <language>en-us</language>
   <image>
       <url>http://sandymaguire.me/images/favicon.png</url>
     <title>Sandy Maguire</title>
     <link>http://sandymaguire.me</link>
   </image>
+  <item>
+      <title>Algebra-Driven Design</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/algebra-driven-design/index.html</link>
+      <guid>http://sandymaguire.me/blog/algebra-driven-design/index.html</guid>
+      <pubDate>2020-09-10T16:55:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>Wondering where I’ve been lately?</p>
+<p>After almost a year of work, I’m <em>thrilled</em> to announce the completion my new book, <a href="https://algebradriven.design">Algebra-Driven Design</a>. It’s the culmination of two rewrites, and comes with a beautiful foreword written by John Hughes, the inventor of QuickCheck.</p>
+<p>In the book, we take a fundamentally different approach to the software design process, focusing on deriving libraries from equations, algebraic manipulation and well-studied mathematical objects. The resulting code is guaranteed to be free of abstraction leaks, and in many cases, actually writes itself.</p>
+<p>If that sounds like the sort of software you’d like to write, I’d highly encourage you to <a href="https://algebradriven.design">give it a read</a>.</p>
+<center>
+<a href="https://algebradriven.design"><img src="images/add.png" alt="Algebra-Driven Design"></a>
+</center>
+<p>Back to regular blogging sometime soonish.</p>
+      ]]></content:encoded>
+  </item>
   <item>
       <title>No Coffee and Quantifying the Self</title>
       <author>sandy@sandymaguire.me (Sandy Maguire)</author>
@@ -371,32 +388,6 @@ Everywhere I’ve been, as of 2020
 <p>I actually just left the park, as it was getting cold and the mosquitoes were coming out in full force. As I got home, I noticed I was hungry, and that I had quite a few interesting emails that could use some of my attention. But I know from lots of past experience that if a blog post doesn’t get finished in one sitting, it never will be. And so here I am, ignoring my inbox and trying not to think about how hungry I am, because I am temporarily feeling strong and that’s much more important.</p>
 <p>Moments of strength beget other moments of strength in two ways. The first is that, as you start solving problems in your life, they’re no longer there to get in the way of solving more problems. The second is that <em>you are actually getting stronger,</em> which itself leads to having more moments of strength. After you accomplish something you’ve been putting off, take a few minutes to sit and appreciate the glorious feeling that comes with it. This is the greatest feeling in all of life, better than any orgasm, meal or drug.</p>
 <p>This feeling alone is enough to make life worth living. If you’re not very well acquainted with it, you are in for one hell of a ride. Treasure your moments of strength, and they will reward you in turn.</p>
-      ]]></content:encoded>
-  </item>
-  <item>
-      <title>Generalized One-Night Stands</title>
-      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
-      <link>http://sandymaguire.me/blog/one-night-stands/index.html</link>
-      <guid>http://sandymaguire.me/blog/one-night-stands/index.html</guid>
-      <pubDate>2019-10-07T19:54:00Z</pubDate>
-      <content:encoded><![CDATA[
-        <p>We’re all familiar with the idea of the one-night stand. You’ve been feeling frisky with some <em>pent-up sexual desire</em>, and hook up with someone who is in a similar situation. Although you usually don’t explicitly call it out, the understanding is that you’re just two humans who want to rub their genitals together, without any implications that you’ll be doing <em>anything other than that.</em> No follow up, no staying in touch. Just some raw, unadulterated adult fun.</p>
-<p>Don’t worry, I’m not here to talk about my one-night stands. I’m actually pretty shit at them; I catch the feelings too easily. But my god are there a lot of terrible stories on that front that maybe I’ll get around to writing about one day. But anyway.</p>
-<p>Last week I had a nice few days of a faux-relationship. It was clear nothing could or would happen between us long-term, but that didn’t mean we couldn’t pretend in the meantime. We got to spend some time cuddling, sharing our interests with one another, and just generally feeling like someone else out there cares. Just two lonely souls meeting serendipitously, and being brave enough to give it a shot.</p>
-<p>It’s sort of dumb in retrospect, but until this, I’d never really considered the idea that I have needs that can only be satisfied by <em>other human beings.</em> It’s a vulnerable feeling, especially due to how independent I view myself.</p>
-<p>But this reminded me of a conversation I had a few years back with my friend Daniel McCracken. He mentioned the idea of an <em>emotional one-night stand</em> — one in which you find some company for the night, but unlike in a traditional one-night stand, all you’re looking for <em>is the feelings.</em> This strongly resonated with me, probably because some of the most influential experiences in my life have come from <a href="/blog/showing-me-the-way/">such encounters.</a></p>
-<p>But why do we need to limit ourselves to just sexual and emotional one-night stands? In true math-nerd fashion, why not <em>generalized one-night stands?</em> The coming together of two souls who are looking for something very specific from one another — regardless of whether they can articulate <em>what,</em> exactly. What’s stopping us from having intellectual one-night stands, or from talking-about-how-hard-it-is-that-our-parents-are-getting-older one-night stands?</p>
-<p>I’ve now been traveling as part of my <a href="https://isovector.github.io/erdos/">Erdos project</a> for 10 weeks. The idea is to run around the world, sleeping on peoples couches, and doing non-stop programming in the meantime. It’s a way to meet My People, and collaborate with them to help make the world a better place.</p>
-<p>So far it’s been a great experience and all, but programmers are not well-known for their apt social-skills. And now that I’ve been thinking about generalized one-night stands, I’ve come to the conclusion that not all of my social needs have been being met by the people with whom I’ve chosen to spend the immediate next part of my life.</p>
-<p>When you’re looking for a casual encounter, there are some obvious choices about where to go. The night club toilet, for example, is usually a pretty solid bet. But when you are looking for an emotional one-night stand, well, that’s a trickier thing to sort out.</p>
-<p>When I put up the call for couches to stay on, I was amazed at how positive the response was. Within a few hours, I already had two years’ worth of places to stay. It was overwhelming. And I think the reason for that was that these people were looking to me to help with some of their generalized one-night stands. These people are looking for companionship in an extremely narrow niche. You don’t learn Haskell by giving up easily on difficult problems, but it does aggressively filter out the people you can share your passions with.</p>
-<p>Very few people can talk at length about functors, after all.</p>
-<p>But the more people I meet on my trip, the deeper my understanding of this goes. It’s clear that everyone I’ve met so far is aching for some niche intellectual discussion. But when you start looking for what else people are longing for, you start seeing it. Camaraderie. Affection. Loyalty. A role model. Confidence. Understanding. Inspiration. Sympathy, or at least someone to complain to. Respect. A feeling of worthiness. Exaltation.</p>
-<p>The things that people long after are not often the things they mention. But they’ll tell you in other, subtler ways.</p>
-<p>As an aggressive icebreaker, I like to ask people “who are you, as a <em>person?</em>” Partially because I think it’s funny when people are temporarily existentially uncomfortable, but also because I learn a lot about them from how they respond. The way they describe themselves are the things they outwardly care about, and are often more of a statement about who they’re trying to be, rather than who they necessarily <em>are.</em></p>
-<p>For the last few years, my unofficial philosophy has been to always behave in such a way that people considered themselves better off for having met me. Modest it is not, but at least it comes from a good place. Cementing the concept of generalized one-night stands has helped me live up to this ideal. Make it a priority to find what people are seeking, and then help them with it if you can. At the very least, it’s a pretty reliable means of getting an invitation to come back and stay on their couch again.</p>
-<p>The shift in perception that comes from seeing myself as a creature with social needs has been earth shattering, and the realization that <em>other people</em> have these needs too, even more so. Maybe this is why I struggled so much to connect with people in Ottawa. Maybe I didn’t know how to fulfill these needs, in either myself or in others.</p>
-<p>Maybe, despite the name, this is the stuff of which long-term human relationships are made.</p>
       ]]></content:encoded>
   </item>
 </channel>
