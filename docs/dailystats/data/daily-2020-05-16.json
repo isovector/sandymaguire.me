@@ -1,1 +1,1 @@
-{"braindata": {}, "piedata": [{"color": "#17b02c", "label": "comm:im (2.85%)", "value": 2.85}], "tagdata": {"comm:im": {"color": "#17b02c", "minute": [1164, 1165, 1166, 1167, 1168, 1169, 1170, 1171]}, "prj:sdcp": {"color": "#b65c5c", "minute": [1434]}}}
+{"braindata": {}, "piedata": [{"color": "#b65c5c", "label": "prj:sdcp (2.27%)", "value": 2.27}], "tagdata": {"prj:sdcp": {"color": "#b65c5c", "minute": [1434]}}}
