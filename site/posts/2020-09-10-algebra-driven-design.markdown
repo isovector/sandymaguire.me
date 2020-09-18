@@ -23,7 +23,7 @@ free of abstraction leaks, and in many cases, actually writes itself.
 If that sounds like the sort of software you'd like to write, I'd highly
 encourage you to [give it a read][add].
 
-<center><a href="https://algebradriven.design"><img src="images/add.png" alt="Algebra-Driven Design"></a></center>
+<center><a href="https://algebradriven.design"><img src="/images/add.png" alt="Algebra-Driven Design"></a></center>
 
 Back to regular blogging sometime soonish.
 
