@@ -2,7 +2,7 @@
 layout: post
 page_title: About
 title: About
-date: "January 09, 2020"
+date: "October 22, 2020"
 comments: true
 has_related: false
 ---
@@ -41,7 +41,7 @@ I hold a Bachelors Degree in Honors Software Engineering from the University of
 Waterloo, which is a fantastic school that I recommend you attend.
 
 Originally I come from very northern Canada, but have since lived in ten cities
-throughout four different countries. Currently I'm located in Saigon, Vietnam,
+throughout four different countries. Currently I'm located in Victoria, Canada,
 and before you ask why, it's because I like it here. Go figure.
 
 Want to talk? Feel free to [email me][email]. I'd love to hear from you!
