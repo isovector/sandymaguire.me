@@ -7,13 +7,29 @@
   <description>Musings on effective life strategies</description>
   <category>Life</category>
   <copyright>2018 Sandy Maguire</copyright>
-  <pubDate>2020-09-10T16:55:00Z</pubDate>
+  <pubDate>2020-11-01T12:11:00Z</pubDate>
   <language>en-us</language>
   <image>
       <url>http://sandymaguire.me/images/favicon.png</url>
     <title>Sandy Maguire</title>
     <link>http://sandymaguire.me</link>
   </image>
+  <item>
+      <title>Month to Mastery: One Wheel Skateboard</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/mastery-skateboard/index.html</link>
+      <guid>http://sandymaguire.me/blog/mastery-skateboard/index.html</guid>
+      <pubDate>2020-11-01T12:11:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <h2 id="the-project">The Project</h2>
+<p>Now that Algebra-Driven Design is done, I’ve been looking to branch out of my traditional skill-set. With the exception of a little break at the end of last year, I’ve been programming continuously since 2003, and have gotten pretty good in that space. For the last five years, learning Haskell has been my primary intellectual endeavor, but these days I feel like I’ve learned about as much as it has to teach me. It’s time to tackle something new.</p>
+<p>Looking for inspiration, I came across the wonderful <a href="https://medium.com/@maxdeutsch">Max Deutsch</a>, whose <a href="https://medium.com/@maxdeutsch/m2m-day-1-completing-12-ridiculously-hard-challenges-in-12-months-9843700c741f">Month to Master</a> project had him pick up and conquer one ridiculously difficult project per month. These weren’t things like “learn to play Wonderwall,” but were “learn to draw photo-realistic self-portraits” and “build a self-driving car.” At the beginning of each month he’d introduce the project, and then write daily microblogs describing the day’s progress. I love this idea, and have decided I’m going to follow in Max’s footsteps and aggressively tackle my own exciting projects.</p>
+<p>Today, November 1, 2020, is the first day of the project. My intention for November is to <em>build a self-balancing, one-wheel skateboard.</em> I used to have a <a href="https://www.youtube.com/watch?v=XNqOU4jx62I">OneWheel</a>, which was the most fun sport I’ve ever engaged in. When I <a href="">ran away from Ottawa</a>, I left it behind, and have regretted it ever since. But these bastards are expensive, and, having fixed it myself a few times, not overwhelmingly complicated.</p>
+<p>I have no idea how to build such a thing, but I’m confident I can figure it out in a month. I built some lego robots in university, and once soldered together a clock, but that’s the extent of my hardware knowledge.</p>
+<p>My plan is to build a model-scale skateboard, in order to test my engineering prowess, and ensure I have sufficient understanding of the control systems. Doing it with full-sized hardware is a stretch-goal, though the parts are quite expensive, so I’d like some assurance that I’m on the right path before investing in them. If the month ends with only a robust, working scale prototype, I’ll consider it a success if the only hurdle towards productionizing is one of economics.</p>
+<p>I’m off to get started. Will report back, editing this post, with my progress each day.</p>
+      ]]></content:encoded>
+  </item>
   <item>
       <title>Algebra-Driven Design</title>
       <author>sandy@sandymaguire.me (Sandy Maguire)</author>
@@ -363,31 +379,6 @@ Everywhere I’ve been, as of 2020
 <p>If you’ve done your homework and made a compelling case, I suspect the audience will be supportive. But there’s always the chance they aren’t, and this too is valuable. Honestly consider their concerns. If you can’t convince your core audience to get excited about this thing, you’re probably not going to convince a wider audience either. If it seems like the problems are solvable, go back to the drawing board and try again. Otherwise, now might be a good time to cut your losses.</p>
 <hr />
 <p>This is about as far as I’ve gotten in my new book, so it’s as much as I’ve been reminded about. More to come as I get further in.</p>
-      ]]></content:encoded>
-  </item>
-  <item>
-      <title>Moments of Strength</title>
-      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
-      <link>http://sandymaguire.me/blog/strength/index.html</link>
-      <guid>http://sandymaguire.me/blog/strength/index.html</guid>
-      <pubDate>2019-11-02T15:21:00Z</pubDate>
-      <content:encoded><![CDATA[
-        <blockquote>
-<p>It is important in life not to be strong, but to feel strong.</p>
-<p>-Christopher McCandless</p>
-</blockquote>
-<p>I’m writing this in the park, sitting in the first sun that Munich has seen in a week. This wasn’t my plan for today, which was to stay inside in a Haribo induced stupor, watching Starcraft. You see, I’ve been traveling now for three months, sleeping on strangers couches and doing nonstop programming. I’m absolutely exhausted, and so my mini stay-cation in Munich has been less productive than I’d like.</p>
-<p>What I want to talk about today are moments of strength — those rare times when you’re feeling slightly more powerful than usual. These are exceedingly valuable events and should be sought out and capitalized on whenever they occur. Using your moments of strength wisely in your most powerful tools for improving your life.</p>
-<p>The other day, in a moment of strength, I realized I was wasting too much of my attention on watching useless YouTube videos And so, while I had the clarity and ability to do so, <a href="/blog/reclaim-your-attention/">I blocked the entire website</a>. Now in my moments of weakness, I can’t renege on this, and am forced to find more productive ways of spending my time. I took advantage of my moment of strength, and fixed a glaring problem in my life.</p>
-<p>The idea is that most of the time, we are not very strong, and so we should take these rare opportunities to change our lives so we don’t <em>require</em> strength. And the easiest time to do this is when you are feeling strong.</p>
-<p>I have a friend who says she feels trapped in her life. We have spent a lot of time together over the last few weeks, and while she certainly has real problems, they don’t seem nearly as insurmountable to me as to her. Over this time, I’ve seen quite a few moments of strength in my friend, though unfortunately I’ve seen most of them go squandered. Rather than taking the opportunity to solve a problem, she will often bask in the feeling of strength. This is not <em>bad</em> per se, but it is strategically shortsighted.</p>
-<p>Moments of strength are great opportunities for bootstrapping oneself. The next time you feel more capable than usual, even if only by a little, look at it as a rare chance to fix a problem. And act immediately on it-it might not stick around for long. That habit is what compelled me to grab my notebook, walk to the park, and write this essay that I’ve been meaning to get to for months.</p>
-<p>Capitalizing on moments of strength is a habit you build over time. The next time you have one, use it to catalog the big problems in your life — the things getting in the of the life you want to live. Make an actual list, and make sure it’s easily accessible for the next time you have a moment of strength.</p>
-<p>Circle any problems that are easy to tackle-things like making a phone call or could otherwise be solved in an hour. Put a star next to the most important item on your list. If, after making the list, you’re still feeling motivated, pick one and go solve it <em>right that second.</em> Don’t think about it, don’t give yourself a chance to lose momentum. Just start moving. That second. Don’t have a shower first. Put on your coat and start moving out the door, or start dialing the member, or whatever it is you need to actually do.</p>
-<p>If you are tempted to get distracted, make a mental note to remove that sort of distraction during your next moment of strength, and then, crucially, don’t get distracted. Don’t let yourself stop until you’ve made real progress towards your goal.</p>
-<p>I actually just left the park, as it was getting cold and the mosquitoes were coming out in full force. As I got home, I noticed I was hungry, and that I had quite a few interesting emails that could use some of my attention. But I know from lots of past experience that if a blog post doesn’t get finished in one sitting, it never will be. And so here I am, ignoring my inbox and trying not to think about how hungry I am, because I am temporarily feeling strong and that’s much more important.</p>
-<p>Moments of strength beget other moments of strength in two ways. The first is that, as you start solving problems in your life, they’re no longer there to get in the way of solving more problems. The second is that <em>you are actually getting stronger,</em> which itself leads to having more moments of strength. After you accomplish something you’ve been putting off, take a few minutes to sit and appreciate the glorious feeling that comes with it. This is the greatest feeling in all of life, better than any orgasm, meal or drug.</p>
-<p>This feeling alone is enough to make life worth living. If you’re not very well acquainted with it, you are in for one hell of a ride. Treasure your moments of strength, and they will reward you in turn.</p>
       ]]></content:encoded>
   </item>
 </channel>
