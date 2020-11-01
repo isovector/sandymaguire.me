@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Month to Mastery: One Wheel Skateboard"
+date: 2020-11-01 12:11
+comments: true
+tags: mastery, engineering, skateboard
+confidence: 2
+---
+
+## The Project
+
+Now that Algebra-Driven Design is done, I've been looking to branch out of my
+traditional skill-set. With the exception of a little break at the end of last
+year, I've been programming continuously since 2003, and have gotten pretty good
+in that space. For the last five years, learning Haskell has been my primary
+intellectual endeavor, but these days I feel like I've learned about as much as
+it has to teach me. It's time to tackle something new.
+
+Looking for inspiration, I came across the wonderful [Max Deutsch][max], whose
+[Month to Master][m2m] project had him pick up and conquer one ridiculously difficult
+project per month. These weren't things like "learn to play Wonderwall," but
+were "learn to draw photo-realistic self-portraits" and "build a self-driving
+car." At the beginning of each month he'd introduce the project, and then write
+daily microblogs describing the day's progress. I love this idea, and have
+decided I'm going to follow in Max's footsteps and aggressively tackle my own
+exciting projects.
+
+[max]: https://medium.com/@maxdeutsch
+[m2m]: https://medium.com/@maxdeutsch/m2m-day-1-completing-12-ridiculously-hard-challenges-in-12-months-9843700c741f
+
+Today, November 1, 2020, is the first day of the project. My intention for
+November is to *build a self-balancing, one-wheel skateboard.* I used to have a
+[OneWheel](https://www.youtube.com/watch?v=XNqOU4jx62I), which was the most fun
+sport I've ever engaged in. When I [ran away from Ottawa][breakdown], I left it
+behind, and have regretted it ever since. But these bastards are expensive, and,
+having fixed it myself a few times, not overwhelmingly complicated.
+
+[breakdown]:
+
+I have no idea how to build such a thing, but I'm confident I can figure it out
+in a month. I built some lego robots in university, and once soldered together a
+clock, but that's the extent of my hardware knowledge.
+
+My plan is to build a model-scale skateboard, in order to test my engineering
+prowess, and ensure I have sufficient understanding of the control systems.
+Doing it with full-sized hardware is a stretch-goal, though the parts are quite
+expensive, so I'd like some assurance that I'm on the right path before
+investing in them. If the month ends with only a robust, working scale
+prototype, I'll consider it a success if the only hurdle towards productionizing
+is one of economics.
+
+I'm off to get started. Will report back, editing this post, with my progress
+each day.
+
