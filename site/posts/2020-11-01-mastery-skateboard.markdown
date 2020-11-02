@@ -35,7 +35,7 @@ sport I've ever engaged in. When I [ran away from Ottawa][breakdown], I left it
 behind, and have regretted it ever since. But these bastards are expensive, and,
 having fixed it myself a few times, not overwhelmingly complicated.
 
-[breakdown]:
+[breakdown]: /blog/burnout/
 
 I have no idea how to build such a thing, but I'm confident I can figure it out
 in a month. I built some lego robots in university, and once soldered together a
@@ -51,4 +51,20 @@ is one of economics.
 
 I'm off to get started. Will report back, editing this post, with my progress
 each day.
+
+
+### 2020-11-01
+
+Today was less productive than I was expecting. I found a tutorial on [making a
+self-balancing robot][tutorial], and started working on it. I've got the
+electronics prototyped out, but when 3D printing the chassis, my printer started
+running into extruder problems. (I think) I've got that sorted out now, and
+tried to print the chassis again; this time somehow my bed had gotten out level,
+making the print extremely stuck to the print bed. When wrestling it off, the
+PLA snapped. I'm trying again with a re-calibrated, hopefully better-extruding
+system, but the chassis is a four hour print. If I don't have a sturdy piece by
+lunch tomorrow, I'm going to macguyver something together out of cardboard and
+hot glue.
+
+[tutorial]: https://circuitdigest.com/microcontroller-projects/arduino-based-self-balancing-robot
 
