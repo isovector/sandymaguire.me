@@ -68,3 +68,29 @@ hot glue.
 
 [tutorial]: https://circuitdigest.com/microcontroller-projects/arduino-based-self-balancing-robot
 
+
+### 2020-11-02
+
+My recalibrated 3D prints went well; I seem to have solved the brittleness and
+adhesion problems. But I didn't realize the pieces needed to be bolted together.
+Three trips to different hardware stores and two hours later, I hadn't managed
+to find the right bolts. I knew I needed 3mm diameter bolts, but they don't sell
+them by diameter. Instead they have meaningless designations like #7, #6 and
+especially confusingly, #6-32. The #6-32s were the smallest I could find, so I
+picked those up. But they're actually 4.5mm, which is TOO BIG. Covid has the
+industrial supply store closed, so if I want to find these pieces locally, it's
+going to take a minimum of two days. Instead I bought a big collection of random
+bolts on Amazon and paid the express delivery fee to have them before end of
+tomorrow.
+
+I was vaguely aware of this eventuality; that building things in meat-space
+require parts that I can't just magic up by downloading a library. I *knew* this,
+but I didn't *feel* it until now.
+
+Feeling underwhelmed by my progress, I familiarized myself with the PID
+controller libraries, and how my accelerometer works at a high level. I think I
+have a good understanding of these thins, and verified it by seeing that the PID
+equations can be implemented in 6 lines of Haskell. I also confirmed that my
+Arduino environment and build-chain is working, so that I'm ready to go as soon
+as tomorrow's chassis is built. Disappointing day, though.
+
