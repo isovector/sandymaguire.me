@@ -94,3 +94,39 @@ equations can be implemented in 6 lines of Haskell. I also confirmed that my
 Arduino environment and build-chain is working, so that I'm ready to go as soon
 as tomorrow's chassis is built. Disappointing day, though.
 
+
+### 2020-11-03
+
+My partner last night asked "why didn't you just 3D print some bolts?" Gotta
+admit, that idea never occurred to me. Apparently I'm not yet used to having a
+mini factory in my house. So I tried that this morning, but my tolerances aren't
+good enough, and the resulting nuts didn't thread successfully. Thankfully my
+Amazon delivery happened in the morning, so I set back to building.
+
+My new bolts are the right diameter, but are TOO SHORT for what I need them to
+do. Fuck. So I just started hot-gluing things, and that worked well enough.
+A careful hour later (the PLA chassis still feels very brittle), I had
+everything assembled, hot-glued, rewired, and soldered together. Time to get to
+balancing.
+
+Some combination of "bad tutorial" and "bad engineer following said tutorial"
+resulted in me not calibrating the accelerometer while it's on flat ground, so
+instead I just tried to balance the robot and run the calibration there. I have
+no idea how important this step is, but it's something I'll do when working on
+my skateboard proper.
+
+After 30 minutes of tuning parameters, I got the robot balancing somewhat well.
+I'd accidentally soldered the drive motors backwards, so the first time around
+it would be actively trying to fall over. Whoops. Thankfully this was easy to
+fix in software. When everything was turning in the right direction, I found
+that my wheels stopped spinning when the desired delta got too big. Suspect: too
+low amperage on my batteries. Something to investigate tomorrow.
+
+Also! I only fastened down the accelerometer with a single bolt (the chassis
+print apparently didn't have a plan for mounting any of these things?) This lead
+to all sorts of instability in my measurements, so I eventually bit the bullet
+and just hot-glued the fucker. I don't know if I'll regret that when I want to
+reuse the accelerometer, but that's a problem for future me.
+
+![I built something!](/images/m2m/robot.jpg)
+
