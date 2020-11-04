@@ -130,3 +130,60 @@ reuse the accelerometer, but that's a problem for future me.
 
 ![I built something!](/images/m2m/robot.jpg)
 
+
+### 2020-11-04
+
+Major success! I got the thing balancing!
+
+<video width="558" height="327" controls>
+  <source src="/images/m2m/balancing.webm" type="video/webm">
+Your browser does not support the video tag.
+</video>
+
+After a bunch of troubleshooting, I realized that my power supply was completely
+fine. The motors would cut out when asked to spin too fast. Since these are
+boring DC motors, they operate via PWM --- essentially, sending an oscillating
+square wave whose ratio of high-to-low duration allows you to effectively drive
+the motor at less than full speed. The problem I thought was the Arduino's pins;
+perhaps there was a hardware flaw and they were unable to emit the same signal.
+
+I split out the circuit and ran an LED on the signal (much easier to play with
+than spinning parts,) and I observed the same behavior there. Because there's no
+way that a single LED is overloading my power supply, the issue must be
+somewhere else. I wrote a quick Arduino program to just modulate the LED at
+100%, and, to my surprise, it worked just fine. Which means it's thankfully not
+a hardware issue.
+
+Returning to the self-balancing code, I realized the original author had
+multiplied an expected negative value by `-1`, rather than calling `abs`. In his
+code, it worked fine, but I had originally wired the motors backwards, and had
+mindlessly swapped the `DriveForward` and `DriveBackwards` calls. Works great,
+except that now the values were negative when the code didn't expect them to be.
+So it would negate my values in an attempt to fix them, which resulted in asking
+the motors to spin at a *negative percentage!* Thus the weird behavior I was
+seeing yesterday.
+
+Fixing the logic resulted in the excellent balancing you see in the video above
+--- on my first try! Apparently yesterday's careful calibration against a
+completely-broken implementation was more than good enough for a working one.
+
+So, that's the first step towards my skateboard goal. I've managed to put
+together (and mostly understand) a self-balancing robot. That's the major
+hurdle. All that's left is to change the form-factor into something more
+amenable to humans. Which means it's time to focus on design.
+
+After watching a few tutorials on FreeCAD, I figured I was ready to get started.
+Rather than diving into a skateboard, I thought I'd start on something easier.
+My alarm clock is currently some nixie tubes connected to a bare circuit board,
+so I thought this would be a good opportunity to make a proper enclosure. It'd
+be boxy, but have some interesting angles and holes.
+
+Four hours later, I was yelling at FreeCAD for having the world's worst UI.
+Conceptually I have a great mental model of how to build what I want, but the
+tool doesn't make it easy. I think I have a working enclosure, so it's currently
+printing. Tomorrow I'm going to take the Haskell-based
+[ImplicitCAD](http://www.implicitcad.org/) for a spin, which seems like it will
+better play to my strengths.
+
+All in all, I'm feeling great about the project today!
+
