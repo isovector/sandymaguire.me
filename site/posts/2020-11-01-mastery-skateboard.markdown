@@ -135,10 +135,7 @@ reuse the accelerometer, but that's a problem for future me.
 
 Major success! I got the thing balancing!
 
-<video width="558" height="327" controls>
-  <source src="/images/m2m/balancing.webm" type="video/webm">
-Your browser does not support the video tag.
-</video>
+<video width="558" height="327" controls><source src="/images/m2m/balancing.webm" type="video/webm"></video>
 
 After a bunch of troubleshooting, I realized that my power supply was completely
 fine. The motors would cut out when asked to spin too fast. Since these are
@@ -186,4 +183,35 @@ printing. Tomorrow I'm going to take the Haskell-based
 better play to my strengths.
 
 All in all, I'm feeling great about the project today!
+
+
+### 2020-11-05
+
+I spent today traveling, so got less done than I'd hoped. But nevertheless, got
+a good two hours in looking at ImplicitCAD. As a library, I'm sure it's
+excellent, but my god is it missing the everyday Haskell usability. ImplicitCAD
+suffers from the usual problem of mathematics --- namely that there are no types
+and all numbers, regardless of purpose, are just the reals. Positions? Reals.
+Rotations? Reals. Curvatures? Reals. Worse, there is no indication of what the
+axes are. It was a frustrating experience, made more frustrating by the fact
+that I don't really understand the domain I'm working in. I'm going to spend
+tomorrow also working with Implicit, as I think I've sussed out enough to be
+able to get some real work done. But if that doesn't turn out to be the case,
+I'm going to cut my losses and use some other CAD tool.
+
+
+### 2020-01-06
+
+Today I gave ImplicitCAD another go, and made some solid progress on it. I
+learned that the default camera is facing the front of the object, and that the
+coordinate space is `(width, depth, height)`. After thinking very hard yesterday
+about how to construct the objects I wanted, I managed to put together a
+parametric version of the enclosure for my alarm clock, and the result is
+significantly easier to manipulate. I think I'm going to move forwards with
+ImplicitCAD as my modeling software.
+
+Tomorrow all of the traveling should have died down, and I plan to get in a good
+session with my father, the king of batteries and building weird
+machines. It'll be good to pick his brain on the feasibility of a full-sized
+skateboard, now that I'm reasonably confident this thing is doable.
 
