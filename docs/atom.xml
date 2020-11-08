@@ -55,6 +55,9 @@
 <h3 id="section-5">2020-01-06</h3>
 <p>Today I gave ImplicitCAD another go, and made some solid progress on it. I learned that the default camera is facing the front of the object, and that the coordinate space is <code>(width, depth, height)</code>. After thinking very hard yesterday about how to construct the objects I wanted, I managed to put together a parametric version of the enclosure for my alarm clock, and the result is significantly easier to manipulate. I think I’m going to move forwards with ImplicitCAD as my modeling software.</p>
 <p>Tomorrow all of the traveling should have died down, and I plan to get in a good session with my father, the king of batteries and building weird machines. It’ll be good to pick his brain on the feasibility of a full-sized skateboard, now that I’m reasonably confident this thing is doable.</p>
+<h3 id="section-6">2020-01-07</h3>
+<p>Spent the day discussing the project with my dad, who had some great ideas about how to go about actually manufacturing this thing. He also showed me some good places to look for parts, and we found some promising wheel/motor hubs. Furthermore, regenerative braking appears to be something I’ll get for free.</p>
+<p>I also started CAD modeling the board. I’ve got its frame all modeled parametrically, so I can fill in real values when I get the real parts measured. I’m still missing the electronics and battery compartments on my model, but it’ll be easy to get that figured out tomorrow.</p>
         ]]>
       </content>
     </entry>

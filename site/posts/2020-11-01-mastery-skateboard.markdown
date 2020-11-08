@@ -215,3 +215,16 @@ session with my father, the king of batteries and building weird
 machines. It'll be good to pick his brain on the feasibility of a full-sized
 skateboard, now that I'm reasonably confident this thing is doable.
 
+
+### 2020-01-07
+
+Spent the day discussing the project with my dad, who had some great ideas about
+how to go about actually manufacturing this thing. He also showed me some good
+places to look for parts, and we found some promising wheel/motor hubs.
+Furthermore, regenerative braking appears to be something I'll get for free.
+
+I also started CAD modeling the board. I've got its frame all modeled
+parametrically, so I can fill in real values when I get the real parts measured.
+I'm still missing the electronics and battery compartments on my model, but
+it'll be easy to get that figured out tomorrow.
+
