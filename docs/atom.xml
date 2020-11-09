@@ -58,6 +58,15 @@
 <h3 id="section-6">2020-01-07</h3>
 <p>Spent the day discussing the project with my dad, who had some great ideas about how to go about actually manufacturing this thing. He also showed me some good places to look for parts, and we found some promising wheel/motor hubs. Furthermore, regenerative braking appears to be something I’ll get for free.</p>
 <p>I also started CAD modeling the board. I’ve got its frame all modeled parametrically, so I can fill in real values when I get the real parts measured. I’m still missing the electronics and battery compartments on my model, but it’ll be easy to get that figured out tomorrow.</p>
+<h3 id="section-7">2020-01-08</h3>
+<p>PANIC.</p>
+<p>Today I spent a lot of time looking into what it would take to actually get this thing built in full size. I started looking at specific hub motors, and what sorts of power they’d require. After a few hours, I was panicking and physically unable to continue thinking about it.</p>
+<p>Some problems.</p>
+<p>First: I have no idea what I’m doing. The difficulty curve just of the theoretical engineering of this thing is already a significant challenge and learning experience. Physically manufacturing it is an even steeper one that I’m trying to tackle at the same time. The result is what feels like an impenetrable wall of understanding and difficulty, that I’m doubting my ability to overcome.</p>
+<p>Second: economically, this thing is starting to look very expensive. Which is discouraging if I’m not convinced I can pull it all off. A few hundred bucks for the hub motor, the same again for the batteries, and then probably half as much again to have someone manufacture the chassis for me. Which feels like cheating, but which brings me to my next point:</p>
+<p>Third: I don’t have access to any of the tools I’d need. I could buy them, but I don’t have the physical space required to store or use any of them, and this would dramatically increase my costs. No go. A maker space would be perfect, but there isn’t one in town.</p>
+<p>Fourth: time pressure. I’m fully confident I could pull this all off in six months, given time to work out solutions to the earlier problems. Right now I’m further worried about shipping times; most of the pieces seem to be only sold from Chinese vendors, meaning a best case delivery of 10 days, but more likely closer to two weeks. That’s skirting the line pretty close if I were to order today, and I am in no state to be ordering today.</p>
+<p>All in all, things are looking pretty grim. I’m not sure where to go from here, but I’ll sleep on it and hopefully things will look brighter tomorrow.</p>
         ]]>
       </content>
     </entry>
