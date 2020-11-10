@@ -267,3 +267,13 @@ today, and I am in no state to be ordering today.
 All in all, things are looking pretty grim. I'm not sure where to go from here,
 but I'll sleep on it and hopefully things will look brighter tomorrow.
 
+
+### 2020-01-09
+
+Slightly less panic. I asked around today on some local forums, and found the
+Victoria Tool Library, which rents out tools. That's a big pillar of problems
+knocked down. All that's left now is to find some space, and I'll be happy
+committing financially to the project. I'm not convinced it'll get done in
+November, but the deadline is just all make believe anyway. Not a lot done
+today, but maybe I'll work out a bill of materials tomorrow.
+
