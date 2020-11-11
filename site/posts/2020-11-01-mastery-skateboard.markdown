@@ -277,3 +277,27 @@ committing financially to the project. I'm not convinced it'll get done in
 November, but the deadline is just all make believe anyway. Not a lot done
 today, but maybe I'll work out a bill of materials tomorrow.
 
+
+### 2020-01-10
+
+I bit the bullet today, and bought a hub motor. It's happening. Assuming
+shipping happens before the end of the month, I'm committed to making this thing
+happen. I also invested in a car share, which will make getting tools much
+easier than trying to heave a spot-welder around town on my bike. And I learned
+that there is a metal supply store in town that can cut things to whatever
+length I need, with no minimum order. It's feeling possible.
+
+Furthermore, I found a [Youtube channel][fungineers] of some guys building the
+same skateboard. Today I went through all of their videos, and that gave me a
+much more realistic idea of what's necessary to do. I've decided to outsource
+building a battery pack, because it sounds like a great way to explode my
+apartment. With that and the metal cutting sorted out, I think everything should
+fit in my apartment.
+
+We gucci, baby.
+
+Home tomorrow, and I'll start engineering exactly what the frame should look
+like, so I can get the parts cut as soon as possible.
+
+[fungineers]: https://www.youtube.com/watch?v=65Tv4kycUSg&list=PLiYCRuOFm1MNj5a5LCCYhqoHpRu8Sc1Fx
+
