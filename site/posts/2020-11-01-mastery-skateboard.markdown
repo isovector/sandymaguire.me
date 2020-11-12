@@ -301,3 +301,12 @@ like, so I can get the parts cut as soon as possible.
 
 [fungineers]: https://www.youtube.com/watch?v=65Tv4kycUSg&list=PLiYCRuOFm1MNj5a5LCCYhqoHpRu8Sc1Fx
 
+
+### 2020-01-11
+
+Travel day, so not much progress. I bought a motor controller, pilfered lots of
+great stuff from my dad's workshop, and realized I already have the right gauge
+of wire to carry the wicked amount of current I'm going to need. Tomorrow I plan
+to sort out the design of the frame, and get that sent off for fabrication.
+I'm feeling good about the whole project.
+
