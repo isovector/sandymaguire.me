@@ -310,3 +310,12 @@ of wire to carry the wicked amount of current I'm going to need. Tomorrow I plan
 to sort out the design of the frame, and get that sent off for fabrication.
 I'm feeling good about the whole project.
 
+
+### 2020-01-12
+
+Recovery and errand day after traveling. Did some more part shopping, and
+figured out the WolframAlpha keyword for figuring out if my intended aluminum
+rails will bend with my bodyweight: "beam deflection." Looks like they won't, so
+I'm good. Tomorrow I'm going to suss out if anyone in town builds battery banks,
+and ask if any of my friends have a drill press they're not using.
+
