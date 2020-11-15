@@ -319,3 +319,8 @@ rails will bend with my bodyweight: "beam deflection." Looks like they won't, so
 I'm good. Tomorrow I'm going to suss out if anyone in town builds battery banks,
 and ask if any of my friends have a drill press they're not using.
 
+
+### 2020-01-13/14
+
+No progress these days, just waiting for parts to come in.
+
