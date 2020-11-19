@@ -324,3 +324,10 @@ and ask if any of my friends have a drill press they're not using.
 
 No progress these days, just waiting for parts to come in.
 
+
+### 2020-01-18
+
+So the wheel hasn't even shipped yet, and it's coming from China. I'm going to
+put this project on hiatus until I get word it's actually on its way. Updates
+when I have them!
+
