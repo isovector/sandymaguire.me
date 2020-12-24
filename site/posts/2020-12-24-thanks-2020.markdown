@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 2020
-date: TO_BE_DETERMINED
+title: "Thanks for a Great Year, 2020"
+date: 2020-12-24 02:02
 comments: true
-tags: foo, bar
+tags: year, review, life
 confidence: 1
 ---
 
@@ -74,8 +74,7 @@ couches for four months][erdos] and [breaking down][breakdown], I really needed
 some "me" time. But also, for the first time in my life, I noticed how good I
 had become, socially.
 
-[erdos]:
-[breakdown]:
+[breakdown]: https://sandymaguire.me/blog/burnout/
 
 For the vast majority of my life, I'd been a shy kid, who wasn't particularly
 good at talking to new people, or dealing with social situations. I'd turned to
@@ -131,7 +130,7 @@ some geo-tagging stickers of my face that I distributed to the random travelers
 I met. To date, they've been scanned in 18 different cities across the globe,
 and I still have like 500 in my closet to put up when the world reopens.
 
-[retire]:
+[retire]: https://sandymaguire.me/blog/reaching-climbing/
 
 My Thai visa was about to expire, so my plan was to head to Korea and then to
 Japan. But COVID struck in full force, and both countries were closed to me. Due
@@ -163,7 +162,7 @@ of the lads together and witnessed the genesis of the spectacular
 &infin;-groupoid chat. I was [en-route for Victoria][best-place] During my stay,
 I convinced Andrew to move to Victoria with me, and we hit the island.
 
-[best-place]:
+[best-place]: https://sandymaguire.me/blog/best-place-to-live/
 
 Victoria. My new home. But I didn't yet have a place to live, so I hit the only
 hostel in town that was still open --- the unfortunately named Hostelling
@@ -294,7 +293,7 @@ I'm sure the system works really well when you're all set up, but MY GOD things
 shouldn't have been this hard.
 
 
-##
+## Routine Life
 
 In late April(?), Erin and I decided to "go steady." We were already
 inseparable, but this made it official. Out of all the marvelous things that
@@ -306,10 +305,151 @@ proximate for Canada. I rented a car, and went up for a week. It was great to
 see them, but I left as a firm believer that familial relationships are much
 better with some distance. While I was there, I spent a few hours cutting and
 sanding styrofoam that I eventually [turned into homemade speakers.][speakers]
+This was the beginning of what turned out to be quite an active year technically
+and electronically for me.
 
-[speakers]:
+[speakers]: https://www.youtube.com/watch?v=zdkyGDqU7xA
 
+The rest of the summer passed without much ceremony. My cousins moved to town,
+and their parents followed them, and *their* daughter and fiance followed
+*them,* so all of a sudden I had lots of family in town. However, in SUCH
+UNCERTAIN TIMES, due to the GLOBAL PANDEMIC, we didn't see much of one another.
+In fact, I didn't see much of anyone. Of the fifteen people I knew in town, only
+one of them was willing to hang out with me with any sort of regular cadence
+(thanks Nash! you're dope!) The others, whether it be due to GLOBAL PANDEMIC,
+social anxiety, or maybe just not liking me, refused.
 
+In an attempt to stay social, I started calling old people from my life whom I'd
+really liked. At one point I was averaging over 20 hours of calls a week, It was
+fun reconnecting with great people. Some calls didn't go so well, but others ---
+like with Ehsaan --- we went for five hours straight. After two weeks or so of
+this, I burned out on social activity, and curled up, putting the same amount of
+energy into writing a book. But this wasn't the end of my social issues for the
+year.
 
+It came to a head when I attempted to throw a joint house-warming/birthday party
+for myself, after extreme social isolation for five months. All I wanted was for
+my friends to come hang out with me. Only two people RSVP'd. It was one of the
+worst feelings of my life. Instead, Erin and my cousins took me out for korean
+BBQ --- *more meat than our bodies had room for.* A nice consolation prize.
 
+The birthday marked the beginning of my third decade. To celebrate, I decided to
+*finally* delete my Facebook account. Not just stop posting, like I'd done for
+the last year, but to actually delete the account and all of its associated
+data. At one point in my life I truly loved Facebook, but those days are no
+more. I haven't regretted it, and it wasn't hard for more than three days.
+Strongly recommended. I switched to Signal, updated everyone I cared to stay in
+touch with about my new info, and took the plunge. The result is that I talk to
+fewer people, but the ones I do stay in touch with are the people I really want
+to stay in touch with. Good trade.
+
+To do a bit of time travel, in July, Erin and I and another couple went to see a
+band. Live music! Joyous occasion! In retrospect I don't think the performance
+was amazing, but the circumstances of *being out in the world* and *hearing
+music* was enough to make any event memorable. I spent the entire show watching
+the bass player, and in particular, noticing both how good he sounded, and how
+little work he seemed to be doing. My infrequent musical gatherings always had
+me unpromptedly ending up playing a bass line on piano, which never really
+worked out. Combined with the fact that I wanted to play more music with people,
+and that everybody needs a bass player, the solution to both problems was
+obvious. The day after I went to buy a bass guitar (giant scale!) and an amp,
+and walk the hour home with them. Uncomfortable, but worth it.
+
+On September 1st, I finished writing [my second book.][add] Taking an
+uncomfortable action, I decided to reach out to one of the pivotal researchers
+in the field, and ask him to write a foreword. This man is not only the creator
+of some core pieces of technology used in the book, he's also a personal hero of
+mine, and approaching him was scary as hell. But he turned out to be super cool,
+and agreed to write the foreword so long as I gave him a few weeks of lead time.
+He returned with a beautifully-written foreword on September 10th, and having
+received it, my book immediately started sales. The response has been
+overwhelmingly positive, and the software I write has dramatically changed for
+the better. Thanks to everyone who's helped support me throughout the writing
+process; each and every one of you is fantastic.
+
+The rest of September was spent quietly, taking some time for myself. The book
+took a year to write, so it was nice to not have an overwhelming locus for my
+attention. But I couldn't rest on my laurels, so I spent the month as a
+vegetarian. Just to try it, you understand. The goal was to learn to love
+vegetables, but what actually happened was that I just ate a lot of broccoli and
+tofu. Erin and I signed up for the gym, started going regularly, and in my case,
+started looking really good (she already did!)
+
+Or maybe the vegetarian thing was in July. It's hard to keep track sometimes.
+
+October (or maybe September) was thankfully the end of being vegetarian, so on a
+whim, I decided to try being keto instead. I'm not much of a planner, so I sorta
+just dived in, eating lots of cauliflower and ground beef for the first two
+weeks. It was fine, until it wasn't. I'm not convinced I really got into ketosis
+at any point, but I sure got the keto flu a lot, so maybe that was me going in
+and out of ketosis lots of times. Under that lens, my weird food experiment was
+*wildly* successful --- I entered ketosis something like five times in a month!!
+
+During my [Erdos project][erdos], James King had the idea of a new way to write
+software. It's an amazing idea and has always stuck in my mind. I made some
+progress towards it last year, but the underling infrastructure simply wasn't
+ready for the sorts of things we had in mind. But in October, I read a blog post
+that suggested the technology was now ready for what we had in mind. I enlisted
+the help of my friend Reed, and we went heads down. By the end of the month, we
+had a working [tactics plugin][tactics] for the Haskell language server, It's now out in
+the hands of a few thousand people, and I hear a few times a week how much
+people love it.
+
+[erdos]: https://reasonablypolymorphic.com/erdos/
+[tactics]: https://reasonablypolymorphic.com/blog/towards-tactics/
+
+My time lines are all screwy from here on out. During my month of keto, I
+realized my energy levels had completely leveled out. I used to take a giant nap
+every afternoon, thinking that I just got tired in the afternoon. But this
+didn't happen while on keto. What was happening in fact was I was experiencing a
+massive sugar crash, and weathered it out by taking a nap. No sugar, no crash,
+no naps. So I spent a month just not eating sugar. It was amazing how good I
+felt, though I did have nightly dreams of skittles. These days I'm back on the
+sugar, but only in the evening, when I want to crash anyway.
+
+I also bought a 3D printer sometime around here. It was an impulse purchase, but
+I thought it would be fun to have a way of turning software ideas into reality.
+That's always been my biggest qualm with software: it's hard to show normies
+what it is you do. There are no tangible products of an elegant algorithm other
+than the algorithm itself, which most people simply *can't* appreciate.
+Thankfully my ego and vanity are both huge so I can appreciate it for them for
+me, but all in all, it's been really cool to be able to make physical things.
+
+In November I decided to take on a hard project and [make a self-balancing
+skateboard.][skateboard] I failed pretty miserably on this front, but in my defense, it's now
+late December and I still haven't received the GIANT SELF-DRIVING WHEEL that is
+a linchpin in the project. If I were truly dedicated to the idea, I probably
+could have made one myself, but I wasn't and I didn't. I still plan to build
+this thing, but I'm hoping the parts will come in first.
+
+[skateboard]: https://sandymaguire.me/blog/mastery-skateboard/
+
+For December, I decided to make a roomba for Erin. It was my first true foray
+into CAD, and I immediately realized that I hated all of the CAD software. Of
+course, there's a nascent Haskell library for doing CAD, so I picked that up and
+started trying to model the roomba. It was a much better experience than any of
+the other software, but it still crashed all the time. I made friends with the
+maintainer, and have spent a good chunk of my waking time since then
+contributing to the project with whatever things I find in the course of making
+the roomba.
+
+Getting the robot to suck has been a surprisingly challenge; did you know not
+all fans are made equal? I think I bought three or four before I found one that
+does the job, and then I immediately wasted it by designing a bad intake system.
+Turns out fans move a constant volume of air, not a constant mass, and so,
+contrary to first thought, you actually lose a lot of suction if you have
+internally small pipe cross-sections. The software for the roomba was pretty
+trivial, and he wanders around the house and doesn't bump into things. It's cute
+to watch. The goal was to have him finished for 2021, but a few of the last
+parts I need will arrive in January.
+
+All in all, it's been a spectacular year. I'm feeling truly self-actualized;
+like the principled teenage-me, but with the confidence I was *sorely* lacking.
+I learned a lot of new skills, from security pen-testing, to algebra-driven
+design, to electronics and fan design, to the acoustics of what you want in a
+speaker. I wrote an excellent book, and nailed a few cool software projects.
+I've been sober for a year. I started dating the love of my life, and have set a
+lot of serious relationship milestone records with her.
+
+In the words of Moist --- *I love my life; it's getting better every day.*
 
