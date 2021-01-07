@@ -1,0 +1,220 @@
+---
+layout: post
+title: "Goals: A Retrospective and Look Forwards"
+date: 2021-01-06 22:39
+comments: true
+tags: goals, chambliss, retrospective, mundanity of excellene
+confidence: 2
+---
+
+Today I want to talk about goals --- both those of my last year, and looking
+forward into 2021. I don't really want to talk about the first part, but *I guess
+I have to.* They say that if you can't remember the last time you failed
+something, you must not be trying hard enough. And by that metric, 2020 was a
+resounding success! I failed most of my goals! So let's quickly recap, think
+about what went wrong, and then talk about Olympic swimming.
+
+
+## Recap
+
+What were my goals for last year? The big one was to finish my book
+[Algebra-Driven Design][add], which happened and has been both a financial and
+critical success. Nice one, Sando!
+
+[add]: https://algebradriven.design/
+
+I was also going to go through all of [PortSwigger Web Academy][security], which
+is an online sandbox for learning how to break into websites. I made it through
+all of the free lessons (some you need to buy specialized tools,) and found a
+genuine exploit in the wild on a Japanese-curry restaurant's website. Victory!
+
+[security]: https://portswigger.net/web-security
+
+Also I was going to exercise for 20 minutes a day. I think there were some weeks
+during lockdown in which I didn't hit this target, but between swimming in the
+Andaman sea, skateboarding, riding a too-small bicycle, at-home swing-dancing
+lessons with Erin, a (very) brief foray into running, rock climbing, and
+eventually getting a gym membership, I'm counting this as a win. Though lack of
+explicit tracking my data puts an asterisk beside this one.
+
+I wasn't going to drink any alcohol in 2020 either. This one didn't strictly
+happen, but in total I drank fewer than 15 beers, and had zero wine or spirits
+(but a little bailey's on days that I found it hard to write.) I got drunk once,
+and it was for a good cause --- my friend's bachelor party.  But importantly,
+alcohol is no longer a part of my life, and I've got a very healthy relationship
+these days. Occasionally I'll feel like I want a beer, but when I get one, I'm
+never very happy about it and don't end up finishing it.
+
+So that's the good stuff. Something I partially succeeded on was performing 2
+hours of music. I played a 45 minute "concert" on my balcony in China town to a
+few vagrants and passersby, who clapped when I was done, so I'm counting in. But
+it's less than half of what I'd wanted to do, and also I had a more "formal"
+setting in mind when I made the goal. **C+.**
+
+And uh, everything else went wrong. I was going to learn to love vegetables in
+2020, and despite going vegetarian for a month, and a traumatizing French-onion
+soup incident, still do not love vegetables. I was going to compose 5 songs,
+learn a new programming language, volunteer for something, and only watch
+quality TV. Bad bad bad bad bad.
+
+Also I was going to journal every week. Which stopped feeling so necessary once
+I had my life together. It would still come out when I had interpersonal things
+to work through, but all in all, I just didn't need it as much as I had
+expected.
+
+I was going to make a solid friend-group, and I hit the ground running when I
+returned from Thailand, ready to make that happen. Unfortunately, the GLOBAL
+PANDEMIC had other plans, and the exceptionally lawful denizens of my new home
+really weren't willing to break the rules. I'm blaming my failure here on an act
+of god, moreso than anything I might have done.
+
+Similarly, I was going to have set myself up in a strong community where I
+wanted to spend my next decade. While I moved somewhere, it's been if not
+physically, at least spiritually, locked down the entire time. I have absolutely
+no idea if I like it here or not, because I haven't really experienced it. But I
+made things happen with the love of my life, with whom I want to spend the rest
+of my life, so maybe that's close enough.
+
+So what went so horribly wrong? It's tempting to blame it all on THESE UNCERTAIN
+TIMES, but that's just not true. I mean it is, but it's a cop out. What really
+went wrong, I think, is that I made a lot of non-SMART goals, that were output
+based, but came with no mechanism to ensure I stayed on top of them. And like,
+what does it even mean to "learn to love vegetables?" Idiotic play.
+
+
+## The Mundanity of Excellence
+
+Let's change tack and talk about Olympic swimming for a bit.
+
+One of my favorite papers of all time is [Chambliss' *The Mundanity of
+Excellence: An Ethnographic Report on Stratification and Olympic
+Swimmers.*][mundanity] Chambliss spends a few years following competitive
+swimmers across all skill levels, and analyzes what differentiates competitors
+of different skill levels.  Its key results are that skill levels are discretely
+stratified --- a competitor "may consistently qualify for the Junior Nationals,
+but not for the Seniors" or "may swim at the Olympics, and never return to
+Junior Nationals." The claim is that this is not the effect of quantitative
+changes, but that swimming at the Senior Nationals is *fundamentally different*
+than at the Junior Nationals.  Which is to say, that Olympic swimmers aren't
+*faster* than their local swim-meet analogues; they are swimming *completely
+differently.* The discrete stratification of a natural result of this; being
+physically more fluid-dynamic than your peers might be an advantage to help you
+win at one level, but that's a micro-optimization that is too small to bump you
+between strata.
+
+[mundanity]: http://djjr-courses.wdfiles.com/local--files/hcd%3Aarticles-and-excerpts/Chambliss-MundanityOfExcellence.pdf
+
+Moving between these layers of skill, Chambliss argues, requires qualitative
+changes. In the swimming example, kicking harder than other people is a
+quantitative change that won't excel you to greatness; but kicking *differently*
+will. Experts aren't just "better amateurs."
+
+If generalizable, this has important ramifications for becoming excellent at
+your skill of choice. Playing to your strengths will help in the short term, but
+resign you to doing more of what you already are doing. Improving areas in which
+you're weak will be more fruitful, in that it will unlock other areas for
+improvement --- things that you're currently unaware of due to mitigating your
+weaknesses.
+
+To be concrete, I've been playing guitar for like six years now. And I'm
+embarrassingly bad at it for having played that long. For the vast majority
+of that time I didn't really know what I was doing; I'd look up chords for a
+song I liked, ensure that it didn't have any scary-looking ones, and then
+memorize that and strum the chords out whenever I had a guitar around. Often I
+chose ballad-type songs that were heavily singing-focused, so I could rely on
+being able to sing as a crutch for my bad guitar playing.
+
+It sorta worked. I was "fine" at guitar. I had a few songs I could pull out and
+impress girls with. But I wasn't good by any measure.
+
+But then last year, someone played me a song by finger-picking her way through
+it.  It was the first time I'd ever *seen someone do that.* It sounded really
+good, and it looked easy. So I spent the next week practicing that, and by god,
+my guitar playing got 10x better.
+
+Two weeks after that, I called my friend Rory and we chatted about music for a
+while. I marveled to him about my newfound skills, and he showed me how barre
+chords are laid out on the fretboard. Not only that they are, but *what the
+pattern is.* It was a qualitatively different way of thinking about the
+fretboard, about learning patterns and landmarks, rather than trying to memorize
+what letter goes in every single one of the little boxes. So I studied and
+internalized this too.  And again, my guitar playing got 10x better.
+
+Three weeks is about 1% of the time I've spent playing guitar. Seeing a 100x
+skill improvement in such a short time, perfectly correlated with *trying new
+things* is good evidence in favor of Chambliss.
+
+I see this a lot in programming too. There's a stupid meme going around about
+whether some programmers are 10x better than the average. The masses shout "no,"
+but they're wrong. I'm not sure if this is self-delusion or simply a selection
+bias, but the best programmers I know are easily 1000x better than the average.
+Maybe not in terms of *productivity,* but certainly in terms of problem solving.
+The best programmers aren't people who have necessarily been doing it longer;
+they're people who have been systematically tackling hard problems, and learning
+new tools, and most importantly, (gasp!) learning the underlying theory.
+
+This is by no means a dig at the average programmers, nor an assessment of their
+worth. Most of the world's problems are indeed [boring and require more
+tediousness than anything else.](/blog/brilliance) Just because we have
+Dostoevsky doesn't mean we don't also need E. L. James --- but it would be a
+mistake to say that these are two authors of the same caliber.
+
+On this topic, however, Chambliss has some good news. Qualitative stratification
+is so important that it absolutely dwarfs the effect of "natural talent" or
+"hard work."
+
+> The top swimming coaches in America fall into the same prejudice, attributing
+> success often to "hard work" or "talent." Since they habitually,
+> unreflectively, live at the top level (having spent almost their entire
+> coaching career there), they never see what creates the differences between
+> levels.  The fact is, quantitative changes do bring success-but only within
+> levels of the sport. 12 Doing more of the same pays off, but only in very
+> limited, locally visible ways. One can achieve a slight advantage over peers
+> by doing more without changing the quality of what is done.
+>
+> Having seen that "more is better" within local situations, we tend to
+> extrapolate.  If I work this hard to get to my level, how hard must Olympic
+> swimmers work? If I sacrifice this much to qualify for the State
+> Championships, how much must they sacrifice? We believe, extrapolating from
+> what we learn about success at our own level, that they must work unbelievably
+> hard, must feel incredible pressure, must sacrifice more and more to become
+> successful. Assuming implicitly that stratification in sports is continuous
+> rather than discrete (that the differences are quantitative) we believe that
+> top athletes do unbelievable things. In short, we believe that they must be
+> superhuman.
+
+
+## Looking Forwards
+
+So what's the takeaway here? Systematically try new things when practicing. I
+made a list the other day of potential interventions for all of my hobbies ---
+programming, electronics, math, fitness, music --- and also just in how I
+conduct myself in my relationships and in life more generally. In *less than ten
+minutes,* I had at least five things for each activity, things that it was
+completely self-evident that adopting these things would drastically improve my
+performance. And it wasn't even hard to come up with. My brain *already knew*
+all the stuff I should have been doing all along. It just felt like hard work,
+so I didn't even try.
+
+The trick, I think, is to prioritize the trying of new things over the supposed
+benefits they'll bring. It's much easier to fuck around on guitar than it is to
+DO EXERCISES THAT YOU DON'T WANT TO BUT KNOW WILL MAKE YOU A BETTER GUITAR
+PLAYER. Even though these two activities are the same thing. That's not to say
+I'm allowed to slack off in my practice of these things, but I'm already good at
+that. What I'm not good at is introducing new ideas into my practice routine,
+which systematic diversification will help with.
+
+So that's my goal for 2021 --- to "do things differently." I've put together a
+spreadsheet that I can pull up with a single keystroke, and *solemnly swear* to
+update it every day with one thing that I did differently. There are no other
+restrictions here, I trust that I'll move in the right direction if I take a
+step everyday. What a SMART goal.
+
+Oh, and also, I'm going to stop watching pornography. It lowers my libido and
+makes me feel bad. So why do it? Great question. To keep myself accountable
+here, I am pre-committing to publicly post a link to any pornography I consume
+in 2021. That would be embarrassing as heck. If failure is really expensive, you
+simply won't fail. But it's scary! I'm tracking this on my spreadsheet as well.
+
+So those are my goals! Here's to a much better year than the last.
+
