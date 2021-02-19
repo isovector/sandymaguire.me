@@ -216,5 +216,19 @@ here, I am pre-committing to publicly post a link to any pornography I consume
 in 2021. That would be embarrassing as heck. If failure is really expensive, you
 simply won't fail. But it's scary! I'm tracking this on my spreadsheet as well.
 
+**Edit 2021-02-19** I broke this resolution yesterday. There's a new post
+keeping myself accountable, but you need to press this button first:
+
+<script>
+function set_violations() {
+  document.cookie = "show_violations=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  alert("OK")
+  }
+</script>
+
+
+<button onclick="set_violations()">Press to Enable Viewing My Broken Resolutions</button>
+
+
 So those are my goals! Here's to a much better year than the last.
 

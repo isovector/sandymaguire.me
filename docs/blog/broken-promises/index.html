@@ -63,8 +63,8 @@ function rot13(str) {
 }
 
 function see_violations() {
-  if (!document.cookie.split('; ').find(row => row.startsWith('show_violations'))) {
-    document.location = "uggcf://jungnyrtraqtnzr.pbz/"
+  if (document.cookie.split('; ').find(row => row.startsWith('show_violations'))) {
+    document.location = rot13("uggcf://jungnyrtraqtnzr.pbz/")
   } else {
     alert("You didn't read the post!")
   }
