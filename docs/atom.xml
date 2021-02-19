@@ -87,7 +87,7 @@ View Website (2021-02-18)
 <p><strong>Edit 2021-02-19</strong> I broke this resolution yesterday. There’s a new post keeping myself accountable, but you need to press this button first:</p>
 <script>
 function set_violations() {
-  document.cookie = "show_violations=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  document.cookie = "show_violations=true; path=/blog; expires=Fri, 31 Dec 9999 23:59:59 GMT";
   alert("OK")
   }
 </script>
