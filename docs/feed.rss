@@ -7,13 +7,45 @@
   <description>Musings on effective life strategies</description>
   <category>Life</category>
   <copyright>2018 Sandy Maguire</copyright>
-  <pubDate>2021-01-06T22:39:00Z</pubDate>
+  <pubDate>2021-02-19T07:37:00Z</pubDate>
   <language>en-us</language>
   <image>
       <url>http://sandymaguire.me/images/favicon.png</url>
     <title>Sandy Maguire</title>
     <link>http://sandymaguire.me</link>
   </image>
+  <item>
+      <title>I Broke My New Years Resolution</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/broken-promises/index.html</link>
+      <guid>http://sandymaguire.me/blog/broken-promises/index.html</guid>
+      <pubDate>2021-02-19T07:37:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>I broke one of my New Years Resolutions yesterday. And as an accountability mechanism, I promised that I’d publicly post the details of what happened. I’m embarrassed to share this, but it’s a small price to pay in service of convincing myself that I will do what I say I will.</p>
+<p>But in an attempt to salvage some amount of dignity, the button below won’t work until you’ve read the post detailing my goals for the year, and pressed the new button on that page.</p>
+<p>If I break the rules again, I’ll update this post. Consider myself warned.</p>
+<script>
+function rot13(str) {
+  var input     = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+  var output    = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
+  var index     = x => input.indexOf(x);
+  var translate = x => index(x) > -1 ? output[index(x)] : x;
+  return str.split('').map(translate).join('');
+}
+
+function see_violations() {
+  if (!document.cookie.split('; ').find(row => row.startsWith('show_violations'))) {
+    document.location = "uggcf://jungnyrtraqtnzr.pbz/"
+  } else {
+    alert("You didn't read the post!")
+  }
+}
+</script>
+<button onclick="see_violations()">
+View Website (2021-02-18)
+</button>
+      ]]></content:encoded>
+  </item>
   <item>
       <title>Goals: A Retrospective and Look Forwards</title>
       <author>sandy@sandymaguire.me (Sandy Maguire)</author>
@@ -55,6 +87,16 @@
 <p>The trick, I think, is to prioritize the trying of new things over the supposed benefits they’ll bring. It’s much easier to fuck around on guitar than it is to DO EXERCISES THAT YOU DON’T WANT TO BUT KNOW WILL MAKE YOU A BETTER GUITAR PLAYER. Even though these two activities are the same thing. That’s not to say I’m allowed to slack off in my practice of these things, but I’m already good at that. What I’m not good at is introducing new ideas into my practice routine, which systematic diversification will help with.</p>
 <p>So that’s my goal for 2021 — to “do things differently.” I’ve put together a spreadsheet that I can pull up with a single keystroke, and <em>solemnly swear</em> to update it every day with one thing that I did differently. There are no other restrictions here, I trust that I’ll move in the right direction if I take a step everyday. What a SMART goal.</p>
 <p>Oh, and also, I’m going to stop watching pornography. It lowers my libido and makes me feel bad. So why do it? Great question. To keep myself accountable here, I am pre-committing to publicly post a link to any pornography I consume in 2021. That would be embarrassing as heck. If failure is really expensive, you simply won’t fail. But it’s scary! I’m tracking this on my spreadsheet as well.</p>
+<p><strong>Edit 2021-02-19</strong> I broke this resolution yesterday. There’s a new post keeping myself accountable, but you need to press this button first:</p>
+<script>
+function set_violations() {
+  document.cookie = "show_violations=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  alert("OK")
+  }
+</script>
+<button onclick="set_violations()">
+Press to Enable Viewing My Broken Resolutions
+</button>
 <p>So those are my goals! Here’s to a much better year than the last.</p>
       ]]></content:encoded>
   </item>
@@ -346,113 +388,6 @@ Everywhere I’ve been, as of 2020
 <li id="fn2" role="doc-endnote"><p>In particular, my good friend Austin Dobrik has been a huge role model on this front. I’ve spent the last ten years constantly amazed at his bravery in calling out bad behavior and helping people in dire situations.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-      ]]></content:encoded>
-  </item>
-  <item>
-      <title>Revisiting 2019</title>
-      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
-      <link>http://sandymaguire.me/blog/revisiting-2019/index.html</link>
-      <guid>http://sandymaguire.me/blog/revisiting-2019/index.html</guid>
-      <pubDate>2020-01-01T14:58:00Z</pubDate>
-      <content:encoded><![CDATA[
-        <h2 id="looking-back">Looking Back</h2>
-<p>With 2019 so recently behind us, it seems like as good a time as any to reminisce. This is actually my second attempt at doing a yearly write-up; as it happens, the year of our lord 2019 wasn’t a particularly good one for me, and as a result, my first write-up came off aggressively negative.</p>
-<p>But negativity feels like a poor way to start the new year, and thus, I’ve decided to focus only on the best parts of the last one.</p>
-<p>2019 started off with a great deal of promise. Ariel, one of my best friends, came to ring in the new year with me. We spent our time jamming on Grateful Dead covers, doing the monster mash, and listening to Suavemente… over and over and over again — much to the dismay of poor roommate James. For new years eve, we rigged up my old Arduino-controlled light vest, and headed down to karaoke night. Starting off with so much music inspired my only resolution for the year — to <a href="/blog/play-lots-of-music/">play more music</a>.</p>
-<p>Too soon Ariel needed to head home, and I found myself deep in a new romantic relationship with my roommate. I knew it was a bad idea. She knew it was a bad idea. Literally everyone told me it was a bad idea. But we didn’t let that stop us. Instead we leaned into it. Maybe it was too much Elvis Crespo, or maybe it was too much lovey-dovey roommate stuff, but we accidentally pushed James out of the house. He left without so much as a word to me, while I was traveling in San Francisco. Apparently he responded less well to the Suavemente than I thought!</p>
-<p>I was in SF for business. The AI-safety non-profit MIRI and I were courting one another, and after a successful first few interviews, they invited me down to meet in person. Since I had spent a few years there in the past, I decided to take the opportunity to spend a week in my old stomping grounds — meeting up with old friends and taking in the scene.</p>
-<p>While it was excellent to see everyone, I noticed something scary. Every single one of my friends was aggressively depressed. They all seemed to simultaneously hate living in SF, and be completely oblivious to this fact. Their vibe reminded me of <em>my</em> depression when I lived in the Bay, and sufficiently spooked me away from attending the MIRI interview. I was afraid if I went I would be tempted to take the job, and subsequently need to return to the Bay.</p>
-<p>My good friends Fintan and Vikrem also came to SF to see me. We spent the week getting into lots of trouble, including (but not limited to) being literally kicked in the ass by a hobo, and witnessing a back-alleyway blowjob.</p>
-<p>Vikrem is a man who is notoriously anti-SF, and upon my return, he deluged me with SF-is-shitty memes. One of them was a video about some guy who lives in a shitty SF apartment without enough space, and so needs to rig up stupid engineering projects to cope. I felt inspired by the video, and decided to do some DIY to spruce up my own place in Ottawa.</p>
-<p>The result was some lights beneath my bed that simulated the northern lights. They would imperceptibly change colors and patterns, but always be colorful and always fill me with joy. I also did some redecorating, and commissioned a painting from my friend Anika. It helped make Ottawa feel a little more like home.</p>
-<p>But Ottawa never truly felt like home. I had moved there on a whim in September of 2018, mostly due to the convenience of it. I was moving back to Canada, but there was no obvious place to be — my family and friends had all performed their own diasporas, and there was no critical mass of people I knew anywhere. Other than SF, which was a) in the wrong country, and b) not a place I was going to move to.</p>
-<p>The lesson I learned from living in Denver is that if a city doesn’t feel like home, it’s probably because you aren’t working hard enough to meet people. So I went out, in Ottawa. I joined a pub trivia group, a choir, a jam group, an engineering space, an improv troupe, the functional programming meetup, two climbing gyms, among other activities. Most of these were delightful amounts of fun, but I never really met anyone I really connected with.</p>
-<p>Instead, I started diving into my work. A few weeks previous, I had come across an academic paper that promised to solve some theoretical problems I’d been wrestling with for two years. It caught my attention, and after internalizing the approach, I immersed myself. For eight to ten hours a day, for roughly four months, taking no time off, I worked and researched and created. It felt good. It was the only intellectual exercise I found myself getting in Ottawa. The result was my <a href="https://github.com/isovector/polysemy">polysemy</a> project.</p>
-<p>Somehow, I became aware of the Montreal functional programming group, and was invited by the very excellent <a href="http://gelisam.blogspot.com/">gelisam</a> to come and give a talk. My presentation was on the research I’d been so deep into the last few months, and this was the first time I was widely showing it to the world. The response was stellar — not only the feedback from the talk, but also just all of the super-cool people I met.</p>
-<p>At some point, I bought an <a href="https://onewheel.com/">electric, one-wheel skateboard</a>. Cruising through Ottawa late at night on that thing, grooving out to surf-rock was one of the closest things to ecstasy I’ve ever experienced. I rode it out through one too many thunderstorms, and waterlogged the electronics. In an amazing fit of engineering prowess, I later managed to fix all of the destroyed electronics. The joy of riding around on <em>previously broken,</em> electric, one-wheel skateboard <em>that you’ve fixed yourself</em> is even more incredible than the original experience.</p>
-<p>My now-ex had decided she too was leaving Ottawa, but not for six weeks. It didn’t seem fair to kick her out and make her find such a short-term lease, so we continued living together. We decided to make the best of a bad situation, that we should unite against the manchildren in the basement, and not bring anyone home (our rooms shared a thin, thin wall.) Over the weeks, we tentatively became friends again, and it was nice. The city felt a little less empty.</p>
-<p>I started thinking about leaving Ottawa. Living there had been a solid attempt, but was clearly a failed experiment. Unfortunately the situation hadn’t changed — there was <em>still</em> nowhere obvious to move to. I had an inkling of an idea, to emulate Paul Erdos and spend the rest of my life surfing on excellent engineers’ couches. I dreamed of moving from city to city, spreading my knowledge, connecting like-minded people, and building cool things. So I put out a call for interested parties, and my god did they come. Before I knew it, I had two years’ worth of couches to stay on. That cemented the idea, and I started planning to sell my things and learn how to live out of a suitcase.</p>
-<p>As a test run, I reached out to two people in Toronto — my old friend <a href="https://github.com/davidrusu">David Rusu</a>, and my soon-to-be new one, <a href="https://github.com/JonathanLorimer">Jonathan Lorimer</a>. The experience was stellar. Both men were <em>hungry to create,</em> just like I was. In the course of a week, I think I did about 60 hours of dedicated engineering work. It was everything I had been dreaming about for a year. I returned to Ottawa, my heart heavy to be coming back, and knew it was time to pull the plug.</p>
-<p>My other cousin Charlotte had recently moved to town, and we found ourselves reconnecting over a forgotten-decades-ago appreciation for Jeopardy. In a very fortuitous state of affairs, Jeopardy history was in the middle of being made, so we hunkered down at the beginning, and spent weeks powering our way through.</p>
-<p>In my last weeks in Ottawa, an old friend and I went out to hip-hop trivia. We crushed it, placing first. WE ARE THE BIGGIE PROFESSORS — more like Notorious PhD, am I right???</p>
-<p>I left my skateboard with John, the coolest person I’d met in Ottawa, though unfortunately I’d met him only a month before. In that time, we spent something like twenty hours discussing philosophy and life and all sorts of deep, interesting stuff. Leaving the skateboard and leaving John were the hardest parts of leaving Ottawa, so it seemed poetic to leave them together.</p>
-<p>My last day in Ottawa rapidly approached, and I found myself on a bus to Toronto, to meet back up with Jonathan. He graciously invited me to give a talk at the Toronto functional programming meetup, and I accepted. There I had my first taste of fame, where after my talk, <em>everyone just hung around,</em> casually listening to me talk. There was a gaggle of like 20 fanboys, sitting around to hear me ramble on without a shred of eloquence about GADTs and type-level programming. I felt famous, like the next coming of Ed Kmett. Then we went to the bar and everyone forgot about me and the universe went back to normal.</p>
-<p>Somehow I ended up in Vancouver, to stay with my excellent, ex-coworker, Travis, and an equally excellent old-friend, Andrew. Being back in Vancouver was delightful, especially my munchkining discussions with Andrew, weird mathematical discussions with Reed, and a wistful fourteen hour catching up with Erin — a personal favorite human of mine.</p>
-<p>My location rapidly converged upon my parents’. I spent a nice week with them, involving swimming, learning to make Caesars, an excellent painting lesson from my aunt, and a fun night at the local observatory. My dad’s health isn’t particularly good, so I decided to be around for his upcoming operation a few weeks later.</p>
-<p>In the meantime I went to visit the awe-inspiring <a href="https://chrispenner.ca/">Chris Penner</a>. We had a great week together, culminating in an epic piano jam sesh. It was the first test of my year’s new music skills, and I came out from it very impressed with my newfound abilities.</p>
-<p>The plan was to head south into the States, and spend a few months rail-tramping my way across the continent. But my inclination to stay in North America was rapidly fading, so I took my friend up on her invitation to come to Amsterdam.</p>
-<p>Amsterdam was much less fun than I was expecting. We spent most of our time in the library, but I did meet an old friend from back home who is now the Amsterdam cheese girl. So that’s cool I guess! Also I did a lot of bicycling, and came away convinced that bike-only cities are the future.</p>
-<p>I went off to Munich. While waiting for the train (it had hit someone, and was thus DELAYED), I met a fun woman from Leipzig. She told me stories of being an au pair, and of her paired child who, in cold blood, threatened to set her on fire. We had a great chat, and she invited me to come visit.</p>
-<p>In Munich I stayed with the excellent <a href="https://dev.to/jvanbruegge">Jan van Bruegge</a>. He met me at the train station at midnight, and despite having never met before, we quickly became close friends. That night, getting comfortable on his couch, I was struck by the most amazing feeling — that my life is so incredible, to have such fantastic people willing to host me on their couches. I’ve never experienced such true gratitude before.</p>
-<p>Thank you, from the very bottom of my heart, to <a href="http://reasonablypolymorphic.com/erdos/">everyone who hosted me this year</a> — thanks David, Jonathan, Boris, James, Travis, Chris, Andrew, Gintare, Jan, Soares, Justin, Anna, Andy, Asad and Vincent.</p>
-<p>My travels took me all over. I went to Leipzig to meet that woman from the train, and to play harmonica, and to do cool category theory stuff with Soares — who graciously invited me to the Haskell eXchange. I headed back to Munich to build watering systems and fight Scala’s variance mechanism with Justin. I had a romantic little week with Elli. I met up with Matiej, my close collaborator in Bratislava, and with an old flame in Vienna. She’s since gotten <em>fit</em> and took me to the gym during my visit, during which time I was completely emasculated by just how much stronger she was than I! Her roommate Andy and I had an excellent daylong conversation about computers, and I met the mysterious spy woman Moni, whom I was relatively certain wanted to kill me.</p>
-<p>But she didn’t. And so I went to London.</p>
-<p>London and I have been flirting with one another for years. I’d considered moving there in 2018 for a woman, in 2019 it invited me <a href="/blog/gatekept/">to do a PhD</a>. Then the Haskell eXchange rang, and I couldn’t resist its siren call. It was a grand time.</p>
-<p>But a <em>weird</em> time. I met a lot of people whom I then considered to be personal heroes. It was a rather underwhelming — one was a total dick, and another seemed like he was intentionally not understanding what I was trying to say. But besides that, the conference was a blast. I met the eminent <a href="https://richarde.dev/">Richard Eisenberg</a>, who knocked me off my feet with his overwhelming intelligence, thoughtfulness and kindness. Another personal favorite person of mine, <a href="https://github.com/judah">Judah Jacobson</a>, was there, and reconnecting with him was particularly joyful.</p>
-<p>HsX had too many excellent people to iterate them all, but one other person who stood above the crowd was <a href="https://github.com/masaeedu">Asad Saeeduddin</a>. I’d met Asad briefly in Toronto a few months earlier, where we’d had an amazing conversation and he’d taught me a whirlwind of cool new stuff. My intended roommate had come down with the plague, and so I found myself homeless. Asad kindly let me stay with him, and we had a few great nights sharing music and doing old-school bro-ing out.</p>
-<p>Also, I found myself as a minor celebrity at HsX! Several people had read my book, and went out of their ways to say nice things about it. One guy interrupted my conversation with someone else in order to have his book signed. It was an incredible pleasure to feel just how much people liked this thing I’d created. And the conversation I was in wasn’t particularly good, so there was no love lost on that front.</p>
-<p>During the tail-end of the conference, I got extremely sick. Like, “oh god, this is probably the night I die”-extremely sick. Thanks to Asad, I didn’t, but it was too close a call for comfort. Though I didn’t realize it at the time, this was a symptom of too much traveling, too much work, simply too much everything.</p>
-<p>A few months earlier, I’d applied for a job at Imperial College, after not getting in with my PhD program. They called me in for an interview while I was in London, and apparently I aced it, because (SO MANY WEEKS LATER) they offered me the job. I spent a few days hanging around Imperial, working with my amazing, would-be colleagues, <a href="https://kcsongor.github.io/">Csongor Kiss</a> and <a href="https://www.imperial.ac.uk/people/n.wu">Nick Wu</a>. I can’t say enough good things about these two. At the end of the day, I decided that my mental health wasn’t good enough to sign a year-and-a-half contract with Imperial, and so, with many regrets, I passed on the job. It was hard, but definitely the right thing to do.</p>
-<p>A week later, back in Munich, I was still trying to sort out my life plans. I had several “maybe we could do this” options on the table, but nobody on the other side seemed very keen on giving me a definite yes or no. In a move of desperation, I booked a ticket for Bangkok two days ahead of time. I needed a reminder that this was my life, and that I was in control of it. And what a better way to remember than to drop everything and head to a different continent with no plans other than “diving might be nice” and “I need a place to write this book.”</p>
-<p>Oh yeah, I’d decided to write a book, and was actively working on it.</p>
-<p>During my last trip to Thailand, I’d met a man who continually told me of how great Koh Lanta was. Since I didn’t have any other ideas, I finally took him up on that. Over the next six weeks, Koh Lanta became the closest place to home I’ve had in several years.</p>
-<p>Not much happens on Koh Lanta. It’s one big island with one big road going all the way along it. I spent my days swimming, reading, writing, playing guitar, doing karaoke, and socializing at the hostel.</p>
-<p>Because Koh Lanta is nestled in the middle of several BIG PARTY PLACES, it filters those people out of the equation. As a result, those who come to Koh Lanta turn out to be stellar humans on average. Some particularly great people I met were Heleen, Lily, Pavel, Jake, Ciara and Toby. Ciara and I spent a week traveling together, and she helped me realize just how burned out by programming I really was.</p>
-<p>I decided to <a href="/blog/burnout/">take a clean break</a> from programming and from writing the book I was working on. At time of writing, I now haven’t touched any software for a month — the first break of its kind in 16 years. It feels <em>so fucking good.</em></p>
-<p>My Thai visa was expiring, so I took a trip down to the Krabi Immigration office in order to convince them to grant me another week in this magnificent country. While bopping around Krabi Town, I met Natalia — the most scintillating, inspiring and fun person I’ve had the good fortune to encounter in years. The last few weeks of 2019 were spent with her, painting and playing music and skinny dipping and drinking mocktails and engaging in lots and lots and lots of amazing conversations.</p>
-<p>All in all, 2019 wasn’t stellar, but got markedly better since I made the decision to come to Thailand. I’m feeling mentally and physically healthier than I have in a long, long time. It’s a powerful way to start the new year, and I’m ready to make the most of 2020.</p>
-<h2 id="work-and-misc-metrics">Work and Misc Metrics</h2>
-<p>I (and a robot on my account that I’m unable/unwilling to separate) made 3,137 commits to software projects in 2019. Some of the most impressive things were:</p>
-<ul>
-<li><a href="https://gitlab.haskell.org/ghc/ghc/merge_requests/668">GHC !668</a>: A patch to GHC that makes the simplifier work harder on higher-rank functions.</li>
-<li><a href="https://github.com/isovector/polysemy">polysemy</a>: My fast and easy effect system.</li>
-<li><a href="https://github.com/isovector/dynahaskell">dynahaskell</a>: A proof-of-concept editor for Haskell that writes most of your code for you.</li>
-<li><a href="https://github.com/isovector/suavemente">suavemente</a>: An applicative GUI that runs Haskell applications over websockets.</li>
-<li><a href="https://github.com/isovector/hs-vexflow">hs-vexflow</a>: A DSL for generating sheet music in Haskell.</li>
-</ul>
-<p>Overall, I spent 567h in 2019 <em>doing work</em> on miscellaneous projects, of which 156h were spent directly on programming and doing research for polysemy. Another 46h went towards writing <a href="https://www.patreon.com/designandinterpretation">Design and Interpretation of Haskell Programs</a>.</p>
-<p>In total, I published 32 blog posts, totaling 46,000 words.</p>
-<p>Additionally, I sold 847 copies of <a href="https://thinkingwithtypes.com">Thinking with Types</a> this year.</p>
-<p>Scarily, I spent 258h on the functional programming slack — which probably greatly contributed to my eventual burnout. That is a <em>lot</em> of time to spend thinking about Haskell.</p>
-<p>Some other miscellaneous things I spent time doing:</p>
-<ul>
-<li>215h on facebook messenger</li>
-<li>65h on email</li>
-<li>48h recording music and learning music theory</li>
-<li>40h on the phone</li>
-<li>24h reading papers</li>
-<li>15h preparing talks</li>
-</ul>
-<p>I spent 3185 hours on the computer in 2019. Yikes.</p>
-<h2 id="books">Books</h2>
-<p>I read <a href="https://www.goodreads.com/user_challenges/14778474">65 books</a> in 2019, which is a little better than my 56 in 2018, and much better than my 15 in 2017. Unfortunately, the books this year were lower quality on average, and finding five favorites was rather challenging. Regardless, here are my top books of 2019:</p>
-<ul>
-<li><em><a href="https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering">The Art of Doing Science and Engineering</a></em>: This is the most inspiring book I’ve read in a very long time. It’s Richard Hamming’s (of Hamming problems fame) self-proclaimed “manual of style.” TAoDSaE is a frank look at Hamming’s life, how he was successful, where he wasn’t, and commentary on how he should have done better. This is a refreshing style of autobiography, that’s chocked full of important advice on how to choose good problems, and how to have a meaningful career.</li>
-<li><em><a href="https://www.goodreads.com/book/show/49634053-radical-markets">Radical Markets</a></em>: A book on interesting ways of applying more economic theory to everyday life. It makes strong arguments for better strategies of governance, taxation, and immigration that will plausibly lead to better allocation of global resources.</li>
-<li><em><a href="https://www.goodreads.com/book/show/8205855-the-4-hour-workweek-expanded-and-updated">The 4 Hour Workweek</a></em>: Campy but good — a nice book on debugging your mind away from “I need to work a <em>job</em>” towards <em>I just need to make enough money.</em> Comes with lots of practical advice about how to actually go about doing this — though admittedly a lot of it is obsolete today in
-<ol start="2020" type="1">
-<li></li>
-</ol></li>
-<li><em><a href="https://www.goodreads.com/book/show/18930446-thinking-in-jazz">Thinking in Jazz</a></em>: My goal for 2019 was to get good at music, and so I picked up this hoping to get an idea of how people actually become jazz musicians. And amazingly, this book <em>delivered!</em> It’s a fascinating compilation of dozens of interviews with jazz musicians, coalescing the commonalities into “the way to think about jazz,” primarily using first-hand prose. I’d strongly recommend this book, even if you aren’t interested in learning to play jazz.</li>
-<li><em><a href="https://www.goodreads.com/book/show/40672036-digital-minimalism">Digital Minimalism</a></em>: Cal Newport is back, making the claim that cellphones and social media are bad for us. He makes a good case. The reason I like this book is it confirms what I’ve been saying for years — being always connected <em>sucks.</em> Digital Minimalism offers a gentler path to kicking the habit than my recommendation of “throw your phone into the ocean. CMON! DO IT! STOP BEING AFRAID!” Somewhat amazingly, my approach has <em>never once</em> worked. Can you believe that?</li>
-</ul>
-<h2 id="music">Music</h2>
-<p>I didn’t listen to a lot of music from 2019 <em>in</em> 2019, with the notable exception of <strong>Sandy’s Official Banger of the Year:</strong> <a href="https://everyoneisdirty.bandcamp.com/">Everyone is Dirty</a>’s <a href="https://everyoneisdirty.bandcamp.com/track/hit-girl">Hit-Girl</a>.</p>
-<p>My favorite newly-found artists of 2019 were:</p>
-<ul>
-<li>GDP</li>
-<li>Mac Miller</li>
-<li>New Monsoon</li>
-<li>Nik Baertsch</li>
-<li>Rhymefest</li>
-<li>Strangefolk</li>
-<li>Tennyson</li>
-</ul>
-<p>I’d like to take a second to shout-out Rhymefest, who has my <a href="https://www.youtube.com/watch?v=pMz6aRwpHVM">favorite rap line of all time</a>.</p>
-<blockquote>
-<p>You’re dangerous but I’m game for this and I don’t kiss ’cause that could get cankerous white girls complaining the sun is cancerous pull my dick out and I done caused the damn eclipse</p>
-</blockquote>
-<p>I guess that’s as good of a place as any to leave this post. Thanks to everyone who helped make 2019 as excellent as it was, and here’s to an even better 2020. Much love.</p>
       ]]></content:encoded>
   </item>
 </channel>
