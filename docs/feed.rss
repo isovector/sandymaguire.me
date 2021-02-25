@@ -7,13 +7,40 @@
   <description>Musings on effective life strategies</description>
   <category>Life</category>
   <copyright>2018 Sandy Maguire</copyright>
-  <pubDate>2021-02-19T07:37:00Z</pubDate>
+  <pubDate>2021-02-24T22:24:00Z</pubDate>
   <language>en-us</language>
   <image>
       <url>http://sandymaguire.me/images/favicon.png</url>
     <title>Sandy Maguire</title>
     <link>http://sandymaguire.me</link>
   </image>
+  <item>
+      <title>Enlightenment or: Music is to Language as Music is to Music</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/enlightenment/index.html</link>
+      <guid>http://sandymaguire.me/blog/enlightenment/index.html</guid>
+      <pubDate>2021-02-24T22:24:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <blockquote>
+<p>“The first principle is that you must not fool yourself – and you are the easiest person to fool.”</p>
+<p>–Richard Feynman</p>
+</blockquote>
+<p>I had a small taste of enlightenment today.</p>
+<p>When learning music, things like notes and scales and intervals are very often referred to as the “vocabulary” of music. The metaphor here has never been clear to me — I suppose they’re the boring things you need to learn and get good at before you can start expressing musical ideas? But I never took this metaphor <em>seriously.</em> Music might metaphorically be a “language,” but it’s clearly not <em>actually a language.</em></p>
+<p>Except that I kept hearing this phrase, over and over. The notes and scales and intervals are the vocabulary of music. At least five books I’ve read on the topic have said so.</p>
+<p>“That’s interesting,” I thought. All of these books must have gotten this language metaphor from the same place. It requires some suspension of disbelief, but it’s not impossible.</p>
+<p>So, that’s where things stood.</p>
+<p>This morning, I was tutoring a student in Haskell. We were working through some of the boring fundamentals — things that aren’t interesting in their own right, but absolutely need to be in place before you can even think about tackling big programming projects. It’s very, very, very easy to tell a programmer who has skipped the fundamentals; they can sort of run the problem-solving maze, but, lacking understanding of the basic building blocks, get stuck as soon as something is slightly out of place.</p>
+<p>Anyway, we were working on this student’s fundamentals. And I caught myself using the “language” metaphor. “These things aren’t very interesting, but they’re the vocabulary we’ll need to express elegant thoughts later on.” Except, this time, it clearly <em>wasn’t a metaphor.</em> Having the exotic experience of needing to rewind my understanding in order to explain it to a beginner made me very aware of just how high a cloud of abstractions I work at on a daily basis.</p>
+<p>In programming, the fundamentals <em>really are the vocabulary</em> of the language. And you need to wield them fluently in order to be able to focus on and express the vision. Every programming task requires writing case expressions, spinning up new types, and knowing exactly where to stick the monad. If this stuff doesn’t roll off your tongue, you can still sorta get work done, but it’s slow, and the vision never comes out quite right.</p>
+<p>All of a sudden, music (and my last few years’ inability to make progress musically) made sense. This “metaphor” that everyone had been trying tell me turned out to not be a “metaphor” at all. At least, not in the literary way where we say “the night was a blanket.” Music isn’t <em>poetically</em> a language; it’s <em>actually</em> one.</p>
+<p>The takeaway is very clear. I’ve been ignoring the fundamentals — things like knowledge of my bass’ fretboard, and practicing scales, and transposing things into different keys — because they felt boring and unrelated to the task I really wanted to be good at: playing music. But taking the language metaphor <em>seriously</em> and as <em>literally true,</em> everything makes sense. Yes, technique is boring and uninteresting, but it’s not unrelated to music; it’s the stuff that real musical prowess is gated behind.</p>
+<p>At my heart, I’m a truly lazy man. You can see it in the <a href="https://github.com/isovector/everygoodboydeservesfruit.com/blob/master/site/posts/2019-02-18-manifesto.markdown">time I decided to try to learn how to get good at music as fast as possible</a>. There’s something dangerous about being smart; it’s that you learn that you can often find one weird trick that will <a href="http://www.paulgraham.com/lesson.html">get you the grades without doing the work.</a> That might work well enough if you’re just trying to wave your arms around and distract humans. But for skills with extremely observable artifacts — things like computer programs and music — it’s extremely hard to bullshit.</p>
+<p>In my forever-quest to get good at music without doing the technique, I’ve been fooling myself. It’s not that technique is some side-channel skill that makes you better at music; as it it turns out, <em>technique is music</em> — or at least, it’s the stuff that music’s made of.</p>
+<p>I don’t know how it’s taken me 30 years to realize this, but better late than never, I suppose.</p>
+<p>Really makes you wonder what other metaphors you might not be taking seriously enough, doesn’t it?</p>
+      ]]></content:encoded>
+  </item>
   <item>
       <title>I Broke My New Years Resolution</title>
       <author>sandy@sandymaguire.me (Sandy Maguire)</author>
@@ -357,37 +384,6 @@ Press to Enable Viewing My Broken Resolutions
 <p>On a related note, I have recently identified a failure mechanism in myself. I just got out of a short, but fiery relationship. Within a month we went from having never met to living with one another in a foreign country where neither of us spoke the language, and spending literally all of our time together.</p>
 <p>As you might expect, things exploded rather spectacularly, and I think a huge part of it was due to the fact that neither of us could practice the habits that define us. We were too crowded by one another to maintain ourselves. Without practicing our habits, we stop being ourselves in a very literal sense — after all, we are what we do.</p>
 <p>I think this is an important thing to keep in mind when navigating a new relationship: the reason you like someone is the culmination of the things they do. As such, we should be very hesitant to disrupt that balance. Unless you’re impossibly compatible to begin with, introducing charge slowly (maybe imperceptibly) seem like a prudent move.</p>
-      ]]></content:encoded>
-  </item>
-  <item>
-      <title>What Did I Learn in the 2010s?</title>
-      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
-      <link>http://sandymaguire.me/blog/2010s/index.html</link>
-      <guid>http://sandymaguire.me/blog/2010s/index.html</guid>
-      <pubDate>2020-01-12T12:48:00Z</pubDate>
-      <content:encoded><![CDATA[
-        <p>Not only is it a new year — and therefore a new me — but it’s also a <em>new decade.</em> Having been born in 1990, new decades for the world roughly correspond to new decades for me. I thought it would be interesting and nostalgic to look back at the last ten years to see what I’ve learned.</p>
-<p>The most important thing I learned in the last decade was <strong>confidence.</strong> Interestingly, in my <a href="/blog/the-secret-of-happinesstm/">earliest blog post</a>, I give the advice to “trust yourself. I mean, really trust yourself.” Apparently I thought I was already confident — I wasn’t. In particular, I learned to be aware of <a href="/blog/double-dipping/">Dunning-Kruger</a>, and that <a href="/blog/brilliance/">most problems are effort-constrained</a>. I learned that there is nothing magical <a href="/blog/no-miracle-people/">separating me (or anyone else) from geniuses</a>. I learned to <a href="/blog/a-lesson-learned/">separate the person I am from the person I want to be</a>, and to focus on the latter. I learned about the <a href="/blog/neighborhoods">importance of knowing the people around you</a>, and of <a href="/blog/home-is-where-your-people-are/">having good social support structures in place</a>. Along those lines, I started being <a href="/blog/outside-view">very selective about the people I was spending time with</a>. I <a href="/blog/get-the-girl/">learned about dating</a>, and how to be attractive, and how to make moves — it turns out people aren’t mind readers, and if you don’t tell them you’re interested, they don’t know.</p>
-<p>But in general, what I really learned here was to <a href="/blog/building-over-the-abyss/">stop being so <em>fucking scared</em></a> of <a href="/blog/comfort-zones/">everything all the time</a>. I learned to just go do things. Sometimes they’ll go poorly, but more often they’ll go well. And if you’re smart and trust in yourself to be able to handle the failures, well, that’s most of life right there. I learned about <a href="/blog/shame/">how I failed</a>, and to <a href="/blog/why-i-quit/">reflect on those things</a>, and to promise myself <a href="/blog/letter-to-myself/">to never do them again</a>. One particular tactic that came out of this new understanding is to <a href="/blog/new-city-guide/">always say “yes” to thing.</a></p>
-<p>The second most important thing I learned over the last decade was <strong>strategy.</strong> I learned to <a href="/blog/affording-ascendancy/">build up momentum</a> in roughly the right direction, even if I wasn’t <a href="/blog/one-night-stands/">entirely sure</a> where I was <a href="/blog/showing-me-the-way/">intending to land</a>. I used this technique to <a href="/blog/book-mechanics/">systematically put together</a> an amazing CV, and arguably <a href="/blog/become-a-programmer/">an even more impressive set of skills</a>. I learned about the <a href="/blog/say-hi-to-lucy/">notion of career capital</a>, and <a href="/blog/book-mechanics/">accumulated enough of it</a> to turn it into a <a href="https://thinkingwithtypes.com">successful book</a>. I learned about the value of publicly <a href="/blog/book-mechanics/">committing to doing something that sounds hard and scary</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. After some talks at work that went <em>very badly,</em> I learned the importance of playing to your audience. Perhaps <em>most importantly</em>, I learned that I need <a href="/blog/looking-back-on-2018/">very specific goals and metrics</a> if I want to have <a href="/blog/2013-in-review/">successful years</a>.</p>
-<p>The third most important thing I learned was how to get a sense of my <strong>limits and capabilities.</strong> I learned that that feeling of “omg I am <em>already</em> working at full capacity” is <a href="/blog/nanowrimo-postmortem/">usually wrong</a>, and that <a href="/blog/burnout/">real burnout</a> feels more like carrying physical weight. I successfully <a href="/blog/generalization-as-intelligence-amplification/">identified abstraction as being a worthwhile tool</a> to <a href="/blog/chunking-conceptual-legos/">study in its own regard</a>. I realized that Haskell is <a href="https://reasonablypolymorphic.com/blog/archives/">the best vessel for exercising those abstraction muscles</a>. I learned to put <a href="/blog/first-20-recursive-bees/">my money where my mouth is</a> and to always be willing to bet on my beliefs. I further learned that this makes <em>everyone else</em> very very uncomfortable. I learned how to focus my zen, and how to be responsible for how I feel, and to not try and shirk it off onto other people. I learned a lot about my <a href="/blog/thrashing-wildly/">common</a> <a href="/blog/too-smart/">failure methods</a>. I realized the importance of having <a href="/blog/reclaim-your-attention/">uninterrupted attention</a>, and <a href="/blog/reflections-on-a-dumb-phone/">threw my phone into a large body of water</a> not once, but three times, during the last decade.</p>
-<p>Fourth on the list of big things I made progress on is my <strong>sense of purpose.</strong> In the early days of the decade, I spent a <a href="/blog/along-for-the-ride/">lot of time</a> talking about <a href="/blog/not-for-its-own-sake/">saving the world</a> without knowing what that meant or what it would look like. I think I have made some good progress on this, and to be specific, I think that climate change and late-stage democracy are big problems that could be solved by a few smart, technical people working evening weekends. I intend to spend the next decade being one of those people. I learned to start <a href="/blog/building-over-the-abyss/">taking responsibility</a> for my failings, and <a href="/blog/shame">for problems around me.</a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> I learned to <a href="/blog/authority-and-momentum/">question authority</a>, and that <a href="/blog/where-uni-fails/">the people in charge</a> don’t <a href="/blog/teaching-badly">know any better than I do,</a></p>
-<p>Finally, I made a lot of progress on my <strong>lifestyle.</strong> I learned that the traditional Western path is <a href="/blog/perpetual-motion/">definitely not</a> <a href="/blog/reaching-climbing/">for me.</a> I learned that I need <a href="/blog/no-possessions/">very little</a> to survive, and that realization has afforded me the ability to <a href="/blog/skaidre/">pack up and leave</a> whenever I <a href="/blog/best-place-to-live/">feel like it.</a> These days, my total worldly possessions weigh about 7kg. I’ve learned how to travel, and how to put myself in uncomfortable situations in which I need to YOLO my way out. Through lots of trial and error, I learned <a href="/blog/new-city-guide/">how to move to a new city</a>.</p>
-<p>In addition to all of this, I learned lots of <em>things.</em> After all, I spent five years this decade in university, another five teaching myself Haskell, and one year <a href="https://reasonablypolymorphic.com/tags/polysemy.html">actively doing research</a>. As a programmer, I’m several orders of magnitude better than I was ten years ago. I’m also <a href="/blog/play-lots-of-music/">ten times a better musician</a>, much better at speaking French, and infinitely better at skateboarding, improv, electronics repair, building IKEA furniture, and miming in languages I don’t understand.</p>
-<center>
-<p><a href="/images/decade/world2020.png"><img src="/images/decade/world2020.png" alt="Everywhere I've been"
-width="80%" height="80%"/></a></p>
-Everywhere I’ve been, as of 2020
-</center>
-<p>All in all, it’s been a great decade. I’m happy with how much progress I’ve made, but it’s clear that I need to get better faster if I want to tackle everything on the bucket list.</p>
-<p>Thanks for staying with me over the last decade. Let’s strive, and collectively make the 2020s our best decade yet.</p>
-<section class="footnotes" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>Which, as it happens, is why I’m writing this post today. I promised my friend Ciara that I would. Thanks Ciara!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>In particular, my good friend Austin Dobrik has been a huge role model on this front. I’ve spent the last ten years constantly amazed at his bravery in calling out bad behavior and helping people in dire situations.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
       ]]></content:encoded>
   </item>
 </channel>
