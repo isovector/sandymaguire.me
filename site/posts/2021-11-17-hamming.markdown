@@ -74,12 +74,13 @@ most of its features are to *divide what you want and write that code for you.*
 Like, way harder. There's all of this potential to solve real, everyday problems
 for people, but nobody wants that because it's too mundane.
 
-[wingman]:
+[wingman]: https://haskellwingman.dev/
 
 This is food for thought in future projects; I keep forgetting about it and
 needing to pivot my project mid-way through. But what if it were in the game
 plan from the start?
 
+---
 
 > p66. Any innovation is always against such a barrier, so do not get
 > discouraged when you find your new idea is stoutly, and perhaps foolishly,
@@ -94,6 +95,7 @@ progress reports saying it was a stupid project that was doomed to failure. But
 mainly I like this quote because "the forces of inertia and stupidity" is a
 great mental handle.
 
+---
 
 > p73. As you go on your careers you should examine the applications which
 > succeed and those which fail; try to learn how to distinguish between them;
@@ -114,6 +116,7 @@ good setup, it sounds like. That's not to say I don't think it's worth doing,
 but maybe that I should only sign up if we have a plan for how someone else can
 be in charge of the public relations.
 
+---
 
 > p116. Generally speaking, the best design is pushing one or more of the
 > parameters to their extreme---obviously you are on the surface of the feasible
@@ -122,6 +125,7 @@ be in charge of the public relations.
 A great technique for engineering systems --- jump straight to the pareto
 frontier and hill-climb from there.
 
+---
 
 > p149. I had thus established the habit, after something of great or small
 > importance was discovered, of going back and trying to trace the steps by
@@ -130,6 +134,7 @@ frontier and hill-climb from there.
 Another reminder to myself that I should make some time for this. As a matter of
 fact, I'll put it on my calendar right now.
 
+---
 
 > p150. Notice first this essential step happened only because there was a great
 > deal of emotional stress on me at the moment, and this is characteristic of
@@ -149,11 +154,13 @@ I wonder if this can be harnessed more generally. Can I deliberately set up an
 environment that is hostile? Does it work if it's artificial? Something to play
 with.
 
+---
 
 > p152. Riding through north Jersey in the early morning is not a great sight.
 
 Made me laugh.
 
+---
 
 > p153. It pays to know more than just what is needed at the moment!
 
@@ -165,6 +172,7 @@ even if it doesn't directly help solve your problem today, learning cool things
 always pays off. Even if it's just in building your appreciation of how coherent
 the universe really is.
 
+---
 
 > p164. From the assumed continuity of the information measure, it follows the
 > log is the only continuous solution to the functional equation from earlier.
@@ -176,6 +184,7 @@ yet understand* is a very powerful tool: because these things are easily
 learned. The details, maybe less so, but the high-level approach is always easy
 to pin down. Future work for future Sandy.
 
+---
 
 > p164. Put into other words, if you provide a capacity for some level of error
 > correction, then for efficiency you must use this ability most of the time or
@@ -192,6 +201,7 @@ damn well better use it!
 I don't know what this has to say about software, but I suspect it's something
 very deep.
 
+---
 
 > p176. It is traditional to accept, in the long run, that the definition we use
 > actually defines the thing defined; but of course it only tells us how to
@@ -209,6 +219,7 @@ universe. That's not necessarily a bad thing, but it's an extremely interesting
 experience to notice that I am figuratively blind to seeing the world in any
 other way.
 
+---
 
 > p179. In the first place I thought I knew very little about digital filters,
 > and, furthermore, I was not really interested in them. But does one wisely
@@ -223,6 +234,7 @@ It sounds hard to retrain myself in another field --- which is an especially
 damming thought, because I have often thought to myself that anyone could get
 into software if they would just *try.*
 
+---
 
 > p186. I needed only a firm understanding of the aliasing effects due to
 > sampling. It is another example of why you need to know the fundamentals very
@@ -236,6 +248,7 @@ think I succeed.
 
 Also, it's a great quote that I am going to put in my book.
 
+---
 
 > p196. When something is claimed to be new, do not be too hasty to think it is
 > just the past slightly improved---it may be a great opportunity for you to do
@@ -250,6 +263,7 @@ fundamentals that makes this sound stupid."
 
 I genuinely can't tell if this is confirmation bias or not. Someone help please.
 
+---
 
 > p210. It must be your friends, in some sense, who make you famous by quoting
 > and citing you,p and it pays, so I claim, to be helpful to others as they try
@@ -263,6 +277,7 @@ one another's signal, by virtue of having our signal boosted in the first place.
 It's something I've been staying cognizant of since the first time I read the
 book. Be generous with credit! It's cheap, and pays significant dividends.
 
+---
 
 > p218. Moral: when you know something cannot be done, also remember the
 > essential reason why, so later, when the circumstances have changed, you will
@@ -273,6 +288,7 @@ it again. Context: Hamming had published a book proving he knew everything he
 needed to know in order to invent the Fast Fourier Transform. But it's called
 the FFT instead of the Hamming transform. That must have *stung.*
 
+---
 
 > p239. That is why I am suspicious, to this day, of getting too many solutions
 > and not doing enough very careful thinking about what you have seen. Volume
@@ -282,6 +298,7 @@ the FFT instead of the Hamming transform. That must have *stung.*
 Sounds like most programmers I know. I'm genuinely amazed at how often people
 say they check stackoverflow.
 
+---
 
 > p241. An active mind can contribute to a simulation even when you are dealing
 > with experts in a field where you are a strict amateur.
@@ -294,6 +311,7 @@ Jones can do it sucessfully][contracts], so there is hope.
 
 [contracts]: https://www.microsoft.com/en-us/research/publication/composing-contracts-an-adventure-in-financial-engineering/
 
+---
 
 > p245. An extreme case I had to solve because it was important to the
 > Laboratories, and that meant, at least to me, I had to get the solution, no
@@ -307,6 +325,7 @@ my friends ask interesting software questions, but never at a job. This would be
 an extremely powerful skill to learn how to harness: *getting an answer at any
 cost.*
 
+---
 
 > p246. Why should anyone believe the simulation is relevant?
 
@@ -314,6 +333,7 @@ A good question to ask myself when I try to convince people that I could
 automate things for them. Why should they believe me? I believe me, but how can
 I communicate that?
 
+---
 
 > p252. When I was occasionally asked to do some ecological simulation I quietly
 > asked for the mathematically expressed rules for every possible interaction,
@@ -332,6 +352,7 @@ This is a harrowing thought. It's likely not just scientists --- I suspect
 everyone is guilty of this to some extent. Do I do this? Probably? But how do I
 find the instances, and how do I correct for it?
 
+---
 
 > p255. I made it easy to do the bookkeeping and the mechanics of the computer,
 > but I refused to relieve them of the thinking part.
@@ -342,6 +363,7 @@ to give up thinking? How prevalent is this outside of software? A lot of the
 world makes a lot more sense under the lens that most people are actively trying
 to avoid thinking...
 
+---
 
 > p263. Does the pilot feel only the Fourier real frequencies, or maybe they
 > also feel the decaying Laplace complex frequencies (or should we use
@@ -365,6 +387,7 @@ have a perception of [snap][snap]? And if so, can we differentiate it from
 [snap]: https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position#Fourth_derivative_(snap/jounce)
 [crackle]: https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position#Fifth_derivative_(crackle/flounce)
 
+---
 
 > p266. My real contribution was: (1) the realization that we could simulate
 > what had happened, which is now routine in all accidents but was novel then,
@@ -382,6 +405,7 @@ beliefs am I holding?
 
 Jesus this book is a great exercise in humility.
 
+---
 
 > p269. Good minds are still needed in spite of all the computing tools we have
 > developed. But the best mind will be the one who gets the principle into the
@@ -392,6 +416,7 @@ is a good thing. I'm reasonably adept at popularizing things. **I should
 intentionally train this skill, because pedagogy is much easier to improve than
 raw brain power.**
 
+---
 
 > p270. I had always claimed if the problem was important and properly posed,
 > then I could get some kind of a solution. Therefore, I must find the solution;
@@ -407,6 +432,7 @@ This is definitely a tactic that can be deliberately invoked. I would like to
 get in the habit of making progress on hard problems. Again: get my ego
 involved. Precommit to making progress.
 
+---
 
 > p277. Once I had decided to stay at the Labs and realized my poverty in the
 > knowledge of practical electronics, I bought a couple of Heathkits and
@@ -421,18 +447,21 @@ I definitely do this with programming, and claim it's why I'm as good as I am.
 Lots of silly exercises, just to develop new skills. But what about areas
 outside of programming?
 
+---
 
 > p278. Beware of the power of wishful thinking on your part---you would like it
 > to be true, so you assume it is true!
 
 Fuck. I do this all the time.
 
+---
 
 > p292. What you learn from others you can use to follow; what you learn for
 > yourself you can use to lead.
 
 No real commentary on this one, but it feels true and it's a good proverb.
 
+---
 
 > p293. Kaiser is a very smart person, but his education had restricted his view
 > of the use of what he had learned. The better we inculcate the basic idea with
@@ -446,12 +475,14 @@ this will damage the student's ability to understand at the periphery of the
 metaphor's boundary. Maybe all those visual math primers I want to make are a
 bad idea.
 
+---
 
 > p294. The students must master abstract pattern recognition if they are to
 > progress and use mathematics later in their careers.
 
 Another good quote for a book.
 
+---
 
 > p302. It soon became evident to me that one of the reasons no theorem was
 > false was that Hilbert "knew" the Euclidean theorems were "correct," and he
@@ -473,6 +504,7 @@ outwards, then the unreasonable effectiveness of mathematics is once again in
 question. Why in hell do all of these crazy abstractions correspond with
 reality?
 
+---
 
 > p304. The above example about Cauchy's theorem illustrates my attitude that
 > mathematics shall do what I want it to do.
@@ -484,6 +516,7 @@ computer do what I want it to --- but exactly how I generate those is a mystery.
 It feels like lots of practice and analysis has gone into it, but none of that
 seems to matter when I go try and teach this stuff.
 
+---
 
 > p313. Clearly Planck was led to crate the theory because the approximating
 > curve fit so well, and had the proper form. I reasoned, therefore, if I were
@@ -497,6 +530,7 @@ all the time; it's fine to do your thinking in a specialized language, but
 translating it to others goes much more smoothly if you can just teach some
 ideas, rather than a whole new language.
 
+---
 
 > p315. There are smells you cannot smell, wavelengths of light you cannot see,
 > sounds you cannot hear, all based on the limits of your sense organs, so why
@@ -507,6 +541,7 @@ I hate this. Because he's absolutely right, and it fills me with an existential
 dread. What if all the ideas we *really* need are wrapped up in the vacuum of
 unthinkable thoughts?
 
+---
 
 > p316. [The uncertainty principle] is a theorem in Fourier
 > transformations---any linear theory must have a corresponding uncertainty
@@ -516,6 +551,7 @@ unthinkable thoughts?
 Highlighted out of *extreme interest.* Is this true? If so, how many other
 physical "laws" fall out merely as byproducts of theorems?
 
+---
 
 > p317. Von Neumann... proved there were no hidden variables... but the proof
 > was found to be fallacious, new proofs found, and in their turn found to be
@@ -529,6 +565,7 @@ hadn't seen Bell's work. I notice I am confused. I should remedy that.
 
 [bell]: https://en.wikipedia.org/wiki/Bell%27s_theorem
 
+---
 
 > p320. I have put the word "understand" in quotes because I do not even pretend
 > to know what I mean by it. We all know what we mean by "understand" until we
@@ -539,6 +576,7 @@ make predictions that correlate with the future of the phenomenon itself. I
 could draw a nice commutative diagram here, but the idea being that the
 following square should commute: `predict . understand = observe . wait`.
 
+---
 
 > p321. Progress is making us face ourselves in many ways, and computers are
 > very central in this process. Not only do they ask us questions never asked
@@ -562,6 +600,7 @@ democracy. But I digress.
 
 [paxos]: https://en.wikipedia.org/wiki/Paxos_(computer_science)
 
+---
 
 > p325. Creativity seems, among other things, to be "usefully" putting together
 > things which were not perceived to be related before, and it may be the
@@ -571,6 +610,7 @@ This is a useful definition, and an actionable one too. I'm a firm believer in
 knowing about lots of things, and hoping that one of them will come in handy. It
 seems to work.
 
+---
 
 > p327. This stage, moreover, requires your emotional involvement, your
 > commitment to finding a solution, since without a deep emotional involvement
@@ -578,6 +618,7 @@ seems to work.
 
 Reiterating a point above.
 
+---
 
 > p327. When stuck I often ask myself "If I had a solution, what would it look
 > like?" This tends to sharpen up the approach, and may reveal new ways of
@@ -597,12 +638,14 @@ would pay dividends.
 
 [add]: https://algebradriven.design/
 
+---
 
 > p329. When you learn something new, think of other applications of it, ones
 > which have not arisen in your past but which might in your future.
 
 Another thought pattern.
 
+---
 
 > p330. We are, in a very real sense, the sum total of our habits, and nothing
 > more; hence by changing our habits, once we understand which ones we should
@@ -613,6 +656,7 @@ Inspiring. We are the sum of our habits. Habits are hard to change, and they
 change less often than we'd like to believe, but we all have examples of
 changing our habits.
 
+---
 
 > p340. The second point I want to make is that many of you, in your turn, will
 > become experts, and I am hoping to modify in you the worst aspects of the
@@ -624,6 +668,7 @@ Context: experts often get in the way, and science needs to wait for them to die
 before it can proceed. I see this in a lot of my programming communities. I
 don't want to be a drag like this when I get to the top of my career.
 
+---
 
 > p341. In my own case, I vowed when I rose to near the top that I would be
 > careful, and as a result I have refused to take part in any decision processes
@@ -637,6 +682,7 @@ him. This is another good lens on our actions --- how will history look back on
 us? If we can predict that, we might as well act only favorably along this
 metric.
 
+---
 
 > p342. What you did to become successful is likely to be counterproductive when
 > applied at a later date.
@@ -656,6 +702,7 @@ ones!
 
 The inventor of something knows the least about it!
 
+---
 
 > p345. "Why do you believe the test equipment is as reliable as what is being
 > tested?" The answer I got convinced me he had not really thought about it.
@@ -665,6 +712,7 @@ writing Algebra-Driven Design. Those cost me a few hours, because your first
 thought is never that it's the machinery that's broken. And when the compiler
 has a bug, dear god. There goes your week.
 
+---
 
 > p346. I had long ago argued at Bell Telephone Laboratories that we should form
 > a life testing debarment whose job is to prepare for the testing of the next
@@ -681,12 +729,14 @@ excellent ideas in two weeks, and likely were too successful, because the CEO
 immediately shut down the team and said "this is what our new platform will look
 like!"
 
+---
 
 > p346. There is never time to do the job right, but there is always time to fix
 > it later.
 
 The motto of every software engineering job ever.
 
+---
 
 > p351. Much of the reliability of the engineering guesses was transferred t the
 > sum, and the uncertainty of the salesman' guesses was ignored. That is not
@@ -699,6 +749,7 @@ The motto of every software engineering job ever.
 I've seen this in my career, but never acknowledged it as such. I don't know
 what to do about it, but it's something to keep an eye on.
 
+---
 
 > p352. Morgenstern points out that at one point DuPont Chemical held about 23%
 > of the General Motors stock. How do you suppose this appeared when the gross
@@ -707,6 +758,7 @@ what to do about it, but it's something to keep an eye on.
 Of course it was. Makes you wonder just how inflated today's economy is by false
 metrics. Does this apply to personal valuations as well?
 
+---
 
 > p353. Their reluctance to change the definitions of the economic indicators is
 > based on the claim that a change, as indicated in the above paragraph, makes
@@ -717,11 +769,13 @@ So they claim. But having an irrelevant indicator is worse than having nothing;
 it will inspire you to do the wrong thing! How do we improve mathematical
 literacy?
 
+---
 
 > p354. Institutions, like people, tend to move only when forced to.
 
 Pithy and sweet.
 
+---
 
 > p354. Most economists are simply unwilling to discuss the basic inaccuracy of
 > the economic data they use, and hence I have little faith in them as
@@ -736,6 +790,7 @@ I'd never heard before. Changing your mind is a confusing state of affairs!
 
 [goliath]: https://www.goodreads.com/book/show/40538538-goliath
 
+---
 
 > p356. Averages are meaningful for homogeneous groups (homogeneous with respect
 > to the actions that may later be taken), but for diverse groups averages are
@@ -744,6 +799,7 @@ I'd never heard before. Changing your mind is a confusing state of affairs!
 
 Underlined because I love the example.
 
+---
 
 > p361. I also realized that under (2) and (3) one of my functions in the
 > research departments was not so much to solve the existing problems as to
@@ -758,6 +814,7 @@ job.][quit]
 
 [quit]: https://sandymaguire.me/blog/reaching-climbing/
 
+---
 
 > p363. During my last two undergraduate college years when I was at the
 > University of Chicago, the rule was that at the end you had to pass a single
@@ -774,6 +831,7 @@ university knowing how to program, how to cut corners, and how to cram for
 tests. They tried to teach me a lot of things, but I was better at cutting
 corners and cramming than they at teaching.
 
+---
 
 > p365. All the proposed reformations of the standard calculus course that I
 > have examined, and there are many, never begin by asking, "What is the total
@@ -789,6 +847,7 @@ These two hit home. I fall victim to this when I look at existing systems, and
 say "why is this particular thing missing?" rather than "if I were to design
 this from scratch, what would my principles be?" Damn. Hamming making me think.
 
+---
 
 > p367. I have stressed the importance of what currently is believed to be the
 > fundamentals of various fields, and have deliberately neglected the current
@@ -799,6 +858,7 @@ trying to focus on more directly. There are lots of techniques I could recommend
 today, but they're only going to age the book. Fundamentals don't go out of
 style, which techniques absolutely do.
 
+---
 
 > p369. A second reason the systems engineer's design is never completed is the
 > solution offered to the original problem usually produces both deeper insight
@@ -809,6 +869,7 @@ it's *the* common characteristic that I like. The absolute best programmers I
 know will build something a few times, because each time they get a solution
 they realize that what they've built is a solution to the wrong problem.
 
+---
 
 > p377. In mathematics, and in computer science, a similar effect of initial
 > selection happens. In the earlier stages of mathematics up through the
@@ -825,6 +886,7 @@ they realize that what they've built is a solution to the wrong problem.
 Another point suggesting that outsiders can do far more good work than insiders,
 since they haven't been accidentally selected out.
 
+---
 
 > p388. It is hard work, applied for long years, which leads to the creative
 > act, and it is rarely just handed to you without any serious effort on your
@@ -841,6 +903,7 @@ chances of the luck striking.
 Helpful for me, because I feel like I keep having great ideas that people just
 don't seem to "get" --- and it's nice to have this as an excuse for why it's OK.
 
+---
 
 > p389. "Why are you not working on and thinking about the important problems in
 > your area?"
@@ -853,6 +916,7 @@ universe has ever seen. Yeah, gun to my head, I'd say wise and effective use of
 software are the important problems of the future. So why am I not working on
 them? It's not entirely clear where to start!
 
+---
 
 > p390. While playing chess Shannon would often advance his queen boldly into
 > the fray and say, "I ain't scared of nothing." I learned to repeat it to
@@ -862,6 +926,7 @@ them? It's not entirely clear where to start!
 I ain't scare of nothing! It has a good ring to it. Here's me deliberately
 copying a great scientist in deliberately copying a great scientist.
 
+---
 
 > p390. The courage to continue is essential, since great research often has
 > long periods with no success and many discouragements.
@@ -871,6 +936,7 @@ first one, a good chunk of which was spent rewriting it because I kept writing
 the wrong book! Endlessly frustrating and discouraging, but well-worth having
 pushed though.
 
+---
 
 > p391. Not that you should merely work on random things, but on small things
 > which seem to you to have the possibility of future growth.
@@ -878,6 +944,7 @@ pushed though.
 Another good metric. You don't have to work on big problems; small ones that
 seem promising are OK too.
 
+---
 
 > p391. Thus what you consider to be good working conditions may not be good for
 > you! There are many illustrations of this point. For example, working with
@@ -894,6 +961,7 @@ about basic things! But once a week or so, someone says something that is
 absolutely brilliant, and it's the sort of thing that could only have come from
 a beginner!
 
+---
 
 > p392. When stuck, often inverting the problem and realizing the new
 > formulations is better represents a significant step forward. I am not
@@ -904,6 +972,7 @@ a beginner!
 More good strategies for solving problems. This sounds similar to "if I had a
 solution, what would it look like?"
 
+---
 
 > p393. I changed the problem from just getting answers to the realization I was
 > demonstrating clearly for the first time the superiority of digital computers
@@ -913,12 +982,14 @@ solution, what would it look like?"
 It's not enough just to do it well. It also needs to be done with style and
 flare, to help inspire lesser minds into seeing what the future could hold.
 
+---
 
 > p394. At the urging of others, for some years I set aside Friday afternoons
 > for "great thoughts."
 
 Another reminder to myself. But I've already put it on my calendar, so there.
 
+---
 
 > p396. Do you want to be a reformer of the trivia of your old organization or a
 > creator of the new organization? Pick your choice, but be clear which path you
@@ -936,6 +1007,7 @@ noticeable way, and you've wasted your energy.
 "Don't be a reformer of trivia" is another helpful mantra I could do well to
 pick up.
 
+---
 
 > p397. I strongly suggest you adopt the habit of privately critiquing all
 > presentations you attend and also asking the opinions of others. Try to find
@@ -949,6 +1021,7 @@ essayists. But maybe that's all that being a good writer consists of?
 However, I don't apply this to other forms of media. I don't analyze how
 stand-up comedians tell jokes, nor how good engineers give technical talks.
 
+---
 
 > p397. Along the way you will generally have superiors who are less able than
 > you are, so do not complain, since how else could it be if you are going to

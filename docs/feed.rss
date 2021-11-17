@@ -35,253 +35,311 @@
 <p>p65. This is typical of many citations. It is first necessary to prove beyond any doubt the new thing, device, method, or whatever it is, can cope with heroic tasks before it can get into the system to do the more route, and in the long run, more useful tasks.</p>
 </blockquote>
 <p>Hamming is talking about computers here — the hardest problems he had to solve were on the worst computers, because they were the ones that couldn’t be solved by any other means.</p>
-<p>I see elements of this in all of my open source projects. Consider <a href="">Wingman</a>, which is a general purpose tool for helping to writing code. But that’s a boring use case that nobody will get excited about. So instead, most of its features are to <em>divide what you want and write that code for you.</em> Like, way harder. There’s all of this potential to solve real, everyday problems for people, but nobody wants that because it’s too mundane.</p>
+<p>I see elements of this in all of my open source projects. Consider <a href="https://haskellwingman.dev/">Wingman</a>, which is a general purpose tool for helping to writing code. But that’s a boring use case that nobody will get excited about. So instead, most of its features are to <em>divide what you want and write that code for you.</em> Like, way harder. There’s all of this potential to solve real, everyday problems for people, but nobody wants that because it’s too mundane.</p>
 <p>This is food for thought in future projects; I keep forgetting about it and needing to pivot my project mid-way through. But what if it were in the game plan from the start?</p>
+<hr />
 <blockquote>
 <p>p66. Any innovation is always against such a barrier, so do not get discouraged when you find your new idea is stoutly, and perhaps foolishly, resisted. By realizing the magnitude of the actual task you can then decide if it is worth your efforts to continue, or if you should go do something else you can accomplish and not fritter away your efforts needlessly against the forces of inertia and stupidity.</p>
 </blockquote>
 <p>Man, I feel like all of my ideas are stoutly and foolishly resisted. Especially when I was working on Polysemy, and everyone complained on every one of my progress reports saying it was a stupid project that was doomed to failure. But mainly I like this quote because “the forces of inertia and stupidity” is a great mental handle.</p>
+<hr />
 <blockquote>
 <p>p73. As you go on your careers you should examine the applications which succeed and those which fail; try to learn how to distinguish between them; try to understand the situations which produce successes and those which almost guarantee failure.</p>
 </blockquote>
 <p>Good advice that I’d like to remember. A big emphasis of the book is to make time to study one’s life, techniques and likely future. To put some time towards that, my attempts that usually succeed are things I can tackle by myself — I don’t usually play well with others. The things I usually <em>fail</em> on are projects in which I need to overcome the forces of inertia and stupidity; mostly because I just don’t have the patience for dealing with them.</p>
 <p>See, that’s a fantastic thing to point out. I knew that, but I didn’t <em>know</em> it. And it’s timely — some friends and I are currently planning out a project that is both a team effort and against the forces of inertia and stupidity. Not a good setup, it sounds like. That’s not to say I don’t think it’s worth doing, but maybe that I should only sign up if we have a plan for how someone else can be in charge of the public relations.</p>
+<hr />
 <blockquote>
 <p>p116. Generally speaking, the best design is pushing one or more of the parameters to their extreme—obviously you are on the surface of the feasible region of design!</p>
 </blockquote>
 <p>A great technique for engineering systems — jump straight to the pareto frontier and hill-climb from there.</p>
+<hr />
 <blockquote>
 <p>p149. I had thus established the habit, after something of great or small importance was discovered, of going back and trying to trace the steps by which it apparently happened.</p>
 </blockquote>
 <p>Another reminder to myself that I should make some time for this. As a matter of fact, I’ll put it on my calendar right now.</p>
+<hr />
 <blockquote>
 <p>p150. Notice first this essential step happened only because there was a great deal of emotional stress on me at the moment, and this is characteristic of most great discoveries. Working calmly will let you elaborate and extend things, but the breakthroughs generally come only after great frustration and emotional involvement. The calm, cool, uninvolved researcher seldom makes really great new steps.</p>
 </blockquote>
 <p>This happened to me while working on Polysemy. It was spurred on by an avoidable disaster at work, that I then staked my reputation on, and failed to pull off. My ego was bruised so I decided I was going to finish the project, even though I quit the job. And then people told me I was stupid every time I made progress. It was an <em>extremely</em> powerful motivator — though it also lead to some awful burnout.</p>
 <p>I wonder if this can be harnessed more generally. Can I deliberately set up an environment that is hostile? Does it work if it’s artificial? Something to play with.</p>
+<hr />
 <blockquote>
 <p>p152. Riding through north Jersey in the early morning is not a great sight.</p>
 </blockquote>
 <p>Made me laugh.</p>
+<hr />
 <blockquote>
 <p>p153. It pays to know more than just what is needed at the moment!</p>
 </blockquote>
 <p>The context: Hamming knew a bunch of theory in an unrelated field, and it helped me spot a new technique when a colleague asked for his help. This is something I strongly believe in; people are always asking “why is this useful?” and I never understand <em>why.</em> It’s useful because everything in the universe is coherent — even if it doesn’t directly help solve your problem today, learning cool things always pays off. Even if it’s just in building your appreciation of how coherent the universe really is.</p>
+<hr />
 <blockquote>
 <p>p164. From the assumed continuity of the information measure, it follows the log is the only continuous solution to the functional equation from earlier.</p>
 </blockquote>
 <p>This is not how I think about math. Maybe it’s how I think about programming? But there is a thought process here that I don’t understand, and I would like to. Identifying thought processes that work for smart people, that you <em>don’t yet understand</em> is a very powerful tool: because these things are easily learned. The details, maybe less so, but the high-level approach is always easy to pin down. Future work for future Sandy.</p>
+<hr />
 <blockquote>
 <p>p164. Put into other words, if you provide a capacity for some level of error correction, then for efficiency you must use this ability most of the time or else you are wasting capacity, and this implies a high number of errors corrected in each message sent.</p>
 </blockquote>
 <p>What an interesting way of thinking about system reliability. Hamming is saying the best messaging channel is one in which you add capacity until the noise is almost overwhelming, and then you error correct from there. It’s the opposite of what I would have thought — “obviously” you’d want a clear channel, with error correction in place as a last defense. But no he says, if you put it in, you damn well better use it!</p>
 <p>I don’t know what this has to say about software, but I suspect it’s something very deep.</p>
+<hr />
 <blockquote>
 <p>p176. It is traditional to accept, in the long run, that the definition we use actually defines the thing defined; but of course it only tells us how to handle things, and in no way actually tells us any meaning.</p>
 </blockquote>
 <p>Context: Shannon pinned down information theory as a measure of surprise in a channel. But this is not <em>information!</em> It’s just a measure of surprise in a channel, which is a different thing. But because it’s called “information theory,” the name gets confused for the thing.</p>
 <p>This one particularly resonates with me, because I <em>do</em> think about information as a measure of surprise. Like, I can’t even pretend to imagine it in any other way. The mathematical model has wormed its way into my understanding of the universe. That’s not necessarily a bad thing, but it’s an extremely interesting experience to notice that I am figuratively blind to seeing the world in any other way.</p>
+<hr />
 <blockquote>
 <p>p179. In the first place I thought I knew very little about digital filters, and, furthermore, I was not really interested in them. But does one wisely ignore one’s VP, plus the cogency of one’s own observations? No!</p>
 </blockquote>
 <p>Damn. I see this when I look at climate change. It’s clearly a big problem, and (I think) I can see lots of good ideas that nobody else seems to be working on. But I’m disinterested in the field because it doesn’t let me use my comparative advantage of software.</p>
 <p>It sounds hard to retrain myself in another field — which is an especially damming thought, because I have often thought to myself that anyone could get into software if they would just <em>try.</em></p>
+<hr />
 <blockquote>
 <p>p186. I needed only a firm understanding of the aliasing effects due to sampling. It is another example of why you need to know the fundamentals very well; the fancy parts then follow easily and you can do things that they never told you about.</p>
 </blockquote>
 <p>Again, this reminds me of a strong math education. If you only know how to run the formula maze, you’ll get stuck as soon as it’s posed as a word problem, or whatever permutation might hit you. This is a principle I try to live by, and I think I succeed.</p>
 <p>Also, it’s a great quote that I am going to put in my book.</p>
+<hr />
 <blockquote>
 <p>p196. When something is claimed to be new, do not be too hasty to think it is just the past slightly improved—it may be a great opportunity for you to do significant things.</p>
 </blockquote>
 <p>There is so much “new” technology these days. Blockchains, NFTs, machine learning. Every time I go to look at it I come away thinking it’s completely stupid. Part of me thinks “there’s no way SO MANY PEOPLE could be wrong about this stuff.” But the other part says “yeah, but you have significantly better fundamentals than most people in your field, and it’s your understanding of the fundamentals that makes this sound stupid.”</p>
 <p>I genuinely can’t tell if this is confirmation bias or not. Someone help please.</p>
+<hr />
 <blockquote>
 <p>p210. It must be your friends, in some sense, who make you famous by quoting and citing you,p and it pays, so I claim, to be helpful to others as they try to do their work. They may in time give you credit for the work, which is better than trying to claim it yourself.</p>
 </blockquote>
 <p>I’ve definitely noticed this in my life. The more I try to call out people for their good ideas that I’ve learned from, the more often they call me back out in kind. There’s this interesting “infinite mirror” sort of effect, where we boost one another’s signal, by virtue of having our signal boosted in the first place. It’s something I’ve been staying cognizant of since the first time I read the book. Be generous with credit! It’s cheap, and pays significant dividends.</p>
+<hr />
 <blockquote>
 <p>p218. Moral: when you know something cannot be done, also remember the essential reason why, so later, when the circumstances have changed, you will not say, “It can’t be done.”</p>
 </blockquote>
 <p><a href="/blog/brilliance/">This has bitten me before.</a> I would like to not be bitten by it again. Context: Hamming had published a book proving he knew everything he needed to know in order to invent the Fast Fourier Transform. But it’s called the FFT instead of the Hamming transform. That must have <em>stung.</em></p>
+<hr />
 <blockquote>
 <p>p239. That is why I am suspicious, to this day, of getting too many solutions and not doing enough very careful thinking about what you have seen. Volume output seems to me to be a poor substitute for acquiring an intimate feeling for the situation being simulated.</p>
 </blockquote>
 <p>Sounds like most programmers I know. I’m genuinely amazed at how often people say they check stackoverflow.</p>
+<hr />
 <blockquote>
 <p>p241. An active mind can contribute to a simulation even when you are dealing with experts in a field where you are a strict amateur.</p>
 </blockquote>
 <p>This one confirms my biases that smart outsiders can contribute to fields they don’t understand. Especially software people, whose key skill I see as being <em>understanding complicated things.</em> Outsiders see it as “pressing keys on the keyboard” or something, and are quick to dismiss my skills. <a href="https://www.microsoft.com/en-us/research/publication/composing-contracts-an-adventure-in-financial-engineering/">But Simon Peyton Jones can do it sucessfully</a>, so there is hope.</p>
+<hr />
 <blockquote>
 <p>p245. An extreme case I had to solve because it was important to the Laboratories, and that meant, at least to me, I had to get the solution, no matter what excuses I gave myself it could not be done. There are always answers of some sort for important problems if you are determined to get them. They may not be perfect, but in desperation something is better than nothing—provided it is reliable!</p>
 </blockquote>
 <p>WHAT AN ATTITUDE. I have never had a job I cared that much about. Sometimes when my friends ask interesting software questions, but never at a job. This would be an extremely powerful skill to learn how to harness: <em>getting an answer at any cost.</em></p>
+<hr />
 <blockquote>
 <p>p246. Why should anyone believe the simulation is relevant?</p>
 </blockquote>
 <p>A good question to ask myself when I try to convince people that I could automate things for them. Why should they believe me? I believe me, but how can I communicate that?</p>
+<hr />
 <blockquote>
 <p>p252. When I was occasionally asked to do some ecological simulation I quietly asked for the mathematically expressed rules for every possible interaction, for example given the amount of rain what growth of the trees would occur, what exactly were the constants, and also where I could get some real live data to compare some test runs. They soon got the idea and went elsewhere to get someone more willing to run very questionable simulations which would give the results they wanted and could use for their propaganda.</p>
 </blockquote>
 <p>I’d never thought about sham science in this light before. Yeah, I know like the cigarette companies fund research on smoking. But I’d never considered honest academics might be fooling themselves into selecting colleagues based on whom they won’t be challenged by.</p>
 <p>This is a harrowing thought. It’s likely not just scientists — I suspect everyone is guilty of this to some extent. Do I do this? Probably? But how do I find the instances, and how do I correct for it?</p>
+<hr />
 <blockquote>
 <p>p255. I made it easy to do the bookkeeping and the mechanics of the computer, but I refused to relieve them of the thinking part.</p>
 </blockquote>
 <p>cf. stackoverflow and Github Copilot, which take the thinking part of programming away. Jesus Christ that stuff scares me. Why are people <em>so</em> willing to give up thinking? How prevalent is this outside of software? A lot of the world makes a lot more sense under the lens that most people are actively trying to avoid thinking…</p>
+<hr />
 <blockquote>
 <p>p263. Does the pilot feel only the Fourier real frequencies, or maybe they also feel the decaying Laplace complex frequencies (or should we use wavelets?) Do different pilots feel the same kinds of things? We need to know more than we apparently now do about this important design criterion.</p>
 </blockquote>
 <p>I’D NEVER CONSIDERED THIS. I have this bad habit of thinking the map is the territory, and would just find a big-O of the function and then trim it off. But yeah, obviously there would be physical effects corresponding to our mathematical models.</p>
 <p>And yes, humans can “feel” acceleration and <a href="https://en.wikipedia.org/wiki/Jerk_%28physics%29">jerk</a>.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> But do we have a perception of <a href="https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position#Fourth_derivative_(snap/jounce)">snap</a>? And if so, can we differentiate it from <a href="https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position#Fifth_derivative_(crackle/flounce)">crackle</a>? I’m <em>very</em> curious about the answer here.</p>
+<hr />
 <blockquote>
 <p>p266. My real contribution was: (1) the realization that we could simulate what had happened, which is now routine in all accidents but was novel then, and (2) the recognition that there was a convergent direction field so the initial conditions need not be known accurately.</p>
 </blockquote>
 <p>Context: Hamming is discussing garbage-in-garbage-out as a concept, and saying it doesn’t hold. If you have attractors in your system, you will converge upon a good answer, even if your starting position is awful. A piece of conventional engineering that a) I believed, b) is clearly wrong, and c) I knew enough to determine for myself that it was clearly wrong, but didn’t.</p>
 <p>I wonder how I can avoid mistakes like this in the future. What other false beliefs am I holding?</p>
 <p>Jesus this book is a great exercise in humility.</p>
+<hr />
 <blockquote>
 <p>p269. Good minds are still needed in spite of all the computing tools we have developed. But the best mind will be the one who gets the principle into the design methods taught so it will be automatically available for lesser minds!</p>
 </blockquote>
 <p>Popularizing excellent ideas is more important than having excellent ideas. This is a good thing. I’m reasonably adept at popularizing things. <strong>I should intentionally train this skill, because pedagogy is much easier to improve than raw brain power.</strong></p>
+<hr />
 <blockquote>
 <p>p270. I had always claimed if the problem was important and properly posed, then I could get some kind of a solution. Therefore, I must find the solution; I had no escape if I were to hold onto my pride.</p>
 </blockquote>
 <p>Just today I came to the conclusion that something was likely impossible in a system that I had made. It’s not the most important problem to solve, but I definitely would have tried harder if my life or job depended on it. And what’s worse is that it <em>feels</em> like there’s a solution; I just don’t know how to formulate the problem in order to find it.</p>
 <p>This is definitely a tactic that can be deliberately invoked. I would like to get in the habit of making progress on hard problems. Again: get my ego involved. Precommit to making progress.</p>
+<hr />
 <blockquote>
 <p>p277. Once I had decided to stay at the Labs and realized my poverty in the knowledge of practical electronics, I bought a couple of Heathkits and assembled them just for the experience.</p>
 </blockquote>
 <p>Hamming realized he was lacking a skill, so he deliberately went out of his way to practice, even though he didn’t need the skill. But he figured it would be helpful in his understanding of the world. So he sunk his time and money into it!</p>
 <p>I definitely do this with programming, and claim it’s why I’m as good as I am. Lots of silly exercises, just to develop new skills. But what about areas outside of programming?</p>
+<hr />
 <blockquote>
 <p>p278. Beware of the power of wishful thinking on your part—you would like it to be true, so you assume it is true!</p>
 </blockquote>
 <p>Fuck. I do this all the time.</p>
+<hr />
 <blockquote>
 <p>p292. What you learn from others you can use to follow; what you learn for yourself you can use to lead.</p>
 </blockquote>
 <p>No real commentary on this one, but it feels true and it’s a good proverb.</p>
+<hr />
 <blockquote>
 <p>p293. Kaiser is a very smart person, but his education had restricted his view of the use of what he had learned. The better we inculcate the basic idea with the pictures drawn by the professor, the more we prevent the student from later extending the ideas to completely new areas not thought of by the professor (and put into the graphic display).</p>
 </blockquote>
 <p>My reading of this is that maybe we shouldn’t necessarily try to aid understanding by way of metaphor. Because metaphors are inevitably leaky, and this will damage the student’s ability to understand at the periphery of the metaphor’s boundary. Maybe all those visual math primers I want to make are a bad idea.</p>
+<hr />
 <blockquote>
 <p>p294. The students must master abstract pattern recognition if they are to progress and use mathematics later in their careers.</p>
 </blockquote>
 <p>Another good quote for a book.</p>
+<hr />
 <blockquote>
 <p>p302. It soon became evident to me that one of the reasons no theorem was false was that Hilbert “knew” the Euclidean theorems were “correct,” and he had picked his added postulates so this would be true. But then I soon realized Euclid had been in the same position; Euclid knew the “truth” of the Pythagorean theorem, and many other theorems, and had to find a system of postulates which would let him get the results he knew in advance. Euclid did not lay down postulates and make deductions as it is commonly taught; he felt his way back from “known” results to the postulates he needed!</p>
 </blockquote>
 <p>If you had asked me whether this was the case, I’d have said no. But if you asked me how I verify a new piece of mathematics, I’d tell you that I test it by throwing extreme examples at it that should simplify to some already well-known result. After all, there are lots of crazy new ideas, and if they don’t agree with existing results, either they’re wrong or you’ve got much bigger problems.</p>
 <p>But if this is true — if all mathematicians are projecting earlier truths outwards, then the unreasonable effectiveness of mathematics is once again in question. Why in hell do all of these crazy abstractions correspond with reality?</p>
+<hr />
 <blockquote>
 <p>p304. The above example about Cauchy’s theorem illustrates my attitude that mathematics shall do what I want it to do.</p>
 </blockquote>
 <p>This also feels true; formalizing ideas has a strong component of bending reality to your will. I don’t do a lot of math, but in programming, my god does this happen. I can invent abstractions on the spot that somehow make the computer do what I want it to — but exactly how I generate those is a mystery. It feels like lots of practice and analysis has gone into it, but none of that seems to matter when I go try and teach this stuff.</p>
+<hr />
 <blockquote>
 <p>p313. Clearly Planck was led to crate the theory because the approximating curve fit so well, and had the proper form. I reasoned, therefore, if I were to help anyone do a similar thing, I had better represent things in terms of functions they believed would be proper for their field rather than in the standard polynomials.</p>
 </blockquote>
 <p>In other words: “present ideas in the language of the audience, even if it isn’t the language most natural for the formulation of the ideas.” I run afoul of this all the time; it’s fine to do your thinking in a specialized language, but translating it to others goes much more smoothly if you can just teach some ideas, rather than a whole new language.</p>
+<hr />
 <blockquote>
 <p>p315. There are smells you cannot smell, wavelengths of light you cannot see, sounds you cannot hear, all based on the limits of your sense organs, so why do you object to the observation that given the wiring of the brain you have, there can be thoughts you cannot think?</p>
 </blockquote>
 <p>I hate this. Because he’s absolutely right, and it fills me with an existential dread. What if all the ideas we <em>really</em> need are wrapped up in the vacuum of unthinkable thoughts?</p>
+<hr />
 <blockquote>
 <p>p316. [The uncertainty principle] is a theorem in Fourier transformations—any linear theory must have a corresponding uncertainty principle, but among physicists it is still widely regarded as a physical effect from nature rather than a mathematical effect of the model.</p>
 </blockquote>
 <p>Highlighted out of <em>extreme interest.</em> Is this true? If so, how many other physical “laws” fall out merely as byproducts of theorems?</p>
+<hr />
 <blockquote>
 <p>p317. Von Neumann… proved there were no hidden variables… but the proof was found to be fallacious, new proofs found, and in their turn found to be fallacious—the current situation being a toss-up as to what you want to believe.</p>
 </blockquote>
 <p>More extreme interest. Note to myself to go investigate this. My understanding is that <a href="https://en.wikipedia.org/wiki/Bell%27s_theorem">Bell proved there are no hidden variables</a>, but that was in the 70s and this book was published in the 90s, and there is no way that Hamming hadn’t seen Bell’s work. I notice I am confused. I should remedy that.</p>
+<hr />
 <blockquote>
 <p>p320. I have put the word “understand” in quotes because I do not even pretend to know what I mean by it. We all know what we mean by “understand” until we try to say explicitly just what it means—and then it sort of fades away!</p>
 </blockquote>
 <p>I disagree. Understanding is the ability to form a model of some phenomenon, and make predictions that correlate with the future of the phenomenon itself. I could draw a nice commutative diagram here, but the idea being that the following square should commute: <code>predict . understand = observe . wait</code>.</p>
+<hr />
 <blockquote>
 <p>p321. Progress is making us face ourselves in many ways, and computers are very central in this process. Not only do they ask us questions never asked before, but they also give us new ways of answering them.</p>
 </blockquote>
 <p>I get in trouble often by putting my foot in my mouth on things like this. I’ll ask people leading questions about introducing formal systems into their jobs, usually trying to automate away the boring things. People interpret this as me wanting to automate away the whole job, and, instead, seem to entirely shut their minds off to the possibility that their jobs <em>could</em> be automated away.</p>
 <p>The relevance: a world we designed to solve all the problems that are solved today, but designed in a context of immense computation, would be a very different world than the one we currently live in. People are extremely eager to see byproducts of the current system as essential characteristics of the class of solutions. For example, democracy is a (bad) solution to a distrusted consensus-solving problem where agents can’t trust one another. It’s just trying to implement <a href="https://en.wikipedia.org/wiki/Paxos_(computer_science)">Paxos</a>! But people get worried about representation, or avoiding corruption, or whatever when you try to suggest anything that isn’t democracy. But I digress.</p>
+<hr />
 <blockquote>
 <p>p325. Creativity seems, among other things, to be “usefully” putting together things which were not perceived to be related before, and it may be the initial psychological distance between the things which counts most.</p>
 </blockquote>
 <p>This is a useful definition, and an actionable one too. I’m a firm believer in knowing about lots of things, and hoping that one of them will come in handy. It seems to work.</p>
+<hr />
 <blockquote>
 <p>p327. This stage, moreover, requires your emotional involvement, your commitment to finding a solution, since without a deep emotional involvement you are not likely to find a really fundamental, novel solution.</p>
 </blockquote>
 <p>Reiterating a point above.</p>
+<hr />
 <blockquote>
 <p>p327. When stuck I often ask myself “If I had a solution, what would it look like?” This tends to sharpen up the approach, and may reveal new ways of looking at the problem you had subconsciously ignored but now see should not be excluded. What must the solution involve? Are there conservation laws which must apply? Is there some symmetry? How does each assumption enter into the solution, and is each one really necessary? Have you recognized all the relevant factors?</p>
 </blockquote>
 <p>More good thought patterns from a smart person that I’d like to emulate. I don’t have a dedicated process for finding solutions; I just sorta set my mind loose on the problem and hope something shakes out. After writing <a href="https://algebradriven.design/">Algebra-Driven Design</a> I’ve started approaching software design with the underlying question of “what laws should hold here?” and it’s been <em>enormously</em> fruitful. Throwing a few more “obvious things to check before diving in” sounds like it would pay dividends.</p>
+<hr />
 <blockquote>
 <p>p329. When you learn something new, think of other applications of it, ones which have not arisen in your past but which might in your future.</p>
 </blockquote>
 <p>Another thought pattern.</p>
+<hr />
 <blockquote>
 <p>p330. We are, in a very real sense, the sum total of our habits, and nothing more; hence by changing our habits, once we understand which ones we should change and in what directions, and understand our limitations in changing ourselves, thence are on the path along which we want to go.</p>
 </blockquote>
 <p>Inspiring. We are the sum of our habits. Habits are hard to change, and they change less often than we’d like to believe, but we all have examples of changing our habits.</p>
+<hr />
 <blockquote>
 <p>p340. The second point I want to make is that many of you, in your turn, will become experts, and I am hoping to modify in you the worst aspects of the know-it-all expert. About all I can do is to beg you to watch and see for yourself how often the above descriptions occur in your career, and hope thereby you will not be the drag on progress the expert so often is.</p>
 </blockquote>
 <p>Context: experts often get in the way, and science needs to wait for them to die before it can proceed. I see this in a lot of my programming communities. I don’t want to be a drag like this when I get to the top of my career.</p>
+<hr />
 <blockquote>
 <p>p341. In my own case, I vowed when I rose to near the top that I would be careful, and as a result I have refused to take part in any decision processes involving current choices of computers. I will give my opinion when asked, but I do not want to be the kind of drag on the next generation I had to put up with from the past generation. Modesty? No, pride!</p>
 </blockquote>
 <p>The last three words here really change the tone. It’s not that Hamming didn’t think he was right, it’s that he was convinced that history wouldn’t agree with him. This is another good lens on our actions — how will history look back on us? If we can predict that, we might as well act only favorably along this metric.</p>
+<hr />
 <blockquote>
 <p>p342. What you did to become successful is likely to be counterproductive when applied at a later date.</p>
 </blockquote>
 <p>You see this in a lot of well-meaning advice. When preparing for my first interview as a software <em>engineer</em>, my dad suggested that I fiddle with any nut and bolt that might be around. I was perplexed — what did that have to do with software? Why would there be a nut and bolt around? My dad very patiently explained that they wanted to see if I was predisposed to getting my hands on problems!</p>
 <p>Clearly very good advice for engineering that is hands-on, but software is decidedly not! More generally, new techniques work well because the zeitgeist doesn’t know about them yet. But once they enter the collective experience, they get improved upon, and your old tool now solves the problem worse than the new ones!</p>
 <p>The inventor of something knows the least about it!</p>
+<hr />
 <blockquote>
 <p>p345. “Why do you believe the test equipment is as reliable as what is being tested?” The answer I got convinced me he had not really thought about it.</p>
 </blockquote>
 <p>I found a bug in <code>QuickCheck</code> last week, and <em>lots</em> of bugs in <code>quickspec</code> when writing Algebra-Driven Design. Those cost me a few hours, because your first thought is never that it’s the machinery that’s broken. And when the compiler has a bug, dear god. There goes your week.</p>
+<hr />
 <blockquote>
 <p>p346. I had long ago argued at Bell Telephone Laboratories that we should form a life testing debarment whose job is to prepare for the testing of the next device which is going to be invented, and not just test after the need arises. I got nowhere, though I made a few, fairly weak suggestions about how to start. There was not time in the area of life testing to do basic research—they were under too much pressure to get the needed results tomorrow.</p>
 </blockquote>
 <p>This is just genuinely a really good idea. At Takt, in an uncharacteristically-smart move, the CEO spun up a task force of a few people to do R&amp;D into what our new platform would look like. They came up with a ton of excellent ideas in two weeks, and likely were too successful, because the CEO immediately shut down the team and said “this is what our new platform will look like!”</p>
+<hr />
 <blockquote>
 <p>p346. There is never time to do the job right, but there is always time to fix it later.</p>
 </blockquote>
 <p>The motto of every software engineering job ever.</p>
+<hr />
 <blockquote>
 <p>p351. Much of the reliability of the engineering guesses was transferred t the sum, and the uncertainty of the salesman’ guesses was ignored. That is not uncommon in big organizations. Careful estimates are combined with wild guesses, and the reliability of the whole is taken to be the reliability of the engineering part. You may justly ask why bother with making the accurate engineering estimates when they are to be combined with other inaccurate guesses, but that is widespread practice in many fields!</p>
 </blockquote>
 <p>I’ve seen this in my career, but never acknowledged it as such. I don’t know what to do about it, but it’s something to keep an eye on.</p>
+<hr />
 <blockquote>
 <p>p352. Morgenstern points out that at one point DuPont Chemical held about 23% of the General Motors stock. How do you suppose this appeared when the gross national product (GNP) figure was computed? Of course it was counted twice!</p>
 </blockquote>
 <p>Of course it was. Makes you wonder just how inflated today’s economy is by false metrics. Does this apply to personal valuations as well?</p>
+<hr />
 <blockquote>
 <p>p353. Their reluctance to change the definitions of the economic indicators is based on the claim that a change, as indicated in the above paragraph, makes the past non-comparable to the present—better to have an irrelevant indicator than an inconsistent one, so they claim.</p>
 </blockquote>
 <p>So they claim. But having an irrelevant indicator is worse than having nothing; it will inspire you to do the wrong thing! How do we improve mathematical literacy?</p>
+<hr />
 <blockquote>
 <p>p354. Institutions, like people, tend to move only when forced to.</p>
 </blockquote>
 <p>Pithy and sweet.</p>
+<hr />
 <blockquote>
 <p>p354. Most economists are simply unwilling to discuss the basic inaccuracy of the economic data they use, and hence I have little faith in them as scientists. But who said economic science is a science? Only the economists!</p>
 </blockquote>
 <p>I was thinking about this today on the way home. I’m currently <a href="https://www.goodreads.com/book/show/40538538-goliath">reading a book on monopolies</a>, and am finding my perspective towards economics radically shifting. I’ve historically been very pro-libertarian/Chicago-school, basic it on little more than “it feels like the math checks out.” Of course, the author has his biases against these economics, but it’s a well-argued position I’d never heard before. Changing your mind is a confusing state of affairs!</p>
+<hr />
 <blockquote>
 <p>p356. Averages are meaningful for homogeneous groups (homogeneous with respect to the actions that may later be taken), but for diverse groups averages are often meaningless. As earlier remarked, the average adult has one breast and one testicle.</p>
 </blockquote>
 <p>Underlined because I love the example.</p>
+<hr />
 <blockquote>
 <p>p361. I also realized that under (2) and (3) one of my functions in the research departments was not so much to solve the existing problems as to develop the methods for solving problems, to expand the range of what could be done, and to educate others in what I had found so they could continue, extend, and improve my earlier efforts.</p>
 </blockquote>
 <p>Develop new methods and educate people on it, rather than directly solving the problems. This completely aligns with my career trajectory, though not necessarily accidentally, since I was reading this book when I <a href="https://sandymaguire.me/blog/reaching-climbing/">quit my job.</a></p>
+<hr />
 <blockquote>
 <p>p363. During my last two undergraduate college years when I was at the University of Chicago, the rule was that at the end you had to pass a single exam based on nine courses in your major field, and another exam based on six in your minor field, and these were mainly what mattered, not what grades you got along the way. I for the first time, came to understand what the systems approach to education means. While taking any one course, it was not a matter of passing it, pleasing the professor, or anything like that; it was learning it so that at a later date, maybe two years later, I would still know the things which should be in the course.</p>
 </blockquote>
 <p>OH MAN WHAT A GREAT WAY TO TEACH THINGS. WHY DON’T WE DO THIS? I came away from university knowing how to program, how to cut corners, and how to cram for tests. They tried to teach me a lot of things, but I was better at cutting corners and cramming than they at teaching.</p>
+<hr />
 <blockquote>
 <p>p365. All the proposed reformations of the standard calculus course that I have examined, and there are many, never begin by asking, “What is the total mathematical education, and what therefore, should be in the calculus course?” They merely try to include computers, or some such idea, without examining the system of total mathematical education which the course should be a apart of.</p>
 </blockquote>
@@ -289,66 +347,81 @@
 <p>p365. Few people who set out to reform any system try first to find out the total system problem, but rather attack the first symptom they see. And, of course, what emerges is whatever it is, and is not what is needed.</p>
 </blockquote>
 <p>These two hit home. I fall victim to this when I look at existing systems, and say “why is this particular thing missing?” rather than “if I were to design this from scratch, what would my principles be?” Damn. Hamming making me think.</p>
+<hr />
 <blockquote>
 <p>p367. I have stressed the importance of what currently is believed to be the fundamentals of various fields, and have deliberately neglected the current details, which will probably have a short lifetime.</p>
 </blockquote>
 <p>I’m working on the second edition of a book right now, and this is a point I’m trying to focus on more directly. There are lots of techniques I could recommend today, but they’re only going to age the book. Fundamentals don’t go out of style, which techniques absolutely do.</p>
+<hr />
 <blockquote>
 <p>p369. A second reason the systems engineer’s design is never completed is the solution offered to the original problem usually produces both deeper insight and dissatisfactions in the engineers themselves.</p>
 </blockquote>
 <p>This is a common characteristic that I notice in people I really like. Maybe it’s <em>the</em> common characteristic that I like. The absolute best programmers I know will build something a few times, because each time they get a solution they realize that what they’ve built is a solution to the wrong problem.</p>
+<hr />
 <blockquote>
 <p>p377. In mathematics, and in computer science, a similar effect of initial selection happens. In the earlier stages of mathematics up through the calculus, as well as in computer science, grades are closely related to the ability to carry out a lot of details with high reliability. But later, especially in mathematics, the qualities needed to succeed change and it becomes more proving theorems, patterns of reasoning, and the ability to conjecture new results, new theorems, and new definitions which matter. Still later it is the ability to see the whole of a field as a whole, and not as a lot of fragments. But the grading process has earlier, to a great extent, removed many of those you might want, and indeed are needed at the later stage!</p>
 </blockquote>
 <p>Another point suggesting that outsiders can do far more good work than insiders, since they haven’t been accidentally selected out.</p>
+<hr />
 <blockquote>
 <p>p388. It is hard work, applied for long years, which leads to the creative act, and it is rarely just handed to you without any serious effort on your part. Yes, sometimes it just happens, and then it is pure luck. It seems to me to be folly for you to depend solely on luck for the outcome of this one life you have to lead.</p>
 </blockquote>
 <p>Inspiring words. My takeaway here is that it’s more important to be systematically building cool things than it is to be recognized for those things. Getting the right idea at the right time is likely largely a function of luck, but by building a habit of building cool things, you’re optimizing your chances of the luck striking.</p>
 <p>Helpful for me, because I feel like I keep having great ideas that people just don’t seem to “get” — and it’s nice to have this as an excuse for why it’s OK.</p>
+<hr />
 <blockquote>
 <p>p389. “Why are you not working on and thinking about the important problems in your area?”</p>
 </blockquote>
 <p>I don’t know what are the important problems in software. P=NP I guess, and maybe then “what the hell do we do with all of this compute?” I’d like a better answer than “burn it mining shitty crypto” and “make graphics that look as good as real life.” What stupid applications of the most powerful tool the known universe has ever seen. Yeah, gun to my head, I’d say wise and effective use of software are the important problems of the future. So why am I not working on them? It’s not entirely clear where to start!</p>
+<hr />
 <blockquote>
 <p>p390. While playing chess Shannon would often advance his queen boldly into the fray and say, “I ain’t scared of nothing.” I learned to repeat it to myself when stuck, and at times it has enabled me to go on to a success. I deliberately copied a part of the style of a great scientist.</p>
 </blockquote>
 <p>I ain’t scare of nothing! It has a good ring to it. Here’s me deliberately copying a great scientist in deliberately copying a great scientist.</p>
+<hr />
 <blockquote>
 <p>p390. The courage to continue is essential, since great research often has long periods with no success and many discouragements.</p>
 </blockquote>
 <p>This perfectly sums of Algebra-Driven Design. That book took 7x longer than my first one, a good chunk of which was spent rewriting it because I kept writing the wrong book! Endlessly frustrating and discouraging, but well-worth having pushed though.</p>
+<hr />
 <blockquote>
 <p>p391. Not that you should merely work on random things, but on small things which seem to you to have the possibility of future growth.</p>
 </blockquote>
 <p>Another good metric. You don’t have to work on big problems; small ones that seem promising are OK too.</p>
+<hr />
 <blockquote>
 <p>p391. Thus what you consider to be good working conditions may not be good for you! There are many illustrations of this point. For example, working with one’s door closed lets you get more work done per year than if you had an open door, but I have observed repeatedly that later those with the closed doors, while working just as hard as others, seem to work on slightly the wrong problems, while those who have let their door stay open get less work done but tend to work on the right problems.</p>
 </blockquote>
 <p>My instinct is often to put in headphones and focus. I like getting work done in the short term. But I’ve been finding this to be more and more true. For example, I go to a weekly “open hack” where there are a lot of beginners talking about basic things! But once a week or so, someone says something that is absolutely brilliant, and it’s the sort of thing that could only have come from a beginner!</p>
+<hr />
 <blockquote>
 <p>p392. When stuck, often inverting the problem and realizing the new formulations is better represents a significant step forward. I am not asserting all blockages can be so rearranged, but I am asserting that many more than you might at first suspect can be so changed from a more or less routine response to a great one.</p>
 </blockquote>
 <p>More good strategies for solving problems. This sounds similar to “if I had a solution, what would it look like?”</p>
+<hr />
 <blockquote>
 <p>p393. I changed the problem from just getting answers to the realization I was demonstrating clearly for the first time the superiority of digital computers over the current analog computers, thus making a significant contribution to the science behind the activity of computing answers.</p>
 </blockquote>
 <p>It’s not enough just to do it well. It also needs to be done with style and flare, to help inspire lesser minds into seeing what the future could hold.</p>
+<hr />
 <blockquote>
 <p>p394. At the urging of others, for some years I set aside Friday afternoons for “great thoughts.”</p>
 </blockquote>
 <p>Another reminder to myself. But I’ve already put it on my calendar, so there.</p>
+<hr />
 <blockquote>
 <p>p396. Do you want to be a reformer of the trivia of your old organization or a creator of the new organization? Pick your choice, but be clear which path you are going down.</p>
 </blockquote>
 <p>Fuck, this one hits me too. I spend so much time fighting in the Haskell world about stupid shit that nobody cares about. Is it “correct” that we remove <code>(/=)</code> from <code>Eq</code>? Absolutely. Does it matter? Not in the least. Dumb trivia.</p>
 <p>A mantra I picked up from Sebastian Marshall is “don’t argue with peasants.” If there’s an idiot who’s wrong on the internet, don’t waste your energy trying to change their mind. Best case, you convince them, the world doesn’t change in any noticeable way, and you’ve wasted your energy.</p>
 <p>“Don’t be a reformer of trivia” is another helpful mantra I could do well to pick up.</p>
+<hr />
 <blockquote>
 <p>p397. I strongly suggest you adopt the habit of privately critiquing all presentations you attend and also asking the opinions of others. Try to find those parts which you think are effective and which also can be adapted to your style.</p>
 </blockquote>
 <p>Erin often says I’m a good writer. I think she’s just being kind. All it feels like I’m doing is stealing the best bits of writing from my favorite authors and essayists. But maybe that’s all that being a good writer consists of?</p>
 <p>However, I don’t apply this to other forms of media. I don’t analyze how stand-up comedians tell jokes, nor how good engineers give technical talks.</p>
+<hr />
 <blockquote>
 <p>p397. Along the way you will generally have superiors who are less able than you are, so do not complain, since how else could it be if you are going to end up at the top and they are not?</p>
 </blockquote>
