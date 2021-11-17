@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Notes from My Copy of the Art of Doing Science and Engineering
-date: TO_BE_DETERMINED
+date: 2021-11-17 01:02
 comments: true
-tags: foo, bar
-confidence: 4
+tags: book review, quotes, hamming
+confidence: 2
 ---
 
 Sometime during the summer I had a religious experience. My girlfriend and I
@@ -450,6 +450,8 @@ bad idea.
 > p294. The students must master abstract pattern recognition if they are to
 > progress and use mathematics later in their careers.
 
+Another good quote for a book.
+
 
 > p302. It soon became evident to me that one of the reasons no theorem was
 > false was that Hilbert "knew" the Euclidean theorems were "correct," and he
@@ -460,16 +462,40 @@ bad idea.
 > not lay down postulates and make deductions as it is commonly taught; he felt
 > his way back from "known" results to the postulates he needed!
 
+If you had asked me whether this was the case, I'd have said no. But if you
+asked me how I verify a new piece of mathematics, I'd tell you that I test it by
+throwing extreme examples at it that should simplify to some already well-known
+result. After all, there are lots of crazy new ideas, and if they don't agree
+with existing results, either they're wrong or you've got much bigger problems.
+
+But if this is true --- if all mathematicians are projecting earlier truths
+outwards, then the unreasonable effectiveness of mathematics is once again in
+question. Why in hell do all of these crazy abstractions correspond with
+reality?
+
 
 > p304. The above example about Cauchy's theorem illustrates my attitude that
 > mathematics shall do what I want it to do.
 
+This also feels true; formalizing ideas has a strong component of bending
+reality to your will. I don't do a lot of math, but in programming, my god does
+this happen. I can invent abstractions on the spot that somehow make the
+computer do what I want it to --- but exactly how I generate those is a mystery.
+It feels like lots of practice and analysis has gone into it, but none of that
+seems to matter when I go try and teach this stuff.
 
-> p313. Clearly Planck was lead to crate the theory because the approximating
+
+> p313. Clearly Planck was led to crate the theory because the approximating
 > curve fit so well, and had the proper form. I reasoned, therefore, if I were
 > to help anyone do a similar thing, I had better represent things in terms of
 > functions they believed would be proper for their field rather than in the
 > standard polynomials.
+
+In other words: "present ideas in the language of the audience, even if it isn't
+the language most natural for the formulation of the ideas." I run afoul of this
+all the time; it's fine to do your thinking in a specialized language, but
+translating it to others goes much more smoothly if you can just teach some
+ideas, rather than a whole new language.
 
 
 > p315. There are smells you cannot smell, wavelengths of light you cannot see,
@@ -477,11 +503,18 @@ bad idea.
 > do you object to the observation that given the wiring of the brain you have,
 > there can be thoughts you cannot think?
 
+I hate this. Because he's absolutely right, and it fills me with an existential
+dread. What if all the ideas we *really* need are wrapped up in the vacuum of
+unthinkable thoughts?
+
 
 > p316. [The uncertainty principle] is a theorem in Fourier
 > transformations---any linear theory must have a corresponding uncertainty
 > principle, but among physicists it is still widely regarded as a physical
 > effect from nature rather than a mathematical effect of the model.
+
+Highlighted out of *extreme interest.* Is this true? If so, how many other
+physical "laws" fall out merely as byproducts of theorems?
 
 
 > p317. Von Neumann... proved there were no hidden variables... but the proof
@@ -489,25 +522,61 @@ bad idea.
 > fallacious---the current situation being a toss-up as to what you want to
 > believe.
 
+More extreme interest. Note to myself to go investigate this. My understanding
+is that [Bell proved there are no hidden variables][bell], but that was in the
+70s and this book was published in the 90s, and there is no way that Hamming
+hadn't seen Bell's work. I notice I am confused. I should remedy that.
+
+[bell]: https://en.wikipedia.org/wiki/Bell%27s_theorem
+
 
 > p320. I have put the word "understand" in quotes because I do not even pretend
 > to know what I mean by it. We all know what we mean by "understand" until we
 > try to say explicitly  just what it means---and then it sort of fades away!
+
+I disagree. Understanding is the ability to form a model of some phenomenon, and
+make predictions that correlate with the future of the phenomenon itself. I
+could draw a nice commutative diagram here, but the idea being that the
+following square should commute: `predict . understand = observe . wait`.
 
 
 > p321. Progress is making us face ourselves in many ways, and computers are
 > very central in this process. Not only do they ask us questions never asked
 > before, but they also give us new ways of answering them.
 
+I get in trouble often by putting my foot in my mouth on things like this. I'll
+ask people leading questions about introducing formal systems into their jobs,
+usually trying to automate away the boring things. People interpret this as me
+wanting to automate away the whole job, and, instead, seem to entirely shut
+their minds off to the possibility that their jobs *could* be automated away.
+
+The relevance: a world we designed to solve all the problems that are solved
+today, but designed in a context of immense computation, would be a very
+different world than the one we currently live in. People are extremely eager to
+see byproducts of the current system as essential characteristics of the class
+of solutions. For example, democracy is a (bad) solution to a distrusted
+consensus-solving problem where agents can't trust one another. It's just trying
+to implement [Paxos][paxos]! But people get worried about representation, or
+avoiding corruption, or whatever when you try to suggest anything that isn't
+democracy. But I digress.
+
+[paxos]: https://en.wikipedia.org/wiki/Paxos_(computer_science)
+
 
 > p325. Creativity seems, among other things, to be "usefully" putting together
 > things which were not perceived to be related before, and it may be the
 > initial psychological distance between the things which counts most.
 
+This is a useful definition, and an actionable one too. I'm a firm believer in
+knowing about lots of things, and hoping that one of them will come in handy. It
+seems to work.
+
 
 > p327. This stage, moreover, requires your emotional involvement, your
 > commitment to finding a solution, since without a deep emotional involvement
 > you are not likely to find a really fundamental, novel solution.
+
+Reiterating a point above.
 
 
 > p327. When stuck I often ask myself "If I had a solution, what would it look
@@ -518,15 +587,31 @@ bad idea.
 > solution, and is each one really necessary? Have you recognized all the
 > relevant factors?
 
+More good thought patterns from a smart person that I'd like to emulate. I don't
+have a dedicated process for finding solutions; I just sorta set my mind loose
+on the problem and hope something shakes out. After writing [Algebra-Driven
+Design][add] I've started approaching software design with the underlying
+question of "what laws should hold here?" and it's been *enormously* fruitful.
+Throwing a few more "obvious things to check before diving in" sounds like it
+would pay dividends.
+
+[add]: https://algebradriven.design/
+
 
 > p329. When you learn something new, think of other applications of it, ones
 > which have not arisen in your past but which might in your future.
+
+Another thought pattern.
 
 
 > p330. We are, in a very real sense, the sum total of our habits, and nothing
 > more; hence by changing our habits, once we understand which ones we should
 > change and in what directions, and understand our limitations in changing
 > ourselves, thence are on the path along which we want to go.
+
+Inspiring. We are the sum of our habits. Habits are hard to change, and they
+change less often than we'd like to believe, but we all have examples of
+changing our habits.
 
 
 > p340. The second point I want to make is that many of you, in your turn, will
@@ -535,6 +620,10 @@ bad idea.
 > yourself how often the above descriptions occur in your career, and hope
 > thereby you will not be the drag on progress the expert so often is.
 
+Context: experts often get in the way, and science needs to wait for them to die
+before it can proceed. I see this in a lot of my programming communities. I
+don't want to be a drag like this when I get to the top of my career.
+
 
 > p341. In my own case, I vowed when I rose to near the top that I would be
 > careful, and as a result I have refused to take part in any decision processes
@@ -542,15 +631,39 @@ bad idea.
 > I do not want to be the kind of drag on the next generation I had to put up
 > with from the past generation. Modesty? No, pride!
 
+The last three words here really change the tone. It's not that Hamming didn't
+think he was right, it's that he was convinced that history wouldn't agree with
+him. This is another good lens on our actions --- how will history look back on
+us? If we can predict that, we might as well act only favorably along this
+metric.
+
 
 > p342. What you did to become successful is likely to be counterproductive when
 > applied at a later date.
 
+You see this in a lot of well-meaning advice. When preparing for my first
+interview as a software *engineer*, my dad suggested that I fiddle with any nut
+and bolt that might be around. I was perplexed --- what did that have to do with
+software? Why would there be a nut and bolt around? My dad very patiently
+explained that they wanted to see if I was predisposed to getting my hands on
+problems!
+
+Clearly very good advice for engineering that is hands-on, but software is
+decidedly not! More generally, new techniques work well because the zeitgeist
+doesn't know about them yet. But once they enter the collective experience, they
+get improved upon, and your old tool now solves the problem worse than the new
+ones!
+
+The inventor of something knows the least about it!
+
 
 > p345. "Why do you believe the test equipment is as reliable as what is being
-> tested?" The answer I got convinced me he had not really thought about it, but
-> seeing pursuit of the point was fruitless, I let it drop. But I did not forget
-> the question!
+> tested?" The answer I got convinced me he had not really thought about it.
+
+I found a bug in `QuickCheck` last week, and *lots* of bugs in `quickspec` when
+writing Algebra-Driven Design. Those cost me a few hours, because your first
+thought is never that it's the machinery that's broken. And when the compiler
+has a bug, dear god. There goes your week.
 
 
 > p346. I had long ago argued at Bell Telephone Laboratories that we should form
@@ -561,9 +674,18 @@ bad idea.
 > research---they were under too much pressure to get the needed results
 > tomorrow.
 
+This is just genuinely a really good idea. At Takt, in an
+uncharacteristically-smart move, the CEO spun up a task force of a few people to
+do R&D into what our new platform would look like. They came up with a ton of
+excellent ideas in two weeks, and likely were too successful, because the CEO
+immediately shut down the team and said "this is what our new platform will look
+like!"
+
 
 > p346. There is never time to do the job right, but there is always time to fix
 > it later.
+
+The motto of every software engineering job ever.
 
 
 > p351. Much of the reliability of the engineering guesses was transferred t the
@@ -574,10 +696,16 @@ bad idea.
 > engineering estimates when they are to be combined with other inaccurate
 > guesses, but that is widespread practice in many fields!
 
+I've seen this in my career, but never acknowledged it as such. I don't know
+what to do about it, but it's something to keep an eye on.
+
 
 > p352. Morgenstern points out that at one point DuPont Chemical held about 23%
 > of the General Motors stock. How do you suppose this appeared when the gross
 > national product (GNP) figure was computed? Of course it was counted twice!
+
+Of course it was. Makes you wonder just how inflated today's economy is by false
+metrics. Does this apply to personal valuations as well?
 
 
 > p353. Their reluctance to change the definitions of the economic indicators is
@@ -585,13 +713,28 @@ bad idea.
 > the past non-comparable to the present---better to have an irrelevant
 > indicator than an inconsistent one, so they claim.
 
+So they claim. But having an irrelevant indicator is worse than having nothing;
+it will inspire you to do the wrong thing! How do we improve mathematical
+literacy?
+
 
 > p354. Institutions, like people, tend to move only when forced to.
+
+Pithy and sweet.
 
 
 > p354. Most economists are simply unwilling to discuss the basic inaccuracy of
 > the economic data they use, and hence I have little faith in them as
-> scientists.  But who said economic science is a science? Only the economists!
+> scientists. But who said economic science is a science? Only the economists!
+
+I was thinking about this today on the way home. I'm currently [reading a book
+on monopolies][goliath], and am finding my perspective towards economics
+radically shifting.  I've historically been very pro-libertarian/Chicago-school,
+basic it on little more than "it feels like the math checks out." Of course, the
+author has his biases against these economics, but it's a well-argued position
+I'd never heard before. Changing your mind is a confusing state of affairs!
+
+[goliath]: https://www.goodreads.com/book/show/40538538-goliath
 
 
 > p356. Averages are meaningful for homogeneous groups (homogeneous with respect
@@ -599,12 +742,21 @@ bad idea.
 > often meaningless. As earlier remarked, the average adult has one breast and
 > one testicle.
 
+Underlined because I love the example.
+
 
 > p361. I also realized that under (2) and (3) one of my functions in the
 > research departments was not so much to solve the existing problems as to
 > develop the methods for solving problems, to expand the range of what could be
 > done, and to educate others in what I had found so they could continue,
 > extend, and improve my earlier efforts.
+
+Develop new methods and educate people on it, rather than directly solving the
+problems. This completely aligns with my career trajectory, though not
+necessarily accidentally, since I was reading this book when I [quit my
+job.][quit]
+
+[quit]: https://sandymaguire.me/blog/reaching-climbing/
 
 
 > p363. During my last two undergraduate college years when I was at the
@@ -617,6 +769,11 @@ bad idea.
 > it so that at a later date, maybe two years later, I would still know the
 > things which should be in the course.
 
+OH MAN WHAT A GREAT WAY TO TEACH THINGS. WHY DON'T WE DO THIS? I came away from
+university knowing how to program, how to cut corners, and how to cram for
+tests. They tried to teach me a lot of things, but I was better at cutting
+corners and cramming than they at teaching.
+
 
 > p365. All the proposed reformations of the standard calculus course that I
 > have examined, and there are many, never begin by asking, "What is the total
@@ -624,20 +781,33 @@ bad idea.
 > They merely try to include computers, or some such idea, without examining the
 > system of total mathematical education which the course should be a apart of.
 
-
 > p365. Few people who set out to reform any system try first to find out the
 > total system problem, but rather attack the first symptom they see. And, of
-> course, what emerges is whatever it is, and is not what is needed
+> course, what emerges is whatever it is, and is not what is needed.
+
+These two hit home. I fall victim to this when I look at existing systems, and
+say "why is this particular thing missing?" rather than "if I were to design
+this from scratch, what would my principles be?" Damn. Hamming making me think.
 
 
 > p367. I have stressed the importance of what currently is believed to be the
-> fundamentals f various fields, and have deliberately neglected the current
+> fundamentals of various fields, and have deliberately neglected the current
 > details, which will probably have a short lifetime.
+
+I'm working on the second edition of a book right now, and this is a point I'm
+trying to focus on more directly. There are lots of techniques I could recommend
+today, but they're only going to age the book. Fundamentals don't go out of
+style, which techniques absolutely do.
 
 
 > p369. A second reason the systems engineer's design is never completed is the
 > solution offered to the original problem usually produces both deeper insight
 > and dissatisfactions in the engineers themselves.
+
+This is a common characteristic that I notice in people I really like. Maybe
+it's *the* common characteristic that I like. The absolute best programmers I
+know will build something a few times, because each time they get a solution
+they realize that what they've built is a solution to the wrong problem.
 
 
 > p377. In mathematics, and in computer science, a similar effect of initial
@@ -652,16 +822,36 @@ bad idea.
 > removed many of those you might want, and indeed are needed at the later
 > stage!
 
+Another point suggesting that outsiders can do far more good work than insiders,
+since they haven't been accidentally selected out.
+
 
 > p388. It is hard work, applied for long years, which leads to the creative
 > act, and it is rarely just handed to you without any serious effort on your
-> part.  Yes, sometimes it just happens, and then it is pure luck. It seems to
+> part. Yes, sometimes it just happens, and then it is pure luck. It seems to
 > me to be folly for you to depend solely on luck for the outcome of this one
 > life you have to lead.
+
+Inspiring words. My takeaway here is that it's more important to be
+systematically building cool things than it is to be recognized for those
+things. Getting the right idea at the right time is likely largely a function of
+luck, but by building a habit of building cool things, you're optimizing your
+chances of the luck striking.
+
+Helpful for me, because I feel like I keep having great ideas that people just
+don't seem to "get" --- and it's nice to have this as an excuse for why it's OK.
 
 
 > p389. "Why are you not working on and thinking about the important problems in
 > your area?"
+
+I don't know what are the important problems in software. P=NP I guess, and
+maybe then "what the hell do we do with all of this compute?" I'd like a better
+answer than "burn it mining shitty crypto" and "make graphics that look as good
+as real life." What stupid applications of the most powerful tool the known
+universe has ever seen. Yeah, gun to my head, I'd say wise and effective use of
+software are the important problems of the future. So why am I not working on
+them? It's not entirely clear where to start!
 
 
 > p390. While playing chess Shannon would often advance his queen boldly into
@@ -669,13 +859,24 @@ bad idea.
 > myself when stuck, and at times it has enabled me to go on to a success. I
 > deliberately copied a part of the style of a great scientist.
 
+I ain't scare of nothing! It has a good ring to it. Here's me deliberately
+copying a great scientist in deliberately copying a great scientist.
+
 
 > p390. The courage to continue is essential, since great research often has
 > long periods with no success and many discouragements.
 
+This perfectly sums of Algebra-Driven Design. That book took 7x longer than my
+first one, a good chunk of which was spent rewriting it because I kept writing
+the wrong book! Endlessly frustrating and discouraging, but well-worth having
+pushed though.
+
 
 > p391. Not that you should merely work on random things, but on small things
 > which seem to you to have the possibility of future growth.
+
+Another good metric. You don't have to work on big problems; small ones that
+seem promising are OK too.
 
 
 > p391. Thus what you consider to be good working conditions may not be good for
@@ -686,6 +887,13 @@ bad idea.
 > problems, while those who have let their door stay open get less work done but
 > tend to work on the right problems.
 
+My instinct is often to put in headphones and focus. I like getting work done in
+the short term. But I've been finding this to be more and more true. For
+example, I go to a weekly "open hack" where there are a lot of beginners talking
+about basic things! But once a week or so, someone says something that is
+absolutely brilliant, and it's the sort of thing that could only have come from
+a beginner!
+
 
 > p392. When stuck, often inverting the problem and realizing the new
 > formulations is better represents a significant step forward. I am not
@@ -693,20 +901,40 @@ bad idea.
 > more than you might at first suspect can be so changed from a more or less
 > routine response to a great one.
 
+More good strategies for solving problems. This sounds similar to "if I had a
+solution, what would it look like?"
+
 
 > p393. I changed the problem from just getting answers to the realization I was
 > demonstrating clearly for the first time the superiority of digital computers
 > over the current analog computers, thus making a significant contribution to
 > the science behind the activity of computing answers.
 
+It's not enough just to do it well. It also needs to be done with style and
+flare, to help inspire lesser minds into seeing what the future could hold.
+
 
 > p394. At the urging of others, for some years I set aside Friday afternoons
 > for "great thoughts."
+
+Another reminder to myself. But I've already put it on my calendar, so there.
 
 
 > p396. Do you want to be a reformer of the trivia of your old organization or a
 > creator of the new organization? Pick your choice, but be clear which path you
 > are going down.
+
+Fuck, this one hits me too. I spend so much time fighting in the Haskell world
+about stupid shit that nobody cares about. Is it "correct" that we remove `(/=)`
+from `Eq`? Absolutely. Does it matter? Not in the least. Dumb trivia.
+
+A mantra I picked up from Sebastian Marshall is "don't argue with peasants." If
+there's an idiot who's wrong on the internet, don't waste your energy trying to
+change their mind. Best case, you convince them, the world doesn't change in any
+noticeable way, and you've wasted your energy.
+
+"Don't be a reformer of trivia" is another helpful mantra I could do well to
+pick up.
 
 
 > p397. I strongly suggest you adopt the habit of privately critiquing all
@@ -714,8 +942,33 @@ bad idea.
 > those parts which you think are effective and which also can be adapted to
 > your style.
 
+Erin often says I'm a good writer. I think she's just being kind. All it feels
+like I'm doing is stealing the best bits of writing from my favorite authors and
+essayists. But maybe that's all that being a good writer consists of?
+
+However, I don't apply this to other forms of media. I don't analyze how
+stand-up comedians tell jokes, nor how good engineers give technical talks.
+
 
 > p397. Along the way you will generally have superiors who are less able than
 > you are, so do not complain, since how else could it be if you are going to
-> end up at he top and they are not?
+> end up at the top and they are not?
+
+Makes sense. If you're going to end up at the top, you're going to have to
+climb, and go past a bunch of idiots in the process. Which, counterintuitively,
+suggests it's actually a *good* thing if your boss is an idiot --- because it
+means you haven't yet risen to your height.
+
+---
+
+My first thought was to end the essay here, because I made it through all of the
+quotes. But I stole this format from an author I like, and in the spirit of
+analyzing good presentations, I'm going to take a moment and go see how he ends
+essays of this form.
+
+Turns out he just ends them, without an afterward. But that feels like the wrong
+play, so instead I'll tell you to go [buy a copy of The Art of Doing Science and
+Engineering][buy]. It's an excellent book, and you won't be disappointed.
+
+[buy]: https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178/ref=sr_1_1
 
