@@ -7,13 +7,44 @@
   <description>Musings on effective life strategies</description>
   <category>Life</category>
   <copyright>2018 Sandy Maguire</copyright>
-  <pubDate>2021-11-17T01:02:00Z</pubDate>
+  <pubDate>2021-12-23T11:17:00Z</pubDate>
   <language>en-us</language>
   <image>
       <url>http://sandymaguire.me/images/favicon.png</url>
     <title>Sandy Maguire</title>
     <link>http://sandymaguire.me</link>
   </image>
+  <item>
+      <title>An Open Letter on Banning Uber From Operating in BC</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/open-letter-uber/index.html</link>
+      <guid>http://sandymaguire.me/blog/open-letter-uber/index.html</guid>
+      <pubDate>2021-12-23T11:17:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>Mrs. Allevato,</p>
+<p>I am the owner of a small, local, technology-focused business in Victoria, and was shocked and dismayed to hear your recent ruling blocking the operations of Uber in BC. The ruling is clearly anti-competitive, and reeks of rampant corruption. The meteoric rise of passengers choosing to use Uber and other ride-sharing apps is clear evidence that they <em>prefer</em> Uber over taxi services.</p>
+<p>Perhaps you haven’t ridden in a taxi recently, but it is an awful experience. Last week I took a cab to the airport. The vehicle was smelly, rundown, and extremely uncomfortable due to a broken seat and seat-belt. This is not an outlier in my biweekly taxi usage. Of course taxi cabs will be in this state. They are rented by drivers who have no incentive to keep the vehicles well maintained. The cab companies have a monopoly, meaning that they can afford to keep their cab fleet in awful condition, since there is no competition to improve.</p>
+<p>Worse, it cost $65 to get to the airport, when an Uber would have cost roughly half of that.</p>
+<p>I can’t overstate this point: every cab ride I have ever taken in Victoria has been an awful experience. This sentiment is shared by many of my colleagues and friends.</p>
+<p>Contrast this with ride-sharing apps, where drivers use their own vehicles, and have their cleanliness and behavior moderated by a convenient rating system. The drivers thus have an incentive to offer excellent cleanliness and service — first in that they are using their own personal property, and second in that their livelihood will be threatened by bad ratings otherwise.</p>
+<p>None of these feedback mechanisms exist in the taxi industry.</p>
+<p>Furthermore, not only is Uber a better experience for riders, it is also better for drivers. Your decision quotes the following passage from the report:</p>
+<blockquote>
+<p>during an ongoing driver shortage, it is possible that taxi company margins will be squeezed by fixed meter rates to the point where they cannot retain drivers even though taxi demand justifies it. The drivers will then tend to move to TNS where the hourly earnings are higher because of the higher average rates and the high customer demand.</p>
+</blockquote>
+<p>which makes the very clear claim that drivers would prefer to work for TNS than for taxi companies. I have lived in many cities with ride-sharing, and this sentiment resonates with my experience — every single TNS driver has told me they make much more money than they ever would working for a taxi company.</p>
+<p>Compare this against the cab system, where drivers must rent a cab from the taxi company for a 12 hour shift at a fixed rate. A 12 hour shift is too long for any human to safely perform a high-focus activity, but the incentive structure of the taxi industry encourages drivers to work as many hours as possible, regardless of whether it’s safe to do so. My most recent cab ride to the airport was at 5am. The driver was barely awake and couldn’t keep his eyes on the road. I was genuinely afraid for my life, but, crucially, <em>had no other alternatives.</em></p>
+<p>Ride-sharing apps don’t suffer these problems. The driver rating system incentivizes safe driving, and because they work on their own schedule, drivers aren’t punished financially for stopping when they are tired.</p>
+<p>It is clear that ride-sharing apps are better for both the rider and the driver. Your decision has thus sold out to the taxi cartels at the expense of local people on both sides who long for a better system. The decision states:</p>
+<blockquote>
+<p>In the Board’s view, existing licensees should have the opportunity to start up and be successful in their business without additional competition which may be harmful.</p>
+</blockquote>
+<p>The entire purpose of competition is to force better behavior from incumbents. Taxis exist to get people from one place to another. They exist to provide society a service. Society does not owe taxi companies the right to exist if they are worse on every front than a superior competitor — and taxis are.</p>
+<p>Given these reasons, it is unconscionable to protect the taxi cartel, and corruption is the only logical explanation why the Passenger Transportation Board would do so.</p>
+<p>I urge you to reconsider your decision to ban Uber from operating in BC. It is unconscionable and serves only to protect a parasitic drain on society.</p>
+<p>Yours, Sandy Maguire</p>
+      ]]></content:encoded>
+  </item>
   <item>
       <title>Notes from My Copy of the Art of Doing Science and Engineering</title>
       <author>sandy@sandymaguire.me (Sandy Maguire)</author>
@@ -777,30 +808,6 @@ Press to Enable Viewing My Broken Resolutions
 <a href="https://algebradriven.design"><img src="/images/add.png" alt="Algebra-Driven Design"></a>
 </center>
 <p>Back to regular blogging sometime soonish.</p>
-      ]]></content:encoded>
-  </item>
-  <item>
-      <title>No Coffee and Quantifying the Self</title>
-      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
-      <link>http://sandymaguire.me/blog/no-coffee/index.html</link>
-      <guid>http://sandymaguire.me/blog/no-coffee/index.html</guid>
-      <pubDate>2020-02-28T00:50:00Z</pubDate>
-      <content:encoded><![CDATA[
-        <p>For my first two decades of life, I could never sleep. I’d go to bed at whatever time was my bedtime (maybe 9pm?) and lay restlessly in the dark for several hours every night until I finally got to sleep. I honestly had no idea that other people <em>didn’t</em> do that, that they got to sleep in an average of twenty minutes. I attribute a lot of my current mental acuity to this — that I had three hours of dedicated and mandatory <em>thinking time</em> every day for twenty years.</p>
-<p>In retrospect, probably it was that can of Coke I habitually drank every dinner. It never felt like the caffeine affected me. Those endless nights of sleeplessness just felt like <em>the way it was.</em></p>
-<p>I was reminded of this anecdote by a scary experience I had today. I ran into a guy who might have been my old coworker from halfway around the world, many years ago. We never worked together, but he had a distinctive face, and this guy had the same distinctive face.</p>
-<p>He might have been my old coworker, but I’m not sure. I didn’t ask. Instead I got <em>the fear.</em> I got so fucking nervous about saying hi to this guy that I flinched away from the encounter, and am left to wonder about his identity forever. Or at least until tomorrow when I’ll probably run into him again at the same place.</p>
-<p>These bouts of nerves — I used to get them all the time. But haven’t for the last four months or so. And my last four months have been overwhelmingly socially successful, most of which I attribute to higher-than-usual confidence. It’s the same nerves I used to associate with going over and talking to pretty girls. It’s the same nerves that I got before asking for a raise. It’s the same nerves I got while waiting in the queue at the bank.</p>
-<p>Wait, what? Waiting at the bank? How is that nerve-racking? Good question. I’m not sure, but that was the first time I ever associated <em>my nervousness</em> with <em>all the damn caffeine I was drinking.</em> Not that I ever let that stop me from drinking coffee, but at least I was aware of it.</p>
-<p>Today, nerves again, for the first time in months. And maybe it’s a coincidence, but I had just finished a strong coffee, after only eating soup for breakfast, after spending four months on an island with notoriously bad coffee, where the instant-variety is ubiquitous. I hadn’t stopped drinking coffee over the last few months, but maybe I’d accidentally stopped overdosing on caffeine?</p>
-<p>I’ve been really grooving on being not-unbearably-nervous Sandy these last few months. It’s been a period of aggressive self-actualization; getting to a point where not only do I know I can take on the world, but I <em>feel it,</em> too. How silly would it be if my amazing change in personality was due to a fluke accident of stopping my socially-acceptable drug habit?</p>
-<p>Now, granted, this is all conjecture, but it seems worth an experiment. So for the next two weeks, I’m going to consume zero caffeine, and see if I get any more of these nerves. I’ll keep track of my subjective confidence levels, and of my feelings of self-actualization.</p>
-<p>On first glance, it feels like my productivity is going to suffer. “Of course caffeine makes me more productive!” Well known fact, that. <em>Everyone knows</em> caffeine makes you more productive. But I can think of more times I’ve been <em>way too caffeinated</em> and completely unable to work, than I can think of times I felt a profound performance improvement from taking a coffee (hangovers excluded.)</p>
-<p>Last year I read a book on quitting smoking, even though I don’t and have never smoked. It made the interesting claim that over time, smoking lowers your default state, and having a cigarette brings you back to your old norm. The contrast is there; smoking does make you feel better and more productive, but only relative to your state of withdrawal. Relative to your non-smoking normal, it just brings you back to par. This feels very plausible for the case of coffee as well; I’ve heard much of the same comments from my friends who have stopped drinking it.</p>
-<p>The great part is that I already have the infrastructure in place to measure my productivity. A little known secret of this website is that it <a href="https://sandymaguire.me/dailystats/">tracks my computer time <em>to the minute.</em></a> Which means that I have historical productivity data for the last few years, and so looking at trends during the next two weeks requires no extra effort on my part.</p>
-<p>I’m writing this blog post mostly because I couldn’t sleep (related????) and figured I might as well do something productive instead of being uncomfortable in bed. I guess the takeaway here is to build lots of weird infrastructure just because it’s interesting. I never expected my daily tracking stuff to be <em>useful,</em> but having already done the legwork means that I’m now ready to carry out an <a href="https://sandymaguire.me/blog/time-compression/">exceptionally high value-of-information</a> experiment.</p>
-<p>Oh, and also a reminder that our bodies are just meat machines that respond to chemical inputs just like any other automation does. This is a thing that I always seem to forget, and am constantly amazed when I remember it. Maybe writing it down will help. Hopefully.</p>
-<p>You guys! We’re just <em>meat machines!</em> Maybe changing our personalities isn’t as easy as just drinking less coffee, but then again, <em>maybe it is.</em></p>
       ]]></content:encoded>
   </item>
 </channel>
