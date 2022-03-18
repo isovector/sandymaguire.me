@@ -1,11 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2022-01-09T17:50:00Z</updated>
+  <updated>2022-03-17T23:42:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>Excellence Orbits</title>
+      <id>blog/excellence-orbits/index.html</id>
+      <link href='blog/excellence-orbits/index.html'/>
+      <published>2022-03-17T23:42:00Z</published>
+      <updated>2022-03-17T23:42:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <p>Thailand is known as a place that has Figured Out Tourism. Not only is it a great place for a week holiday, it’s also a widely touted as a fantastic choice for first-time backpackers. These things are all true, and Thailand is in fact a blast. But it’s <em>mostly</em> a blast if you’re 18 and looking to get drunk and party. Which I am not.</p>
+<p>And so, for me, Thailand was this nice tropical place, full of first-time traveling teenagers looking to get drunk and party. Not that there’s anything wrong with that, but I’ve been there and done that, and don’t need to do more of it. Thus, when I ran off to Thailand after my <a href="/blog/burnout/">breakdown</a>, I was underwhelmed. I was looking for young, driven, idealists, who had identified Thailand as a great place to escape from societal norms while they worked on building something cool. What I got instead was a lot of nights at the bar with whomever I happened to meet, talking mainly about nothing. But there sure was a lot of partying!!!!</p>
+<p>A guy I had met once on a fateful night a few years back had mentioned he was heading to Koh Lanta, a nice quiet island to go hang out and do diving. It Sounded better than getting drunk and partying, so I hopped on a boat and arrived later that afternoon. I ended up staying for three months.</p>
+<p>Koh Lanta is an island nestled-in between three giant party spots in Thailand — Koh Phi Phi, Ao Nang, and Phuket. As a result, anyone in the area who wanted to get drunk and party ended up at one of those spots, and meant the only travelers on Koh Lanta were the ones who were looking for something else. By virtue of being in the orbit of big party spots, Koh Lanta filtered out the big party people.</p>
+<p>Does this idea generalize? Can we find the other Koh Lantas in spirit? What notable features should we be searching for?</p>
+<p>Andrew McKnight helped me come up with some other examples. Continuing on with the travel example, the Baltics are a lovely place, but aren’t known for their tourism. As a result, the only people who travel to the Baltics are the experienced backpackers; the ones who have been everywhere else, and who want to continue exploring. Travelers who successfully escape Southeast Asia’s gravity field are almost immediately filtered for being interesting and well-traveled.</p>
+<p>It’s a poorly-kept secret that at any tech conference, the “real conference” goes on in the hallway while most people are listening to scheduled talks. The people who aren’t going to talks are the ones who don’t want to go there, either because they aren’t interested, already know the material, or have something better to do. In any case, those are the people you should be hanging out with — they either have better taste than the mainstream, more knowledge than the mainstream, or have also identified that the hallway track is the place to be. People who escape the (focused) mass appeal of the talks are immediately filtered for being knowledgeable.</p>
+<p>Or consider wine bars. Wine bars are notoriously more classy than sports bars. One way this plays out is that they don’t have TVs on the wall, which means if you’re going to the wine bar, you’re not there to mindlessly drink. You’re probably out with some friends, deliberately going to an environment where you can interact with one another. People who escape the attractor basin of sports bars are immediately filtered for interpersonal interactions.</p>
+<p>Something like 99% of AI funding is going into deep learning. Though they don’t get much publicity, there are tons of other subfields. Things like robotics, expert systems, fuzzy logic, decision algorithms, search methods. What’s keeping people in those subfields, when they could easily switch to deep learning and make bank? Presumably they know something the rest of us don’t; it’s hard to believe that the people working on AI are all idiots. People who escape the attractor basin of money are immediately filtered for having some principles.</p>
+<p>What do all of these examples have in common? The defining characteristic seems to be that within some special interest group (vacationers, travelers, conference attendees, drinkers, researchers), there exist strong attractors in the field which capture most of the interest-mass. The worthwhile things we’ve identified exist in the same space, but are robust enough to avoid being captured by the bigger attractor.</p>
+<p>This makes a lot of sense. Someone loosely interested in a field will immediately discover its strongest attractors, and will likely be pulled in. That means the population around a strong attractor will be disproportionately newbies, weak affiliates, and “lifers” — people who were pulled in, and have never explored the space other than around the first attractor they found.</p>
+<p>Gravity makes an excellent metaphor here, thus the term “attractor.” Imagine you’re traveling through space and accidentally end up in our solar system. If you end up sticking around, it’s probably because you got caught in the sun’s gravity well; everything else is too small to have any likelihood of grabbing you. Circling around the sun is better than careening through space — at least it’s warm. But, all things considered, the sun is the least interesting thing you could be orbiting in the whole solar system. Left to chance, you will probably stay orbiting the sun for the rest of your life, being warm but lacking any deep sense of purpose or belonging.</p>
+<p>Now consider how much better it would be to be in Earth’s orbit. You would have to dodge the neverending launch of cube sats. You’d see all sorts of interesting developments happening on the surface. You’d probably be curious enough to put some brain cycles towards figuring out how get out of orbit and onto the planet. All of a sudden you’d have purpose, intrigue, direction. So many cool things — much better than just going around the sun every 30 years or whatever — but you’d be completely unaware of all of it if you just stayed around the big attractor in the system. The one that catches things by default.</p>
+<p>The more I think about this, the more it seems obviously true. A central tenet of mine for a long time was “<a href="/blog/comfort-zones/">the best things in life are outside your comfort zone</a>,” but reality seems even weirder. In fact, if all this stuff about attractors is true, the best things in life are outside our <strong>awareness entirely.</strong> But, this gives us an algorithm for finding them: look for proximate attractors that haven’t yet pulled in. That’s where the interesting stuff is going on.</p>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>What I Have Resolved To Do</title>
       <id>blog/2022-goals/index.html</id>
@@ -810,28 +836,6 @@ Press to Enable Viewing My Broken Resolutions
 <p>Getting the robot to suck has been a surprisingly challenge; did you know not all fans are made equal? I think I bought three or four before I found one that does the job, and then I immediately wasted it by designing a bad intake system. Turns out fans move a constant volume of air, not a constant mass, and so, contrary to first thought, you actually lose a lot of suction if you have internally small pipe cross-sections. The software for the roomba was pretty trivial, and he wanders around the house and doesn’t bump into things. It’s cute to watch. The goal was to have him finished for 2021, but a few of the last parts I need will arrive in January.</p>
 <p>All in all, it’s been a spectacular year. I’m feeling truly self-actualized; like the principled teenage-me, but with the confidence I was <em>sorely</em> lacking. I learned a lot of new skills, from security pen-testing, to algebra-driven design, to electronics and fan design, to the acoustics of what you want in a speaker. I wrote an excellent book, and nailed a few cool software projects. I’ve been sober for a year. I started dating the love of my life, and have set a lot of serious relationship milestone records with her.</p>
 <p>In the words of Moist — <em>I love my life; it’s getting better every day.</em></p>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>For Social Networks, Worse Is Better</title>
-      <id>blog/facebook-vs-linkedin/index.html</id>
-      <link href='blog/facebook-vs-linkedin/index.html'/>
-      <published>2020-11-26T11:20:00Z</published>
-      <updated>2020-11-26T11:20:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <p>Some time ago, I deleted Facebook. Maybe it was for New Years? Maybe not — it turns out to not have been a very memorable affair. At the time, I had set up an alternative messaging platform whose philosophy I agreed with, and gave my contact information to the few people I actively stayed in contact with. For the most part, it’s been a smooth transition.</p>
-<p>But something I’ve realized since then is that this strategy ignores the long tail of friendship. It doesn’t help me stay in touch with my coworkers from a few jobs back, nor from old classmates, nor my downstairs neighbor when I was 22. I mean, it’s not really a problem; these aren’t people I need to contact frequently. But I have a habit of reaching out to people whenever I think of them; it’s a nice way to reacquaint with cool people from the past.</p>
-<p>Facebook is really good at these sorts of interactions. But Facebook isn’t free. It comes with the twenty thousand of some of the world’s smartest engineers trying working full-time to maximize the amount of time you spend on the platform. Its clustering algorithms are good at aggressively polarizing people and turning everyone into an extremist. Messenger and events are really the only good parts of Facebook. And until recently, the fact that you could expect everyone to have an account; although there’s been a marked engagement exodus of people under 50.</p>
-<p>What Facebook is really good at is the network effect. But the rest of the platform is such an overwhelmingly bad experience that it spoils the broth. Somehow we’d all find ourselves scrolling through the newsfeed for the tenth time that day, seeing no new content, but <em>desperately hoping</em> for something new we could “like.”</p>
-<p>And besides. I don’t really need instant messaging with my old colleague who now lives in India. We probably are never awake at the same time. What I really need from Facebook is a convenient way of contacting him.</p>
-<p>Contrast all of this to LinkedIn. Maybe five years ago, LinkedIn was doing absolutely everything in its power to copy the Facebook recipe for success. They completely plagiarized the layout, although they were careful to make the blue of their design slightly more blue. After all, you need to differentiate yourself somehow! They stole the newsfeed, and added likes and reactions. But it never really worked. The content on LinkedIn doesn’t have the fake veneer of “important life events from people you care about.” It’s just virtue signaling about jobs and shit. I’ve <em>tried</em> to mindlessly scroll on LinkedIn, and I just don’t give a fuck.</p>
-<p>Here’s the catch. LinkedIn has the same network effects Facebook does. Everybody is on LinkedIn — probably more of the people in my real life than on Facebook — if for no other reason than people forget that they have a LinkedIn account and so they don’t delete it. Unless you’re actively hunting for a job, nobody checks LinkedIn more than once a month.</p>
-<p>By virtue of being so terrible, I think LinkedIn might actually be the perfect social network. We’re all on it, but we don’t engage with it. It’s a reliable place to find people I want to reconnect with. But by virtue of it being a “reconnect,” there is no need for immediacy in this. So I’ll send a message to someone on LinkedIn, and on average, they’ll reply in about two weeks. Which I’ll see two weeks after that. There is enough bandwidth here to negotiate a faster means of communication, but reconnecting with a school mate just doesn’t necessitate anything faster than pen pals.</p>
-<p>And the (bad) network effect here is self-reinforcing. Because people take so long to reply on LinkedIn, I have no incentive to check it often. Which makes me take a long time to reply, and a) keeps the mean response tie high, and therefore b) keeps LinkedIn a terrible platform. And because it’s a terrible platform in terms of experience, it’s actually an excellent social media network. It sounds paradoxical, but the thing I like about LinkedIn is how non-addictive it is by virtue of being shitty.</p>
-<p>Worse is better.</p>
         ]]>
       </content>
     </entry>
