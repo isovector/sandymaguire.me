@@ -136,8 +136,8 @@ Or as [Joe Kachmar][jkachmar] says:
 > neatly for them.
 
 There likely are problems out there that are *brilliance-constrained,* but I'd
-argue that there 100x more problems which are merely *effort-constrained.* This
-is good news, because while it's not clear how to become smarter, it's very
+argue that there are 100x more problems which are merely *effort-constrained.*
+This is good news, because while it's not clear how to become smarter, it's very
 doable to just throw more energy at something.
 
 Maybe the problems you consider to be exceptionally hard are just ones that
