@@ -2,35 +2,37 @@
 layout: post
 page_title: What I'm Doing Now
 title: What I'm Doing Now
-date: "April 12, 2022"
+date: "July 17, 2022"
 confidence: 1
 comments: false
 has_related: false
 ---
 
-Oops --- I forgot to update my "now" page for over two years! I put it into my
-calendar to remember to update weekly, but we'll see if that actually happens.
+Lots of exciting stuff is going on! Erin and I just got back to Canada after a
+long (but excellent) eleven weeks of traveling. The travel day was an intense 27
+hours, including a full-speed RUN through Toronto Pearson.
 
-The biggest update is that Erin and I are engaged! In a daring show of love, I
-moved all the furniture out of our apartment and screwed with the breaker box so
-we had to light candles. Then we wandered around a visual representation of our
-relationship, complete with chat logs, photos and journal entries. She said yes!
+But anyway. We're now in Vancouver, and, amazingly, also in possession of
+housing. We came home early from our trip to secure a place to live before Erin
+starts work in September, and the Vancouver housing market is a notoriously
+difficult thing to break into. The day we landed we were out at viewings, and,
+despite a few mishaps (being offered, and almost TAKING, a place we didn't apply
+for,) have worked everything out now.
 
-In other news, we're leaving Victoria in three short weeks, off to travel the
-world. And we've started selling things already, which is nice on the
-not-being-stressed front, but clearly premature. Everything went SO QUICKLY and
-now we don't have any furniture and the place is in shambles.
+The weekend is being spent at the Vancouver Folk Fest, a three day music
+festival of mostly Canadian artists. A lot of the music has been good (but
+rarely WOW), except that we saw the New Pornographers last night who are looking
+old but have still got the magic. The remainder of today will also be at the
+Folk Fest, after which I am ready and excited to GET TO WORK.
 
-Leaving Victoria is bittersweet. It hasn't been ALL THAT MUCH FUN during cov,
-but as of last week covid is over, and I just feel like I'm starting to find my
-people. I've put together more community in the last three weeks than in the
-two years before that, which is good for a lonely soul, but it's all just in
-time to leave.
+Getting to work means investing myself in the city. Now that covid is over and
+that I'm going to be here for a few years minimum, it's worth making friends,
+finding activities, and building community. This is the stuff I've been yearning
+to do for three years now, and having it in the back of my head has been the
+hardest part of traveling --- the aching to be settle somewhere and making the
+most of my time there.
 
-Part of that community has been building the local FP meetup. It's been a few
-months in the making, and we had a major breakthrough last night --- seven
-people, all of whom had fun and promised to come back! My peer pressuring skills
-have finally come in handy for more than getting people out to karaoke; turns
-out, they're useful for bullying cool people into building community with me.
+I've prepared a list of activities to take up, groups to join, and old friends
+to reach out to. Also some new skills to learn, and maybe a new search engine to
+build. It's going to be a busy, but delightful time.
 
-Sandy
