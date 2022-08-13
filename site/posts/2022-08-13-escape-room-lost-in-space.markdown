@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sandy Maguire Escapes the Room: Lost in Space
+title: "Sandy Maguire Escapes the Room: Lost in Space"
 date: 2022-08-13 14:18
 comments: true
 tags: escape-room, review, lost-in-space
