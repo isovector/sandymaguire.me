@@ -1,11 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2022-05-08T05:21:00Z</updated>
+  <updated>2022-08-13T14:18:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>Sandy Maguire Escapes the Room: Lost in Space</title>
+      <id>blog/escape-room-lost-in-space/index.html</id>
+      <link href='blog/escape-room-lost-in-space/index.html'/>
+      <published>2022-08-13T14:18:00Z</published>
+      <updated>2022-08-13T14:18:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <p>For my birthday, Erin and I headed to a local (literally across the street) escape-room in Vancouver called Exit Gastown, where we played <a href="https://e-exit.ca/escape/games/lost-in-space-ecape-room/">Lost in Space</a> with just the two of us.</p>
+<p>Online the difficulty is three stars, but I swear in person it was labeled as four. It’s always hard to get a sense of the actual difficulty between companies, so we went in expecting to escape. We didn’t. By the end of our 45 minutes, we were on the last clue — figure out a lot of math for teleporter coordinates — but nowhere near solving it. Alas.</p>
+<p>Erin and I are very new to the world of escape rooms. This was her second, and my fifth, and neither of us came away very impressed with the puzzles. The concept is pretty great, but the execution left a lot to be desired. Let me explain.</p>
+<p>LOST IN SPACE. You’re on a space ship that has crash-landed. The lights are off, so you need to get the power back on, and then find the teleporter room and teleport home. Or something. The crash-landing stuff was (very) briefly mentioned in the beginning dialog, and the only other clue to it is a window painted onto the wall that looks cracked. OK fine, except that this is a critical clue in teleporting away; you need not only decipher the coordinate system, but you also need to remember where you are in the solar system. And if you don’t remember from the initial briefing, well, good luck!</p>
+<p>A few other dings. I liked the idea that the lights are off, but you’re given only one flashlight, which means your group can’t parallelize any solving. You start the game with an “engineering” binder explaining all the subsystems, and roughly how to go about accomplishing them. One of the things to do is to get the ship’s power system on emergency batteries, and then eventually running again, but accomplishing neither of them turns the lights back on! They’re just off, for 45 minutes.</p>
+<p>The better design here is that the lights come on to 10-20% brightness after you get onto emergency power, and then turn on in full when the generators are running again. It’s an interesting gimmick that you need to get the power back on, but it needs to be rewarded, rather than being an arbitrary key to ungate progress.</p>
+<p>Half way through, you do get a second flashlight. But the batteries were (unintentionally) half-dead and died before the end of the game. I had to leave the room to get new ones, which ate a few minutes out of our failed escape.</p>
+<p>Most egregious, however, was the binder’s engineering list of “spare parts.” There are three spare parts listed: a set of jumper cables, a spare battery, and a wiring diagram. We found the jumper cables first, and five minutes later found the spare battery. So we were primed to think about the spare parts as literal objects that could be picked up. But then the wiring diagram doesn’t fit the pattern. It’s drawn onto the wall behind the puzzle, and is presented as the wiring itself.</p>
+<p>The puzzle is that you need to shine a light into four holes in the right order. We fucked around with it for a while, following the obvious route implied by the wiring on the wall. At each step, the thing beeps at you. But if you hold your light on a little too long (we’re talking half a second or so), it beeps again, and that is the system resetting itself. Our progress was hampered by this for probably ten minutes before we asked for a hint — we could neither find the wiring diagram, nor could we brute force the puzzle. But there was no wiring diagram, and our understanding of the thing was entirely correct, it’s just that the mechanism was incorrectly resetting our progress.</p>
+<p>Very annoying.</p>
+<p>I’ll also ding the room for having several unintentional typos in the manual; usually things like these are secret clues, or something to decipher. Nope, here they’re just someone not using spellcheck, which doesn’t inspire a great deal of confidence that the game designer is a person of care.</p>
+<p>There were some things I liked about this room though; the system to get the power back on was interesting. You need to find some jumper cables, put them into the right place, and then identify that the battery is broken, and find a better one that won’t short out the circuit. I like puzzles that require disparate pieces to be solved, rather than being one-key-one-lock deals.</p>
+<p>Despite my complaints, I liked that the lights were off at the beginning. It was thematically interesting, but overstayed its welcome.</p>
+<p>Overall though, I wasn’t very impressed with Lost in Space. Progress was entirely linear, and at no point did were we required to use information we’d learned somewhere else. Puzzles like these are frustrating: if you get stuck on something, you’re just stuck with no recourse. Oh well. This one is a nice case study in how to not structure an escape room.</p>
+<p>Two out of five stars.</p>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>The Cruise Facade</title>
       <id>blog/cruising-facade/index.html</id>
@@ -745,36 +772,6 @@
 <p>In the spirit of this, I’ve also installed <a href="https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en">StayFocusd</a> to my browser, and have marked the mind melter as a forbidden site. By default it gives me 10 minutes a day across all of my forbidden sites, which is helpful in that it will let me scan videos for information, but isn’t enough time to get hooked. Furthermore, I’ve used <a href="/blog/reclaim-your-attention/">uBlock</a> to delete all of the recommendations on the mind melting site, so that even if I slip up, it will be hard to <a href="https://mindingourway.com/failing-with-abandon/">fail with abandon</a>.</p>
 <p>Even though I’m pretty sure my new mindset around mind melting will be sufficient, it’s nice to have a backup plan.</p>
 <p>Finally, it’s nice to have something to substitute this behavior with. If I’m still feeling burned out and low energy, I’m going to just pick up my book instead. It will scratch a similar itch, but at least I’ll have to exert some attention, and create some room for daydreaming.</p>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>Enlightenment or: Music is to Language as Music is to Music</title>
-      <id>blog/enlightenment/index.html</id>
-      <link href='blog/enlightenment/index.html'/>
-      <published>2021-02-24T22:24:00Z</published>
-      <updated>2021-02-24T22:24:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <blockquote>
-<p>“The first principle is that you must not fool yourself – and you are the easiest person to fool.”</p>
-<p>–Richard Feynman</p>
-</blockquote>
-<p>I had a small taste of enlightenment today.</p>
-<p>When learning music, things like notes and scales and intervals are very often referred to as the “vocabulary” of music. The metaphor here has never been clear to me — I suppose they’re the boring things you need to learn and get good at before you can start expressing musical ideas? But I never took this metaphor <em>seriously.</em> Music might metaphorically be a “language,” but it’s clearly not <em>actually a language.</em></p>
-<p>Except that I kept hearing this phrase, over and over. The notes and scales and intervals are the vocabulary of music. At least five books I’ve read on the topic have said so.</p>
-<p>“That’s interesting,” I thought. All of these books must have gotten this language metaphor from the same place. It requires some suspension of disbelief, but it’s not impossible.</p>
-<p>So, that’s where things stood.</p>
-<p>This morning, I was tutoring a student in Haskell. We were working through some of the boring fundamentals — things that aren’t interesting in their own right, but absolutely need to be in place before you can even think about tackling big programming projects. It’s very, very, very easy to tell a programmer who has skipped the fundamentals; they can sort of run the problem-solving maze, but, lacking understanding of the basic building blocks, get stuck as soon as something is slightly out of place.</p>
-<p>Anyway, we were working on this student’s fundamentals. And I caught myself using the “language” metaphor. “These things aren’t very interesting, but they’re the vocabulary we’ll need to express elegant thoughts later on.” Except, this time, it clearly <em>wasn’t a metaphor.</em> Having the exotic experience of needing to rewind my understanding in order to explain it to a beginner made me very aware of just how high a cloud of abstractions I work at on a daily basis.</p>
-<p>In programming, the fundamentals <em>really are the vocabulary</em> of the language. And you need to wield them fluently in order to be able to focus on and express the vision. Every programming task requires writing case expressions, spinning up new types, and knowing exactly where to stick the monad. If this stuff doesn’t roll off your tongue, you can still sorta get work done, but it’s slow, and the vision never comes out quite right.</p>
-<p>All of a sudden, music (and my last few years’ inability to make progress musically) made sense. This “metaphor” that everyone had been trying tell me turned out to not be a “metaphor” at all. At least, not in the literary way where we say “the night was a blanket.” Music isn’t <em>poetically</em> a language; it’s <em>actually</em> one.</p>
-<p>The takeaway is very clear. I’ve been ignoring the fundamentals — things like knowledge of my bass’ fretboard, and practicing scales, and transposing things into different keys — because they felt boring and unrelated to the task I really wanted to be good at: playing music. But taking the language metaphor <em>seriously</em> and as <em>literally true,</em> everything makes sense. Yes, technique is boring and uninteresting, but it’s not unrelated to music; it’s the stuff that real musical prowess is gated behind.</p>
-<p>At my heart, I’m a truly lazy man. You can see it in the <a href="https://github.com/isovector/everygoodboydeservesfruit.com/blob/master/site/posts/2019-02-18-manifesto.markdown">time I decided to try to learn how to get good at music as fast as possible</a>. There’s something dangerous about being smart; it’s that you learn that you can often find one weird trick that will <a href="http://www.paulgraham.com/lesson.html">get you the grades without doing the work.</a> That might work well enough if you’re just trying to wave your arms around and distract humans. But for skills with extremely observable artifacts — things like computer programs and music — it’s extremely hard to bullshit.</p>
-<p>In my forever-quest to get good at music without doing the technique, I’ve been fooling myself. It’s not that technique is some side-channel skill that makes you better at music; as it it turns out, <em>technique is music</em> — or at least, it’s the stuff that music’s made of.</p>
-<p>I don’t know how it’s taken me 30 years to realize this, but better late than never, I suppose.</p>
-<p>Really makes you wonder what other metaphors you might not be taking seriously enough, doesn’t it?</p>
         ]]>
       </content>
     </entry>
