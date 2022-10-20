@@ -25,6 +25,17 @@ packages:
       sha256: d41d182c143676464cb1774f0b7777e870ddeaf8b6cd5fee6ff0114997a1f504
   original:
     hackage: datetime-0.3.1@sha256:7e275bd0ce7a2f66445bedfa0006abaf4d41af4c2204c3f8004c17eab5480e74,1534
+- completed:
+    name: sitepipe
+    version: 0.4.0.1
+    git: https://github.com/isovector/SitePipe.git
+    pantry-tree:
+      size: 3672
+      sha256: be4fdd446bfb17d6652818f189deddd0359ca1423ddc3c3b33a53aa4c13b7771
+    commit: fe006c59c3330cb2461bcc94fa3b3a1ace1b3617
+  original:
+    git: https://github.com/isovector/SitePipe.git
+    commit: fe006c59c3330cb2461bcc94fa3b3a1ace1b3617
 snapshots:
 - completed:
     size: 586286
