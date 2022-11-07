@@ -1,0 +1,94 @@
+Software's biggest strength and weakness is simultaneously the lack of
+gate-keeping; there are no professional bodies determining if a practitioner is
+sufficiently credentialed to do the work. This is unique in high-impact careers,
+and
+
+
+Software, like most fields, becomes much easier when you know what you're doing.
+However, the decentralized nature --- that is to say, being mostly unregulated
+and lacking credentialism --- of the software community makes it hard to know
+what you're doing. Most practitioners are self-taught, and don't know what they
+don't know. As someone who spends most of his time not knowing what he's doing
+(but striving to,) I frequently put huge amounts of energy into problems that
+are already solved, often for free. This is wasted energy that could be saved if
+I were better informed.
+
+In my eyes, this is a failing of the PL field at large. The research is easily
+30 years ahead of the practice.
+
+
+I am extremely interested in applying PL research to the everyday experience of
+industrial and hobbyist programmers. To the amazing extent that software has
+changed the world, there's a remarkable dearth of it put towards the experience
+of programming.
+
+
+I'm extremely interested in the problem of writing correct and elegant software,
+and in developing tools and methods that help towards that end. Of course,
+correctness can exist only in relation to a specification, but it is the
+vanishingly rare program that comes with a specification, let alone a proof of
+correctness.
+
+I am particularly interested in interactive tools for writing software. Users
+of Haskell often say they eventually gain the ability to run the typechecker in
+their head, which is a skill that can be extended to other programming
+languages. "Aha, this program would not typecheck in Haskell" they might think,
+"therefore there is probably a bug here." Practitioners of Rust say the same
+thing about the borrow-checker, in effect, developing a strong intuition for
+when concurrency issues are likely to arise. I have personally gotten the same
+gains out of learning Agda, and in developing the ability to specify
+correctness properties of my programs; a skill I can take anywhere. I am very
+interested in developing tools such as these for other programming concepts;
+after all, it's much easier to teach people how to program better than it is to
+fix every programming language. My goal is to give everyday programmers
+superpowers.
+
+Towards this goal, I have many specific interests. Effect systems, which can
+help enforce the Law of Demeter, ensuring software is correctly modularized and
+making it expensive to make convenient-but-unmaintainable short-term fixes. I'm
+the author of a popular monadic effect system in Haskell, but the formulation is
+too difficult to use in higher-order contexts, and completely falls apart when
+the usage is in invariant position. I see a great deal of potential with effect
+systems, but suspect the monadic approach is fundamentally flawed. I am
+interested in answering this question; does there exist a lightweight effect
+system that is useful in real-world applications, especially if added
+after-the-fact?
+
+Another of my research interests is automating tedious programming tasks. Many
+tasks are unambiguously stated in few words, but require thousands of keystrokes
+to implement. Property testing is a good example here; it's much easier to
+automate generating unit tests than it is to write them by hand. But the idea
+goes much further; why am I unable to state function `f` is a homomorphism with
+respect to `X` and have the computer elaborate the details? Why can't the
+computer write the boilerplate and ask me only about the pieces that require human
+insight? Interactive theorem provers do a lot of good work in this direction,
+but I'd like to find ways of bringing the benefits to people who aren't proving
+wonks (yet.)
+
+Along those lines, I'm extremely interested in improving the correctness of
+software, by improving testing coverage (ideally to the level of proofs) and
+decreasing testing burden, especially in the direction of deriving tests. Most
+software practitioners are still writing unit tests by hand, despite the
+prevalence of excellent property testing tools. Property tests improve the
+coverage to burden ratio of unit tests asymptotically. Proofs go the distance on
+coverage, but are not yet --- and I do not expect will ever be --- low burden.
+Instead, I imagine a world in which we have identified a series of good ideas in
+programming: monotonicity, idempotence, homomorphism, commutativity, eg., and
+have tooling to automatically test these properties. I have experimented with
+confluence checking of desirable properties of interfaces, and seen that often
+these properties are not simultaneously satisfiable --- much nicer to know
+before you write your program than after.
+
+Further to the ends of automating tedious programming tasks, I am also very
+interested in generic programming; that is, what are the smallest units I can
+write a program at and compose together to get the behavior I want? Having
+better tools (mental or algorithmic) for decomposing problems in this way is an
+area I see huge gains in and significant low hanging fruit. Datatype
+descriptions are a powerful means of doing generic programming over types, but
+I'd like to find a way to turn this around and factor an algorithm into generic
+parts, which could then be composed differently to create an infinite family of
+equivalent algorithms with different computational properties. I can see
+significant gains here in automation (general tools for automatically optimizing
+a brute-force function), as well as in demystifying the process of designing
+algorithms.
+
