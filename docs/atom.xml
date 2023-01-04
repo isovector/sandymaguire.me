@@ -1,11 +1,80 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:g='http://base.google.com/ns/1.0'>
   <title>We Can Solve This</title>
-  <updated>2022-08-31T19:24:00Z</updated>
+  <updated>2023-01-04T00:32:00Z</updated>
   <author><name>Sandy Maguire</name></author>
   <id>http://sandymaguire.me</id>
   <link rel='self' href='atom.xml'/>
 
+    <entry>
+      <title>2022 Recap</title>
+      <id>blog/2022-recap/index.html</id>
+      <link href='blog/2022-recap/index.html'/>
+      <published>2023-01-04T00:32:00Z</published>
+      <updated>2023-01-04T00:32:00Z</updated>
+
+      <content type="html">
+        <![CDATA[
+        <p>2022 is coming to a close, which means it’s time for my annual look back at the year, telling the stories and coming to realize that I didn’t accomplish many of the things I said I was going to. But that’s OK; hope springs eternal. Maybe next year! More on that in a bit.</p>
+<p>We rung in the new year doing fondue with a small group of friends. The vibe was magical and really felt like the GLOBAL PANDEMIC was over. We put down the quiet evening to being old, not to being unable to go hard. It was lovely. The morning after we started a new new years tradition, nursing our hangovers with steam-it-yourself dim sum. Strongly recommended.</p>
+<p>A week later, Erin and I headed off to Mexico. I don’t exactly remember why; maybe it was just to get out of the Canadian winter or something cliche. We went to Sayulita — which is a bit of a meme town in my family — and spent the week eating tacos, hanging out on the beach, and surfing. Well at least, that was the plan. Instead, we both got aggressive norovirus infections and the trip was mostly spent in the bathroom. But we also heard the most amazing family fight across the open air (“MOM! YOU BIT ME IN THE NECK. WHAT THE HELL?”). It was nice to escape Canada, and also nice to come back, which is about the best you can hope for in a trip.</p>
+<p>While in Mexico, I set off on my “review 52 papers” project, and spent like ten hours of the vacation working through some gnarly math. It was great, and I started learning the Agda programming language in a serious manner. This turned into wanting to write it myself, which turned into needing to build all my own tools, which turned into <code>cornelis</code> — my most successful open-source project to date. That was cool, and I got pretty good at Agda by the end of the year. More on that later.</p>
+<p>I had been secretly planning to create a podcast for the last few months, and this project finally got rolling in January. I researched and interviewed people in my little programming community, seeding the conversation with “what are you better at than anyone else here?” and seeing where that lead to. I did four episodes, and felt like I was really hitting my stride by the end. But the process was more energy than I wanted to put in, and quickly burned out on the idea. The interviewing and hanging out with people was fun, but the preparation and editing wasn’t. Eventually I hired an old friend as an editor, which dramatically improved the situation, but it wasn’t rewarding enough to pursue further.</p>
+<p>As part of my yearly goal to get fit, Erin convinced me I should do <a href="http://www.c25k.com/">Couch to 5k</a> — a 9 week running program to turn a non-runner into someone who runs 5ks. In my case, it was only a single 5k, because I did it with bad shoes and hurt my knees or something. I never ended up loving running, but it was nice to have done and kind of fun to get sweaty.</p>
+<p>Erin on the other hand, decided to run a 10k race, so we headed to Vancouver for the weekend and she crushed it, placing as the third fastest woman in <em>the entire city.</em> My job was to be there and cheer, which I did with great relish and talent.</p>
+<p>All this time, I had secretly been preparing a secret: engagement! But it turns out it’s hard to charter a boat in February in Canada without the weather destroying your plans while your partner is in law school with a very busy schedule AND keep the whole thing a secret. It didn’t work, so instead I opted to take her out to a nice place for a picnic. After a nice picnic, we jointly decided it wasn’t a sufficiently good engagement, so I gracefully went back to the drawing board, and bided my time.</p>
+<p>Instead, I came up with a much better engagement, but it required doing ARTS AND CRAFTS. You wouldn’t expect it could take multiple professional printing houses several weeks and several attempts to print 120 sheets of paper, but there you have it. You can pay people to do a job, but you can’t pay them to care. The flowers needed to be delayed <em>four times</em> because they were the only people who seemed capable of doing the thing they advertise doing professionally. I ended up doing my ARTS AND CRAFTS at Staples, by hand, in a FURY of anger and speed, because they somehow lost my job and asked for my help in getting everything cut. Still charged me full price though :)</p>
+<p>Nevertheless, it was worth it. Erin loved the ARTS AND CRAFTS and we jointly agreed it was a much better engagement than the previous attempt, because this time it caught! I had become a betrothed man!</p>
+<p>Our time in Victoria was numbered. Erin was only there for law school, which was about to finish, and I was only there for Erin. During the last few months, I had put together a local functional programming community out of nothing but elbow grease and bullying people to come. It was really paying off, with nearly ten excited members coming regularly. BUT THEN WE LEFT TOWN and I think it imploded. Oh well. Good practice for next time.</p>
+<p>On my last day or so, my friend Mike The Crane Operator took me up the famous crane. I don’t have much to say about this other than it was one of the highlights of the year (but not as much of a highlight as getting engaged, he said wisely.) Thanks Mike The Crane Operator!</p>
+<p>Then it was time to set sail on adventure. Both literally and figuratively, but only if you count the literally part a few days later. Erin and I flew to New York as a staging ground before our Grand Tour across Europe. But first we had to get to New York, which involved going through Calgary. We were flying at the end of the month, and while Erin got her boarding card no problem, mine continued to say “unable to issue boarding card, please speak to an agent.” You see, I’m cursed when it comes to technology and bureaucracy and <em>especially</em> technology in the service of bureacracy.</p>
+<p>The issue was that I was assigned the dreaded SSSS status, which is short for something along the lines of “you’re going to have a really bad time.” Quad-S status means your suitcase gets unpacked at every security checkpoint and everything gets scanned for bombs. You have to take off your shoes and your pants and submit to cavity searches while they go through your email accounts. And worse, this is not just when you go through security; it’s every time you go through security, which they make sure happens along every leg of the trip. Just in case the last guys missed something, I guess.</p>
+<p>Thankfully I do all my seditious activities somewhere other than my cavities, so despite the annoyances, we made it to NYNY just fine. We were met there by my old friend Ariel, whom we’d given permission to book us fun things without asking first. He took us to a great comedy show and an… “alternative” hipster music thing, all the time while speeding around town at speeds that shouldn’t have been possible on legs the size of his.</p>
+<p>And then it was time for the cruise ship. And Oh My God. We were clearly not the target audience for the thing. It was twelve long days of crossing the Atlantic, without booze or anything fun to do or anyone interesting to meet. But I have <a href="/blog/cruising-facade/">written about this before.</a></p>
+<p>The cruise ship dropped us off roughly in London, where we stretched our legs, appreciated how young people could be, spent some quality time with Erin’s parents, got yelled at by an Italian man named Luigi, and went to a great play set in — and physically located in — a court room.</p>
+<p>We wanted to take the train to France but it’s wildly expensive so instead we took a Ryanair flight for £6 headed to Tours. We left for the airport with plenty of time, but the bus didn’t come, and then we had to make a MAD AIRPORT DASH. Except I didn’t take out my liquids so my bag went for secondary screening by people who gave no fucks about efficiency. Erin went ahead to try and hold the plane, but she texted me saying “sweet lord it’s a hundred BILLION miles so you should probably run.” My bags finally cleared security and I started running, and she was right because it was like a five minute run all the way through the winding duty-free store.</p>
+<p>Of course, we made it to the gate long before boarding started.</p>
+<p>We arrived in Tours and thought it would be nice to walk from the airport into town. As soon as we got outside, it was scorching, like 30C+! Realizing we were now in the Mediterranean, I changed into my shorts behind a gas station, and left the jeans and coat behind, ready for this new tropical paradise.</p>
+<p>Tours was pretty OK. We got Ethiopian food and Erin found a nice riverside festival with a great-but-not-at-all-tight jazz band. We settled in with some beers and had a magical night, but realized Tours was not for us. So we booked a train ride down to Bordeaux, and bought charcuterie for the trip! The French train system is marvelous: smooth, clean, quiet, timely. Eventually we got into the charcuterie and all of the French people gave us surreptitious glances, as if we were doing something egregious. We were never sure if it was our choice in charcuterie, our brazen technique, or maybe that you’re just not supposed to eat charcuterie on a train. It will forever remain a mystery.</p>
+<p>Bordeaux is much more happening than Tours, so we decided to go on a tour of Bordeaux. Unfortunately, most of France is neither the Mediterranean nor is it tropical, and I spent the day regretting having thrown away all of my warm clothing behind a gas station. I was rocking a tank top and sandals and my god was it cold. To warm up after the tour, we ducked into a small cafe and I had an embarrassing experience trying to order food in French. Eventually we got it settled, and set up for some laptop time upstairs. A random stranger in the cafe recognized my Haskell sticker, and then recognized me! Tomas turned out to be super cool, and we set up some time the next day to nerd out without our partners. The next day was also cool, so Tomas and Kayleigh invited me and Erin to a cheese restaurant for dinner, which was ALSO cool so then they invited us to come on a roadtrip to the beach with them. One marvelous and extremely sunburned day later, we returned, searched for after-sun, and retired, patting ourselves on the back for a job well done.</p>
+<p>Erin and I didn’t love France, and we didn’t know where to go, so we hopped on the cheapest Ryanair flight we could find, which took us to Agadir, Morocco. We had talked about finding a surf/yoga retreat in Morocco and so this seemed like a good move. We crossed the Moroccan border, and learned the customs agent also didn’t love France. He was very vocal about it. One chatty cab drive later, we found ourselves in the middle of nowhere Tamaraght, Morocco, across the street from a carpet shop and a cafe owned by a seven-year old. The place is a surf town, but for some stupid reason, we didn’t lean in, instead, doing… well, I’m not quite sure.</p>
+<p>The coolest thing about Tamaraght is that it’s a dry town: there is no alcohol to be found. I have a complicated relationship with alcohol, and it was really cool to find a place that just didn’t have any. Alcohol is so ubiquitous in Canada that I’d never imagined you could just <em>not.</em> So instead everyone just smoked a lot of hash. Humans gonna be humans I guess.</p>
+<p>Erin wanted to go on a tour in the desert, and we figured we’d both have more fun if I didn’t come since I’d be a grumpy Gertrude and Erin would worry about whether or not I was having fun. Avoiding it dodged both problems, so while she and the ENTIRE HOSTEL all went for a week-long trip to the desert, I instead ate Moroccan tacos and headed for the next surf-town over, Taghazout. Taghazout was cool; I stayed at a coworking space and met a bunch of cool people, including Josh who had spent the last evening waterboarding anyone who was interested (and it sounds to have been quite popular!) Finding some other digital nomads who were traveling but not there to party was good for the soul, and helped me realize just how scroogey I was being for the whole trip.</p>
+<p>I reunited with my One True Love (Erin) in Marrakesh, where we were planning to meet up, but then randomly stumbled across one another in the medina. What a sight for sore eyes! The trip that morning to the big city had been something; I took a shared taxi to the bus station with some other strangers I met on the street, ended up paying about $1 for it, and then took a six hour bus ride sitting next to a woman who spent the entire trip sending a <em>lot</em> of voice messages. I was annoyed about it until I remembered that 30% of women in Morocco are illiterate, which helped me empathize. This woman just wanted to talk to her friends during the long bus ride.</p>
+<p>Erin had picked up some stomach bug while out in the desert, and so I did a lot of Marrakesh on my own, involving getting abducted by a Swiss woman who tricked me into thinking she spoke English, and then used the <em>driving</em> directions for us to <em>walk</em> around the Medina. I was hoping for a quick beer downstairs, and instead got taken around ugly parts of the city for an hour before I saw an exit to escape. Yeesh. Erin and I then escaped the medina and went for McDonalds, which was exactly what we needed. Moroccan food just isn’t “all that.”</p>
+<p>We were killing time until I had to be in Zurich for a Haskell conference, and that time was now upon us. So we Ryanaired our way up to Geneva, and had a magical afternoon lying in the grass, exploring green spaces, and listening to an amazing piano player practicing in the park. I didn’t know CERN was in Geneva, and so I didn’t go, and it’s one of my biggest regrets of the year. Alas. Also there was a STRANGE MAN who was staying in our hostel room. He kept coming into the room, and then turning right back around. Odd. Peculiar. Who is this mystery man?</p>
+<p>Geneva gave way to Zurich, which enamored us both. There’s such a stark contrast between Zurich and Marrakesh. In Switzerland, there are huge, free, publicly-available drinking fountains everywhere. The cities are gorgeous and green. The people are quiet and respectful. Contrast this to dusty Morocco where you will die if you are not constantly drinking bottled water while you’re being harassed by merchants (and lusty men, if you’re Erin!)</p>
+<p>We had planned to stay in a hostel in Zurich, but something went wrong last minute, and I decided that my company could afford putting us up in a nice hotel for the week. Exceptionally good idea on my part. I spent the weekend at the hackathon, and brought Erin out a few times to meet some of the nerds. She was pleasantly — and thankfully — impressed after me building up the general character of your average Haskell programmer for years.</p>
+<p>While in Zurich, I had the pleasure of reacquainting with Farhad Mehta, one of the organizers of Zurihac, and a genuinely delightful human. He suggested we spend a week doing a study-group, and I jumped on the opportunity. We spent a week doing Agda and Isabelle, punctuated by my living arrangement’s shower grading me on my water usage, many noodle breaks, and a fondue vending machine. Only in Switzerland!</p>
+<p>Zurich lead to Vienna where I caught up with my old friend Anna and bought Erin some cursed new headphones (though I didn’t know they were cursed when I bought them.) Aching for some culture, I headed off to a local jazz bar where I was treated to an <em>extremely intimate</em> concert of some bass player doing a set for his birthday with musicians in his life. It was a nice idea but everyone else there was in the show, and you can really only listen to so much jazz lead by the upright bass.</p>
+<p>After a brief stint, I ended up in Budapest, intending to reunite with Erin, but she was trapped in Barcelona. So instead I went out on a pubcrawl with my roommate, and somehow got adopted by 15 Indians, none of whom knew one another. The pubcrawl was a bust, but my new friends were delightful.</p>
+<p>Erin arrived at 5 in the morning after a CHAOTIC AIRPORT EXPERIENCE, so we took it easy for a few days. The week culminated in Budapest’s Turkish Baths, which are like a western swimming pool except literally a million times better. You can pick your desired temperature water in two-degree increments, and when you’re tired of being in the water, you can pick a sauna by how hot and how salty you want it to be. Truly a marvel of the modern world, even though nerds will tell me this stuff is ancient.</p>
+<p>We took a delightful train ride down to Croatia, which I’m sure is a lovely place, but for me the charm was primarily the old man who complemented my new Birkenstocks (“not just a shoe for old men!” they told me) and the discovery that white noise helps adults sleep too. However, Split paled in comparison to Dubrovnik, where we accidentally found ourselves on a nude beach with THE LADS, met an Olympic swimmer, and almost died in the sun due to missing our bus home.</p>
+<p>This whole time we had been meandering our way down to Greece, where Erin and I had signed up for a week-long sailing lesson on the Aegean sea. We finally got to Athens, where the airport experience was amazing, and where our hostel room burst open five minutes after we arrived at 3am when two keen and amorous youths made their way in, oblivious to our presence. After the whole thing was sorted, we did all the stuff you’re supposed to do in Athens like looking at old stuff and looking at other old stuff.</p>
+<p>You’d think after the whole Greek economic thing that there would be lots of enterprising souls working the markets, but we found a disappointing lack of pandering Greek mythological merchandise. What a missed opportunity. We did, however, find a great t-shirt of Zeus as a hipster.</p>
+<p>Other highlights of Greece: going ring shopping, getting stealth-drawn by my roommate, and visiting a “political party” where we hung from a ring on the ceiling and took turns showing off our best moves on the stripper pole.</p>
+<p>Finally it was time to go SAILING. We took a (rather stressful, due to me getting us lost) ferry to Aegina where we met our crew for the week. Skipper John, salty Sven, and Douwe. The crew had evidently been assembled for Erin and my pleasure; Sven and Douwe were just there to get some paperwork stamped: they already knew perfectly well how to sail. We spent the week sailing around at INSANE SPEEDS which felt very fast indeed but instead were along the lines of 15km/h. On one particularly memorable night, we were night sailing without any wind. It was a gorgeous, starry evening, with nothing to do and nowhere to be. Thankfully our evening was rescued by Sven, who decided what the evening <em>really</em> needed was a loud, driving Eurotrace soundtrack.</p>
+<p>While Douwe and Sven were nothing to write home about, meeting Skipper John was perhaps the highlight of my year. Skipper John has spent his entire life sailing around, a good chunk of it on the Mediterranean, and he has the mental health that comes hand-in-hand with a life lived simply but well. I hadn’t realized how atrocious my mental health had gotten during the pandemic. When I compared my mental well-being to other people, it felt like I was doing OK, but I wasn’t. I’m not much of a fatalist, but it seemed like the universe was conspiring to send me to spend a week with Skipper John. His unbridled enthusiasm for life was a stark contrast to my own, and I’m happy to say my life has changed for the better since having met him. Thank you, Skipper John, wherever you might be. Happy days; happy days.</p>
+<p>Sailing was the end of our trip in Europe, and happy we’d left and even more happy to be leaving, Erin and I boarded a flight back to Canada. We found a temporary place to live while we house hunted. The place was a gorgeous, 28th floor apartment right on the north end of Vancouver’s downtown. The only problem was that it seemed like a huge scam. We were supposed to rent the place from Sasha, except that she didn’t own the place, her parents did, and she was renting it out while they were on vacation. It seemed too good to be true, which, as we learned, was what they thought about us too! “We just want to make sure you’re not the sort of people who are going to film a porno in our house” they commented when we met in person. Thankfully, both sides were delighted to learn the other consisted of good people, and thus we landed a swanky pad that would make any place we could actually afford under a lease pale in comparison.</p>
+<p>There was a whirlwind trip through Toronto where we almost missed our flight, but ran through the airport and instead made it safely, crashing on Andrew’s couch when we arrived in Vancouver. Thanks mate!</p>
+<p>Figuring we hadn’t had enough adventure as of late, Erin and I got tickets for the Vancouver Folk Fest which was pretty cool in that I got to see the New Pornographers. But really, I was exhausted and jet-lagged and just wanted to not go anywhere or do anything for a few weeks. So instead we took the bus up to Penticton to see our parents!!</p>
+<p>Come late September, I realized my ongoing contract for 18 project days had begun the previous October, and it seemed embarrassing to let it linger for a whole year. So I got my act together and behaved like a proper business man, and finished the contract. Figuring I had completely blown my chance at getting hired back, I sent a professional-sounding “thank you” letter to the company. Oddly enough, they liked me enough to send back a “would you consider re-signing?” I checked to make sure they hadn’t said <em>resigning,</em> but no, everything was good!</p>
+<p>Being back in Vancouver was really, <em>really</em> good. Erin and I found a place no problem, and carried a yellow couch across the city to furnish it. I had been hankering for a place to settle into since before the UNCERTAIN TIMES, and finally it felt like I was in a place I could do that. So instead I took the bus up to Penticton to see my dad <em>again!!</em></p>
+<p>Which was really nice, actually. We got some quality, dedicated father/son bonding time in for the first time in over a decade, when we’d driven across Canada together. As I’ve gotten older and wiser, I’ve realized that my parents are too, and therefore it’s both important and relatively-urgent to prioritize seeing them. This wouldn’t be my last time seeing them this year!</p>
+<p>Back in Vancouver, I was called up by EF, the startup accelerator firm which had caused me no small amount of stress the year before. But this time they wanted me to come to a nice dinner on their dime, and meet other cool people. I went, with trepidation, but had a surprisingly nice time. In fact, I met one <em>particularly</em> cool people, Lazar, with whom I’ve stayed in touch and who has grown to be a good friend.</p>
+<p>The EF dinner reminded me that I wanted to go try to be a startup man. But EF told me they were full up, and that I should apply next round instead. One morning however, I found myself with spare energy, so I decided to apply. An hour later I was on the phone with EF, who were all of a sudden VERY KEEN to get me to move to Toronto in three days’ time. Which, if you remember from last year, seems to be their M.O. Erin and I had discussed the possibility, and she was OK with it if I was. Seeing as I was just getting settled into Vancouver, moving to Toronto seemed like it was right in the cards. EF forced me to buy a flight to YYZ before they’d send me the contract (WTF?). Thankfully my lawyer didn’t like the contract, and EF was unwilling to budge, so I didn’t end up moving to Toronto. Instead, EF went bankrupt a month later.</p>
+<p>My neighborhood in Vancouver has a parkour gym just down the street. As a boy, I used to while away the time in Terrace BC by getting drunk and climbing buildings. Parkour seemed like the adult version of that very hobby, so I signed up for a trial month. It’s been life altering. I’ve never had fun doing exercise before, but parkour has changed that dramatically. All of a sudden I found myself going three, four times a week, just because it was fun to jump on/over things and to hang out with other people who also wanted to jump on/over things.</p>
+<p>At some point during these months, I thought that I might have ADHD. I asked a doctor friend who said he “knew a sketchy guy” I could talk to about that. The sketchy guy called me in THAT EVENING for an EMERGENCY CONSULTATION, where I was asked all sorts of leading questions. When it was all over, in a left-field move that nobody could have predicted, the sketchy guy diagnosed me as having ADHD! It’s a bit of a sham because I was hoping to actually talk to someone about it, but instead managed to just get a prescription. That being said, the meds do seem to help, so maybe the sketchy guy isn’t as bad as he sounds. I have much more to say on this topic, but will put it into blog format some other time.</p>
+<p>The year steadily marched on, unlike Erin, who steadily RAN. A marathon, that is. In the cold rain and snow, on the water, with a bone-chilling wind under <em>dry</em> circumstances, which it most certainly was not. I was the designated helper! My job was to drive around and make sure she had everything she needed. It was all going well until my phone died and I got lost and spent an hour driving around and very nearly missed her crossing the finish line. Thankfully I didn’t, and we are still happily engaged.</p>
+<p>In November, I decided to do NaNoWriMo again, this time writing a math textbook. I succeeded with flying colors, and now have a (very) rough manuscript for another book. I plan to get it cleaned up in the next few months, so keep an attentive ear out for Sandy Maguire’s next flying-off-the-shelf best seller.</p>
+<p>And that was pretty much the whole year, except for the Christmas fiasco where our flights got cancelled due to SNOW, and then our moms got sad, so we made lots of very-last-minute plans to not merely double-down on Christmas, but to <em>triple-down!</em> Like I said, I’m learning that family is much more important than I realized, and so I’m trying to do my best on that front. The drive up was terrifyingly low in visibility, and the resulting visit with an ominous prophecy, but otherwise, a spectacular cap off to the year.</p>
+<p>One last thing! I bought a smart phone this year, and decided I wanted to take a daily selfie. That didn’t end up happening, but I did manage to take 225 photos. Now you can watch me age much faster than I actually age!</p>
+<iframe width="485" height="863" src="https://www.youtube.com/embed/Y6rc4i4ZD_I" title="Sandy Takes a Selfie for a Year" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Thanks for a lovely year, 2022. See you all next time around.</p>
+        ]]>
+      </content>
+    </entry>
     <entry>
       <title>Exploring the Small Web</title>
       <id>blog/exploring-the-small-web/index.html</id>
@@ -328,433 +397,6 @@
 <p>Given these reasons, it is unconscionable to protect the taxi cartel, and corruption is the only logical explanation why the Passenger Transportation Board would do so.</p>
 <p>I urge you to reconsider your decision to ban Uber from operating in BC. It is unconscionable and serves only to protect a parasitic drain on society.</p>
 <p>Yours, Sandy Maguire</p>
-        ]]>
-      </content>
-    </entry>
-    <entry>
-      <title>Notes from My Copy of the Art of Doing Science and Engineering</title>
-      <id>blog/hamming/index.html</id>
-      <link href='blog/hamming/index.html'/>
-      <published>2021-11-17T01:02:00Z</published>
-      <updated>2021-11-17T01:02:00Z</updated>
-
-      <content type="html">
-        <![CDATA[
-        <p>Sometime during the summer I had a religious experience. My girlfriend and I decided that we needed one day off technology and work every week, and we jokingly called it the sabbath.</p>
-<p>On the first sabbath, I didn’t know what to do with myself, so I started googling for “what to do on the sabbath?”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> I went through several listicles, with some good ideas and lots of bad ones. But one thing came up again and again: <em>study the torah.</em></p>
-<p>What the hell did that mean? What does it mean to <em>study</em> a book that isn’t about math? I called Grace, my only friend who is a practicing Jew. I called her on the sabbath, which again I think was OK because the suggestions were big on catching up with old friends, and there was both a pandemic and a gulf between us.</p>
-<p>Grace told me that studying the torah is all about getting together with a friend, reading the book to oneself (but in the presence of your friend who is reading the same part) and then interrupting your friend whenever an idea spurred by the text crosses your mind.</p>
-<p>Sounds <em>cool.</em> So I called up my friend Andrew, who was the only person I could think of who’d be interested in such an arrangement. He was down, so we met up later that day at the cafe.</p>
-<p>Since neither Andrew nor I were religious, we decided to pick a book more amenable to us, and we ended up on Richard Hamming’s <a href="https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering">The Art of Doing Science and Engineering</a>. Hamming’s thing was <a href="https://www.lesswrong.com/posts/P5k3PGzebd5yYrYqd/the-hamming-question">asking people why they’re not working on the most important problems in their fields</a> — which probably didn’t make him very popular — but it seems like the sort of character trait that would lead to writing a book worth studying.</p>
-<p>The result was pretty fucking fantastic. Both Andrew and I agreed we engaged with the book at a much deeper level than we would have alone, reading silently. And this makes sense — our first session was 3 hours long and we only made it through 20 pages.</p>
-<p>I would <em>strongly</em> recommend this method of engaging with important texts. It’s fantastic.</p>
-<p>Unfortunately, Andrew left town soon after, and I was left to fend for myself. I couldn’t find anyone else who wanted to “study the torah” with me, so I decided I would engage with the book by writing down quotes that I liked, and including my commentary on it. The remainder of this post is made of up such.</p>
-<hr />
-<blockquote>
-<p>p65. This is typical of many citations. It is first necessary to prove beyond any doubt the new thing, device, method, or whatever it is, can cope with heroic tasks before it can get into the system to do the more route, and in the long run, more useful tasks.</p>
-</blockquote>
-<p>Hamming is talking about computers here — the hardest problems he had to solve were on the worst computers, because they were the ones that couldn’t be solved by any other means.</p>
-<p>I see elements of this in all of my open source projects. Consider <a href="https://haskellwingman.dev/">Wingman</a>, which is a general purpose tool for helping to writing code. But that’s a boring use case that nobody will get excited about. So instead, most of its features are to <em>divide what you want and write that code for you.</em> Like, way harder. There’s all of this potential to solve real, everyday problems for people, but nobody wants that because it’s too mundane.</p>
-<p>This is food for thought in future projects; I keep forgetting about it and needing to pivot my project mid-way through. But what if it were in the game plan from the start?</p>
-<hr />
-<blockquote>
-<p>p66. Any innovation is always against such a barrier, so do not get discouraged when you find your new idea is stoutly, and perhaps foolishly, resisted. By realizing the magnitude of the actual task you can then decide if it is worth your efforts to continue, or if you should go do something else you can accomplish and not fritter away your efforts needlessly against the forces of inertia and stupidity.</p>
-</blockquote>
-<p>Man, I feel like all of my ideas are stoutly and foolishly resisted. Especially when I was working on Polysemy, and everyone complained on every one of my progress reports saying it was a stupid project that was doomed to failure. But mainly I like this quote because “the forces of inertia and stupidity” is a great mental handle.</p>
-<hr />
-<blockquote>
-<p>p73. As you go on your careers you should examine the applications which succeed and those which fail; try to learn how to distinguish between them; try to understand the situations which produce successes and those which almost guarantee failure.</p>
-</blockquote>
-<p>Good advice that I’d like to remember. A big emphasis of the book is to make time to study one’s life, techniques and likely future. To put some time towards that, my attempts that usually succeed are things I can tackle by myself — I don’t usually play well with others. The things I usually <em>fail</em> on are projects in which I need to overcome the forces of inertia and stupidity; mostly because I just don’t have the patience for dealing with them.</p>
-<p>See, that’s a fantastic thing to point out. I knew that, but I didn’t <em>know</em> it. And it’s timely — some friends and I are currently planning out a project that is both a team effort and against the forces of inertia and stupidity. Not a good setup, it sounds like. That’s not to say I don’t think it’s worth doing, but maybe that I should only sign up if we have a plan for how someone else can be in charge of the public relations.</p>
-<hr />
-<blockquote>
-<p>p116. Generally speaking, the best design is pushing one or more of the parameters to their extreme—obviously you are on the surface of the feasible region of design!</p>
-</blockquote>
-<p>A great technique for engineering systems — jump straight to the pareto frontier and hill-climb from there.</p>
-<hr />
-<blockquote>
-<p>p149. I had thus established the habit, after something of great or small importance was discovered, of going back and trying to trace the steps by which it apparently happened.</p>
-</blockquote>
-<p>Another reminder to myself that I should make some time for this. As a matter of fact, I’ll put it on my calendar right now.</p>
-<hr />
-<blockquote>
-<p>p150. Notice first this essential step happened only because there was a great deal of emotional stress on me at the moment, and this is characteristic of most great discoveries. Working calmly will let you elaborate and extend things, but the breakthroughs generally come only after great frustration and emotional involvement. The calm, cool, uninvolved researcher seldom makes really great new steps.</p>
-</blockquote>
-<p>This happened to me while working on Polysemy. It was spurred on by an avoidable disaster at work, that I then staked my reputation on, and failed to pull off. My ego was bruised so I decided I was going to finish the project, even though I quit the job. And then people told me I was stupid every time I made progress. It was an <em>extremely</em> powerful motivator — though it also lead to some awful burnout.</p>
-<p>I wonder if this can be harnessed more generally. Can I deliberately set up an environment that is hostile? Does it work if it’s artificial? Something to play with.</p>
-<hr />
-<blockquote>
-<p>p152. Riding through north Jersey in the early morning is not a great sight.</p>
-</blockquote>
-<p>Made me laugh.</p>
-<hr />
-<blockquote>
-<p>p153. It pays to know more than just what is needed at the moment!</p>
-</blockquote>
-<p>The context: Hamming knew a bunch of theory in an unrelated field, and it helped me spot a new technique when a colleague asked for his help. This is something I strongly believe in; people are always asking “why is this useful?” and I never understand <em>why.</em> It’s useful because everything in the universe is coherent — even if it doesn’t directly help solve your problem today, learning cool things always pays off. Even if it’s just in building your appreciation of how coherent the universe really is.</p>
-<hr />
-<blockquote>
-<p>p164. From the assumed continuity of the information measure, it follows the log is the only continuous solution to the functional equation from earlier.</p>
-</blockquote>
-<p>This is not how I think about math. Maybe it’s how I think about programming? But there is a thought process here that I don’t understand, and I would like to. Identifying thought processes that work for smart people, that you <em>don’t yet understand</em> is a very powerful tool: because these things are easily learned. The details, maybe less so, but the high-level approach is always easy to pin down. Future work for future Sandy.</p>
-<hr />
-<blockquote>
-<p>p164. Put into other words, if you provide a capacity for some level of error correction, then for efficiency you must use this ability most of the time or else you are wasting capacity, and this implies a high number of errors corrected in each message sent.</p>
-</blockquote>
-<p>What an interesting way of thinking about system reliability. Hamming is saying the best messaging channel is one in which you add capacity until the noise is almost overwhelming, and then you error correct from there. It’s the opposite of what I would have thought — “obviously” you’d want a clear channel, with error correction in place as a last defense. But no he says, if you put it in, you damn well better use it!</p>
-<p>I don’t know what this has to say about software, but I suspect it’s something very deep.</p>
-<hr />
-<blockquote>
-<p>p176. It is traditional to accept, in the long run, that the definition we use actually defines the thing defined; but of course it only tells us how to handle things, and in no way actually tells us any meaning.</p>
-</blockquote>
-<p>Context: Shannon pinned down information theory as a measure of surprise in a channel. But this is not <em>information!</em> It’s just a measure of surprise in a channel, which is a different thing. But because it’s called “information theory,” the name gets confused for the thing.</p>
-<p>This one particularly resonates with me, because I <em>do</em> think about information as a measure of surprise. Like, I can’t even pretend to imagine it in any other way. The mathematical model has wormed its way into my understanding of the universe. That’s not necessarily a bad thing, but it’s an extremely interesting experience to notice that I am figuratively blind to seeing the world in any other way.</p>
-<hr />
-<blockquote>
-<p>p179. In the first place I thought I knew very little about digital filters, and, furthermore, I was not really interested in them. But does one wisely ignore one’s VP, plus the cogency of one’s own observations? No!</p>
-</blockquote>
-<p>Damn. I see this when I look at climate change. It’s clearly a big problem, and (I think) I can see lots of good ideas that nobody else seems to be working on. But I’m disinterested in the field because it doesn’t let me use my comparative advantage of software.</p>
-<p>It sounds hard to retrain myself in another field — which is an especially damming thought, because I have often thought to myself that anyone could get into software if they would just <em>try.</em></p>
-<hr />
-<blockquote>
-<p>p186. I needed only a firm understanding of the aliasing effects due to sampling. It is another example of why you need to know the fundamentals very well; the fancy parts then follow easily and you can do things that they never told you about.</p>
-</blockquote>
-<p>Again, this reminds me of a strong math education. If you only know how to run the formula maze, you’ll get stuck as soon as it’s posed as a word problem, or whatever permutation might hit you. This is a principle I try to live by, and I think I succeed.</p>
-<p>Also, it’s a great quote that I am going to put in my book.</p>
-<hr />
-<blockquote>
-<p>p196. When something is claimed to be new, do not be too hasty to think it is just the past slightly improved—it may be a great opportunity for you to do significant things.</p>
-</blockquote>
-<p>There is so much “new” technology these days. Blockchains, NFTs, machine learning. Every time I go to look at it I come away thinking it’s completely stupid. Part of me thinks “there’s no way SO MANY PEOPLE could be wrong about this stuff.” But the other part says “yeah, but you have significantly better fundamentals than most people in your field, and it’s your understanding of the fundamentals that makes this sound stupid.”</p>
-<p>I genuinely can’t tell if this is confirmation bias or not. Someone help please.</p>
-<hr />
-<blockquote>
-<p>p210. It must be your friends, in some sense, who make you famous by quoting and citing you,p and it pays, so I claim, to be helpful to others as they try to do their work. They may in time give you credit for the work, which is better than trying to claim it yourself.</p>
-</blockquote>
-<p>I’ve definitely noticed this in my life. The more I try to call out people for their good ideas that I’ve learned from, the more often they call me back out in kind. There’s this interesting “infinite mirror” sort of effect, where we boost one another’s signal, by virtue of having our signal boosted in the first place. It’s something I’ve been staying cognizant of since the first time I read the book. Be generous with credit! It’s cheap, and pays significant dividends.</p>
-<hr />
-<blockquote>
-<p>p218. Moral: when you know something cannot be done, also remember the essential reason why, so later, when the circumstances have changed, you will not say, “It can’t be done.”</p>
-</blockquote>
-<p><a href="/blog/brilliance/">This has bitten me before.</a> I would like to not be bitten by it again. Context: Hamming had published a book proving he knew everything he needed to know in order to invent the Fast Fourier Transform. But it’s called the FFT instead of the Hamming transform. That must have <em>stung.</em></p>
-<hr />
-<blockquote>
-<p>p239. That is why I am suspicious, to this day, of getting too many solutions and not doing enough very careful thinking about what you have seen. Volume output seems to me to be a poor substitute for acquiring an intimate feeling for the situation being simulated.</p>
-</blockquote>
-<p>Sounds like most programmers I know. I’m genuinely amazed at how often people say they check stackoverflow.</p>
-<hr />
-<blockquote>
-<p>p241. An active mind can contribute to a simulation even when you are dealing with experts in a field where you are a strict amateur.</p>
-</blockquote>
-<p>This one confirms my biases that smart outsiders can contribute to fields they don’t understand. Especially software people, whose key skill I see as being <em>understanding complicated things.</em> Outsiders see it as “pressing keys on the keyboard” or something, and are quick to dismiss my skills. <a href="https://www.microsoft.com/en-us/research/publication/composing-contracts-an-adventure-in-financial-engineering/">But Simon Peyton Jones can do it sucessfully</a>, so there is hope.</p>
-<hr />
-<blockquote>
-<p>p245. An extreme case I had to solve because it was important to the Laboratories, and that meant, at least to me, I had to get the solution, no matter what excuses I gave myself it could not be done. There are always answers of some sort for important problems if you are determined to get them. They may not be perfect, but in desperation something is better than nothing—provided it is reliable!</p>
-</blockquote>
-<p>WHAT AN ATTITUDE. I have never had a job I cared that much about. Sometimes when my friends ask interesting software questions, but never at a job. This would be an extremely powerful skill to learn how to harness: <em>getting an answer at any cost.</em></p>
-<hr />
-<blockquote>
-<p>p246. Why should anyone believe the simulation is relevant?</p>
-</blockquote>
-<p>A good question to ask myself when I try to convince people that I could automate things for them. Why should they believe me? I believe me, but how can I communicate that?</p>
-<hr />
-<blockquote>
-<p>p252. When I was occasionally asked to do some ecological simulation I quietly asked for the mathematically expressed rules for every possible interaction, for example given the amount of rain what growth of the trees would occur, what exactly were the constants, and also where I could get some real live data to compare some test runs. They soon got the idea and went elsewhere to get someone more willing to run very questionable simulations which would give the results they wanted and could use for their propaganda.</p>
-</blockquote>
-<p>I’d never thought about sham science in this light before. Yeah, I know like the cigarette companies fund research on smoking. But I’d never considered honest academics might be fooling themselves into selecting colleagues based on whom they won’t be challenged by.</p>
-<p>This is a harrowing thought. It’s likely not just scientists — I suspect everyone is guilty of this to some extent. Do I do this? Probably? But how do I find the instances, and how do I correct for it?</p>
-<hr />
-<blockquote>
-<p>p255. I made it easy to do the bookkeeping and the mechanics of the computer, but I refused to relieve them of the thinking part.</p>
-</blockquote>
-<p>cf. stackoverflow and Github Copilot, which take the thinking part of programming away. Jesus Christ that stuff scares me. Why are people <em>so</em> willing to give up thinking? How prevalent is this outside of software? A lot of the world makes a lot more sense under the lens that most people are actively trying to avoid thinking…</p>
-<hr />
-<blockquote>
-<p>p263. Does the pilot feel only the Fourier real frequencies, or maybe they also feel the decaying Laplace complex frequencies (or should we use wavelets?) Do different pilots feel the same kinds of things? We need to know more than we apparently now do about this important design criterion.</p>
-</blockquote>
-<p>I’D NEVER CONSIDERED THIS. I have this bad habit of thinking the map is the territory, and would just find a big-O of the function and then trim it off. But yeah, obviously there would be physical effects corresponding to our mathematical models.</p>
-<p>And yes, humans can “feel” acceleration and <a href="https://en.wikipedia.org/wiki/Jerk_%28physics%29">jerk</a>.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> But do we have a perception of <a href="https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position#Fourth_derivative_(snap/jounce)">snap</a>? And if so, can we differentiate it from <a href="https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position#Fifth_derivative_(crackle/flounce)">crackle</a>? I’m <em>very</em> curious about the answer here.</p>
-<hr />
-<blockquote>
-<p>p266. My real contribution was: (1) the realization that we could simulate what had happened, which is now routine in all accidents but was novel then, and (2) the recognition that there was a convergent direction field so the initial conditions need not be known accurately.</p>
-</blockquote>
-<p>Context: Hamming is discussing garbage-in-garbage-out as a concept, and saying it doesn’t hold. If you have attractors in your system, you will converge upon a good answer, even if your starting position is awful. A piece of conventional engineering that a) I believed, b) is clearly wrong, and c) I knew enough to determine for myself that it was clearly wrong, but didn’t.</p>
-<p>I wonder how I can avoid mistakes like this in the future. What other false beliefs am I holding?</p>
-<p>Jesus this book is a great exercise in humility.</p>
-<hr />
-<blockquote>
-<p>p269. Good minds are still needed in spite of all the computing tools we have developed. But the best mind will be the one who gets the principle into the design methods taught so it will be automatically available for lesser minds!</p>
-</blockquote>
-<p>Popularizing excellent ideas is more important than having excellent ideas. This is a good thing. I’m reasonably adept at popularizing things. <strong>I should intentionally train this skill, because pedagogy is much easier to improve than raw brain power.</strong></p>
-<hr />
-<blockquote>
-<p>p270. I had always claimed if the problem was important and properly posed, then I could get some kind of a solution. Therefore, I must find the solution; I had no escape if I were to hold onto my pride.</p>
-</blockquote>
-<p>Just today I came to the conclusion that something was likely impossible in a system that I had made. It’s not the most important problem to solve, but I definitely would have tried harder if my life or job depended on it. And what’s worse is that it <em>feels</em> like there’s a solution; I just don’t know how to formulate the problem in order to find it.</p>
-<p>This is definitely a tactic that can be deliberately invoked. I would like to get in the habit of making progress on hard problems. Again: get my ego involved. Precommit to making progress.</p>
-<hr />
-<blockquote>
-<p>p277. Once I had decided to stay at the Labs and realized my poverty in the knowledge of practical electronics, I bought a couple of Heathkits and assembled them just for the experience.</p>
-</blockquote>
-<p>Hamming realized he was lacking a skill, so he deliberately went out of his way to practice, even though he didn’t need the skill. But he figured it would be helpful in his understanding of the world. So he sunk his time and money into it!</p>
-<p>I definitely do this with programming, and claim it’s why I’m as good as I am. Lots of silly exercises, just to develop new skills. But what about areas outside of programming?</p>
-<hr />
-<blockquote>
-<p>p278. Beware of the power of wishful thinking on your part—you would like it to be true, so you assume it is true!</p>
-</blockquote>
-<p>Fuck. I do this all the time.</p>
-<hr />
-<blockquote>
-<p>p292. What you learn from others you can use to follow; what you learn for yourself you can use to lead.</p>
-</blockquote>
-<p>No real commentary on this one, but it feels true and it’s a good proverb.</p>
-<hr />
-<blockquote>
-<p>p293. Kaiser is a very smart person, but his education had restricted his view of the use of what he had learned. The better we inculcate the basic idea with the pictures drawn by the professor, the more we prevent the student from later extending the ideas to completely new areas not thought of by the professor (and put into the graphic display).</p>
-</blockquote>
-<p>My reading of this is that maybe we shouldn’t necessarily try to aid understanding by way of metaphor. Because metaphors are inevitably leaky, and this will damage the student’s ability to understand at the periphery of the metaphor’s boundary. Maybe all those visual math primers I want to make are a bad idea.</p>
-<hr />
-<blockquote>
-<p>p294. The students must master abstract pattern recognition if they are to progress and use mathematics later in their careers.</p>
-</blockquote>
-<p>Another good quote for a book.</p>
-<hr />
-<blockquote>
-<p>p302. It soon became evident to me that one of the reasons no theorem was false was that Hilbert “knew” the Euclidean theorems were “correct,” and he had picked his added postulates so this would be true. But then I soon realized Euclid had been in the same position; Euclid knew the “truth” of the Pythagorean theorem, and many other theorems, and had to find a system of postulates which would let him get the results he knew in advance. Euclid did not lay down postulates and make deductions as it is commonly taught; he felt his way back from “known” results to the postulates he needed!</p>
-</blockquote>
-<p>If you had asked me whether this was the case, I’d have said no. But if you asked me how I verify a new piece of mathematics, I’d tell you that I test it by throwing extreme examples at it that should simplify to some already well-known result. After all, there are lots of crazy new ideas, and if they don’t agree with existing results, either they’re wrong or you’ve got much bigger problems.</p>
-<p>But if this is true — if all mathematicians are projecting earlier truths outwards, then the unreasonable effectiveness of mathematics is once again in question. Why in hell do all of these crazy abstractions correspond with reality?</p>
-<hr />
-<blockquote>
-<p>p304. The above example about Cauchy’s theorem illustrates my attitude that mathematics shall do what I want it to do.</p>
-</blockquote>
-<p>This also feels true; formalizing ideas has a strong component of bending reality to your will. I don’t do a lot of math, but in programming, my god does this happen. I can invent abstractions on the spot that somehow make the computer do what I want it to — but exactly how I generate those is a mystery. It feels like lots of practice and analysis has gone into it, but none of that seems to matter when I go try and teach this stuff.</p>
-<hr />
-<blockquote>
-<p>p313. Clearly Planck was led to crate the theory because the approximating curve fit so well, and had the proper form. I reasoned, therefore, if I were to help anyone do a similar thing, I had better represent things in terms of functions they believed would be proper for their field rather than in the standard polynomials.</p>
-</blockquote>
-<p>In other words: “present ideas in the language of the audience, even if it isn’t the language most natural for the formulation of the ideas.” I run afoul of this all the time; it’s fine to do your thinking in a specialized language, but translating it to others goes much more smoothly if you can just teach some ideas, rather than a whole new language.</p>
-<hr />
-<blockquote>
-<p>p315. There are smells you cannot smell, wavelengths of light you cannot see, sounds you cannot hear, all based on the limits of your sense organs, so why do you object to the observation that given the wiring of the brain you have, there can be thoughts you cannot think?</p>
-</blockquote>
-<p>I hate this. Because he’s absolutely right, and it fills me with an existential dread. What if all the ideas we <em>really</em> need are wrapped up in the vacuum of unthinkable thoughts?</p>
-<hr />
-<blockquote>
-<p>p316. [The uncertainty principle] is a theorem in Fourier transformations—any linear theory must have a corresponding uncertainty principle, but among physicists it is still widely regarded as a physical effect from nature rather than a mathematical effect of the model.</p>
-</blockquote>
-<p>Highlighted out of <em>extreme interest.</em> Is this true? If so, how many other physical “laws” fall out merely as byproducts of theorems?</p>
-<hr />
-<blockquote>
-<p>p317. Von Neumann… proved there were no hidden variables… but the proof was found to be fallacious, new proofs found, and in their turn found to be fallacious—the current situation being a toss-up as to what you want to believe.</p>
-</blockquote>
-<p>More extreme interest. Note to myself to go investigate this. My understanding is that <a href="https://en.wikipedia.org/wiki/Bell%27s_theorem">Bell proved there are no hidden variables</a>, but that was in the 70s and this book was published in the 90s, and there is no way that Hamming hadn’t seen Bell’s work. I notice I am confused. I should remedy that.</p>
-<hr />
-<blockquote>
-<p>p320. I have put the word “understand” in quotes because I do not even pretend to know what I mean by it. We all know what we mean by “understand” until we try to say explicitly just what it means—and then it sort of fades away!</p>
-</blockquote>
-<p>I disagree. Understanding is the ability to form a model of some phenomenon, and make predictions that correlate with the future of the phenomenon itself. I could draw a nice commutative diagram here, but the idea being that the following square should commute: <code>predict . understand = observe . wait</code>.</p>
-<hr />
-<blockquote>
-<p>p321. Progress is making us face ourselves in many ways, and computers are very central in this process. Not only do they ask us questions never asked before, but they also give us new ways of answering them.</p>
-</blockquote>
-<p>I get in trouble often by putting my foot in my mouth on things like this. I’ll ask people leading questions about introducing formal systems into their jobs, usually trying to automate away the boring things. People interpret this as me wanting to automate away the whole job, and, instead, seem to entirely shut their minds off to the possibility that their jobs <em>could</em> be automated away.</p>
-<p>The relevance: a world we designed to solve all the problems that are solved today, but designed in a context of immense computation, would be a very different world than the one we currently live in. People are extremely eager to see byproducts of the current system as essential characteristics of the class of solutions. For example, democracy is a (bad) solution to a distrusted consensus-solving problem where agents can’t trust one another. It’s just trying to implement <a href="https://en.wikipedia.org/wiki/Paxos_(computer_science)">Paxos</a>! But people get worried about representation, or avoiding corruption, or whatever when you try to suggest anything that isn’t democracy. But I digress.</p>
-<hr />
-<blockquote>
-<p>p325. Creativity seems, among other things, to be “usefully” putting together things which were not perceived to be related before, and it may be the initial psychological distance between the things which counts most.</p>
-</blockquote>
-<p>This is a useful definition, and an actionable one too. I’m a firm believer in knowing about lots of things, and hoping that one of them will come in handy. It seems to work.</p>
-<hr />
-<blockquote>
-<p>p327. This stage, moreover, requires your emotional involvement, your commitment to finding a solution, since without a deep emotional involvement you are not likely to find a really fundamental, novel solution.</p>
-</blockquote>
-<p>Reiterating a point above.</p>
-<hr />
-<blockquote>
-<p>p327. When stuck I often ask myself “If I had a solution, what would it look like?” This tends to sharpen up the approach, and may reveal new ways of looking at the problem you had subconsciously ignored but now see should not be excluded. What must the solution involve? Are there conservation laws which must apply? Is there some symmetry? How does each assumption enter into the solution, and is each one really necessary? Have you recognized all the relevant factors?</p>
-</blockquote>
-<p>More good thought patterns from a smart person that I’d like to emulate. I don’t have a dedicated process for finding solutions; I just sorta set my mind loose on the problem and hope something shakes out. After writing <a href="https://algebradriven.design/">Algebra-Driven Design</a> I’ve started approaching software design with the underlying question of “what laws should hold here?” and it’s been <em>enormously</em> fruitful. Throwing a few more “obvious things to check before diving in” sounds like it would pay dividends.</p>
-<hr />
-<blockquote>
-<p>p329. When you learn something new, think of other applications of it, ones which have not arisen in your past but which might in your future.</p>
-</blockquote>
-<p>Another thought pattern.</p>
-<hr />
-<blockquote>
-<p>p330. We are, in a very real sense, the sum total of our habits, and nothing more; hence by changing our habits, once we understand which ones we should change and in what directions, and understand our limitations in changing ourselves, thence are on the path along which we want to go.</p>
-</blockquote>
-<p>Inspiring. We are the sum of our habits. Habits are hard to change, and they change less often than we’d like to believe, but we all have examples of changing our habits.</p>
-<hr />
-<blockquote>
-<p>p340. The second point I want to make is that many of you, in your turn, will become experts, and I am hoping to modify in you the worst aspects of the know-it-all expert. About all I can do is to beg you to watch and see for yourself how often the above descriptions occur in your career, and hope thereby you will not be the drag on progress the expert so often is.</p>
-</blockquote>
-<p>Context: experts often get in the way, and science needs to wait for them to die before it can proceed. I see this in a lot of my programming communities. I don’t want to be a drag like this when I get to the top of my career.</p>
-<hr />
-<blockquote>
-<p>p341. In my own case, I vowed when I rose to near the top that I would be careful, and as a result I have refused to take part in any decision processes involving current choices of computers. I will give my opinion when asked, but I do not want to be the kind of drag on the next generation I had to put up with from the past generation. Modesty? No, pride!</p>
-</blockquote>
-<p>The last three words here really change the tone. It’s not that Hamming didn’t think he was right, it’s that he was convinced that history wouldn’t agree with him. This is another good lens on our actions — how will history look back on us? If we can predict that, we might as well act only favorably along this metric.</p>
-<hr />
-<blockquote>
-<p>p342. What you did to become successful is likely to be counterproductive when applied at a later date.</p>
-</blockquote>
-<p>You see this in a lot of well-meaning advice. When preparing for my first interview as a software <em>engineer</em>, my dad suggested that I fiddle with any nut and bolt that might be around. I was perplexed — what did that have to do with software? Why would there be a nut and bolt around? My dad very patiently explained that they wanted to see if I was predisposed to getting my hands on problems!</p>
-<p>Clearly very good advice for engineering that is hands-on, but software is decidedly not! More generally, new techniques work well because the zeitgeist doesn’t know about them yet. But once they enter the collective experience, they get improved upon, and your old tool now solves the problem worse than the new ones!</p>
-<p>The inventor of something knows the least about it!</p>
-<hr />
-<blockquote>
-<p>p345. “Why do you believe the test equipment is as reliable as what is being tested?” The answer I got convinced me he had not really thought about it.</p>
-</blockquote>
-<p>I found a bug in <code>QuickCheck</code> last week, and <em>lots</em> of bugs in <code>quickspec</code> when writing Algebra-Driven Design. Those cost me a few hours, because your first thought is never that it’s the machinery that’s broken. And when the compiler has a bug, dear god. There goes your week.</p>
-<hr />
-<blockquote>
-<p>p346. I had long ago argued at Bell Telephone Laboratories that we should form a life testing debarment whose job is to prepare for the testing of the next device which is going to be invented, and not just test after the need arises. I got nowhere, though I made a few, fairly weak suggestions about how to start. There was not time in the area of life testing to do basic research—they were under too much pressure to get the needed results tomorrow.</p>
-</blockquote>
-<p>This is just genuinely a really good idea. At Takt, in an uncharacteristically-smart move, the CEO spun up a task force of a few people to do R&amp;D into what our new platform would look like. They came up with a ton of excellent ideas in two weeks, and likely were too successful, because the CEO immediately shut down the team and said “this is what our new platform will look like!”</p>
-<hr />
-<blockquote>
-<p>p346. There is never time to do the job right, but there is always time to fix it later.</p>
-</blockquote>
-<p>The motto of every software engineering job ever.</p>
-<hr />
-<blockquote>
-<p>p351. Much of the reliability of the engineering guesses was transferred t the sum, and the uncertainty of the salesman’ guesses was ignored. That is not uncommon in big organizations. Careful estimates are combined with wild guesses, and the reliability of the whole is taken to be the reliability of the engineering part. You may justly ask why bother with making the accurate engineering estimates when they are to be combined with other inaccurate guesses, but that is widespread practice in many fields!</p>
-</blockquote>
-<p>I’ve seen this in my career, but never acknowledged it as such. I don’t know what to do about it, but it’s something to keep an eye on.</p>
-<hr />
-<blockquote>
-<p>p352. Morgenstern points out that at one point DuPont Chemical held about 23% of the General Motors stock. How do you suppose this appeared when the gross national product (GNP) figure was computed? Of course it was counted twice!</p>
-</blockquote>
-<p>Of course it was. Makes you wonder just how inflated today’s economy is by false metrics. Does this apply to personal valuations as well?</p>
-<hr />
-<blockquote>
-<p>p353. Their reluctance to change the definitions of the economic indicators is based on the claim that a change, as indicated in the above paragraph, makes the past non-comparable to the present—better to have an irrelevant indicator than an inconsistent one, so they claim.</p>
-</blockquote>
-<p>So they claim. But having an irrelevant indicator is worse than having nothing; it will inspire you to do the wrong thing! How do we improve mathematical literacy?</p>
-<hr />
-<blockquote>
-<p>p354. Institutions, like people, tend to move only when forced to.</p>
-</blockquote>
-<p>Pithy and sweet.</p>
-<hr />
-<blockquote>
-<p>p354. Most economists are simply unwilling to discuss the basic inaccuracy of the economic data they use, and hence I have little faith in them as scientists. But who said economic science is a science? Only the economists!</p>
-</blockquote>
-<p>I was thinking about this today on the way home. I’m currently <a href="https://www.goodreads.com/book/show/40538538-goliath">reading a book on monopolies</a>, and am finding my perspective towards economics radically shifting. I’ve historically been very pro-libertarian/Chicago-school, basic it on little more than “it feels like the math checks out.” Of course, the author has his biases against these economics, but it’s a well-argued position I’d never heard before. Changing your mind is a confusing state of affairs!</p>
-<hr />
-<blockquote>
-<p>p356. Averages are meaningful for homogeneous groups (homogeneous with respect to the actions that may later be taken), but for diverse groups averages are often meaningless. As earlier remarked, the average adult has one breast and one testicle.</p>
-</blockquote>
-<p>Underlined because I love the example.</p>
-<hr />
-<blockquote>
-<p>p361. I also realized that under (2) and (3) one of my functions in the research departments was not so much to solve the existing problems as to develop the methods for solving problems, to expand the range of what could be done, and to educate others in what I had found so they could continue, extend, and improve my earlier efforts.</p>
-</blockquote>
-<p>Develop new methods and educate people on it, rather than directly solving the problems. This completely aligns with my career trajectory, though not necessarily accidentally, since I was reading this book when I <a href="https://sandymaguire.me/blog/reaching-climbing/">quit my job.</a></p>
-<hr />
-<blockquote>
-<p>p363. During my last two undergraduate college years when I was at the University of Chicago, the rule was that at the end you had to pass a single exam based on nine courses in your major field, and another exam based on six in your minor field, and these were mainly what mattered, not what grades you got along the way. I for the first time, came to understand what the systems approach to education means. While taking any one course, it was not a matter of passing it, pleasing the professor, or anything like that; it was learning it so that at a later date, maybe two years later, I would still know the things which should be in the course.</p>
-</blockquote>
-<p>OH MAN WHAT A GREAT WAY TO TEACH THINGS. WHY DON’T WE DO THIS? I came away from university knowing how to program, how to cut corners, and how to cram for tests. They tried to teach me a lot of things, but I was better at cutting corners and cramming than they at teaching.</p>
-<hr />
-<blockquote>
-<p>p365. All the proposed reformations of the standard calculus course that I have examined, and there are many, never begin by asking, “What is the total mathematical education, and what therefore, should be in the calculus course?” They merely try to include computers, or some such idea, without examining the system of total mathematical education which the course should be a apart of.</p>
-</blockquote>
-<blockquote>
-<p>p365. Few people who set out to reform any system try first to find out the total system problem, but rather attack the first symptom they see. And, of course, what emerges is whatever it is, and is not what is needed.</p>
-</blockquote>
-<p>These two hit home. I fall victim to this when I look at existing systems, and say “why is this particular thing missing?” rather than “if I were to design this from scratch, what would my principles be?” Damn. Hamming making me think.</p>
-<hr />
-<blockquote>
-<p>p367. I have stressed the importance of what currently is believed to be the fundamentals of various fields, and have deliberately neglected the current details, which will probably have a short lifetime.</p>
-</blockquote>
-<p>I’m working on the second edition of a book right now, and this is a point I’m trying to focus on more directly. There are lots of techniques I could recommend today, but they’re only going to age the book. Fundamentals don’t go out of style, which techniques absolutely do.</p>
-<hr />
-<blockquote>
-<p>p369. A second reason the systems engineer’s design is never completed is the solution offered to the original problem usually produces both deeper insight and dissatisfactions in the engineers themselves.</p>
-</blockquote>
-<p>This is a common characteristic that I notice in people I really like. Maybe it’s <em>the</em> common characteristic that I like. The absolute best programmers I know will build something a few times, because each time they get a solution they realize that what they’ve built is a solution to the wrong problem.</p>
-<hr />
-<blockquote>
-<p>p377. In mathematics, and in computer science, a similar effect of initial selection happens. In the earlier stages of mathematics up through the calculus, as well as in computer science, grades are closely related to the ability to carry out a lot of details with high reliability. But later, especially in mathematics, the qualities needed to succeed change and it becomes more proving theorems, patterns of reasoning, and the ability to conjecture new results, new theorems, and new definitions which matter. Still later it is the ability to see the whole of a field as a whole, and not as a lot of fragments. But the grading process has earlier, to a great extent, removed many of those you might want, and indeed are needed at the later stage!</p>
-</blockquote>
-<p>Another point suggesting that outsiders can do far more good work than insiders, since they haven’t been accidentally selected out.</p>
-<hr />
-<blockquote>
-<p>p388. It is hard work, applied for long years, which leads to the creative act, and it is rarely just handed to you without any serious effort on your part. Yes, sometimes it just happens, and then it is pure luck. It seems to me to be folly for you to depend solely on luck for the outcome of this one life you have to lead.</p>
-</blockquote>
-<p>Inspiring words. My takeaway here is that it’s more important to be systematically building cool things than it is to be recognized for those things. Getting the right idea at the right time is likely largely a function of luck, but by building a habit of building cool things, you’re optimizing your chances of the luck striking.</p>
-<p>Helpful for me, because I feel like I keep having great ideas that people just don’t seem to “get” — and it’s nice to have this as an excuse for why it’s OK.</p>
-<hr />
-<blockquote>
-<p>p389. “Why are you not working on and thinking about the important problems in your area?”</p>
-</blockquote>
-<p>I don’t know what are the important problems in software. P=NP I guess, and maybe then “what the hell do we do with all of this compute?” I’d like a better answer than “burn it mining shitty crypto” and “make graphics that look as good as real life.” What stupid applications of the most powerful tool the known universe has ever seen. Yeah, gun to my head, I’d say wise and effective use of software are the important problems of the future. So why am I not working on them? It’s not entirely clear where to start!</p>
-<hr />
-<blockquote>
-<p>p390. While playing chess Shannon would often advance his queen boldly into the fray and say, “I ain’t scared of nothing.” I learned to repeat it to myself when stuck, and at times it has enabled me to go on to a success. I deliberately copied a part of the style of a great scientist.</p>
-</blockquote>
-<p>I ain’t scare of nothing! It has a good ring to it. Here’s me deliberately copying a great scientist in deliberately copying a great scientist.</p>
-<hr />
-<blockquote>
-<p>p390. The courage to continue is essential, since great research often has long periods with no success and many discouragements.</p>
-</blockquote>
-<p>This perfectly sums of Algebra-Driven Design. That book took 7x longer than my first one, a good chunk of which was spent rewriting it because I kept writing the wrong book! Endlessly frustrating and discouraging, but well-worth having pushed though.</p>
-<hr />
-<blockquote>
-<p>p391. Not that you should merely work on random things, but on small things which seem to you to have the possibility of future growth.</p>
-</blockquote>
-<p>Another good metric. You don’t have to work on big problems; small ones that seem promising are OK too.</p>
-<hr />
-<blockquote>
-<p>p391. Thus what you consider to be good working conditions may not be good for you! There are many illustrations of this point. For example, working with one’s door closed lets you get more work done per year than if you had an open door, but I have observed repeatedly that later those with the closed doors, while working just as hard as others, seem to work on slightly the wrong problems, while those who have let their door stay open get less work done but tend to work on the right problems.</p>
-</blockquote>
-<p>My instinct is often to put in headphones and focus. I like getting work done in the short term. But I’ve been finding this to be more and more true. For example, I go to a weekly “open hack” where there are a lot of beginners talking about basic things! But once a week or so, someone says something that is absolutely brilliant, and it’s the sort of thing that could only have come from a beginner!</p>
-<hr />
-<blockquote>
-<p>p392. When stuck, often inverting the problem and realizing the new formulations is better represents a significant step forward. I am not asserting all blockages can be so rearranged, but I am asserting that many more than you might at first suspect can be so changed from a more or less routine response to a great one.</p>
-</blockquote>
-<p>More good strategies for solving problems. This sounds similar to “if I had a solution, what would it look like?”</p>
-<hr />
-<blockquote>
-<p>p393. I changed the problem from just getting answers to the realization I was demonstrating clearly for the first time the superiority of digital computers over the current analog computers, thus making a significant contribution to the science behind the activity of computing answers.</p>
-</blockquote>
-<p>It’s not enough just to do it well. It also needs to be done with style and flare, to help inspire lesser minds into seeing what the future could hold.</p>
-<hr />
-<blockquote>
-<p>p394. At the urging of others, for some years I set aside Friday afternoons for “great thoughts.”</p>
-</blockquote>
-<p>Another reminder to myself. But I’ve already put it on my calendar, so there.</p>
-<hr />
-<blockquote>
-<p>p396. Do you want to be a reformer of the trivia of your old organization or a creator of the new organization? Pick your choice, but be clear which path you are going down.</p>
-</blockquote>
-<p>Fuck, this one hits me too. I spend so much time fighting in the Haskell world about stupid shit that nobody cares about. Is it “correct” that we remove <code>(/=)</code> from <code>Eq</code>? Absolutely. Does it matter? Not in the least. Dumb trivia.</p>
-<p>A mantra I picked up from Sebastian Marshall is “don’t argue with peasants.” If there’s an idiot who’s wrong on the internet, don’t waste your energy trying to change their mind. Best case, you convince them, the world doesn’t change in any noticeable way, and you’ve wasted your energy.</p>
-<p>“Don’t be a reformer of trivia” is another helpful mantra I could do well to pick up.</p>
-<hr />
-<blockquote>
-<p>p397. I strongly suggest you adopt the habit of privately critiquing all presentations you attend and also asking the opinions of others. Try to find those parts which you think are effective and which also can be adapted to your style.</p>
-</blockquote>
-<p>Erin often says I’m a good writer. I think she’s just being kind. All it feels like I’m doing is stealing the best bits of writing from my favorite authors and essayists. But maybe that’s all that being a good writer consists of?</p>
-<p>However, I don’t apply this to other forms of media. I don’t analyze how stand-up comedians tell jokes, nor how good engineers give technical talks.</p>
-<hr />
-<blockquote>
-<p>p397. Along the way you will generally have superiors who are less able than you are, so do not complain, since how else could it be if you are going to end up at the top and they are not?</p>
-</blockquote>
-<p>Makes sense. If you’re going to end up at the top, you’re going to have to climb, and go past a bunch of idiots in the process. Which, counterintuitively, suggests it’s actually a <em>good</em> thing if your boss is an idiot — because it means you haven’t yet risen to your height.</p>
-<hr />
-<p>My first thought was to end the essay here, because I made it through all of the quotes. But I stole this format from an author I like, and in the spirit of analyzing good presentations, I’m going to take a moment and go see how he ends essays of this form.</p>
-<p>Turns out he just ends them, without an afterward. But that feels like the wrong play, so instead I’ll tell you to go <a href="https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178/ref=sr_1_1">buy a copy of The Art of Doing Science and Engineering</a>. It’s an excellent book, and you won’t be disappointed.</p>
-<section class="footnotes" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>I realize this was against the letter of the law, but not the <em>spirit.</em><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>It’s when you come to a complete stop in a car, and you get momentarily thrown forward. That’s a spike in the third derivative of your position.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
         ]]>
       </content>
     </entry>
