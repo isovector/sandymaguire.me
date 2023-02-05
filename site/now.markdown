@@ -2,42 +2,48 @@
 layout: post
 page_title: What I'm Doing Now
 title: What I'm Doing Now
-date: "October 16, 2022"
+date: "February 5, 2023"
 confidence: 1
 comments: false
 has_related: false
 ---
 
-I am really awful at this "now" stuff. Here is some "then" stuff to make up the
-difference:
+Another year, another "now" page.
 
-Erin and I landed a great place in our desired neighborhood. It was super easy,
-barely an inconvenience to find. Nice. I've been trying to get socially oriented
-in Vancouver, and making good progress, but everyone has JOBS which means they
-can only hang out in the evenings, which dramatically reduces the time I can be
-social. Oh well.
+Life has been picking up steam lately. All of a sudden I find myself writing a
+book, being in pre-production for another, planning a wedding, dealing with the
+influx of PhD programs that would love to have me, building cool new technology
+at work, automating our smart home, putting a talk together for a conference,
+and physically jumping over lots of static structures.
 
-Some friends and I are attempting to formalize probability/utility theory in
-Agda. They have a longer term goal of generalizing it to quantum amplitudes, but
-for me, it's just fun hacking on math stuff with the homies. It's made me very
-aware of just how much math/Agda I know, which I think might turn into a
-cool NaNoWriMo project. Stay tuned.
+In some sense, it's exhausting, but also an exhilarating change of pace from the
+last few years. It's *nice* to be busy --- especially with interesting projects.
 
-Besides that, I'm officially employed again. Wire liked my work, and re-extended
-my contract. It's been lovely having some external structure. Wire gets two days
-a week, and there is some talk of a few other projects that might want some of
-my days as well. Working again is neat; it's not full time or anything, but nice
-to not need to worry about the bills, and to have enough agency on projects that
-I don't get bored.
+The stuff I'm most excited about right now is parkour. I unlocked something
+inside myself this week: the realization that I haven't been trying very hard
+thus far. I've been managing to do OK on raw talent and a lifetime of climbing
+things. And I realize I've just been sorta coasting at parkour: trying things,
+but not trying *that hard.* And more interestingly, not even noticing that I
+wasn't trying that hard. But something unlocked, and I was able to give it
+significantly more effort than I had been previously. And it's got me wondering
+if I've been phoning it in everywhere in my life?
 
-The remainder of my time is (attempting) to do some research in a grad-student
-capacity. I'm not in the program yet, but admissions haven't started and I
-thought it might be nice to sync up with a professor to see if we work well
-together. I think a PhD is in the cards, but it's a bit scary because last time
-didn't go so well. Never trying again I think is the wrong lesson to take away
-from failures though, so I will persevere even if it's unpleasant.
+That's not a depressing thought; it's an inspiring one.
 
-My search engine is happily chugging away still. I haven't worked on it much
-in the last six weeks. At some point the index got too big to be useful, which
-is a fascinating turn of events, and really one I should write about.
+It looks like grad school is a go. I have at least two offers, and I suspect
+at least one more is in the pipes. That's wildly exciting, and now means I need
+to do the hard work of picking a program. The tradeoffs are widely incomparable,
+between compensation, adviser fit, short-term location, long-term location (by
+the end of the program I'm going to be nearly 40!), commute times, and
+competativeness, to name a few. I don't really know what my strategy is going to
+be, but I suspect it will involve math.
+
+Ironically, I haven't yet written about my new year's goal of being a **Man of
+Action,** which is more of a theme than a goal. But the idea is that whenever I
+see an opportunity for action, I should aspire to take it. It's been a really
+great change of pace: from sending back food, to standing up for my right to sit
+down, to returning expired yogurt. Lots of trivial inconveniences that a
+less-assertive person (like me a few months ago) would accept and grumble about,
+that instead I am dealing with. And I guess I'm also updating my now page. Look
+at that; action all around.
 
