@@ -7,13 +7,31 @@
   <description>Musings on effective life strategies</description>
   <category>Life</category>
   <copyright>2018 Sandy Maguire</copyright>
-  <pubDate>2023-01-04T00:32:00Z</pubDate>
+  <pubDate>2023-10-30T13:55:00Z</pubDate>
   <language>en-us</language>
   <image>
       <url>http://sandymaguire.me/images/favicon.png</url>
     <title>Sandy Maguire</title>
     <link>http://sandymaguire.me</link>
   </image>
+  <item>
+      <title>Certainty by Construction: Done!</title>
+      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
+      <link>http://sandymaguire.me/blog/certainty-by-construction/index.html</link>
+      <guid>http://sandymaguire.me/blog/certainty-by-construction/index.html</guid>
+      <pubDate>2023-10-30T13:55:00Z</pubDate>
+      <content:encoded><![CDATA[
+        <p>Happy days and happy news: it’s done.</p>
+<center>
+<a href="https://leanpub.com/certainty-by-construction"><img src="/cbc.png" alt="Certainty by Construction"></a>
+</center>
+<p>After a year of work, I’m <em>thrilled</em> to announce the completion my new book, <a href="https://leanpub.com/certainty-by-construction">Certainty by Construction</a>.</p>
+<p>Certainty by Construction is a book on doing mathematics and software design in the proof assistant Agda, which is the language Haskell wants to be when it grows up. The book is part Agda primer, introduction to abstract algebra, and algorithm design manual, with a healthy dose of philosophy mixed in to help build intuition.</p>
+<p>If you’re the sort of person who would like to learn more math (including all the proof burden), and see how to apply it to writing real software, I think you’d groove on this book. If it sounds up your alley, I’d highly encourage you to <a href="https://leanpub.com/certainty-by-construction">give it a read</a>.</p>
+<p>I’m not much on social media these days, but if you are, I’d really appreciate a signal boost on this announcement! Thanks to everyone for their support and understanding over the last year. I love you all!</p>
+<p><a href="https://leanpub.com/certainty-by-construction">Go cop Certainty by Construction!</a></p>
+      ]]></content:encoded>
+  </item>
   <item>
       <title>2022 Recap</title>
       <author>sandy@sandymaguire.me (Sandy Maguire)</author>
@@ -345,37 +363,6 @@
 <p>When I started out to write this post, I was feeling quite glum about the whole year. But having written everything out, I’m actually quite pleased with how it went and how much I grew during it.</p>
 <p>My feelings were that I didn’t accomplish much during the year, but this isn’t true. While no, I didn’t publish a new book or anything, I did make a really fucking cool piece of technology. More importantly however, I realized that my crowning achievement of 2021 was the relationship I’ve built with Erin. That’s where the majority of my energy went, and it shows. I’ve never been so happy with anyone ever before. Not by a long shot.</p>
 <p>However you want to cut it, 2021 was a good year and 2022 is going to be much better again.</p>
-      ]]></content:encoded>
-  </item>
-  <item>
-      <title>An Open Letter on Banning Uber From Operating in BC</title>
-      <author>sandy@sandymaguire.me (Sandy Maguire)</author>
-      <link>http://sandymaguire.me/blog/open-letter-uber/index.html</link>
-      <guid>http://sandymaguire.me/blog/open-letter-uber/index.html</guid>
-      <pubDate>2021-12-23T11:17:00Z</pubDate>
-      <content:encoded><![CDATA[
-        <p>Mrs. Allevato,</p>
-<p>I am the owner of a small, local, technology-focused business in Victoria, and was shocked and dismayed to hear your recent ruling blocking the operations of Uber in BC. The ruling is clearly anti-competitive, and reeks of rampant corruption. The meteoric rise of passengers choosing to use Uber and other ride-sharing apps is clear evidence that they <em>prefer</em> Uber over taxi services.</p>
-<p>Perhaps you haven’t ridden in a taxi recently, but it is an awful experience. Last week I took a cab to the airport. The vehicle was smelly, rundown, and extremely uncomfortable due to a broken seat and seat-belt. This is not an outlier in my biweekly taxi usage. Of course taxi cabs will be in this state. They are rented by drivers who have no incentive to keep the vehicles well maintained. The cab companies have a monopoly, meaning that they can afford to keep their cab fleet in awful condition, since there is no competition to improve.</p>
-<p>Worse, it cost $65 to get to the airport, when an Uber would have cost roughly half of that.</p>
-<p>I can’t overstate this point: every cab ride I have ever taken in Victoria has been an awful experience. This sentiment is shared by many of my colleagues and friends.</p>
-<p>Contrast this with ride-sharing apps, where drivers use their own vehicles, and have their cleanliness and behavior moderated by a convenient rating system. The drivers thus have an incentive to offer excellent cleanliness and service — first in that they are using their own personal property, and second in that their livelihood will be threatened by bad ratings otherwise.</p>
-<p>None of these feedback mechanisms exist in the taxi industry.</p>
-<p>Furthermore, not only is Uber a better experience for riders, it is also better for drivers. Your decision quotes the following passage from the report:</p>
-<blockquote>
-<p>during an ongoing driver shortage, it is possible that taxi company margins will be squeezed by fixed meter rates to the point where they cannot retain drivers even though taxi demand justifies it. The drivers will then tend to move to TNS where the hourly earnings are higher because of the higher average rates and the high customer demand.</p>
-</blockquote>
-<p>which makes the very clear claim that drivers would prefer to work for TNS than for taxi companies. I have lived in many cities with ride-sharing, and this sentiment resonates with my experience — every single TNS driver has told me they make much more money than they ever would working for a taxi company.</p>
-<p>Compare this against the cab system, where drivers must rent a cab from the taxi company for a 12 hour shift at a fixed rate. A 12 hour shift is too long for any human to safely perform a high-focus activity, but the incentive structure of the taxi industry encourages drivers to work as many hours as possible, regardless of whether it’s safe to do so. My most recent cab ride to the airport was at 5am. The driver was barely awake and couldn’t keep his eyes on the road. I was genuinely afraid for my life, but, crucially, <em>had no other alternatives.</em></p>
-<p>Ride-sharing apps don’t suffer these problems. The driver rating system incentivizes safe driving, and because they work on their own schedule, drivers aren’t punished financially for stopping when they are tired.</p>
-<p>It is clear that ride-sharing apps are better for both the rider and the driver. Your decision has thus sold out to the taxi cartels at the expense of local people on both sides who long for a better system. The decision states:</p>
-<blockquote>
-<p>In the Board’s view, existing licensees should have the opportunity to start up and be successful in their business without additional competition which may be harmful.</p>
-</blockquote>
-<p>The entire purpose of competition is to force better behavior from incumbents. Taxis exist to get people from one place to another. They exist to provide society a service. Society does not owe taxi companies the right to exist if they are worse on every front than a superior competitor — and taxis are.</p>
-<p>Given these reasons, it is unconscionable to protect the taxi cartel, and corruption is the only logical explanation why the Passenger Transportation Board would do so.</p>
-<p>I urge you to reconsider your decision to ban Uber from operating in BC. It is unconscionable and serves only to protect a parasitic drain on society.</p>
-<p>Yours, Sandy Maguire</p>
       ]]></content:encoded>
   </item>
 </channel>
