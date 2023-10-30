@@ -7,38 +7,27 @@ packages:
 - completed:
     hackage: strptime-1.0.10@sha256:f7f0c3ffedbedbfebc4ce77e0015b4ad879d79dffe11a747da7a304900b09d13,1156
     pantry-tree:
-      size: 331
       sha256: fb752cf40a8ac7ac9f6590b93d37b9ad9f3b4252d04f237b9e9f201226c8004b
+      size: 331
   original:
     hackage: strptime-1.0.10
 - completed:
     hackage: MissingH-1.4.3.0@sha256:7136282773f7b3e7ce3af856b41dde98a04f9b03c51813c98d040fc060dcaa53,4650
     pantry-tree:
-      size: 5271
       sha256: b8e1b8f04bde976538303752932ad6a9ada1eacaa1c28fdb514022fc62be80d6
+      size: 5271
   original:
     hackage: MissingH-1.4.3.0@sha256:7136282773f7b3e7ce3af856b41dde98a04f9b03c51813c98d040fc060dcaa53,4650
 - completed:
     hackage: datetime-0.3.1@sha256:7e275bd0ce7a2f66445bedfa0006abaf4d41af4c2204c3f8004c17eab5480e74,1534
     pantry-tree:
-      size: 334
       sha256: d41d182c143676464cb1774f0b7777e870ddeaf8b6cd5fee6ff0114997a1f504
+      size: 334
   original:
     hackage: datetime-0.3.1@sha256:7e275bd0ce7a2f66445bedfa0006abaf4d41af4c2204c3f8004c17eab5480e74,1534
-- completed:
-    name: sitepipe
-    version: 0.4.0.1
-    git: https://github.com/isovector/SitePipe.git
-    pantry-tree:
-      size: 3672
-      sha256: be4fdd446bfb17d6652818f189deddd0359ca1423ddc3c3b33a53aa4c13b7771
-    commit: fe006c59c3330cb2461bcc94fa3b3a1ace1b3617
-  original:
-    git: https://github.com/isovector/SitePipe.git
-    commit: fe006c59c3330cb2461bcc94fa3b3a1ace1b3617
 snapshots:
 - completed:
+    sha256: cdead65fca0323144b346c94286186f4969bf85594d649c49c7557295675d8a5
     size: 586286
     url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/16.yaml
-    sha256: cdead65fca0323144b346c94286186f4969bf85594d649c49c7557295675d8a5
   original: lts-18.16
