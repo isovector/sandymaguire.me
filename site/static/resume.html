@@ -3,7 +3,7 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <title>Sandy Maguire</title>
     <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css2?family=Oxygen:wght@400;500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style type="text/css">
@@ -11,6 +11,7 @@
 body {
   padding-top: 0;
     font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
 }
 
 a {
@@ -22,6 +23,7 @@ a {
 }
 
 #content {
+  margin-top: 1rem;
 }
 
 #page {
@@ -52,7 +54,7 @@ i {
 
 #name {
   z-index: 10;
-  letter-spacing: 0.31rem;
+  letter-spacing: 0.35rem;
 }
 
 #name h1 {
@@ -63,6 +65,7 @@ i {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     margin-bottom: 0em;
+    margin-top: 0.5rem;
 }
 
 #contact {
@@ -70,6 +73,7 @@ i {
   z-index: 2;
   margin-top: 0em;
   margin-bottom: 0.6em;
+  padding-right: 0.1em;
   text-align: center;
 
 }
@@ -94,7 +98,7 @@ i {
 h2 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 11pt;
+    font-size: 12pt;
     font-weight: 500;
     float: right;
     margin: 0;
@@ -111,12 +115,14 @@ section {
     text-align: justify;
 }
 
-section h3 {
+h3 {
     margin-top: 0.2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 
     margin-bottom: 0.2em;
     margin-left: 0.2em;
-    font-size: 11pt;
+    font-size: 14pt;
 }
 
 section h4 {
@@ -135,7 +141,6 @@ ul {
 }
 
 ul li {
-  text-indent: -1em;
 }
 
 ul li::before {
@@ -193,7 +198,7 @@ li a {
 }
 
 .horizontal-list {
-  padding-left: 1.5em;
+  padding-left: 2.6em;
   margin-bottom: 0.5em;
 }
 
@@ -248,7 +253,7 @@ li a {
         <h2>Work Experience</h2>
 
         <section class="first">
-            <h3>Consultant (Programming Language Design)<span class="jobsep">&raquo;</span> Manifold Valley<span class="duration">April 2023 &rarr; ongoing</span></h3>
+            <h3>Manifold Valley <span class="jobsep">&raquo;</span> Consultant<span class="duration">April 2023 &rarr; ongoing</span></h3>
             <ul>
         <li>Led the implementation of industry best practices for development processes.</li>
         <li>Eliminated several classes of runtime errors by enforcing type-safety in core abstractions.</li>
@@ -256,7 +261,7 @@ li a {
         </section>
 
         <section>
-            <h3>Consultant (Infrastructure and Federation)<span class="jobsep">&raquo;</span> Wire<span class="duration">October 2021 &rarr; April 2023</span></h3>
+            <h3>Wire <span class="jobsep">&raquo;</span> Consultant<span class="duration">October 2021 &rarr; April 2023</span></h3>
             <ul>
         <li>Architected a Haskell compiler plugin to track and reify federated service calls at the type-level.</li>
         <li>Designed a property-based testing framework for verifying the correctness of algebraic effects.</li>
@@ -264,53 +269,54 @@ li a {
         </section>
 
         <section>
-            <h3>Textbook Author <span class="jobsep">&raquo;</span> Cofree Press<span class="duration">March 2018 &rarr; November 2023</span></h3>
+            <h3>Cofree Press <span class="jobsep">&raquo;</span> Author of Software Textbooks<span class="duration">March 2018 &rarr; November 2023</span></h3>
             <span class="details noText"><a href="https://leanpub.com/u/sandy-maguire">https://leanpub.com/u/sandy-maguire</a></span>
 
             <ul>
-        <li>Wrote three textbooks on advanced programming techniques and high-quality software engineering.</li>
-        <li><em>Algebra-Driven Design</em> is used as the basis of a course taught at OST Zurich.</li>
+        <li><em>Certainty by Construction</em> is used as the basis of a course taught at OST Zurich.</li>
+        <li><em>Algebra-Driven Design</em>; now the basis of a course taught at OST Zurich.</li>
+        <li><em>Thinking with Types</em> is used as the basis of a course taught at OST Zurich.</li>
             </ul>
         </section>
 
         <section>
-            <h3>Senior Software Engineer <span class="jobsep">&raquo;</span> Takt<span class="duration">September 2016 &rarr; January 2018</span></h3>
+            <h3>Formation/Takt <span class="jobsep">&raquo;</span> Senior Software Engineer<span class="duration">September 2016 &rarr; January 2018</span></h3>
             <ul>
-        <li>Led a team of four to design a core subcomponent; subsequently increased new feature cadence by 30x.</li>
+        <li>Increased new feature cadence by 30x after becoming lead of a four-person engineering team.</li>
         <li>Directed a team of three to implement a high-throughput, low-latency brokered streaming library.</li>
             </ul>
         </section>
 
         <section>
-            <h3>Software Engineer III (Identity and Access Management) <span class="jobsep">&raquo;</span> Google<span class="duration">September 2015 &rarr; September 2016</span></h3>
+            <h3>Google <span class="jobsep">&raquo;</span> Software Engineer III<span class="duration">September 2015 &rarr; September 2016</span></h3>
             <ul>
         <li>Led the architectural design of a user-defined permission model for the cloud.</li>
-        <li>Took ownership of a service-critical compiler; improved compile times by 96% and test coverage by 65%.</li>
+        <li>Improved compile times by 96% and test coverage by 65% for a service-critical internal compiler.</li>
             </ul>
         </section>
 
         <section>
-            <h3>Software Engineer Intern (Ads Ranking) <span class="jobsep">&raquo;</span> Facebook<span class="duration">January &rarr; April 2014</span></h3>
+            <h3>Meta/Facebook <span class="jobsep">&raquo;</span> Software Engineer Intern<span class="duration">January &rarr; April 2014</span></h3>
             <ul>
-        <li>Analyzed and improved the advertising platform's spending behaviors; increased revenue by 0.5%.</li>
-        <li>Parallelized the backend graph ranker; improved site-wide response time by 0.4%.</li>
+        <li>Increased revenue by 0.5% after analyzing the advertising platform's spending behaviors.</li>
+        <li>Improved site-wide response time by 0.4% by parallelizing the backend graph ranker.</li>
             </ul>
         </section>
     </div>
 
     <div id="experience" class="resumeSection">
-        <h2>Notable Open Source Work</h2>
+        <h2>Notable Open Source</h2>
 
         <section class="first">
-            <h3>Author <span class="jobsep">&raquo;</span> Cornelis<span class="duration">January 2022 &rarr; ongoing</span></h3>
+            <h3>Cornelis<span class="duration">2022 &rarr; ongoing</span></h3>
             <span class="details noText"><a href="https://github.com/isovector/cornelis">https://github.com/isovector/cornelis</a></span>
             <ul>
-        <li>Built a tight integration engine between Neovim and the Agda compiler, allowing interactive proof assistance.</li>
+        <li>Tightly integrated Neovim with the Agda compiler, allowing for interactive proof assistance.</li>
             </ul>
         </section>
 
         <section>
-            <h3>Contributor <span class="jobsep">&raquo;</span> ImplicitCAD<span class="duration">November 2020 &rarr; January 2021</span></h3>
+            <h3>ImplicitCAD<span class="duration">2020 &rarr; 2021</span></h3>
             <span class="details noText"><a href="https://github.com/Haskell-Things/ImplicitCAD">https://github.com/Haskell-Things/ImplicitCAD</a></span>
             <ul>
         <li>Improved performance of single-core mesh rendering by ~2x.</li>
@@ -319,7 +325,7 @@ li a {
         </section>
 
         <section>
-            <h3>Lead Developer <span class="jobsep">&raquo;</span> Wingman for Haskell<span class="duration">September 2020 &rarr; July 2023</span></h3>
+            <h3>Wingman for Haskell<span class="duration">2020 &rarr; 2023</span></h3>
             <span class="details noText"><a href="https://github.com/haskell/haskell-language-server">https://github.com/haskell/haskell-language-server</a></span>
             <ul>
         <li>Developed an interactive tactic engine for Haskell, capable of robust, type-aware code synthesis.</li>
@@ -328,7 +334,7 @@ li a {
 
         <!--
         <section>
-            <h3>Author / Maintainer <span class="jobsep">&raquo;</span> Polysemy<span class="duration">February 2019 &rarr; February 2020</span></h3>
+            <h3>Polysemy<span class="duration">2019 &rarr; 2023</span></h3>
             <span class="details noText"><a href="https://github.com/polysemy-research/polysemy">https://github.com/polysemy-research/polysemy</a></span>
             <ul>
         <li>Discovered a convenient encoding of an effect system based on higher-order free monads via simultaneous co-Yoneda and codensity transformations.</li>
@@ -394,6 +400,8 @@ li a {
 
     </div>
 
+
+    <!--
     <div id="misc" class="resumeSection">
         <h2>Miscellany</h2>
 
@@ -402,6 +410,7 @@ li a {
             <span class="details">model checking, proof assistants, music, functional programming, compilers, robotics, electronics, math pedagogy</span>
         </section>
     </div>
+    -->
 
 </div>
 </div>
