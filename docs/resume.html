@@ -1,12 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE htm1 PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <title>Sandy Maguire</title>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <style type="text/css">
 
 body {
+  padding-top: 0;
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -15,15 +18,15 @@ a {
     text-decoration: none;
     font-style: normal;
     padding: 0 0.2em;
+    font-size: 9pt;
 }
 
 #content {
-    position: relative;
 }
 
 #page {
     margin: 0 auto;
-    width: 720px;
+    width: 8.3in;
 }
 
 #header {
@@ -43,31 +46,38 @@ a {
     z-index: -1;
 }
 
+i {
+  margin-right: 0.2em;
+}
+
 #name {
-    position: relative;
-    z-index: 10;
-  margin-top: -0.5em;
+  z-index: 10;
+  letter-spacing: 0.31rem;
 }
 
 #name h1 {
-    font-size: 65pt;
-    margin: 0 auto;
+    width: 100%;
+    font-size: 32.5pt;
     line-height: 1em;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    margin-bottom: 0em;
 }
 
 #contact {
   display: block;
-    z-index: 2;
-  text-align: right;
-  margin-right: 0.5em;
+  z-index: 2;
+  margin-top: 0em;
+  margin-bottom: 0.6em;
+  text-align: center;
+
 }
 
 #tag {
+  display: none;
     position: absolute;
-    top: 4.8em;
+    top: 4.6em;
     right: 0.5em;
     background-color: #fff;
   z-index: 2;
@@ -75,26 +85,26 @@ a {
 }
 
 .resumeSection {
-    border-top: 1px dashed #888;
-    position: relative;
-  top: 1.5em;
-  padding-bottom: 1em;
+  border-top: 1px dashed #888;
+  position: relative;
+  top: 1em;
+  padding-bottom: 1.5em;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 13pt;
+    font-size: 11pt;
+    font-weight: 500;
     float: right;
     margin: 0;
-    margin-top: 0.65em;
+    margin-top: 0.4em;
     margin-left: 1em;
     height: 1.25em;
 }
 
-.resumeSection.first {
-/*  border-color: #fff;*/
-    top: 2.5em;
+section.first {
+  margin-top: 0.4em;
 }
 
 section {
@@ -102,6 +112,8 @@ section {
 }
 
 section h3 {
+    margin-top: 0.2em;
+
     margin-bottom: 0.2em;
     margin-left: 0.2em;
     font-size: 11pt;
@@ -118,8 +130,20 @@ section h4 {
 ul {
     margin-top: 0;
     margin-left: -0.8em;
-    margin-bottom: 1.3em;
-    list-style-type: square;
+    margin-bottom: 0.7em;
+    list-style-type: none;
+}
+
+ul li {
+  text-indent: -1em;
+}
+
+ul li::before {
+  position: relative;
+  top: -0.125em;
+  font-size: 8.5pt;
+  content: '\21AA';
+  margin-right: 1ch;
 }
 
 ul.last {
@@ -132,9 +156,16 @@ ul.last {
     color: #999;
 }
 
-.details {
-    margin-left: 1em;
+.lang-details {
+  color: #666;
+    margin-left: 0.6em;
     margin-bottom: 2em;
+    font-size: 8.5pt;
+    line-height: 2em;
+}
+
+.details {
+    margin-left: 0.5em;
     font-size: 10.5pt;
     font-style: italic;
     line-height: 2em;
@@ -161,58 +192,141 @@ li a {
     font-size: 10.5pt;
 }
 
+.horizontal-list {
+  padding-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.horizontal-list li {
+  display: inline;
+  margin-right: 1.2em;
+}
+
+.horizontal-list > li::before {
+  position: relative;
+  top: -0.125em;
+  font-size: 8pt;
+  content: "\21AA";
+  margin-right: 0.5em;
+}
+
     </style>
 </head>
 
 <body>
 <div id="page">
-  <div id="contact">
-    250 986 0250
-    |<a>sandy@sandymaguire.me</a>
-    | @isovector
-    | Senior Software Engineer</div>
 <div id="header">
-    <div id="name"><h1>Sandy Maguire</h1></div>
 
-    <div id="tag">"Impassioned by big ideas and systematic self-iteration."</div>
+    <div id="name"><h1>Sandy Maguire</h1></div>
+  <div id="contact">
+    + 1 250 986 0250
+    | sandy@sandymaguire.me
+    | <i class="fa-brands fa-github"></i>isovector
+    </div>
+
+    <div id="tag">"Measuring twice; cutting once. "</div>
+
 </div>
 
 <div id="content">
     <div id="skills" class="resumeSection first">
         <h2 style="height: 0;">Summary of Skills</h2>
 
-        <section>
+        <section class="first">
             <h3>Programming Experience</h3>
-            <ul>
-        <li>C++<span class="details">(decade)</a></li>
-        <li>Haskell<span class="details">(8 years)</a></li>
-        <li>C#, JavaScript, Lua, PHP, Python<span class="details">(5 years)</a></li>
-        <li>Agda<span class="details">(1 year)</a></li>
+            <ul class="horizontal-list">
+              <li>Haskell<span class="lang-details">(expert)</a></li>
+              <li>Agda, Scala<span class="lang-details">(fluent)</a></li>
+              <li>C++, C#, JavaScript, Lua, PHP, Python<span class="lang-details">(working proficiency)</a></li>
             </ul>
         </section>
 
     </div>
 
+
+    <div id="experience" class="resumeSection">
+        <h2>Work Experience</h2>
+
+        <section class="first">
+            <h3>Consultant (Programming Language Design)<span class="jobsep">&raquo;</span> Manifold Valley<span class="duration">April 2023 &rarr; ongoing</span></h3>
+            <ul>
+        <li>Led the implementation of industry best practices for development processes.</li>
+        <li>Eliminated several classes of runtime errors by enforcing type-safety in core abstractions.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Consultant (Infrastructure and Federation)<span class="jobsep">&raquo;</span> Wire<span class="duration">October 2021 &rarr; April 2023</span></h3>
+            <ul>
+        <li>Architected a Haskell compiler plugin to track and reify federated service calls at the type-level.</li>
+        <li>Designed a property-based testing framework for verifying the correctness of algebraic effects.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Textbook Author <span class="jobsep">&raquo;</span> Cofree Press<span class="duration">March 2018 &rarr; November 2023</span></h3>
+            <span class="details noText"><a href="https://leanpub.com/u/sandy-maguire">https://leanpub.com/u/sandy-maguire</a></span>
+
+            <ul>
+        <li>Wrote three textbooks on advanced programming techniques and high-quality software engineering.</li>
+        <li><em>Algebra-Driven Design</em> is used as the basis of a course taught at OST Zurich.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Senior Software Engineer <span class="jobsep">&raquo;</span> Takt<span class="duration">September 2016 &rarr; January 2018</span></h3>
+            <ul>
+        <li>Led a team of four to design a core subcomponent; subsequently increased new feature cadence by 30x.</li>
+        <li>Directed a team of three to implement a high-throughput, low-latency brokered streaming library.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Software Engineer III (Identity and Access Management) <span class="jobsep">&raquo;</span> Google<span class="duration">September 2015 &rarr; September 2016</span></h3>
+            <ul>
+        <li>Led the architectural design of a user-defined permission model for the cloud.</li>
+        <li>Took ownership of a service-critical compiler; improved compile times by 96% and test coverage by 65%.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Software Engineer Intern (Ads Ranking) <span class="jobsep">&raquo;</span> Facebook<span class="duration">January &rarr; April 2014</span></h3>
+            <ul>
+        <li>Analyzed and improved the advertising platform's spending behaviors; increased revenue by 0.5%.</li>
+        <li>Parallelized the backend graph ranker; improved site-wide response time by 0.4%.</li>
+            </ul>
+        </section>
+    </div>
+
     <div id="experience" class="resumeSection">
         <h2>Notable Open Source Work</h2>
 
-        <section>
+        <section class="first">
             <h3>Author <span class="jobsep">&raquo;</span> Cornelis<span class="duration">January 2022 &rarr; ongoing</span></h3>
             <span class="details noText"><a href="https://github.com/isovector/cornelis">https://github.com/isovector/cornelis</a></span>
             <ul>
-        <li>Built a tight integration engine between Neovim and Agda, allowing interactive proof assistance.</li>
+        <li>Built a tight integration engine between Neovim and the Agda compiler, allowing interactive proof assistance.</li>
             </ul>
         </section>
 
         <section>
-            <h3>Author <span class="jobsep">&raquo;</span> Wingman for Haskell<span class="duration">September 2020 &rarr; ongoing</span></h3>
-            <span class="details noText"><a href="https://github.com/haskell/haskell-language-server">https://github.com/haskell/haskell-language-server</a></span>
+            <h3>Contributor <span class="jobsep">&raquo;</span> ImplicitCAD<span class="duration">November 2020 &rarr; January 2021</span></h3>
+            <span class="details noText"><a href="https://github.com/Haskell-Things/ImplicitCAD">https://github.com/Haskell-Things/ImplicitCAD</a></span>
             <ul>
-        <li>Developed an interactive tactic metaprogramming engine for Haskell, saving half an hour per day per developer of tedious programming tasks.</li>
-        <li>Interfaced with the GHC API to provide robust, type-aware code synthesis.</li>
+        <li>Improved performance of single-core mesh rendering by ~2x.</li>
+        <li>Reduced code duplication by 50% by reorganizing types to be shared between 2D and 3D.</li>
             </ul>
         </section>
 
+        <section>
+            <h3>Lead Developer <span class="jobsep">&raquo;</span> Wingman for Haskell<span class="duration">September 2020 &rarr; July 2023</span></h3>
+            <span class="details noText"><a href="https://github.com/haskell/haskell-language-server">https://github.com/haskell/haskell-language-server</a></span>
+            <ul>
+        <li>Developed an interactive tactic engine for Haskell, capable of robust, type-aware code synthesis.</li>
+            </ul>
+        </section>
+
+        <!--
         <section>
             <h3>Author / Maintainer <span class="jobsep">&raquo;</span> Polysemy<span class="duration">February 2019 &rarr; February 2020</span></h3>
             <span class="details noText"><a href="https://github.com/polysemy-research/polysemy">https://github.com/polysemy-research/polysemy</a></span>
@@ -221,47 +335,14 @@ li a {
         <li>Extended Haskell's typechecker to support ad-hoc functional dependencies when working with Polysemy, dramatically improving the developer experience.</li>
             </ul>
         </section>
+        -->
     </div>
 
-    <div id="experience" class="resumeSection" style="page-break-after: always;">
-        <h2>Work Experience</h2>
-
-        <section>
-            <h3>Consultant <span class="jobsep">&raquo;</span> Wire<span class="duration">October 2021 &rarr; ongoing</span></h3>
-            <ul>
-        <li>Ported a 250k LOC codebase across an invasive library change.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Senior Software Engineer <span class="jobsep">&raquo;</span> Takt<span class="duration">September 2016 &rarr; January 2018</span></h3>
-            <ul>
-        <li>Led a team of four to reimplement a core subcomponent of the product &ndash; increased the cadence of new feature development from months to days.</li>
-        <li>Directed a team of three to implement a high-throughput, low-latency brokered streaming library. Resulting library is slated to become the company's core interservice communication protocol.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Engineer (Identity and Access Management) <span class="jobsep">&raquo;</span> Google<span class="duration">September 2015 &rarr; September 2016</span></h3>
-            <ul>
-        <li>Led the architectural design effort of a user-defined permission model for the cloud &ndash; the team's only project for the next quarter.</li>
-        <li>Took ownership over an unmaintained, service-critical internal compiler; improved compile times by 96% and test coverage by 65%.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Engineering Intern (Ads Ranking) <span class="jobsep">&raquo;</span> Facebook<span class="duration">January &rarr; April 2014</span></h3>
-            <ul>
-        <li>Analyzed the advertising platform's spending behaviors and subsequently implemented algorithmic changes resulting in a 0.5% revenue increase.</li>
-        <li>Parallelized the backend graph ranker, resulting in site-wide response time gains of 0.4%.</li>
-            </ul>
-        </section>
-    </div>
-
+    <!--
     <div id="projects" class="resumeSection">
         <h2>Publications</h2>
 
-        <section>
+        <section class="first">
             <h3>Algebra-Driven Design<span class="duration">September 2020</span></h3>
             <span class="details noText"><a href="https://algebradriven.design">algebradriven.design</a></span>
             <ul>
@@ -285,13 +366,21 @@ li a {
             </ul>
         </section>
     </div>
+    -->
 
     <div id="education" class="resumeSection">
         <h2>Formal Education</h2>
 
+        <section class="first">
+            <h3>Master of Computer Science<span class="duration">2023 &rarr; 2024 &nbsp; (voluntarily withdrawn)</span></h3>
+            <span class="details">Software Practices Lab, University of British Columbia, Vancouver, BC</span>
+        </section>
+
         <section>
-            <h3>Honors Software Engineering<span class="duration">2010 &rarr; 2015</span></h3>
-            <span class="details">Bachelor of Software Engineering, University of Waterloo, ON</span>
+            <h3>Bachelor of Software Engineering<span class="duration">2010 &rarr; 2015</span></h3>
+            <span class="details">University of Waterloo, Waterloo, ON</span>
+
+<!--
             <h4>Relevant Courses</h4>
             <ul class="last">
                 <li>Adaptive Search &ndash; stochastic means of approximating global maxima for chaotic functions</li>
@@ -299,6 +388,8 @@ li a {
                 <li>Networking &ndash; socket programming; robust protocol design; routing principles</li>
                 <li>Numerical Computation &ndash; computational error correction; solving differential equations</li>
             </ul>
+
+-->
         </section>
 
     </div>
@@ -306,7 +397,7 @@ li a {
     <div id="misc" class="resumeSection">
         <h2>Miscellany</h2>
 
-        <section>
+        <section class="first">
             <h3>Interests</h3>
             <span class="details">model checking, proof assistants, music, functional programming, compilers, robotics, electronics, math pedagogy</span>
         </section>
