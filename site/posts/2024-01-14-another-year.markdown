@@ -469,6 +469,6 @@ guy you met at a New Years Eve party with your livelihood. You can pay someone
 to do a job (and how!), but you can't pay them to give a shit. Funny, I ended up
 saying that last year too...
 
-
-
+Sorry. I've had this story pent up for a full year, and apparently just couldn't
+stop myself once the ball got rolling.
 
