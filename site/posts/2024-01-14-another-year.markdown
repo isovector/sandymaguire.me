@@ -470,5 +470,6 @@ to do a job (and how!), but you can't pay them to give a shit. Funny, I ended up
 saying that last year too...
 
 Sorry. I've had this story pent up for a full year, and apparently just couldn't
-stop myself once the ball got rolling.
+stop myself once the ball got rolling. A lot of really excellent things did
+happen this year, even though I've now spent nearly 5000 words complaining.
 
