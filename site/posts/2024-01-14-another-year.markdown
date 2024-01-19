@@ -473,3 +473,14 @@ Sorry. I've had this story pent up for a full year, and apparently just couldn't
 stop myself once the ball got rolling. A lot of really excellent things did
 happen this year, even though I've now spent nearly 5000 words complaining.
 
+Anyway, the year began by spending a week and a half with Andrew, working our
+way through Ludum Dare 52---a semiregular weekend game jam. We hung out and
+spent 36 hours making [Where's My Chicken,
+Man?](https://github.com/isovector/ld52) which happened to be a surprise
+platformer hit. Andrew and I put on the [Kraak and
+Smaak](https://open.spotify.com/track/0d1ZKNMQgiEntJFkgbY526?si=571dd2c3aa114dac)
+and hacked away deep through the nights. I did the programming and Andrew did
+the character and level design. All in all, it was a total blast, and a few
+people spent a few months speedrunning it. What the hell kind of world do we
+live in?
+
