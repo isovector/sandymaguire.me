@@ -484,3 +484,10 @@ the character and level design. All in all, it was a total blast, and a few
 people spent a few months speedrunning it. What the hell kind of world do we
 live in?
 
+In March, Erin and I threw our official unmarried spouses party---our official
+three year being together event, which indicated us being (unmarried) spouses in
+the eyes of the law. We invited over 60 people had threw a rager of an event,
+even though it was mostly lawyers and engineers who stayed mostly segregated
+throughout the night. But a raucous time was had by all, and our place felt
+sufficiently warmed after a whole year of putting off any parties.
+
