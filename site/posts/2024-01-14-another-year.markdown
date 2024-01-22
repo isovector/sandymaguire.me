@@ -484,10 +484,70 @@ the character and level design. All in all, it was a total blast, and a few
 people spent a few months speedrunning it. What the hell kind of world do we
 live in?
 
+February came, and with it, Erin and I, as well as two of our good friends all
+headed down to Seattle on a roadtrip. We were stopped at the border due to Lazar
+being Serbian, which meant he got to see the back of the interrogation room
+while the rest of us got mildly detained just for knowing a Serb. Ostensibly the
+trip was for the women to go wedding dress shopping, but we also went to Magic
+Dick's Harmonica Blow Out, which was a surprise sleeper hit---especially in the
+80+ female demographic. Old ladies be *lovin'* that Magic Dick.
+
+At the end of 2022 I had applied to go to grad school, and got accepted
+everywhere around February. Which meant I had to go about *picking one.* There
+were a lot of skype calls and a few in person coffees, and a lot of going out
+for beers with students at prospective labs. Eventually I ended up choosing UBC
+because I wasn't entirely sold on the whole grad school idea, and I didn't want
+to accidentally tank someone's career if I ended up being a bad candidate.
+Prescient. Also the UBC lab seemed super cool, and a big chunk of what I was
+looking for was a community.
+
 In March, Erin and I threw our official unmarried spouses party---our official
 three year being together event, which indicated us being (unmarried) spouses in
 the eyes of the law. We invited over 60 people had threw a rager of an event,
 even though it was mostly lawyers and engineers who stayed mostly segregated
 throughout the night. But a raucous time was had by all, and our place felt
 sufficiently warmed after a whole year of putting off any parties.
+
+Immediately afterwards, I set jets for Berlin, where my boss had (gently)
+bullied me into giving a talk at a conference. The conference itself was fine,
+but I got to meet all of my German coworkers for the first time in person, which
+was a stellar vibe. I managed to get covid sometime between leaving my house and
+arriving at my first flight, which made for an *awful* trip across the Pacific.
+Thankfully my German roommate in Berlin, Leif, was a great sport, and took me
+out to all sorts of cool music venues. He happened to know all of the musicians
+playing at all of them, despite having not lived in Berlin for a decade. Great
+trip all around, punctuated by a few cheeky 5am kebabs.
+
+Erin and I had a weird idea at some point that we wanted to be more like Ben
+Franklin, and so we setup a system of *necessary virtues.* We took his list, and
+decided to each pick a virtue, and spend a week at a time focusing on it. Of
+course, we permuted the cycle of the list with two coprime numbers first, so
+that we could get through all 169 combinations without any repeats. We did this
+crazy thing for like three months before getting tired of it. While industry is
+certainly a nice thing to strive for, why is chastity a necessary virtue anyway?
+
+It was the spring time, and Erin wanted to get into biking. Except that her bike
+was in DESPERATE NEED of a tune up. Thankfully her brother is a bit of a bike
+wiz, so she asked him to do the usual 100k maintenance check-up. We expected to
+get the bike back within a few days, but two months later we still hadn't heard
+anything. So, being a good husband, I suggested maybe she just buy another bike,
+assuming it was unlikely she'd ever see the original again. She did (from an
+estate sale), and being an especially good husband, I spent ten hours learning
+how to do bike maintenance in our kitchen. I made many scuffs in the floor doing
+so (sorry George!) Taking the thing out for the spin, I realized it was only a
+*little* bit of a **DEATH BIKE**. The breaks were no good. The chains kept
+derailing. The switcher wasn't indexed. It was a scary thing to take down the
+mountain that we happen to live on.
+
+Anyway, the DAY AFTER, her brother got back in touch saying the bike was ready
+for her, apologizing for the delay. I want to say we all learned something about
+clear communication that day, but I'm not sure that was the real takeaway.
+
+May came, and a mysterious man got in touch with me, saying he had a cool job
+I'd be a good fit for, but for legal reasons he couldn't tell me more. We played
+the NDA dance for a few weeks, and once all the lawyers were satisfied (my
+lawyer happened to be a bluff) the job did in fact seem to be cool and a good
+fit. So I started contracting for another company, which was nice because things
+with Wire were winding down and I felt like it was a good time for a change.
+
 
