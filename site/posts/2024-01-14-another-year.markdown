@@ -550,4 +550,73 @@ lawyer happened to be a bluff) the job did in fact seem to be cool and a good
 fit. So I started contracting for another company, which was nice because things
 with Wire were winding down and I felt like it was a good time for a change.
 
+This whole time, Erin and I were prepping for our wedding. We had finally set a
+date for September, and it was time to get down to business. Of utmost priority
+was to find a photographer. Erin and I lined up a few interviews, but we ended
+up being late---and aggressively hungover---for our first one. Borja thought
+this was a great sign in potential clients, presumably because it meant we were
+not overly anal about our wedding, and we liked each others vibe. We left the
+meeting feeling good thinking that this was going to be the guy. But we forgot
+to talk $$$.
+
+And then we flew to Serbia.
+
+Some backstory---Halloween previous, we were at a party with some new friends
+that we'd hung out with three or four times. During the party, they looked at
+one another, nodded, and then asked "do you want to come to our wedding? It's in
+Serbia." Never ones to turn down an excuse to go somewhere weird, Erin and I
+jumped on the idea. It's certainly one strategy for solidifying a friendship!
+
+So anyway. Serbia. We landed in Beograd the day before Hali and Lazar's wedding.
+Bad idea. After an INTERMINABLE BUS RIDE from the airport, we stumbled into our
+rental place and unpacked. We went out for a quick cevape and a beer, before
+meeting up with the wedding out-of-towners for a cheeky spot of Nikola Tesla
+lecture. We went to bed that night, and managed to sleep for sixteen hours. That
+jetlag is nothing to sneeze at!
+
+We awakened sometime in the afternoon of the wedding. OH SHIT. Did we miss it??
+Thankfully no, but it was in 45 minutes, on top of a hike-it-yourself mountain.
+And we still had bedhead, to say nothing of being sufficiently well-groomed for
+a wedding. We THREW things together, and RAN up the mountain. We got lost, but
+figured following the men in tuxes was probably a good idea. It was, and wasn't.
+They were indeed there for the wedding, but were just as lost as we were.
+
+Thankfully, we arrived before the bride and groom. In fact, it seemed like
+*only* the out-of-towners made it before the bride and groom. Were we in the
+wrong place? Unclear! But NO! There they were! The wedding was in the orthodox
+style, which none of us really understood what it meant. What happened is all
+the out-of-towners gathered solemnly around the edge of the church (standing
+room only) while the head priest guy sing-shouted for 45 minutes in Latin
+(probably, but it might have been Serbian I guess?) The Serbs knew better than
+we did, and they just kinda showed up sometime before the ceremony was over,
+and chatted amongst themselves paying absolutely no attention whatsoever to the
+couple.
+
+After the ceremony, Ebi took charge of the group, and proceeded to hike us
+*aggressively* the wrong way down the mountain. Not only did we get lost, but we
+did so with gusto, somehow on the exact wrong side of the mountain, and
+eventually ending on the damn highway. We reconvened for a quick beer and small
+bag of peanuts before being picked up by the minibus. Did I mention the minibus?
+No? We needed it because the wedding reception was to take place in a gorgeous
+greenhouse/atrium in the middle of the damn forest on the top of a damn Serbian
+mountain.
+
+Gorgeous place, but we got there like two hours before anyone else. There was
+booze available, but no food. And we hadn't eaten anything (minus a small bag of
+peanuts) all day due to the whole late wakeup situation. Erin and I were
+understandably cautious around the aggressively-freely-flowing alcohol. But we
+took the opportunity to solidify our (very) new friendship with Matt and Zoey.
+By inviting them to *our* wedding. They gracefully declined for some reason or
+another, AND WE HAVEN'T SPOKEN SINCE. LET THAT BE A LESSON TO YOU!
+
+I'm not sure what lesson, but I'm sure there's one there anyway.
+
+Anyway. Once the reception got going, it was a total hoot, complete with all
+several hundred people lining up to get a selfie with the bride and groom, a
+tight brass band that kept playing as long as people kept stuffing money in
+their horns, an uncomfortably-solemn singalong about taking back Kosovo, a
+runaway bride, way, way too many shots of rakija, and becoming fast (and
+drunken) friends with Mel, with whom we did eventually solidify our friendship.
+By inviting her to our wedding. To which she came.
+
 
