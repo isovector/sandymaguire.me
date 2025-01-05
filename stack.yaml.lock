@@ -18,6 +18,13 @@ packages:
       size: 5272
   original:
     hackage: MissingH-1.6.0.1
+- completed:
+    hackage: sitepipe-0.4.0.2@sha256:8ddcda190134541ae0de47634f8b2b4d9c61e4756f4e314983de220b10e5bd9f,1461
+    pantry-tree:
+      sha256: 2870475c71869f85adf775aacb939ccd027799978e6727efed78d633285d0343
+      size: 702
+  original:
+    hackage: sitepipe-0.4.0.2
 snapshots:
 - completed:
     sha256: cdead65fca0323144b346c94286186f4969bf85594d649c49c7557295675d8a5
