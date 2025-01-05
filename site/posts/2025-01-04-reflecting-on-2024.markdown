@@ -1,0 +1,390 @@
+---
+layout: post
+title: "Reflecting on 2024"
+date: 2025-01-04 23:10
+comments: true
+tags: yearly review
+confidence: 1
+---
+
+When I was young, all of the old people I knew would complain about how quickly
+the years went past. Now that I am less young than I was (but then again, who
+isn't?), I find myself remarking on just how dang quickly the years seem to be
+going past! Isn't there a speed limit or something? Where is the gruff,
+underappreciated traffic cop for the annals of time when you need him?
+
+In fact, he seems only to show up when his absence might be preferred! I got
+pulled over this year. While on my bicycle! I've come to fearlessly embrace the
+motto "take the lane," since doing anything else encourages motorists to hurl
+their heavy machinery past me with the slimmest of margins, while going waaaaay
+faster than the speed limit. Combine that with needing to be a precog and scan
+all of the parked cars' side mirrors in order to prevent oneself from being
+stopped rapidly by the lack of a shoulder check, and being in the middle of
+traffic seems like the safest option somehow.
+
+Anyway. A motorist with somewhere to be got fed up with my speed, and decided
+that swerving between me and a left-turner, while in the middle of the
+intersection was his best option. The gruff traffic cop noticed this overt
+breach of driving decorum and rather than chasing the blackened culprit, chose
+to instead pull me over!
+
+An interesting story? Not really. But that's kind of what all of 2024 felt like.
+Being hassled by people in positions of authority. Thankfully, not nearly to the
+same degree as [last year.][2023]
+
+[2023]: https://sandymaguire.me/blog/another-year/
+
+Speaking of last year, between the taxman drama and being completely BTFO
+from [writing my third book][book], I didn't have much energy to put into my end
+of year synopsis. Which is regrettable, since the most important parts of 2023
+didn't get written down. Thus, gentle reader, we shall take some time out of our
+busy schedule for the new year and write down some memories of the old year.
+
+[book]: https://leanpub.com/certainty-by-construction
+
+MOST IMPORTANTLY, on September 9, 2023, my now-wife Erin (then fiancee,
+obviously) and I became wedded in holy matrimony. It was a blast--- I brought
+the bachelor party out for a cheeky day-of parkour session, just *daring* the
+lord to put me on crutches. Then I ran around doing a bunch of errands that
+I probably should have delegated, and was too busy to eat until my cousin Tyler
+sat me down for pizza and beer and told me that I am now firmly in middle age.
+Tyler had graciously accepted to be our last-minute wedding DJ, and he knew how
+to turn the PARTY UP.
+
+Where was I? Oh yeah. Getting married. Between finishing pizza and taking
+wedding photos, I needed to get dressed for the main event. My bride-to-be had
+reserved our shared apartment (living in sin! gasp!) for all of the things that
+brides-to-be need to do on the day of their wedding, so my wedding suit (which
+was originally an unused best-man suit, *thanks Rory*) ended up at Andrew's
+house. It was a very quick how-do-you-do, in and out, with my pants already off
+as I came through the front door. Where was my best man throughout all of this?
+Good question. Where *was* my best man???? Not sure but I didn't have time to
+find out. I had wedding photos to take, and a lot of traffic to get through in
+order to take them.
+
+I arrived at the quote scene of the crime unquote all by myself, already sweaty
+and tense. Not from cold feet or anything, just from a busy day and
+a deep-seated appreciation for punctuality. We took a bunch of photos of me
+pretending to adjust my cuffs (none of which subsequently ended up on the wall),
+before my wife arrived with her bridal entourage. I was told to avert my eyes so
+that we could capture the "first look" on film. And what a first look it was.
+I knew I was a lucky man to be marrying Erin, but it hadn't hit me *just how
+lucky* until I turned the corner at that downtown art gallery.
+
+The two of us were marched around for a bit, both by our photographer, and by
+some passersby who also considered themselves photographers. Some ruffians eyed
+the camera bag and considered doing a brazen theft-job, but some combination of
+the fire in my glare and the not-wanting-to-fuck-up-someone's-wedding in their
+hearts averted the crisis.
+
+As for the wedding itself, well, I don't need to write it down because I'll
+never forget. And even if I somehow did, there is lots of photographic evidence.
+All I'll say is that many unmarried friends have since expressed to me their
+hesitancy throwing a wedding, given that it could never compare to Erin and
+mine.
+
+So that was the really big thing in 2023 that never ended up in a blog post. But
+the other thing is that I got into, and did my first semester of grad school!
+I had wormed my way into UBC's programming language department, where I had the
+distinct pleasure of spending 90 minutes on the bus for 90 minutes of class, and
+an awful TA experience where one guy just kept not doing any marking (fuck
+James.) But it wasn't all bad. I got something like a 100% final grade for all
+of my classes, and met a lot of great people along the way.
+
+But I had set myself up for success, because I was taking a class on dependent
+types, but ignoring the lectures because I was writing a *textbook* on dependent
+types. The book was in crunch mode during the semester, and finally shipped the
+day before Halloween. Maybe you should go [buy a copy.][book]
+
+So those were the highlights of 2023. Which turns us to...
+
+TWENTY TWENTY FOUR.
+
+The main event.
+
+The big kahuna.
+
+Looks kinda weird when you write it out like that. "Twenty twenty"? Weird.
+Anyway.
+
+Erin and I rang in the new year with some friends at some nice wine bar. As it
+happens, I don't drink wine, so I was unexpectedly sober throughout the
+evening's festivities. Which was a little harder than I might have expected,
+given that we were at a weird, semi-participatory burlesque show where a woman
+slowly popped her suit-of-balloons. It wasn't exactly my cup of tea, but one of
+our co-revelers---a man particularly lucky at cards---had a big grin all night,
+which widened considerably when the last two balloons burst.
+
+My first order of business was to drop out of grad school. Between the bus
+rides, doing too well at classes, being unable to sign up for courses I actually
+wanted to take, and lack of support, I felt like my time was going to be better
+spent somewhere else. Anywhere else, really. It wasn't a rash decision---I'd
+scheduled meetings with my advisor, and with the grad heads, and all of those
+people, but nobody seemed to hear what I was saying. I suspect most of the
+people they need to advise are young twentysomethings without much in the way of
+life experience or [BATNAs][batna]. There was a lot of "well sometimes people
+get sad in the winter," and not enough of "you're right, I'll see what I can do
+to get you registered for this math course."
+
+[batna]: https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement
+
+I wasn't too hung up on it, though. The company I'd been contracting for
+realized how amazing an engineer I am, and decided to fly me down to LA in order
+to talk Business. After a really nice dinner and somewhat embarrassing morning
+meeting, we agreed on a mutually beneficial amendment to my contract. They got
+a cheaper rate, and I got more hours.
+
+Turns out my phone data doesn't work in LA, so I bummed a ride to the airport
+off of the CEO. Because I had somewhere to be. Vegas, baby, where I was meeting
+my wife for a cheeky weekend. I'd never been, but had reason to go, and she
+wanted to be there to witness my reactions to the place in real time. I arrived
+an hour before she did, and hung out in the airport until we were reunited. We
+had a weird night wandering around the strip, eating $25USD slices of pizza and
+getting drunk at the [most glamorous Taco
+Bell](https://maps.app.goo.gl/LjgtaYSCtfCqTgAF7) I've ever had the good fortune
+to encounter.
+
+Also *Omega Mart* is worth a visit if you're in Vegas. But the less you know
+about it, the better a time you'll have.
+
+Vegas isn't the sort of place I'd go to by my own volition. I was there for
+Reasons. In particular, I'd signed up for [Covert Methods of
+Entry][cmoe], which is essentially a five day intensive spy school. I learned
+how to get through "most doors, most of the time." Which includes metaphorical
+doors like "floors in a building you can access only by restricted elevator."
+With the exception of getting into a lock box containing the pieces for a public
+chess set, I haven't actually used any of these skills in anger yet. But it's
+the sort of thing that changes how you look at the world, and I can now tell you
+which electronic badge readers are vulnerable to which attacks, by sight alone.
+
+[cmoe]: https://shop.redteamalliance.com/products/covert-methods-of-entry-lockpicking-red-team-training-for-pentest-penetration-testing-boot-camp
+
+The other fascinating thing that happens at spy school is that you're surrounded
+by a bunch of spies. Me? I'm just some nerdy programmer dude who thought it
+would be fun to understand physical security as well as I understand digital
+security. Or at least, that's my excuse and I'm sticking with it. But the OTHER
+PEOPLE THERE? There was one guy who "worked for the state of Alabama." There was
+a guy who claimed to be a professional clown and writer for a sketch comedy show
+you've heard of---who got **real** interested during the section on weaponized
+RFID. There was one dude who claimed to have extensive knowledge of physical
+disguise, due to his work in the field training agents to operate in
+Jordan---"where both the regime and ISIS are trying to kill you, but with
+entirely different threat profiles." A man and a woman were there together,
+under clearly fake names, who were "database administrators." The man would ask
+questions in class, but deftly deflected personal questions aimed in his
+direction during breaks. The woman didn't say a single word except for her name,
+but she would whisper things to the man.
+
+I made sure not to leave my laptop in the room during breaks.
+
+Erin had headed back to Vancouver after the weekend, so I was doing this course
+on my own in Vegas. Vegas is a pretty terrible place to spend any amount of
+time, so I put a lot of my downtime into writing some introductory material on
+computer science with a twist. In January I had found myself affiliated with
+a group of cool people talking about building some sort of community project to
+design an entirely new curriculum for thinking about CS. So I was putting my
+energy towards that. One member of these young Turks had a *very different*
+idea about it was that we were working on, and things got unpleasant, fast. This
+is a person I have great respect for, but it wasn't the first time things had
+gotten unpleasant, and I decided the potential upsides from collaboration
+weren't worth the gaslighting.
+
+Thankfully, I didn't have much time to dwell on it, because I got the job I had
+gone to LA to discuss. The company had been building a custom programming
+language for several years, but didn't seem entirely sure about how to go about
+doing that. I was brought on to help turn the project around, which consisted of
+meticulously planning and carrying out several HUGE (multi-month) refactors.
+
+Alongside the herculean task of getting this programming language to turn over,
+I also found myself with a fresh-out-of-school junior, whom nobody else had the
+time to train or mentor. Although I'd flirted a few times with mentoring in the
+form of being an official buddy to undergrads, I hadn't ever been in a position
+of needing to help bring someone into the fold. Thankfully I've had several
+fantastic mentors over the years, so I channeled my inner Jeffs,
+[Adrians][adrian], Neales, [Mingfeis][mingfei], Miles, Judahs, and
+[Conals][conal], and seemed to have managed OK. My ward was a fast learner, and,
+perhaps unfairly crediting myself for his successes, I consider this experience
+to have been one of the highlights of the year.
+
+[adrian]: https://ponderousmad.com/
+[mingfei]: https://mingfei.io/
+[conal]: http://conal.net
+
+In April, I hopped on a bus, and then a ferry, and then another bus to go visit
+the indomitable [Chris Penner](https://chrispenner.ca/). Chris had unwisely
+agreed to do [ldjam](https://ldjam.com/) with me, without knowing the full fury
+to which I throw myself at game jams. We got started at 7pm, and I bought
+a bunch of energy drinks to get us cooking. Chris was unfamiliar with the
+subtleties of the MONSTER ENERGY CURVE and didn't get much sleep that night,
+despite his best efforts to. As a result, our game didn't make much progress,
+and we called it the following afternoon. Not as successful a gamejam as I'd
+have liked, but hanging out with Chris is always a delight.
+
+Erin and I are trying to buy a house, and in April we really got going. We
+brought on a realtor. I complained about the realty website, and ended up
+reverse engineering their site and making my own. Unfortunately I had just
+read (and listened to) some [idiotic advice][stupid] and slapped my version
+together an hour faster than I would have otherwise, but it worked
+*significantly* less well than if I had just followed my usual engineering
+practice.
+
+[stupid]: https://www.qword.net/2024/04/07/you-should-write-bad-tools
+
+But anyway. House hunting. Erin and I easily went through 500 places on the
+website, and ended up seeing around 30 in person. Among all of those, there was
+only one that we actually considered buying, and it came with a strict
+no-children covenant, which felt like more than we wanted to bite off. It is now
+January and we are *still* trying to buy a house. The annoying part is that it
+isn't a question of money or anything, there's just nothing worth buying. How
+can this be POSSIBLE in a city of two million?
+
+Late 2023, my then-new friend Michael had started pulling together a group of
+friends, and around this time it really started congealing. United under the
+*Tingling Dinglers* moniker, we started hanging out regularly, and occasionally
+winning bouts of trivia. Never twice in a row, on which we have predicated
+retiring the name, but probably around six times throughout the year. It's the
+first time in a decade that I feel like I've got a really robust group of
+friends in meatspace. We all did a free, online IQ test and have ranked
+ourselves in the social hierarchy by our self-reported IQs. Rather amazingly,
+every one of us has a once-in-a-millennium level IQ, with the condensed-matter
+physicist of the group being the dummy and weighing in at a laughable 157.
+
+I don't know how it happened, but sometime around here, my friend Daniel and
+I started being GYM BUDDIES. He goes a few times a week, but only weekly with
+me. Me? Only weekly. But there's something amazingly motivating about having
+someone reliably message you on Sunday morning asking "when we getting swole
+today?" The gym is above the swimming pool and I keep threatening that I'll go
+swimming after a workout one day. It hasn't happened yet, but maybe next week!
+
+In May, my amazing and gorgeous wife was called to the bar again. It had
+happened last year in a relatively informal situation, but this time it was for
+REAL. We got dressed up and went to the courthouse and heard how the law is
+a noble profession, and all of my family and all of her family came to
+celebrate. We threw an afterparty at our place, got into the Good tequila, and
+then kicked everyone out to go to a succulent greek family dinner. The lambchops
+were some of the best my aunt had ever had. There was some drama at four in the
+morning, but we sorted it all out.
+
+For months, Erin had been hinting about the most amazing date that she had
+planned. BUT IT WAS A SECRET. When the day finally came, we went to the Keg and
+Erin got a load of SURPRISE LAW to accomplish. Which she did! And then we went
+to see a production of *Guys and Dolls,* which I had never seen, but had played
+in. It was nice to be in the audience! Great date all around, but Erin paid the
+blood price for it, given that she got home and had to work until 3am to do all
+of the SURPRISE LAW.
+
+My birthday occurs in August, and we threw a big ol' surprise party. Notice how
+I said "we." The surprise wasn't for me, it was for all of our guests! I have
+a weird thing about telling people it's my birthday, since it feels like it
+guilts people into coming. What's better is to invite people to a party, and
+then you can see who your REAL FRIENDS are, because they're the ones who show up
+even without the extra birthday prod. Lots of fantastic people showed up, and
+Luke even crashed the party with some randos! Everyone felt bad that they hadn't
+got me anything, but as they say, their presence was presents enough. Also Erin
+mashed a billion copies of my face into a fantastic icecream cake.
+
+ONE YEAR AFTER OUR WEDDING, which, recall, is where this whole blog post journey
+began, Erin and I went to San Francisco for our anniversary! We saw some old
+friends, went on a tiki bar crawl, went on an escape room crawl, and had robots
+drive us around. The next day, Erin and I went to the SF Moma and saw the [most
+amazing exhibit of our
+lives](https://www.sfmoma.org/exhibition/ragnar-kjartansson-the-visitors/) which
+I would STRONGLY STRONGLY recommend you go to. There is no snark here; genuinely
+the best art either of us had ever experienced. That night we checked into our
+swanky hotel, ordered Ike's, and watched the fog roll over the city.
+
+Despite saying we would do zero travel in 2024, and despite having just gone to
+SF. And also to LA and to Vegas, Erin and I went to Turkey in early November. We
+stayed in an atrocious tourist ghetto in Istanbul, ate lokum every day, went
+hot-air ballooning (which is fantastic and I would recommend!), and went to look
+at lots and lots of ruins. One particularly cool set of ruins is at
+[Aphrodisias](https://en.wikipedia.org/wiki/Aphrodisias), where one emperor or
+another decided that merchants were all greedy bastards, and he decreed the
+price of everything. There are sixteen tablets in the agora, each full of
+prices. Erin and I spent like an hour in the beating sun reading them and
+comparing the relative prices of things. The most memorable was the ratio
+between the daily wage of a bathhouse slave (2 units), and the price of a lion
+(150,000 units.) Which works out to 205 years of minimum wage in order to buy
+a lion.
+
+Contrast that to our modern economy, where it's only about 80 days of
+minimum wage in order to buy a lion! Lots of people like to complain about
+capitalism, but that sure is something!
+
+Also, we rented a car and drove across Turkey. And it's a BIG country! Erin
+suggested we could take a quick detour through the mountains and save a few
+minutes. What transpired was two hours of **extreme white knuckle** driving as
+we went up and down badly paved, single-lane switchbacks, with big trucks
+somehow coming past us at full speed. Harrowing, but fun.
+
+Some cool stuff happened near the end of the year. My open source project
+[cornelis](https://github.com/agda/cornelis) got upstreamed into the main Agda
+organization. That feels nice on two counts; presumably they like it enough to
+make it "official," and it means I'm off the hook for ongoing maintenance. And
+at work, I found and subsequently implemented [some very cool
+research](https://arxiv.org/abs/2111.03701). I was given a week to make it
+happen, and managed to pull it off. The result was a HUGE win for the company,
+a nice christmas present for my boss, and a great ego trip for me. But boy was
+I working hard that week. So much so that I was having dreams about it for the
+next two weeks of my christmas vacation.
+
+During which, Erin and I got extremely sick. We went down to Victoria for a big
+family brouhaha, and managed to not have very much fun due to staying in bed
+most of the time. But the family time was much appreciated, and everyone was
+very understanding.
+
+Which leads us to now. Me, sitting at my desk, writing this very sentence. Still
+sick, but mostly mended, healed, and saved.
+
+---
+
+With all that behind us, let's do a little bit of QS! My favorite (based on
+actually-listened to) new-to-me albums of the year were:
+
+1. Fela Kuti - Highlife
+2. KNOWER - KNOWER FOREVER
+3. Everyone is Dirty - Caramels for Grandpa
+4. Cat Empire - Where the Angels Fall
+5. Kendrick Lamar - GNX
+
+What about books? It was a hard year for books! My goal was to read 30 books,
+and I "made it through" (for some definition) 21. But a lot of those were false
+starts, where I got through like 20% of a VERY LONG BOOK before deciding
+I didn't care to finish it. My highlights and recommendations of the year, in no
+particular order:
+
+1. Peter Westergaard - An Introduction to Tonal Theory
+2. Christopher Alexander - A Pattern Language
+3. W. J. King - The Unwritten Laws of Engineering
+4. Daniel Boorstin - The Discoverers
+5. Charles Brandt - I Heard You Paint Houses
+
+Despite not reading as many books as I would have liked, I read a lot of really
+cool papers in 2024. A lot of them were around the pi calculus and other ways of
+thinking about programming. Of particularly cool note is *choreographic
+programming* which strikes me as where industry will be in 30 years.
+
+1. [Functional Choreographic Programming](https://arxiv.org/abs/2111.03701)
+2. [New common ancestor problems in trees and directed acyclic graphs](https://www.sciencedirect.com/science/article/abs/pii/S0020019010000487)
+3. [Functions as Processes](https://doi.org/10.1017/S0960129500001407)
+4. [Can Programming Be Liberated from the von Neumann Style?] (https://dl.acm.org/doi/10.1145/359576.359579)
+
+I did almost no open source this year. I didn't realize HOW LITTLE until just
+now when I went to check out what I did on Github in 2024. It's embarrassing!
+But I suppose I have a few years' worth of goodwill on that front still. At
+work, I landed 299 pull requests, which is a very respectable
+more-than-one-a-day. And most of those are *features* and *big refactors*, baby!
+You can call me a lot of things, but unproductive isn't one of them. A long long
+time ago I told my wife that I don't have emotions, only productivity. She still
+teases me about that, but maybe I was on to something.
+
+---
+
+All in all, it was a pretty good year! Much better than the last few. I'd do it
+again.
+
+---
+
+Oh yeah, and I took some selfies too.
+
+<iframe width="494" height="879" src="https://www.youtube.com/embed/O6OslnYfMxg" title="Sandy Takes a Selfie Every Day for 3 Years" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
