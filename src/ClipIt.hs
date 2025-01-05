@@ -12,7 +12,7 @@ import Control.Applicative ((<|>))
 import Control.Arrow ((***))
 import Control.Monad (liftM2, join, void)
 import Data.Aeson
-import Data.DateTime
+import Data.Time hiding (parseTime)
 import Data.List (nub)
 import Data.Time.Clock
 import Data.Time.LocalTime (localTimeToUTC, utc)
@@ -26,7 +26,7 @@ data Clipping =
     { bookName :: String
     , subtitle :: Maybe String
     , author   :: String
-    , added    :: DateTime
+    , added    :: UTCTime
     , contents :: String
     } deriving (Show, Eq, Generic, ToJSON, FromJSON)
 

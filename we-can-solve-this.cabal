@@ -20,7 +20,7 @@ executable wcst
       Meta
       SitePipeUtils
   build-depends:    base
-                  , datetime
+                  , time
                   , parsec
                   , strptime
                   , time

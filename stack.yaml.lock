@@ -12,19 +12,12 @@ packages:
   original:
     hackage: strptime-1.0.10
 - completed:
-    hackage: MissingH-1.4.3.0@sha256:7136282773f7b3e7ce3af856b41dde98a04f9b03c51813c98d040fc060dcaa53,4650
+    hackage: MissingH-1.6.0.1@sha256:4e2cb9fd4eff3616ada0ac8aea2b1af49ae7cfac09f0426753c6a1fcb51e9d01,4697
     pantry-tree:
-      sha256: b8e1b8f04bde976538303752932ad6a9ada1eacaa1c28fdb514022fc62be80d6
-      size: 5271
+      sha256: 84ab88c326a6b678c277cb184e0bacc37145a1363e5eb20b746c8d66c80d1a3d
+      size: 5272
   original:
-    hackage: MissingH-1.4.3.0@sha256:7136282773f7b3e7ce3af856b41dde98a04f9b03c51813c98d040fc060dcaa53,4650
-- completed:
-    hackage: datetime-0.3.1@sha256:7e275bd0ce7a2f66445bedfa0006abaf4d41af4c2204c3f8004c17eab5480e74,1534
-    pantry-tree:
-      sha256: d41d182c143676464cb1774f0b7777e870ddeaf8b6cd5fee6ff0114997a1f504
-      size: 334
-  original:
-    hackage: datetime-0.3.1@sha256:7e275bd0ce7a2f66445bedfa0006abaf4d41af4c2204c3f8004c17eab5480e74,1534
+    hackage: MissingH-1.6.0.1
 snapshots:
 - completed:
     sha256: cdead65fca0323144b346c94286186f4969bf85594d649c49c7557295675d8a5
