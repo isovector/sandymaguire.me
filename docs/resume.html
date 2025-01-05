@@ -59,7 +59,7 @@ i {
 
 #name h1 {
     width: 100%;
-    font-size: 32.5pt;
+    font-size: 40pt;
     line-height: 1em;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -75,7 +75,7 @@ i {
   margin-bottom: 0.6em;
   padding-right: 0.1em;
   text-align: center;
-
+  font-size: larger;
 }
 
 #tag {
@@ -253,18 +253,21 @@ li a {
         <h2>Work Experience</h2>
 
         <section class="first">
-            <h3>Manifold Valley <span class="jobsep">&raquo;</span> Consultant<span class="duration">April 2023 &rarr; ongoing</span></h3>
+            <h3>Manifold Valley <span class="jobsep">&raquo;</span> Lead Compiler Engineer (Haskell)<span class="duration">April 2023 &rarr; ongoing</span></h3>
             <ul>
-        <li>Led the implementation of industry best practices for development processes.</li>
-        <li>Eliminated several classes of runtime errors by enforcing type-safety in core abstractions.</li>
+        <li>Prototyped and implemented a new compiler for a functional choreographic programming language.</li>
+        <li>Optimized the existing project's compile times (in GHC) from 10 minutes down to 30 seconds.</li>
+        <li>Replaced the existing language's custom type system with algebraic data types; increased developer productivity by over 200%.</li>
+        <li>Dramatically improved runtime performance by implementing normalization by evaluation.</li>
+        <li>Implemented (and insisted on) property- and golden-testing frameworks for verifying compiler output.</li>
             </ul>
         </section>
 
         <section>
-            <h3>Wire <span class="jobsep">&raquo;</span> Consultant<span class="duration">October 2021 &rarr; April 2023</span></h3>
+            <h3>Wire <span class="jobsep">&raquo;</span> Consultant (Haskell)<span class="duration">October 2021 &rarr; April 2023</span></h3>
             <ul>
-        <li>Architected a Haskell compiler plugin to track and reify federated service calls at the type-level.</li>
-        <li>Designed a property-based testing framework for verifying the correctness of algebraic effects.</li>
+        <li>Built a GHC plugin to track and reify federated service calls at the type-level.</li>
+        <li>Designed a property-testing framework for verifying the correctness of higher-order algebraic effects.</li>
             </ul>
         </section>
 
@@ -279,7 +282,7 @@ li a {
         </section>
 
         <section>
-            <h3>Formation/Takt <span class="jobsep">&raquo;</span> Senior Software Engineer<span class="duration">September 2016 &rarr; January 2018</span></h3>
+            <h3>Formation/Takt <span class="jobsep">&raquo;</span> Senior Software Engineer (Haskell)<span class="duration">September 2016 &rarr; January 2018</span></h3>
             <ul>
         <li>Increased new feature cadence by 30x after becoming lead of a four-person engineering team.</li>
         <li>Directed a team of three to implement a high-throughput, low-latency brokered streaming library.</li>
@@ -287,7 +290,7 @@ li a {
         </section>
 
         <section>
-            <h3>Google <span class="jobsep">&raquo;</span> Software Engineer III<span class="duration">September 2015 &rarr; September 2016</span></h3>
+            <h3>Google <span class="jobsep">&raquo;</span> Software Engineer III (C++)<span class="duration">September 2015 &rarr; September 2016</span></h3>
             <ul>
         <li>Led the architectural design of a user-defined permission model for the cloud.</li>
         <li>Improved compile times by 96% and test coverage by 65% for a service-critical internal compiler.</li>
@@ -295,7 +298,7 @@ li a {
         </section>
 
         <section>
-            <h3>Meta/Facebook <span class="jobsep">&raquo;</span> Software Engineer Intern<span class="duration">January &rarr; April 2014</span></h3>
+            <h3>Meta/Facebook <span class="jobsep">&raquo;</span> Software Engineer Intern (C++)<span class="duration">January &rarr; April 2014</span></h3>
             <ul>
         <li>Increased revenue by 0.5% after analyzing the advertising platform's spending behaviors.</li>
         <li>Improved site-wide response time by 0.4% by parallelizing the backend graph ranker.</li>
@@ -307,16 +310,16 @@ li a {
         <h2>Notable Open Source</h2>
 
         <section class="first">
-            <h3>Cornelis<span class="duration">2022 &rarr; ongoing</span></h3>
-            <span class="details noText"><a href="https://github.com/isovector/cornelis">https://github.com/isovector/cornelis</a></span>
+            <h3>Cornelis<span class="duration">2022 &rarr; 2024</span></h3>
+            <span class="details noText"><a href="https://github.com/isovector/cornelis">github.com/isovector/cornelis</a></span>
             <ul>
-        <li>Tightly integrated Neovim with the Agda compiler, allowing for interactive proof assistance.</li>
+        <li>Integrated Neovim tightly with the Agda compiler, allowing for interactive proof assistance.</li>
             </ul>
         </section>
 
         <section>
             <h3>ImplicitCAD<span class="duration">2020 &rarr; 2021</span></h3>
-            <span class="details noText"><a href="https://github.com/Haskell-Things/ImplicitCAD">https://github.com/Haskell-Things/ImplicitCAD</a></span>
+            <span class="details noText"><a href="https://github.com/Haskell-Things/ImplicitCAD">github.com/Haskell-Things/ImplicitCAD</a></span>
             <ul>
         <li>Improved performance of single-core mesh rendering by ~2x.</li>
         <li>Reduced code duplication by 50% by reorganizing types to be shared between 2D and 3D.</li>
@@ -325,33 +328,47 @@ li a {
 
         <section>
             <h3>Wingman for Haskell<span class="duration">2020 &rarr; 2023</span></h3>
-            <span class="details noText"><a href="https://github.com/haskell/haskell-language-server">https://github.com/haskell/haskell-language-server</a></span>
+            <span class="details noText"><a href="https://github.com/haskell/haskell-language-server">github.com/haskell/haskell-language-server</a></span>
             <ul>
         <li>Developed an interactive tactic engine for Haskell, capable of robust, type-aware code synthesis.</li>
+        <li>Provided in-editor support for automatic pattern splitting.</li>
             </ul>
         </section>
 
-        <!--
+        <section>
+            <h3>Algebra Checkers<span class="duration">2020</span></h3>
+            <span class="details noText"><a href="https://github.com/isovector/algebra-checkers">github.com/isovector/algebra-checkers</a></span>
+            <ul>
+        <li>Wrote a model checker for verifying the consistency of combinator libraries' algebras.</li>
+            </ul>
+        </section>
+
         <section>
             <h3>Polysemy<span class="duration">2019 &rarr; 2023</span></h3>
-            <span class="details noText"><a href="https://github.com/polysemy-research/polysemy">https://github.com/polysemy-research/polysemy</a></span>
+            <span class="details noText"><a href="https://github.com/polysemy-research/polysemy">github.com/polysemy-research/polysemy</a></span>
             <ul>
         <li>Discovered a convenient encoding of an effect system based on higher-order free monads via simultaneous co-Yoneda and codensity transformations.</li>
-        <li>Extended Haskell's typechecker to support ad-hoc functional dependencies when working with Polysemy, dramatically improving the developer experience.</li>
+        <li>Implemented a GHC plugin <!-- Extended Haskell's typechecker --> to support ad-hoc functional dependencies when working with Polysemy; dramatically improving the developer experience.</li>
             </ul>
         </section>
-        -->
     </div>
 
-    <!--
     <div id="projects" class="resumeSection">
         <h2>Publications</h2>
 
         <section class="first">
-            <h3>Algebra-Driven Design<span class="duration">September 2020</span></h3>
-            <span class="details noText"><a href="https://algebradriven.design">algebradriven.design</a></span>
+            <h3>Certainty by Construction<span class="duration">November 2023</span></h3>
+            <span class="details noText"><a href="https://leanpub.com/certainty-by-construction">leanpub.com/certainty-by-construction</a></span>
             <ul>
-                <li>How to discover leak-free abstractions, and to automatically derive implementations.</li>
+                <li>An exploration of topics from mathematics and computer science, entirely in literate Agda.</li>
+            </ul>
+        </section>
+
+        <section class="first">
+            <h3>Algebra-Driven Design<span class="duration">September 2020</span></h3>
+            <span class="details noText"><a href="https://leanpub.com/algebra-driven-design">leanpub.com/algebra-driven-design</a></span>
+            <ul>
+                <li>A series of worked examples on designing and efficiently implementing combinator libraries.</li>
             </ul>
         </section>
 
@@ -359,7 +376,7 @@ li a {
             <h3>Thinking with Types<span class="duration">October 2018</span></h3>
             <span class="details noText"><a href="https://thinkingwithtypes.com">thinkingwithtypes.com</a></span>
             <ul class="last">
-                <li>Take yourself from a competent programmer to one whose compiler does the work for you.</li>
+                <li>A how-to manual on using (and not misusing) Haskell's more advanced type-level features.</li>
             </ul>
         </section>
 
@@ -371,7 +388,6 @@ li a {
             </ul>
         </section>
     </div>
-    -->
 
     <div id="education" class="resumeSection">
         <h2>Formal Education</h2>
@@ -379,28 +395,31 @@ li a {
         <section class="first">
             <h3>Master of Computer Science<span class="duration">2023 &rarr; 2024 &nbsp; (voluntarily withdrawn)</span></h3>
             <span class="details">Software Practices Lab, University of British Columbia, Vancouver, BC</span>
+
+            <h4>Relevant Courses</h4>
+            <ul class="last">
+                <li>Dependent Types &ndash; implemented a small dependently typed language</li>
+                <li>Program Verification &ndash; implemented a SAT solver and program verifier for a C-like language</li>
+            </ul>
         </section>
 
         <section>
             <h3>Bachelor of Software Engineering<span class="duration">2010 &rarr; 2015</span></h3>
             <span class="details">University of Waterloo, Waterloo, ON</span>
 
-<!--
             <h4>Relevant Courses</h4>
             <ul class="last">
-                <li>Adaptive Search &ndash; stochastic means of approximating global maxima for chaotic functions</li>
+                <!-- <li>Adaptive Search &ndash; stochastic means of approximating global maxima for chaotic functions</li> -->
                 <li>Compilers &ndash; resulting Java compiler was most correct from class of 50 students</li>
-                <li>Networking &ndash; socket programming; robust protocol design; routing principles</li>
-                <li>Numerical Computation &ndash; computational error correction; solving differential equations</li>
+                <!-- <li>Networking &ndash; socket programming; robust protocol design; routing principles</li> -->
+                <!-- <li>Numerical Computation &ndash; computational error correction; solving differential equations</li> -->
             </ul>
 
--->
         </section>
 
     </div>
 
 
-    <!--
     <div id="misc" class="resumeSection">
         <h2>Miscellany</h2>
 
@@ -409,7 +428,6 @@ li a {
             <span class="details">model checking, proof assistants, music, functional programming, compilers, robotics, electronics, math pedagogy</span>
         </section>
     </div>
-    -->
 
 </div>
 </div>
