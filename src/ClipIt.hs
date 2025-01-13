@@ -40,8 +40,7 @@ typeof = do
 
 
 getClippings :: String -> [Clipping]
-getClippings = filter (("" /=) . author)
-             . either (error . show) id
+getClippings = either (error . show) id
              . parseClippings
 
 
