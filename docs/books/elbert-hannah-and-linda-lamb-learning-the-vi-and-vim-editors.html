@@ -40,7 +40,7 @@
       </ul>
 
       <p>Built with love by Sandy Maguire.</p>
-      <p>&copy; 2011-2023</p>
+      <p>&copy; 2011-2025</p>
     </div>
     <div id="main">
       <div class="content">
@@ -48,37 +48,53 @@
          <div class="meta">Elbert Hannah and Linda Lamb</div>
 
 <article>
-    <p>:= Print the total number of lines.</p>
+    <p>:= Print the total number of lines.
+</p>
     <hr class="chill" />
-    <p>:set edcompatible and after that, subsequent substitute commands will be global. Despite the name, no known version of Unix ed actually works this way.</p>
+    <p>:set edcompatible and after that, subsequent substitute commands will be global. Despite the name, no known version of Unix ed actually works this way.
+</p>
     <hr class="chill" />
-    <p>Suppose that you decide to move DESCRIPTION above the SYNTAX paragraph. With pattern matching, you can move blocks of text on all 150 pages with one command! :g /SYNTAX/.,/DESCRIPTION/-1 move /PARAMETERS/-1 This command works as follows. First, ex finds and marks each line that matches the first pattern (i.e., that contains the word SYNTAX). Second, for each marked line, it sets . (dot, the current line) to that line, and executes the command. Using the move command, the command moves the block of lines from the current line (dot) to the line before the one containing the word DESCRIPTION (/DESCRIPTION/-1) to just before the line containing PARAMETERS (/PARAMETERS/-1).</p>
+    <p>Suppose that you decide to move DESCRIPTION above the SYNTAX paragraph. With pattern matching, you can move blocks of text on all 150 pages with one command! :g /SYNTAX/.,/DESCRIPTION/-1 move /PARAMETERS/-1 This command works as follows. First, ex finds and marks each line that matches the first pattern (i.e., that contains the word SYNTAX). Second, for each marked line, it sets . (dot, the current line) to that line, and executes the command. Using the move command, the command moves the block of lines from the current line (dot) to the line before the one containing the word DESCRIPTION (/DESCRIPTION/-1) to just before the line containing PARAMETERS (/PARAMETERS/-1).
+</p>
     <hr class="chill" />
-    <p>This very powerful kind of change is implicit in ex’s line addressing syntax, but it is not readily apparent even to experienced users. For this reason, whenever you are faced with a complex, repetitive editing task, take the time to analyze the problem and find out if you can apply pattern-matching tools to get the job done.</p>
+    <p>This very powerful kind of change is implicit in ex’s line addressing syntax, but it is not readily apparent even to experienced users. For this reason, whenever you are faced with a complex, repetitive editing task, take the time to analyze the problem and find out if you can apply pattern-matching tools to get the job done.
+</p>
     <hr class="chill" />
-    <p>We don’t know whether it was an article of faith by Bram that processor and memory speeds would improve enough to catch up with Vim’s demands, but fortunately, modern processors and computers handle even the toughest Vim tasks well.</p>
+    <p>We don’t know whether it was an article of faith by Bram that processor and memory speeds would improve enough to catch up with Vim’s demands, but fortunately, modern processors and computers handle even the toughest Vim tasks well.
+</p>
     <hr class="chill" />
-    <p>As an example of :windo in action, suppose you are editing a suite of Java files and for some reason you have a class name that is improperly capitalized. You need to repair this by changing every occurrence of myPoorlyCapitalizedClass to MyPoorlyCapitalizedClass. With :windo you can do that with: :windo %s/myPoorlyCapitalizedClass/MyPoorlyCapitalizedClass/g</p>
+    <p>As an example of :windo in action, suppose you are editing a suite of Java files and for some reason you have a class name that is improperly capitalized. You need to repair this by changing every occurrence of myPoorlyCapitalizedClass to MyPoorlyCapitalizedClass. With :windo you can do that with: :windo %s/myPoorlyCapitalizedClass/MyPoorlyCapitalizedClass/g
+</p>
     <hr class="chill" />
-    <p>bufdo[!] cmd This is analogous to windo but operates on all of the buffers in your editing session, not just visible buffers in the current tab.</p>
+    <p>bufdo[!] cmd This is analogous to windo but operates on all of the buffers in your editing session, not just visible buffers in the current tab.
+</p>
     <hr class="chill" />
-    <p>One of the authors likes to divide the day into four partitions, each with its own dedicated color scheme: darkblue Midnight to 6 a.m. morning 6 a.m. to noon shine Noon to 6 p.m. evening 6 p.m. to midnight</p>
+    <p>One of the authors likes to divide the day into four partitions, each with its own dedicated color scheme: darkblue Midnight to 6 a.m. morning 6 a.m. to noon shine Noon to 6 p.m. evening 6 p.m. to midnight
+</p>
     <hr class="chill" />
-    <p>indentexpr Lets you define your own expression, which Vim evaluates in the context of each new line you begin. With this feature, you write your own rules. We refer you to the discussions of scripting and functions in this book and to the Vim documentation for details. If the other three options don’t give you enough flexibility for automatic indentation, indentexpr certainly will.</p>
+    <p>indentexpr Lets you define your own expression, which Vim evaluates in the context of each new line you begin. With this feature, you write your own rules. We refer you to the discussions of scripting and functions in this book and to the Vim documentation for details. If the other three options don’t give you enough flexibility for automatic indentation, indentexpr certainly will.
+</p>
     <hr class="chill" />
-    <p>CTRL-XCTRL-T searches forward through the files defined by the thesaurus option for keywords that match the keyword in front of the cursor.</p>
+    <p>CTRL-XCTRL-T searches forward through the files defined by the thesaurus option for keywords that match the keyword in front of the cursor.
+</p>
     <hr class="chill" />
-    <p>Completion by keyword in file CTRL-XCTRL-N searches forward through the current file for keywords matching the keyword in front of the cursor.</p>
+    <p>Completion by keyword in file CTRL-XCTRL-N searches forward through the current file for keywords matching the keyword in front of the cursor.
+</p>
     <hr class="chill" />
-    <p>CTRL-XCTRL-] searches forward through the current file and included files for keywords matching tags.</p>
+    <p>CTRL-XCTRL-] searches forward through the current file and included files for keywords matching tags.
+</p>
     <hr class="chill" />
-    <p>This is the most generic option, invoked through CTRL-N, and lets you combine all the other searches into one. For many users, this may be the most satisfactory because it requires little understanding of the nuances of the more specific methods. Define where and how this completion acts by setting the comma-separated list of available sources in the complete option. Each available source is denoted by a single character. The choices include:</p>
+    <p>This is the most generic option, invoked through CTRL-N, and lets you combine all the other searches into one. For many users, this may be the most satisfactory because it requires little understanding of the nuances of the more specific methods. Define where and how this completion acts by setting the comma-separated list of available sources in the complete option. Each available source is denoted by a single character. The choices include:
+</p>
     <hr class="chill" />
-    <p>errorformat An option defining a format that Vim matches to find errors returned from a compile. Vim’s built-in documentation gives much more detailed information on how this is defined, but the default almost always works. If you need to tune the option, view its details with: :help errorformat</p>
+    <p>errorformat An option defining a format that Vim matches to find errors returned from a compile. Vim’s built-in documentation gives much more detailed information on how this is defined, but the default almost always works. If you need to tune the option, view its details with: :help errorformat
+</p>
     <hr class="chill" />
-    <p>$vim scp://ehannah@mozart:122//home/ehannah/.vimrc</p>
+    <p>$vim scp://ehannah@mozart:122//home/ehannah/.vimrc
+</p>
     <hr class="chill" />
-    <p>Vim defines that point in the change history as a branch from which different paths of changes occur. With that path you can now move back and forth chronologically, with the added twist that at a branch point you can move forward along any of the different paths of recorded changes. For more complete descriptions of how to navigate changes as a tree, use Vim’s help command: :help usr_32.txt</p>
+    <p>Vim defines that point in the change history as a branch from which different paths of changes occur. With that path you can now move back and forth chronologically, with the added twist that at a branch point you can move forward along any of the different paths of recorded changes. For more complete descriptions of how to navigate changes as a tree, use Vim’s help command: :help usr_32.txt
+</p>
     <hr class="chill" />
 </article>
 

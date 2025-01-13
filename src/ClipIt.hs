@@ -8,6 +8,7 @@ module ClipIt
     , getBooks
     ) where
 
+import Data.Foldable
 import Control.Applicative ((<|>))
 import Control.Arrow ((***))
 import Control.Monad (liftM2, join, void)
@@ -20,6 +21,7 @@ import Data.Time.Parse (strptime)
 import GHC.Generics (Generic)
 import Text.ParserCombinators.Parsec hiding ((<|>))
 import Text.Regex
+-- import System.Directory
 
 data Clipping =
     Clipping
@@ -34,7 +36,7 @@ data Clipping =
 typeof :: GenParser Char st String
 typeof = do
   optional $ string "Your "
-  choice $ map string ["Highlight", "Note", "Bookmark"]
+  choice $ map string ["Highlight", "Note", "Bookmark", "highlight", "note", "bookmark"]
 
 
 getClippings :: String -> [Clipping]
@@ -76,7 +78,7 @@ clipping =
                     Just xs -> case xs !! 0 of
                         ""    -> (parseSubtitle $ xs !! 2, xs !! 3)
                         name  -> (parseSubtitle name, xs !! 1)
-                    Nothing -> (("", Nothing), "")
+                    Nothing -> ((meta, Nothing), "")
 
         eol
         void $ string "- "
@@ -86,13 +88,14 @@ clipping =
           void $ string "on"
           spaces
         optional onPage
-        _ <- loc
-        void $ string "|"
-        void $ string " Added on "
+        optional $ do
+          loc
+          void $ string "|"
+          spaces
+        void $ string "Added on "
         Just time <- timeParser <$> line
         void $ many eol
-        cContents <- line
-        eol
+        cContents <- fmap unlines $ flip manyTill (string "====") $ line <* eol
         void . many $ char '='
         eol
         return Clipping
@@ -169,3 +172,24 @@ _newStyle = unlines
   , "give stronger incentives for overall performance, compared with rewarding the best performers (Drouvelis and Jamison 2015; Kubanek et al. 2015)."
   , "=========="
   ]
+
+_koStyle :: String
+_koStyle = unlines
+  [ "\"I Heard You Paint Houses\": Frank \"The Irishman\" Sheeran & Closing the Case on Jimmy Hoffa"
+  , "- Your highlight on page 20 | Added on Sunday, December 29, 2024 10:19:33 PM"
+  , ""
+  , "It was rumored that someone in the Ministry of Higher Education had asked, rhetorically, if the faculty at Allameh thought they lived in Switzerland. Switzerland had somehow become a byword for Western laxity: any program or action that was deemed un-Islamic was reproached with a mocking reminder that Iran was by no means Switzerland"
+  , "Once it is organized, a union’s only negotiating weapon is a strike, and a strike cannot succeed if a sufficient number of people show up for work and do their jobs"
+  , "=========="
+  ]
+
+-- _debug :: IO ()
+-- _debug = do
+--   files <- fmap (filter $ (/= '.') . head) $ getDirectoryContents "site/clippings"
+--   for_ files $ \f -> do
+--     putStrLn f
+--     fc <- readFile $ "site/clippings/" <> f
+--     putStrLn $ case parseClippings fc of
+--       Left e -> "UH OH: " <> show e
+--       Right c -> show $ length c
+--     putStrLn ""
