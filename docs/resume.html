@@ -23,7 +23,7 @@ a {
 }
 
 #content {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 #page {
@@ -108,11 +108,12 @@ h2 {
 }
 
 section.first {
-  margin-top: 0.4em;
+  margin-top: 1.2em;
 }
 
 section {
     text-align: justify;
+    padding-bottom: 0.25em;
 }
 
 h3 {
@@ -240,9 +241,9 @@ li a {
         <section class="first">
             <h3>Programming Experience</h3>
             <ul class="horizontal-list">
-              <li>Haskell<span class="lang-details">(expert)</a></li>
-              <li>Agda, Scala<span class="lang-details">(fluent)</a></li>
-              <li>C++, C#, JavaScript, Lua, PHP, Python<span class="lang-details">(working proficiency)</a></li>
+              <li>Haskell, Agda<span class="lang-details">(expert)</a></li>
+              <li>C++<span class="lang-details">(fluent)</a></li>
+              <li>C#, JavaScript, Lua, PHP, Python, Scala<span class="lang-details">(working proficiency)</a></li>
             </ul>
         </section>
 
@@ -255,11 +256,12 @@ li a {
         <section class="first">
             <h3>Manifold Valley <span class="jobsep">&raquo;</span> Lead Compiler Engineer (Haskell)<span class="duration">April 2023 &rarr; ongoing</span></h3>
             <ul>
-        <li>Prototyped and implemented a new compiler for a functional choreographic programming language.</li>
-        <li>Optimized the existing project's compile times (in GHC) from 10 minutes down to 30 seconds.</li>
-        <li>Replaced the existing language's custom type system with algebraic data types; increased developer productivity by over 200%.</li>
-        <li>Dramatically improved runtime performance by implementing normalization by evaluation.</li>
-        <li>Implemented (and insisted on) property- and golden-testing frameworks for verifying compiler output.</li>
+        <li>Rearchitected a failed 4-year compiler effort by migrating to a lesser-known core calculus; replaced the entire language foundation, unblocking system-wide progress</li>
+        <li>Asymptotically improved compiler performance from unscalable to linear; reduced compile times from hours to seconds and GHC build times by 93%</li>
+        <li>Built the core ML training infrastructure---used as the foundation for all models trained at the company</li>
+        <li>Guided the Python team through implementing the new runtime, including a fully-trampolined CPS transformation to eliminate stack overflows</li>
+        <li>Introduced modern engineering practices: testing, code review, Git discipline; migrated 4 fragmented repos into a monorepo to support cohesive development</li>
+        <li>Rewrote or replaced ~240k lines of code (~18% of the codebase), modernizing the compiler and runtime stack</li>
             </ul>
         </section>
 
@@ -272,14 +274,14 @@ li a {
         </section>
 
         <section>
-            <h3>Cofree Press <span class="jobsep">&raquo;</span> Author of Software Textbooks<span class="duration">March 2018 &rarr; November 2023</span></h3>
-            <span class="details noText"><a href="https://leanpub.com/u/sandy-maguire">https://leanpub.com/u/sandy-maguire</a></span>
+            <h3>Self-Employed <span class="jobsep">&raquo;</span> Author of Software Textbooks<span class="duration">March 2018 &rarr; November 2023</span></h3>
+            <!-- <span class="details noText"><a href="https://leanpub.com/u/sandy-maguire">https://leanpub.com/u/sandy-maguire</a></span> -->
 
             <ul>
         <li>Wrote three books on advanced programming techniques and high-quality software engineering.</li>
-        <li><em>Algebra-Driven Design</em> is now the basis of a course taught at OST Zurich.</li>
             </ul>
         </section>
+
 
         <section>
             <h3>Formation/Takt <span class="jobsep">&raquo;</span> Senior Software Engineer (Haskell)<span class="duration">September 2016 &rarr; January 2018</span></h3>
@@ -336,14 +338,6 @@ li a {
         </section>
 
         <section>
-            <h3>Algebra Checkers<span class="duration">2020</span></h3>
-            <span class="details noText"><a href="https://github.com/isovector/algebra-checkers">github.com/isovector/algebra-checkers</a></span>
-            <ul>
-        <li>Wrote a model checker for verifying the consistency of combinator libraries' algebras.</li>
-            </ul>
-        </section>
-
-        <section>
             <h3>Polysemy<span class="duration">2019 &rarr; 2023</span></h3>
             <span class="details noText"><a href="https://github.com/polysemy-research/polysemy">github.com/polysemy-research/polysemy</a></span>
             <ul>
@@ -369,6 +363,7 @@ li a {
             <span class="details noText"><a href="https://leanpub.com/algebra-driven-design">leanpub.com/algebra-driven-design</a></span>
             <ul>
                 <li>A series of worked examples on designing and efficiently implementing combinator libraries.</li>
+                <li><em>Algebra-Driven Design</em> is now the basis of a course taught at OST Zurich.</li>
             </ul>
         </section>
 
@@ -379,41 +374,24 @@ li a {
                 <li>A how-to manual on using (and not misusing) Haskell's more advanced type-level features.</li>
             </ul>
         </section>
-
-        <section>
-            <h3>How These Things Work<span class="duration">November 2017</span></h3>
-            <span class="details noText"><a href="https://reasonablypolymorphic.com/book/preface.html">reasonablypolymorphic.com/book/preface.html</a></span>
-            <ul class="last">
-              <li>A technical and philosophical journey into how computers work, starting from first principles.</li>
-            </ul>
-        </section>
     </div>
 
     <div id="education" class="resumeSection">
         <h2>Formal Education</h2>
 
         <section class="first">
-            <h3>Master of Computer Science<span class="duration">2023 &rarr; 2024 &nbsp; (voluntarily withdrawn)</span></h3>
-            <span class="details">Software Practices Lab, University of British Columbia, Vancouver, BC</span>
-
-            <h4>Relevant Courses</h4>
-            <ul class="last">
-                <li>Dependent Types &ndash; implemented a small dependently typed language</li>
-                <li>Program Verification &ndash; implemented a SAT solver and program verifier for a C-like language</li>
-            </ul>
-        </section>
-
-        <section>
             <h3>Bachelor of Software Engineering<span class="duration">2010 &rarr; 2015</span></h3>
             <span class="details">University of Waterloo, Waterloo, ON</span>
 
+            <!--
             <h4>Relevant Courses</h4>
             <ul class="last">
-                <!-- <li>Adaptive Search &ndash; stochastic means of approximating global maxima for chaotic functions</li> -->
+                <li>Adaptive Search &ndash; stochastic means of approximating global maxima for chaotic functions</li>
                 <li>Compilers &ndash; resulting Java compiler was most correct from class of 50 students</li>
-                <!-- <li>Networking &ndash; socket programming; robust protocol design; routing principles</li> -->
-                <!-- <li>Numerical Computation &ndash; computational error correction; solving differential equations</li> -->
+                <li>Networking &ndash; socket programming; robust protocol design; routing principles</li>
+                <li>Numerical Computation &ndash; computational error correction; solving differential equations</li>
             </ul>
+            -->
 
         </section>
 
