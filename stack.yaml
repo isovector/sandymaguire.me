@@ -8,7 +8,7 @@ extra-deps:
 - MissingH-1.6.0.1
 - sitepipe-0.4.0.2
 
-resolver: lts-18.16
+snapshot: lts-24.35
 nix:
   packages:
     - pkg-config
